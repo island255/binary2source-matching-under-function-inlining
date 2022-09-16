@@ -1,0 +1,270 @@
+{
+  "spell/spell-1.1/spell.c": {
+    "main": {
+      "start_point": [
+        154,
+        0
+      ],
+      "end_point": [
+        278,
+        1
+      ],
+      "strings": [
+        "\"IVbdhilnosvx\"",
+        "\"option argument not given\"",
+        "\"option argument not given\"",
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"GNU Spell \"",
+        "\"\\n\"",
+        "\"Copyright (C) 1996,2010 Free Software Foundation, Inc.\\n\"",
+        "\"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\\n\"",
+        "\"This is free software: you are free to change and redistribute it.\\n\"",
+        "\"There is NO WARRANTY, to the extent permitted by law.\\n\"",
+        "\"Usage: %s [OPTION]... [FILE]...\\n\"",
+        "\"This is GNU Spell, a Unix spell emulator.\\n\\n\"",
+        "\"  -I, --ispell-version\\t\\tPrint Ispell's version.\\n\"",
+        "\"  -V, --version\\t\\t\\tPrint the version number.\\n\"",
+        "\"  -b, --british\\t\\t\\tUse the British dictionary.\\n\"",
+        "\"  -d, --dictionary=FILE\\t\\tUse FILE to look up words.\\n\"",
+        "\"  -h, --help\\t\\t\\tPrint a summary of the options.\\n\"",
+        "\"  -i, --ispell=PROGRAM\\t\\tCalls PROGRAM as Ispell.\\n\"",
+        "\"  -l, --all-chains\\t\\tIgnored; for compatibility.\\n\"",
+        "\"  -n, --number\\t\\t\\tPrint line numbers before lines.\\n\"",
+        "\"  -o, --print-file-name\\t\\tPrint file names before lines.\\n\"",
+        "\"  -s, --stop-list=FILE\\t\\tIgnored; for compatibility.\\n\"",
+        "\"  -v, --verbose\\t\\t\\tPrint words not literally found.\\n\"",
+        "\"  -x, --print-stems\\t\\tIgnored; for compatibility.\\n\\n\"",
+        "\"Please use Info to read more (type `info spell').\\n\"",
+        "\"Report bugs to: cate@gnu.org\\n\"",
+        "\"spell home page: <http://www.gnu.org/software/spell/>\\n\"",
+        "\"General help using GNU software: <http://www.gnu.org/gethelp/>\\n\"",
+        "\"ispell\"",
+        "\"error forking to run Ispell\""
+      ]
+    },
+    "read_file": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        349,
+        1
+      ],
+      "strings": [
+        "\"%s: error reading line\"",
+        "\"^\"",
+        "\"error writing to Ispell\"",
+        "\"error writing to Ispell\"",
+        "\"%s: close error\""
+      ]
+    },
+    "read_ispell": {
+      "start_point": [
+        359,
+        0
+      ],
+      "end_point": [
+        416,
+        1
+      ],
+      "strings": [
+        "\"error reading data from ispell/aspell\"",
+        "\"%s:\"",
+        "\"%d: \"",
+        "\"unrecognized Ispell line `%s'\""
+      ]
+    },
+    "read_ispell_errors": {
+      "start_point": [
+        425,
+        0
+      ],
+      "end_point": [
+        463,
+        1
+      ],
+      "strings": [
+        "\"premature EOF from Ispell's stderr\"",
+        "\"error reading errors of ispell/aspell\"",
+        "\"Can't open \"",
+        "\"Can't open \"",
+        "\"%s: cannot open\"",
+        "\"Can't open \"",
+        "\"%s: %s\\n\""
+      ]
+    },
+    "new_pipe": {
+      "start_point": [
+        468,
+        0
+      ],
+      "end_point": [
+        503,
+        1
+      ],
+      "strings": [
+        "\"error creating SIGPIPE handler\"",
+        "\"error creating SIGCHLD handler\"",
+        "\"error creating pipe to Ispell\"",
+        "\"r\"",
+        "\"error opening the pipe to Ispell\"",
+        "\"error creating pipe to Ispell\"",
+        "\"error creating pipe to Ispell\"",
+        "\"r\"",
+        "\"error opening the error pipe to Ispell\""
+      ]
+    },
+    "sig_pipe": {
+      "start_point": [
+        507,
+        0
+      ],
+      "end_point": [
+        511,
+        1
+      ],
+      "strings": [
+        "\"broken pipe\""
+      ]
+    },
+    "sig_chld": {
+      "start_point": [
+        515,
+        0
+      ],
+      "end_point": [
+        519,
+        1
+      ],
+      "strings": [
+        "\"Ispell died\""
+      ]
+    },
+    "parent": {
+      "start_point": [
+        527,
+        0
+      ],
+      "end_point": [
+        619,
+        1
+      ],
+      "strings": [
+        "\"premature EOF from Ispell's stdout\"",
+        "\"error reading errors of ispell/aspell\"",
+        "\"%s: Ispell version %s\\n\"",
+        "\"-\"",
+        "\"%s: stat error\"",
+        "\"%s: is a directory\"",
+        "\"r\"",
+        "\"%s: open error\""
+      ]
+    },
+    "run_ispell_in_child": {
+      "start_point": [
+        625,
+        0
+      ],
+      "end_point": [
+        661,
+        1
+      ],
+      "strings": [
+        "\"error duping to stdin\"",
+        "\"error duping to stdout\"",
+        "\"error duping to stderr\"",
+        "\"ispell\"",
+        "\"-a\"",
+        "\"-p\"",
+        "\"aspell\"",
+        "\"aspell\"",
+        "\"-a\"",
+        "\"-p\"",
+        "\"error executing ispell/aspell\"",
+        "\"ispell\"",
+        "\"-a\"",
+        "\"-d\"",
+        "\"british\"",
+        "\"aspell\"",
+        "\"aspell\"",
+        "\"-a\"",
+        "\"-d\"",
+        "\"british\"",
+        "\"error executing ispell/aspell\"",
+        "\"ispell\"",
+        "\"-a\"",
+        "\"aspell\"",
+        "\"aspell\"",
+        "\"-a\"",
+        "\"error executing ispell/aspell\""
+      ]
+    },
+    "strerror": {
+      "start_point": [
+        667,
+        0
+      ],
+      "end_point": [
+        676,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        685,
+        0
+      ],
+      "end_point": [
+        703,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\": %s\""
+      ]
+    },
+    "xmalloc": {
+      "start_point": [
+        708,
+        0
+      ],
+      "end_point": [
+        716,
+        1
+      ],
+      "strings": [
+        "\"virtual memory exhausted\""
+      ]
+    },
+    "xrealloc": {
+      "start_point": [
+        722,
+        0
+      ],
+      "end_point": [
+        731,
+        1
+      ],
+      "strings": [
+        "\"virtual memory exhausted\""
+      ]
+    },
+    "xstrdup": {
+      "start_point": [
+        733,
+        0
+      ],
+      "end_point": [
+        740,
+        1
+      ],
+      "strings": [
+        "\"virtual memory exhausted\""
+      ]
+    }
+  }
+}

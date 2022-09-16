@@ -1,0 +1,4008 @@
+{
+  "Func_00402a00": [],
+  "Func_00402270": [],
+  "Func_0041e588": [],
+  "Func_00402add": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.h",
+      "aoGetsText",
+      [
+        381,
+        384
+      ]
+    ]
+  ],
+  "Func_00402b05": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/md5.c",
+      "md5_init_ctx",
+      [
+        75,
+        85
+      ]
+    ]
+  ],
+  "Func_00402b5f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/md5.c",
+      "set_uint32",
+      [
+        90,
+        94
+      ]
+    ]
+  ],
+  "Func_00402b76": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/md5.c",
+      "md5_read_ctx",
+      [
+        98,
+        108
+      ]
+    ]
+  ],
+  "Func_00402bf3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/md5.c",
+      "md5_finish_ctx",
+      [
+        112,
+        134
+      ]
+    ]
+  ],
+  "Func_00402d11": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/md5.c",
+      "md5_stream",
+      [
+        140,
+        208
+      ]
+    ]
+  ],
+  "Func_00402e59": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/md5.c",
+      "md5_buffer",
+      [
+        215,
+        228
+      ]
+    ]
+  ],
+  "Func_00402ec3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/md5.c",
+      "md5_process_bytes",
+      [
+        231,
+        295
+      ]
+    ]
+  ],
+  "Func_004030f3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/md5.c",
+      "md5_process_block",
+      [
+        310,
+        467
+      ]
+    ]
+  ],
+  "Func_00403de7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "to_uchar",
+      [
+        91,
+        91
+      ]
+    ]
+  ],
+  "Func_00403df6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "init_shar_msg",
+      [
+        304,
+        345
+      ]
+    ]
+  ],
+  "Func_00403f55": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "format_report",
+      [
+        347,
+        365
+      ]
+    ]
+  ],
+  "Func_00404029": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "echo_status",
+      [
+        367,
+        408
+      ]
+    ]
+  ],
+  "Func_0040413b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "echo_text",
+      [
+        410,
+        421
+      ]
+    ]
+  ],
+  "Func_004041ee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "walkdown",
+      [
+        432,
+        549
+      ]
+    ]
+  ],
+  "Func_00404552": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "walktree",
+      [
+        558,
+        611
+      ]
+    ]
+  ],
+  "Func_00404678": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "mode_string",
+      [
+        619,
+        643
+      ]
+    ]
+  ],
+  "Func_00404709": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "generate_configure",
+      [
+        650,
+        718
+      ]
+    ]
+  ],
+  "Func_00404a06": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "generate_mkdir",
+      [
+        725,
+        782
+      ]
+    ]
+  ],
+  "Func_00404c16": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "clear_mkdir_already",
+      [
+        784,
+        796
+      ]
+    ]
+  ],
+  "Func_00404c6d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "generate_mkdir_script",
+      [
+        802,
+        826
+      ]
+    ]
+  ],
+  "Func_00404d1c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "check_accessibility",
+      [
+        834,
+        844
+      ]
+    ]
+  ],
+  "Func_00404d84": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "generate_one_header_line",
+      [
+        850,
+        857
+      ]
+    ]
+  ],
+  "Func_00404df0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "print_caution_notes",
+      [
+        859,
+        888
+      ]
+    ]
+  ],
+  "Func_00404f2e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "print_header_stamp",
+      [
+        890,
+        936
+      ]
+    ]
+  ],
+  "Func_004050eb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "generate_full_header",
+      [
+        942,
+        990
+      ]
+    ]
+  ],
+  "Func_00405335": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "change_files",
+      [
+        992,
+        1049
+      ]
+    ]
+  ],
+  "Func_00405627": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "read_byte_size",
+      [
+        1051,
+        1086
+      ]
+    ]
+  ],
+  "Func_00405708": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "emit_char_ct_validation",
+      [
+        1090,
+        1134
+      ]
+    ]
+  ],
+  "Func_00405897": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "file_needs_encoding",
+      [
+        1148,
+        1245
+      ]
+    ]
+  ],
+  "Func_00405a26": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "encode_file_to_pipe",
+      [
+        1249,
+        1292
+      ]
+    ]
+  ],
+  "Func_00405bae": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "open_encoded_file",
+      [
+        1294,
+        1329
+      ]
+    ]
+  ],
+  "Func_00405c95": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "open_shar_input",
+      [
+        1421,
+        1464
+      ]
+    ]
+  ],
+  "Func_00405dc7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "split_shar_ed_file",
+      [
+        1469,
+        1569
+      ]
+    ]
+  ],
+  "Func_00406409": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "process_shar_input",
+      [
+        1571,
+        1655
+      ]
+    ]
+  ],
+  "Func_004067c9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "print_query_user",
+      [
+        1657,
+        1677
+      ]
+    ]
+  ],
+  "Func_0040691b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "start_sharing_file",
+      [
+        1681,
+        1781
+      ]
+    ]
+  ],
+  "Func_00406d78": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "finish_sharing_file",
+      [
+        1783,
+        1858
+      ]
+    ]
+  ],
+  "Func_004070c7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "shar",
+      [
+        1864,
+        1953
+      ]
+    ]
+  ],
+  "Func_004073c4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "parse_output_base_name",
+      [
+        1967,
+        2029
+      ]
+    ]
+  ],
+  "Func_00407743": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "open_output",
+      [
+        2038,
+        2057
+      ]
+    ]
+  ],
+  "Func_00407827": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "close_output",
+      [
+        2062,
+        2072
+      ]
+    ]
+  ],
+  "Func_004078af": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "trim",
+      [
+        2082,
+        2098
+      ]
+    ]
+  ],
+  "Func_00407974": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "set_submitter",
+      [
+        2106,
+        2119
+      ]
+    ]
+  ],
+  "Func_00407ac1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "configure_shar",
+      [
+        2128,
+        2234
+      ]
+    ]
+  ],
+  "Func_00407f50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "check_intermixing",
+      [
+        2244,
+        2254
+      ]
+    ]
+  ],
+  "Func_00407fab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "validate_opt_context",
+      [
+        2263,
+        2272
+      ]
+    ]
+  ],
+  "Func_00407ff1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "set_compaction",
+      [
+        2283,
+        2314
+      ]
+    ]
+  ],
+  "Func_00408118": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "initialize",
+      [
+        2324,
+        2351
+      ]
+    ]
+  ],
+  "Func_004082bd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar.c",
+      "main",
+      [
+        2357,
+        2403
+      ]
+    ]
+  ],
+  "Func_0040849c": [],
+  "Func_00408595": [],
+  "Func_004085ee": [],
+  "Func_0040868d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/scribble.c",
+      "scribble_init",
+      [
+        46,
+        51
+      ]
+    ]
+  ],
+  "Func_004086aa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/scribble.c",
+      "scribble_deinit",
+      [
+        56,
+        67
+      ]
+    ]
+  ],
+  "Func_004086ed": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/scribble.c",
+      "scribble_free",
+      [
+        73,
+        82
+      ]
+    ]
+  ],
+  "Func_0040871f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/scribble.c",
+      "new_scribble_block",
+      [
+        91,
+        117
+      ]
+    ]
+  ],
+  "Func_004087cc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/scribble.c",
+      "scribble_get",
+      [
+        127,
+        153
+      ]
+    ]
+  ],
+  "Func_00408879": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/scribble.c",
+      "xscribble_get",
+      [
+        161,
+        171
+      ]
+    ]
+  ],
+  "Func_004088cb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.h",
+      "aoGetsText",
+      [
+        381,
+        384
+      ]
+    ]
+  ],
+  "Func_004088f3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doUsageOpt",
+      [
+        1581,
+        1591
+      ]
+    ]
+  ],
+  "Func_00408923": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptLevel_Of_Compression",
+      [
+        1603,
+        1629
+      ]
+    ]
+  ],
+  "Func_00408a26": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptBzip2",
+      [
+        1640,
+        1653
+      ]
+    ]
+  ],
+  "Func_00408ae6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptGzip",
+      [
+        1664,
+        1677
+      ]
+    ]
+  ],
+  "Func_00408ba6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptCompress",
+      [
+        1689,
+        1702
+      ]
+    ]
+  ],
+  "Func_00408c66": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptLevel_For_Gzip",
+      [
+        1712,
+        1719
+      ]
+    ]
+  ],
+  "Func_00408cbb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptBits_Per_Code",
+      [
+        1729,
+        1741
+      ]
+    ]
+  ],
+  "Func_00408d8e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptWhole_Size_Limit",
+      [
+        1758,
+        1784
+      ]
+    ]
+  ],
+  "Func_00408e91": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptSplit_Size_Limit",
+      [
+        1802,
+        1828
+      ]
+    ]
+  ],
+  "Func_00408f94": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptInput_File_List",
+      [
+        1855,
+        1872
+      ]
+    ]
+  ],
+  "Func_00409025": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptStdin_File_List",
+      [
+        1882,
+        1895
+      ]
+    ]
+  ],
+  "Func_004090e5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptVanilla_Operation",
+      [
+        1912,
+        1930
+      ]
+    ]
+  ],
+  "Func_0040949b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptPrint_Text_Domain_Dir",
+      [
+        1940,
+        1959
+      ]
+    ]
+  ],
+  "Func_004094d2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "doOptSilent",
+      [
+        1968,
+        1975
+      ]
+    ]
+  ],
+  "Func_00409527": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "vusage_message",
+      [
+        1987,
+        1996
+      ]
+    ]
+  ],
+  "Func_0040958e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "usage_message",
+      [
+        2006,
+        2014
+      ]
+    ]
+  ],
+  "Func_00409630": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "vdie",
+      [
+        2024,
+        2033
+      ]
+    ]
+  ],
+  "Func_0040969a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "die",
+      [
+        2043,
+        2051
+      ]
+    ]
+  ],
+  "Func_00409740": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "fserr",
+      [
+        2061,
+        2067
+      ]
+    ]
+  ],
+  "Func_004097a6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "AO_gettext",
+      [
+        2164,
+        2193
+      ]
+    ]
+  ],
+  "Func_00409867": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "coerce_it",
+      [
+        2199,
+        2200
+      ]
+    ]
+  ],
+  "Func_0040988f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/src/shar-opts.c",
+      "translate_option_strings",
+      [
+        2206,
+        2234
+      ]
+    ]
+  ],
+  "Func_0040991f": [],
+  "Func_004099dc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/ag-char-map.h",
+      "is_ag_char_map_char",
+      [
+        478,
+        483
+      ]
+    ]
+  ],
+  "Func_00409a17": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/ag-char-map.h",
+      "spn_ag_char_map_chars",
+      [
+        485,
+        493
+      ]
+    ]
+  ],
+  "Func_00409a6f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/ag-char-map.h",
+      "brk_ag_char_map_chars",
+      [
+        495,
+        503
+      ]
+    ]
+  ],
+  "Func_00409ad2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/ag-char-map.h",
+      "spn_ag_char_map_back",
+      [
+        505,
+        514
+      ]
+    ]
+  ],
+  "Func_00409b60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "str_const_to_ul",
+      [
+        60,
+        64
+      ]
+    ]
+  ],
+  "Func_00409b8b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "str_const_to_l",
+      [
+        67,
+        71
+      ]
+    ]
+  ],
+  "Func_00409bb6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "scale_n_add",
+      [
+        76,
+        100
+      ]
+    ]
+  ],
+  "Func_00409c64": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_hr_min_sec",
+      [
+        103,
+        135
+      ]
+    ]
+  ],
+  "Func_00409d62": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_scaled_value",
+      [
+        140,
+        163
+      ]
+    ]
+  ],
+  "Func_00409e43": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_year_month_day",
+      [
+        167,
+        186
+      ]
+    ]
+  ],
+  "Func_00409f16": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_yearmonthday",
+      [
+        189,
+        216
+      ]
+    ]
+  ],
+  "Func_0040a000": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_YMWD",
+      [
+        219,
+        260
+      ]
+    ]
+  ],
+  "Func_0040a183": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_hour_minute_second",
+      [
+        264,
+        284
+      ]
+    ]
+  ],
+  "Func_0040a256": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_hourminutesecond",
+      [
+        287,
+        314
+      ]
+    ]
+  ],
+  "Func_0040a342": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_HMS",
+      [
+        317,
+        351
+      ]
+    ]
+  ],
+  "Func_0040a480": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_time",
+      [
+        354,
+        383
+      ]
+    ]
+  ],
+  "Func_0040a50d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "trim",
+      [
+        387,
+        403
+      ]
+    ]
+  ],
+  "Func_0040a5aa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_period",
+      [
+        408,
+        461
+      ]
+    ]
+  ],
+  "Func_0040a702": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_non_iso8601",
+      [
+        463,
+        573
+      ]
+    ]
+  ],
+  "Func_0040a9fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/parse-duration.c",
+      "parse_duration",
+      [
+        575,
+        596
+      ]
+    ]
+  ],
+  "Func_0040aab8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/option-value-type.c",
+      "option_value_type_hash",
+      [
+        66,
+        99
+      ]
+    ]
+  ],
+  "Func_0040aad7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/option-value-type.c",
+      "find_option_value_type_name",
+      [
+        121,
+        137
+      ]
+    ]
+  ],
+  "Func_0040ab6c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/option-value-type.c",
+      "find_option_value_type_cmd",
+      [
+        147,
+        154
+      ]
+    ]
+  ],
+  "Func_0040abab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/option-xat-attribute.c",
+      "option_xat_attribute_hash",
+      [
+        66,
+        99
+      ]
+    ]
+  ],
+  "Func_0040abca": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/option-xat-attribute.c",
+      "find_option_xat_attribute_name",
+      [
+        113,
+        129
+      ]
+    ]
+  ],
+  "Func_0040ac5f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/option-xat-attribute.c",
+      "find_option_xat_attribute_cmd",
+      [
+        139,
+        146
+      ]
+    ]
+  ],
+  "Func_0040ac9e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/compat/pathfind.c",
+      "pathfind",
+      [
+        37,
+        103
+      ]
+    ]
+  ],
+  "Func_0040ae1d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/compat/pathfind.c",
+      "make_absolute",
+      [
+        110,
+        137
+      ]
+    ]
+  ],
+  "Func_0040af65": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/compat/pathfind.c",
+      "canonicalize_pathname",
+      [
+        150,
+        227
+      ]
+    ]
+  ],
+  "Func_0040b21d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/compat/pathfind.c",
+      "extract_colon_unit",
+      [
+        234,
+        273
+      ]
+    ]
+  ],
+  "Func_0040b31b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/autoopts.c",
+      "ao_malloc",
+      [
+        62,
+        71
+      ]
+    ]
+  ],
+  "Func_0040b372": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/autoopts.c",
+      "ao_realloc",
+      [
+        75,
+        84
+      ]
+    ]
+  ],
+  "Func_0040b3ef": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/autoopts.c",
+      "ao_strdup",
+      [
+        88,
+        97
+      ]
+    ]
+  ],
+  "Func_0040b44e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/autoopts.c",
+      "handle_opt",
+      [
+        107,
+        209
+      ]
+    ]
+  ],
+  "Func_0040b6bc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/autoopts.c",
+      "next_opt",
+      [
+        220,
+        236
+      ]
+    ]
+  ],
+  "Func_0040b753": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/autoopts.c",
+      "regular_opts",
+      [
+        247,
+        278
+      ]
+    ]
+  ],
+  "Func_0040b842": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/autoopts.c",
+      "optionProcess",
+      [
+        332,
+        388
+      ]
+    ]
+  ],
+  "Func_0040b994": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/alias.c",
+      "too_many_occurrences",
+      [
+        34,
+        51
+      ]
+    ]
+  ],
+  "Func_0040ba88": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/alias.c",
+      "optionAlias",
+      [
+        66,
+        107
+      ]
+    ]
+  ],
+  "Func_0040bbdb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/boolean.c",
+      "optionBooleanVal",
+      [
+        47,
+        87
+      ]
+    ]
+  ],
+  "Func_0040bd03": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/check.c",
+      "has_conflict",
+      [
+        34,
+        66
+      ]
+    ]
+  ],
+  "Func_0040bee1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/check.c",
+      "occurs_enough",
+      [
+        71,
+        96
+      ]
+    ]
+  ],
+  "Func_0040bfb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/check.c",
+      "is_consistent",
+      [
+        103,
+        168
+      ]
+    ]
+  ],
+  "Func_0040c116": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "skip_unkn",
+      [
+        80,
+        85
+      ]
+    ]
+  ],
+  "Func_0040c14f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "configFileLoad",
+      [
+        119,
+        143
+      ]
+    ]
+  ],
+  "Func_0040c212": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "optionFindValue",
+      [
+        170,
+        216
+      ]
+    ]
+  ],
+  "Func_0040c322": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "optionFindNextValue",
+      [
+        247,
+        285
+      ]
+    ]
+  ],
+  "Func_0040c3ff": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "optionGetValue",
+      [
+        315,
+        345
+      ]
+    ]
+  ],
+  "Func_0040c4d6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "optionNextValue",
+      [
+        374,
+        407
+      ]
+    ]
+  ],
+  "Func_0040c5a5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "file_preset",
+      [
+        412,
+        493
+      ]
+    ]
+  ],
+  "Func_0040c7fc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "handle_comment",
+      [
+        500,
+        507
+      ]
+    ]
+  ],
+  "Func_0040c82f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "handle_cfg",
+      [
+        515,
+        588
+      ]
+    ]
+  ],
+  "Func_0040ca21": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "handle_directive",
+      [
+        599,
+        642
+      ]
+    ]
+  ],
+  "Func_0040cb4e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "aoflags_directive",
+      [
+        651,
+        672
+      ]
+    ]
+  ],
+  "Func_0040cc04": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "program_directive",
+      [
+        681,
+        716
+      ]
+    ]
+  ],
+  "Func_0040cd39": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "handle_section",
+      [
+        727,
+        747
+      ]
+    ]
+  ],
+  "Func_0040ce19": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "parse_xml_encoding",
+      [
+        752,
+        832
+      ]
+    ]
+  ],
+  "Func_0040cf97": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "trim_xml_text",
+      [
+        839,
+        869
+      ]
+    ]
+  ],
+  "Func_0040d07c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "cook_xml_text",
+      [
+        873,
+        910
+      ]
+    ]
+  ],
+  "Func_0040d174": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "handle_struct",
+      [
+        917,
+        993
+      ]
+    ]
+  ],
+  "Func_0040d364": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "intern_file_load",
+      [
+        1000,
+        1093
+      ]
+    ]
+  ],
+  "Func_0040d5d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "optionFileLoad",
+      [
+        1128,
+        1146
+      ]
+    ]
+  ],
+  "Func_0040d628": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "optionLoadOpt",
+      [
+        1159,
+        1194
+      ]
+    ]
+  ],
+  "Func_0040d750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "parse_attrs",
+      [
+        1201,
+        1271
+      ]
+    ]
+  ],
+  "Func_0040d93b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "parse_keyword",
+      [
+        1282,
+        1289
+      ]
+    ]
+  ],
+  "Func_0040d95d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "parse_set_mem",
+      [
+        1301,
+        1308
+      ]
+    ]
+  ],
+  "Func_0040d97f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/configfile.c",
+      "parse_value",
+      [
+        1318,
+        1372
+      ]
+    ]
+  ],
+  "Func_0040da8a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/cook.c",
+      "ao_string_cook_escape_char",
+      [
+        63,
+        136
+      ]
+    ]
+  ],
+  "Func_0040dca9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/cook.c",
+      "contiguous_quote",
+      [
+        144,
+        215
+      ]
+    ]
+  ],
+  "Func_0040de3a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/cook.c",
+      "ao_string_cook",
+      [
+        238,
+        316
+      ]
+    ]
+  ],
+  "Func_0040dfc4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "enum_err",
+      [
+        61,
+        171
+      ]
+    ]
+  ],
+  "Func_0040e338": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "find_name",
+      [
+        183,
+        238
+      ]
+    ]
+  ],
+  "Func_0040e561": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "optionKeywordName",
+      [
+        253,
+        261
+      ]
+    ]
+  ],
+  "Func_0040e5a7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "optionEnumerationVal",
+      [
+        282,
+        341
+      ]
+    ]
+  ],
+  "Func_0040e711": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "set_memb_shell",
+      [
+        343,
+        365
+      ]
+    ]
+  ],
+  "Func_0040e7d6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "set_memb_names",
+      [
+        367,
+        413
+      ]
+    ]
+  ],
+  "Func_0040e961": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "check_membership_start",
+      [
+        429,
+        474
+      ]
+    ]
+  ],
+  "Func_0040ea6e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "find_member_bit",
+      [
+        488,
+        505
+      ]
+    ]
+  ],
+  "Func_0040eb28": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "optionMemberList",
+      [
+        518,
+        527
+      ]
+    ]
+  ],
+  "Func_0040eb74": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/enum.c",
+      "optionSetMembers",
+      [
+        545,
+        643
+      ]
+    ]
+  ],
+  "Func_0040ee6c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/env.c",
+      "doPrognameEnv",
+      [
+        47,
+        115
+      ]
+    ]
+  ],
+  "Func_0040efb4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/env.c",
+      "do_env_opt",
+      [
+        117,
+        184
+      ]
+    ]
+  ],
+  "Func_0040f1a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/env.c",
+      "env_presets",
+      [
+        190,
+        258
+      ]
+    ]
+  ],
+  "Func_0040f3e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/file.c",
+      "check_existence",
+      [
+        40,
+        92
+      ]
+    ]
+  ],
+  "Func_0040f5a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/file.c",
+      "open_file_fd",
+      [
+        101,
+        116
+      ]
+    ]
+  ],
+  "Func_0040f657": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/file.c",
+      "fopen_file_fp",
+      [
+        125,
+        140
+      ]
+    ]
+  ],
+  "Func_0040f707": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/file.c",
+      "optionFileCheck",
+      [
+        158,
+        192
+      ]
+    ]
+  ],
+  "Func_0040f824": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "parse_opt",
+      [
+        67,
+        91
+      ]
+    ]
+  ],
+  "Func_0040f8d6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "opt_ambiguities",
+      [
+        99,
+        121
+      ]
+    ]
+  ],
+  "Func_0040f9fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "opt_match_ct",
+      [
+        133,
+        197
+      ]
+    ]
+  ],
+  "Func_0040fb41": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "opt_set",
+      [
+        208,
+        238
+      ]
+    ]
+  ],
+  "Func_0040fc87": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "opt_unknown",
+      [
+        251,
+        278
+      ]
+    ]
+  ],
+  "Func_0040fd77": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "opt_ambiguous",
+      [
+        289,
+        301
+      ]
+    ]
+  ],
+  "Func_0040fe16": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "optionVendorOption",
+      [
+        316,
+        359
+      ]
+    ]
+  ],
+  "Func_0040ffa5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "opt_find_long",
+      [
+        370,
+        401
+      ]
+    ]
+  ],
+  "Func_00410121": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "opt_find_short",
+      [
+        411,
+        476
+      ]
+    ]
+  ],
+  "Func_0041035e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "get_opt_arg_must",
+      [
+        487,
+        533
+      ]
+    ]
+  ],
+  "Func_0041047b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "get_opt_arg_may",
+      [
+        546,
+        609
+      ]
+    ]
+  ],
+  "Func_004105dd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "get_opt_arg_none",
+      [
+        618,
+        642
+      ]
+    ]
+  ],
+  "Func_00410664": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "get_opt_arg",
+      [
+        651,
+        669
+      ]
+    ]
+  ],
+  "Func_00410701": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/find.c",
+      "find_opt",
+      [
+        678,
+        771
+      ]
+    ]
+  ],
+  "Func_00410986": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/genshell.c",
+      "doUsageOpt",
+      [
+        286,
+        296
+      ]
+    ]
+  ],
+  "Func_004109b6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/genshell.c",
+      "AO_gettext",
+      [
+        394,
+        423
+      ]
+    ]
+  ],
+  "Func_00410a63": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/genshell.c",
+      "coerce_it",
+      [
+        429,
+        430
+      ]
+    ]
+  ],
+  "Func_00410a8b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/genshell.c",
+      "translate_option_strings",
+      [
+        436,
+        472
+      ]
+    ]
+  ],
+  "Func_00410b89": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "get_realpath",
+      [
+        54,
+        91
+      ]
+    ]
+  ],
+  "Func_00410c12": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "optionMakePath",
+      [
+        144,
+        199
+      ]
+    ]
+  ],
+  "Func_00410d9b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "add_prog_path",
+      [
+        204,
+        262
+      ]
+    ]
+  ],
+  "Func_00410efd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "add_env_val",
+      [
+        267,
+        297
+      ]
+    ]
+  ],
+  "Func_00410fe8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "munge_str",
+      [
+        307,
+        343
+      ]
+    ]
+  ],
+  "Func_00411104": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "assemble_arg_val",
+      [
+        345,
+        380
+      ]
+    ]
+  ],
+  "Func_004111e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "trim_quotes",
+      [
+        382,
+        391
+      ]
+    ]
+  ],
+  "Func_00411217": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "direction_ok",
+      [
+        397,
+        465
+      ]
+    ]
+  ],
+  "Func_004112db": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "load_opt_line",
+      [
+        479,
+        541
+      ]
+    ]
+  ],
+  "Func_004114f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/load.c",
+      "optionLoadLine",
+      [
+        569,
+        580
+      ]
+    ]
+  ],
+  "Func_00411583": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "to_uchar",
+      [
+        33,
+        33
+      ]
+    ]
+  ],
+  "Func_00411592": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "option_exits",
+      [
+        76,
+        82
+      ]
+    ]
+  ],
+  "Func_004115c6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "ao_bug",
+      [
+        84,
+        89
+      ]
+    ]
+  ],
+  "Func_004115fe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "fserr_warn",
+      [
+        91,
+        96
+      ]
+    ]
+  ],
+  "Func_00411666": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "fserr_exit",
+      [
+        98,
+        103
+      ]
+    ]
+  ],
+  "Func_0041169b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "optionParseShell",
+      [
+        114,
+        214
+      ]
+    ]
+  ],
+  "Func_00411b34": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_var_text",
+      [
+        229,
+        273
+      ]
+    ]
+  ],
+  "Func_00411c4b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "text_to_var",
+      [
+        287,
+        352
+      ]
+    ]
+  ],
+  "Func_00411dd1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_usage",
+      [
+        358,
+        432
+      ]
+    ]
+  ],
+  "Func_0041200b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_wrapup",
+      [
+        434,
+        466
+      ]
+    ]
+  ],
+  "Func_0041212d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_setup",
+      [
+        468,
+        531
+      ]
+    ]
+  ],
+  "Func_004122ec": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_action",
+      [
+        533,
+        581
+      ]
+    ]
+  ],
+  "Func_00412594": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_inaction",
+      [
+        583,
+        598
+      ]
+    ]
+  ],
+  "Func_00412668": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_flag",
+      [
+        606,
+        623
+      ]
+    ]
+  ],
+  "Func_0041273a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_match_expr",
+      [
+        633,
+        705
+      ]
+    ]
+  ],
+  "Func_00412952": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "emit_long",
+      [
+        712,
+        743
+      ]
+    ]
+  ],
+  "Func_00412a42": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "load_old_output",
+      [
+        751,
+        796
+      ]
+    ]
+  ],
+  "Func_00412b5f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "open_out",
+      [
+        809,
+        847
+      ]
+    ]
+  ],
+  "Func_00412c75": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/makeshell.c",
+      "genshelloptUsage",
+      [
+        863,
+        947
+      ]
+    ]
+  ],
+  "Func_00412e6c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "remove_continuation",
+      [
+        98,
+        131
+      ]
+    ]
+  ],
+  "Func_00412f18": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "scan_q_str",
+      [
+        136,
+        167
+      ]
+    ]
+  ],
+  "Func_00412fb7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "add_string",
+      [
+        181,
+        221
+      ]
+    ]
+  ],
+  "Func_0041311e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "add_bool",
+      [
+        234,
+        262
+      ]
+    ]
+  ],
+  "Func_0041324d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "add_number",
+      [
+        275,
+        299
+      ]
+    ]
+  ],
+  "Func_00413348": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "add_nested",
+      [
+        312,
+        335
+      ]
+    ]
+  ],
+  "Func_00413417": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "scan_name",
+      [
+        341,
+        428
+      ]
+    ]
+  ],
+  "Func_0041365c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "unnamed_xml",
+      [
+        439,
+        460
+      ]
+    ]
+  ],
+  "Func_004136d6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "scan_xml_name",
+      [
+        472,
+        503
+      ]
+    ]
+  ],
+  "Func_004137eb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "find_end_xml",
+      [
+        515,
+        539
+      ]
+    ]
+  ],
+  "Func_00413922": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "scan_xml",
+      [
+        551,
+        632
+      ]
+    ]
+  ],
+  "Func_00413b5a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "unload_arg_list",
+      [
+        641,
+        655
+      ]
+    ]
+  ],
+  "Func_00413bd3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "optionUnloadNested",
+      [
+        667,
+        679
+      ]
+    ]
+  ],
+  "Func_00413c1f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "sort_list",
+      [
+        686,
+        718
+      ]
+    ]
+  ],
+  "Func_00413cef": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "optionLoadNested",
+      [
+        746,
+        811
+      ]
+    ]
+  ],
+  "Func_00413eff": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "optionNestedVal",
+      [
+        823,
+        853
+      ]
+    ]
+  ],
+  "Func_00413fe9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "get_special_char",
+      [
+        858,
+        905
+      ]
+    ]
+  ],
+  "Func_00414175": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/nested.c",
+      "emit_special_char",
+      [
+        910,
+        927
+      ]
+    ]
+  ],
+  "Func_004141fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/numeric.c",
+      "optionShowRange",
+      [
+        44,
+        94
+      ]
+    ]
+  ],
+  "Func_0041446d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/numeric.c",
+      "optionNumericVal",
+      [
+        106,
+        170
+      ]
+    ]
+  ],
+  "Func_004146d6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/pgusage.c",
+      "open_tmp_usage",
+      [
+        36,
+        65
+      ]
+    ]
+  ],
+  "Func_004147b6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/pgusage.c",
+      "mk_pager_cmd",
+      [
+        67,
+        94
+      ]
+    ]
+  ],
+  "Func_00414876": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/pgusage.c",
+      "optionPagedUsage",
+      [
+        109,
+        178
+      ]
+    ]
+  ],
+  "Func_004149d8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "string_size",
+      [
+        66,
+        109
+      ]
+    ]
+  ],
+  "Func_00414a5d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "optionQuoteString",
+      [
+        128,
+        197
+      ]
+    ]
+  ],
+  "Func_00414ca8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "print_quoted_apostrophes",
+      [
+        204,
+        212
+      ]
+    ]
+  ],
+  "Func_00414ce3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "print_quot_str",
+      [
+        220,
+        271
+      ]
+    ]
+  ],
+  "Func_00414e0d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "print_enumeration",
+      [
+        273,
+        289
+      ]
+    ]
+  ],
+  "Func_00414ed3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "print_membership",
+      [
+        291,
+        321
+      ]
+    ]
+  ],
+  "Func_00415087": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "print_stacked_arg",
+      [
+        323,
+        339
+      ]
+    ]
+  ],
+  "Func_0041515d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "print_reordering",
+      [
+        347,
+        361
+      ]
+    ]
+  ],
+  "Func_004151e7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/putshell.c",
+      "optionPutShell",
+      [
+        370,
+        502
+      ]
+    ]
+  ],
+  "Func_004155ae": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/reset.c",
+      "optionReset",
+      [
+        32,
+        43
+      ]
+    ]
+  ],
+  "Func_00415671": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/reset.c",
+      "optionResetEverything",
+      [
+        46,
+        59
+      ]
+    ]
+  ],
+  "Func_004156be": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/reset.c",
+      "optionResetOpt",
+      [
+        73,
+        133
+      ]
+    ]
+  ],
+  "Func_0041590d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/restore.c",
+      "fixupSavedOptionArgs",
+      [
+        40,
+        71
+      ]
+    ]
+  ],
+  "Func_00415a38": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/restore.c",
+      "optionSaveState",
+      [
+        96,
+        113
+      ]
+    ]
+  ],
+  "Func_00415b10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/restore.c",
+      "optionRestore",
+      [
+        131,
+        155
+      ]
+    ]
+  ],
+  "Func_00415c1f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/restore.c",
+      "optionFree",
+      [
+        170,
+        214
+      ]
+    ]
+  ],
+  "Func_00415d81": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "find_dir_name",
+      [
+        77,
+        155
+      ]
+    ]
+  ],
+  "Func_00415feb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "find_file_name",
+      [
+        159,
+        268
+      ]
+    ]
+  ],
+  "Func_00416385": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_entry",
+      [
+        277,
+        338
+      ]
+    ]
+  ],
+  "Func_00416511": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_value",
+      [
+        342,
+        404
+      ]
+    ]
+  ],
+  "Func_00416725": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_string",
+      [
+        408,
+        440
+      ]
+    ]
+  ],
+  "Func_004167fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_val_list",
+      [
+        444,
+        476
+      ]
+    ]
+  ],
+  "Func_00416925": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_nested",
+      [
+        480,
+        513
+      ]
+    ]
+  ],
+  "Func_00416a29": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "open_sv_file",
+      [
+        521,
+        568
+      ]
+    ]
+  ],
+  "Func_00416bd2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_no_arg_opt",
+      [
+        572,
+        591
+      ]
+    ]
+  ],
+  "Func_00416c3a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_str_arg",
+      [
+        595,
+        614
+      ]
+    ]
+  ],
+  "Func_00416ce5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_enum_arg",
+      [
+        622,
+        635
+      ]
+    ]
+  ],
+  "Func_00416d41": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_set_arg",
+      [
+        646,
+        657
+      ]
+    ]
+  ],
+  "Func_00416ddd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "prt_file_arg",
+      [
+        667,
+        686
+      ]
+    ]
+  ],
+  "Func_00416e79": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/save.c",
+      "optionSaveFile",
+      [
+        717,
+        801
+      ]
+    ]
+  ],
+  "Func_00417072": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/sort.c",
+      "must_arg",
+      [
+        51,
+        87
+      ]
+    ]
+  ],
+  "Func_00417139": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/sort.c",
+      "maybe_arg",
+      [
+        89,
+        126
+      ]
+    ]
+  ],
+  "Func_00417230": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/sort.c",
+      "short_opt_ck",
+      [
+        132,
+        175
+      ]
+    ]
+  ],
+  "Func_004173d2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/sort.c",
+      "optionSort",
+      [
+        181,
+        331
+      ]
+    ]
+  ],
+  "Func_004178a2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/stack.c",
+      "optionUnstackArg",
+      [
+        47,
+        171
+      ]
+    ]
+  ],
+  "Func_00417a59": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/stack.c",
+      "addArgListEntry",
+      [
+        179,
+        220
+      ]
+    ]
+  ],
+  "Func_00417b4f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/stack.c",
+      "optionStackArg",
+      [
+        233,
+        259
+      ]
+    ]
+  ],
+  "Func_00417c25": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/streqvcmp.c",
+      "strneqvcmp",
+      [
+        102,
+        125
+      ]
+    ]
+  ],
+  "Func_00417cc5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/streqvcmp.c",
+      "streqvcmp",
+      [
+        148,
+        169
+      ]
+    ]
+  ],
+  "Func_00417d4f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/streqvcmp.c",
+      "streqvmap",
+      [
+        200,
+        222
+      ]
+    ]
+  ],
+  "Func_00417dd8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/streqvcmp.c",
+      "strequate",
+      [
+        240,
+        248
+      ]
+    ]
+  ],
+  "Func_00417e2a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/streqvcmp.c",
+      "strtransform",
+      [
+        269,
+        275
+      ]
+    ]
+  ],
+  "Func_00417e6f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/text_mmap.c",
+      "load_text_file",
+      [
+        84,
+        155
+      ]
+    ]
+  ],
+  "Func_00417f84": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/text_mmap.c",
+      "validate_mmap",
+      [
+        167,
+        227
+      ]
+    ]
+  ],
+  "Func_00418146": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/text_mmap.c",
+      "close_mmap_files",
+      [
+        234,
+        250
+      ]
+    ]
+  ],
+  "Func_0041817c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/text_mmap.c",
+      "text_mmap",
+      [
+        305,
+        322
+      ]
+    ]
+  ],
+  "Func_00418214": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/text_mmap.c",
+      "text_munmap",
+      [
+        344,
+        370
+      ]
+    ]
+  ],
+  "Func_00418268": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/time.c",
+      "optionTimeVal",
+      [
+        40,
+        61
+      ]
+    ]
+  ],
+  "Func_0041834f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/time.c",
+      "optionTimeDate",
+      [
+        73,
+        135
+      ]
+    ]
+  ],
+  "Func_004183a3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/tokenize.c",
+      "copy_cooked",
+      [
+        48,
+        73
+      ]
+    ]
+  ],
+  "Func_00418457": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/tokenize.c",
+      "copy_raw",
+      [
+        76,
+        121
+      ]
+    ]
+  ],
+  "Func_0041854b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/tokenize.c",
+      "alloc_token_list",
+      [
+        123,
+        167
+      ]
+    ]
+  ],
+  "Func_00418649": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/tokenize.c",
+      "ao_string_tokenize",
+      [
+        234,
+        300
+      ]
+    ]
+  ],
+  "Func_0041882b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "parse_usage_flags",
+      [
+        105,
+        159
+      ]
+    ]
+  ],
+  "Func_004189d3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "set_usage_flags",
+      [
+        170,
+        217
+      ]
+    ]
+  ],
+  "Func_00418a94": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "do_gnu_usage",
+      [
+        223,
+        227
+      ]
+    ]
+  ],
+  "Func_00418ab0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "skip_misuse_usage",
+      [
+        233,
+        237
+      ]
+    ]
+  ],
+  "Func_00418acc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "optionOnlyUsage",
+      [
+        251,
+        275
+      ]
+    ]
+  ],
+  "Func_00418bbd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "print_offer_usage",
+      [
+        282,
+        331
+      ]
+    ]
+  ],
+  "Func_00418d48": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "print_usage_details",
+      [
+        340,
+        416
+      ]
+    ]
+  ],
+  "Func_00419025": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "print_one_paragraph",
+      [
+        418,
+        440
+      ]
+    ]
+  ],
+  "Func_004190c8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "optionPrintParagraphs",
+      [
+        466,
+        550
+      ]
+    ]
+  ],
+  "Func_0041927b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "optionUsage",
+      [
+        568,
+        628
+      ]
+    ]
+  ],
+  "Func_0041946f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_conflicts",
+      [
+        639,
+        689
+      ]
+    ]
+  ],
+  "Func_004196e7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_one_vendor",
+      [
+        699,
+        749
+      ]
+    ]
+  ],
+  "Func_004198f2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_vendor_opts",
+      [
+        758,
+        807
+      ]
+    ]
+  ],
+  "Func_00419a88": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_extd_usage",
+      [
+        816,
+        925
+      ]
+    ]
+  ],
+  "Func_00419e3a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_ini_list",
+      [
+        938,
+        987
+      ]
+    ]
+  ],
+  "Func_00419fa9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_preamble",
+      [
+        996,
+        1020
+      ]
+    ]
+  ],
+  "Func_0041a0a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_one_usage",
+      [
+        1029,
+        1083
+      ]
+    ]
+  ],
+  "Func_0041a27a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_opt_usage",
+      [
+        1088,
+        1167
+      ]
+    ]
+  ],
+  "Func_0041a4db": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "prt_prog_detail",
+      [
+        1175,
+        1223
+      ]
+    ]
+  ],
+  "Func_0041a637": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "setGnuOptFmts",
+      [
+        1240,
+        1275
+      ]
+    ]
+  ],
+  "Func_0041a79f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/usage.c",
+      "setStdOptFmts",
+      [
+        1281,
+        1327
+      ]
+    ]
+  ],
+  "Func_0041a91c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "optionVersion",
+      [
+        41,
+        46
+      ]
+    ]
+  ],
+  "Func_0041a927": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "emit_first_line",
+      [
+        48,
+        62
+      ]
+    ]
+  ],
+  "Func_0041a9d5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "emit_simple_ver",
+      [
+        70,
+        74
+      ]
+    ]
+  ],
+  "Func_0041aa0c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "emit_copy_full",
+      [
+        82,
+        102
+      ]
+    ]
+  ],
+  "Func_0041ab1a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "emit_copy_note",
+      [
+        111,
+        131
+      ]
+    ]
+  ],
+  "Func_0041ac3a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "print_ver",
+      [
+        137,
+        179
+      ]
+    ]
+  ],
+  "Func_0041adca": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "optionPrintVersion",
+      [
+        190,
+        194
+      ]
+    ]
+  ],
+  "Func_0041ae0d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "optionPrintVersionAndReturn",
+      [
+        208,
+        212
+      ]
+    ]
+  ],
+  "Func_0041ae50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/version.c",
+      "optionVersionStderr",
+      [
+        224,
+        228
+      ]
+    ]
+  ],
+  "Func_0041ae7f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/init.c",
+      "validate_struct",
+      [
+        49,
+        122
+      ]
+    ]
+  ],
+  "Func_0041b0c2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/init.c",
+      "immediate_opts",
+      [
+        145,
+        185
+      ]
+    ]
+  ],
+  "Func_0041b1cd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/init.c",
+      "do_presets",
+      [
+        192,
+        241
+      ]
+    ]
+  ],
+  "Func_0041b2fd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/libopts/init.c",
+      "ao_initialize",
+      [
+        250,
+        285
+      ]
+    ]
+  ],
+  "Func_0041b419": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/basename.c",
+      "base_name",
+      [
+        27,
+        58
+      ]
+    ]
+  ],
+  "Func_0041b49c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/basename-lgpl.c",
+      "last_component",
+      [
+        29,
+        51
+      ]
+    ]
+  ],
+  "Func_0041b505": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/basename-lgpl.c",
+      "base_len",
+      [
+        57,
+        75
+      ]
+    ]
+  ],
+  "Func_0041b553": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/idcache.c",
+      "getuser",
+      [
+        67,
+        96
+      ]
+    ]
+  ],
+  "Func_0041b63c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/idcache.c",
+      "getuidbyname",
+      [
+        103,
+        145
+      ]
+    ]
+  ],
+  "Func_0041b78f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/idcache.c",
+      "getgroup",
+      [
+        149,
+        178
+      ]
+    ]
+  ],
+  "Func_0041b878": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/idcache.c",
+      "getgidbyname",
+      [
+        185,
+        227
+      ]
+    ]
+  ],
+  "Func_0041b9cb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/anytostr.c",
+      "__attribute_warn_unused_result__",
+      [
+        35,
+        57
+      ]
+    ]
+  ],
+  "Func_0041bafd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "clone_quoting_options",
+      [
+        107,
+        115
+      ]
+    ]
+  ],
+  "Func_0041bb49": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "get_quoting_style",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_0041bb67": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "set_quoting_style",
+      [
+        126,
+        130
+      ]
+    ]
+  ],
+  "Func_0041bb8c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "set_char_quoting",
+      [
+        137,
+        147
+      ]
+    ]
+  ],
+  "Func_0041bc14": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "set_quoting_flags",
+      [
+        153,
+        162
+      ]
+    ]
+  ],
+  "Func_0041bc47": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "set_custom_quoting",
+      [
+        164,
+        175
+      ]
+    ]
+  ],
+  "Func_0041bca2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quoting_options_from_style",
+      [
+        178,
+        186
+      ]
+    ]
+  ],
+  "Func_0041bd3b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "gettext_quote",
+      [
+        192,
+        226
+      ]
+    ]
+  ],
+  "Func_0041bde3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_buffer_restyled",
+      [
+        241,
+        661
+      ]
+    ]
+  ],
+  "Func_0041c93d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_buffer",
+      [
+        672,
+        684
+      ]
+    ]
+  ],
+  "Func_0041c9df": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_alloc",
+      [
+        687,
+        692
+      ]
+    ]
+  ],
+  "Func_0041ca11": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_alloc_mem",
+      [
+        700,
+        720
+      ]
+    ]
+  ],
+  "Func_0041cb3d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_free",
+      [
+        736,
+        755
+      ]
+    ]
+  ],
+  "Func_0041cbe9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_n_options",
+      [
+        765,
+        823
+      ]
+    ]
+  ],
+  "Func_0041ce60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_n",
+      [
+        825,
+        829
+      ]
+    ]
+  ],
+  "Func_0041ce8b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_n_mem",
+      [
+        831,
+        835
+      ]
+    ]
+  ],
+  "Func_0041ceb7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg",
+      [
+        837,
+        841
+      ]
+    ]
+  ],
+  "Func_0041ced6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_mem",
+      [
+        843,
+        847
+      ]
+    ]
+  ],
+  "Func_0041cefd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_n_style",
+      [
+        849,
+        854
+      ]
+    ]
+  ],
+  "Func_0041cf3e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_n_style_mem",
+      [
+        856,
+        862
+      ]
+    ]
+  ],
+  "Func_0041cf7d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_style",
+      [
+        864,
+        868
+      ]
+    ]
+  ],
+  "Func_0041cfa1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_style_mem",
+      [
+        870,
+        874
+      ]
+    ]
+  ],
+  "Func_0041cfcd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_char_mem",
+      [
+        876,
+        883
+      ]
+    ]
+  ],
+  "Func_0041d061": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_char",
+      [
+        885,
+        889
+      ]
+    ]
+  ],
+  "Func_0041d08b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_colon",
+      [
+        891,
+        895
+      ]
+    ]
+  ],
+  "Func_0041d0aa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_colon_mem",
+      [
+        897,
+        901
+      ]
+    ]
+  ],
+  "Func_0041d0d4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_n_custom",
+      [
+        903,
+        909
+      ]
+    ]
+  ],
+  "Func_0041d10a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_n_custom_mem",
+      [
+        911,
+        919
+      ]
+    ]
+  ],
+  "Func_0041d1a1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_custom",
+      [
+        921,
+        926
+      ]
+    ]
+  ],
+  "Func_0041d1d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quotearg_custom_mem",
+      [
+        928,
+        934
+      ]
+    ]
+  ],
+  "Func_0041d20a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quote_n_mem",
+      [
+        946,
+        950
+      ]
+    ]
+  ],
+  "Func_0041d236": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quote_mem",
+      [
+        952,
+        956
+      ]
+    ]
+  ],
+  "Func_0041d25d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quote_n",
+      [
+        958,
+        962
+      ]
+    ]
+  ],
+  "Func_0041d286": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/quotearg.c",
+      "quote",
+      [
+        964,
+        968
+      ]
+    ]
+  ],
+  "Func_0041d2a5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xalloc.h",
+      "xnmalloc",
+      [
+        103,
+        109
+      ]
+    ]
+  ],
+  "Func_0041d2e9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xalloc.h",
+      "xnrealloc",
+      [
+        116,
+        122
+      ]
+    ]
+  ],
+  "Func_0041d33b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xalloc.h",
+      "x2nrealloc",
+      [
+        178,
+        210
+      ]
+    ]
+  ],
+  "Func_0041d3ea": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xalloc.h",
+      "xcharalloc",
+      [
+        217,
+        221
+      ]
+    ]
+  ],
+  "Func_0041d404": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xmalloc.c",
+      "xmalloc",
+      [
+        38,
+        45
+      ]
+    ]
+  ],
+  "Func_0041d439": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xmalloc.c",
+      "xrealloc",
+      [
+        50,
+        65
+      ]
+    ]
+  ],
+  "Func_0041d49a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xmalloc.c",
+      "x2realloc",
+      [
+        73,
+        77
+      ]
+    ]
+  ],
+  "Func_0041d4c4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xmalloc.c",
+      "xzalloc",
+      [
+        83,
+        87
+      ]
+    ]
+  ],
+  "Func_0041d4f5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xmalloc.c",
+      "xcalloc",
+      [
+        92,
+        104
+      ]
+    ]
+  ],
+  "Func_0041d52e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xmalloc.c",
+      "xmemdup",
+      [
+        110,
+        114
+      ]
+    ]
+  ],
+  "Func_0041d562": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xmalloc.c",
+      "xstrdup",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_0041d58f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xalloc-die.c",
+      "xalloc_die",
+      [
+        31,
+        41
+      ]
+    ]
+  ],
+  "Func_0041d5c4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xgetcwd.c",
+      "xgetcwd",
+      [
+        34,
+        41
+      ]
+    ]
+  ],
+  "Func_0041d5fd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/xstrndup.c",
+      "xstrndup",
+      [
+        29,
+        36
+      ]
+    ]
+  ],
+  "Func_0041d636": [],
+  "Func_0041d6f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/getcwd.c",
+      "__getcwd",
+      [
+        109,
+        442
+      ]
+    ]
+  ],
+  "Func_0041dcad": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/mbrtowc.c",
+      "rpl_mbrtowc",
+      [
+        328,
+        405
+      ]
+    ]
+  ],
+  "Func_0041dd0e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-strcasecmp.c",
+      "c_strcasecmp",
+      [
+        26,
+        56
+      ]
+    ]
+  ],
+  "Func_0041dd86": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/localcharset.c",
+      "get_charset_aliases",
+      [
+        123,
+        381
+      ]
+    ]
+  ],
+  "Func_0041e12f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/localcharset.c",
+      "locale_charset",
+      [
+        392,
+        613
+      ]
+    ]
+  ],
+  "Func_0041e1fd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isascii",
+      [
+        26,
+        30
+      ]
+    ]
+  ],
+  "Func_0041e221": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isalnum",
+      [
+        32,
+        65
+      ]
+    ]
+  ],
+  "Func_0041e25b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isalpha",
+      [
+        67,
+        94
+      ]
+    ]
+  ],
+  "Func_0041e289": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isblank",
+      [
+        96,
+        100
+      ]
+    ]
+  ],
+  "Func_0041e2ad": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_iscntrl",
+      [
+        102,
+        134
+      ]
+    ]
+  ],
+  "Func_0041e2d5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isdigit",
+      [
+        136,
+        151
+      ]
+    ]
+  ],
+  "Func_0041e2f9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_islower",
+      [
+        153,
+        171
+      ]
+    ]
+  ],
+  "Func_0041e31d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isgraph",
+      [
+        173,
+        205
+      ]
+    ]
+  ],
+  "Func_0041e341": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isprint",
+      [
+        207,
+        239
+      ]
+    ]
+  ],
+  "Func_0041e365": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_ispunct",
+      [
+        241,
+        263
+      ]
+    ]
+  ],
+  "Func_0041e3ab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isspace",
+      [
+        265,
+        270
+      ]
+    ]
+  ],
+  "Func_0041e3e7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isupper",
+      [
+        272,
+        290
+      ]
+    ]
+  ],
+  "Func_0041e40b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_isxdigit",
+      [
+        292,
+        317
+      ]
+    ]
+  ],
+  "Func_0041e445": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_tolower",
+      [
+        319,
+        356
+      ]
+    ]
+  ],
+  "Func_0041e465": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/sharutils/sharutils-4.15.2/lib/c-ctype.c",
+      "c_toupper",
+      [
+        358,
+        395
+      ]
+    ]
+  ],
+  "Func_0041e490": [],
+  "Func_0041e4f0": [],
+  "Func_0041e500": [],
+  "Func_0041e520": [],
+  "Func_0041e530": [],
+  "Func_0041e540": [],
+  "Func_0041e550": [],
+  "Func_0041e565": []
+}

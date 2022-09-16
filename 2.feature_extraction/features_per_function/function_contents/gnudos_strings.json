@@ -1,0 +1,5069 @@
+{
+  "gnudos/gnudos-1.11.4/doc/corelib/hello_gnudos.c": {
+    "sighandler": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": [
+        "\"Error initializing keyboard. Aborting.\\n\"",
+        "\" Example \""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/doc/corelib/hello_strings.c": {
+    "main": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": [
+        "\"Hello World\"",
+        "\"Hello world\"",
+        "\"\\n%s\"",
+        "\"\\n%d\"",
+        "\"\\n%d\"",
+        "\"\\n%d\"",
+        "\"\\n%s\"",
+        "\"\\n%s\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/corelib/dialogs.c": {
+    "uputchar": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "__dialog_prologue": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "__draw_dialog_buttons": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   YES  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   NO   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   YES  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   ALL  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   NO   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\""
+      ]
+    },
+    "inputBoxI": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        426,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"%s\"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\0\"",
+        "\"\\0\"",
+        "\"\\0\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\0\""
+      ]
+    },
+    "inputBox": {
+      "start_point": [
+        435,
+        0
+      ],
+      "end_point": [
+        438,
+        1
+      ],
+      "strings": []
+    },
+    "getUserInput": {
+      "start_point": [
+        441,
+        0
+      ],
+      "end_point": [
+        450,
+        1
+      ],
+      "strings": []
+    },
+    "_msg_box": {
+      "start_point": [
+        453,
+        0
+      ],
+      "end_point": [
+        551,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\""
+      ]
+    },
+    "msgBox": {
+      "start_point": [
+        560,
+        0
+      ],
+      "end_point": [
+        571,
+        1
+      ],
+      "strings": [
+        "\" INFORMATION \"",
+        "\" ERROR \"",
+        "\" CONFIRMATION \"",
+        "\" MESSAGE \""
+      ]
+    },
+    "msgBoxH": {
+      "start_point": [
+        576,
+        0
+      ],
+      "end_point": [
+        583,
+        1
+      ],
+      "strings": []
+    },
+    "drawBox": {
+      "start_point": [
+        592,
+        0
+      ],
+      "end_point": [
+        662,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[0m\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"%s\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\e)0\\x0e\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"%c\\x1b[%d;%dH%c\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x0f\"",
+        "\"\\x1b[%d;%dH%s\""
+      ]
+    },
+    "drawBoxP": {
+      "start_point": [
+        669,
+        0
+      ],
+      "end_point": [
+        672,
+        1
+      ],
+      "strings": []
+    },
+    "catchAllSignals": {
+      "start_point": [
+        674,
+        0
+      ],
+      "end_point": [
+        685,
+        1
+      ],
+      "strings": []
+    },
+    "catchSignals": {
+      "start_point": [
+        687,
+        0
+      ],
+      "end_point": [
+        695,
+        1
+      ],
+      "strings": []
+    },
+    "show_about": {
+      "start_point": [
+        704,
+        0
+      ],
+      "end_point": [
+        708,
+        1
+      ],
+      "strings": [
+        "\" ABOUT \""
+      ]
+    },
+    "show_readme": {
+      "start_point": [
+        720,
+        0
+      ],
+      "end_point": [
+        886,
+        1
+      ],
+      "strings": [
+        "\"Failed to open README file!.\"",
+        "\"Error reading README file!.\"",
+        "\"Insufficient memory!.\"",
+        "\"r\"",
+        "\" README \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/corelib/dialogs.h": {},
+  "gnudos/gnudos-1.11.4/src/corelib/kbd.c": {
+    "initTerminal": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "restoreTerminal": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "getKey": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/corelib/kbd.h": {},
+  "gnudos/gnudos-1.11.4/src/corelib/screen.c": {
+    "setScreenColors": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dm\""
+      ]
+    },
+    "setScreenColorsI": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dm\""
+      ]
+    },
+    "getScreenSize": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "clearScreenC": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": [
+        "\"\\e[2J\"",
+        "\"\\e[%d;%dm\"",
+        "\"\\e[3J\\e[1;1H\""
+      ]
+    },
+    "clearScreen": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": [
+        "\"\\e[2J\"",
+        "\"\\x1b[37;4m\"",
+        "\"\\e[3J\\e[1;1H\""
+      ]
+    },
+    "locate": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "getScreenColors": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": [
+        "\"BLACK\"",
+        "\"RED\"",
+        "\"GREEN\"",
+        "\"BROWN\"",
+        "\"BLUE\"",
+        "\"MAGENTA\"",
+        "\"CYAN\"",
+        "\"WHITE\"",
+        "\"BGBLACK\"",
+        "\"BGRED\"",
+        "\"BGGREEN\"",
+        "\"BGBROWN\"",
+        "\"BGBLUE\"",
+        "\"BGMAGENTA\"",
+        "\"BGCYAN\"",
+        "\"BGWHITE\""
+      ]
+    },
+    "loadDefaultColors": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    },
+    "showCursor": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": [
+        "\"\\e[?25h\""
+      ]
+    },
+    "hideCursor": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": [
+        "\"\\e[?25l\""
+      ]
+    },
+    "reset_attribs": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[0m\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/corelib/screen.h": {},
+  "gnudos/gnudos-1.11.4/src/corelib/ukbd.c": {
+    "ugetKeyUnderConsole": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "ugetKeyUnderX": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": []
+    },
+    "ugetKey": {
+      "start_point": [
+        288,
+        0
+      ],
+      "end_point": [
+        292,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/corelib/ukbd.h": {},
+  "gnudos/gnudos-1.11.4/src/mino/defs.h": {},
+  "gnudos/gnudos-1.11.4/src/mino/dir.c": {
+    "one": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    },
+    "getCwd": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "scanDir": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"Insufficient memory\"",
+        "\"Error opening dir:\\n%s\"",
+        "\"\\0\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/edit.c": {
+    "deleteUndoList": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    },
+    "deleteRedoList": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "initEdit": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": []
+    },
+    "allocNewUndo": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "getLastUndo": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    },
+    "initUndoAction": {
+      "start_point": [
+        127,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    },
+    "copyFromBuf": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    },
+    "flushUndoBuffer": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "isContinuous": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": []
+    },
+    "undoAddChar": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "undoAddUtfChar": {
+      "start_point": [
+        218,
+        0
+      ],
+      "end_point": [
+        246,
+        1
+      ],
+      "strings": []
+    },
+    "extendClipboardSize": {
+      "start_point": [
+        248,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "swap_lines": {
+      "start_point": [
+        261,
+        0
+      ],
+      "end_point": [
+        270,
+        1
+      ],
+      "strings": []
+    },
+    "swap_chars": {
+      "start_point": [
+        272,
+        0
+      ],
+      "end_point": [
+        278,
+        1
+      ],
+      "strings": []
+    },
+    "clear_selected_range": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    },
+    "editMenu_DeleteLine": {
+      "start_point": [
+        291,
+        0
+      ],
+      "end_point": [
+        294,
+        1
+      ],
+      "strings": []
+    },
+    "editMenu_ToggleSelectMode": {
+      "start_point": [
+        301,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": [
+        "\"The select mode is only available under X.\\nUse SHIFT to select text.\""
+      ]
+    },
+    "editMenu_Copy": {
+      "start_point": [
+        325,
+        0
+      ],
+      "end_point": [
+        373,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "editMenu_Cut": {
+      "start_point": [
+        378,
+        0
+      ],
+      "end_point": [
+        385,
+        1
+      ],
+      "strings": []
+    },
+    "remove_selected_text": {
+      "start_point": [
+        390,
+        0
+      ],
+      "end_point": [
+        491,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "_do_paste": {
+      "start_point": [
+        493,
+        0
+      ],
+      "end_point": [
+        617,
+        1
+      ],
+      "strings": [
+        "\"Unable to paste text. Line count will exceed the maximum of \"",
+        "\".\"",
+        "\"Insufficient memory\"",
+        "\"Insufficient memory\""
+      ]
+    },
+    "editMenu_Paste": {
+      "start_point": [
+        623,
+        0
+      ],
+      "end_point": [
+        631,
+        1
+      ],
+      "strings": []
+    },
+    "editMenu_SelectAll": {
+      "start_point": [
+        636,
+        0
+      ],
+      "end_point": [
+        661,
+        1
+      ],
+      "strings": []
+    },
+    "fixViewPostUndo": {
+      "start_point": [
+        663,
+        0
+      ],
+      "end_point": [
+        712,
+        1
+      ],
+      "strings": []
+    },
+    "editMenu_Undo": {
+      "start_point": [
+        722,
+        0
+      ],
+      "end_point": [
+        820,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "editMenu_Redo": {
+      "start_point": [
+        830,
+        0
+      ],
+      "end_point": [
+        928,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "editMenu_Find": {
+      "start_point": [
+        934,
+        0
+      ],
+      "end_point": [
+        1035,
+        1
+      ],
+      "strings": [
+        "\"Enter text to find:  \"",
+        "\" Find \"",
+        "\"No matches were found.\"",
+        "\"\\e[%d;1HFind(%d/%d): [C-p] Prev [C-n] Next [C-g] Cancel\"",
+        "\"\\e[%d;1HFind(%d/%d): [C-p] Prev [C-n] Next [ESC] Cancel\"",
+        "\"\\e[%d;1HFind(%d/%d): [Up] Prev [Down] Next [ESC] Cancel\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "editMenu_Replace": {
+      "start_point": [
+        1041,
+        0
+      ],
+      "end_point": [
+        1161,
+        1
+      ],
+      "strings": [
+        "\"Enter text to find:  \"",
+        "\" Find \"",
+        "\"Enter replacement text: \"",
+        "\" Replace \"",
+        "\"No matches were found.\"",
+        "\"\\e[%d;1HFind(%d/%d): [ENTER] Replace [A] Replace All [C-g] Cancel\"",
+        "\"\\e[%d;1HFind(%d/%d): [ENTER] Replace [A] Replace All [ESC] Cancel\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "_replace": {
+      "start_point": [
+        1168,
+        0
+      ],
+      "end_point": [
+        1206,
+        1
+      ],
+      "strings": []
+    },
+    "_find": {
+      "start_point": [
+        1208,
+        0
+      ],
+      "end_point": [
+        1225,
+        1
+      ],
+      "strings": []
+    },
+    "_do_replace": {
+      "start_point": [
+        1227,
+        0
+      ],
+      "end_point": [
+        1286,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory!\""
+      ]
+    },
+    "calcTotalCharsInLineC": {
+      "start_point": [
+        1288,
+        0
+      ],
+      "end_point": [
+        1312,
+        1
+      ],
+      "strings": []
+    },
+    "calcTotalCharsInLine": {
+      "start_point": [
+        1314,
+        0
+      ],
+      "end_point": [
+        1318,
+        1
+      ],
+      "strings": []
+    },
+    "utfstrlen": {
+      "start_point": [
+        1320,
+        0
+      ],
+      "end_point": [
+        1329,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/edit.h": {},
+  "gnudos/gnudos-1.11.4/src/mino/file.c": {
+    "checkFileModified": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": [
+        "\"File has been changed. Save changes?\"",
+        "\"Failed to save file.\"",
+        "\"Failed to save file.\""
+      ]
+    },
+    "fileMenu_New": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": []
+    },
+    "fileMenu_Open": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": [
+        "\"Failed to open file.\""
+      ]
+    },
+    "fileMenu_Save": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": [
+        "\"Failed to save file.\"",
+        "\"Failed to save file.\"",
+        "\"Failed to save file.\""
+      ]
+    },
+    "fileMenu_SaveAs": {
+      "start_point": [
+        162,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": [
+        "\"Failed to save file.\""
+      ]
+    },
+    "fileMenu_Print": {
+      "start_point": [
+        175,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": [
+        "\"Oops! This function is not currently implemented!.\""
+      ]
+    },
+    "fileMenu_Exit": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        184,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/file.h": {},
+  "gnudos/gnudos-1.11.4/src/mino/help.c": {
+    "showAboutBox": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        30,
+        1
+      ],
+      "strings": []
+    },
+    "showQuickReference": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": [
+        "\"Quick Reference\"",
+        "\"\\e[4;7HBasic functions:\"",
+        "\"\\e[5;9HArrow keys: move around\"",
+        "\"\\e[6;9HALT+F: Open File menu\"",
+        "\"\\e[7;9HALT+E: Open Edit menu\"",
+        "\"\\e[8;9HALT+O: Open Options menu\"",
+        "\"\\e[9;9HALT+H: Open Help menu\"",
+        "\"\\e[11;7HShortcut keys:\"",
+        "\"\\e[12;9HCTRL+O: Open file dialog\"",
+        "\"\\e[13;9HCTRL+S: Save file\"",
+        "\"\\e[14;9HCTRL+Q: Exit mino\"",
+        "\"\\e[15;9HCTRL+X: Cut selection\"",
+        "\"\\e[16;9HCTRL+C: Copy selection\"",
+        "\"\\e[17;9HCTRL+V: Paste selection\"",
+        "\"\\e[18;9HCTRL+Z: Undo\"",
+        "\"\\e[19;9HCTRL+Y: Redo\"",
+        "\"\\e[20;9HCTRL+A: Select All\"",
+        "\"\\e[21;9HCTRL+F: Find\"",
+        "\"\\e[22;9HCTRL+R: Find & Replace\"",
+        "\"\\e[23;7HPress any key to continue..\""
+      ]
+    },
+    "_do_show": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        234,
+        1
+      ],
+      "strings": [
+        "\"/usr/share/doc/gnudos/mino/README\"",
+        "\"/usr/local/share/doc/gnudos/mino/README\"",
+        "\"/usr/share/doc/gnudos/mino/keybindings\"",
+        "\"/usr/local/share/doc/gnudos/mino/keybindings\"",
+        "\" README \"",
+        "\" KEYBINDINGS \"",
+        "\"Failed to read the README file!.\"",
+        "\"Failed to read the KEYBINDINGS file!.\"",
+        "\"r\"",
+        "\"r\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "showKeybindings": {
+      "start_point": [
+        239,
+        0
+      ],
+      "end_point": [
+        242,
+        1
+      ],
+      "strings": []
+    },
+    "showReadMe": {
+      "start_point": [
+        247,
+        0
+      ],
+      "end_point": [
+        250,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/help.h": {},
+  "gnudos/gnudos-1.11.4/src/mino/init.c": {
+    "outOfMemory": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": [
+        "\"Fatal error: Insufficient memory\\n\""
+      ]
+    },
+    "exit_gracefully": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": [
+        "\"File has been changed. Save changes?\"",
+        "\"Failed to save file.\"",
+        "\"Failed to save file.\"",
+        "\"\\x1b[24m\""
+      ]
+    },
+    "parseLineArgs": {
+      "start_point": [
+        92,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": [
+        "\"reset-config\"",
+        "\"help\"",
+        "\"level\"",
+        "\"version\"",
+        "\"rhl:v\"",
+        "\"Error: couldn't open home directory to write \"",
+        "\"configuration file.\\n\"",
+        "\"Aborting.\\n\"",
+        "\"Insufficient memory\\n\"",
+        "\"/\"",
+        "\".mino.conf\"",
+        "\"w\"",
+        "\"Error: couldn't write to configuration file in \"",
+        "\"your home directory.\\n\"",
+        "\"Aborting.\\n\"",
+        "\"Resetting program configuration..\\n\"",
+        "\"Finished writing default values to ~/.mino.conf\\n\"",
+        "\"\\nCommand line help for mino\\n\"",
+        "\"%s\\n\"",
+        "\"Usage: %s [filename][options]\\n\\n\"",
+        "\"Options:\\n\"",
+        "\"\\tfilename: File to be opened by mino (optional)\\n\"",
+        "\"\\t--reset-config, -r\\tReset program configuration. \"",
+        "\"Writes default\\n\"",
+        "\"\\t                  \\tvalues to .mino.conf file\\n\"",
+        "\"\\t--help, -h        \\tShow this command line help\\n\"",
+        "\"\\t--version, -v     \\tShow program version\\n\"",
+        "\"\\t--levelX, -lX     \\tSet the experience level, where X is 1-6\\n\"",
+        "\"For more information, see 'info mino' or the README\"",
+        "\" file in mino help menu\\n\"",
+        "\"%s\\n\"",
+        "\"Unrecognised level. See 'man mino' or \"",
+        "\"'info mino' for information about possible\"",
+        "\" levels.\\n\""
+      ]
+    },
+    "init_error": {
+      "start_point": [
+        200,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": [
+        "\"Error: couldn't open home directory and read configuration file.\\n\"",
+        "\"Will use built-in defaults. This means if you have set any\\n\"",
+        "\"preferences (for example, display colors), they will be of\\n\"",
+        "\"no effect.\\n\"",
+        "\"You can reset your config file to program defaults by invoking:\\n\"",
+        "\"mino --reset-config\\n\\nPress any key to continue..\\n\""
+      ]
+    },
+    "__initNewDocument": {
+      "start_point": [
+        212,
+        0
+      ],
+      "end_point": [
+        225,
+        1
+      ],
+      "strings": []
+    },
+    "initNewDocument": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        234,
+        1
+      ],
+      "strings": []
+    },
+    "resetLineCounters": {
+      "start_point": [
+        236,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    },
+    "__init": {
+      "start_point": [
+        245,
+        0
+      ],
+      "end_point": [
+        332,
+        1
+      ],
+      "strings": [
+        "\"&File\"",
+        "\"&Edit\"",
+        "\"&Options\"",
+        "\"&Help\"",
+        "\"New..         ^N\"",
+        "\"Open file     ^O\"",
+        "\"Save file     ^S\"",
+        "\"Save as..       \"",
+        "\"Print         ^P\"",
+        "\"Exit          ^Q\"",
+        "\"Cut                ^X\"",
+        "\"Copy               ^C\"",
+        "\"Paste              ^V\"",
+        "\"Select all         ^A\"",
+        "\"Undo               ^Z\"",
+        "\"Redo               ^Y\"",
+        "\"Delete Line        ^D\"",
+        "\"Find..             ^F\"",
+        "\"Replace..          ^R\"",
+        "\"Toggle select mode ^E\"",
+        "\"Change colors  \"",
+        "\"Tab spaces     \"",
+        "\"Autoindent     \"",
+        "\"Reset config   \"",
+        "\"View README    \"",
+        "\"GNU Keybindings\"",
+        "\"Quick reference\"",
+        "\"About Mino..   \""
+      ]
+    },
+    "init": {
+      "start_point": [
+        338,
+        0
+      ],
+      "end_point": [
+        487,
+        1
+      ],
+      "strings": [
+        "\"BLACK\"",
+        "\"RED\"",
+        "\"GREEN\"",
+        "\"BROWN\"",
+        "\"BLUE\"",
+        "\"MAGENTA\"",
+        "\"CYAN\"",
+        "\"WHITE\"",
+        "\"/\"",
+        "\".mino.conf\"",
+        "\"r\"",
+        "\"GNU_DOS_LEVEL\"",
+        "\"TAB_CHARS\"",
+        "\"DEFAULT_TITLE\"",
+        "\"WRAP_LINES\"",
+        "\"TRUE\"",
+        "\"CAPS\"",
+        "\"OFF\"",
+        "\"INSERT\"",
+        "\"OFF\"",
+        "\"FG_COLOR_WIN\"",
+        "\"FG_COLOR_HLT\"",
+        "\"FG_COLOR_MBAR\"",
+        "\"FG_COLOR_SBAR\"",
+        "\"FG_COLOR_HBUT\"",
+        "\"FG_COLOR_BUT\"",
+        "\"BG_COLOR_WIN\"",
+        "\"BG_COLOR_HLT\"",
+        "\"BG_COLOR_MBAR\"",
+        "\"BG_COLOR_SBAR\"",
+        "\"BG_COLOR_HBUT\"",
+        "\"BG_COLOR_BUT\"",
+        "\"SHOW_README\"",
+        "\"AUTO_INDENT\"",
+        "\"Autoindent    *\"",
+        "\"Autoindent     \"",
+        "\"Fatal error: Failed to initialize the terminal.\\r\\nAborting.\\n\"",
+        "\"Fatal error: Insufficient memory\\n\""
+      ]
+    },
+    "showREADMEOnStartup": {
+      "start_point": [
+        490,
+        0
+      ],
+      "end_point": [
+        555,
+        1
+      ],
+      "strings": [
+        "\" Welcome to mino \"",
+        "\"\\e[%d;%dH\"",
+        "\"Welcome to mino!\"",
+        "\"\\e[%d;%dH\"",
+        "\"README file will be shown to help you\"",
+        "\"\\e[%d;%dH\"",
+        "\"start using mino.\"",
+        "\"\\e[%d;%dH\"",
+        "\"  OK  \"",
+        "\"\\e[%d;%dH\"",
+        "\" Don't show README again \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"  OK  \"",
+        "\"\\e[%d;%dH\"",
+        "\" Don't show README again \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"  OK  \"",
+        "\"\\e[%d;%dH\"",
+        "\" Don't show README again \"",
+        "\"\\e[%d;%dH\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/kbd.c": {
+    "initTerminal": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "restoreTerminal": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    },
+    "getKeyUnderConsole": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        176,
+        1
+      ],
+      "strings": []
+    },
+    "getKeyUnderX": {
+      "start_point": [
+        180,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": []
+    },
+    "getKey": {
+      "start_point": [
+        328,
+        0
+      ],
+      "end_point": [
+        493,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/kbd.h": {},
+  "gnudos/gnudos-1.11.4/src/mino/linestruct.c": {
+    "allocLineStruct": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "allocLineStructB": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "copyLineStruct": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "freeLineStruct": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/main.c": {
+    "confirmEOL": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "gotoNextWord": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "strings": []
+    },
+    "gotoPrevWord": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": []
+    },
+    "sighandler": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        830,
+        1
+      ],
+      "strings": [
+        "\"/dev/null\"",
+        "\"r\"",
+        "\"Failed to open NULL device\\n\"",
+        "\"\\e[3;2H\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"[C-f] [C-e] [C-o] [C-h] [C-c] [C-s] [C-u] [C-g]\"",
+        "\"Fatal error: Insufficient memory\\n\""
+      ]
+    },
+    "deleteLine": {
+      "start_point": [
+        833,
+        0
+      ],
+      "end_point": [
+        847,
+        1
+      ],
+      "strings": []
+    },
+    "is_whitespace": {
+      "start_point": [
+        849,
+        0
+      ],
+      "end_point": [
+        853,
+        1
+      ],
+      "strings": []
+    },
+    "findNextChar": {
+      "start_point": [
+        855,
+        0
+      ],
+      "end_point": [
+        862,
+        1
+      ],
+      "strings": []
+    },
+    "findPrevChar": {
+      "start_point": [
+        864,
+        0
+      ],
+      "end_point": [
+        872,
+        1
+      ],
+      "strings": []
+    },
+    "copyInLine": {
+      "start_point": [
+        874,
+        0
+      ],
+      "end_point": [
+        888,
+        1
+      ],
+      "strings": []
+    },
+    "charsToBytes": {
+      "start_point": [
+        890,
+        0
+      ],
+      "end_point": [
+        902,
+        1
+      ],
+      "strings": []
+    },
+    "extendLineText": {
+      "start_point": [
+        904,
+        0
+      ],
+      "end_point": [
+        913,
+        1
+      ],
+      "strings": []
+    },
+    "checkLineBounds": {
+      "start_point": [
+        915,
+        0
+      ],
+      "end_point": [
+        954,
+        1
+      ],
+      "strings": []
+    },
+    "appendToLine": {
+      "start_point": [
+        958,
+        0
+      ],
+      "end_point": [
+        975,
+        1
+      ],
+      "strings": []
+    },
+    "postDeleteWord": {
+      "start_point": [
+        977,
+        0
+      ],
+      "end_point": [
+        995,
+        1
+      ],
+      "strings": []
+    },
+    "deleteNextWord": {
+      "start_point": [
+        997,
+        0
+      ],
+      "end_point": [
+        1033,
+        1
+      ],
+      "strings": []
+    },
+    "deletePrevWord": {
+      "start_point": [
+        1035,
+        0
+      ],
+      "end_point": [
+        1077,
+        1
+      ],
+      "strings": []
+    },
+    "deleteNextChar": {
+      "start_point": [
+        1079,
+        0
+      ],
+      "end_point": [
+        1114,
+        1
+      ],
+      "strings": []
+    },
+    "deletePrevChar": {
+      "start_point": [
+        1117,
+        0
+      ],
+      "end_point": [
+        1162,
+        1
+      ],
+      "strings": []
+    },
+    "insertEnter": {
+      "start_point": [
+        1164,
+        0
+      ],
+      "end_point": [
+        1227,
+        1
+      ],
+      "strings": []
+    },
+    "insertTab": {
+      "start_point": [
+        1230,
+        0
+      ],
+      "end_point": [
+        1236,
+        1
+      ],
+      "strings": [
+        "\"\\t\""
+      ]
+    },
+    "getUtfCharLength": {
+      "start_point": [
+        1238,
+        0
+      ],
+      "end_point": [
+        1244,
+        1
+      ],
+      "strings": []
+    },
+    "replaceChar": {
+      "start_point": [
+        1250,
+        0
+      ],
+      "end_point": [
+        1274,
+        1
+      ],
+      "strings": []
+    },
+    "insertChar": {
+      "start_point": [
+        1276,
+        0
+      ],
+      "end_point": [
+        1321,
+        1
+      ],
+      "strings": []
+    },
+    "refreshSelectedLine": {
+      "start_point": [
+        1323,
+        0
+      ],
+      "end_point": [
+        1329,
+        1
+      ],
+      "strings": []
+    },
+    "outputEmptyLine": {
+      "start_point": [
+        1331,
+        0
+      ],
+      "end_point": [
+        1335,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"%*s\"",
+        "\" \""
+      ]
+    },
+    "padLineWithSpaces": {
+      "start_point": [
+        1337,
+        0
+      ],
+      "end_point": [
+        1341,
+        1
+      ],
+      "strings": [
+        "\"%*s\"",
+        "\" \""
+      ]
+    },
+    "putuchar": {
+      "start_point": [
+        1343,
+        0
+      ],
+      "end_point": [
+        1369,
+        1
+      ],
+      "strings": [
+        "\"%*s\"",
+        "\" \"",
+        "\"%s\""
+      ]
+    },
+    "strStartsWith": {
+      "start_point": [
+        1371,
+        0
+      ],
+      "end_point": [
+        1374,
+        1
+      ],
+      "strings": []
+    },
+    "strStartsWithL": {
+      "start_point": [
+        1376,
+        0
+      ],
+      "end_point": [
+        1379,
+        1
+      ],
+      "strings": []
+    },
+    "isBraceChar": {
+      "start_point": [
+        1383,
+        0
+      ],
+      "end_point": [
+        1391,
+        1
+      ],
+      "strings": []
+    },
+    "isQuoteChar": {
+      "start_point": [
+        1393,
+        0
+      ],
+      "end_point": [
+        1397,
+        1
+      ],
+      "strings": []
+    },
+    "isSpaceChar": {
+      "start_point": [
+        1399,
+        0
+      ],
+      "end_point": [
+        1403,
+        1
+      ],
+      "strings": []
+    },
+    "indexOf": {
+      "start_point": [
+        1405,
+        0
+      ],
+      "end_point": [
+        1410,
+        1
+      ],
+      "strings": []
+    },
+    "refreshSelectedLineInColor": {
+      "start_point": [
+        1417,
+        0
+      ],
+      "end_point": [
+        1530,
+        1
+      ],
+      "strings": []
+    },
+    "isKeyword": {
+      "start_point": [
+        1535,
+        0
+      ],
+      "end_point": [
+        1555,
+        1
+      ],
+      "strings": []
+    },
+    "refreshView": {
+      "start_point": [
+        1557,
+        0
+      ],
+      "end_point": [
+        1590,
+        1
+      ],
+      "strings": [
+        "\"\\e[?25l\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[?25h\""
+      ]
+    },
+    "commentStatus": {
+      "start_point": [
+        1593,
+        0
+      ],
+      "end_point": [
+        1609,
+        1
+      ],
+      "strings": []
+    },
+    "refreshViewLines": {
+      "start_point": [
+        1612,
+        0
+      ],
+      "end_point": [
+        1686,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "drawScrollBar": {
+      "start_point": [
+        1690,
+        0
+      ],
+      "end_point": [
+        1706,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH \"",
+        "\"\\e[%d;%dH%c\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "refreshBottomView": {
+      "start_point": [
+        1708,
+        0
+      ],
+      "end_point": [
+        1731,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"| LINE:%-3d COL:%-3d\"",
+        "\"\\e[%d;%dHCAPS\"",
+        "\"\\e[%d;%dHINS\"",
+        "\"\\e[%d;%dHSEL\"",
+        "\"\\e[%d;%dH\"",
+        "\"Modified\"",
+        "\"New\"",
+        "\"Saved\"",
+        "\"Opened\"",
+        "\"Idle\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "drawMenuBar": {
+      "start_point": [
+        1737,
+        0
+      ],
+      "end_point": [
+        1768,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\" \"",
+        "\"%c\"",
+        "\"%c\"",
+        "\" \"",
+        "\"\\x1b[24m\""
+      ]
+    },
+    "catchSignals": {
+      "start_point": [
+        1770,
+        0
+      ],
+      "end_point": [
+        1796,
+        1
+      ],
+      "strings": [
+        "\"Error interrupting SIGINT.\\n\"",
+        "\"Error interrupting SIGQUIT.\\n\"",
+        "\"Error interrupting SIGABRT.\\n\"",
+        "\"Error interrupting SIGTERM.\\n\""
+      ]
+    },
+    "drawBox": {
+      "start_point": [
+        1805,
+        0
+      ],
+      "end_point": [
+        1867,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH\"",
+        "\"\\e)0\\x0e\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"%c%s%c\"",
+        "\"%c\\x1b[%d;%dH%c\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x0f\"",
+        "\"\\x1b[%d;%dH%s\""
+      ]
+    },
+    "move_lines_up": {
+      "start_point": [
+        1870,
+        0
+      ],
+      "end_point": [
+        1882,
+        1
+      ],
+      "strings": []
+    },
+    "move_lines_upd": {
+      "start_point": [
+        1885,
+        0
+      ],
+      "end_point": [
+        1902,
+        1
+      ],
+      "strings": []
+    },
+    "move_lines_downl": {
+      "start_point": [
+        1904,
+        0
+      ],
+      "end_point": [
+        1920,
+        1
+      ],
+      "strings": []
+    },
+    "move_lines_down": {
+      "start_point": [
+        1922,
+        0
+      ],
+      "end_point": [
+        1925,
+        1
+      ],
+      "strings": []
+    },
+    "calcCharCarry": {
+      "start_point": [
+        1927,
+        0
+      ],
+      "end_point": [
+        1941,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/menu.c": {
+    "drawMenuBox": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "clearSelection": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH%s\""
+      ]
+    },
+    "highlightSelection": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "doEsc": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    },
+    "doUpDown": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": []
+    },
+    "doRightLeft": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": []
+    },
+    "showMenu": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/msgbox.c": {
+    "putunichar": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "inputBox": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        364,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\""
+      ]
+    },
+    "msgBox": {
+      "start_point": [
+        374,
+        0
+      ],
+      "end_point": [
+        570,
+        1
+      ],
+      "strings": [
+        "\" INFORMATION \"",
+        "\" ERROR \"",
+        "\" CONFIRMATION \"",
+        "\" MESSAGE \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   YES  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   NO   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   YES  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   NO   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   YES  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   NO   \"",
+        "\"\\x1b[%d;%dH\""
+      ]
+    },
+    "getUserInput": {
+      "start_point": [
+        573,
+        0
+      ],
+      "end_point": [
+        592,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/opensave.c": {
+    "one": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    },
+    "initDirView": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "pathAppend": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    },
+    "createDocTitle": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\""
+      ]
+    },
+    "openSaveFile": {
+      "start_point": [
+        141,
+        0
+      ],
+      "end_point": [
+        651,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\"",
+        "\".\"",
+        "\"\"",
+        "\"\\e[%d;%dH\"",
+        "\"File: \"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"%s\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"%s\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"File: \"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"File: \"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"File already exists. Overwrite?\"",
+        "\"\\e[%d;%dH\"",
+        "\"File: \"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"File: \"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"File already exists. Overwrite?\"",
+        "\"\\e[%d;%dH\"",
+        "\"File: \"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"File: \"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "refreshDirView": {
+      "start_point": [
+        659,
+        0
+      ],
+      "end_point": [
+        744,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\"",
+        "\"\\e[%d;%dH\"",
+        "\"[ENTER]: Open dir/file [C-p C-n C-f C-b]: Navigate [C-g]: Cancel\"",
+        "\"[ENTER]: Open dir/file [C-p C-n C-f C-b]: Navigate [ESC]: Cancel\"",
+        "\"[ENTER]: Open dir/file  [ARROWS]: Navigate  [ESC]: Cancel\"",
+        "\"\\e[%d;%dH\"",
+        "\"File: \"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "_saveFile": {
+      "start_point": [
+        751,
+        0
+      ],
+      "end_point": [
+        770,
+        1
+      ],
+      "strings": [
+        "\"w+\"",
+        "\"%s\""
+      ]
+    },
+    "copyBufToLine": {
+      "start_point": [
+        772,
+        0
+      ],
+      "end_point": [
+        781,
+        1
+      ],
+      "strings": []
+    },
+    "_openFile": {
+      "start_point": [
+        789,
+        0
+      ],
+      "end_point": [
+        850,
+        1
+      ],
+      "strings": [
+        "\"r\""
+      ]
+    },
+    "checkFileExtension": {
+      "start_point": [
+        852,
+        0
+      ],
+      "end_point": [
+        912,
+        1
+      ],
+      "strings": [
+        "\"/bin/csh\"",
+        "\"/bin/ksh\"",
+        "\"/bin/sh\"",
+        "\"/bin/bash\"",
+        "\"/bin/perl\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/options.c": {
+    "findColorName": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": [
+        "\"BLACK  \"",
+        "\"RED    \"",
+        "\"GREEN  \"",
+        "\"BROWN  \"",
+        "\"BLUE   \"",
+        "\"MAGENTA\"",
+        "\"CYAN   \"",
+        "\"WHITE  \""
+      ]
+    },
+    "saveOldColors": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "resetColors": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "showColorChooserDialog": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": [
+        "\" Choose color \"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\""
+      ]
+    },
+    "refreshChangeColorsDialog": {
+      "start_point": [
+        196,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": [
+        "\"Change colors\"",
+        "\"\\e[%d;%dHForeground  Background\"",
+        "\"\\e[%d;%dH  OK   RESET\"",
+        "\"\\e[%d;%dH\"",
+        "\"%s  %s  %s\"",
+        "\"\\e[%d;%dH  OK  \"",
+        "\"\\e[%d;%dHRESET\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\""
+      ]
+    },
+    "optionsMenu_Change_Colors": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        338,
+        1
+      ],
+      "strings": []
+    },
+    "optionsMenu_Tab_Spaces": {
+      "start_point": [
+        345,
+        0
+      ],
+      "end_point": [
+        355,
+        1
+      ],
+      "strings": [
+        "\"Enter number of spaces in a tab:\"",
+        "\" Tab spaces \""
+      ]
+    },
+    "optionsMenu_Autoindent": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        369,
+        1
+      ],
+      "strings": []
+    },
+    "optionsMenu_Reset_Config": {
+      "start_point": [
+        375,
+        0
+      ],
+      "end_point": [
+        400,
+        1
+      ],
+      "strings": [
+        "\"Couldn't open home directory to write config file.\"",
+        "\"Insufficient memory\"",
+        "\"/\"",
+        "\".mino.conf\"",
+        "\"w\"",
+        "\"Couldn't write to config file in home directory.\"",
+        "\"Finished writing default values to ~/.mino.conf\""
+      ]
+    },
+    "write_config_file": {
+      "start_point": [
+        402,
+        0
+      ],
+      "end_point": [
+        427,
+        1
+      ],
+      "strings": [
+        "\"Couldn't open home directory to write config file.\"",
+        "\"Insufficient memory\"",
+        "\"/\"",
+        "\".mino.conf\"",
+        "\"w\"",
+        "\"Couldn't write to config file in home directory.\""
+      ]
+    },
+    "_write_config_file": {
+      "start_point": [
+        429,
+        0
+      ],
+      "end_point": [
+        502,
+        1
+      ],
+      "strings": [
+        "\"#Configuration file for mino program\\n\"",
+        "\"#Please do not modify this file by hand\\n\"",
+        "\"#Use the Options menu in mino to change program configuration.\\n\\n\"",
+        "\"#Line Wrapping\\n\"",
+        "\"#If TRUE, lines cannot be longer than the screen width\\n\"",
+        "\"#If FALSE, lines cannot be upto MAX_CHARS_PER_LINE characters\\n\"",
+        "\"#Note this value is omitted if WRAP_LINES is TRUE\\n\"",
+        "\"MAX_CHARS_PER_LINE = 100\\n\"",
+        "\"WRAP_LINES = TRUE\\n\\n\"",
+        "\"#Default title for newly opened documents, no quotes\\n\"",
+        "\"DEFAULT_TITLE = untitled\\n\\n\"",
+        "\"#Start mino with CAPS and INSERT set to OFF/ON\\n\"",
+        "\"CAPS = OFF\\n\"",
+        "\"INSERT = OFF\\n\\n\"",
+        "\"#Number of spaces to insert when user presses TAB key\\n\"",
+        "\"TAB_CHARS = 8\\n\\n\"",
+        "\"#Display colors\\n\"",
+        "\"FG_COLOR_WIN = 37\\n\"",
+        "\"FG_COLOR_HLT = 34\\n\"",
+        "\"FG_COLOR_MBAR = 34\\n\"",
+        "\"FG_COLOR_SBAR = 34\\n\"",
+        "\"FG_COLOR_HBUT = 32\\n\"",
+        "\"FG_COLOR_BUT = 37\\n\"",
+        "\"BG_COLOR_WIN = 44\\n\"",
+        "\"BG_COLOR_HLT = 47\\n\"",
+        "\"BG_COLOR_MBAR = 47\\n\"",
+        "\"BG_COLOR_SBAR = 47\\n\"",
+        "\"BG_COLOR_HBUT = 41\\n\"",
+        "\"BG_COLOR_BUT = 41\\n\\n\"",
+        "\"#Show README on startup\\n\"",
+        "\"SHOW_README\\n\\n\"",
+        "\"#GnuDOS Level\\n\"",
+        "\"GNU_DOS_LEVEL = 1\\n\\n\"",
+        "\"#Auto-indentation\\n\"",
+        "\"AUTO_INDENT = 1\\n\"",
+        "\"TAB_CHARS = %d\\n\\n\"",
+        "\"#Display colors\\n\"",
+        "\"FG_COLOR_WIN = %d\\n\"",
+        "\"FG_COLOR_HLT = %d\\n\"",
+        "\"FG_COLOR_MBAR = %d\\n\"",
+        "\"FG_COLOR_SBAR = %d\\n\"",
+        "\"FG_COLOR_HBUT = %d\\n\"",
+        "\"FG_COLOR_BUT = %d\\n\"",
+        "\"BG_COLOR_WIN = %d\\n\"",
+        "\"BG_COLOR_HLT = %d\\n\"",
+        "\"BG_COLOR_MBAR = %d\\n\"",
+        "\"BG_COLOR_SBAR = %d\\n\"",
+        "\"BG_COLOR_HBUT = %d\\n\"",
+        "\"BG_COLOR_BUT = %d\\n\"",
+        "\"#Show README on startup\\n\"",
+        "\"SHOW_README\\n\\n\"",
+        "\"#GnuDOS Level\\n\"",
+        "\"GNU_DOS_LEVEL = %d\\n\\n\"",
+        "\"#Auto-indentation\\n\"",
+        "\"AUTO_INDENT = %d\\n\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/options.h": {},
+  "gnudos/gnudos-1.11.4/src/mino/screen.c": {
+    "setScreenColors": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        30,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dm\""
+      ]
+    },
+    "setScreenColorsI": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dm\""
+      ]
+    },
+    "getScreenSize": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "clearScreen": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[2J\"",
+        "\"\\x1b[37;4m\"",
+        "\"\\e[3J\\e[1;1H\""
+      ]
+    },
+    "showCursor": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": [
+        "\"\\e[?25h\""
+      ]
+    },
+    "hideCursor": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": [
+        "\"\\e[?25l\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/mino/modules/modules.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/modules.h": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_asm.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_bas.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_c.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_cpp.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_f77.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_html.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_js.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_pas.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_perl.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_py.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_sh.c": {},
+  "gnudos/gnudos-1.11.4/src/mino/modules/module_texi.c": {},
+  "gnudos/gnudos-1.11.4/src/prime/args.c": {
+    "parse_args": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        199,
+        1
+      ],
+      "strings": [
+        "\"reset-config\"",
+        "\"help\"",
+        "\"level\"",
+        "\"export\"",
+        "\"version\"",
+        "\"vhl:e:r\"",
+        "\"Error writing default config file: .prime.conf.\\n\"",
+        "\"Configuration has been reset. Changes were written to ~/.prime.conf\\n\"",
+        "\"Unrecognised level. See 'man prime' or \"",
+        "\"'info prime' for information about possible levels.\\n\"",
+        "\"%s\\n\"",
+        "\"Prime File Manager, Version %s\\n\"",
+        "\"%s\\nUsage: %s [options] [dir-name]\\n\"",
+        "\"\\nOptions:\\n\"",
+        "\"  [-e, --export] dir file:\\n\"",
+        "\"  \\texport directory tree of 'dir' into 'file'\\n\"",
+        "\"  [-h, --help]:\\n\"",
+        "\"  \\tshow this help\\n\"",
+        "\"  [-l,--level] GNU DOS level:\\n\"",
+        "\"  \\tthe GNU DOS level of experience to be used\\n\"",
+        "\"  [-r, --reset-config]:\\n\"",
+        "\"  \\treset the configuration file to it's defaults\\n\"",
+        "\"  [-v, --version]:\\n\"",
+        "\"  \\tprint software version and exit\\n\"",
+        "\"  dir-name: is the name of directory to load into Prime at startup\\n\\n\"",
+        "\"Error: Missing argument: export-filename\\n\"",
+        "\"Try %s -h or %s --help\\n\"",
+        "\"Directory '%s' doesn't exist.\\n\"",
+        "\"Starting prime from current working directory.\\n\"",
+        "\"Press any key..\"",
+        "\"Error: '%s' is not a directory.\\n\"",
+        "\"Starting prime from current working directory.\\n\"",
+        "\"Press any key..\"",
+        "\"Error changing directory to '%s'\\n\"",
+        "\"Insufficient memory\\n\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/cutcopy.c": {
+    "checkCutOrCopyDir": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    },
+    "checkCutOrCopyFile": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    },
+    "__removeCutCopyItem": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\"",
+        "\"/\""
+      ]
+    },
+    "removeCutFile": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": []
+    },
+    "removeCopyFile": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": []
+    },
+    "removeCutDir": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    },
+    "removeCopyDir": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "strings": []
+    },
+    "__saveCutCopyItem": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        186,
+        1
+      ],
+      "strings": [
+        "\"Unable to perform operation.\\nClipboard is full.\"",
+        "\"Insufficient memory\"",
+        "\"/\""
+      ]
+    },
+    "saveCutFile": {
+      "start_point": [
+        193,
+        0
+      ],
+      "end_point": [
+        196,
+        1
+      ],
+      "strings": []
+    },
+    "saveCopyFile": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": []
+    },
+    "saveCutDir": {
+      "start_point": [
+        213,
+        0
+      ],
+      "end_point": [
+        216,
+        1
+      ],
+      "strings": []
+    },
+    "saveCopyDir": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/cutcopy.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/defs.h": {
+    "one": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/dialogs.c": {
+    "uputchar": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "__dialog_prologue": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "__draw_dialog_buttons": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   YES  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   NO   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   YES  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   ALL  \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   NO   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\""
+      ]
+    },
+    "inputBoxI": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        426,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"%s\"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\0\"",
+        "\"\\0\"",
+        "\"\\0\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\0\""
+      ]
+    },
+    "inputBox": {
+      "start_point": [
+        435,
+        0
+      ],
+      "end_point": [
+        438,
+        1
+      ],
+      "strings": []
+    },
+    "getUserInput": {
+      "start_point": [
+        441,
+        0
+      ],
+      "end_point": [
+        450,
+        1
+      ],
+      "strings": []
+    },
+    "_msg_box": {
+      "start_point": [
+        453,
+        0
+      ],
+      "end_point": [
+        551,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\""
+      ]
+    },
+    "msgBox": {
+      "start_point": [
+        560,
+        0
+      ],
+      "end_point": [
+        571,
+        1
+      ],
+      "strings": [
+        "\" INFORMATION \"",
+        "\" ERROR \"",
+        "\" CONFIRMATION \"",
+        "\" MESSAGE \""
+      ]
+    },
+    "msgBoxH": {
+      "start_point": [
+        576,
+        0
+      ],
+      "end_point": [
+        583,
+        1
+      ],
+      "strings": []
+    },
+    "drawBox": {
+      "start_point": [
+        592,
+        0
+      ],
+      "end_point": [
+        662,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[0m\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"%s\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\e)0\\x0e\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"%c\\x1b[%d;%dH%c\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x0f\"",
+        "\"\\x1b[%d;%dH%s\""
+      ]
+    },
+    "drawBoxP": {
+      "start_point": [
+        669,
+        0
+      ],
+      "end_point": [
+        672,
+        1
+      ],
+      "strings": []
+    },
+    "catchAllSignals": {
+      "start_point": [
+        674,
+        0
+      ],
+      "end_point": [
+        685,
+        1
+      ],
+      "strings": []
+    },
+    "catchSignals": {
+      "start_point": [
+        687,
+        0
+      ],
+      "end_point": [
+        695,
+        1
+      ],
+      "strings": []
+    },
+    "show_about": {
+      "start_point": [
+        704,
+        0
+      ],
+      "end_point": [
+        708,
+        1
+      ],
+      "strings": [
+        "\" ABOUT \""
+      ]
+    },
+    "show_readme": {
+      "start_point": [
+        720,
+        0
+      ],
+      "end_point": [
+        886,
+        1
+      ],
+      "strings": [
+        "\"Failed to open README file!.\"",
+        "\"Error reading README file!.\"",
+        "\"Insufficient memory!.\"",
+        "\"r\"",
+        "\" README \"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/dialogs.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/dirstruct.c": {
+    "freeDirStruct": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        30,
+        1
+      ],
+      "strings": []
+    },
+    "freeDirStructs": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "freeFileStructs": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "allocDirStruct": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    },
+    "allocDirStructB": {
+      "start_point": [
+        63,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "allocFileStruct": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": []
+    },
+    "allocFileStructB": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/dirstruct.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/edit.c": {
+    "get_mode": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "clearSelection": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "markAll": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"..\""
+      ]
+    },
+    "unMarkAll": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": []
+    },
+    "cutOne": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"..\""
+      ]
+    },
+    "cutMarked": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "copyOne": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"..\""
+      ]
+    },
+    "copyMarked": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        307,
+        1
+      ],
+      "strings": [
+        "\" Prime File Manager \"",
+        "\" Prime File Manager \""
+      ]
+    },
+    "pasteMarked": {
+      "start_point": [
+        314,
+        0
+      ],
+      "end_point": [
+        382,
+        1
+      ],
+      "strings": [
+        "\"Nothing marked for Cut/Copy.\"",
+        "\"wb\"",
+        "\"Unable to remove file: %s\\n\""
+      ]
+    },
+    "copyThisFile": {
+      "start_point": [
+        388,
+        0
+      ],
+      "end_point": [
+        486,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\"",
+        "\"File:\\n\"",
+        "\"\\nalready exists. Overwrite?\"",
+        "\"rb\"",
+        "\"Error opening input file: %s\\n\"",
+        "\"Error opening input file:\\n\"",
+        "\"wb\"",
+        "\"Error opening output file: %s\\n\"",
+        "\"Insufficient memory\"",
+        "\"Error opening write file:\\n\"",
+        "\"\\nAborting.\"",
+        "\"Error: %s: %s\\n\"",
+        "\"Error: %s: %s\\n\""
+      ]
+    },
+    "__copyMoveDir": {
+      "start_point": [
+        488,
+        0
+      ],
+      "end_point": [
+        603,
+        1
+      ],
+      "strings": [
+        "\" Moving \"",
+        "\" Copying \"",
+        "\"\\e[%d;%dH\"",
+        "\"%s\"",
+        "\"Insufficient memory\"",
+        "\"Directory:\\n\"",
+        "\"\\nalready exists. Overwrite?\"",
+        "\"Error changing directory: %s\\n\"",
+        "\"Error changing directory: \"",
+        "\".\"",
+        "\"..\"",
+        "\"Insufficient memory\"",
+        "\"/\"",
+        "\"..\"",
+        "\"Error changing directory: %s\\n\"",
+        "\"Error changing directory:\\n\"",
+        "\"Error changing directory mode for %s: %s\\n\"",
+        "\"Error changing directory mode:\\n\""
+      ]
+    },
+    "copyThisDir": {
+      "start_point": [
+        609,
+        0
+      ],
+      "end_point": [
+        612,
+        1
+      ],
+      "strings": []
+    },
+    "moveThisDir": {
+      "start_point": [
+        618,
+        0
+      ],
+      "end_point": [
+        621,
+        1
+      ],
+      "strings": []
+    },
+    "deleteThisDir": {
+      "start_point": [
+        635,
+        0
+      ],
+      "end_point": [
+        703,
+        1
+      ],
+      "strings": [
+        "\" Deleting \"",
+        "\"\\e[%d;%dH\"",
+        "\"%s\"",
+        "\".\"",
+        "\"..\"",
+        "\"..\"",
+        "\"..\"",
+        "\"Error opening directory: %s\\n\"",
+        "\"Error opening directory:\\n\"",
+        "\"Error removing directory (%s): %s\\n\"",
+        "\"Error removing directory:\\n\""
+      ]
+    },
+    "deleteMarked": {
+      "start_point": [
+        713,
+        0
+      ],
+      "end_point": [
+        733,
+        1
+      ],
+      "strings": [
+        "\"Delete all selected files/dirs?\""
+      ]
+    },
+    "editMenu_Find": {
+      "start_point": [
+        735,
+        0
+      ],
+      "end_point": [
+        740,
+        1
+      ],
+      "strings": []
+    },
+    "editMenu_Properties": {
+      "start_point": [
+        742,
+        0
+      ],
+      "end_point": [
+        746,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/edit.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/file.c": {
+    "purgeLogFile": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": [
+        "\" Error log \""
+      ]
+    },
+    "exportTreeFromCommandLine": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": [
+        "\"w\"",
+        "\"Error opening export file: '%s'.\\nAborting.\\n\"",
+        "\"Reading directory tree. Please wait..\\n\"",
+        "\"\\nDirectory tree of '%s/':\"",
+        "\"Finished writing directory tree of '%s' to '%s'.\\n\""
+      ]
+    },
+    "exportTree": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": [
+        "\"The directory tree of the current dir will be exported.\\n\"",
+        "\"Enter export file name:\"",
+        "\"Export\"",
+        "\"w\"",
+        "\"Error opening export file. Aborting.\"",
+        "\"Directory tree of '%s/':\"",
+        "\"Error changing directory: \""
+      ]
+    },
+    "scanThisDir": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": [
+        "\"Exporting %d of %d\"",
+        "\"\\n%*s (Error: %s)\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"..\"",
+        "\".\"",
+        "\"..\"",
+        "\"\\n%*s|---- %s\"",
+        "\" \"",
+        "\"\\n%*s|-[f] %s\"",
+        "\" \"",
+        "\"..\"",
+        "\"\\n%*s (Error: %s)\"",
+        "\" \"",
+        "\" (Failed to open directory)\"",
+        "\"\\n---------------------------------\\n\"",
+        "\"Total dirs: %d, Total files: %d\\n\""
+      ]
+    },
+    "file_open_location": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "strings": [
+        "\"Enter directory path to open:\"",
+        "\"Open Location\""
+      ]
+    },
+    "fileMenu_CreateDir": {
+      "start_point": [
+        189,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": [
+        "\"Enter directory name to create:\"",
+        "\"New Directory\"",
+        "\"Directory already exists!\""
+      ]
+    },
+    "fileMenu_Open": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        211,
+        1
+      ],
+      "strings": []
+    },
+    "fileMenu_ExportTree": {
+      "start_point": [
+        213,
+        0
+      ],
+      "end_point": [
+        218,
+        1
+      ],
+      "strings": []
+    },
+    "fileMenu_Print": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "strings": [
+        "\"Oops! This function is currently not implemented.\""
+      ]
+    },
+    "fileMenu_Exit": {
+      "start_point": [
+        228,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": [
+        "\"Are you sure you want to exit?\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/file.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/find.c": {
+    "draw_findFile_buttons": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH\"",
+        "\"   OK   \"",
+        "\"\\x1b[%d;%dH\"",
+        "\" CANCEL \"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\""
+      ]
+    },
+    "findFile": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        436,
+        1
+      ],
+      "strings": [
+        "\"/tmp/prime_find\"",
+        "\"w+\"",
+        "\"Error opening temporary file. Aborting.\"",
+        "\"/tmp/prime_find\"",
+        "\" Find File \"",
+        "\"\\e[%d;%dH\"",
+        "\"Enter file name to search for:\"",
+        "\"\\e[%d;%dH\"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"Search in:\"",
+        "\"\\e[%d;%dH\"",
+        "\"[X] Only current working directory\"",
+        "\"\\e[%d;%dH\"",
+        "\"[ ] All the filesystem (slower)\"",
+        "\"\\e[%d;%dH\"",
+        "\"[ ] Under this path:\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH \"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH \"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH \"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dH\"",
+        "\"*\"",
+        "\"\\0\"",
+        "\"\\0\"",
+        "\"*\"",
+        "\"*\"",
+        "\"\\0\"",
+        "\"\\0\"",
+        "\"/\"",
+        "\"Invalid path:\\n\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\e[%d;%dH \"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\""
+      ]
+    },
+    "scanDirForFile": {
+      "start_point": [
+        448,
+        0
+      ],
+      "end_point": [
+        559,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"Scanning:\"",
+        "\".\"",
+        "\"..\"",
+        "\"\\e[%d;%dH\"",
+        "\"..%s\"",
+        "\"%s%*s\"",
+        "\" \"",
+        "\"../\"",
+        "\"%s/%s\\n\"",
+        "\"..\"",
+        "\"Search failed. No matches were found.\"",
+        "\"%06d\""
+      ]
+    },
+    "compareFileName": {
+      "start_point": [
+        561,
+        0
+      ],
+      "end_point": [
+        599,
+        1
+      ],
+      "strings": [
+        "\"*\"",
+        "\"*\"",
+        "\"*\""
+      ]
+    },
+    "showSearchResults": {
+      "start_point": [
+        607,
+        0
+      ],
+      "end_point": [
+        764,
+        1
+      ],
+      "strings": [
+        "\" Search results: \"",
+        "\"\\e[%d;%dH\"",
+        "\"(%d/%d) \"",
+        "\"%s\"",
+        "\"\\e[%d;%dH   \"",
+        "\"(%d/%d) \"",
+        "\"\\e[%d;%dH\"",
+        "\"%s\"",
+        "\"\\e[%d;%dH\"",
+        "\"(%d/%d) \"",
+        "\"%s\"",
+        "\"\\e[%d;%dH   \"",
+        "\"%*s\"",
+        "\" \"",
+        "\"\\e[%d;%dH\"",
+        "\"(%d/%d) \"",
+        "\"%s\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/find.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/help.c": {
+    "showKeybindings": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": [
+        "\"/usr/share/doc/gnudos/prime/keybindings\"",
+        "\" KEYBINDINGS \"",
+        "\"/usr/local/share/doc/gnudos/prime/keybindings\"",
+        "\" KEYBINDINGS \""
+      ]
+    },
+    "showReadMe": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": [
+        "\"/usr/share/doc/gnudos/prime/README\"",
+        "\" README \"",
+        "\"/usr/local/share/doc/gnudos/prime/README\"",
+        "\" README \""
+      ]
+    },
+    "showQuickReference": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": [
+        "\"Quick Reference\"",
+        "\"\\e[4;7HBasic functions:\"",
+        "\"\\e[5;9HSPACEBAR: Toggle select/unselect\"",
+        "\"\\e[6;9HENTER: Navigate to directory\"",
+        "\"\\e[7;9HTAB: Navigate between dir/file view windows\"",
+        "\"\\e[8;9HArrow keys: Navigate up/down\"",
+        "\"\\e[10;7HEditing:\"",
+        "\"\\e[11;9HDEL: Delete marked directories/files\"",
+        "\"\\e[12;9HCTRL+X: Cut marked directories/files\"",
+        "\"\\e[13;9HCTRL+C: Copy marked directories/files\"",
+        "\"\\e[14;9HCTRL+V: Paste marked directories/files\"",
+        "\"\\e[15;9HCTRL+F: Find files\"",
+        "\"\\e[16;9HCTRL+Q: Quit the program\"",
+        "\"\\e[17;7HPress any key to continue..\""
+      ]
+    },
+    "showAboutBox": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/help.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/init.c": {
+    "init": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": [
+        "\"Error: Failed to get terminal size\\n\"",
+        "\"&File\"",
+        "\"&Edit\"",
+        "\"&Options\"",
+        "\"&Help\"",
+        "\"New directory ^N\"",
+        "\"Open location ^O\"",
+        "\"Export tree   ^E\"",
+        "\"Print         ^P\"",
+        "\"Exit          ^Q\"",
+        "\"Cut        ^X\"",
+        "\"Copy       ^C\"",
+        "\"Paste      ^V\"",
+        "\"Mark all   ^A\"",
+        "\"Unmark all ^Z\"",
+        "\"Clear sel. ^W\"",
+        "\"Find..     ^F\"",
+        "\"Properties     \"",
+        "\"Change colors  \"",
+        "\"Reset config   \"",
+        "\"View README    \"",
+        "\"GNU keybindings\"",
+        "\"Quick reference\"",
+        "\"About Prime..  \"",
+        "\"BLACK\"",
+        "\"RED\"",
+        "\"GREEN\"",
+        "\"BROWN\"",
+        "\"BLUE\"",
+        "\"MAGENTA\"",
+        "\"CYAN\"",
+        "\"WHITE\"",
+        "\"Insufficient memory\\n\""
+      ]
+    },
+    "read_config_file": {
+      "start_point": [
+        183,
+        0
+      ],
+      "end_point": [
+        269,
+        1
+      ],
+      "strings": [
+        "\"Error: couldn't open home directory to read configuration file.\\n\"",
+        "\"Aborting.\\n\"",
+        "\"Insufficient memory\\n\"",
+        "\"/\"",
+        "\".prime.conf\"",
+        "\"r\"",
+        "\"Error: couldn't read configuration file in home directory.\\n\"",
+        "\"Resetting configuration file.\\n\"",
+        "\"r\"",
+        "\"GNU_DOS_LEVEL\"",
+        "\"FG_COLOR_WIN\"",
+        "\"FG_COLOR_HLT\"",
+        "\"FG_COLOR_MBAR\"",
+        "\"FG_COLOR_SBAR\"",
+        "\"FG_COLOR_HBUT\"",
+        "\"FG_COLOR_BUT\"",
+        "\"BG_COLOR_WIN\"",
+        "\"BG_COLOR_HLT\"",
+        "\"BG_COLOR_MBAR\"",
+        "\"BG_COLOR_SBAR\"",
+        "\"BG_COLOR_HBUT\"",
+        "\"BG_COLOR_BUT\""
+      ]
+    },
+    "write_config_file_defaults": {
+      "start_point": [
+        271,
+        0
+      ],
+      "end_point": [
+        317,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory\\n\"",
+        "\"/\"",
+        "\".prime.conf\"",
+        "\"w\"",
+        "\"#Configuration file for the prime program\\n\"",
+        "\"#Please do not modify this file by hand\\n\\n\"",
+        "\"#Display colors\\n\"",
+        "\"FG_COLOR_WIN = 37\\n\"",
+        "\"FG_COLOR_HLT = 34\\n\"",
+        "\"FG_COLOR_MBAR = 34\\n\"",
+        "\"FG_COLOR_SBAR = 34\\n\"",
+        "\"FG_COLOR_HBUT = 32\\n\"",
+        "\"FG_COLOR_BUT = 37\\n\"",
+        "\"BG_COLOR_WIN = 49\\n\"",
+        "\"BG_COLOR_HLT = 47\\n\"",
+        "\"BG_COLOR_MBAR = 47\\n\"",
+        "\"BG_COLOR_SBAR = 47\\n\"",
+        "\"BG_COLOR_HBUT = 41\\n\"",
+        "\"BG_COLOR_BUT = 41\\n\\n\"",
+        "\"#GnuDOS Level\\n\"",
+        "\"GNU_DOS_LEVEL = %d\\n\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/kbd.c": {
+    "initTerminal": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "restoreTerminal": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "getKey": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/kbd.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/main.c": {
+    "exit_gracefully": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[0m\""
+      ]
+    },
+    "sighandler": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": [
+        "\" Prime File Manager \"",
+        "\"Are you sure you want to exit?\""
+      ]
+    },
+    "print_dir_highlight": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH%s\"",
+        "\"\\x1b[%d;%dH%c\"",
+        "\"%c\"",
+        "\"..\"",
+        "\"\\x1b[%d;%dH%c%s\""
+      ]
+    },
+    "print_file_highlight": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dH%s\"",
+        "\"\\x1b[%d;%dH%c\"",
+        "\"%c\"",
+        "\"..\"",
+        "\"\\x1b[%d;%dH%c%s\""
+      ]
+    },
+    "showErrorMsgBox": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "shiftDirsUp": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": []
+    },
+    "shiftFilesUp": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        177,
+        0
+      ],
+      "end_point": [
+        792,
+        1
+      ],
+      "strings": [
+        "\"Error: unable to detect current working directory\\n\"",
+        "\" Prime File Manager \"",
+        "\" File view \"",
+        "\" Quick functions \"",
+        "\" Directory view \"",
+        "\" Prime File Manager \"",
+        "\".\"",
+        "\"Are you sure you want to delete\\n\"",
+        "\"this directory and all its subdirectories?\"",
+        "\"wb\"",
+        "\"Are you sure you want to delete this file?\"",
+        "\"\\e[%d;%dH\"",
+        "\"[C-c] Quit  [C-f] Open location [C-g] Cancel\"",
+        "\"Oops! This function is currently not implemented.\"",
+        "\"Are you sure you want to exit?\"",
+        "\"Enter directory name to create:\"",
+        "\"New Directory\"",
+        "\"Error creating directory:\"",
+        "\"Directory already exists!\""
+      ]
+    },
+    "toggleSelected": {
+      "start_point": [
+        795,
+        0
+      ],
+      "end_point": [
+        858,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"..\"",
+        "\"\\e[%d;%dH\"",
+        "\"%c\"",
+        "\"\\e[%d;%dH\"",
+        "\"%c\""
+      ]
+    },
+    "addDirEntry": {
+      "start_point": [
+        860,
+        0
+      ],
+      "end_point": [
+        877,
+        1
+      ],
+      "strings": []
+    },
+    "addFileEntry": {
+      "start_point": [
+        879,
+        0
+      ],
+      "end_point": [
+        896,
+        1
+      ],
+      "strings": []
+    },
+    "scanDir": {
+      "start_point": [
+        898,
+        0
+      ],
+      "end_point": [
+        1038,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"Error changing directory:\"",
+        "\": \"",
+        "\"Insufficient memory.\"",
+        "\"..\"",
+        "\".\"",
+        "\"Insufficient memory.\"",
+        "\".tar\"",
+        "\".gz\"",
+        "\".xz\"",
+        "\".Z\"",
+        "\".rar\"",
+        "\".zip\"",
+        "\".bz2\"",
+        "\".7z\"",
+        "\".lzma\"",
+        "\".lha\"",
+        "\".jar\"",
+        "\".bmp\"",
+        "\".png\"",
+        "\".jpg\"",
+        "\".jpeg\"",
+        "\".pcx\"",
+        "\".ico\"",
+        "\".gif\"",
+        "\".tiff\"",
+        "\"Failed to open directory:\""
+      ]
+    },
+    "refreshAll": {
+      "start_point": [
+        1042,
+        0
+      ],
+      "end_point": [
+        1050,
+        1
+      ],
+      "strings": [
+        "\" Prime File Manager \""
+      ]
+    },
+    "refreshWindows": {
+      "start_point": [
+        1052,
+        0
+      ],
+      "end_point": [
+        1057,
+        1
+      ],
+      "strings": []
+    },
+    "refreshDirView": {
+      "start_point": [
+        1064,
+        0
+      ],
+      "end_point": [
+        1090,
+        1
+      ],
+      "strings": [
+        "\" Directory view \"",
+        "\"\\x1b[%d;%dH%s\"",
+        "\"\\x1b[%d;%dH No directory entries found!\"",
+        "\" Prime File Manager \""
+      ]
+    },
+    "refreshFileView": {
+      "start_point": [
+        1098,
+        0
+      ],
+      "end_point": [
+        1125,
+        1
+      ],
+      "strings": [
+        "\" File view \"",
+        "\"(Empty folder)\"",
+        "\" Prime File Manager \""
+      ]
+    },
+    "refreshBottomView": {
+      "start_point": [
+        1132,
+        0
+      ],
+      "end_point": [
+        1159,
+        1
+      ],
+      "strings": [
+        "\" Quick reference \"",
+        "\"\\e[%d;%dH\"",
+        "\"CWD: \"",
+        "\"..\"",
+        "\"CWD: %s\"",
+        "\"\\e[%d;%dH\"",
+        "\"Marked (%d) \"",
+        "\"Cut (%d) \"",
+        "\"Copy (%d) \"",
+        "\" Prime File Manager \""
+      ]
+    },
+    "drawMenuBar": {
+      "start_point": [
+        1165,
+        0
+      ],
+      "end_point": [
+        1196,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[0m\"",
+        "\"\\x1b[%d;%dH\"",
+        "\"\\x1b[%d;%dH\"",
+        "\" \"",
+        "\"%c\"",
+        "\"%c\"",
+        "\" \""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/menu.c": {
+    "drawMenuBox": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "clearMenuSelection": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH%s\""
+      ]
+    },
+    "highlightSelection": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "doEsc": {
+      "start_point": [
+        127,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "doUpDown": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "strings": []
+    },
+    "doRightLeft": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": []
+    },
+    "showMenu": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        276,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/options.c": {
+    "findColorName": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": [
+        "\"BLACK  \"",
+        "\"RED    \"",
+        "\"GREEN  \"",
+        "\"BROWN  \"",
+        "\"BLUE   \"",
+        "\"MAGENTA\"",
+        "\"CYAN   \"",
+        "\"WHITE  \""
+      ]
+    },
+    "saveOldColors": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "resetColors": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "showColorChooserDialog": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": [
+        "\" Choose color \"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dHCANCEL\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\""
+      ]
+    },
+    "refreshChangeColorsDialog": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        223,
+        1
+      ],
+      "strings": [
+        "\"Change colors\"",
+        "\"\\e[%d;%dHForeground  Background\"",
+        "\"\\e[%d;%dH  OK   RESET\"",
+        "\"\\e[%d;%dH\"",
+        "\"%s  %s  %s\"",
+        "\"\\e[%d;%dH  OK  \"",
+        "\"\\e[%d;%dHRESET\"",
+        "\"\\e[%d;%dH%s\"",
+        "\"\\e[%d;%dH%s\""
+      ]
+    },
+    "optionsMenu_Change_Colors": {
+      "start_point": [
+        226,
+        0
+      ],
+      "end_point": [
+        361,
+        1
+      ],
+      "strings": []
+    },
+    "optionsMenu_Reset_Config": {
+      "start_point": [
+        367,
+        0
+      ],
+      "end_point": [
+        417,
+        1
+      ],
+      "strings": [
+        "\"Couldn't open home directory to write config file.\"",
+        "\"Insufficient memory\"",
+        "\"/\"",
+        "\".prime.conf\"",
+        "\"w\"",
+        "\"Couldn't write to config file in home directory.\"",
+        "\"#Configuration file for the prime program\\n\"",
+        "\"#Please do not modify this file by hand\\n\\n\"",
+        "\"#Display colors\\n\"",
+        "\"FG_COLOR_WIN = 37\\n\"",
+        "\"FG_COLOR_HLT = 34\\n\"",
+        "\"FG_COLOR_MBAR = 34\\n\"",
+        "\"FG_COLOR_SBAR = 34\\n\"",
+        "\"FG_COLOR_HBUT = 32\\n\"",
+        "\"FG_COLOR_BUT = 37\\n\"",
+        "\"BG_COLOR_WIN = 40\\n\"",
+        "\"BG_COLOR_HLT = 47\\n\"",
+        "\"BG_COLOR_MBAR = 47\\n\"",
+        "\"BG_COLOR_SBAR = 47\\n\"",
+        "\"BG_COLOR_HBUT = 41\\n\"",
+        "\"BG_COLOR_BUT = 41\\n\\n\"",
+        "\"#GnuDOS Level\\n\"",
+        "\"GNU_DOS_LEVEL = 1\\n\"",
+        "\"Finished writing default values to ~/.prime.conf\""
+      ]
+    },
+    "write_config_file": {
+      "start_point": [
+        419,
+        0
+      ],
+      "end_point": [
+        469,
+        1
+      ],
+      "strings": [
+        "\"Couldn't open home directory to write config file.\"",
+        "\"Insufficient memory\"",
+        "\"/\"",
+        "\".prime.conf\"",
+        "\"w\"",
+        "\"Couldn't write to config file in home directory.\"",
+        "\"#Configuration file for the prime program\\n\"",
+        "\"#Please do not modify this file by hand\\n\\n\"",
+        "\"#Display colors\\n\"",
+        "\"FG_COLOR_WIN = %d\\n\"",
+        "\"FG_COLOR_HLT = %d\\n\"",
+        "\"FG_COLOR_MBAR = %d\\n\"",
+        "\"FG_COLOR_SBAR = %d\\n\"",
+        "\"FG_COLOR_HBUT = %d\\n\"",
+        "\"FG_COLOR_BUT = %d\\n\"",
+        "\"BG_COLOR_WIN = %d\\n\"",
+        "\"BG_COLOR_HLT = %d\\n\"",
+        "\"BG_COLOR_MBAR = %d\\n\"",
+        "\"BG_COLOR_SBAR = %d\\n\"",
+        "\"BG_COLOR_HBUT = %d\\n\"",
+        "\"BG_COLOR_BUT = %d\\n\\n\"",
+        "\"#GnuDOS Level\\n\"",
+        "\"GNU_DOS_LEVEL = %d\\n\""
+      ]
+    },
+    "optionsMenu_Properties": {
+      "start_point": [
+        471,
+        0
+      ],
+      "end_point": [
+        476,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/options.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/properties.c": {
+    "refreshPropertiesDialog": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\"",
+        "\"Dir name:  \"",
+        "\"File name: \"",
+        "\"..\"",
+        "\"%s\"",
+        "\"\\e[%d;%dH\"",
+        "\"Permissions:\"",
+        "\"\\e[%d;%dH\"",
+        "\"Owner:      Group:      Others:    \"",
+        "\"\\e[%d;%dH\"",
+        "\"[ ] Read    [ ] Read    [ ] Read   \"",
+        "\"\\e[%d;%dH\"",
+        "\"[ ] Write   [ ] Write   [ ] Write  \"",
+        "\"\\e[%d;%dH\"",
+        "\"[ ] Execute [ ] Execute [ ] Execute\"",
+        "\"\\e[%d;%dH   OK   \"",
+        "\"\\e[%d;%dH CANCEL \"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dHX\"",
+        "\"\\e[%d;%dH\"",
+        "\"..\"",
+        "\"%s\"",
+        "\"\\e[%d;%dHRead\"",
+        "\"\\e[%d;%dHRead\"",
+        "\"\\e[%d;%dHRead\"",
+        "\"\\e[%d;%dHWrite\"",
+        "\"\\e[%d;%dHWrite\"",
+        "\"\\e[%d;%dHWrite\"",
+        "\"\\e[%d;%dHExecute\"",
+        "\"\\e[%d;%dHExecute\"",
+        "\"\\e[%d;%dHExecute\"",
+        "\"\\e[%d;%dH   OK   \"",
+        "\"\\e[%d;%dH CANCEL \""
+      ]
+    },
+    "showPropertiesDialog": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        319,
+        1
+      ],
+      "strings": [
+        "\"Insufficient memory!\"",
+        "\" Properties \"",
+        "\"Enter new name: \"",
+        "\" Rename... \"",
+        "\"Insufficient memory!\"",
+        "\" Properties \""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/screen.c": {
+    "setScreenColors": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dm\""
+      ]
+    },
+    "setScreenColorsI": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[%d;%dm\""
+      ]
+    },
+    "getScreenSize": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "clearScreenC": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": [
+        "\"\\e[2J\"",
+        "\"\\e[%d;%dm\"",
+        "\"\\e[3J\\e[1;1H\""
+      ]
+    },
+    "clearScreen": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": [
+        "\"\\e[2J\"",
+        "\"\\x1b[37;4m\"",
+        "\"\\e[3J\\e[1;1H\""
+      ]
+    },
+    "locate": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": [
+        "\"\\e[%d;%dH\""
+      ]
+    },
+    "getScreenColors": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": [
+        "\"BLACK\"",
+        "\"RED\"",
+        "\"GREEN\"",
+        "\"BROWN\"",
+        "\"BLUE\"",
+        "\"MAGENTA\"",
+        "\"CYAN\"",
+        "\"WHITE\"",
+        "\"BGBLACK\"",
+        "\"BGRED\"",
+        "\"BGGREEN\"",
+        "\"BGBROWN\"",
+        "\"BGBLUE\"",
+        "\"BGMAGENTA\"",
+        "\"BGCYAN\"",
+        "\"BGWHITE\""
+      ]
+    },
+    "loadDefaultColors": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    },
+    "showCursor": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": [
+        "\"\\e[?25h\""
+      ]
+    },
+    "hideCursor": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": [
+        "\"\\e[?25l\""
+      ]
+    },
+    "reset_attribs": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": [
+        "\"\\x1b[0m\""
+      ]
+    }
+  },
+  "gnudos/gnudos-1.11.4/src/prime/screen.h": {},
+  "gnudos/gnudos-1.11.4/src/prime/ukbd.h": {}
+}

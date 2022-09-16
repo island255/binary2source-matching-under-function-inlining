@@ -1,0 +1,1003 @@
+{
+  "Func_004016d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/paste.c",
+      "usage",
+      [
+        429,
+        461
+      ]
+    ]
+  ],
+  "Func_00401800": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/system.h",
+      "emit_stdin_note",
+      [
+        577,
+        583
+      ]
+    ]
+  ],
+  "Func_00401830": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/system.h",
+      "emit_mandatory_arg_note",
+      [
+        584,
+        590
+      ]
+    ]
+  ],
+  "Func_00401860": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/system.h",
+      "emit_ancillary_info",
+      [
+        629,
+        669
+      ]
+    ]
+  ],
+  "Func_004019f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/paste.c",
+      "main",
+      [
+        463,
+        530
+      ]
+    ]
+  ],
+  "Func_00401bf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/paste.c",
+      "collapse_escapes",
+      [
+        91,
+        155
+      ]
+    ]
+  ],
+  "Func_00401c90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/paste.c",
+      "paste_serial",
+      [
+        347,
+        427
+      ]
+    ]
+  ],
+  "Func_00401ec0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/paste.c",
+      "paste_parallel",
+      [
+        179,
+        341
+      ]
+    ]
+  ],
+  "Func_00402330": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/paste.c",
+      "xputchar",
+      [
+        168,
+        173
+      ]
+    ]
+  ],
+  "Func_00402350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/paste.c",
+      "write_error",
+      [
+        160,
+        164
+      ]
+    ]
+  ],
+  "Func_00402380": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/closeout.c",
+      "close_stdout_set_file_name",
+      [
+        50,
+        54
+      ]
+    ]
+  ],
+  "Func_00402390": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/closeout.c",
+      "close_stdout_set_ignore_EPIPE",
+      [
+        87,
+        91
+      ]
+    ]
+  ],
+  "Func_004023a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/closeout.c",
+      "close_stdout",
+      [
+        116,
+        136
+      ]
+    ]
+  ],
+  "Func_00402450": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fadvise.c",
+      "fdadvise",
+      [
+        30,
+        36
+      ]
+    ]
+  ],
+  "Func_00402460": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fadvise.c",
+      "fadvise",
+      [
+        38,
+        43
+      ]
+    ]
+  ],
+  "Func_00402480": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/progname.c",
+      "set_program_name",
+      [
+        38,
+        92
+      ]
+    ]
+  ],
+  "Func_00402520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "clone_quoting_options",
+      [
+        121,
+        129
+      ]
+    ]
+  ],
+  "Func_00402560": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "get_quoting_style",
+      [
+        132,
+        136
+      ]
+    ]
+  ],
+  "Func_00402570": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "set_quoting_style",
+      [
+        140,
+        144
+      ]
+    ]
+  ],
+  "Func_00402580": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "set_char_quoting",
+      [
+        151,
+        161
+      ]
+    ]
+  ],
+  "Func_004025c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "set_quoting_flags",
+      [
+        167,
+        176
+      ]
+    ]
+  ],
+  "Func_004025e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "set_custom_quoting",
+      [
+        178,
+        189
+      ]
+    ]
+  ],
+  "Func_00402610": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_buffer",
+      [
+        783,
+        795
+      ]
+    ]
+  ],
+  "Func_00402690": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_buffer_restyled",
+      [
+        255,
+        772
+      ]
+    ]
+  ],
+  "Func_00403440": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_alloc",
+      [
+        798,
+        803
+      ]
+    ]
+  ],
+  "Func_00403450": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_alloc_mem",
+      [
+        811,
+        831
+      ]
+    ]
+  ],
+  "Func_00403540": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_free",
+      [
+        847,
+        866
+      ]
+    ]
+  ],
+  "Func_004035e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n",
+      [
+        930,
+        934
+      ]
+    ]
+  ],
+  "Func_004035f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_options",
+      [
+        876,
+        928
+      ]
+    ]
+  ],
+  "Func_004037a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_mem",
+      [
+        936,
+        940
+      ]
+    ]
+  ],
+  "Func_004037b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg",
+      [
+        942,
+        946
+      ]
+    ]
+  ],
+  "Func_004037c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_mem",
+      [
+        948,
+        952
+      ]
+    ]
+  ],
+  "Func_004037d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_style",
+      [
+        954,
+        959
+      ]
+    ]
+  ],
+  "Func_00403810": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quoting_options_from_style",
+      [
+        192,
+        200
+      ]
+    ]
+  ],
+  "Func_00403840": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_style_mem",
+      [
+        961,
+        967
+      ]
+    ]
+  ],
+  "Func_00403880": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_style",
+      [
+        969,
+        973
+      ]
+    ]
+  ],
+  "Func_004038a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_style_mem",
+      [
+        975,
+        979
+      ]
+    ]
+  ],
+  "Func_004038c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_char_mem",
+      [
+        981,
+        988
+      ]
+    ]
+  ],
+  "Func_00403930": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_char",
+      [
+        990,
+        994
+      ]
+    ]
+  ],
+  "Func_00403940": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_colon",
+      [
+        996,
+        1000
+      ]
+    ]
+  ],
+  "Func_00403950": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_colon_mem",
+      [
+        1002,
+        1006
+      ]
+    ]
+  ],
+  "Func_00403960": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_style_colon",
+      [
+        1008,
+        1015
+      ]
+    ]
+  ],
+  "Func_004039b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_custom",
+      [
+        1017,
+        1023
+      ]
+    ]
+  ],
+  "Func_004039c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_custom_mem",
+      [
+        1025,
+        1033
+      ]
+    ]
+  ],
+  "Func_00403a30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_custom",
+      [
+        1035,
+        1040
+      ]
+    ]
+  ],
+  "Func_00403a50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_custom_mem",
+      [
+        1042,
+        1048
+      ]
+    ]
+  ],
+  "Func_00403a70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quote_n_mem",
+      [
+        1060,
+        1064
+      ]
+    ]
+  ],
+  "Func_00403a80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quote_mem",
+      [
+        1066,
+        1070
+      ]
+    ]
+  ],
+  "Func_00403a90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quote_n",
+      [
+        1072,
+        1076
+      ]
+    ]
+  ],
+  "Func_00403aa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quote",
+      [
+        1078,
+        1082
+      ]
+    ]
+  ],
+  "Func_00403ab0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "gettext_quote",
+      [
+        206,
+        240
+      ]
+    ]
+  ],
+  "Func_00403b70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcaseeq.h",
+      "strcaseeq0",
+      [
+        159,
+        171
+      ]
+    ]
+  ],
+  "Func_00403bf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcaseeq.h",
+      "strcaseeq1",
+      [
+        145,
+        157
+      ]
+    ]
+  ],
+  "Func_00403c70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcaseeq.h",
+      "strcaseeq2",
+      [
+        131,
+        143
+      ]
+    ]
+  ],
+  "Func_00403ce0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcaseeq.h",
+      "strcaseeq3",
+      [
+        117,
+        129
+      ]
+    ]
+  ],
+  "Func_00403d40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcaseeq.h",
+      "strcaseeq4",
+      [
+        103,
+        115
+      ]
+    ]
+  ],
+  "Func_00403da0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcaseeq.h",
+      "strcaseeq5",
+      [
+        89,
+        101
+      ]
+    ]
+  ],
+  "Func_00403de0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcaseeq.h",
+      "strcaseeq6",
+      [
+        75,
+        87
+      ]
+    ]
+  ],
+  "Func_00403e20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcaseeq.h",
+      "strcaseeq7",
+      [
+        61,
+        73
+      ]
+    ]
+  ],
+  "Func_00403e50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "version_etc_arn",
+      [
+        61,
+        173
+      ]
+    ]
+  ],
+  "Func_004040f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "version_etc_ar",
+      [
+        179,
+        189
+      ]
+    ]
+  ],
+  "Func_00404120": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "version_etc_va",
+      [
+        195,
+        210
+      ]
+    ]
+  ],
+  "Func_00404180": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "version_etc",
+      [
+        226,
+        236
+      ]
+    ]
+  ],
+  "Func_00404210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "emit_bug_reporting_address",
+      [
+        238,
+        258
+      ]
+    ]
+  ],
+  "Func_00404290": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc.h",
+      "xnmalloc",
+      [
+        104,
+        110
+      ]
+    ]
+  ],
+  "Func_004042c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xmalloc",
+      [
+        38,
+        45
+      ]
+    ]
+  ],
+  "Func_004042e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc.h",
+      "xnrealloc",
+      [
+        117,
+        123
+      ]
+    ]
+  ],
+  "Func_00404310": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xrealloc",
+      [
+        50,
+        65
+      ]
+    ]
+  ],
+  "Func_00404340": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc.h",
+      "x2nrealloc",
+      [
+        179,
+        214
+      ]
+    ]
+  ],
+  "Func_004043c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc.h",
+      "xcharalloc",
+      [
+        221,
+        225
+      ]
+    ]
+  ],
+  "Func_004043d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "x2realloc",
+      [
+        73,
+        77
+      ]
+    ]
+  ],
+  "Func_004043e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xzalloc",
+      [
+        83,
+        87
+      ]
+    ]
+  ],
+  "Func_00404400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xcalloc",
+      [
+        92,
+        104
+      ]
+    ]
+  ],
+  "Func_00404430": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xmemdup",
+      [
+        110,
+        114
+      ]
+    ]
+  ],
+  "Func_00404460": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xstrdup",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_00404480": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc-die.c",
+      "xalloc_die",
+      [
+        31,
+        41
+      ]
+    ]
+  ],
+  "Func_004044b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/calloc.c",
+      "rpl_calloc",
+      [
+        41,
+        73
+      ]
+    ]
+  ],
+  "Func_00404500": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fclose.c",
+      "rpl_fclose",
+      [
+        57,
+        112
+      ]
+    ]
+  ],
+  "Func_00404580": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fflush.c",
+      "rpl_fflush",
+      [
+        126,
+        229
+      ]
+    ]
+  ],
+  "Func_004045b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fflush.c",
+      "clear_ungetc_buffer_preserving_position",
+      [
+        39,
+        45
+      ]
+    ]
+  ],
+  "Func_004045d0": [],
+  "Func_00404640": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/mbrtowc.c",
+      "rpl_mbrtowc",
+      [
+        340,
+        412
+      ]
+    ]
+  ],
+  "Func_004046a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isalnum",
+      [
+        168,
+        180
+      ]
+    ]
+  ],
+  "Func_004046d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isalpha",
+      [
+        182,
+        193
+      ]
+    ]
+  ],
+  "Func_004046f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isascii",
+      [
+        197,
+        212
+      ]
+    ]
+  ],
+  "Func_00404700": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isblank",
+      [
+        214,
+        218
+      ]
+    ]
+  ],
+  "Func_00404710": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_iscntrl",
+      [
+        220,
+        230
+      ]
+    ]
+  ],
+  "Func_00404720": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isdigit",
+      [
+        232,
+        242
+      ]
+    ]
+  ],
+  "Func_00404730": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isgraph",
+      [
+        244,
+        257
+      ]
+    ]
+  ],
+  "Func_00404740": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_islower",
+      [
+        259,
+        269
+      ]
+    ]
+  ],
+  "Func_00404750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isprint",
+      [
+        271,
+        285
+      ]
+    ]
+  ],
+  "Func_00404760": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_ispunct",
+      [
+        287,
+        297
+      ]
+    ]
+  ],
+  "Func_00404780": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isspace",
+      [
+        299,
+        309
+      ]
+    ]
+  ],
+  "Func_004047a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isupper",
+      [
+        311,
+        321
+      ]
+    ]
+  ],
+  "Func_004047b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isxdigit",
+      [
+        323,
+        334
+      ]
+    ]
+  ],
+  "Func_004047d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_tolower",
+      [
+        336,
+        346
+      ]
+    ]
+  ],
+  "Func_004047e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_toupper",
+      [
+        348,
+        358
+      ]
+    ]
+  ],
+  "Func_004047f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/close-stream.c",
+      "close_stream",
+      [
+        55,
+        78
+      ]
+    ]
+  ],
+  "Func_00404850": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hard-locale.c",
+      "hard_locale",
+      [
+        37,
+        72
+      ]
+    ]
+  ],
+  "Func_00404890": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/localcharset.c",
+      "locale_charset",
+      [
+        396,
+        617
+      ]
+    ]
+  ],
+  "Func_00404930": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/localcharset.c",
+      "get_charset_aliases",
+      [
+        124,
+        385
+      ]
+    ]
+  ]
+}

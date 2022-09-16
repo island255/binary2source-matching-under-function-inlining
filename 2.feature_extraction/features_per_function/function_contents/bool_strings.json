@@ -1,0 +1,1087 @@
+{
+  "bool/bool-0.2.2/build-aux/snippet/arg-nonnull.h": {},
+  "bool/bool-0.2.2/build-aux/snippet/c++defs.h": {},
+  "bool/bool-0.2.2/build-aux/snippet/warn-on-use.h": {},
+  "bool/bool-0.2.2/lib/getopt.c": {
+    "exchange": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": [
+        "\"POSIXLY_CORRECT\""
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        1124,
+        1
+      ],
+      "strings": [
+        "\"--\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"%s\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '--%s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"%s: option '--%s' requires an argument\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s\"",
+        "\"\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"%s\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"\\\n%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\""
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        1126,
+        0
+      ],
+      "end_point": [
+        1145,
+        1
+      ],
+      "strings": []
+    },
+    "getopt": {
+      "start_point": [
+        1155,
+        0
+      ],
+      "end_point": [
+        1162,
+        1
+      ],
+      "strings": []
+    },
+    "__posix_getopt": {
+      "start_point": [
+        1165,
+        0
+      ],
+      "end_point": [
+        1172,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        1181,
+        0
+      ],
+      "end_point": [
+        1242,
+        1
+      ],
+      "strings": [
+        "\"abc:d:0123456789\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "bool/bool-0.2.2/lib/getopt.in.h": {},
+  "bool/bool-0.2.2/lib/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "getopt_long_only": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"add\"",
+        "\"append\"",
+        "\"delete\"",
+        "\"verbose\"",
+        "\"create\"",
+        "\"file\"",
+        "\"abc:d:0123456789\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"\\n\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"option d with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "bool/bool-0.2.2/lib/getopt_int.h": {},
+  "bool/bool-0.2.2/lib/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        165,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        253,
+        0
+      ],
+      "end_point": [
+        285,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/lib/stddef.in.h": {},
+  "bool/bool-0.2.2/lib/sys_types.in.h": {},
+  "bool/bool-0.2.2/lib/unistd.c": {},
+  "bool/bool-0.2.2/lib/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        403,
+        0
+      ],
+      "end_point": [
+        407,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        870,
+        0
+      ],
+      "end_point": [
+        874,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/src/bool.c": {
+    "ck_atoi": {
+      "start_point": [
+        127,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": []
+    },
+    "init": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "strings": [
+        "\"memory exhausted\"",
+        "\"invalid query\""
+      ]
+    },
+    "get_extension": {
+      "start_point": [
+        162,
+        0
+      ],
+      "end_point": [
+        200,
+        1
+      ],
+      "strings": [
+        "\"c\"",
+        "\"cpp\"",
+        "\"h\"",
+        "\"pl\"",
+        "\"pm\"",
+        "\"html\"",
+        "\"htm\""
+      ]
+    },
+    "file_read": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": [
+        "\"memory exhausted\"",
+        "\"read\""
+      ]
+    },
+    "file_open": {
+      "start_point": [
+        265,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "strings": [
+        "\"(standard input)\"",
+        "\"open\"",
+        "\"close\""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        346,
+        1
+      ],
+      "strings": [
+        "\"\\\nUsage: bool [options] PATTERN [FILE]...\\n\\\nTry `bool --help' for more information.\\n\\\n\"",
+        "\"\\\nUsage: bool [OPTION]... PATTERN [FILE] ...\\n\\\nSearch for PATTERN in each FILE or standard input.\\n\\\n\\n\\\nInterpretation:\\n\\\n  -F, --fixed-string        PATTERN is a string, not an expression\\n\\\n  -i, --ignore-case         ignore case distinctions\\n\\\n\\n\\\nOutput control:\\n\\\n  -b, --byte-offset         print the byte offset with output lines\\n\\\n  -n, --line-number         print line number with output lines\\n\\\n  -H, --with-filename       print the filename for each match\\n\\\n  -h, --no-filename         suppress the prefixing filename on output\\n\\\n  -P, --with-pattern        print the pattern for each match\\n\\\n  -p, --no-pattern          suppress the prefixing pattern on outptut\\n\\\n  -q, --quiet, --silent     suppress all normal output\\n\\\n  -L, --files-without-match only print FILE names containing no match\\n\\\n  -l, --files-with-matches  only print FILE names containing matches\\n\\\n  -c, --count               only print a count of matches per FILE\\n\\\n\\n\\\nContext control:\\n\\\n  -C, --context=NUM         print NUM characters of output context\\n\\\n  -D, --distance=NUM        NEAR matches are at most NUM words apart\\n\\\n  -O, --occurrences=NUM     print NUM lines of context for each pattern\\n\\\n\\n\\\nMiscellaneous:\\n\\\n  -s, --no-messages         suppress error messages\\n\\\n  -V, --version             print version information and exit\\n\\\n      --help                display this help and exit\\n\\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        348,
+        0
+      ],
+      "end_point": [
+        469,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"invalid context argument\"",
+        "\"invalid distance argument\"",
+        "\"invalid occurrence argument\"",
+        "\"bool (GNU) %s\\n\"",
+        "\"-\""
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/context.c": {
+    "context_init": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    },
+    "context_prep": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "line_merge": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "strings": []
+    },
+    "line_copy": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": []
+    },
+    "line_print": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        285,
+        1
+      ],
+      "strings": [
+        "\"%s%s\"",
+        "\"%s\"",
+        "\"%d%s\"",
+        "\"%d%s\"",
+        "\"%s\\n\""
+      ]
+    },
+    "line_get": {
+      "start_point": [
+        287,
+        0
+      ],
+      "end_point": [
+        362,
+        1
+      ],
+      "strings": []
+    },
+    "context_find": {
+      "start_point": [
+        364,
+        0
+      ],
+      "end_point": [
+        403,
+        1
+      ],
+      "strings": []
+    },
+    "context_print": {
+      "start_point": [
+        405,
+        0
+      ],
+      "end_point": [
+        444,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\"",
+        "\"%s%s\"",
+        "\"%s\"",
+        "\"%d\\n\"",
+        "\"%s\\n\""
+      ]
+    },
+    "context_free": {
+      "start_point": [
+        446,
+        0
+      ],
+      "end_point": [
+        450,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/src/context.h": {},
+  "bool/bool-0.2.2/src/err.c": {
+    "err_message": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": [
+        "\"bool: %s: %s\\n\"",
+        "\"bool: %s\\n\""
+      ]
+    },
+    "err_fatal": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": [
+        "\"bool: %s\\n\""
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/err.h": {},
+  "bool/bool-0.2.2/src/event.c": {},
+  "bool/bool-0.2.2/src/event.h": {},
+  "bool/bool-0.2.2/src/expr.c": {
+    "get_token": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        193,
+        1
+      ],
+      "strings": []
+    },
+    "lookahead": {
+      "start_point": [
+        195,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": []
+    },
+    "tree_dup": {
+      "start_point": [
+        258,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": []
+    },
+    "tree_norm": {
+      "start_point": [
+        276,
+        0
+      ],
+      "end_point": [
+        309,
+        1
+      ],
+      "strings": []
+    },
+    "term": {
+      "start_point": [
+        311,
+        0
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "strings": []
+    },
+    "parse": {
+      "start_point": [
+        331,
+        0
+      ],
+      "end_point": [
+        378,
+        1
+      ],
+      "strings": []
+    },
+    "list_kw": {
+      "start_point": [
+        380,
+        0
+      ],
+      "end_point": [
+        399,
+        1
+      ],
+      "strings": []
+    },
+    "list_pat": {
+      "start_point": [
+        401,
+        0
+      ],
+      "end_point": [
+        426,
+        1
+      ],
+      "strings": []
+    },
+    "expr_init": {
+      "start_point": [
+        428,
+        0
+      ],
+      "end_point": [
+        468,
+        1
+      ],
+      "strings": []
+    },
+    "expr_prep": {
+      "start_point": [
+        470,
+        0
+      ],
+      "end_point": [
+        480,
+        1
+      ],
+      "strings": []
+    },
+    "tree_eval": {
+      "start_point": [
+        482,
+        0
+      ],
+      "end_point": [
+        498,
+        1
+      ],
+      "strings": []
+    },
+    "expr_eval": {
+      "start_point": [
+        500,
+        0
+      ],
+      "end_point": [
+        504,
+        1
+      ],
+      "strings": []
+    },
+    "tree_print": {
+      "start_point": [
+        506,
+        0
+      ],
+      "end_point": [
+        520,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"%.*s\""
+      ]
+    },
+    "expr_print": {
+      "start_point": [
+        522,
+        0
+      ],
+      "end_point": [
+        529,
+        1
+      ],
+      "strings": []
+    },
+    "expr_count": {
+      "start_point": [
+        531,
+        0
+      ],
+      "end_point": [
+        535,
+        1
+      ],
+      "strings": []
+    },
+    "tree_distance": {
+      "start_point": [
+        537,
+        0
+      ],
+      "end_point": [
+        553,
+        1
+      ],
+      "strings": []
+    },
+    "expr_near": {
+      "start_point": [
+        555,
+        0
+      ],
+      "end_point": [
+        577,
+        1
+      ],
+      "strings": []
+    },
+    "expr_next": {
+      "start_point": [
+        579,
+        0
+      ],
+      "end_point": [
+        601,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/src/expr.h": {},
+  "bool/bool-0.2.2/src/html.c": {
+    "html_find": {
+      "start_point": [
+        328,
+        0
+      ],
+      "end_point": [
+        449,
+        1
+      ],
+      "strings": []
+    },
+    "html_forward": {
+      "start_point": [
+        465,
+        0
+      ],
+      "end_point": [
+        562,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/src/html.h": {},
+  "bool/bool-0.2.2/src/match.c": {
+    "match_init": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": []
+    },
+    "get_label": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": []
+    },
+    "match_incr": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": []
+    },
+    "enqueue": {
+      "start_point": [
+        288,
+        0
+      ],
+      "end_point": [
+        296,
+        1
+      ],
+      "strings": []
+    },
+    "tree_fails": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        327,
+        1
+      ],
+      "strings": []
+    },
+    "match_prep": {
+      "start_point": [
+        329,
+        0
+      ],
+      "end_point": [
+        340,
+        1
+      ],
+      "strings": []
+    },
+    "match_first": {
+      "start_point": [
+        354,
+        0
+      ],
+      "end_point": [
+        363,
+        1
+      ],
+      "strings": []
+    },
+    "match_next": {
+      "start_point": [
+        365,
+        0
+      ],
+      "end_point": [
+        384,
+        1
+      ],
+      "strings": []
+    },
+    "match_maybe": {
+      "start_point": [
+        386,
+        0
+      ],
+      "end_point": [
+        396,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/src/match.h": {},
+  "bool/bool-0.2.2/src/mem.c": {
+    "mem_init": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": [
+        "\"memory exhausted\""
+      ]
+    },
+    "mem_alloc": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": [
+        "\"memory exhausted\""
+      ]
+    },
+    "mem_free": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        129,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/src/mem.h": {},
+  "bool/bool-0.2.2/src/options.h": {},
+  "bool/bool-0.2.2/src/sgml.c": {
+    "get_entity": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "strings": [
+        "\"gt\"",
+        "\"raquo\"",
+        "\"thorn\"",
+        "\"uml\"",
+        "\"ordf\"",
+        "\"cedil\"",
+        "\"micro\"",
+        "\"Auml\"",
+        "\"Eacute\"",
+        "\"aelig\"",
+        "\"Iacute\"",
+        "\"Ccedil\"",
+        "\"ugrave\"",
+        "\"ntilde\"",
+        "\"atilde\"",
+        "\"ordm\"",
+        "\"Yacute\"",
+        "\"Uacute\"",
+        "\"AElig\"",
+        "\"curren\"",
+        "\"acute\"",
+        "\"Ograve\"",
+        "\"Iuml\"",
+        "\"frac12\"",
+        "\"Ecirc\"",
+        "\"frac14\"",
+        "\"aring\"",
+        "\"Acirc\"",
+        "\"para\"",
+        "\"yen\"",
+        "\"icirc\"",
+        "\"brvbar\"",
+        "\"divide\"",
+        "\"szlig\"",
+        "\"THORN\"",
+        "\"middot\"",
+        "\"plusmn\"",
+        "\"egrave\"",
+        "\"eth\"",
+        "\"yuml\"",
+        "\"ouml\"",
+        "\"uacute\"",
+        "\"Agrave\"",
+        "\"ccedil\"",
+        "\"cent\"",
+        "\"yacute\"",
+        "\"macr\"",
+        "\"not\"",
+        "\"Aring\"",
+        "\"frac34\"",
+        "\"lt\"",
+        "\"Oacute\"",
+        "\"ecirc\"",
+        "\"Otilde\"",
+        "\"aacute\"",
+        "\"Euml\"",
+        "\"sup3\"",
+        "\"sup2\"",
+        "\"sup1\"",
+        "\"times\"",
+        "\"Ouml\"",
+        "\"pound\"",
+        "\"reg\"",
+        "\"oacute\"",
+        "\"oslash\"",
+        "\"Aacute\"",
+        "\"quot\"",
+        "\"Oslash\"",
+        "\"iexcl\"",
+        "\"iuml\"",
+        "\"Ocirc\"",
+        "\"laquo\"",
+        "\"amp\"",
+        "\"Egrave\"",
+        "\"agrave\"",
+        "\"iacute\"",
+        "\"acirc\"",
+        "\"ograve\"",
+        "\"uuml\"",
+        "\"ocirc\"",
+        "\"otilde\"",
+        "\"euml\"",
+        "\"ETH\"",
+        "\"eacute\"",
+        "\"shy\"",
+        "\"Atilde\"",
+        "\"nbsp\"",
+        "\"auml\"",
+        "\"copy\"",
+        "\"sect\"",
+        "\"Ugrave\"",
+        "\"Icirc\"",
+        "\"iquest\"",
+        "\"Igrave\"",
+        "\"deg\"",
+        "\"Ntilde\"",
+        "\"ucirc\"",
+        "\"Uuml\"",
+        "\"igrave\"",
+        "\"Ucirc\""
+      ]
+    },
+    "get_character": {
+      "start_point": [
+        189,
+        0
+      ],
+      "end_point": [
+        224,
+        1
+      ],
+      "strings": []
+    },
+    "get_tag": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        562,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/src/sgml.h": {},
+  "bool/bool-0.2.2/src/text.c": {
+    "text_find": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": []
+    },
+    "text_forward": {
+      "start_point": [
+        222,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    },
+    "text_backward": {
+      "start_point": [
+        291,
+        0
+      ],
+      "end_point": [
+        351,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "bool/bool-0.2.2/src/text.h": {}
+}

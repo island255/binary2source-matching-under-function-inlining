@@ -1,0 +1,1347 @@
+{
+  "time/time-1.9/lib/arg-nonnull.h": {},
+  "time/time-1.9/lib/basename-lgpl.c": {
+    "last_component": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "content": "char *\nlast_component (char const *name)\n{\n  char const *base = name + FILE_SYSTEM_PREFIX_LEN (name);\n  char const *p;\n  bool saw_slash = false;\n\n  while (ISSLASH (*base))\n    base++;\n\n  for (p = base; *p; p++)\n    {\n      if (ISSLASH (*p))\n        saw_slash = true;\n      else if (saw_slash)\n        {\n          base = p;\n          saw_slash = false;\n        }\n    }\n\n  return (char *) base;\n}",
+      "lines": 23,
+      "depth": 10,
+      "decorators": [
+        "char",
+        "*\nlast_component (char const *name)",
+        "*"
+      ]
+    },
+    "base_len": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "content": "size_t\nbase_len (char const *name)\n{\n  size_t len;\n  size_t prefix_len = FILE_SYSTEM_PREFIX_LEN (name);\n\n  for (len = strlen (name);  1 < len && ISSLASH (name[len - 1]);  len--)\n    continue;\n\n  if (DOUBLE_SLASH_IS_DISTINCT_ROOT && len == 1\n      && ISSLASH (name[0]) && ISSLASH (name[1]) && ! name[2])\n    return 2;\n\n  if (FILE_SYSTEM_DRIVE_PREFIX_CAN_BE_RELATIVE && prefix_len\n      && len == prefix_len && ISSLASH (name[prefix_len]))\n    return prefix_len + 1;\n\n  return len;\n}",
+      "lines": 19,
+      "depth": 11,
+      "decorators": [
+        "size_t"
+      ]
+    }
+  },
+  "time/time-1.9/lib/c++defs.h": {},
+  "time/time-1.9/lib/dirname-lgpl.c": {
+    "dir_len": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "content": "size_t\ndir_len (char const *file)\n{\n  size_t prefix_length = FILE_SYSTEM_PREFIX_LEN (file);\n  size_t length;\n\n  /* Advance prefix_length beyond important leading slashes.  */\n  prefix_length += (prefix_length != 0\n                    ? (FILE_SYSTEM_DRIVE_PREFIX_CAN_BE_RELATIVE\n                       && ISSLASH (file[prefix_length]))\n                    : (ISSLASH (file[0])\n                       ? ((DOUBLE_SLASH_IS_DISTINCT_ROOT\n                           && ISSLASH (file[1]) && ! ISSLASH (file[2])\n                           ? 2 : 1))\n                       : 0));\n\n  /* Strip the basename and any redundant slashes before it.  */\n  for (length = last_component (file) - file;\n       prefix_length < length; length--)\n    if (! ISSLASH (file[length - 1]))\n      break;\n  return length;\n}",
+      "lines": 23,
+      "depth": 17,
+      "decorators": [
+        "size_t"
+      ]
+    },
+    "mdir_name": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "content": "char *\nmdir_name (char const *file)\n{\n  size_t length = dir_len (file);\n  bool append_dot = (length == 0\n                     || (FILE_SYSTEM_DRIVE_PREFIX_CAN_BE_RELATIVE\n                         && length == FILE_SYSTEM_PREFIX_LEN (file)\n                         && file[2] != '\\0' && ! ISSLASH (file[2])));\n  char *dir = malloc (length + append_dot + 1);\n  if (!dir)\n    return NULL;\n  memcpy (dir, file, length);\n  if (append_dot)\n    dir[length++] = '.';\n  dir[length] = '\\0';\n  return dir;\n}",
+      "lines": 17,
+      "depth": 14,
+      "decorators": [
+        "char",
+        "*\nmdir_name (char const *file)",
+        "*"
+      ]
+    }
+  },
+  "time/time-1.9/lib/dirname.h": {},
+  "time/time-1.9/lib/dosname.h": {},
+  "time/time-1.9/lib/errno.in.h": {},
+  "time/time-1.9/lib/error.c": {
+    "is_open": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "content": "static int\nis_open (int fd)\n{\n# if (defined _WIN32 || defined __WIN32__) && ! defined __CYGWIN__\n  /* On native Windows: The initial state of unassigned standard file\n     descriptors is that they are open but point to an INVALID_HANDLE_VALUE.\n     There is no fcntl, and the gnulib replacement fcntl does not support\n     F_GETFL.  */\n  return (HANDLE) _get_osfhandle (fd) != INVALID_HANDLE_VALUE;\n# else\n#  ifndef F_GETFL\n#   error Please port fcntl to your platform\n#  endif\n  return 0 <= fcntl (fd, F_GETFL);\n# endif\n}",
+      "lines": 16,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "flush_stdout": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "content": "static void\nflush_stdout (void)\n{\n#if !_LIBC\n  int stdout_fd;\n\n# if GNULIB_FREOPEN_SAFER\n  /* Use of gnulib's freopen-safer module normally ensures that\n       fileno (stdout) == 1\n     whenever stdout is open.  */\n  stdout_fd = STDOUT_FILENO;\n# else\n  /* POSIX states that fileno (stdout) after fclose is unspecified.  But in\n     practice it is not a problem, because stdout is statically allocated and\n     the fd of a FILE stream is stored as a field in its allocated memory.  */\n  stdout_fd = fileno (stdout);\n# endif\n  /* POSIX states that fflush (stdout) after fclose is unspecified; it\n     is safe in glibc, but not on all other platforms.  fflush (NULL)\n     is always defined, but too draconian.  */\n  if (0 <= stdout_fd && is_open (stdout_fd))\n#endif\n    fflush (stdout);\n}",
+      "lines": 24,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "print_errno_message": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "content": "static void\nprint_errno_message (int errnum)\n{\n  char const *s;\n\n#if _LIBC || GNULIB_STRERROR_R_POSIX || defined HAVE_STRERROR_R\n  char errbuf[1024];\n# if _LIBC || (!GNULIB_STRERROR_R_POSIX && STRERROR_R_CHAR_P)\n  s = __strerror_r (errnum, errbuf, sizeof errbuf);\n# else\n  if (__strerror_r (errnum, errbuf, sizeof errbuf) == 0)\n    s = errbuf;\n  else\n    s = 0;\n# endif\n#else\n  s = strerror (errnum);\n#endif\n\n#if !_LIBC\n  if (! s)\n    s = _(\"Unknown system error\");\n#endif\n\n#if _LIBC\n  __fxprintf (NULL, \": %s\", s);\n#else\n  fprintf (stderr, \": %s\", s);\n#endif\n}",
+      "lines": 30,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        205,
+        42
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "content": "char *message, va_list args)\n{\n#if _LIBC\n  if (_IO_fwide (stderr, 0) > 0)\n    {\n      size_t len = strlen (message) + 1;\n      wchar_t *wmessage = NULL;\n      mbstate_t st;\n      size_t res;\n      const char *tmp;\n      bool use_malloc = false;\n\n      while (1)\n        {\n          if (__libc_use_alloca (len * sizeof (wchar_t)))\n            wmessage = (wchar_t *) alloca (len * sizeof (wchar_t));\n          else\n            {\n              if (!use_malloc)\n                wmessage = NULL;\n\n              wchar_t *p = (wchar_t *) realloc (wmessage,\n                                                len * sizeof (wchar_t));\n              if (p == NULL)\n                {\n                  free (wmessage);\n                  fputws_unlocked (L\"out of memory\\n\", stderr);\n                  return;\n                }\n              wmessage = p;\n              use_malloc = true;\n            }\n\n          memset (&st, '\\0', sizeof (st));\n          tmp = message;\n\n          res = mbsrtowcs (wmessage, &tmp, len, &st);\n          if (res != len)\n            break;\n\n          if (__builtin_expect (len >= SIZE_MAX / sizeof (wchar_t) / 2, 0))\n            {\n              /* This really should not happen if everything is fine.  */\n              res = (size_t) -1;\n              break;\n            }\n\n          len *= 2;\n        }\n\n      if (res == (size_t) -1)\n        {\n          /* The string cannot be converted.  */\n          if (use_malloc)\n            {\n              free (wmessage);\n              use_malloc = false;\n            }\n          wmessage = (wchar_t *) L\"???\";\n        }\n\n      __vfwprintf (stderr, wmessage, args);\n\n      if (use_malloc)\n        free (wmessage);\n    }\n  else\n#endif\n    vfprintf (stderr, message, args);\n\n  ++error_message_count;\n  if (errnum)\n    print_errno_message (errnum);\n#if _LIBC\n  __fxprintf (NULL, \"\\n\");\n#else\n  putc ('\\n', stderr);\n#endif\n  fflush (stderr);\n  if (status)\n    exit (status);\n}",
+      "lines": 82,
+      "depth": 18,
+      "decorators": null
+    },
+    "error": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        331,
+        1
+      ],
+      "content": "void\nerror (int status, int errnum, const char *message, ...)\n{\n  va_list args;\n\n#if defined _LIBC && defined __libc_ptf_call\n  /* We do not want this call to be cut short by a thread\n     cancellation.  Therefore disable cancellation for now.  */\n  int state = PTHREAD_CANCEL_ENABLE;\n  __libc_ptf_call (pthread_setcancelstate, (PTHREAD_CANCEL_DISABLE, &state),\n                   0);\n#endif\n\n  flush_stdout ();\n#ifdef _LIBC\n  _IO_flockfile (stderr);\n#endif\n  if (error_print_progname)\n    (*error_print_progname) ();\n  else\n    {\n#if _LIBC\n      __fxprintf (NULL, \"%s: \", program_name);\n#else\n      fprintf (stderr, \"%s: \", program_name);\n#endif\n    }\n\n  va_start (args, message);\n  error_tail (status, errnum, message, args);\n  va_end (args);\n\n#ifdef _LIBC\n  _IO_funlockfile (stderr);\n# ifdef __libc_ptf_call\n  __libc_ptf_call (pthread_setcancelstate, (state, NULL), 0);\n# endif\n#endif\n}",
+      "lines": 39,
+      "depth": 11,
+      "decorators": [
+        "void"
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        337,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "content": "void\nerror_at_line (int status, int errnum, const char *file_name,\n               unsigned int line_number, const char *message, ...)\n{\n  va_list args;\n\n  if (error_one_per_line)\n    {\n      static const char *old_file_name;\n      static unsigned int old_line_number;\n\n      if (old_line_number == line_number\n          && (file_name == old_file_name\n              || (old_file_name != NULL\n                  && file_name != NULL\n                  && strcmp (old_file_name, file_name) == 0)))\n\n        /* Simply return and print nothing.  */\n        return;\n\n      old_file_name = file_name;\n      old_line_number = line_number;\n    }\n\n#if defined _LIBC && defined __libc_ptf_call\n  /* We do not want this call to be cut short by a thread\n     cancellation.  Therefore disable cancellation for now.  */\n  int state = PTHREAD_CANCEL_ENABLE;\n  __libc_ptf_call (pthread_setcancelstate, (PTHREAD_CANCEL_DISABLE, &state),\n                   0);\n#endif\n\n  flush_stdout ();\n#ifdef _LIBC\n  _IO_flockfile (stderr);\n#endif\n  if (error_print_progname)\n    (*error_print_progname) ();\n  else\n    {\n#if _LIBC\n      __fxprintf (NULL, \"%s:\", program_name);\n#else\n      fprintf (stderr, \"%s:\", program_name);\n#endif\n    }\n\n#if _LIBC\n  __fxprintf (NULL, file_name != NULL ? \"%s:%u: \" : \" \",\n              file_name, line_number);\n#else\n  fprintf (stderr, file_name != NULL ? \"%s:%u: \" : \" \",\n           file_name, line_number);\n#endif\n\n  va_start (args, message);\n  error_tail (status, errnum, message, args);\n  va_end (args);\n\n#ifdef _LIBC\n  _IO_funlockfile (stderr);\n# ifdef __libc_ptf_call\n  __libc_ptf_call (pthread_setcancelstate, (state, NULL), 0);\n# endif\n#endif\n}",
+      "lines": 66,
+      "depth": 15,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "time/time-1.9/lib/error.h": {},
+  "time/time-1.9/lib/getopt-cdefs.in.h": {},
+  "time/time-1.9/lib/getopt-core.h": {},
+  "time/time-1.9/lib/getopt-ext.h": {
+    "struct": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "content": "__BEGIN_DECLS\n\n/* Describe the long-named options requested by the application.\n   The LONG_OPTIONS argument to getopt_long or getopt_long_only is a vector\n   of 'struct option' terminated by an element containing a name which is\n   zero.\n\n   The field 'has_arg' is:\n   no_argument\t\t(or 0) if the option does not take an argument,\n   required_argument\t(or 1) if the option requires an argument,\n   optional_argument \t(or 2) if the option takes an optional argument.\n\n   If the field 'flag' is not NULL, it points to a variable that is set\n   to the value given in the field 'val' when the option is found, but\n   left unchanged if the option is not found.\n\n   To have a long-named option do something other than set an 'int' to\n   a compiled-in constant, such as set a value from 'optarg', set the\n   option's 'flag' field to zero and its 'val' field to a nonzero\n   value (the equivalent single-letter option character, if there is\n   one).  For long options that have a zero 'flag' field, 'getopt'\n   returns the contents of the 'val' field.  */\n\nstruct option\n{\n  const char *name;\n  /* has_arg can't be an enum because some compilers complain about\n     type mismatches in all the code that assumes it is an int.  */\n  int has_arg;\n  int *flag;\n  int val;\n}",
+      "lines": 32,
+      "depth": 5,
+      "decorators": null
+    }
+  },
+  "time/time-1.9/lib/getopt-pfx-core.h": {},
+  "time/time-1.9/lib/getopt-pfx-ext.h": {},
+  "time/time-1.9/lib/getopt.c": {
+    "exchange": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "content": "static void\nexchange (char **argv, struct _getopt_data *d)\n{\n  int bottom = d->__first_nonopt;\n  int middle = d->__last_nonopt;\n  int top = d->optind;\n  char *tem;\n\n  /* Exchange the shorter segment with the far end of the longer segment.\n     That puts the shorter segment into the right place.\n     It leaves the longer segment in the right place overall,\n     but it consists of two parts that need to be swapped next.  */\n\n  while (top > middle && middle > bottom)\n    {\n      if (top - middle > middle - bottom)\n\t{\n\t  /* Bottom segment is the short one.  */\n\t  int len = middle - bottom;\n\t  int i;\n\n\t  /* Swap it with the top part of the top segment.  */\n\t  for (i = 0; i < len; i++)\n\t    {\n\t      tem = argv[bottom + i];\n\t      argv[bottom + i] = argv[top - (middle - bottom) + i];\n\t      argv[top - (middle - bottom) + i] = tem;\n\t    }\n\t  /* Exclude the moved bottom segment from further swapping.  */\n\t  top -= len;\n\t}\n      else\n\t{\n\t  /* Top segment is the short one.  */\n\t  int len = top - middle;\n\t  int i;\n\n\t  /* Swap it with the bottom part of the bottom segment.  */\n\t  for (i = 0; i < len; i++)\n\t    {\n\t      tem = argv[bottom + i];\n\t      argv[bottom + i] = argv[middle + i];\n\t      argv[middle + i] = tem;\n\t    }\n\t  /* Exclude the moved top segment from further swapping.  */\n\t  bottom += len;\n\t}\n    }\n\n  /* Update records for the slots the non-options now occupy.  */\n\n  d->__first_nonopt += (d->optind - d->__last_nonopt);\n  d->__last_nonopt = d->optind;\n}",
+      "lines": 54,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "process_long_option": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "content": "static int\nprocess_long_option (int argc, char **argv, const char *optstring,\n\t\t     const struct option *longopts, int *longind,\n\t\t     int long_only, struct _getopt_data *d,\n\t\t     int print_errors, const char *prefix)\n{\n  char *nameend;\n  size_t namelen;\n  const struct option *p;\n  const struct option *pfound = NULL;\n  int n_options;\n  int option_index;\n\n  for (nameend = d->__nextchar; *nameend && *nameend != '='; nameend++)\n    /* Do nothing.  */ ;\n  namelen = nameend - d->__nextchar;\n\n  /* First look for an exact match, counting the options as a side\n     effect.  */\n  for (p = longopts, n_options = 0; p->name; p++, n_options++)\n    if (!strncmp (p->name, d->__nextchar, namelen)\n\t&& namelen == strlen (p->name))\n      {\n\t/* Exact match found.  */\n\tpfound = p;\n\toption_index = n_options;\n\tbreak;\n      }\n\n  if (pfound == NULL)\n    {\n      /* Didn't find an exact match, so look for abbreviations.  */\n      unsigned char *ambig_set = NULL;\n      int ambig_malloced = 0;\n      int ambig_fallback = 0;\n      int indfound = -1;\n\n      for (p = longopts, option_index = 0; p->name; p++, option_index++)\n\tif (!strncmp (p->name, d->__nextchar, namelen))\n\t  {\n\t    if (pfound == NULL)\n\t      {\n\t\t/* First nonexact match found.  */\n\t\tpfound = p;\n\t\tindfound = option_index;\n\t      }\n\t    else if (long_only\n\t\t     || pfound->has_arg != p->has_arg\n\t\t     || pfound->flag != p->flag\n\t\t     || pfound->val != p->val)\n\t      {\n\t\t/* Second or later nonexact match found.  */\n\t\tif (!ambig_fallback)\n\t\t  {\n\t\t    if (!print_errors)\n\t\t      /* Don't waste effort tracking the ambig set if\n\t\t\t we're not going to print it anyway.  */\n\t\t      ambig_fallback = 1;\n\t\t    else if (!ambig_set)\n\t\t      {\n\t\t\tif (__libc_use_alloca (n_options))\n\t\t\t  ambig_set = alloca (n_options);\n\t\t\telse if ((ambig_set = malloc (n_options)) == NULL)\n\t\t\t  /* Fall back to simpler error message.  */\n\t\t\t  ambig_fallback = 1;\n\t\t\telse\n\t\t\t  ambig_malloced = 1;\n\n\t\t\tif (ambig_set)\n\t\t\t  {\n\t\t\t    memset (ambig_set, 0, n_options);\n\t\t\t    ambig_set[indfound] = 1;\n\t\t\t  }\n\t\t      }\n\t\t    if (ambig_set)\n\t\t      ambig_set[option_index] = 1;\n\t\t  }\n\t      }\n\t  }\n\n      if (ambig_set || ambig_fallback)\n\t{\n\t  if (print_errors)\n\t    {\n\t      if (ambig_fallback)\n\t\tfprintf (stderr, _(\"%s: option '%s%s' is ambiguous\\n\"),\n\t\t\t argv[0], prefix, d->__nextchar);\n\t      else\n\t\t{\n\t\t  flockfile (stderr);\n\t\t  fprintf (stderr,\n\t\t\t   _(\"%s: option '%s%s' is ambiguous; possibilities:\"),\n\t\t\t   argv[0], prefix, d->__nextchar);\n\n\t\t  for (option_index = 0; option_index < n_options; option_index++)\n\t\t    if (ambig_set[option_index])\n\t\t      fprintf (stderr, \" '%s%s'\",\n\t\t\t       prefix, longopts[option_index].name);\n\n\t\t  /* This must use 'fprintf' even though it's only\n\t\t     printing a single character, so that it goes through\n\t\t     __fxprintf_nocancel when compiled as part of glibc.  */\n\t\t  fprintf (stderr, \"\\n\");\n\t\t  funlockfile (stderr);\n\t\t}\n\t    }\n\t  if (ambig_malloced)\n\t    free (ambig_set);\n\t  d->__nextchar += strlen (d->__nextchar);\n\t  d->optind++;\n\t  d->optopt = 0;\n\t  return '?';\n\t}\n\n      option_index = indfound;\n    }\n\n  if (pfound == NULL)\n    {\n      /* Can't find it as a long option.  If this is not getopt_long_only,\n\t or the option starts with '--' or is not a valid short option,\n\t then it's an error.  */\n      if (!long_only || argv[d->optind][1] == '-'\n\t  || strchr (optstring, *d->__nextchar) == NULL)\n\t{\n\t  if (print_errors)\n\t    fprintf (stderr, _(\"%s: unrecognized option '%s%s'\\n\"),\n\t\t     argv[0], prefix, d->__nextchar);\n\n\t  d->__nextchar = NULL;\n\t  d->optind++;\n\t  d->optopt = 0;\n\t  return '?';\n\t}\n\n      /* Otherwise interpret it as a short option.  */\n      return -1;\n    }\n\n  /* We have found a matching long option.  Consume it.  */\n  d->optind++;\n  d->__nextchar = NULL;\n  if (*nameend)\n    {\n      /* Don't test has_arg with >, because some C compilers don't\n\t allow it to be used on enums.  */\n      if (pfound->has_arg)\n\td->optarg = nameend + 1;\n      else\n\t{\n\t  if (print_errors)\n\t    fprintf (stderr,\n\t\t     _(\"%s: option '%s%s' doesn't allow an argument\\n\"),\n\t\t     argv[0], prefix, pfound->name);\n\n\t  d->optopt = pfound->val;\n\t  return '?';\n\t}\n    }\n  else if (pfound->has_arg == 1)\n    {\n      if (d->optind < argc)\n\td->optarg = argv[d->optind++];\n      else\n\t{\n\t  if (print_errors)\n\t    fprintf (stderr,\n\t\t     _(\"%s: option '%s%s' requires an argument\\n\"),\n\t\t     argv[0], prefix, pfound->name);\n\n\t  d->optopt = pfound->val;\n\t  return optstring[0] == ':' ? ':' : '?';\n\t}\n    }\n\n  if (longind != NULL)\n    *longind = option_index;\n  if (pfound->flag)\n    {\n      *(pfound->flag) = pfound->val;\n      return 0;\n    }\n  return pfound->val;\n}",
+      "lines": 184,
+      "depth": 24,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        411,
+        1
+      ],
+      "content": "static const char *\n_getopt_initialize (int argc _GL_UNUSED,\n\t\t    char **argv _GL_UNUSED, const char *optstring,\n\t\t    struct _getopt_data *d, int posixly_correct)\n{\n  /* Start processing options with ARGV-element 1 (since ARGV-element 0\n     is the program name); the sequence of previously skipped\n     non-option ARGV-elements is empty.  */\n  if (d->optind == 0)\n    d->optind = 1;\n\n  d->__first_nonopt = d->__last_nonopt = d->optind;\n  d->__nextchar = NULL;\n\n  /* Determine how to handle the ordering of options and nonoptions.  */\n  if (optstring[0] == '-')\n    {\n      d->__ordering = RETURN_IN_ORDER;\n      ++optstring;\n    }\n  else if (optstring[0] == '+')\n    {\n      d->__ordering = REQUIRE_ORDER;\n      ++optstring;\n    }\n  else if (posixly_correct || !!getenv (\"POSIXLY_CORRECT\"))\n    d->__ordering = REQUIRE_ORDER;\n  else\n    d->__ordering = PERMUTE;\n\n  d->__initialized = 1;\n  return optstring;\n}",
+      "lines": 33,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\n_getopt_initialize (int argc _GL_UNUSED,\n\t\t    char **argv _GL_UNUSED, const char *optstring,\n\t\t    struct _getopt_data *d, int posixly_correct)",
+        "*"
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        469,
+        0
+      ],
+      "end_point": [
+        699,
+        1
+      ],
+      "content": "int\n_getopt_internal_r (int argc, char **argv, const char *optstring,\n\t\t    const struct option *longopts, int *longind,\n\t\t    int long_only, struct _getopt_data *d, int posixly_correct)\n{\n  int print_errors = d->opterr;\n\n  if (argc < 1)\n    return -1;\n\n  d->optarg = NULL;\n\n  if (d->optind == 0 || !d->__initialized)\n    optstring = _getopt_initialize (argc, argv, optstring, d, posixly_correct);\n  else if (optstring[0] == '-' || optstring[0] == '+')\n    optstring++;\n\n  if (optstring[0] == ':')\n    print_errors = 0;\n\n  /* Test whether ARGV[optind] points to a non-option argument.  */\n#define NONOPTION_P (argv[d->optind][0] != '-' || argv[d->optind][1] == '\\0')\n\n  if (d->__nextchar == NULL || *d->__nextchar == '\\0')\n    {\n      /* Advance to the next ARGV-element.  */\n\n      /* Give FIRST_NONOPT & LAST_NONOPT rational values if OPTIND has been\n\t moved back by the user (who may also have changed the arguments).  */\n      if (d->__last_nonopt > d->optind)\n\td->__last_nonopt = d->optind;\n      if (d->__first_nonopt > d->optind)\n\td->__first_nonopt = d->optind;\n\n      if (d->__ordering == PERMUTE)\n\t{\n\t  /* If we have just processed some options following some non-options,\n\t     exchange them so that the options come first.  */\n\n\t  if (d->__first_nonopt != d->__last_nonopt\n\t      && d->__last_nonopt != d->optind)\n\t    exchange (argv, d);\n\t  else if (d->__last_nonopt != d->optind)\n\t    d->__first_nonopt = d->optind;\n\n\t  /* Skip any additional non-options\n\t     and extend the range of non-options previously skipped.  */\n\n\t  while (d->optind < argc && NONOPTION_P)\n\t    d->optind++;\n\t  d->__last_nonopt = d->optind;\n\t}\n\n      /* The special ARGV-element '--' means premature end of options.\n\t Skip it like a null option,\n\t then exchange with previous non-options as if it were an option,\n\t then skip everything else like a non-option.  */\n\n      if (d->optind != argc && !strcmp (argv[d->optind], \"--\"))\n\t{\n\t  d->optind++;\n\n\t  if (d->__first_nonopt != d->__last_nonopt\n\t      && d->__last_nonopt != d->optind)\n\t    exchange (argv, d);\n\t  else if (d->__first_nonopt == d->__last_nonopt)\n\t    d->__first_nonopt = d->optind;\n\t  d->__last_nonopt = argc;\n\n\t  d->optind = argc;\n\t}\n\n      /* If we have done all the ARGV-elements, stop the scan\n\t and back over any non-options that we skipped and permuted.  */\n\n      if (d->optind == argc)\n\t{\n\t  /* Set the next-arg-index to point at the non-options\n\t     that we previously skipped, so the caller will digest them.  */\n\t  if (d->__first_nonopt != d->__last_nonopt)\n\t    d->optind = d->__first_nonopt;\n\t  return -1;\n\t}\n\n      /* If we have come to a non-option and did not permute it,\n\t either stop the scan or describe it to the caller and pass it by.  */\n\n      if (NONOPTION_P)\n\t{\n\t  if (d->__ordering == REQUIRE_ORDER)\n\t    return -1;\n\t  d->optarg = argv[d->optind++];\n\t  return 1;\n\t}\n\n      /* We have found another option-ARGV-element.\n\t Check whether it might be a long option.  */\n      if (longopts)\n\t{\n\t  if (argv[d->optind][1] == '-')\n\t    {\n\t      /* \"--foo\" is always a long option.  The special option\n\t\t \"--\" was handled above.  */\n\t      d->__nextchar = argv[d->optind] + 2;\n\t      return process_long_option (argc, argv, optstring, longopts,\n\t\t\t\t\t  longind, long_only, d,\n\t\t\t\t\t  print_errors, \"--\");\n\t    }\n\n\t  /* If long_only and the ARGV-element has the form \"-f\",\n\t     where f is a valid short option, don't consider it an\n\t     abbreviated form of a long option that starts with f.\n\t     Otherwise there would be no way to give the -f short\n\t     option.\n\n\t     On the other hand, if there's a long option \"fubar\" and\n\t     the ARGV-element is \"-fu\", do consider that an\n\t     abbreviation of the long option, just like \"--fu\", and\n\t     not \"-f\" with arg \"u\".\n\n\t     This distinction seems to be the most useful approach.  */\n\t  if (long_only && (argv[d->optind][2]\n\t\t\t    || !strchr (optstring, argv[d->optind][1])))\n\t    {\n\t      int code;\n\t      d->__nextchar = argv[d->optind] + 1;\n\t      code = process_long_option (argc, argv, optstring, longopts,\n\t\t\t\t\t  longind, long_only, d,\n\t\t\t\t\t  print_errors, \"-\");\n\t      if (code != -1)\n\t\treturn code;\n\t    }\n\t}\n\n      /* It is not a long option.  Skip the initial punctuation.  */\n      d->__nextchar = argv[d->optind] + 1;\n    }\n\n  /* Look at and handle the next short option-character.  */\n\n  {\n    char c = *d->__nextchar++;\n    const char *temp = strchr (optstring, c);\n\n    /* Increment 'optind' when we start to process its last character.  */\n    if (*d->__nextchar == '\\0')\n      ++d->optind;\n\n    if (temp == NULL || c == ':' || c == ';')\n      {\n\tif (print_errors)\n\t  fprintf (stderr, _(\"%s: invalid option -- '%c'\\n\"), argv[0], c);\n\td->optopt = c;\n\treturn '?';\n      }\n\n    /* Convenience. Treat POSIX -W foo same as long option --foo */\n    if (temp[0] == 'W' && temp[1] == ';' && longopts != NULL)\n      {\n\t/* This is an option that requires an argument.  */\n\tif (*d->__nextchar != '\\0')\n\t  d->optarg = d->__nextchar;\n\telse if (d->optind == argc)\n\t  {\n\t    if (print_errors)\n\t      fprintf (stderr,\n\t\t       _(\"%s: option requires an argument -- '%c'\\n\"),\n\t\t       argv[0], c);\n\n\t    d->optopt = c;\n\t    if (optstring[0] == ':')\n\t      c = ':';\n\t    else\n\t      c = '?';\n\t    return c;\n\t  }\n\telse\n\t  d->optarg = argv[d->optind];\n\n\td->__nextchar = d->optarg;\n\td->optarg = NULL;\n\treturn process_long_option (argc, argv, optstring, longopts, longind,\n\t\t\t\t    0 /* long_only */, d, print_errors, \"-W \");\n      }\n    if (temp[1] == ':')\n      {\n\tif (temp[2] == ':')\n\t  {\n\t    /* This is an option that accepts an argument optionally.  */\n\t    if (*d->__nextchar != '\\0')\n\t      {\n\t\td->optarg = d->__nextchar;\n\t\td->optind++;\n\t      }\n\t    else\n\t      d->optarg = NULL;\n\t    d->__nextchar = NULL;\n\t  }\n\telse\n\t  {\n\t    /* This is an option that requires an argument.  */\n\t    if (*d->__nextchar != '\\0')\n\t      {\n\t\td->optarg = d->__nextchar;\n\t\t/* If we end this ARGV-element by taking the rest as an arg,\n\t\t   we must advance to the next element now.  */\n\t\td->optind++;\n\t      }\n\t    else if (d->optind == argc)\n\t      {\n\t\tif (print_errors)\n\t\t  fprintf (stderr,\n\t\t\t   _(\"%s: option requires an argument -- '%c'\\n\"),\n\t\t\t   argv[0], c);\n\n\t\td->optopt = c;\n\t\tif (optstring[0] == ':')\n\t\t  c = ':';\n\t\telse\n\t\t  c = '?';\n\t      }\n\t    else\n\t      /* We already incremented 'optind' once;\n\t\t increment it again when taking next ARGV-elt as argument.  */\n\t      d->optarg = argv[d->optind++];\n\t    d->__nextchar = NULL;\n\t  }\n      }\n    return c;\n  }\n}",
+      "lines": 231,
+      "depth": 18,
+      "decorators": [
+        "int"
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        701,
+        0
+      ],
+      "end_point": [
+        720,
+        1
+      ],
+      "content": "int\n_getopt_internal (int argc, char **argv, const char *optstring,\n\t\t  const struct option *longopts, int *longind, int long_only,\n\t\t  int posixly_correct)\n{\n  int result;\n\n  getopt_data.optind = optind;\n  getopt_data.opterr = opterr;\n\n  result = _getopt_internal_r (argc, argv, optstring, longopts,\n\t\t\t       longind, long_only, &getopt_data,\n\t\t\t       posixly_correct);\n\n  optind = getopt_data.optind;\n  optarg = getopt_data.optarg;\n  optopt = getopt_data.optopt;\n\n  return result;\n}",
+      "lines": 20,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "main": {
+      "start_point": [
+        747,
+        0
+      ],
+      "end_point": [
+        808,
+        1
+      ],
+      "content": "int\nmain (int argc, char **argv)\n{\n  int c;\n  int digit_optind = 0;\n\n  while (1)\n    {\n      int this_option_optind = optind ? optind : 1;\n\n      c = getopt (argc, argv, \"abc:d:0123456789\");\n      if (c == -1)\n\tbreak;\n\n      switch (c)\n\t{\n\tcase '0':\n\tcase '1':\n\tcase '2':\n\tcase '3':\n\tcase '4':\n\tcase '5':\n\tcase '6':\n\tcase '7':\n\tcase '8':\n\tcase '9':\n\t  if (digit_optind != 0 && digit_optind != this_option_optind)\n\t    printf (\"digits occur in two different argv-elements.\\n\");\n\t  digit_optind = this_option_optind;\n\t  printf (\"option %c\\n\", c);\n\t  break;\n\n\tcase 'a':\n\t  printf (\"option a\\n\");\n\t  break;\n\n\tcase 'b':\n\t  printf (\"option b\\n\");\n\t  break;\n\n\tcase 'c':\n\t  printf (\"option c with value '%s'\\n\", optarg);\n\t  break;\n\n\tcase '?':\n\t  break;\n\n\tdefault:\n\t  printf (\"?? getopt returned character code 0%o ??\\n\", c);\n\t}\n    }\n\n  if (optind < argc)\n    {\n      printf (\"non-option ARGV-elements: \");\n      while (optind < argc)\n\tprintf (\"%s \", argv[optind++]);\n      printf (\"\\n\");\n    }\n\n  exit (0);\n}",
+      "lines": 62,
+      "depth": 13,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "time/time-1.9/lib/getopt.in.h": {},
+  "time/time-1.9/lib/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "content": "int\ngetopt_long (int argc, char *__getopt_argv_const *argv, const char *options,\n\t     const struct option *long_options, int *opt_index)\n{\n  return _getopt_internal (argc, (char **) argv, options, long_options,\n\t\t\t   opt_index, 0, 0);\n}",
+      "lines": 7,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "content": "int\n_getopt_long_r (int argc, char **argv, const char *options,\n\t\tconst struct option *long_options, int *opt_index,\n\t\tstruct _getopt_data *d)\n{\n  return _getopt_internal_r (argc, argv, options, long_options, opt_index,\n\t\t\t     0, d, 0);\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    },
+    "getopt_long_only": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "content": "int\ngetopt_long_only (int argc, char *__getopt_argv_const *argv,\n\t\t  const char *options,\n\t\t  const struct option *long_options, int *opt_index)\n{\n  return _getopt_internal (argc, (char **) argv, options, long_options,\n\t\t\t   opt_index, 1, 0);\n}",
+      "lines": 8,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "content": "int\n_getopt_long_only_r (int argc, char **argv, const char *options,\n\t\t     const struct option *long_options, int *opt_index,\n\t\t     struct _getopt_data *d)\n{\n  return _getopt_internal_r (argc, argv, options, long_options, opt_index,\n\t\t\t     1, d, 0);\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    },
+    "main": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "content": "int\nmain (int argc, char **argv)\n{\n  int c;\n  int digit_optind = 0;\n\n  while (1)\n    {\n      int this_option_optind = optind ? optind : 1;\n      int option_index = 0;\n      static const struct option long_options[] =\n      {\n\t{\"add\", 1, 0, 0},\n\t{\"append\", 0, 0, 0},\n\t{\"delete\", 1, 0, 0},\n\t{\"verbose\", 0, 0, 0},\n\t{\"create\", 0, 0, 0},\n\t{\"file\", 1, 0, 0},\n\t{0, 0, 0, 0}\n      };\n\n      c = getopt_long (argc, argv, \"abc:d:0123456789\",\n\t\t       long_options, &option_index);\n      if (c == -1)\n\tbreak;\n\n      switch (c)\n\t{\n\tcase 0:\n\t  printf (\"option %s\", long_options[option_index].name);\n\t  if (optarg)\n\t    printf (\" with arg %s\", optarg);\n\t  printf (\"\\n\");\n\t  break;\n\n\tcase '0':\n\tcase '1':\n\tcase '2':\n\tcase '3':\n\tcase '4':\n\tcase '5':\n\tcase '6':\n\tcase '7':\n\tcase '8':\n\tcase '9':\n\t  if (digit_optind != 0 && digit_optind != this_option_optind)\n\t    printf (\"digits occur in two different argv-elements.\\n\");\n\t  digit_optind = this_option_optind;\n\t  printf (\"option %c\\n\", c);\n\t  break;\n\n\tcase 'a':\n\t  printf (\"option a\\n\");\n\t  break;\n\n\tcase 'b':\n\t  printf (\"option b\\n\");\n\t  break;\n\n\tcase 'c':\n\t  printf (\"option c with value '%s'\\n\", optarg);\n\t  break;\n\n\tcase 'd':\n\t  printf (\"option d with value '%s'\\n\", optarg);\n\t  break;\n\n\tcase '?':\n\t  break;\n\n\tdefault:\n\t  printf (\"?? getopt returned character code 0%o ??\\n\", c);\n\t}\n    }\n\n  if (optind < argc)\n    {\n      printf (\"non-option ARGV-elements: \");\n      while (optind < argc)\n\tprintf (\"%s \", argv[optind++]);\n      printf (\"\\n\");\n    }\n\n  exit (0);\n}",
+      "lines": 85,
+      "depth": 13,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "time/time-1.9/lib/getopt_int.h": {},
+  "time/time-1.9/lib/getpagesize.c": {
+    "getpagesize": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "content": "int\ngetpagesize (void)\n{\n  SYSTEM_INFO system_info;\n  GetSystemInfo (&system_info);\n  return system_info.dwPageSize;\n}",
+      "lines": 7,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "time/time-1.9/lib/getprogname.c": {
+    "getprogname": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "content": "char const *\ngetprogname (void)\n{\n# if HAVE_DECL_PROGRAM_INVOCATION_SHORT_NAME                /* glibc, BeOS */\n  /* https://www.gnu.org/software/libc/manual/html_node/Error-Messages.html */\n  return program_invocation_short_name;\n# elif HAVE_DECL_PROGRAM_INVOCATION_NAME                    /* glibc, BeOS */\n  /* https://www.gnu.org/software/libc/manual/html_node/Error-Messages.html */\n  return last_component (program_invocation_name);\n# elif HAVE_GETEXECNAME                                     /* Solaris */\n  /* https://docs.oracle.com/cd/E19253-01/816-5168/6mbb3hrb1/index.html */\n  const char *p = getexecname ();\n  if (!p)\n    p = \"?\";\n  return last_component (p);\n# elif HAVE_DECL___ARGV                                     /* mingw, MSVC */\n  /* https://msdn.microsoft.com/en-us/library/dn727674.aspx */\n  const char *p = __argv && __argv[0] ? __argv[0] : \"?\";\n  return last_component (p);\n# elif HAVE_VAR___PROGNAME                                  /* OpenBSD, QNX */\n  /* https://man.openbsd.org/style.9 */\n  /* http://www.qnx.de/developers/docs/6.5.0/index.jsp?topic=%2Fcom.qnx.doc.neutrino_lib_ref%2Fp%2F__progname.html */\n  /* Be careful to declare this only when we absolutely need it\n     (OpenBSD 5.1), rather than when it's available.  Otherwise,\n     its mere declaration makes program_invocation_short_name\n     malfunction (have zero length) with Fedora 25's glibc.  */\n  extern char *__progname;\n  const char *p = __progname;\n  return p && p[0] ? p : \"?\";\n# elif _AIX                                                 /* AIX */\n  /* Idea by Bastien ROUCARI\u00c3\u0088S,\n     https://lists.gnu.org/r/bug-gnulib/2010-12/msg00095.html\n     Reference: https://www.ibm.com/support/knowledgecenter/en/ssw_aix_61/com.ibm.aix.basetrf1/getprocs.htm\n  */\n  static char *p;\n  static int first = 1;\n  if (first)\n    {\n      first = 0;\n      pid_t pid = getpid ();\n      struct procentry64 procs;\n      p = (0 < getprocs64 (&procs, sizeof procs, NULL, 0, &pid, 1)\n           ? strdup (procs.pi_comm)\n           : NULL);\n      if (!p)\n        p = \"?\";\n    }\n  return p;\n# elif defined __hpux\n  static char *p;\n  static int first = 1;\n  if (first)\n    {\n      first = 0;\n      pid_t pid = getpid ();\n      struct pst_status status;\n      p = (0 < pstat_getproc (&status, sizeof status, 0, pid)\n           ? strdup (status.pst_ucomm)\n           : NULL);\n      if (!p)\n        p = \"?\";\n    }\n  return p;\n# elif __MVS__                                              /* z/OS */\n  /* https://www.ibm.com/support/knowledgecenter/SSLTBW_2.1.0/com.ibm.zos.v2r1.bpxbd00/rtwgetp.htm */\n  static char *p = \"?\";\n  static int first = 1;\n  if (first)\n    {\n      pid_t pid = getpid ();\n      int token;\n      W_PSPROC buf;\n      first = 0;\n      memset (&buf, 0, sizeof(buf));\n      buf.ps_cmdptr    = (char *) malloc (buf.ps_cmdlen    = PS_CMDBLEN_LONG);\n      buf.ps_conttyptr = (char *) malloc (buf.ps_conttylen = PS_CONTTYBLEN);\n      buf.ps_pathptr   = (char *) malloc (buf.ps_pathlen   = PS_PATHBLEN);\n      if (buf.ps_cmdptr && buf.ps_conttyptr && buf.ps_pathptr)\n        {\n          for (token = 0; token >= 0;\n               token = w_getpsent (token, &buf, sizeof(buf)))\n            {\n              if (token > 0 && buf.ps_pid == pid)\n                {\n                  char *s = strdup (last_component (buf.ps_pathptr));\n                  if (s)\n                    p = s;\n                  break;\n                }\n            }\n        }\n      free (buf.ps_cmdptr);\n      free (buf.ps_conttyptr);\n      free (buf.ps_pathptr);\n    }\n  return p;\n# elif defined __sgi                                        /* IRIX */\n  char filename[50];\n  int fd;\n\n  sprintf (filename, \"/proc/pinfo/%d\", (int) getpid ());\n  fd = open (filename, O_RDONLY);\n  if (0 <= fd)\n    {\n      prpsinfo_t buf;\n      int ioctl_ok = 0 <= ioctl (fd, PIOCPSINFO, &buf);\n      close (fd);\n      if (ioctl_ok)\n        {\n          char *name = buf.pr_fname;\n          size_t namesize = sizeof buf.pr_fname;\n          char *namenul = memchr (name, '\\0', namesize);\n          size_t namelen = namenul ? namenul - name : namesize;\n          char *namecopy = malloc (namelen + 1);\n          if (namecopy)\n            {\n              namecopy[namelen] = 0;\n              return memcpy (namecopy, name, namelen);\n            }\n        }\n    }\n  return NULL;\n# else\n#  error \"getprogname module not ported to this OS\"\n# endif\n}",
+      "lines": 126,
+      "depth": 26,
+      "decorators": [
+        "char",
+        "const",
+        "const",
+        "*\ngetprogname (void)",
+        "*"
+      ]
+    }
+  },
+  "time/time-1.9/lib/getprogname.h": {},
+  "time/time-1.9/lib/getrusage.c": {
+    "getrusage": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "content": "int\ngetrusage (int who, struct rusage *usage_p)\n{\n  if (who == RUSAGE_SELF || who == RUSAGE_CHILDREN)\n    {\n      /* Clear all unsupported members of 'struct rusage'.  */\n      memset (usage_p, '\\0', sizeof (struct rusage));\n\n#if (defined _WIN32 || defined __WIN32__) && ! defined __CYGWIN__\n      if (who == RUSAGE_SELF)\n        {\n          /* Fill in the ru_utime and ru_stime members.  */\n          FILETIME creation_time;\n          FILETIME exit_time;\n          FILETIME kernel_time;\n          FILETIME user_time;\n\n          if (GetProcessTimes (GetCurrentProcess (),\n                               &creation_time, &exit_time,\n                               &kernel_time, &user_time))\n            {\n              /* Convert to microseconds, rounding.  */\n              uint64_t kernel_usec =\n                ((((uint64_t) kernel_time.dwHighDateTime << 32)\n                  | (uint64_t) kernel_time.dwLowDateTime)\n                 + 5) / 10;\n              uint64_t user_usec =\n                ((((uint64_t) user_time.dwHighDateTime << 32)\n                  | (uint64_t) user_time.dwLowDateTime)\n                 + 5) / 10;\n\n              usage_p->ru_utime.tv_sec = user_usec / 1000000U;\n              usage_p->ru_utime.tv_usec = user_usec % 1000000U;\n              usage_p->ru_stime.tv_sec = kernel_usec / 1000000U;\n              usage_p->ru_stime.tv_usec = kernel_usec % 1000000U;\n            }\n        }\n#else\n      /* Fill in the ru_utime and ru_stime members.  */\n      {\n        struct tms time;\n\n        if (times (&time) != (clock_t) -1)\n          {\n            /* Number of clock ticks per second.  */\n            unsigned int clocks_per_second = sysconf (_SC_CLK_TCK);\n\n            if (clocks_per_second > 0)\n              {\n                clock_t user_ticks;\n                clock_t system_ticks;\n\n                uint64_t user_usec;\n                uint64_t system_usec;\n\n                if (who == RUSAGE_CHILDREN)\n                  {\n                    user_ticks   = time.tms_cutime;\n                    system_ticks = time.tms_cstime;\n                  }\n                else\n                  {\n                    user_ticks   = time.tms_utime;\n                    system_ticks = time.tms_stime;\n                  }\n\n                user_usec =\n                  (((uint64_t) user_ticks * (uint64_t) 1000000U)\n                   + clocks_per_second / 2) / clocks_per_second;\n                system_usec =\n                  (((uint64_t) system_ticks * (uint64_t) 1000000U)\n                   + clocks_per_second / 2) / clocks_per_second;\n\n                usage_p->ru_utime.tv_sec = user_usec / 1000000U;\n                usage_p->ru_utime.tv_usec = user_usec % 1000000U;\n                usage_p->ru_stime.tv_sec = system_usec / 1000000U;\n                usage_p->ru_stime.tv_usec = system_usec % 1000000U;\n              }\n          }\n      }\n#endif\n\n      return 0;\n    }\n  else\n    {\n      errno = EINVAL;\n      return -1;\n    }\n}",
+      "lines": 90,
+      "depth": 21,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "time/time-1.9/lib/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "content": "static const char *\npgettext_aux (const char *domain,\n              const char *msg_ctxt_id, const char *msgid,\n              int category)\n{\n  const char *translation = dcgettext (domain, msg_ctxt_id, category);\n  if (translation == msg_ctxt_id)\n    return msgid;\n  else\n    return translation;\n}",
+      "lines": 11,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\npgettext_aux (const char *domain,\n              const char *msg_ctxt_id, const char *msgid,\n              int category)",
+        "*"
+      ]
+    },
+    "npgettext_aux": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "content": "static const char *\nnpgettext_aux (const char *domain,\n               const char *msg_ctxt_id, const char *msgid,\n               const char *msgid_plural, unsigned long int n,\n               int category)\n{\n  const char *translation =\n    dcngettext (domain, msg_ctxt_id, msgid_plural, n, category);\n  if (translation == msg_ctxt_id || translation == msgid_plural)\n    return (n == 1 ? msgid : msgid_plural);\n  else\n    return translation;\n}",
+      "lines": 13,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\nnpgettext_aux (const char *domain,\n               const char *msg_ctxt_id, const char *msgid,\n               const char *msgid_plural, unsigned long int n,\n               int category)",
+        "*"
+      ]
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "content": "static const char *\ndcpgettext_expr (const char *domain,\n                 const char *msgctxt, const char *msgid,\n                 int category)\n{\n  size_t msgctxt_len = strlen (msgctxt) + 1;\n  size_t msgid_len = strlen (msgid) + 1;\n  const char *translation;\n#if _LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS\n  char msg_ctxt_id[msgctxt_len + msgid_len];\n#else\n  char buf[1024];\n  char *msg_ctxt_id =\n    (msgctxt_len + msgid_len <= sizeof (buf)\n     ? buf\n     : (char *) malloc (msgctxt_len + msgid_len));\n  if (msg_ctxt_id != NULL)\n#endif\n    {\n      int found_translation;\n      memcpy (msg_ctxt_id, msgctxt, msgctxt_len - 1);\n      msg_ctxt_id[msgctxt_len - 1] = '\\004';\n      memcpy (msg_ctxt_id + msgctxt_len, msgid, msgid_len);\n      translation = dcgettext (domain, msg_ctxt_id, category);\n      found_translation = (translation != msg_ctxt_id);\n#if !_LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS\n      if (msg_ctxt_id != buf)\n        free (msg_ctxt_id);\n#endif\n      if (found_translation)\n        return translation;\n    }\n  return msgid;\n}",
+      "lines": 34,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\ndcpgettext_expr (const char *domain,\n                 const char *msgctxt, const char *msgid,\n                 int category)",
+        "*"
+      ]
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "content": "static const char *\ndcnpgettext_expr (const char *domain,\n                  const char *msgctxt, const char *msgid,\n                  const char *msgid_plural, unsigned long int n,\n                  int category)\n{\n  size_t msgctxt_len = strlen (msgctxt) + 1;\n  size_t msgid_len = strlen (msgid) + 1;\n  const char *translation;\n#if _LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS\n  char msg_ctxt_id[msgctxt_len + msgid_len];\n#else\n  char buf[1024];\n  char *msg_ctxt_id =\n    (msgctxt_len + msgid_len <= sizeof (buf)\n     ? buf\n     : (char *) malloc (msgctxt_len + msgid_len));\n  if (msg_ctxt_id != NULL)\n#endif\n    {\n      int found_translation;\n      memcpy (msg_ctxt_id, msgctxt, msgctxt_len - 1);\n      msg_ctxt_id[msgctxt_len - 1] = '\\004';\n      memcpy (msg_ctxt_id + msgctxt_len, msgid, msgid_len);\n      translation = dcngettext (domain, msg_ctxt_id, msgid_plural, n, category);\n      found_translation = !(translation == msg_ctxt_id || translation == msgid_plural);\n#if !_LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS\n      if (msg_ctxt_id != buf)\n        free (msg_ctxt_id);\n#endif\n      if (found_translation)\n        return translation;\n    }\n  return (n == 1 ? msgid : msgid_plural);\n}",
+      "lines": 35,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\ndcnpgettext_expr (const char *domain,\n                  const char *msgctxt, const char *msgid,\n                  const char *msgid_plural, unsigned long int n,\n                  int category)",
+        "*"
+      ]
+    }
+  },
+  "time/time-1.9/lib/gettimeofday.c": {
+    "initialize": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "content": "static void\ninitialize (void)\n{\n  HMODULE kernel32 = LoadLibrary (\"kernel32.dll\");\n  if (kernel32 != NULL)\n    {\n      GetSystemTimePreciseAsFileTimeFunc =\n\t(GetSystemTimePreciseAsFileTimeFuncType) GetProcAddress (kernel32, \"GetSystemTimePreciseAsFileTime\");\n    }\n  initialized = TRUE;\n}",
+      "lines": 11,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "gettimeofday": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "content": "int\ngettimeofday (struct timeval *restrict tv, void *restrict tz)\n{\n#undef gettimeofday\n#ifdef WINDOWS_NATIVE\n\n  /* On native Windows, there are two ways to get the current time:\n     GetSystemTimeAsFileTime\n     <https://msdn.microsoft.com/en-us/library/ms724397.aspx>\n     or\n     GetSystemTimePreciseAsFileTime\n     <https://msdn.microsoft.com/en-us/library/hh706895.aspx>.\n     GetSystemTimeAsFileTime produces values that jump by increments of\n     15.627 milliseconds (!) on average.\n     Whereas GetSystemTimePreciseAsFileTime values usually jump by 1 or 2\n     microseconds.\n     More discussion on this topic:\n     <http://www.windowstimestamp.com/description>.  */\n  FILETIME current_time;\n\n  if (!initialized)\n    initialize ();\n  if (GetSystemTimePreciseAsFileTimeFunc != NULL)\n    GetSystemTimePreciseAsFileTimeFunc (&current_time);\n  else\n    GetSystemTimeAsFileTime (&current_time);\n\n  /* Convert from FILETIME to 'struct timeval'.  */\n  /* FILETIME: <https://msdn.microsoft.com/en-us/library/ms724284.aspx> */\n  ULONGLONG since_1601 =\n    ((ULONGLONG) current_time.dwHighDateTime << 32)\n    | (ULONGLONG) current_time.dwLowDateTime;\n  /* Between 1601-01-01 and 1970-01-01 there were 280 normal years and 89 leap\n     years, in total 134774 days.  */\n  ULONGLONG since_1970 =\n    since_1601 - (ULONGLONG) 134774 * (ULONGLONG) 86400 * (ULONGLONG) 10000000;\n  ULONGLONG microseconds_since_1970 = since_1970 / (ULONGLONG) 10;\n  tv->tv_sec = microseconds_since_1970 / (ULONGLONG) 1000000;\n  tv->tv_usec = microseconds_since_1970 % (ULONGLONG) 1000000;\n\n  return 0;\n\n#else\n\n# if HAVE_GETTIMEOFDAY\n#  if GETTIMEOFDAY_CLOBBERS_LOCALTIME\n  /* Save and restore the contents of the buffer used for localtime's\n     result around the call to gettimeofday.  */\n  struct tm save = *localtime_buffer_addr;\n#  endif\n\n#  if defined timeval /* 'struct timeval' overridden by gnulib?  */\n#   undef timeval\n  struct timeval otv;\n  int result = gettimeofday (&otv, (struct timezone *) tz);\n  if (result == 0)\n    {\n      tv->tv_sec = otv.tv_sec;\n      tv->tv_usec = otv.tv_usec;\n    }\n#  else\n  int result = gettimeofday (tv, (struct timezone *) tz);\n#  endif\n\n#  if GETTIMEOFDAY_CLOBBERS_LOCALTIME\n  *localtime_buffer_addr = save;\n#  endif\n\n  return result;\n\n# else\n\n#  if !defined OK_TO_USE_1S_CLOCK\n#   error \"Only 1-second nominal clock resolution found.  Is that intended?\" \\\n          \"If so, compile with the -DOK_TO_USE_1S_CLOCK option.\"\n#  endif\n  tv->tv_sec = time (NULL);\n  tv->tv_usec = 0;\n\n  return 0;\n\n# endif\n#endif\n}",
+      "lines": 84,
+      "depth": 15,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "time/time-1.9/lib/intprops.h": {},
+  "time/time-1.9/lib/inttypes.in.h": {},
+  "time/time-1.9/lib/limits.in.h": {},
+  "time/time-1.9/lib/localtime-buffer.c": {
+    "rpl_localtime": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "content": "struct tm *\nrpl_localtime (time_t const *timep)\n{\n  struct tm *tm = localtime (timep);\n\n  if (localtime_buffer_addr == &tm_zero_buffer)\n    localtime_buffer_addr = tm;\n\n  return tm;\n}",
+      "lines": 10,
+      "depth": 7,
+      "decorators": [
+        "struct tm",
+        "struct",
+        "tm",
+        "*\nrpl_localtime (time_t const *timep)",
+        "*"
+      ]
+    },
+    "rpl_gmtime": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "content": "struct tm *\nrpl_gmtime (time_t const *timep)\n{\n  struct tm *tm = gmtime (timep);\n\n  if (localtime_buffer_addr == &tm_zero_buffer)\n    localtime_buffer_addr = tm;\n\n  return tm;\n}",
+      "lines": 10,
+      "depth": 7,
+      "decorators": [
+        "struct tm",
+        "struct",
+        "tm",
+        "*\nrpl_gmtime (time_t const *timep)",
+        "*"
+      ]
+    }
+  },
+  "time/time-1.9/lib/localtime-buffer.h": {},
+  "time/time-1.9/lib/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "content": "void *\nrpl_malloc (size_t n)\n{\n  void *result;\n\n#if NEED_MALLOC_GNU\n  if (n == 0)\n    n = 1;\n#endif\n\n  result = malloc (n);\n\n#if !HAVE_MALLOC_POSIX\n  if (result == NULL)\n    errno = ENOMEM;\n#endif\n\n  return result;\n}",
+      "lines": 19,
+      "depth": 7,
+      "decorators": [
+        "void",
+        "*\nrpl_malloc (size_t n)",
+        "*"
+      ]
+    }
+  },
+  "time/time-1.9/lib/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "content": "static void __cdecl\ngl_msvc_invalid_parameter_handler (const wchar_t *expression,\n                                   const wchar_t *function,\n                                   const wchar_t *file,\n                                   unsigned int line,\n                                   uintptr_t dummy)\n{\n}",
+        "lines": 8,
+        "depth": 6,
+        "decorators": [
+          "static",
+          "static",
+          "void",
+          "__cdecl",
+          "__cdecl"
+        ]
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "content": "static void __cdecl\ngl_msvc_invalid_parameter_handler (const wchar_t *expression,\n                                   const wchar_t *function,\n                                   const wchar_t *file,\n                                   unsigned int line,\n                                   uintptr_t dummy)\n{\n  RaiseException (STATUS_GNULIB_INVALID_PARAMETER, 0, 0, NULL);\n}",
+        "lines": 9,
+        "depth": 6,
+        "decorators": [
+          "static",
+          "static",
+          "void",
+          "__cdecl",
+          "__cdecl"
+        ]
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "content": "static void __cdecl\ngl_msvc_invalid_parameter_handler (const wchar_t *expression,\n                                   const wchar_t *function,\n                                   const wchar_t *file,\n                                   unsigned int line,\n                                   uintptr_t dummy)\n{\n  struct gl_msvc_inval_per_thread *current = gl_msvc_inval_current ();\n  if (current->restart_valid)\n    longjmp (current->restart, 1);\n  else\n    /* An invalid parameter notification from outside the gnulib code.\n       Give the caller a chance to intervene.  */\n    RaiseException (STATUS_GNULIB_INVALID_PARAMETER, 0, 0, NULL);\n}",
+        "lines": 15,
+        "depth": 8,
+        "decorators": [
+          "static",
+          "static",
+          "void",
+          "__cdecl",
+          "__cdecl"
+        ]
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "content": "struct gl_msvc_inval_per_thread *\ngl_msvc_inval_current (void)\n{\n  if (!tls_initialized)\n    {\n      tls_index = TlsAlloc ();\n      tls_initialized = 1;\n    }\n  if (tls_index == TLS_OUT_OF_INDEXES)\n    /* TlsAlloc had failed.  */\n    return &not_per_thread;\n  else\n    {\n      struct gl_msvc_inval_per_thread *pointer =\n        (struct gl_msvc_inval_per_thread *) TlsGetValue (tls_index);\n      if (pointer == NULL)\n        {\n          /* First call.  Allocate a new 'struct gl_msvc_inval_per_thread'.  */\n          pointer =\n            (struct gl_msvc_inval_per_thread *)\n            malloc (sizeof (struct gl_msvc_inval_per_thread));\n          if (pointer == NULL)\n            /* Could not allocate memory.  Use the global storage.  */\n            pointer = &not_per_thread;\n          TlsSetValue (tls_index, pointer);\n        }\n      return pointer;\n    }\n}",
+      "lines": 29,
+      "depth": 15,
+      "decorators": [
+        "struct gl_msvc_inval_per_thread",
+        "struct",
+        "gl_msvc_inval_per_thread",
+        "*\ngl_msvc_inval_current (void)",
+        "*"
+      ]
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "content": "void\ngl_msvc_inval_ensure_handler (void)\n{\n  if (gl_msvc_inval_initialized == 0)\n    {\n      _set_invalid_parameter_handler (gl_msvc_invalid_parameter_handler);\n      gl_msvc_inval_initialized = 1;\n    }\n}",
+      "lines": 9,
+      "depth": 8,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "time/time-1.9/lib/msvc-inval.h": {},
+  "time/time-1.9/lib/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        5
+      ],
+      "content": "intptr_t\n_gl_nothrow_get_osfhandle (int fd)\n{\n  intptr_t result;\n\n  TRY_MSVC_INVAL\n    {\n      result = _get_osfhandle (fd);\n    }",
+      "lines": 9,
+      "depth": 7,
+      "decorators": [
+        "intptr_t"
+      ]
+    }
+  },
+  "time/time-1.9/lib/msvc-nothrow.h": {},
+  "time/time-1.9/lib/progname.c": {
+    "set_program_name": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "content": "void\nset_program_name (const char *argv0)\n{\n  /* libtool creates a temporary executable whose name is sometimes prefixed\n     with \"lt-\" (depends on the platform).  It also makes argv[0] absolute.\n     But the name of the temporary executable is a detail that should not be\n     visible to the end user and to the test suite.\n     Remove this \"<dirname>/.libs/\" or \"<dirname>/.libs/lt-\" prefix here.  */\n  const char *slash;\n  const char *base;\n\n  /* Sanity check.  POSIX requires the invoking process to pass a non-NULL\n     argv[0].  */\n  if (argv0 == NULL)\n    {\n      /* It's a bug in the invoking program.  Help diagnosing it.  */\n      fputs (\"A NULL argv[0] was passed through an exec system call.\\n\",\n             stderr);\n      abort ();\n    }\n\n  slash = strrchr (argv0, '/');\n  base = (slash != NULL ? slash + 1 : argv0);\n  if (base - argv0 >= 7 && strncmp (base - 7, \"/.libs/\", 7) == 0)\n    {\n      argv0 = base;\n      if (strncmp (base, \"lt-\", 3) == 0)\n        {\n          argv0 = base + 3;\n          /* On glibc systems, remove the \"lt-\" prefix from the variable\n             program_invocation_short_name.  */\n#if HAVE_DECL_PROGRAM_INVOCATION_SHORT_NAME\n          program_invocation_short_name = (char *) argv0;\n#endif\n        }\n    }\n\n  /* But don't strip off a leading <dirname>/ in general, because when the user\n     runs\n         /some/hidden/place/bin/cp foo foo\n     he should get the error message\n         /some/hidden/place/bin/cp: `foo' and `foo' are the same file\n     not\n         cp: `foo' and `foo' are the same file\n   */\n\n  program_name = argv0;\n\n  /* On glibc systems, the error() function comes from libc and uses the\n     variable program_invocation_name, not program_name.  So set this variable\n     as well.  */\n#if HAVE_DECL_PROGRAM_INVOCATION_NAME\n  program_invocation_name = (char *) argv0;\n#endif\n}",
+      "lines": 55,
+      "depth": 13,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "time/time-1.9/lib/progname.h": {},
+  "time/time-1.9/lib/signal.in.h": {},
+  "time/time-1.9/lib/stdarg.in.h": {},
+  "time/time-1.9/lib/stdbool.in.h": {},
+  "time/time-1.9/lib/stddef.in.h": {},
+  "time/time-1.9/lib/stdint.in.h": {},
+  "time/time-1.9/lib/stdio.in.h": {},
+  "time/time-1.9/lib/stdlib.in.h": {},
+  "time/time-1.9/lib/stdnoreturn.in.h": {},
+  "time/time-1.9/lib/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "content": "const char *\nstrerror_override (int errnum)\n{\n  /* These error messages are taken from glibc/sysdeps/gnu/errlist.c.  */\n  switch (errnum)\n    {\n#if REPLACE_STRERROR_0\n    case 0:\n      return \"Success\";\n#endif\n\n#if GNULIB_defined_ESOCK /* native Windows platforms with older <errno.h> */\n    case EINPROGRESS:\n      return \"Operation now in progress\";\n    case EALREADY:\n      return \"Operation already in progress\";\n    case ENOTSOCK:\n      return \"Socket operation on non-socket\";\n    case EDESTADDRREQ:\n      return \"Destination address required\";\n    case EMSGSIZE:\n      return \"Message too long\";\n    case EPROTOTYPE:\n      return \"Protocol wrong type for socket\";\n    case ENOPROTOOPT:\n      return \"Protocol not available\";\n    case EPROTONOSUPPORT:\n      return \"Protocol not supported\";\n    case EOPNOTSUPP:\n      return \"Operation not supported\";\n    case EAFNOSUPPORT:\n      return \"Address family not supported by protocol\";\n    case EADDRINUSE:\n      return \"Address already in use\";\n    case EADDRNOTAVAIL:\n      return \"Cannot assign requested address\";\n    case ENETDOWN:\n      return \"Network is down\";\n    case ENETUNREACH:\n      return \"Network is unreachable\";\n    case ECONNRESET:\n      return \"Connection reset by peer\";\n    case ENOBUFS:\n      return \"No buffer space available\";\n    case EISCONN:\n      return \"Transport endpoint is already connected\";\n    case ENOTCONN:\n      return \"Transport endpoint is not connected\";\n    case ETIMEDOUT:\n      return \"Connection timed out\";\n    case ECONNREFUSED:\n      return \"Connection refused\";\n    case ELOOP:\n      return \"Too many levels of symbolic links\";\n    case EHOSTUNREACH:\n      return \"No route to host\";\n    case EWOULDBLOCK:\n      return \"Operation would block\";\n#endif\n#if GNULIB_defined_ESTREAMS /* native Windows platforms with older <errno.h> */\n    case ETXTBSY:\n      return \"Text file busy\";\n    case ENODATA:\n      return \"No data available\";\n    case ENOSR:\n      return \"Out of streams resources\";\n    case ENOSTR:\n      return \"Device not a stream\";\n    case ETIME:\n      return \"Timer expired\";\n    case EOTHER:\n      return \"Other error\";\n#endif\n#if GNULIB_defined_EWINSOCK /* native Windows platforms */\n    case ESOCKTNOSUPPORT:\n      return \"Socket type not supported\";\n    case EPFNOSUPPORT:\n      return \"Protocol family not supported\";\n    case ESHUTDOWN:\n      return \"Cannot send after transport endpoint shutdown\";\n    case ETOOMANYREFS:\n      return \"Too many references: cannot splice\";\n    case EHOSTDOWN:\n      return \"Host is down\";\n    case EPROCLIM:\n      return \"Too many processes\";\n    case EUSERS:\n      return \"Too many users\";\n    case EDQUOT:\n      return \"Disk quota exceeded\";\n    case ESTALE:\n      return \"Stale NFS file handle\";\n    case EREMOTE:\n      return \"Object is remote\";\n# if HAVE_WINSOCK2_H\n      /* WSA_INVALID_HANDLE maps to EBADF */\n      /* WSA_NOT_ENOUGH_MEMORY maps to ENOMEM */\n      /* WSA_INVALID_PARAMETER maps to EINVAL */\n    case WSA_OPERATION_ABORTED:\n      return \"Overlapped operation aborted\";\n    case WSA_IO_INCOMPLETE:\n      return \"Overlapped I/O event object not in signaled state\";\n    case WSA_IO_PENDING:\n      return \"Overlapped operations will complete later\";\n      /* WSAEINTR maps to EINTR */\n      /* WSAEBADF maps to EBADF */\n      /* WSAEACCES maps to EACCES */\n      /* WSAEFAULT maps to EFAULT */\n      /* WSAEINVAL maps to EINVAL */\n      /* WSAEMFILE maps to EMFILE */\n      /* WSAEWOULDBLOCK maps to EWOULDBLOCK */\n      /* WSAEINPROGRESS maps to EINPROGRESS */\n      /* WSAEALREADY maps to EALREADY */\n      /* WSAENOTSOCK maps to ENOTSOCK */\n      /* WSAEDESTADDRREQ maps to EDESTADDRREQ */\n      /* WSAEMSGSIZE maps to EMSGSIZE */\n      /* WSAEPROTOTYPE maps to EPROTOTYPE */\n      /* WSAENOPROTOOPT maps to ENOPROTOOPT */\n      /* WSAEPROTONOSUPPORT maps to EPROTONOSUPPORT */\n      /* WSAESOCKTNOSUPPORT is ESOCKTNOSUPPORT */\n      /* WSAEOPNOTSUPP maps to EOPNOTSUPP */\n      /* WSAEPFNOSUPPORT is EPFNOSUPPORT */\n      /* WSAEAFNOSUPPORT maps to EAFNOSUPPORT */\n      /* WSAEADDRINUSE maps to EADDRINUSE */\n      /* WSAEADDRNOTAVAIL maps to EADDRNOTAVAIL */\n      /* WSAENETDOWN maps to ENETDOWN */\n      /* WSAENETUNREACH maps to ENETUNREACH */\n      /* WSAENETRESET maps to ENETRESET */\n      /* WSAECONNABORTED maps to ECONNABORTED */\n      /* WSAECONNRESET maps to ECONNRESET */\n      /* WSAENOBUFS maps to ENOBUFS */\n      /* WSAEISCONN maps to EISCONN */\n      /* WSAENOTCONN maps to ENOTCONN */\n      /* WSAESHUTDOWN is ESHUTDOWN */\n      /* WSAETOOMANYREFS is ETOOMANYREFS */\n      /* WSAETIMEDOUT maps to ETIMEDOUT */\n      /* WSAECONNREFUSED maps to ECONNREFUSED */\n      /* WSAELOOP maps to ELOOP */\n      /* WSAENAMETOOLONG maps to ENAMETOOLONG */\n      /* WSAEHOSTDOWN is EHOSTDOWN */\n      /* WSAEHOSTUNREACH maps to EHOSTUNREACH */\n      /* WSAENOTEMPTY maps to ENOTEMPTY */\n      /* WSAEPROCLIM is EPROCLIM */\n      /* WSAEUSERS is EUSERS */\n      /* WSAEDQUOT is EDQUOT */\n      /* WSAESTALE is ESTALE */\n      /* WSAEREMOTE is EREMOTE */\n    case WSASYSNOTREADY:\n      return \"Network subsystem is unavailable\";\n    case WSAVERNOTSUPPORTED:\n      return \"Winsock.dll version out of range\";\n    case WSANOTINITIALISED:\n      return \"Successful WSAStartup not yet performed\";\n    case WSAEDISCON:\n      return \"Graceful shutdown in progress\";\n    case WSAENOMORE: case WSA_E_NO_MORE:\n      return \"No more results\";\n    case WSAECANCELLED: case WSA_E_CANCELLED:\n      return \"Call was canceled\";\n    case WSAEINVALIDPROCTABLE:\n      return \"Procedure call table is invalid\";\n    case WSAEINVALIDPROVIDER:\n      return \"Service provider is invalid\";\n    case WSAEPROVIDERFAILEDINIT:\n      return \"Service provider failed to initialize\";\n    case WSASYSCALLFAILURE:\n      return \"System call failure\";\n    case WSASERVICE_NOT_FOUND:\n      return \"Service not found\";\n    case WSATYPE_NOT_FOUND:\n      return \"Class type not found\";\n    case WSAEREFUSED:\n      return \"Database query was refused\";\n    case WSAHOST_NOT_FOUND:\n      return \"Host not found\";\n    case WSATRY_AGAIN:\n      return \"Nonauthoritative host not found\";\n    case WSANO_RECOVERY:\n      return \"Nonrecoverable error\";\n    case WSANO_DATA:\n      return \"Valid name, no data record of requested type\";\n      /* WSA_QOS_* omitted */\n# endif\n#endif\n\n#if GNULIB_defined_ENOMSG\n    case ENOMSG:\n      return \"No message of desired type\";\n#endif\n\n#if GNULIB_defined_EIDRM\n    case EIDRM:\n      return \"Identifier removed\";\n#endif\n\n#if GNULIB_defined_ENOLINK\n    case ENOLINK:\n      return \"Link has been severed\";\n#endif\n\n#if GNULIB_defined_EPROTO\n    case EPROTO:\n      return \"Protocol error\";\n#endif\n\n#if GNULIB_defined_EMULTIHOP\n    case EMULTIHOP:\n      return \"Multihop attempted\";\n#endif\n\n#if GNULIB_defined_EBADMSG\n    case EBADMSG:\n      return \"Bad message\";\n#endif\n\n#if GNULIB_defined_EOVERFLOW\n    case EOVERFLOW:\n      return \"Value too large for defined data type\";\n#endif\n\n#if GNULIB_defined_ENOTSUP\n    case ENOTSUP:\n      return \"Not supported\";\n#endif\n\n#if GNULIB_defined_ENETRESET\n    case ENETRESET:\n      return \"Network dropped connection on reset\";\n#endif\n\n#if GNULIB_defined_ECONNABORTED\n    case ECONNABORTED:\n      return \"Software caused connection abort\";\n#endif\n\n#if GNULIB_defined_ESTALE\n    case ESTALE:\n      return \"Stale NFS file handle\";\n#endif\n\n#if GNULIB_defined_EDQUOT\n    case EDQUOT:\n      return \"Disk quota exceeded\";\n#endif\n\n#if GNULIB_defined_ECANCELED\n    case ECANCELED:\n      return \"Operation canceled\";\n#endif\n\n#if GNULIB_defined_EOWNERDEAD\n    case EOWNERDEAD:\n      return \"Owner died\";\n#endif\n\n#if GNULIB_defined_ENOTRECOVERABLE\n    case ENOTRECOVERABLE:\n      return \"State not recoverable\";\n#endif\n\n#if GNULIB_defined_EILSEQ\n    case EILSEQ:\n      return \"Invalid or incomplete multibyte or wide character\";\n#endif\n\n    default:\n      return NULL;\n    }\n}",
+      "lines": 269,
+      "depth": 10,
+      "decorators": [
+        "const",
+        "const",
+        "char",
+        "*\nstrerror_override (int errnum)",
+        "*"
+      ]
+    }
+  },
+  "time/time-1.9/lib/strerror-override.h": {},
+  "time/time-1.9/lib/strerror.c": {},
+  "time/time-1.9/lib/string.in.h": {},
+  "time/time-1.9/lib/stripslash.c": {
+    "strip_trailing_slashes": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "content": "bool\nstrip_trailing_slashes (char *file)\n{\n  char *base = last_component (file);\n  char *base_lim;\n  bool had_slash;\n\n  /* last_component returns \"\" for file system roots, but we need to turn\n     \"///\" into \"/\".  */\n  if (! *base)\n    base = file;\n  base_lim = base + base_len (base);\n  had_slash = (*base_lim != '\\0');\n  *base_lim = '\\0';\n  return had_slash;\n}",
+      "lines": 16,
+      "depth": 8,
+      "decorators": [
+        "bool"
+      ]
+    }
+  },
+  "time/time-1.9/lib/sys_resource.in.h": {},
+  "time/time-1.9/lib/sys_time.in.h": {
+    "GNULIB_NAMESPACE": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "content": "namespace GNULIB_NAMESPACE {\n  typedef ::timeval\n#undef timeval\n    timeval;\n}",
+      "lines": 5,
+      "depth": 5,
+      "decorators": null
+    }
+  },
+  "time/time-1.9/lib/sys_types.in.h": {},
+  "time/time-1.9/lib/sys_wait.in.h": {},
+  "time/time-1.9/lib/time.in.h": {},
+  "time/time-1.9/lib/unistd.c": {},
+  "time/time-1.9/lib/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        433,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "content": "_GL_UNISTD_INLINE char ***\nrpl_environ (void)\n{\n  return &environ;\n}",
+      "lines": 5,
+      "depth": 8,
+      "decorators": [
+        "_GL_UNISTD_INLINE",
+        "char",
+        "char",
+        "***\nrpl_environ (void)",
+        "*",
+        "**\nrpl_environ (void)",
+        "*",
+        "*\nrpl_environ (void)",
+        "*"
+      ]
+    },
+    "getpagesize": {
+      "start_point": [
+        912,
+        0
+      ],
+      "end_point": [
+        916,
+        1
+      ],
+      "content": "_GL_UNISTD_INLINE int\ngetpagesize ()\n{\n  return _gl_getpagesize ();\n}",
+      "lines": 5,
+      "depth": 6,
+      "decorators": [
+        "_GL_UNISTD_INLINE",
+        "int",
+        "int"
+      ]
+    }
+  },
+  "time/time-1.9/lib/verify.h": {},
+  "time/time-1.9/lib/version-etc-fsf.c": {},
+  "time/time-1.9/lib/version-etc.c": {
+    "version_etc_arn": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "content": "void\nversion_etc_arn (FILE *stream,\n                 const char *command_name, const char *package,\n                 const char *version,\n                 const char * const * authors, size_t n_authors)\n{\n  if (command_name)\n    fprintf (stream, \"%s (%s) %s\\n\", command_name, package, version);\n  else\n    fprintf (stream, \"%s %s\\n\", package, version);\n\n#ifdef PACKAGE_PACKAGER\n# ifdef PACKAGE_PACKAGER_VERSION\n  fprintf (stream, _(\"Packaged by %s (%s)\\n\"), PACKAGE_PACKAGER,\n           PACKAGE_PACKAGER_VERSION);\n# else\n  fprintf (stream, _(\"Packaged by %s\\n\"), PACKAGE_PACKAGER);\n# endif\n#endif\n\n  /* TRANSLATORS: Translate \"(C)\" to the copyright symbol\n     (C-in-a-circle), if this symbol is available in the user's\n     locale.  Otherwise, do not translate \"(C)\"; leave it as-is.  */\n  fprintf (stream, version_etc_copyright, _(\"(C)\"), COPYRIGHT_YEAR);\n\n  fputs (_(\"\\\n\\n\\\nLicense GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\\n\\\n\\n\\\n\"),\n         stream);\n\n  switch (n_authors)\n    {\n    case 0:\n      /* The caller must provide at least one author name.  */\n      abort ();\n    case 1:\n      /* TRANSLATORS: %s denotes an author name.  */\n      fprintf (stream, _(\"Written by %s.\\n\"), authors[0]);\n      break;\n    case 2:\n      /* TRANSLATORS: Each %s denotes an author name.  */\n      fprintf (stream, _(\"Written by %s and %s.\\n\"), authors[0], authors[1]);\n      break;\n    case 3:\n      /* TRANSLATORS: Each %s denotes an author name.  */\n      fprintf (stream, _(\"Written by %s, %s, and %s.\\n\"),\n               authors[0], authors[1], authors[2]);\n      break;\n    case 4:\n      /* TRANSLATORS: Each %s denotes an author name.\n         You can use line breaks, estimating that each author name occupies\n         ca. 16 screen columns and that a screen line has ca. 80 columns.  */\n      fprintf (stream, _(\"Written by %s, %s, %s,\\nand %s.\\n\"),\n               authors[0], authors[1], authors[2], authors[3]);\n      break;\n    case 5:\n      /* TRANSLATORS: Each %s denotes an author name.\n         You can use line breaks, estimating that each author name occupies\n         ca. 16 screen columns and that a screen line has ca. 80 columns.  */\n      fprintf (stream, _(\"Written by %s, %s, %s,\\n%s, and %s.\\n\"),\n               authors[0], authors[1], authors[2], authors[3], authors[4]);\n      break;\n    case 6:\n      /* TRANSLATORS: Each %s denotes an author name.\n         You can use line breaks, estimating that each author name occupies\n         ca. 16 screen columns and that a screen line has ca. 80 columns.  */\n      fprintf (stream, _(\"Written by %s, %s, %s,\\n%s, %s, and %s.\\n\"),\n               authors[0], authors[1], authors[2], authors[3], authors[4],\n               authors[5]);\n      break;\n    case 7:\n      /* TRANSLATORS: Each %s denotes an author name.\n         You can use line breaks, estimating that each author name occupies\n         ca. 16 screen columns and that a screen line has ca. 80 columns.  */\n      fprintf (stream, _(\"Written by %s, %s, %s,\\n%s, %s, %s, and %s.\\n\"),\n               authors[0], authors[1], authors[2], authors[3], authors[4],\n               authors[5], authors[6]);\n      break;\n    case 8:\n      /* TRANSLATORS: Each %s denotes an author name.\n         You can use line breaks, estimating that each author name occupies\n         ca. 16 screen columns and that a screen line has ca. 80 columns.  */\n      fprintf (stream, _(\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\nand %s.\\n\"),\n                authors[0], authors[1], authors[2], authors[3], authors[4],\n                authors[5], authors[6], authors[7]);\n      break;\n    case 9:\n      /* TRANSLATORS: Each %s denotes an author name.\n         You can use line breaks, estimating that each author name occupies\n         ca. 16 screen columns and that a screen line has ca. 80 columns.  */\n      fprintf (stream, _(\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, and %s.\\n\"),\n               authors[0], authors[1], authors[2], authors[3], authors[4],\n               authors[5], authors[6], authors[7], authors[8]);\n      break;\n    default:\n      /* 10 or more authors.  Use an abbreviation, since the human reader\n         will probably not want to read the entire list anyway.  */\n      /* TRANSLATORS: Each %s denotes an author name.\n         You can use line breaks, estimating that each author name occupies\n         ca. 16 screen columns and that a screen line has ca. 80 columns.  */\n      fprintf (stream, _(\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, %s, and others.\\n\"),\n                authors[0], authors[1], authors[2], authors[3], authors[4],\n                authors[5], authors[6], authors[7], authors[8]);\n      break;\n    }\n}",
+      "lines": 113,
+      "depth": 12,
+      "decorators": [
+        "void"
+      ]
+    },
+    "version_etc_ar": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "content": "void\nversion_etc_ar (FILE *stream,\n                const char *command_name, const char *package,\n                const char *version, const char * const * authors)\n{\n  size_t n_authors;\n\n  for (n_authors = 0; authors[n_authors]; n_authors++)\n    ;\n  version_etc_arn (stream, command_name, package, version, authors, n_authors);\n}",
+      "lines": 11,
+      "depth": 7,
+      "decorators": [
+        "void"
+      ]
+    },
+    "version_etc_va": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "content": "void\nversion_etc_va (FILE *stream,\n                const char *command_name, const char *package,\n                const char *version, va_list authors)\n{\n  size_t n_authors;\n  const char *authtab[10];\n\n  for (n_authors = 0;\n       n_authors < 10\n         && (authtab[n_authors] = va_arg (authors, const char *)) != NULL;\n       n_authors++)\n    ;\n  version_etc_arn (stream, command_name, package, version,\n                   authtab, n_authors);\n}",
+      "lines": 16,
+      "depth": 11,
+      "decorators": [
+        "void"
+      ]
+    },
+    "version_etc": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "content": "void\nversion_etc (FILE *stream,\n             const char *command_name, const char *package,\n             const char *version, /* const char *author1, ...*/ ...)\n{\n  va_list authors;\n\n  va_start (authors, version);\n  version_etc_va (stream, command_name, package, version, authors);\n  va_end (authors);\n}",
+      "lines": 11,
+      "depth": 6,
+      "decorators": [
+        "void"
+      ]
+    },
+    "emit_bug_reporting_address": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "content": "void\nemit_bug_reporting_address (void)\n{\n  /* TRANSLATORS: The placeholder indicates the bug-reporting address\n     for this package.  Please add _another line_ saying\n     \"Report translation bugs to <...>\\n\" with the address for translation\n     bugs (typically your translation team's web or email address).  */\n  printf (_(\"\\nReport bugs to: %s\\n\"), PACKAGE_BUGREPORT);\n#ifdef PACKAGE_PACKAGER_BUG_REPORTS\n  printf (_(\"Report %s bugs to: %s\\n\"), PACKAGE_PACKAGER,\n          PACKAGE_PACKAGER_BUG_REPORTS);\n#endif\n#ifdef PACKAGE_URL\n  printf (_(\"%s home page: <%s>\\n\"), PACKAGE_NAME, PACKAGE_URL);\n#else\n  printf (_(\"%s home page: <https://www.gnu.org/software/%s/>\\n\"),\n          PACKAGE_NAME, PACKAGE);\n#endif\n  fputs (_(\"General help using GNU software: <https://www.gnu.org/gethelp/>\\n\"),\n         stdout);\n}",
+      "lines": 21,
+      "depth": 11,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "time/time-1.9/lib/version-etc.h": {},
+  "time/time-1.9/lib/warn-on-use.h": {},
+  "time/time-1.9/lib/_Noreturn.h": {},
+  "time/time-1.9/src/resuse.c": {},
+  "time/time-1.9/src/resuse.h": {},
+  "time/time-1.9/src/rusage-kb.c": {
+    "ptok": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "content": "unsigned long\nptok (unsigned long pages)\n{\n  static unsigned long ps = 0;\n  unsigned long tmp;\n  static long size = LONG_MAX;\n\n  /* Initialization.  */\n  if (ps == 0)\n    ps = (long) getpagesize ();\n\n  /* Conversion.  */\n  if (pages > (LONG_MAX / ps))\n    {\n      /* Could overflow. */\n      tmp = pages / 1024;  /* Smaller first, */\n      size = tmp * ps;     /* then larger.  */\n    }\n  else\n    {\n      /* Could underflow. */\n      tmp = pages * ps;     /* Larger first, */\n      size = tmp / 1024;    /* then smaller.  */\n    }\n  return size;\n}",
+      "lines": 26,
+      "depth": 9,
+      "decorators": [
+        "unsigned long",
+        "unsigned",
+        "long"
+      ]
+    }
+  },
+  "time/time-1.9/src/rusage-kb.h": {
+    "get_rusage_maxrss_kb": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "content": "static inline uintmax_t\nget_rusage_maxrss_kb (const struct rusage *ru)\n{\n  return (uintmax_t)RUSAGE_MEM_TO_KB (ru->ru_maxrss);\n}",
+      "lines": 5,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "inline",
+        "inline",
+        "uintmax_t"
+      ]
+    },
+    "get_rusage_ixrss_kb": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "content": "static inline uintmax_t\nget_rusage_ixrss_kb (const struct rusage *ru)\n{\n  return (uintmax_t)RUSAGE_MEM_TO_KB (ru->ru_ixrss);\n}",
+      "lines": 5,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "inline",
+        "inline",
+        "uintmax_t"
+      ]
+    },
+    "get_rusage_idrss_kb": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "content": "static inline uintmax_t\nget_rusage_idrss_kb (const struct rusage *ru)\n{\n  return (uintmax_t)RUSAGE_MEM_TO_KB (ru->ru_idrss);\n}",
+      "lines": 5,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "inline",
+        "inline",
+        "uintmax_t"
+      ]
+    },
+    "get_rusage_isrss_kb": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "content": "static inline uintmax_t\nget_rusage_isrss_kb (const struct rusage *ru)\n{\n  return (uintmax_t)RUSAGE_MEM_TO_KB (ru->ru_isrss);\n}",
+      "lines": 5,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "inline",
+        "inline",
+        "uintmax_t"
+      ]
+    }
+  },
+  "time/time-1.9/src/time.c": {
+    "usage": {
+      "start_point": [
+        217,
+        0
+      ],
+      "end_point": [
+        311,
+        1
+      ],
+      "content": "noreturn static void\nusage (int status)\n{\n  if (status != EXIT_SUCCESS)\n    {\n      fprintf (stderr, _(\"Try '%s --help' for more information.\\n\"),\n               program_name);\n      exit (status);\n    }\n\n  /* If normal exit status, print usage info on stdout */\n\n  printf (_(\"\\\nUsage: %s [OPTIONS] COMMAND [ARG]...\\n\\\n\"),program_name);\n  fputs (_(\"\\\nRun COMMAND, then print system resource usage.\\n\\\n\\n\\\n\"), stdout);\n\n  /*\n    printf (\"\\\nUsage: %s [-apvV] [-f format] [-o file] [--append] [--verbose]\\n\\\n       [--portability] [--format=format] [--output=file] [--version]\\n\\\n       [--help] command [arg...]\\n\",\n          program_name);\n  */\n\n  fputs (_(\"\\\n  -a, --append              with -o FILE, append instead of overwriting\\n\\\n\"), stdout);\n  fputs (_(\"\\\n  -f, --format=FORMAT       use the specified FORMAT instead of the default\\n\\\n\"), stdout);\n  fputs (_(\"\\\n  -o, --output=FILE         write to FILE instead of STDERR\\n\"), stdout);\n  fputs (_(\"\\\n  -p, --portability         print POSIX standard 1003.2 conformant string:\\n\\\n                              real %%e\\n\\\n                              user %%U\\n\\\n                              sys %%S\\n\\\n\"), stdout);\n  fputs (_(\"\\\n  -q, --quiet               do not print information about abnormal program\\n\\\n                            termination (non-zero exit codes or signals)\\n\\\n\"), stdout);\n  fputs (_(\"\\\n  -v, --verbose             print all resource usage information instead of\\n\\\n                            the default format\\n\\\n\"), stdout);\n\n\n  fputs (_(\"\\\n  -h,  --help               display this help and exit\\n\"), stdout);\n  fputs (_(\"\\\n  -V,  --version            output version information and exit\\n\"), stdout);\n\n  /* Commonly used variables */\n  fputs (_(\"\\nCommonly usaged format sequences for -f/--format:\\n\"), stdout);\n  fputs (_(\"(see documentation for full list)\\n\"), stdout);\n\n  fputs (_(\"  %%   a literal '%'\\n\"), stdout);\n  fputs (_(\"  %C   command line and arguments\\n\"), stdout);\n  fputs (_(\"  %c   involuntary context switches\\n\"), stdout);\n  fputs (_(\"  %E   elapsed real time (wall clock) in [hour:]min:sec\\n\"), stdout);\n  fputs (_(\"  %e   elapsed real time (wall clock) in seconds\\n\"), stdout);\n  fputs (_(\"  %F   major page faults\\n\"), stdout);\n  fputs (_(\"  %M   maximum resident set size in KB\\n\"), stdout);\n  fputs (_(\"  %P   percent of CPU this job got\\n\"), stdout);\n  fputs (_(\"  %R   minor page faults\\n\"), stdout);\n  fputs (_(\"  %S   system (kernel) time in seconds\\n\"), stdout);\n  fputs (_(\"  %U   user time in seconds\\n\"), stdout);\n  fputs (_(\"  %w   voluntary context switches\\n\"), stdout);\n  fputs (_(\"  %x   exit status of command\\n\"), stdout);\n\n  /* Default output format */\n  fputs (_(\"\\nDefault output format:\\n\"), stdout);\n  fputs (default_format, stdout);\n  fputc ('\\n',stdout);\n\n  /* Warning about shell's built-in 'time', copied from\n     coreutils' */\n  printf (\"\\n\\\nNOTE: your shell may have its own version of %s, which usually supersedes\\n\\\nthe version described here.  Please refer to your shell's documentation\\n\\\nfor details about the options it supports.\\n\",\n          PROGRAM_NAME);\n\n  /* General help information, copied from coreutils' emit_ancillary_info */\n  printf (_(\"\\n%s website: <%s>\\n\"), PACKAGE_NAME, PACKAGE_URL);\n  printf (_(\"Full documentation at: <%smanual>\\n\"), PACKAGE_URL);\n  printf (_(\"E-mail bug reports to: %s\\n\"), PACKAGE_BUGREPORT);\n\n  exit (EXIT_SUCCESS);\n}",
+      "lines": 95,
+      "depth": 11,
+      "decorators": [
+        "noreturn",
+        "static",
+        "static",
+        "void",
+        "void"
+      ]
+    }
+  },
+  "time/time-1.9/tests/time-aux.c": {
+    "errx": {
+      "start_point": [
+        16,
+        0
+      ],
+      "end_point": [
+        25,
+        1
+      ],
+      "content": "static void\nerrx (int eval, const char *fmt, ...)\n{\n  va_list ap;\n  va_start(ap, fmt);\n  vfprintf (stderr, fmt, ap);\n  va_end(ap);\n  fputc ( '\\n', stderr);\n  exit (eval);\n}",
+      "lines": 10,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "get_exit_code": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "content": "static int\nget_exit_code (const char* num)\n{\n  long int l = 0;\n  char *pch = NULL ;\n\n  errno = 0;\n  l = strtol (optarg, &pch, 10);\n  if (errno != 0 || l < 0 || l > 255 || pch == optarg || *pch != '\\0' )\n    errx (EXIT_CANCELED, \"invalid exit code '%s'\", optarg);\n\n  return (int)l;\n}",
+      "lines": 13,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "do_malloc": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "content": "static void\ndo_malloc (const char* optarg)\n{\n  long int l = 0, i = 0, multiplier = 1 ;\n  void *p = NULL ;\n  char* pch = NULL;\n\n  errno = 0;\n  l = strtol (optarg, &pch, 10);\n  if (errno != 0 || pch == optarg || l <= 0 )\n    errx (EXIT_CANCELED, \"invalid malloc request '%s'\", optarg);\n\n  /* Optional multiplier */\n  switch (*pch)\n    {\n    case 'b':\n    case 'B':\n      multiplier = 1;\n      pch++;\n      break;\n\n    case 'k':\n    case 'K':\n      multiplier = 1024;\n      pch++;\n      break;\n    case 'm':\n    case 'M':\n      multiplier = 1024 * 1024 ;\n      pch++;\n      break;\n    case 'g':\n    case 'G':\n      multiplier = 1024 * 1024 * 1024 ;\n      pch++;\n      break;\n    case '\\0':\n      break;\n    }\n  if (*pch != '\\0')\n    errx (EXIT_CANCELED, \"invalid malloc request '%s' \" \\\n          \"(multiplier error)\", optarg);\n\n  l = l * multiplier ;\n  if ( l < 1 || l > 1024 * 1024 * 1024 )\n    errx (EXIT_CANCELED, \"invalid malloc request '%s' \" \\\n          \"(size too large/small)\", optarg);\n\n  p = malloc (l);\n  if (p==NULL)\n    errx (EXIT_FAILURE, \"malloc failed (%ld bytes), errno=%d\", l, errno);\n\n  /* access the memory to ensure it is resident, not virtual */\n  pch = (char*)p;\n  for (i = 0; i < l ; i += 1000, pch += 1000)\n    *pch = 4;\n}",
+      "lines": 57,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "parse_timespec": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        174,
+        1
+      ],
+      "content": "static void\nparse_timespec (const char* s, struct timespec /*out*/ *ts)\n{\n  long int sleep_s = 0, sleep_ns = 0, l = 0;\n  char* pch = NULL;\n\n  errno = 0;\n  l = strtol (s, &pch, 10);\n  if (errno != 0 || pch == s || l <= 0 )\n    errx (EXIT_CANCELED, \"invalid time '%s'\", s);\n\n  /* Optional multiplier */\n  switch (*pch)\n    {\n    case 'n': /* nanoseconds */\n      sleep_ns = l;\n      ++pch;\n      if (*pch == 's')\n\t++pch;\n      break;\n\n    case 'u': /* microseconds */\n\n      /* prevent signed overflow */\n      if (l >(LONG_MAX/1000))\n\terrx (EXIT_CANCELED, \"invalid time '%s' \" \\\n\t      \"(value too high for microseconds/u units\", s);\n\n      sleep_ns = l * 1000 ;\n      ++pch;\n      if (*pch == 's')\n\t++pch;\n      break;\n\n    case 's': /* seconds */\n      sleep_s = l;\n      ++pch;\n      break;\n\n    case 'm': /* minutes */\n    case 'M':\n      sleep_s = l * 60 ;\n      ++pch;\n      break;\n\n    case '\\0':\n      errx (EXIT_CANCELED, \"missing time unit for value '%s' (ns/us/s/m)\",\n\t    optarg, s);\n      break;\n\n    default:\n      errx (EXIT_CANCELED, \"invalid time unit '%c' for time '%s' \",\n\t    *pch, s);\n    }\n  if (*pch != '\\0')\n    errx (EXIT_CANCELED, \"invalid time '%s' (unit error)\", s);\n\n  /* Normalize nano-seconds/seconds */\n  if (sleep_ns >= NS_1E9)\n    {\n      sleep_s = sleep_ns / NS_1E9;\n      sleep_ns = sleep_ns % NS_1E9;\n    }\n\n  if (\n      ((sleep_s<=0) && (sleep_ns<=0))\n      ||\n      (sleep_s > 24 * 60 * 60 )\n      )\n    errx (EXIT_CANCELED, \"invalid time '%s' \" \\\n          \"(too large/small)\", optarg);\n\n  ts->tv_sec = sleep_s;\n  ts->tv_nsec = sleep_ns;\n}",
+      "lines": 75,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "busy_user_sleep": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "content": "static void\nbusy_user_sleep (const struct timespec *sleep)\n{\n  struct timespec start, cur;\n  long int diff_s, diff_ns;\n  long int sleep_s = sleep->tv_sec;\n  long int sleep_ns = sleep->tv_nsec;\n\n  if (clock_gettime (CLOCK_MONOTONIC, &start)!=0)\n    errx (EXIT_FAILURE, \"clock_gettime failed, errno=%d\", errno);\n\n  while (1) {\n    if (clock_gettime (CLOCK_MONOTONIC, &cur)!=0)\n      errx (EXIT_FAILURE, \"clock_gettime failed, errno=%d\", errno);\n\n    diff_s = cur.tv_sec - start.tv_sec;\n    diff_ns = cur.tv_nsec - start.tv_nsec;\n\n    if (diff_ns < 0) {\n      --diff_s ;\n      diff_ns += 1E9;\n    }\n\n    if ((diff_s >= sleep_s) && (diff_ns >= sleep_ns))\n      break;\n\n    /* waste some cycles */\n    diff_s = diff_ns % 100;\n  }\n}",
+      "lines": 30,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "busy_sys_sleep": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        246,
+        1
+      ],
+      "content": "static void\nbusy_sys_sleep (const struct timespec *sleep)\n{\n  struct timespec start, cur;\n  long int diff_s, diff_ns;\n  long int sleep_s = sleep->tv_sec;\n  long int sleep_ns = sleep->tv_nsec;\n  pid_t pid,ppid;\n  uid_t uid,euid;\n  gid_t gid,egid;\n  char buf[100];\n\n  if (clock_gettime (CLOCK_MONOTONIC, &start)!=0)\n    errx (EXIT_FAILURE, \"clock_gettime failed, errno=%d\", errno);\n\n  while (1) {\n    if (clock_gettime (CLOCK_MONOTONIC, &cur)!=0)\n      errx (EXIT_FAILURE, \"clock_gettime failed, errno=%d\", errno);\n\n    diff_s = cur.tv_sec - start.tv_sec;\n    diff_ns = cur.tv_nsec - start.tv_nsec;\n\n    if (diff_ns < 0) {\n      --diff_s ;\n      diff_ns += 1E9;\n    }\n\n    if ((diff_s >= sleep_s) && (diff_ns >= sleep_ns))\n      break;\n\n    /* waste some cycles in the kernel using system calls */\n    pid = getpid();\n    ppid = getppid();\n    uid = getuid();\n    euid = geteuid();\n    gid = getgid();\n    egid = getegid();\n    getcwd (buf, 10 + (pid+ppid+uid+euid+gid+egid)&0xF);\n  }\n}",
+      "lines": 40,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "safe_nanosleep": {
+      "start_point": [
+        248,
+        0
+      ],
+      "end_point": [
+        265,
+        1
+      ],
+      "content": "static void\nsafe_nanosleep (const struct timespec *ts)\n{\n  int i;\n  struct timespec req,rem;\n  req = *ts;\n  while (1)\n    {\n      errno = 0 ;\n      i = nanosleep (&req, &rem);\n      if (i==0)\n\tbreak;\n      else if (i==-1 && errno == EINTR)\n\treq = rem;\n      else\n\terrx (EXIT_FAILURE, \"nanosleep failed, errno=%d\", errno);\n    }\n}",
+      "lines": 18,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "do_busy_user_sleep": {
+      "start_point": [
+        268,
+        0
+      ],
+      "end_point": [
+        275,
+        1
+      ],
+      "content": "static void\ndo_busy_user_sleep (const char* optarg)\n{\n  struct timespec ts;\n\n  parse_timespec (optarg, &ts);\n  busy_user_sleep (&ts);\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "do_busy_sys_sleep": {
+      "start_point": [
+        277,
+        0
+      ],
+      "end_point": [
+        284,
+        1
+      ],
+      "content": "static void\ndo_busy_sys_sleep (const char* optarg)\n{\n  struct timespec ts;\n\n  parse_timespec (optarg, &ts);\n  busy_sys_sleep (&ts);\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "do_sleep": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        293,
+        1
+      ],
+      "content": "static void\ndo_sleep (const char* optarg)\n{\n  struct timespec ts;\n\n  parse_timespec (optarg, &ts);\n  safe_nanosleep (&ts);\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "do_half_busy_sleep": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        312,
+        1
+      ],
+      "content": "static void\ndo_half_busy_sleep (const char* optarg)\n{\n  const unsigned int iters = 4 ;\n  struct timespec ts, ts2;\n\n  parse_timespec (optarg, &ts);\n\n  ts2.tv_sec = ts.tv_sec / iters ;\n  ts2.tv_nsec = ts.tv_nsec / iters +\n    ( ( ts.tv_sec % iters ) * NS_1E9 ) / iters ;\n\n  for (int i=0; i<iters/2 ; ++i)\n    {\n      busy_user_sleep (&ts2);\n      safe_nanosleep (&ts2);\n    }\n}",
+      "lines": 18,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "usage": {
+      "start_point": [
+        315,
+        0
+      ],
+      "end_point": [
+        340,
+        1
+      ],
+      "content": "static void\nusage (void)\n{\n  puts(\"Usage: time-aux [OPTIONS]\\n\\\nWastes time and memory to test GNU time\\n\\\n\\n\\\nOPTIONS\\n\\\n -b TIME   waste TIME in a CPU busy loop (consuming 'user' time)\\n\\\n -e N      terminate with exit code N (default: 0)\\n\\\n -h        this help screen\\n\\\n -H TIME   waste/sleep TIME (half in busy loop, half in sleep)\\n\\\n -k TIME   waste TIME in kernel syscalls (approx.)\\n\\\n -m SIZE   allocate SIZE bytes memory (accepts K/M/G suffix)\\n\\\n -s TIME   sleep TIME without wasting CPU time\\n\\\n\\n\\\nTIME must have a suffix:\\n\\\nm (minutes), s (seconds), us (microseconds), ns (nanoseconds)\\n\\\n\\n\\\nExample:\\n\\\nAllocate 200 MBs, sleep for 1 second, then busy-loop for 1 second,\\n\\\nthen terminate with exit code 4:\\n\\\n  time-aux -m 200M -s 1s -b 1s -e 4\\n\\\n\\n\\\n\");\n  exit(0);\n}",
+      "lines": 26,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "main": {
+      "start_point": [
+        342,
+        0
+      ],
+      "end_point": [
+        385,
+        1
+      ],
+      "content": "int main (int argc, char *argv[])\n{\n  int c;\n  int rc = 0 ;\n\n  while ( (c = getopt(argc,argv,\"e:m:b:s:H:k:h\")) != -1 )\n    {\n      switch (c)\n        {\n        case 'e': /* Set exit code */\n          rc = get_exit_code (optarg);\n          break;\n\n        case 'm': /* Malloc */\n          do_malloc (optarg);\n          break;\n\n\tcase 'h':\n\t  usage();\n\t  break;\n\n        case 'b': /* busy loop, waste CPU cycles for X seconds*/\n          do_busy_user_sleep (optarg);\n          break;\n\n        case 's': /* sleep without wasting CPU cycles in user mode */\n          do_sleep (optarg);\n          break;\n\n        case 'H': /* half busy loop, half sleep */\n          do_half_busy_sleep (optarg);\n          break;\n\n        case 'k': /* busy loop, wasting kernel/system time */\n          do_busy_sys_sleep (optarg);\n          break;\n\n        default:\n          errx (EXIT_CANCELED,\"invalid option\");\n        }\n    }\n\n  return rc;\n}",
+      "lines": 44,
+      "depth": 12,
+      "decorators": [
+        "int"
+      ]
+    }
+  }
+}

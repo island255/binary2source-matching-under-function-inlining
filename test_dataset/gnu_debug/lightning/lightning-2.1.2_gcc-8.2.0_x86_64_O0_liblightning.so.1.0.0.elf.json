@@ -1,0 +1,2930 @@
+{
+  "_sse_bgtr_d": {
+    "start_address": 237605, 
+    "end_address": 237690
+  }, 
+  "._jit_forward": {
+    "start_address": 32560, 
+    "end_address": 32566
+  }, 
+  "_movsr": {
+    "start_address": 195240, 
+    "end_address": 195388
+  }, 
+  "._jit_ret": {
+    "start_address": 33104, 
+    "end_address": 33110
+  }, 
+  "_nop": {
+    "start_address": 177391, 
+    "end_address": 178263
+  }, 
+  "_sse_bgtr_f": {
+    "start_address": 228809, 
+    "end_address": 228884
+  }, 
+  "_sse_bnei_f": {
+    "start_address": 229252, 
+    "end_address": 229431
+  }, 
+  "_patch_registers": {
+    "start_address": 76467, 
+    "end_address": 77873
+  }, 
+  "_jit_reglive": {
+    "start_address": 59942, 
+    "end_address": 61592
+  }, 
+  "memset": {
+    "start_address": 2408904, 
+    "end_address": 2408912
+  }, 
+  "_reverse_jump": {
+    "start_address": 70277, 
+    "end_address": 70697
+  }, 
+  ".term_proc": {
+    "start_address": 263328, 
+    "end_address": 263342
+  }, 
+  "_sse_addi_d": {
+    "start_address": 217820, 
+    "end_address": 217990
+  }, 
+  "_sse_addi_f": {
+    "start_address": 217487, 
+    "end_address": 217657
+  }, 
+  "_jit_callee_save_p": {
+    "start_address": 49932, 
+    "end_address": 49980
+  }, 
+  "_sse_ner_f": {
+    "start_address": 224330, 
+    "end_address": 224516
+  }, 
+  "_sse_ner_d": {
+    "start_address": 232669, 
+    "end_address": 232865
+  }, 
+  "_sse_unlti_d": {
+    "start_address": 233035, 
+    "end_address": 233223
+  }, 
+  "_sse_unlti_f": {
+    "start_address": 224686, 
+    "end_address": 224874
+  }, 
+  "fprintf": {
+    "start_address": 2408936, 
+    "end_address": 2408944
+  }, 
+  ".realloc": {
+    "start_address": 32928, 
+    "end_address": 32934
+  }, 
+  "_jit_new_node_pw": {
+    "start_address": 55318, 
+    "end_address": 55366
+  }, 
+  ".jit_finish_size": {
+    "start_address": 32656, 
+    "end_address": 32662
+  }, 
+  "_rx": {
+    "start_address": 176216, 
+    "end_address": 177391
+  }, 
+  ".memcpy": {
+    "start_address": 32688, 
+    "end_address": 32694
+  }, 
+  "_jit_retr_f": {
+    "start_address": 80709, 
+    "end_address": 80847
+  }, 
+  "_jit_regarg_set": {
+    "start_address": 61592, 
+    "end_address": 61938
+  }, 
+  "_redundant_store": {
+    "start_address": 70697, 
+    "end_address": 71275
+  }, 
+  "_jit_regarg_clr": {
+    "start_address": 61938, 
+    "end_address": 62299
+  }, 
+  "_x87_negr_d": {
+    "start_address": 244469, 
+    "end_address": 244660
+  }, 
+  "_jit_patch_at": {
+    "start_address": 57743, 
+    "end_address": 57935
+  }, 
+  "_sse_blti_f": {
+    "start_address": 227810, 
+    "end_address": 227989
+  }, 
+  "_irotshi": {
+    "start_address": 191729, 
+    "end_address": 191954
+  }, 
+  "_x87_ldi_d": {
+    "start_address": 257266, 
+    "end_address": 257534
+  }, 
+  ".mmap": {
+    "start_address": 32352, 
+    "end_address": 32358
+  }, 
+  "_sse_bnei_d": {
+    "start_address": 238068, 
+    "end_address": 238247
+  }, 
+  "_irotshr": {
+    "start_address": 190901, 
+    "end_address": 191025
+  }, 
+  "_bnei": {
+    "start_address": 208137, 
+    "end_address": 208233
+  }, 
+  "_sse_unordi_d": {
+    "start_address": 234660, 
+    "end_address": 234848
+  }, 
+  "_sse_negr_f": {
+    "start_address": 221712, 
+    "end_address": 222120
+  }, 
+  "_sse_negr_d": {
+    "start_address": 222120, 
+    "end_address": 222646
+  }, 
+  "_ssexi": {
+    "start_address": 216774, 
+    "end_address": 216975
+  }, 
+  "_subxr": {
+    "start_address": 182505, 
+    "end_address": 182764
+  }, 
+  "_sse_bltgtr_f": {
+    "start_address": 230788, 
+    "end_address": 230863
+  }, 
+  "_sse_bltgtr_d": {
+    "start_address": 239654, 
+    "end_address": 239739
+  }, 
+  "_xorr": {
+    "start_address": 190359, 
+    "end_address": 190525
+  }, 
+  "._jit_new_node_wf": {
+    "start_address": 33136, 
+    "end_address": 33142
+  }, 
+  "._jit_new_node_wd": {
+    "start_address": 33120, 
+    "end_address": 33126
+  }, 
+  "_sse_stxr_d": {
+    "start_address": 236157, 
+    "end_address": 236230
+  }, 
+  "_sse_stxr_f": {
+    "start_address": 227401, 
+    "end_address": 227474
+  }, 
+  "._jit_new_node_wp": {
+    "start_address": 32336, 
+    "end_address": 32342
+  }, 
+  "._jit_new_node_ww": {
+    "start_address": 32992, 
+    "end_address": 32998
+  }, 
+  "_jit_address": {
+    "start_address": 50444, 
+    "end_address": 50466
+  }, 
+  "_jit_forward": {
+    "start_address": 56395, 
+    "end_address": 56426
+  }, 
+  ".jit_realloc": {
+    "start_address": 32784, 
+    "end_address": 32790
+  }, 
+  "_patch": {
+    "start_address": 262651, 
+    "end_address": 262986
+  }, 
+  "_sse_movi_d": {
+    "start_address": 234910, 
+    "end_address": 235255
+  }, 
+  ".strcmp": {
+    "start_address": 32624, 
+    "end_address": 32630
+  }, 
+  "._jit_epilog": {
+    "start_address": 32864, 
+    "end_address": 32870
+  }, 
+  "_jci0": {
+    "start_address": 206490, 
+    "end_address": 206556
+  }, 
+  "_x87_ldr_f": {
+    "start_address": 251579, 
+    "end_address": 251662
+  }, 
+  "_x87_ldr_d": {
+    "start_address": 257183, 
+    "end_address": 257266
+  }, 
+  "_jit_new_node_w": {
+    "start_address": 54699, 
+    "end_address": 54772
+  }, 
+  "_jit_new_node_p": {
+    "start_address": 54924, 
+    "end_address": 54997
+  }, 
+  "_sse_beqr_d": {
+    "start_address": 237019, 
+    "end_address": 237162
+  }, 
+  "_sse_beqr_f": {
+    "start_address": 228243, 
+    "end_address": 228376
+  }, 
+  "_jit_new_node_d": {
+    "start_address": 54848, 
+    "end_address": 54924
+  }, 
+  "_jit_new_node_f": {
+    "start_address": 54772, 
+    "end_address": 54848
+  }, 
+  "_jit_new_node_fp": {
+    "start_address": 55134, 
+    "end_address": 55226
+  }, 
+  "_stxr_l": {
+    "start_address": 205704, 
+    "end_address": 205825
+  }, 
+  "_stxr_i": {
+    "start_address": 205274, 
+    "end_address": 205395
+  }, 
+  "_bgei_u": {
+    "start_address": 207704, 
+    "end_address": 207795
+  }, 
+  "_stxr_c": {
+    "start_address": 204368, 
+    "end_address": 204489
+  }, 
+  "_x87_gei_d": {
+    "start_address": 254886, 
+    "end_address": 255064
+  }, 
+  "_jit_synth_dec": {
+    "start_address": 54643, 
+    "end_address": 54699
+  }, 
+  "_x87_rsbi_f": {
+    "start_address": 241222, 
+    "end_address": 241396
+  }, 
+  "_sse_bltr_f": {
+    "start_address": 227735, 
+    "end_address": 227810
+  }, 
+  "_sse_bltr_d": {
+    "start_address": 236491, 
+    "end_address": 236576
+  }, 
+  "_x87rri": {
+    "start_address": 240805, 
+    "end_address": 240882
+  }, 
+  "_x87_gei_f": {
+    "start_address": 246383, 
+    "end_address": 246561
+  }, 
+  "_jit_putargi_d": {
+    "start_address": 85470, 
+    "end_address": 85715
+  }, 
+  "_stxr_s": {
+    "start_address": 204798, 
+    "end_address": 204940
+  }, 
+  "_jit_putargi_f": {
+    "start_address": 84853, 
+    "end_address": 85098
+  }, 
+  "_sse_bordi_f": {
+    "start_address": 231117, 
+    "end_address": 231296
+  }, 
+  "_sse_bordi_d": {
+    "start_address": 240003, 
+    "end_address": 240182
+  }, 
+  "_vaarg_d": {
+    "start_address": 215306, 
+    "end_address": 216356
+  }, 
+  ".jit_finish_debug": {
+    "start_address": 32416, 
+    "end_address": 32422
+  }, 
+  "_subci": {
+    "start_address": 182250, 
+    "end_address": 182505
+  }, 
+  "_x87_eqi_d": {
+    "start_address": 254712, 
+    "end_address": 254886
+  }, 
+  "_ldxi_uc": {
+    "start_address": 200062, 
+    "end_address": 200396
+  }, 
+  "_x87_subi_d": {
+    "start_address": 242750, 
+    "end_address": 242920
+  }, 
+  "_x87_subi_f": {
+    "start_address": 241052, 
+    "end_address": 241222
+  }, 
+  "_ldxi_ui": {
+    "start_address": 201899, 
+    "end_address": 202208
+  }, 
+  "_x87_blei_f": {
+    "start_address": 248512, 
+    "end_address": 248699
+  }, 
+  "_x87_blei_d": {
+    "start_address": 259068, 
+    "end_address": 259255
+  }, 
+  "_ldxi_us": {
+    "start_address": 201014, 
+    "end_address": 201348
+  }, 
+  "_str_l": {
+    "start_address": 203947, 
+    "end_address": 204065
+  }, 
+  "_xchgr": {
+    "start_address": 178573, 
+    "end_address": 178700
+  }, 
+  "._jit_optimize": {
+    "start_address": 32272, 
+    "end_address": 32278
+  }, 
+  "_sse_buneqi_f": {
+    "start_address": 230072, 
+    "end_address": 230251
+  }, 
+  "_jit_forward_p": {
+    "start_address": 56779, 
+    "end_address": 56847
+  }, 
+  "jit_alloc": {
+    "start_address": 33871, 
+    "end_address": 33940
+  }, 
+  "_iqdivi": {
+    "start_address": 189030, 
+    "end_address": 189293
+  }, 
+  "_iqdivr": {
+    "start_address": 187825, 
+    "end_address": 189030
+  }, 
+  "_jit_retval_s": {
+    "start_address": 89201, 
+    "end_address": 89294
+  }, 
+  "_muli": {
+    "start_address": 183814, 
+    "end_address": 184298
+  }, 
+  "fputs": {
+    "start_address": 2408896, 
+    "end_address": 2408904
+  }, 
+  "_sse_unler_d": {
+    "start_address": 233223, 
+    "end_address": 233318
+  }, 
+  "line_insert_index": {
+    "start_address": 38045, 
+    "end_address": 38195
+  }, 
+  "_new_note": {
+    "start_address": 37201, 
+    "end_address": 37398
+  }, 
+  "_sse_buneqr_d": {
+    "start_address": 238804, 
+    "end_address": 238918
+  }, 
+  "_sse_unler_f": {
+    "start_address": 224874, 
+    "end_address": 224969
+  }, 
+  "_sse_buneqr_f": {
+    "start_address": 229968, 
+    "end_address": 230072
+  }, 
+  "_mulr": {
+    "start_address": 183690, 
+    "end_address": 183814
+  }, 
+  "_jit_update": {
+    "start_address": 65595, 
+    "end_address": 67770
+  }, 
+  "_alur": {
+    "start_address": 179139, 
+    "end_address": 179278
+  }, 
+  "_save": {
+    "start_address": 179761, 
+    "end_address": 179998
+  }, 
+  "._jit_regarg_set": {
+    "start_address": 32208, 
+    "end_address": 32214
+  }, 
+  "_sse_bner_f": {
+    "start_address": 229063, 
+    "end_address": 229252
+  }, 
+  "_iqmuli": {
+    "start_address": 184921, 
+    "end_address": 185242
+  }, 
+  "_sse_bner_d": {
+    "start_address": 237869, 
+    "end_address": 238068
+  }, 
+  "_bltr_u": {
+    "start_address": 206713, 
+    "end_address": 206774
+  }, 
+  "_jit_arg": {
+    "start_address": 81916, 
+    "end_address": 82195
+  }, 
+  "jit_get_max_instr": {
+    "start_address": 48000, 
+    "end_address": 48011
+  }, 
+  "_iqmulr": {
+    "start_address": 184298, 
+    "end_address": 184921
+  }, 
+  "_sse_gti_f": {
+    "start_address": 224142, 
+    "end_address": 224330
+  }, 
+  "_sse_gti_d": {
+    "start_address": 232481, 
+    "end_address": 232669
+  }, 
+  "_x87_subr_d": {
+    "start_address": 242328, 
+    "end_address": 242750
+  }, 
+  "_sse_eqr_d": {
+    "start_address": 231926, 
+    "end_address": 232123
+  }, 
+  "_ldxr_s": {
+    "start_address": 200396, 
+    "end_address": 200538
+  }, 
+  "_sse_eqr_f": {
+    "start_address": 223597, 
+    "end_address": 223784
+  }, 
+  "_alui": {
+    "start_address": 179278, 
+    "end_address": 179761
+  }, 
+  "_sse_divi_d": {
+    "start_address": 220766, 
+    "end_address": 220936
+  }, 
+  "_sse_divi_f": {
+    "start_address": 220283, 
+    "end_address": 220453
+  }, 
+  "_str_s": {
+    "start_address": 203059, 
+    "end_address": 203198
+  }, 
+  "_x87_uneqi_f": {
+    "start_address": 247265, 
+    "end_address": 247443
+  }, 
+  "_callr": {
+    "start_address": 211553, 
+    "end_address": 211664
+  }, 
+  "_jit_retval_us": {
+    "start_address": 89294, 
+    "end_address": 89387
+  }, 
+  "_sse_eqi_d": {
+    "start_address": 232123, 
+    "end_address": 232293
+  }, 
+  "_jit_label": {
+    "start_address": 56307, 
+    "end_address": 56395
+  }, 
+  "_str_c": {
+    "start_address": 202638, 
+    "end_address": 202756
+  }, 
+  "._jit_link": {
+    "start_address": 33168, 
+    "end_address": 33174
+  }, 
+  "_register_change_p": {
+    "start_address": 75819, 
+    "end_address": 76189
+  }, 
+  "_bxaddi": {
+    "start_address": 209606, 
+    "end_address": 209868
+  }, 
+  "_jit_retval_uc": {
+    "start_address": 89108, 
+    "end_address": 89201
+  }, 
+  "_x87_eqi_f": {
+    "start_address": 246213, 
+    "end_address": 246383
+  }, 
+  "_str_i": {
+    "start_address": 203526, 
+    "end_address": 203644
+  }, 
+  "_sse_movr_d": {
+    "start_address": 234848, 
+    "end_address": 234910
+  }, 
+  "_jit_retval_ui": {
+    "start_address": 89480, 
+    "end_address": 89573
+  }, 
+  "_calli": {
+    "start_address": 211664, 
+    "end_address": 211831
+  }, 
+  "._jit_load": {
+    "start_address": 32080, 
+    "end_address": 32086
+  }, 
+  "_subxi": {
+    "start_address": 182764, 
+    "end_address": 183019
+  }, 
+  "_sse_buneqi_d": {
+    "start_address": 238918, 
+    "end_address": 239097
+  }, 
+  "_del_node": {
+    "start_address": 52312, 
+    "end_address": 52442
+  }, 
+  "mprotect": {
+    "start_address": 2408992, 
+    "end_address": 2409000
+  }, 
+  "_ci0": {
+    "start_address": 192778, 
+    "end_address": 192914
+  }, 
+  "_jit_set_code": {
+    "start_address": 63156, 
+    "end_address": 63213
+  }, 
+  "abort": {
+    "start_address": 2408864, 
+    "end_address": 2408872
+  }, 
+  "_sse_nei_d": {
+    "start_address": 232865, 
+    "end_address": 233035
+  }, 
+  "_sse_nei_f": {
+    "start_address": 224516, 
+    "end_address": 224686
+  }, 
+  "_x87_bunlei_f": {
+    "start_address": 249618, 
+    "end_address": 249805
+  }, 
+  "_jit_disassemble": {
+    "start_address": 33577, 
+    "end_address": 33588
+  }, 
+  "._jit_new_node_dp": {
+    "start_address": 33072, 
+    "end_address": 33078
+  }, 
+  "sub_7D40": {
+    "start_address": 32064, 
+    "end_address": 32076
+  }, 
+  "_x87cmp": {
+    "start_address": 245177, 
+    "end_address": 245358
+  }, 
+  "_jit_load": {
+    "start_address": 50200, 
+    "end_address": 50342
+  }, 
+  "_sse_muli_d": {
+    "start_address": 219800, 
+    "end_address": 219970
+  }, 
+  "._emit_ldxi": {
+    "start_address": 32480, 
+    "end_address": 32486
+  }, 
+  "_subr": {
+    "start_address": 181453, 
+    "end_address": 181606
+  }, 
+  "_movir": {
+    "start_address": 195536, 
+    "end_address": 195663
+  }, 
+  "_x87_nei_f": {
+    "start_address": 246739, 
+    "end_address": 246909
+  }, 
+  "_sse_beqi_d": {
+    "start_address": 237162, 
+    "end_address": 237341
+  }, 
+  "jit_get_cpu": {
+    "start_address": 78143, 
+    "end_address": 78832
+  }, 
+  "_subi": {
+    "start_address": 181606, 
+    "end_address": 181991
+  }, 
+  "_vaarg": {
+    "start_address": 214444, 
+    "end_address": 215306
+  }, 
+  ".jit_init_debug": {
+    "start_address": 32112, 
+    "end_address": 32118
+  }, 
+  "_unr": {
+    "start_address": 192193, 
+    "end_address": 192317
+  }, 
+  "_x87_bunlei_d": {
+    "start_address": 260656, 
+    "end_address": 260843
+  }, 
+  "strlen": {
+    "start_address": 2408880, 
+    "end_address": 2408888
+  }, 
+  "_sse_bordr_d": {
+    "start_address": 239918, 
+    "end_address": 240003
+  }, 
+  "_sse_bordr_f": {
+    "start_address": 231042, 
+    "end_address": 231117
+  }, 
+  "_emit_stxi_d": {
+    "start_address": 262436, 
+    "end_address": 262651
+  }, 
+  "_ger_u": {
+    "start_address": 193772, 
+    "end_address": 193857
+  }, 
+  "_extr_c": {
+    "start_address": 196231, 
+    "end_address": 196272
+  }, 
+  "_jit_annotate": {
+    "start_address": 35015, 
+    "end_address": 35922
+  }, 
+  "_sse_bunordi_d": {
+    "start_address": 240267, 
+    "end_address": 240446
+  }, 
+  "finish_jit": {
+    "start_address": 48055, 
+    "end_address": 48072
+  }, 
+  "_jit_regarg_p": {
+    "start_address": 87955, 
+    "end_address": 88128
+  }, 
+  "__cxa_finalize": {
+    "start_address": 33344, 
+    "end_address": 33350
+  }, 
+  "._jit_print_node": {
+    "start_address": 32432, 
+    "end_address": 32438
+  }, 
+  "_x87rx": {
+    "start_address": 240569, 
+    "end_address": 240712
+  }, 
+  "._jit_allocai": {
+    "start_address": 33056, 
+    "end_address": 33062
+  }, 
+  "_sse_ordi_d": {
+    "start_address": 234472, 
+    "end_address": 234660
+  }, 
+  "_sse_ordi_f": {
+    "start_address": 226123, 
+    "end_address": 226311
+  }, 
+  "._jit_data": {
+    "start_address": 32880, 
+    "end_address": 32886
+  }, 
+  "_sse_unordi_f": {
+    "start_address": 226311, 
+    "end_address": 226499
+  }, 
+  "_jit_get_reg": {
+    "start_address": 48072, 
+    "end_address": 49574
+  }, 
+  "_sse_sti_f": {
+    "start_address": 227117, 
+    "end_address": 227401
+  }, 
+  "_sse_sti_d": {
+    "start_address": 235873, 
+    "end_address": 236157
+  }, 
+  "_jit_new_node_qww": {
+    "start_address": 55655, 
+    "end_address": 55770
+  }, 
+  "_sse_addr_f": {
+    "start_address": 217324, 
+    "end_address": 217487
+  }, 
+  "_sse_addr_d": {
+    "start_address": 217657, 
+    "end_address": 217820
+  }, 
+  "_jit_destroy_state": {
+    "start_address": 54346, 
+    "end_address": 54463
+  }, 
+  "_sse_muli_f": {
+    "start_address": 219467, 
+    "end_address": 219637
+  }, 
+  "_stxi_s": {
+    "start_address": 204940, 
+    "end_address": 205274
+  }, 
+  "_rex": {
+    "start_address": 176088, 
+    "end_address": 176216
+  }, 
+  "_jit_dataset": {
+    "start_address": 62431, 
+    "end_address": 63066
+  }, 
+  "_sse_beqi_f": {
+    "start_address": 228376, 
+    "end_address": 228555
+  }, 
+  "jit_flush": {
+    "start_address": 261965, 
+    "end_address": 261980
+  }, 
+  "_stxi_c": {
+    "start_address": 204489, 
+    "end_address": 204798
+  }, 
+  "_sse_mulr_f": {
+    "start_address": 219304, 
+    "end_address": 219467
+  }, 
+  "_jit_new_node_no_link": {
+    "start_address": 54571, 
+    "end_address": 54605
+  }, 
+  "_sse_mulr_d": {
+    "start_address": 219637, 
+    "end_address": 219800
+  }, 
+  "_stxi_i": {
+    "start_address": 205395, 
+    "end_address": 205704
+  }, 
+  "_stxi_l": {
+    "start_address": 205825, 
+    "end_address": 206134
+  }, 
+  "_jit_getarg_uc": {
+    "start_address": 82944, 
+    "end_address": 83127
+  }, 
+  "_blei_u": {
+    "start_address": 207146, 
+    "end_address": 207242
+  }, 
+  "fwrite": {
+    "start_address": 2409000, 
+    "end_address": 2409008
+  }, 
+  "_ltr_u": {
+    "start_address": 193086, 
+    "end_address": 193171
+  }, 
+  "_jit_getarg_ui": {
+    "start_address": 83676, 
+    "end_address": 83859
+  }, 
+  "_x87_lti_d": {
+    "start_address": 254089, 
+    "end_address": 254267
+  }, 
+  "_sign_extend_rdx_rax": {
+    "start_address": 185242, 
+    "end_address": 185317
+  }, 
+  "_sse_bunltr_f": {
+    "start_address": 229431, 
+    "end_address": 229506
+  }, 
+  "_ssexrx": {
+    "start_address": 217155, 
+    "end_address": 217324
+  }, 
+  "_jit_getarg_us": {
+    "start_address": 83310, 
+    "end_address": 83493
+  }, 
+  "_sse_ltgtr_f": {
+    "start_address": 225857, 
+    "end_address": 225953
+  }, 
+  "_sse_ltgtr_d": {
+    "start_address": 234206, 
+    "end_address": 234302
+  }, 
+  "_x87_movr_d": {
+    "start_address": 253277, 
+    "end_address": 253425
+  }, 
+  ".fputs": {
+    "start_address": 32448, 
+    "end_address": 32454
+  }, 
+  "mremap": {
+    "start_address": 2408960, 
+    "end_address": 2408968
+  }, 
+  "_x87cmp2": {
+    "start_address": 245358, 
+    "end_address": 245571
+  }, 
+  "_cr": {
+    "start_address": 192475, 
+    "end_address": 192634
+  }, 
+  "_sse_bunordr_f": {
+    "start_address": 231296, 
+    "end_address": 231371
+  }, 
+  "_sse_bunordr_d": {
+    "start_address": 240182, 
+    "end_address": 240267
+  }, 
+  "_ci": {
+    "start_address": 192634, 
+    "end_address": 192778
+  }, 
+  ".abort": {
+    "start_address": 32160, 
+    "end_address": 32166
+  }, 
+  "_simplify_stxi": {
+    "start_address": 72918, 
+    "end_address": 73561
+  }, 
+  "_jit_save": {
+    "start_address": 50114, 
+    "end_address": 50200
+  }, 
+  "_cc": {
+    "start_address": 178995, 
+    "end_address": 179139
+  }, 
+  "_redundant_jump": {
+    "start_address": 68993, 
+    "end_address": 69300
+  }, 
+  "jit_finish_note": {
+    "start_address": 34204, 
+    "end_address": 34211
+  }, 
+  "_boaddr": {
+    "start_address": 208857, 
+    "end_address": 208932
+  }, 
+  "._jit_init": {
+    "start_address": 33216, 
+    "end_address": 33222
+  }, 
+  "_x87_truncr_d_i": {
+    "start_address": 244851, 
+    "end_address": 244958
+  }, 
+  "_jccs": {
+    "start_address": 206134, 
+    "end_address": 206228
+  }, 
+  "_sse_blei_f": {
+    "start_address": 228064, 
+    "end_address": 228243
+  }, 
+  "_imulr": {
+    "start_address": 183086, 
+    "end_address": 183234
+  }, 
+  "_sse_blei_d": {
+    "start_address": 236840, 
+    "end_address": 237019
+  }, 
+  "_blti_u": {
+    "start_address": 206774, 
+    "end_address": 206870
+  }, 
+  "_imuli": {
+    "start_address": 183234, 
+    "end_address": 183690
+  }, 
+  "_x87_ungei_d": {
+    "start_address": 256216, 
+    "end_address": 256394
+  }, 
+  "_x87_ungei_f": {
+    "start_address": 247443, 
+    "end_address": 247621
+  }, 
+  "_boaddi": {
+    "start_address": 208932, 
+    "end_address": 209194
+  }, 
+  "_rotshr": {
+    "start_address": 191025, 
+    "end_address": 191729
+  }, 
+  "_emit_stxi": {
+    "start_address": 262098, 
+    "end_address": 262211
+  }, 
+  "_jit_finishr": {
+    "start_address": 88128, 
+    "end_address": 88651
+  }, 
+  "_x87_absr_d": {
+    "start_address": 244278, 
+    "end_address": 244469
+  }, 
+  "_emit_code": {
+    "start_address": 89870, 
+    "end_address": 90108
+  }, 
+  "_jit_get_note": {
+    "start_address": 36779, 
+    "end_address": 37201
+  }, 
+  "_htonr_ul": {
+    "start_address": 196097, 
+    "end_address": 196231
+  }, 
+  "_gti_u": {
+    "start_address": 194114, 
+    "end_address": 194201
+  }, 
+  "_htonr_ui": {
+    "start_address": 195963, 
+    "end_address": 196097
+  }, 
+  "_boaddr_u": {
+    "start_address": 209194, 
+    "end_address": 209269
+  }, 
+  "_x87ri": {
+    "start_address": 240712, 
+    "end_address": 240805
+  }, 
+  "_htonr_us": {
+    "start_address": 195787, 
+    "end_address": 195963
+  }, 
+  "_rotshi": {
+    "start_address": 191954, 
+    "end_address": 192031
+  }, 
+  "_x87_movi_d": {
+    "start_address": 253425, 
+    "end_address": 254089
+  }, 
+  "_sser": {
+    "start_address": 216441, 
+    "end_address": 216594
+  }, 
+  "_x87_movi_f": {
+    "start_address": 250927, 
+    "end_address": 251579
+  }, 
+  "_jit_finishi": {
+    "start_address": 88651, 
+    "end_address": 89015
+  }, 
+  "_bner": {
+    "start_address": 208076, 
+    "end_address": 208137
+  }, 
+  ".memset": {
+    "start_address": 32496, 
+    "end_address": 32502
+  }, 
+  "_addcr": {
+    "start_address": 180627, 
+    "end_address": 180727
+  }, 
+  "_x87_bungti_f": {
+    "start_address": 250179, 
+    "end_address": 250366
+  }, 
+  "_x87_bungti_d": {
+    "start_address": 261217, 
+    "end_address": 261404
+  }, 
+  "_jit_arg_register_p": {
+    "start_address": 81263, 
+    "end_address": 81369
+  }, 
+  "_addci": {
+    "start_address": 180727, 
+    "end_address": 181040
+  }, 
+  "jit_new_state": {
+    "start_address": 53143, 
+    "end_address": 53641
+  }, 
+  "_bmp_clr": {
+    "start_address": 52895, 
+    "end_address": 53029
+  }, 
+  "_x87_bltgti_d": {
+    "start_address": 261404, 
+    "end_address": 261591
+  }, 
+  "_x87_bltgti_f": {
+    "start_address": 250366, 
+    "end_address": 250553
+  }, 
+  "_bmp_init": {
+    "start_address": 52557, 
+    "end_address": 52630
+  }, 
+  "_ner": {
+    "start_address": 194201, 
+    "end_address": 194286
+  }, 
+  "_sse_bunordi_f": {
+    "start_address": 231371, 
+    "end_address": 231550
+  }, 
+  "_x87_sti_f": {
+    "start_address": 252437, 
+    "end_address": 252778
+  }, 
+  "_x87_sti_d": {
+    "start_address": 258041, 
+    "end_address": 258382
+  }, 
+  "_sse_ldi_d": {
+    "start_address": 235255, 
+    "end_address": 235539
+  }, 
+  "_jmpsi": {
+    "start_address": 212030, 
+    "end_address": 212091
+  }, 
+  "_sse_bungti_f": {
+    "start_address": 230609, 
+    "end_address": 230788
+  }, 
+  "_sse_bungti_d": {
+    "start_address": 239475, 
+    "end_address": 239654
+  }, 
+  "_sse_ldi_f": {
+    "start_address": 226499, 
+    "end_address": 226783
+  }, 
+  "_nei": {
+    "start_address": 194286, 
+    "end_address": 194373
+  }, 
+  "_x87_unlei_d": {
+    "start_address": 255860, 
+    "end_address": 256038
+  }, 
+  "_jit_arg_f": {
+    "start_address": 82195, 
+    "end_address": 82478
+  }, 
+  "_xori": {
+    "start_address": 190525, 
+    "end_address": 190901
+  }, 
+  "_jit_arg_d": {
+    "start_address": 82478, 
+    "end_address": 82761
+  }, 
+  "_x87jcc": {
+    "start_address": 245571, 
+    "end_address": 245698
+  }, 
+  "_sse_eqi_f": {
+    "start_address": 223784, 
+    "end_address": 223954
+  }, 
+  "_sse_lti_d": {
+    "start_address": 231550, 
+    "end_address": 231738
+  }, 
+  "_new_pool": {
+    "start_address": 51678, 
+    "end_address": 52068
+  }, 
+  "_jit_new_node_ww": {
+    "start_address": 54997, 
+    "end_address": 55086
+  }, 
+  "_jit_new_node_wp": {
+    "start_address": 55086, 
+    "end_address": 55134
+  }, 
+  "_x87_ldxr_d": {
+    "start_address": 257534, 
+    "end_address": 257620
+  }, 
+  "_x87_ldxr_f": {
+    "start_address": 251930, 
+    "end_address": 252016
+  }, 
+  "_sse_lti_f": {
+    "start_address": 223221, 
+    "end_address": 223409
+  }, 
+  "_lshi": {
+    "start_address": 192031, 
+    "end_address": 192193
+  }, 
+  ".mremap": {
+    "start_address": 32912, 
+    "end_address": 32918
+  }, 
+  "_jit_new_node_wd": {
+    "start_address": 55458, 
+    "end_address": 55550
+  }, 
+  "_jit_new_node_wf": {
+    "start_address": 55366, 
+    "end_address": 55458
+  }, 
+  "_comr": {
+    "start_address": 192414, 
+    "end_address": 192475
+  }, 
+  "_jit_synth_inc": {
+    "start_address": 54463, 
+    "end_address": 54519
+  }, 
+  "_sse_bunltr_d": {
+    "start_address": 238247, 
+    "end_address": 238332
+  }, 
+  ".jit_alloc": {
+    "start_address": 32176, 
+    "end_address": 32182
+  }, 
+  ".mprotect": {
+    "start_address": 33008, 
+    "end_address": 33014
+  }, 
+  "_link_node": {
+    "start_address": 52225, 
+    "end_address": 52312
+  }, 
+  "_thread_jumps": {
+    "start_address": 67770, 
+    "end_address": 68063
+  }, 
+  "_jit_new_node": {
+    "start_address": 54519, 
+    "end_address": 54571
+  }, 
+  "_jit_epilog": {
+    "start_address": 81195, 
+    "end_address": 81263
+  }, 
+  "_pushr": {
+    "start_address": 178393, 
+    "end_address": 178483
+  }, 
+  "._jit_new_node_no_link": {
+    "start_address": 32368, 
+    "end_address": 32374
+  }, 
+  "_x87_ldxi_f": {
+    "start_address": 252016, 
+    "end_address": 252290
+  }, 
+  "_x87_ldxi_d": {
+    "start_address": 257620, 
+    "end_address": 257894
+  }, 
+  "_bgti_u": {
+    "start_address": 207980, 
+    "end_address": 208076
+  }, 
+  "_sse_divr_f": {
+    "start_address": 219970, 
+    "end_address": 220283
+  }, 
+  "memcmp": {
+    "start_address": 2408920, 
+    "end_address": 2408928
+  }, 
+  "_sse_unlei_f": {
+    "start_address": 224969, 
+    "end_address": 225139
+  }, 
+  "_jit_indirect_p": {
+    "start_address": 56847, 
+    "end_address": 56903
+  }, 
+  "_boaddi_u": {
+    "start_address": 209269, 
+    "end_address": 209531
+  }, 
+  "_ler_u": {
+    "start_address": 193256, 
+    "end_address": 193341
+  }, 
+  "free": {
+    "start_address": 2408848, 
+    "end_address": 2408856
+  }, 
+  "jit_default_realloc_func": {
+    "start_address": 34133, 
+    "end_address": 34170
+  }, 
+  "_x87_stxr_d": {
+    "start_address": 258382, 
+    "end_address": 258532
+  }, 
+  "_bosubi": {
+    "start_address": 210280, 
+    "end_address": 210542
+  }, 
+  "_negr": {
+    "start_address": 192317, 
+    "end_address": 192414
+  }, 
+  "._jit_finishr": {
+    "start_address": 32608, 
+    "end_address": 32614
+  }, 
+  "_bosubr": {
+    "start_address": 210205, 
+    "end_address": 210280
+  }, 
+  ".jit_memcpy": {
+    "start_address": 32832, 
+    "end_address": 32838
+  }, 
+  "_sse_uneqi_f": {
+    "start_address": 225234, 
+    "end_address": 225404
+  }, 
+  "_jmpi": {
+    "start_address": 211942, 
+    "end_address": 212030
+  }, 
+  "_jit_pushargr_f": {
+    "start_address": 86459, 
+    "end_address": 86799
+  }, 
+  "_bxaddi_u": {
+    "start_address": 209943, 
+    "end_address": 210205
+  }, 
+  "_jit_new_node_dp": {
+    "start_address": 55226, 
+    "end_address": 55318
+  }, 
+  "_sse_unlei_d": {
+    "start_address": 233318, 
+    "end_address": 233488
+  }, 
+  "_rsbi": {
+    "start_address": 183019, 
+    "end_address": 183086
+  }, 
+  "_sse_from_x87_d": {
+    "start_address": 263063, 
+    "end_address": 263140
+  }, 
+  "_sse_from_x87_f": {
+    "start_address": 262986, 
+    "end_address": 263063
+  }, 
+  "jit_get_memory_functions": {
+    "start_address": 33810, 
+    "end_address": 33871
+  }, 
+  "_sse_bger_d": {
+    "start_address": 237341, 
+    "end_address": 237426
+  }, 
+  "_sse_ungti_f": {
+    "start_address": 225669, 
+    "end_address": 225857
+  }, 
+  "_sse_ungti_d": {
+    "start_address": 234018, 
+    "end_address": 234206
+  }, 
+  "._jit_unget_reg": {
+    "start_address": 33280, 
+    "end_address": 33286
+  }, 
+  "._emit_ldxi_d": {
+    "start_address": 33232, 
+    "end_address": 33238
+  }, 
+  "._jit_new_node_d": {
+    "start_address": 33088, 
+    "end_address": 33094
+  }, 
+  "_jit_get_size": {
+    "start_address": 47899, 
+    "end_address": 48000
+  }, 
+  "_ori": {
+    "start_address": 189979, 
+    "end_address": 190359
+  }, 
+  "_sse_bunlti_d": {
+    "start_address": 238332, 
+    "end_address": 238511
+  }, 
+  "._jit_reglive": {
+    "start_address": 32544, 
+    "end_address": 32550
+  }, 
+  "_sse_bunlti_f": {
+    "start_address": 229506, 
+    "end_address": 229685
+  }, 
+  "._jit_new_node_p": {
+    "start_address": 33312, 
+    "end_address": 33318
+  }, 
+  "._jit_new_node_w": {
+    "start_address": 32528, 
+    "end_address": 32534
+  }, 
+  "_bxaddr_u": {
+    "start_address": 209868, 
+    "end_address": 209943
+  }, 
+  ".jit_regset_scan1": {
+    "start_address": 33264, 
+    "end_address": 33270
+  }, 
+  "_sse_bungtr_d": {
+    "start_address": 239390, 
+    "end_address": 239475
+  }, 
+  "_sse_bungtr_f": {
+    "start_address": 230534, 
+    "end_address": 230609
+  }, 
+  "_jit_pushargr": {
+    "start_address": 85715, 
+    "end_address": 86055
+  }, 
+  "_jit_print": {
+    "start_address": 38782, 
+    "end_address": 38934
+  }, 
+  "._jit_get_size": {
+    "start_address": 32240, 
+    "end_address": 32246
+  }, 
+  "_gtr_u": {
+    "start_address": 194029, 
+    "end_address": 194114
+  }, 
+  "_jit_name": {
+    "start_address": 34211, 
+    "end_address": 34526
+  }, 
+  "_jit_putargi": {
+    "start_address": 84231, 
+    "end_address": 84481
+  }, 
+  "_jit_patch_abs": {
+    "start_address": 57658, 
+    "end_address": 57743
+  }, 
+  "_sse_ltgti_d": {
+    "start_address": 234302, 
+    "end_address": 234472
+  }, 
+  "_andr": {
+    "start_address": 189293, 
+    "end_address": 189456
+  }, 
+  "_sse_ltgti_f": {
+    "start_address": 225953, 
+    "end_address": 226123
+  }, 
+  "_bmcr": {
+    "start_address": 208545, 
+    "end_address": 208617
+  }, 
+  "_sse_bler_d": {
+    "start_address": 236755, 
+    "end_address": 236840
+  }, 
+  "_andi": {
+    "start_address": 189456, 
+    "end_address": 189816
+  }, 
+  "_bmci": {
+    "start_address": 208617, 
+    "end_address": 208857
+  }, 
+  "_jit_putargr": {
+    "start_address": 84042, 
+    "end_address": 84231
+  }, 
+  "_jmpr": {
+    "start_address": 211831, 
+    "end_address": 211942
+  }, 
+  "_movir_u": {
+    "start_address": 195663, 
+    "end_address": 195787
+  }, 
+  "_bler_u": {
+    "start_address": 207056, 
+    "end_address": 207146
+  }, 
+  ".memcmp": {
+    "start_address": 32592, 
+    "end_address": 32598
+  }, 
+  "_extr_uc": {
+    "start_address": 196272, 
+    "end_address": 196313
+  }, 
+  "_sse_ungei_d": {
+    "start_address": 233848, 
+    "end_address": 234018
+  }, 
+  "offset_search_index": {
+    "start_address": 38568, 
+    "end_address": 38782
+  }, 
+  "_x87_ungti_f": {
+    "start_address": 247621, 
+    "end_address": 247799
+  }, 
+  "_prolog": {
+    "start_address": 212091, 
+    "end_address": 213426
+  }, 
+  "_sse_lei_f": {
+    "start_address": 223409, 
+    "end_address": 223597
+  }, 
+  "_jcc": {
+    "start_address": 206228, 
+    "end_address": 206343
+  }, 
+  "_sse_lei_d": {
+    "start_address": 231738, 
+    "end_address": 231926
+  }, 
+  "_x87_unordi_f": {
+    "start_address": 248147, 
+    "end_address": 248325
+  }, 
+  "_x87_unordi_d": {
+    "start_address": 257005, 
+    "end_address": 257183
+  }, 
+  "_jci": {
+    "start_address": 206416, 
+    "end_address": 206490
+  }, 
+  "_bmp_clear": {
+    "start_address": 52630, 
+    "end_address": 52681
+  }, 
+  "_jit_data": {
+    "start_address": 50466, 
+    "end_address": 51678
+  }, 
+  "_jit_retr_d": {
+    "start_address": 80952, 
+    "end_address": 81090
+  }, 
+  "._jit_new_node_www": {
+    "start_address": 32192, 
+    "end_address": 32198
+  }, 
+  "_spill_reglive_p": {
+    "start_address": 76189, 
+    "end_address": 76467
+  }, 
+  "_divremi": {
+    "start_address": 186448, 
+    "end_address": 187825
+  }, 
+  "_x87_bunordi_f": {
+    "start_address": 250740, 
+    "end_address": 250927
+  }, 
+  "_bosubi_u": {
+    "start_address": 210617, 
+    "end_address": 210879
+  }, 
+  "_divremr": {
+    "start_address": 185317, 
+    "end_address": 186448
+  }, 
+  "_sse_subr_f": {
+    "start_address": 217990, 
+    "end_address": 218303
+  }, 
+  "_jit_note": {
+    "start_address": 34526, 
+    "end_address": 35015
+  }, 
+  "fputc": {
+    "start_address": 2408912, 
+    "end_address": 2408920
+  }, 
+  "_movi_p": {
+    "start_address": 194819, 
+    "end_address": 194944
+  }, 
+  "_ldxi_s": {
+    "start_address": 200538, 
+    "end_address": 200872
+  }, 
+  "_ldxi_i": {
+    "start_address": 201469, 
+    "end_address": 201778
+  }, 
+  "_x87_stxr_f": {
+    "start_address": 252778, 
+    "end_address": 252928
+  }, 
+  "_sse_gei_d": {
+    "start_address": 232293, 
+    "end_address": 232481
+  }, 
+  "_movcr": {
+    "start_address": 194944, 
+    "end_address": 195092
+  }, 
+  "_sse_gei_f": {
+    "start_address": 223954, 
+    "end_address": 224142
+  }, 
+  "_sse_bgei_d": {
+    "start_address": 237426, 
+    "end_address": 237605
+  }, 
+  "_sse_bgei_f": {
+    "start_address": 228630, 
+    "end_address": 228809
+  }, 
+  "._jit_new_node": {
+    "start_address": 32288, 
+    "end_address": 32294
+  }, 
+  ".fwrite": {
+    "start_address": 33152, 
+    "end_address": 33158
+  }, 
+  "_addr": {
+    "start_address": 180125, 
+    "end_address": 180250
+  }, 
+  "_jit_new_node_pwf": {
+    "start_address": 56091, 
+    "end_address": 56199
+  }, 
+  "_jit_new_node_pwd": {
+    "start_address": 56199, 
+    "end_address": 56307
+  }, 
+  "_addi": {
+    "start_address": 180250, 
+    "end_address": 180627
+  }, 
+  "_jit_retval_c": {
+    "start_address": 89015, 
+    "end_address": 89108
+  }, 
+  "_bgtr_u": {
+    "start_address": 207919, 
+    "end_address": 207980
+  }, 
+  "_jit_retval_d": {
+    "start_address": 89771, 
+    "end_address": 89870
+  }, 
+  "_jit_retval_f": {
+    "start_address": 89672, 
+    "end_address": 89771
+  }, 
+  "_jit_retval_i": {
+    "start_address": 89387, 
+    "end_address": 89480
+  }, 
+  "_jit_new_node_pww": {
+    "start_address": 55986, 
+    "end_address": 56091
+  }, 
+  "_jit_retval_l": {
+    "start_address": 89573, 
+    "end_address": 89672
+  }, 
+  "__imp___cxa_finalize": {
+    "start_address": 2409008, 
+    "end_address": 2409016
+  }, 
+  "_x87_lti_f": {
+    "start_address": 245857, 
+    "end_address": 246035
+  }, 
+  "_patch_at": {
+    "start_address": 216356, 
+    "end_address": 216441
+  }, 
+  "_movcr_u": {
+    "start_address": 195092, 
+    "end_address": 195240
+  }, 
+  "jit_init_debug": {
+    "start_address": 33559, 
+    "end_address": 33570
+  }, 
+  "._jit_trampoline": {
+    "start_address": 32096, 
+    "end_address": 32102
+  }, 
+  "._emit_stxi": {
+    "start_address": 32464, 
+    "end_address": 32470
+  }, 
+  "_testi": {
+    "start_address": 178827, 
+    "end_address": 178995
+  }, 
+  "_lei_u": {
+    "start_address": 193341, 
+    "end_address": 193428
+  }, 
+  "_bxsubi": {
+    "start_address": 210954, 
+    "end_address": 211216
+  }, 
+  "_x87_bgti_d": {
+    "start_address": 259834, 
+    "end_address": 260021
+  }, 
+  "_x87_str_d": {
+    "start_address": 257894, 
+    "end_address": 258041
+  }, 
+  "_jit_setup": {
+    "start_address": 64476, 
+    "end_address": 65595
+  }, 
+  "_x87_stxi_f": {
+    "start_address": 252928, 
+    "end_address": 253277
+  }, 
+  "_bxsubr": {
+    "start_address": 210879, 
+    "end_address": 210954
+  }, 
+  "_x87_stxi_d": {
+    "start_address": 258532, 
+    "end_address": 258881
+  }, 
+  "_testr": {
+    "start_address": 178700, 
+    "end_address": 178827
+  }, 
+  "_sse_rsbi_d": {
+    "start_address": 219130, 
+    "end_address": 219304
+  }, 
+  "_sse_rsbi_f": {
+    "start_address": 218956, 
+    "end_address": 219130
+  }, 
+  "jit_init_size": {
+    "start_address": 47892, 
+    "end_address": 47899
+  }, 
+  "_x87_bunordi_d": {
+    "start_address": 261778, 
+    "end_address": 261965
+  }, 
+  "_bosubr_u": {
+    "start_address": 210542, 
+    "end_address": 210617
+  }, 
+  "_bgei": {
+    "start_address": 207518, 
+    "end_address": 207614
+  }, 
+  "jit_regset_scan1": {
+    "start_address": 50036, 
+    "end_address": 50114
+  }, 
+  "_jit_ret": {
+    "start_address": 80346, 
+    "end_address": 80466
+  }, 
+  "jit_memcpy": {
+    "start_address": 33588, 
+    "end_address": 33646
+  }, 
+  "_bger": {
+    "start_address": 207428, 
+    "end_address": 207518
+  }, 
+  "_jit_tramp": {
+    "start_address": 64195, 
+    "end_address": 64235
+  }, 
+  "_ldi_s": {
+    "start_address": 197386, 
+    "end_address": 197714
+  }, 
+  "_jit_set_note": {
+    "start_address": 35922, 
+    "end_address": 36779
+  }, 
+  "jit_free": {
+    "start_address": 34050, 
+    "end_address": 34107
+  }, 
+  "_gei": {
+    "start_address": 193685, 
+    "end_address": 193772
+  }, 
+  "._jit_patch_at": {
+    "start_address": 32512, 
+    "end_address": 32518
+  }, 
+  "_x87_beqr_d": {
+    "start_address": 259255, 
+    "end_address": 259468
+  }, 
+  ".jit_get_max_instr": {
+    "start_address": 32768, 
+    "end_address": 32774
+  }, 
+  "frame_dummy": {
+    "start_address": 33554, 
+    "end_address": 33559
+  }, 
+  "_ldi_c": {
+    "start_address": 196452, 
+    "end_address": 196780
+  }, 
+  "_subcr": {
+    "start_address": 181991, 
+    "end_address": 182250
+  }, 
+  "_sse_ldxi_d": {
+    "start_address": 235612, 
+    "end_address": 235873
+  }, 
+  "_ger": {
+    "start_address": 193600, 
+    "end_address": 193685
+  }, 
+  "_jit_indirect": {
+    "start_address": 56426, 
+    "end_address": 56481
+  }, 
+  "_jit_unget_reg": {
+    "start_address": 49574, 
+    "end_address": 49932
+  }, 
+  ".jit_get_cpu": {
+    "start_address": 32304, 
+    "end_address": 32310
+  }, 
+  "_ldi_i": {
+    "start_address": 198299, 
+    "end_address": 198602
+  }, 
+  "_x87_str_f": {
+    "start_address": 252290, 
+    "end_address": 252437
+  }, 
+  "_bmp_tst": {
+    "start_address": 53029, 
+    "end_address": 53143
+  }, 
+  "__do_global_dtors_aux": {
+    "start_address": 33443, 
+    "end_address": 33554
+  }, 
+  "_sse_uneqr_d": {
+    "start_address": 233488, 
+    "end_address": 233583
+  }, 
+  "_sse_uneqr_f": {
+    "start_address": 225139, 
+    "end_address": 225234
+  }, 
+  "_sse_ldxi_f": {
+    "start_address": 226856, 
+    "end_address": 227117
+  }, 
+  "_bxsubi_u": {
+    "start_address": 211291, 
+    "end_address": 211553
+  }, 
+  "_x87_divr_d": {
+    "start_address": 243686, 
+    "end_address": 244108
+  }, 
+  "_ssecmp": {
+    "start_address": 222646, 
+    "end_address": 222824
+  }, 
+  "register_tm_clones": {
+    "start_address": 33386, 
+    "end_address": 33443
+  }, 
+  "_x87_uneqi_d": {
+    "start_address": 256038, 
+    "end_address": 256216
+  }, 
+  ".fputc": {
+    "start_address": 32576, 
+    "end_address": 32582
+  }, 
+  "_x87_beqi_d": {
+    "start_address": 259468, 
+    "end_address": 259647
+  }, 
+  "_x87_sqrtr_d": {
+    "start_address": 244660, 
+    "end_address": 244851
+  }, 
+  "hash_data": {
+    "start_address": 50342, 
+    "end_address": 50444
+  }, 
+  "jit_default_free_func": {
+    "start_address": 34170, 
+    "end_address": 34197
+  }, 
+  "_ldxr_uc": {
+    "start_address": 199920, 
+    "end_address": 200062
+  }, 
+  "_sse_bger_f": {
+    "start_address": 228555, 
+    "end_address": 228630
+  }, 
+  "_ldi_l": {
+    "start_address": 199141, 
+    "end_address": 199444
+  }, 
+  "_emit_ldxi": {
+    "start_address": 261980, 
+    "end_address": 262098
+  }, 
+  "_sse_ldxr_d": {
+    "start_address": 235539, 
+    "end_address": 235612
+  }, 
+  "._jit_new_node_f": {
+    "start_address": 33184, 
+    "end_address": 33190
+  }, 
+  "_x87_bordi_f": {
+    "start_address": 250553, 
+    "end_address": 250740
+  }, 
+  "_x87_bordi_d": {
+    "start_address": 261591, 
+    "end_address": 261778
+  }, 
+  "_new_node": {
+    "start_address": 52068, 
+    "end_address": 52225
+  }, 
+  ".jit_free": {
+    "start_address": 33328, 
+    "end_address": 33334
+  }, 
+  "_movi": {
+    "start_address": 194744, 
+    "end_address": 194819
+  }, 
+  "_jit_retr": {
+    "start_address": 80466, 
+    "end_address": 80604
+  }, 
+  "._jit_realize": {
+    "start_address": 32752, 
+    "end_address": 32758
+  }, 
+  "_ldr_uc": {
+    "start_address": 196780, 
+    "end_address": 196919
+  }, 
+  "_movr": {
+    "start_address": 194373, 
+    "end_address": 194505
+  }, 
+  "_ldr_ui": {
+    "start_address": 198602, 
+    "end_address": 198720
+  }, 
+  "_ldr_i": {
+    "start_address": 198181, 
+    "end_address": 198299
+  }, 
+  "_ldr_l": {
+    "start_address": 199023, 
+    "end_address": 199141
+  }, 
+  "_sse_ungei_f": {
+    "start_address": 225499, 
+    "end_address": 225669
+  }, 
+  "._emit_code": {
+    "start_address": 32960, 
+    "end_address": 32966
+  }, 
+  "_sse_absr_d": {
+    "start_address": 221314, 
+    "end_address": 221712
+  }, 
+  "_sse_absr_f": {
+    "start_address": 220936, 
+    "end_address": 221314
+  }, 
+  "_jit_target_p": {
+    "start_address": 56903, 
+    "end_address": 56954
+  }, 
+  "_x87_addi_d": {
+    "start_address": 242158, 
+    "end_address": 242328
+  }, 
+  "_x87_addi_f": {
+    "start_address": 240882, 
+    "end_address": 241052
+  }, 
+  "_jit_reti_f": {
+    "start_address": 80847, 
+    "end_address": 80952
+  }, 
+  "_jit_reti_d": {
+    "start_address": 81090, 
+    "end_address": 81195
+  }, 
+  "_jit_pointer_p": {
+    "start_address": 49980, 
+    "end_address": 50036
+  }, 
+  "_x87_bner_d": {
+    "start_address": 260021, 
+    "end_address": 260290
+  }, 
+  "_ldr_s": {
+    "start_address": 197247, 
+    "end_address": 197386
+  }, 
+  "_jit_optimize": {
+    "start_address": 57935, 
+    "end_address": 59942
+  }, 
+  "malloc": {
+    "start_address": 2408952, 
+    "end_address": 2408960
+  }, 
+  "_bmsr": {
+    "start_address": 208233, 
+    "end_address": 208305
+  }, 
+  "_sse_movi_f": {
+    "start_address": 222886, 
+    "end_address": 223221
+  }, 
+  "_x87_addr_d": {
+    "start_address": 241736, 
+    "end_address": 242158
+  }, 
+  "_jit_realize": {
+    "start_address": 62299, 
+    "end_address": 62431
+  }, 
+  ".ffsl": {
+    "start_address": 32144, 
+    "end_address": 32150
+  }, 
+  ".fprintf": {
+    "start_address": 32640, 
+    "end_address": 32646
+  }, 
+  "_bltr": {
+    "start_address": 206556, 
+    "end_address": 206617
+  }, 
+  "_addxi": {
+    "start_address": 181140, 
+    "end_address": 181453
+  }, 
+  "_jit_get_data": {
+    "start_address": 63213, 
+    "end_address": 63294
+  }, 
+  "__do_global_ctors_aux": {
+    "start_address": 263294, 
+    "end_address": 263328
+  }, 
+  "_addxr": {
+    "start_address": 181040, 
+    "end_address": 181140
+  }, 
+  "_blti": {
+    "start_address": 206617, 
+    "end_address": 206713
+  }, 
+  ".strlen": {
+    "start_address": 32320, 
+    "end_address": 32326
+  }, 
+  "_x87_truncr_d_l": {
+    "start_address": 244958, 
+    "end_address": 245065
+  }, 
+  "_ltr": {
+    "start_address": 192914, 
+    "end_address": 192999
+  }, 
+  "_jit_new_node_wwd": {
+    "start_address": 55878, 
+    "end_address": 55986
+  }, 
+  "_jit_new_node_wwf": {
+    "start_address": 55770, 
+    "end_address": 55878
+  }, 
+  "_x87_bgti_f": {
+    "start_address": 249065, 
+    "end_address": 249252
+  }, 
+  "_x87_bgei_d": {
+    "start_address": 259647, 
+    "end_address": 259834
+  }, 
+  "_x87_unlei_f": {
+    "start_address": 247087, 
+    "end_address": 247265
+  }, 
+  "_x87_bgei_f": {
+    "start_address": 248878, 
+    "end_address": 249065
+  }, 
+  "._jit_regarg_clr": {
+    "start_address": 32736, 
+    "end_address": 32742
+  }, 
+  "_simplify_spill": {
+    "start_address": 73561, 
+    "end_address": 73716
+  }, 
+  "deregister_tm_clones": {
+    "start_address": 33352, 
+    "end_address": 33386
+  }, 
+  ".jit_init_size": {
+    "start_address": 32384, 
+    "end_address": 32390
+  }, 
+  "_jit_new_node_www": {
+    "start_address": 55550, 
+    "end_address": 55655
+  }, 
+  "_lti": {
+    "start_address": 192999, 
+    "end_address": 193086
+  }, 
+  "_jit_trampoline": {
+    "start_address": 64235, 
+    "end_address": 64476
+  }, 
+  "_epilog": {
+    "start_address": 213426, 
+    "end_address": 213846
+  }, 
+  ".jit_flush": {
+    "start_address": 32400, 
+    "end_address": 32406
+  }, 
+  "_jit_set_data": {
+    "start_address": 63294, 
+    "end_address": 63415
+  }, 
+  "_jit_link": {
+    "start_address": 56481, 
+    "end_address": 56779
+  }, 
+  "_sequential_labels": {
+    "start_address": 68063, 
+    "end_address": 68556
+  }, 
+  "_jit_get_code": {
+    "start_address": 63066, 
+    "end_address": 63156
+  }, 
+  "._jit_save": {
+    "start_address": 32816, 
+    "end_address": 32822
+  }, 
+  "_sse_uneqi_d": {
+    "start_address": 233583, 
+    "end_address": 233753
+  }, 
+  "_x87_ungti_d": {
+    "start_address": 256394, 
+    "end_address": 256572
+  }, 
+  "_x87_divi_d": {
+    "start_address": 244108, 
+    "end_address": 244278
+  }, 
+  "_x87_divi_f": {
+    "start_address": 241566, 
+    "end_address": 241736
+  }, 
+  "_x87_ldi_f": {
+    "start_address": 251662, 
+    "end_address": 251930
+  }, 
+  "_x87jcc2": {
+    "start_address": 245698, 
+    "end_address": 245857
+  }, 
+  "_ssexr": {
+    "start_address": 216594, 
+    "end_address": 216774
+  }, 
+  "jit_realloc": {
+    "start_address": 33940, 
+    "end_address": 34050
+  }, 
+  "_x87_muli_d": {
+    "start_address": 243516, 
+    "end_address": 243686
+  }, 
+  "_patch_register": {
+    "start_address": 77873, 
+    "end_address": 78143
+  }, 
+  "_sse_bltgti_d": {
+    "start_address": 239739, 
+    "end_address": 239918
+  }, 
+  "_sse_bltgti_f": {
+    "start_address": 230863, 
+    "end_address": 231042
+  }, 
+  "mmap": {
+    "start_address": 2408888, 
+    "end_address": 2408896
+  }, 
+  "_sse_subr_d": {
+    "start_address": 218473, 
+    "end_address": 218786
+  }, 
+  "_jit_link_node": {
+    "start_address": 54605, 
+    "end_address": 54643
+  }, 
+  "_jit_clear_state": {
+    "start_address": 53641, 
+    "end_address": 54346
+  }, 
+  "_x87_beqi_f": {
+    "start_address": 248699, 
+    "end_address": 248878
+  }, 
+  "_jit_pushargi": {
+    "start_address": 86055, 
+    "end_address": 86459
+  }, 
+  "realloc": {
+    "start_address": 2408968, 
+    "end_address": 2408976
+  }, 
+  "_sse_blti_d": {
+    "start_address": 236576, 
+    "end_address": 236755
+  }, 
+  "_jit_emit": {
+    "start_address": 63415, 
+    "end_address": 64155
+  }, 
+  "_sse_bunlei_f": {
+    "start_address": 229789, 
+    "end_address": 229968
+  }, 
+  "_sse_bunlei_d": {
+    "start_address": 238625, 
+    "end_address": 238804
+  }, 
+  "_simplify_movr": {
+    "start_address": 71275, 
+    "end_address": 71812
+  }, 
+  "._jit_set_note": {
+    "start_address": 33248, 
+    "end_address": 33254
+  }, 
+  "offset_insert_index": {
+    "start_address": 38435, 
+    "end_address": 38568
+  }, 
+  "_x87_gti_f": {
+    "start_address": 246561, 
+    "end_address": 246739
+  }, 
+  "._emit_stxi_d": {
+    "start_address": 32720, 
+    "end_address": 32726
+  }, 
+  "jit_init_note": {
+    "start_address": 34197, 
+    "end_address": 34204
+  }, 
+  "_x87_buneqi_f": {
+    "start_address": 249805, 
+    "end_address": 249992
+  }, 
+  "_x87_buneqi_d": {
+    "start_address": 260843, 
+    "end_address": 261030
+  }, 
+  "_simplify_movi": {
+    "start_address": 71812, 
+    "end_address": 72551
+  }, 
+  "._jit_get_reg": {
+    "start_address": 33040, 
+    "end_address": 33046
+  }, 
+  "_jit_frame": {
+    "start_address": 64155, 
+    "end_address": 64195
+  }, 
+  "_x87_mulr_d": {
+    "start_address": 243094, 
+    "end_address": 243516
+  }, 
+  "_x87_gti_d": {
+    "start_address": 255064, 
+    "end_address": 255242
+  }, 
+  "memmove": {
+    "start_address": 2408984, 
+    "end_address": 2408992
+  }, 
+  "_sse_subi_d": {
+    "start_address": 218786, 
+    "end_address": 218956
+  }, 
+  "_x87_blti_d": {
+    "start_address": 258881, 
+    "end_address": 259068
+  }, 
+  "_x87_blti_f": {
+    "start_address": 248325, 
+    "end_address": 248512
+  }, 
+  "_bxsubr_u": {
+    "start_address": 211216, 
+    "end_address": 211291
+  }, 
+  "_sse_bungei_d": {
+    "start_address": 239211, 
+    "end_address": 239390
+  }, 
+  "_sse_bungei_f": {
+    "start_address": 230355, 
+    "end_address": 230534
+  }, 
+  "jit_finish_debug": {
+    "start_address": 33570, 
+    "end_address": 33577
+  }, 
+  "line_search_index": {
+    "start_address": 38195, 
+    "end_address": 38435
+  }, 
+  "_beqi": {
+    "start_address": 207332, 
+    "end_address": 207428
+  }, 
+  "_jit_getarg_s": {
+    "start_address": 83127, 
+    "end_address": 83310
+  }, 
+  "_emit_ldxi_d": {
+    "start_address": 262211, 
+    "end_address": 262436
+  }, 
+  "_x87_ltgtr_d": {
+    "start_address": 256572, 
+    "end_address": 256657
+  }, 
+  "jit_default_alloc_func": {
+    "start_address": 34107, 
+    "end_address": 34133
+  }, 
+  "_jit_print_node": {
+    "start_address": 38934, 
+    "end_address": 47892
+  }, 
+  "_jit_getarg_i": {
+    "start_address": 83493, 
+    "end_address": 83676
+  }, 
+  "._jit_annotate": {
+    "start_address": 32704, 
+    "end_address": 32710
+  }, 
+  "_jit_getarg_l": {
+    "start_address": 83859, 
+    "end_address": 84042
+  }, 
+  "_jit_getarg_c": {
+    "start_address": 82761, 
+    "end_address": 82944
+  }, 
+  "_x87_bunlti_d": {
+    "start_address": 260469, 
+    "end_address": 260656
+  }, 
+  "_x87_bunlti_f": {
+    "start_address": 249431, 
+    "end_address": 249618
+  }, 
+  "_beqr": {
+    "start_address": 207242, 
+    "end_address": 207332
+  }, 
+  "_jit_getarg_f": {
+    "start_address": 84481, 
+    "end_address": 84664
+  }, 
+  "_jit_getarg_d": {
+    "start_address": 85098, 
+    "end_address": 85281
+  }, 
+  "_x87_bnei_d": {
+    "start_address": 260290, 
+    "end_address": 260469
+  }, 
+  "_x87_bnei_f": {
+    "start_address": 249252, 
+    "end_address": 249431
+  }, 
+  "_x87_rsbi_d": {
+    "start_address": 242920, 
+    "end_address": 243094
+  }, 
+  "_eqi": {
+    "start_address": 193513, 
+    "end_address": 193600
+  }, 
+  "_jit_allocai": {
+    "start_address": 79574, 
+    "end_address": 79900
+  }, 
+  "_jit_allocar": {
+    "start_address": 79900, 
+    "end_address": 80346
+  }, 
+  "_sse_bunler_d": {
+    "start_address": 238511, 
+    "end_address": 238625
+  }, 
+  "_sse_bunler_f": {
+    "start_address": 229685, 
+    "end_address": 229789
+  }, 
+  "jit_set_memory_functions": {
+    "start_address": 33704, 
+    "end_address": 33810
+  }, 
+  "_eqr": {
+    "start_address": 193428, 
+    "end_address": 193513
+  }, 
+  "_bgti": {
+    "start_address": 207856, 
+    "end_address": 207919
+  }, 
+  "_movsr_u": {
+    "start_address": 195388, 
+    "end_address": 195536
+  }, 
+  "init_jit": {
+    "start_address": 48018, 
+    "end_address": 48055
+  }, 
+  "._jit_link_node": {
+    "start_address": 33296, 
+    "end_address": 33302
+  }, 
+  "_sselxr": {
+    "start_address": 216975, 
+    "end_address": 217155
+  }, 
+  "_jit_prolog": {
+    "start_address": 78858, 
+    "end_address": 79574
+  }, 
+  "_sse_bunger_f": {
+    "start_address": 230251, 
+    "end_address": 230355
+  }, 
+  "_bgtr": {
+    "start_address": 207795, 
+    "end_address": 207856
+  }, 
+  "_sse_bunger_d": {
+    "start_address": 239097, 
+    "end_address": 239211
+  }, 
+  "._jit_new_node_fp": {
+    "start_address": 32848, 
+    "end_address": 32854
+  }, 
+  "_imovi": {
+    "start_address": 194505, 
+    "end_address": 194744
+  }, 
+  "_sse_bler_f": {
+    "start_address": 227989, 
+    "end_address": 228064
+  }, 
+  "strcmp": {
+    "start_address": 2408928, 
+    "end_address": 2408936
+  }, 
+  "_x87_nei_d": {
+    "start_address": 255508, 
+    "end_address": 255682
+  }, 
+  ".jit_memmove": {
+    "start_address": 33200, 
+    "end_address": 33206
+  }, 
+  "_ldxr_c": {
+    "start_address": 199444, 
+    "end_address": 199586
+  }, 
+  "_shortcut_jump": {
+    "start_address": 68556, 
+    "end_address": 68993
+  }, 
+  "_gtr": {
+    "start_address": 193944, 
+    "end_address": 194029
+  }, 
+  "_ldxr_l": {
+    "start_address": 202208, 
+    "end_address": 202329
+  }, 
+  "_ldxr_i": {
+    "start_address": 201348, 
+    "end_address": 201469
+  }, 
+  "_bxaddr": {
+    "start_address": 209531, 
+    "end_address": 209606
+  }, 
+  "_sse_ldxr_f": {
+    "start_address": 226783, 
+    "end_address": 226856
+  }, 
+  "_x87_ltgti_d": {
+    "start_address": 256657, 
+    "end_address": 256827
+  }, 
+  "_x87_ltgti_f": {
+    "start_address": 247799, 
+    "end_address": 247969
+  }, 
+  "_x87_ner_d": {
+    "start_address": 255242, 
+    "end_address": 255508
+  }, 
+  "jit_finish_size": {
+    "start_address": 48011, 
+    "end_address": 48018
+  }, 
+  "_simplify_ldxi": {
+    "start_address": 72551, 
+    "end_address": 72918
+  }, 
+  ".malloc": {
+    "start_address": 32800, 
+    "end_address": 32806
+  }, 
+  "._jit_synth_inc": {
+    "start_address": 32896, 
+    "end_address": 32902
+  }, 
+  "_ldi_ui": {
+    "start_address": 198720, 
+    "end_address": 199023
+  }, 
+  "_ldi_uc": {
+    "start_address": 196919, 
+    "end_address": 197247
+  }, 
+  "_sse_movr_f": {
+    "start_address": 222824, 
+    "end_address": 222886
+  }, 
+  "_jit_classify": {
+    "start_address": 57183, 
+    "end_address": 57658
+  }, 
+  "_bmp_set": {
+    "start_address": 52681, 
+    "end_address": 52895
+  }, 
+  "_x87_extr_d": {
+    "start_address": 245065, 
+    "end_address": 245177
+  }, 
+  "_ldi_us": {
+    "start_address": 197853, 
+    "end_address": 198181
+  }, 
+  ".init_proc": {
+    "start_address": 32024, 
+    "end_address": 32057
+  }, 
+  "_sse_divr_d": {
+    "start_address": 220453, 
+    "end_address": 220766
+  }, 
+  "_jit_pushargr_d": {
+    "start_address": 87207, 
+    "end_address": 87547
+  }, 
+  "_jit_putargr_f": {
+    "start_address": 84664, 
+    "end_address": 84853
+  }, 
+  "_jit_putargr_d": {
+    "start_address": 85281, 
+    "end_address": 85470
+  }, 
+  "_ldxi_l": {
+    "start_address": 202329, 
+    "end_address": 202638
+  }, 
+  "_note_search_index": {
+    "start_address": 37775, 
+    "end_address": 38045
+  }, 
+  "_ldxi_c": {
+    "start_address": 199586, 
+    "end_address": 199920
+  }, 
+  "reverse_jump_code": {
+    "start_address": 69300, 
+    "end_address": 70277
+  }, 
+  "_jit_prepare": {
+    "start_address": 56954, 
+    "end_address": 57090
+  }, 
+  "._jit_classify": {
+    "start_address": 33024, 
+    "end_address": 33030
+  }, 
+  "_jcr": {
+    "start_address": 206343, 
+    "end_address": 206416
+  }, 
+  "_orr": {
+    "start_address": 189816, 
+    "end_address": 189979
+  }, 
+  "new_line": {
+    "start_address": 37398, 
+    "end_address": 37775
+  }, 
+  "_vastart": {
+    "start_address": 213846, 
+    "end_address": 214444
+  }, 
+  "_load": {
+    "start_address": 179998, 
+    "end_address": 180125
+  }, 
+  "_bger_u": {
+    "start_address": 207614, 
+    "end_address": 207704
+  }, 
+  "_sse_unger_f": {
+    "start_address": 225404, 
+    "end_address": 225499
+  }, 
+  "_sse_stxi_f": {
+    "start_address": 227474, 
+    "end_address": 227735
+  }, 
+  "_sse_stxi_d": {
+    "start_address": 236230, 
+    "end_address": 236491
+  }, 
+  "_fstcwm": {
+    "start_address": 240446, 
+    "end_address": 240569
+  }, 
+  "_jit_init": {
+    "start_address": 78832, 
+    "end_address": 78858
+  }, 
+  ".memmove": {
+    "start_address": 32976, 
+    "end_address": 32982
+  }, 
+  "_sse_unger_d": {
+    "start_address": 233753, 
+    "end_address": 233848
+  }, 
+  "_simplify": {
+    "start_address": 73716, 
+    "end_address": 75819
+  }, 
+  "_jit_pushargi_d": {
+    "start_address": 87547, 
+    "end_address": 87955
+  }, 
+  "ffsl": {
+    "start_address": 2408856, 
+    "end_address": 2408864
+  }, 
+  "_jit_pushargi_f": {
+    "start_address": 86799, 
+    "end_address": 87207
+  }, 
+  "_sti_s": {
+    "start_address": 203198, 
+    "end_address": 203526
+  }, 
+  ".munmap": {
+    "start_address": 32944, 
+    "end_address": 32950
+  }, 
+  "_x87_ordi_d": {
+    "start_address": 256827, 
+    "end_address": 257005
+  }, 
+  "_ldxr_ui": {
+    "start_address": 201778, 
+    "end_address": 201899
+  }, 
+  "_x87_ordi_f": {
+    "start_address": 247969, 
+    "end_address": 248147
+  }, 
+  "_ldxr_us": {
+    "start_address": 200872, 
+    "end_address": 201014
+  }, 
+  "_x87_muli_f": {
+    "start_address": 241396, 
+    "end_address": 241566
+  }, 
+  "_sti_c": {
+    "start_address": 202756, 
+    "end_address": 203059
+  }, 
+  "_sti_l": {
+    "start_address": 204065, 
+    "end_address": 204368
+  }, 
+  "_del_label": {
+    "start_address": 52442, 
+    "end_address": 52557
+  }, 
+  "_x87_eqr_d": {
+    "start_address": 254445, 
+    "end_address": 254712
+  }, 
+  "_sti_i": {
+    "start_address": 203644, 
+    "end_address": 203947
+  }, 
+  "_ldr_us": {
+    "start_address": 197714, 
+    "end_address": 197853
+  }, 
+  "_gei_u": {
+    "start_address": 193857, 
+    "end_address": 193944
+  }, 
+  "_blei": {
+    "start_address": 206960, 
+    "end_address": 207056
+  }, 
+  "_jit_ellipsis": {
+    "start_address": 81369, 
+    "end_address": 81916
+  }, 
+  "_bler": {
+    "start_address": 206870, 
+    "end_address": 206960
+  }, 
+  "jit_memmove": {
+    "start_address": 33646, 
+    "end_address": 33704
+  }, 
+  "._jit_regarg_p": {
+    "start_address": 32672, 
+    "end_address": 32678
+  }, 
+  "_sse_bgti_f": {
+    "start_address": 228884, 
+    "end_address": 229063
+  }, 
+  "_sse_subi_f": {
+    "start_address": 218303, 
+    "end_address": 218473
+  }, 
+  "_sse_bgti_d": {
+    "start_address": 237690, 
+    "end_address": 237869
+  }, 
+  "_x87_lei_f": {
+    "start_address": 246035, 
+    "end_address": 246213
+  }, 
+  "_x87_lei_d": {
+    "start_address": 254267, 
+    "end_address": 254445
+  }, 
+  "_lea": {
+    "start_address": 178267, 
+    "end_address": 178393
+  }, 
+  "_x87_bungei_d": {
+    "start_address": 261030, 
+    "end_address": 261217
+  }, 
+  "_x87_bungei_f": {
+    "start_address": 249992, 
+    "end_address": 250179
+  }, 
+  "memcpy": {
+    "start_address": 2408944, 
+    "end_address": 2408952
+  }, 
+  "munmap": {
+    "start_address": 2408976, 
+    "end_address": 2408984
+  }, 
+  "_ler": {
+    "start_address": 193171, 
+    "end_address": 193256
+  }, 
+  "._jit_synth_dec": {
+    "start_address": 32256, 
+    "end_address": 32262
+  }, 
+  "_jit_patch": {
+    "start_address": 57090, 
+    "end_address": 57183
+  }, 
+  "__gmon_start__": {
+    "start_address": 2409032, 
+    "end_address": 2409040
+  }, 
+  "_bmsi": {
+    "start_address": 208305, 
+    "end_address": 208545
+  }, 
+  "_x87_unlti_d": {
+    "start_address": 255682, 
+    "end_address": 255860
+  }, 
+  "_x87_from_sse_d": {
+    "start_address": 263217, 
+    "end_address": 263294
+  }, 
+  "_x87_unlti_f": {
+    "start_address": 246909, 
+    "end_address": 247087
+  }, 
+  "_x87_from_sse_f": {
+    "start_address": 263140, 
+    "end_address": 263217
+  }, 
+  "_popr": {
+    "start_address": 178483, 
+    "end_address": 178573
+  }, 
+  ".free": {
+    "start_address": 32128, 
+    "end_address": 32134
+  }, 
+  "_jit_reti": {
+    "start_address": 80604, 
+    "end_address": 80709
+  }, 
+  "_ldr_c": {
+    "start_address": 196313, 
+    "end_address": 196452
+  }, 
+  "._jit_label": {
+    "start_address": 32224, 
+    "end_address": 32230
+  }
+}

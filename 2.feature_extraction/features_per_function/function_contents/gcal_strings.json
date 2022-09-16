@@ -1,0 +1,6805 @@
+{
+  "gcal/gcal-4.1/build-aux/snippet/arg-nonnull.h": {},
+  "gcal/gcal-4.1/build-aux/snippet/c++defs.h": {},
+  "gcal/gcal-4.1/build-aux/snippet/unused-parameter.h": {},
+  "gcal/gcal-4.1/build-aux/snippet/warn-on-use.h": {},
+  "gcal/gcal-4.1/build-aux/snippet/_Noreturn.h": {},
+  "gcal/gcal-4.1/lib/alloca.c": {
+    "find_stack_direction": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "alloca": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": []
+    },
+    "i00afunc": [
+      {
+        "start_point": [
+          328,
+          0
+        ],
+        "end_point": [
+          393,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          402,
+          0
+        ],
+        "end_point": [
+          471,
+          1
+        ],
+        "strings": [
+          "\"%011o %011o %011o\\n\"",
+          "\"%011o %011o\\n\""
+        ]
+      }
+    ]
+  },
+  "gcal/gcal-4.1/lib/alloca.in.h": {},
+  "gcal/gcal-4.1/lib/basename-lgpl.c": {
+    "last_component": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "base_len": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/binary-io.c": {},
+  "gcal/gcal-4.1/lib/binary-io.h": {
+    "set_binary_mode": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/btowc.c": {
+    "btowc": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/ceil.c": {
+    "FUNC": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/cloexec.c": {
+    "set_cloexec_flag": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    },
+    "dup_cloexec": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/cloexec.h": {},
+  "gcal/gcal-4.1/lib/close.c": {
+    "close_nothrow": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        37,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_close": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/dirname-lgpl.c": {
+    "dir_len": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "mdir_name": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/dirname.h": {},
+  "gcal/gcal-4.1/lib/dosname.h": {},
+  "gcal/gcal-4.1/lib/dup-safer-flag.c": {
+    "dup_safer_flag": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/dup-safer.c": {
+    "dup_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/dup2.c": {
+    "ms_windows_dup2": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        71,
+        5
+      ],
+      "strings": []
+    },
+    "klibc_dup2dirfd": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": [
+        "\"NUL\""
+      ]
+    },
+    "klibc_dup2": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_dup2": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        170,
+        1
+      ],
+      "strings": []
+    },
+    "dupfd": {
+      "start_point": [
+        177,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": []
+    },
+    "dup2": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/errno.in.h": {},
+  "gcal/gcal-4.1/lib/error.c": {
+    "is_open": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "flush_stdout": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    },
+    "print_errno_message": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\"",
+        "\": %s\"",
+        "\": %s\""
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        201,
+        42
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": [
+        "L\"out of memory\\n\"",
+        "L\"???\"",
+        "\"\\n\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        327,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"%s: \""
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        333,
+        0
+      ],
+      "end_point": [
+        397,
+        1
+      ],
+      "strings": [
+        "\"%s:\"",
+        "\"%s:\"",
+        "\"%s:%u: \"",
+        "\" \"",
+        "\"%s:%u: \"",
+        "\" \""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/error.h": {},
+  "gcal/gcal-4.1/lib/exitfail.c": {},
+  "gcal/gcal-4.1/lib/exitfail.h": {},
+  "gcal/gcal-4.1/lib/fatal-signal.c": {
+    "init_fatal_signals": {
+      "start_point": [
+        84,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "uninstall_handlers": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "fatal_signal_handler": {
+      "start_point": [
+        150,
+        0
+      ],
+      "end_point": [
+        174,
+        1
+      ],
+      "strings": []
+    },
+    "install_handlers": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        199,
+        1
+      ],
+      "strings": []
+    },
+    "at_fatal_signal": {
+      "start_point": [
+        204,
+        0
+      ],
+      "end_point": [
+        244,
+        1
+      ],
+      "strings": []
+    },
+    "init_fatal_signal_set": {
+      "start_point": [
+        252,
+        0
+      ],
+      "end_point": [
+        269,
+        1
+      ],
+      "strings": []
+    },
+    "block_fatal_signals": {
+      "start_point": [
+        272,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": []
+    },
+    "unblock_fatal_signals": {
+      "start_point": [
+        280,
+        0
+      ],
+      "end_point": [
+        285,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fatal-signal.h": {},
+  "gcal/gcal-4.1/lib/fclose.c": {
+    "fclose_nothrow": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        38,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_fclose": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fcntl.c": {
+    "dupfd": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        161,
+        1
+      ],
+      "strings": []
+    },
+    "klibc_fcntl": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        246,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_fcntl": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        413,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fcntl.in.h": {},
+  "gcal/gcal-4.1/lib/fd-hook.c": {
+    "execute_close_hooks": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "execute_all_close_hooks": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "execute_ioctl_hooks": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "execute_all_ioctl_hooks": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "register_fd_hook": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "unregister_fd_hook": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fd-hook.h": {},
+  "gcal/gcal-4.1/lib/fd-safer-flag.c": {
+    "fd_safer_flag": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fd-safer.c": {
+    "fd_safer": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fflush.c": {
+    "clear_ungetc_buffer_preserving_position": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "clear_ungetc_buffer": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "disable_seek_optimization": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    },
+    "restore_seek_optimization": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": []
+    },
+    "update_fpos_cache": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        119,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_fflush": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        228,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/filename.h": {},
+  "gcal/gcal-4.1/lib/float.c": {},
+  "gcal/gcal-4.1/lib/float.in.h": {},
+  "gcal/gcal-4.1/lib/floor.c": {
+    "FUNC": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fopen.c": {
+    "orig_fopen": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_fopen": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": [
+        "\"/dev/null\"",
+        "\"NUL\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/fpurge.c": {
+    "fpurge": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/freading.c": {
+    "freading": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/freading.h": {},
+  "gcal/gcal-4.1/lib/free.c": {
+    "rpl_free": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fseek.c": {
+    "fseek": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/fseeko.c": {},
+  "gcal/gcal-4.1/lib/fstat.c": {
+    "orig_fstat": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "fstat_nothrow": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        61,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_fstat": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/ftell.c": {
+    "ftell": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/ftello.c": {},
+  "gcal/gcal-4.1/lib/getdtablesize.c": {
+    "_setmaxstdio_nothrow": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        37,
+        5
+      ],
+      "strings": []
+    },
+    "getdtablesize": [
+      {
+        "start_point": [
+          53,
+          0
+        ],
+        "end_point": [
+          84,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          105,
+          0
+        ],
+        "end_point": [
+          118,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "gcal/gcal-4.1/lib/getprogname.c": {
+    "getprogname": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "strings": [
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"/proc/pinfo/%d\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/getprogname.h": {},
+  "gcal/gcal-4.1/lib/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        165,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        255,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/gettimeofday.c": {
+    "rpl_localtime": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_gmtime": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_tzset": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "gettimeofday": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/gl_list.c": {},
+  "gcal/gcal-4.1/lib/gl_list.h": {
+    "gl_list_nx_create_empty": {
+      "start_point": [
+        554,
+        0
+      ],
+      "end_point": [
+        564,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_nx_create": {
+      "start_point": [
+        566,
+        0
+      ],
+      "end_point": [
+        577,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_size": {
+      "start_point": [
+        579,
+        0
+      ],
+      "end_point": [
+        584,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_node_value": {
+      "start_point": [
+        586,
+        0
+      ],
+      "end_point": [
+        591,
+        1
+      ],
+      "strings": []
+    },
+    "__warn_unused_result__": [
+      {
+        "start_point": [
+          598,
+          33
+        ],
+        "end_point": [
+          602,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          629,
+          58
+        ],
+        "end_point": [
+          633,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          687,
+          44
+        ],
+        "end_point": [
+          691,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          697,
+          43
+        ],
+        "end_point": [
+          701,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          707,
+          66
+        ],
+        "end_point": [
+          711,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          717,
+          65
+        ],
+        "end_point": [
+          721,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          727,
+          58
+        ],
+        "end_point": [
+          731,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          821,
+          77
+        ],
+        "end_point": [
+          825,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_list_next_node": {
+      "start_point": [
+        604,
+        0
+      ],
+      "end_point": [
+        609,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_previous_node": {
+      "start_point": [
+        611,
+        0
+      ],
+      "end_point": [
+        616,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_get_at": {
+      "start_point": [
+        618,
+        0
+      ],
+      "end_point": [
+        623,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_search": {
+      "start_point": [
+        635,
+        0
+      ],
+      "end_point": [
+        641,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_search_from": {
+      "start_point": [
+        643,
+        0
+      ],
+      "end_point": [
+        649,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_search_from_to": {
+      "start_point": [
+        651,
+        0
+      ],
+      "end_point": [
+        657,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_indexof": {
+      "start_point": [
+        659,
+        0
+      ],
+      "end_point": [
+        665,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_indexof_from": {
+      "start_point": [
+        667,
+        0
+      ],
+      "end_point": [
+        673,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_indexof_from_to": {
+      "start_point": [
+        675,
+        0
+      ],
+      "end_point": [
+        681,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_remove_node": {
+      "start_point": [
+        733,
+        0
+      ],
+      "end_point": [
+        738,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_remove_at": {
+      "start_point": [
+        740,
+        0
+      ],
+      "end_point": [
+        745,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_remove": {
+      "start_point": [
+        747,
+        0
+      ],
+      "end_point": [
+        752,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_free": {
+      "start_point": [
+        754,
+        0
+      ],
+      "end_point": [
+        758,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_iterator": {
+      "start_point": [
+        760,
+        0
+      ],
+      "end_point": [
+        765,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_iterator_from_to": {
+      "start_point": [
+        767,
+        0
+      ],
+      "end_point": [
+        772,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_iterator_next": {
+      "start_point": [
+        774,
+        0
+      ],
+      "end_point": [
+        779,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_iterator_free": {
+      "start_point": [
+        781,
+        0
+      ],
+      "end_point": [
+        785,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_search": {
+      "start_point": [
+        787,
+        0
+      ],
+      "end_point": [
+        792,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_search_from_to": {
+      "start_point": [
+        794,
+        0
+      ],
+      "end_point": [
+        800,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_indexof": {
+      "start_point": [
+        802,
+        0
+      ],
+      "end_point": [
+        807,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_indexof_from_to": {
+      "start_point": [
+        809,
+        0
+      ],
+      "end_point": [
+        815,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_remove": {
+      "start_point": [
+        827,
+        0
+      ],
+      "end_point": [
+        832,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/hard-locale.c": {
+    "hard_locale": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": [
+        "\"C\"",
+        "\"POSIX\"",
+        "\"C\"",
+        "\"POSIX\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/hard-locale.h": {},
+  "gcal/gcal-4.1/lib/iconv.in.h": {},
+  "gcal/gcal-4.1/lib/intprops.h": {},
+  "gcal/gcal-4.1/lib/ioctl.c": {
+    "rpl_ioctl": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "primary_ioctl": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    },
+    "ioctl": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/itold.c": {
+    "_Qp_itoq": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/langinfo.in.h": {},
+  "gcal/gcal-4.1/lib/limits.in.h": {},
+  "gcal/gcal-4.1/lib/link.c": {
+    "initialize": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": [
+        "\"kernel32.dll\"",
+        "\"CreateHardLinkA\""
+      ]
+    },
+    "link": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_link": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/localcharset.c": {
+    "get_charset_aliases": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        380,
+        1
+      ],
+      "strings": [
+        "\"charset.alias\"",
+        "\"CHARSETALIASDIR\"",
+        "\"\"",
+        "\"\"",
+        "\"r\"",
+        "\"\"",
+        "\"%50s %50s\"",
+        "\"\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-4\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"ISO8859-13\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"ISO8859-15\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"eucCN\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucKR\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"Big5\"",
+        "\"\\0\"",
+        "\"BIG5\"",
+        "\"\\0\"",
+        "\"Big5HKSCS\"",
+        "\"\\0\"",
+        "\"BIG5-HKSCS\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"*\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-8\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"DECKANJI\"",
+        "\"\\0\"",
+        "\"DEC-KANJI\"",
+        "\"\\0\"",
+        "\"SDECKANJI\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucTW\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"DECHANYU\"",
+        "\"\\0\"",
+        "\"DEC-HANYU\"",
+        "\"\\0\"",
+        "\"DECHANZI\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"DECKOREAN\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP936\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP1361\"",
+        "\"\\0\"",
+        "\"JOHAB\"",
+        "\"\\0\"",
+        "\"CP20127\"",
+        "\"\\0\"",
+        "\"ASCII\"",
+        "\"\\0\"",
+        "\"CP20866\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP20936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP21866\"",
+        "\"\\0\"",
+        "\"KOI8-RU\"",
+        "\"\\0\"",
+        "\"CP28591\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP28592\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP28593\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP28594\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP28595\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP28596\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP28597\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP28598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP28599\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP28605\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP38598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP51932\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP51936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP51949\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP51950\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP54936\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"CP65001\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP813\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP878\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP819\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP912\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP913\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP914\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP915\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP916\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP920\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP921\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"CP923\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP954\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP964\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP970\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP1089\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP1208\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP1381\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP1386\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP3372\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\""
+      ]
+    },
+    "locale_charset": {
+      "start_point": [
+        391,
+        0
+      ],
+      "end_point": [
+        612,
+        1
+      ],
+      "strings": [
+        "\"US-ASCII\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%s\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"C\"",
+        "\"POSIX\"",
+        "\"\"",
+        "\"\"",
+        "\"CP%u\"",
+        "\"\"",
+        "\"ASCII\"",
+        "\"UTF-8\"",
+        "\"ASCII\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/localcharset.h": {},
+  "gcal/gcal-4.1/lib/locale.in.h": {},
+  "gcal/gcal-4.1/lib/localeconv.c": {
+    "localeconv": [
+      {
+        "start_point": [
+          26,
+          0
+        ],
+        "end_point": [
+          60,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          68,
+          0
+        ],
+        "end_point": [
+          100,
+          1
+        ],
+        "strings": [
+          "\".\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\""
+        ]
+      }
+    ]
+  },
+  "gcal/gcal-4.1/lib/log.c": {},
+  "gcal/gcal-4.1/lib/log10.c": {},
+  "gcal/gcal-4.1/lib/lseek.c": {
+    "rpl_lseek": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/lstat.c": {
+    "orig_lstat": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_lstat": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/math.c": {},
+  "gcal/gcal-4.1/lib/math.in.h": {
+    "float": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/mbrtowc.c": {
+    "mbrtowc": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        325,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"UTF-8\"",
+        "\"EUC-JP\"",
+        "\"EUC-KR\"",
+        "\"GB2312\"",
+        "\"BIG5\"",
+        "\"EUC-TW\"",
+        "\"GB18030\"",
+        "\"SJIS\""
+      ]
+    },
+    "rpl_mbrtowc": {
+      "start_point": [
+        332,
+        0
+      ],
+      "end_point": [
+        404,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/mbsinit.c": {
+    "mbsinit": [
+      {
+        "start_point": [
+          28,
+          0
+        ],
+        "end_point": [
+          32,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          52,
+          0
+        ],
+        "end_point": [
+          58,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "gcal/gcal-4.1/lib/mbtowc-impl.h": {
+    "mbtowc": {
+      "start_point": [
+        21,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/mbtowc.c": {},
+  "gcal/gcal-4.1/lib/memchr.c": {
+    "__memchr": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/mkostemp.c": {
+    "mkostemp": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/msvc-inval.h": {},
+  "gcal/gcal-4.1/lib/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/msvc-nothrow.h": {},
+  "gcal/gcal-4.1/lib/nl_langinfo.c": {
+    "ctype_codeset": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": [
+        "\"%u\"",
+        "\"CP\""
+      ]
+    },
+    "rpl_nl_langinfo": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": [
+        "\"%I:%M:%S %p\"",
+        "\"\"",
+        "\"\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\"",
+        "\"^[yY]\"",
+        "\"^[nN]\""
+      ]
+    },
+    "nl_langinfo": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        318,
+        1
+      ],
+      "strings": [
+        "\"UTF-8\"",
+        "\"ISO-8859-1\"",
+        "\"%a %b %e %H:%M:%S %Y\"",
+        "\"%m/%d/%y\"",
+        "\"%H:%M:%S\"",
+        "\"%I:%M:%S %p\"",
+        "\"%p\"",
+        "\"AM\"",
+        "\"%p\"",
+        "\"PM\"",
+        "\"Wednesday\"",
+        "\"Sunday\"",
+        "\"Monday\"",
+        "\"Tuesday\"",
+        "\"Wednesday\"",
+        "\"Thursday\"",
+        "\"Friday\"",
+        "\"Saturday\"",
+        "\"%A\"",
+        "\"Sun\"",
+        "\"Sun\"",
+        "\"Mon\"",
+        "\"Tue\"",
+        "\"Wed\"",
+        "\"Thu\"",
+        "\"Fri\"",
+        "\"Sat\"",
+        "\"%a\"",
+        "\"September\"",
+        "\"January\"",
+        "\"February\"",
+        "\"March\"",
+        "\"April\"",
+        "\"May\"",
+        "\"June\"",
+        "\"July\"",
+        "\"September\"",
+        "\"October\"",
+        "\"November\"",
+        "\"December\"",
+        "\"%B\"",
+        "\"Jan\"",
+        "\"Jan\"",
+        "\"Feb\"",
+        "\"Mar\"",
+        "\"Apr\"",
+        "\"May\"",
+        "\"Jun\"",
+        "\"Jul\"",
+        "\"Sep\"",
+        "\"Oct\"",
+        "\"Nov\"",
+        "\"Dec\"",
+        "\"%b\"",
+        "\"\"",
+        "\"\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\"",
+        "\"^[yY]\"",
+        "\"^[nN]\"",
+        "\"\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/open.c": {
+    "orig_open": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    },
+    "open": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": [
+        "\"/dev/null\"",
+        "\"NUL\"",
+        "\"/dev/null\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/pathmax.h": {},
+  "gcal/gcal-4.1/lib/perror.c": {
+    "perror": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": [
+        "\"%s: %s\\n\"",
+        "\"%s\\n\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/pipe-safer.c": {
+    "pipe_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/pipe.h": {},
+  "gcal/gcal-4.1/lib/pipe2-safer.c": {
+    "pipe2_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/pipe2.c": {
+    "pipe2": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/putenv.c": {
+    "_unsetenv": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    },
+    "putenv": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        193,
+        1
+      ],
+      "strings": [
+        "\"= \"",
+        "\"\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/raise.c": {
+    "raise_nothrow": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        42,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_raise": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/rawmemchr.c": {
+    "rawmemchr": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/realloc.c": {
+    "rpl_realloc": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/regcomp.c": {
+    "re_compile_pattern": {
+      "start_point": [
+        215,
+        0
+      ],
+      "end_point": [
+        234,
+        1
+      ],
+      "strings": []
+    },
+    "re_set_syntax": {
+      "start_point": [
+        254,
+        0
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "strings": []
+    },
+    "re_compile_fastmap": {
+      "start_point": [
+        266,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": []
+    },
+    "re_set_fastmap": {
+      "start_point": [
+        287,
+        0
+      ],
+      "end_point": [
+        294,
+        1
+      ],
+      "strings": []
+    },
+    "re_compile_fastmap_iter": {
+      "start_point": [
+        299,
+        0
+      ],
+      "end_point": [
+        427,
+        1
+      ],
+      "strings": []
+    },
+    "regcomp": {
+      "start_point": [
+        465,
+        0
+      ],
+      "end_point": [
+        516,
+        1
+      ],
+      "strings": []
+    },
+    "regerror": {
+      "start_point": [
+        524,
+        0
+      ],
+      "end_point": [
+        556,
+        1
+      ],
+      "strings": []
+    },
+    "free_dfa_content": {
+      "start_point": [
+        591,
+        0
+      ],
+      "end_point": [
+        636,
+        1
+      ],
+      "strings": []
+    },
+    "regfree": {
+      "start_point": [
+        641,
+        0
+      ],
+      "end_point": [
+        658,
+        1
+      ],
+      "strings": []
+    },
+    "re_comp": {
+      "start_point": [
+        676,
+        0
+      ],
+      "end_point": [
+        720,
+        1
+      ],
+      "strings": [
+        "\"No previous regular expression\""
+      ]
+    },
+    "free_mem": {
+      "start_point": [
+        723,
+        0
+      ],
+      "end_point": [
+        726,
+        1
+      ],
+      "strings": []
+    },
+    "re_compile_internal": {
+      "start_point": [
+        735,
+        0
+      ],
+      "end_point": [
+        831,
+        1
+      ],
+      "strings": []
+    },
+    "init_dfa": {
+      "start_point": [
+        836,
+        0
+      ],
+      "end_point": [
+        930,
+        1
+      ],
+      "strings": [
+        "\"UTF-8\"",
+        "\"8\""
+      ]
+    },
+    "init_word_char": {
+      "start_point": [
+        936,
+        0
+      ],
+      "end_point": [
+        980,
+        1
+      ],
+      "strings": []
+    },
+    "free_workarea_compile": {
+      "start_point": [
+        984,
+        0
+      ],
+      "end_point": [
+        999,
+        1
+      ],
+      "strings": []
+    },
+    "create_initial_state": {
+      "start_point": [
+        1003,
+        0
+      ],
+      "end_point": [
+        1081,
+        1
+      ],
+      "strings": []
+    },
+    "optimize_utf8": {
+      "start_point": [
+        1088,
+        0
+      ],
+      "end_point": [
+        1162,
+        1
+      ],
+      "strings": []
+    },
+    "analyze": {
+      "start_point": [
+        1168,
+        0
+      ],
+      "end_point": [
+        1226,
+        1
+      ],
+      "strings": []
+    },
+    "postorder": {
+      "start_point": [
+        1231,
+        0
+      ],
+      "end_point": [
+        1261,
+        1
+      ],
+      "strings": []
+    },
+    "preorder": {
+      "start_point": [
+        1263,
+        0
+      ],
+      "end_point": [
+        1291,
+        1
+      ],
+      "strings": []
+    },
+    "optimize_subexps": {
+      "start_point": [
+        1296,
+        0
+      ],
+      "end_point": [
+        1323,
+        1
+      ],
+      "strings": []
+    },
+    "lower_subexps": {
+      "start_point": [
+        1327,
+        0
+      ],
+      "end_point": [
+        1347,
+        1
+      ],
+      "strings": []
+    },
+    "lower_subexp": {
+      "start_point": [
+        1349,
+        0
+      ],
+      "end_point": [
+        1382,
+        1
+      ],
+      "strings": []
+    },
+    "calc_first": {
+      "start_point": [
+        1386,
+        0
+      ],
+      "end_point": [
+        1405,
+        1
+      ],
+      "strings": []
+    },
+    "calc_next": {
+      "start_point": [
+        1408,
+        0
+      ],
+      "end_point": [
+        1428,
+        1
+      ],
+      "strings": []
+    },
+    "link_nfa_nodes": {
+      "start_point": [
+        1431,
+        0
+      ],
+      "end_point": [
+        1485,
+        1
+      ],
+      "strings": []
+    },
+    "duplicate_node_closure": {
+      "start_point": [
+        1491,
+        0
+      ],
+      "end_point": [
+        1594,
+        1
+      ],
+      "strings": []
+    },
+    "search_duplicated_node": {
+      "start_point": [
+        1599,
+        0
+      ],
+      "end_point": [
+        1611,
+        1
+      ],
+      "strings": []
+    },
+    "duplicate_node": {
+      "start_point": [
+        1617,
+        0
+      ],
+      "end_point": [
+        1631,
+        1
+      ],
+      "strings": []
+    },
+    "calc_inveclosure": {
+      "start_point": [
+        1633,
+        0
+      ],
+      "end_point": [
+        1653,
+        1
+      ],
+      "strings": []
+    },
+    "calc_eclosure": {
+      "start_point": [
+        1657,
+        0
+      ],
+      "end_point": [
+        1698,
+        1
+      ],
+      "strings": []
+    },
+    "calc_eclosure_iter": {
+      "start_point": [
+        1702,
+        0
+      ],
+      "end_point": [
+        1776,
+        1
+      ],
+      "strings": []
+    },
+    "fetch_token": {
+      "start_point": [
+        1783,
+        0
+      ],
+      "end_point": [
+        1788,
+        1
+      ],
+      "strings": []
+    },
+    "internal_function": {
+      "start_point": [
+        1793,
+        0
+      ],
+      "end_point": [
+        2027,
+        1
+      ],
+      "strings": []
+    },
+    "peek_token_bracket": {
+      "start_point": [
+        2032,
+        0
+      ],
+      "end_point": [
+        2113,
+        1
+      ],
+      "strings": []
+    },
+    "parse": {
+      "start_point": [
+        2129,
+        0
+      ],
+      "end_point": [
+        2152,
+        1
+      ],
+      "strings": []
+    },
+    "parse_reg_exp": {
+      "start_point": [
+        2163,
+        0
+      ],
+      "end_point": [
+        2201,
+        1
+      ],
+      "strings": []
+    },
+    "parse_branch": {
+      "start_point": [
+        2212,
+        0
+      ],
+      "end_point": [
+        2249,
+        1
+      ],
+      "strings": []
+    },
+    "parse_expression": {
+      "start_point": [
+        2257,
+        0
+      ],
+      "end_point": [
+        2472,
+        1
+      ],
+      "strings": [
+        "\"alnum\"",
+        "\"_\"",
+        "\"space\"",
+        "\"\""
+      ]
+    },
+    "parse_sub_exp": {
+      "start_point": [
+        2481,
+        0
+      ],
+      "end_point": [
+        2519,
+        1
+      ],
+      "strings": []
+    },
+    "parse_dup_op": {
+      "start_point": [
+        2523,
+        0
+      ],
+      "end_point": [
+        2667,
+        1
+      ],
+      "strings": []
+    },
+    "parse_byte": {
+      "start_point": [
+        2679,
+        0
+      ],
+      "end_point": [
+        2684,
+        1
+      ],
+      "strings": []
+    },
+    "start_elem": {
+      "start_point": [
+        2707,
+        23
+      ],
+      "end_point": [
+        2810,
+        1
+      ],
+      "strings": []
+    },
+    "parse_bracket_exp": {
+      "start_point": [
+        2843,
+        0
+      ],
+      "end_point": [
+        3388,
+        1
+      ],
+      "strings": []
+    },
+    "seek_collating_symbol_entry": {
+      "start_point": [
+        2860,
+        2
+      ],
+      "end_point": [
+        2880,
+        5
+      ],
+      "strings": []
+    },
+    "lookup_collation_sequence_value": {
+      "start_point": [
+        2886,
+        2
+      ],
+      "end_point": [
+        2945,
+        5
+      ],
+      "strings": []
+    },
+    "build_range_exp": {
+      "start_point": [
+        2954,
+        2
+      ],
+      "end_point": [
+        3027,
+        5
+      ],
+      "strings": []
+    },
+    "build_collating_symbol": {
+      "start_point": [
+        3035,
+        2
+      ],
+      "end_point": [
+        3091,
+        5
+      ],
+      "strings": []
+    },
+    "parse_bracket_element": {
+      "start_point": [
+        3392,
+        0
+      ],
+      "end_point": [
+        3426,
+        1
+      ],
+      "strings": []
+    },
+    "parse_bracket_symbol": {
+      "start_point": [
+        3432,
+        0
+      ],
+      "end_point": [
+        3471,
+        1
+      ],
+      "strings": []
+    },
+    "build_charclass": {
+      "start_point": [
+        3579,
+        9
+      ],
+      "end_point": [
+        3653,
+        1
+      ],
+      "strings": [
+        "\"upper\"",
+        "\"lower\"",
+        "\"alpha\"",
+        "\"alnum\"",
+        "\"cntrl\"",
+        "\"lower\"",
+        "\"space\"",
+        "\"alpha\"",
+        "\"digit\"",
+        "\"print\"",
+        "\"upper\"",
+        "\"blank\"",
+        "\"graph\"",
+        "\"punct\"",
+        "\"xdigit\""
+      ]
+    },
+    "build_charclass_op": {
+      "start_point": [
+        3655,
+        0
+      ],
+      "end_point": [
+        3759,
+        1
+      ],
+      "strings": []
+    },
+    "fetch_number": {
+      "start_point": [
+        3767,
+        0
+      ],
+      "end_point": [
+        3787,
+        1
+      ],
+      "strings": []
+    },
+    "free_charset": {
+      "start_point": [
+        3790,
+        0
+      ],
+      "end_point": [
+        3802,
+        1
+      ],
+      "strings": []
+    },
+    "create_tree": {
+      "start_point": [
+        3809,
+        0
+      ],
+      "end_point": [
+        3819,
+        1
+      ],
+      "strings": []
+    },
+    "create_token_tree": {
+      "start_point": [
+        3821,
+        0
+      ],
+      "end_point": [
+        3853,
+        1
+      ],
+      "strings": []
+    },
+    "mark_opt_subexp": {
+      "start_point": [
+        3858,
+        0
+      ],
+      "end_point": [
+        3866,
+        1
+      ],
+      "strings": []
+    },
+    "free_token": {
+      "start_point": [
+        3870,
+        0
+      ],
+      "end_point": [
+        3880,
+        1
+      ],
+      "strings": []
+    },
+    "free_tree": {
+      "start_point": [
+        3885,
+        0
+      ],
+      "end_point": [
+        3890,
+        1
+      ],
+      "strings": []
+    },
+    "duplicate_tree": {
+      "start_point": [
+        3898,
+        0
+      ],
+      "end_point": [
+        3936,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/regex.c": {},
+  "gcal/gcal-4.1/lib/regex.h": {},
+  "gcal/gcal-4.1/lib/regexec.c": {
+    "regexec": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        251,
+        1
+      ],
+      "strings": []
+    },
+    "__compat_regexec": {
+      "start_point": [
+        260,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": []
+    },
+    "re_match": {
+      "start_point": [
+        302,
+        0
+      ],
+      "end_point": [
+        307,
+        1
+      ],
+      "strings": []
+    },
+    "re_search": {
+      "start_point": [
+        312,
+        0
+      ],
+      "end_point": [
+        318,
+        1
+      ],
+      "strings": []
+    },
+    "re_match_2": {
+      "start_point": [
+        323,
+        0
+      ],
+      "end_point": [
+        330,
+        1
+      ],
+      "strings": []
+    },
+    "re_search_2": {
+      "start_point": [
+        335,
+        0
+      ],
+      "end_point": [
+        342,
+        1
+      ],
+      "strings": []
+    },
+    "re_search_2_stub": {
+      "start_point": [
+        347,
+        0
+      ],
+      "end_point": [
+        389,
+        1
+      ],
+      "strings": []
+    },
+    "re_search_stub": {
+      "start_point": [
+        396,
+        0
+      ],
+      "end_point": [
+        484,
+        1
+      ],
+      "strings": []
+    },
+    "re_copy_regs": {
+      "start_point": [
+        486,
+        0
+      ],
+      "end_point": [
+        550,
+        1
+      ],
+      "strings": []
+    },
+    "re_set_registers": {
+      "start_point": [
+        565,
+        0
+      ],
+      "end_point": [
+        582,
+        1
+      ],
+      "strings": []
+    },
+    "re_exec": {
+      "start_point": [
+        593,
+        0
+      ],
+      "end_point": [
+        598,
+        1
+      ],
+      "strings": []
+    },
+    "re_search_internal": {
+      "start_point": [
+        613,
+        33
+      ],
+      "end_point": [
+        944,
+        1
+      ],
+      "strings": []
+    },
+    "prune_impossible_nodes": {
+      "start_point": [
+        947,
+        18
+      ],
+      "end_point": [
+        1036,
+        1
+      ],
+      "strings": []
+    },
+    "acquire_init_state_context": {
+      "start_point": [
+        1043,
+        32
+      ],
+      "end_point": [
+        1073,
+        1
+      ],
+      "strings": []
+    },
+    "check_matching": {
+      "start_point": [
+        1085,
+        18
+      ],
+      "end_point": [
+        1213,
+        1
+      ],
+      "strings": []
+    },
+    "check_halt_node_context": {
+      "start_point": [
+        1217,
+        0
+      ],
+      "end_point": [
+        1230,
+        1
+      ],
+      "strings": []
+    },
+    "check_halt_state_context": {
+      "start_point": [
+        1236,
+        0
+      ],
+      "end_point": [
+        1251,
+        1
+      ],
+      "strings": []
+    },
+    "proceed_next_node": {
+      "start_point": [
+        1258,
+        0
+      ],
+      "end_point": [
+        1358,
+        1
+      ],
+      "strings": []
+    },
+    "push_fail_stack": {
+      "start_point": [
+        1361,
+        18
+      ],
+      "end_point": [
+        1385,
+        1
+      ],
+      "strings": []
+    },
+    "pop_fail_stack": {
+      "start_point": [
+        1387,
+        0
+      ],
+      "end_point": [
+        1400,
+        1
+      ],
+      "strings": []
+    },
+    "set_regs": {
+      "start_point": [
+        1408,
+        18
+      ],
+      "end_point": [
+        1512,
+        1
+      ],
+      "strings": []
+    },
+    "free_fail_stack_return": {
+      "start_point": [
+        1514,
+        0
+      ],
+      "end_point": [
+        1529,
+        1
+      ],
+      "strings": []
+    },
+    "update_regs": {
+      "start_point": [
+        1531,
+        0
+      ],
+      "end_point": [
+        1578,
+        1
+      ],
+      "strings": []
+    },
+    "sift_states_backward": {
+      "start_point": [
+        1603,
+        0
+      ],
+      "end_point": [
+        1659,
+        1
+      ],
+      "strings": []
+    },
+    "build_sifted_states": {
+      "start_point": [
+        1662,
+        18
+      ],
+      "end_point": [
+        1719,
+        1
+      ],
+      "strings": []
+    },
+    "clean_state_log_if_needed": {
+      "start_point": [
+        1723,
+        0
+      ],
+      "end_point": [
+        1747,
+        1
+      ],
+      "strings": []
+    },
+    "merge_state_array": {
+      "start_point": [
+        1749,
+        0
+      ],
+      "end_point": [
+        1774,
+        1
+      ],
+      "strings": []
+    },
+    "update_cur_sifted_state": {
+      "start_point": [
+        1776,
+        0
+      ],
+      "end_point": [
+        1822,
+        1
+      ],
+      "strings": []
+    },
+    "add_epsilon_src_nodes": {
+      "start_point": [
+        1825,
+        18
+      ],
+      "end_point": [
+        1851,
+        1
+      ],
+      "strings": []
+    },
+    "sub_epsilon_src_nodes": {
+      "start_point": [
+        1853,
+        0
+      ],
+      "end_point": [
+        1900,
+        1
+      ],
+      "strings": []
+    },
+    "check_dst_limits": {
+      "start_point": [
+        1902,
+        0
+      ],
+      "end_point": [
+        1936,
+        1
+      ],
+      "strings": []
+    },
+    "check_dst_limits_calc_pos_1": {
+      "start_point": [
+        1938,
+        0
+      ],
+      "end_point": [
+        2018,
+        1
+      ],
+      "strings": []
+    },
+    "check_dst_limits_calc_pos": {
+      "start_point": [
+        2020,
+        0
+      ],
+      "end_point": [
+        2045,
+        1
+      ],
+      "strings": []
+    },
+    "check_subexp_limits": {
+      "start_point": [
+        2050,
+        0
+      ],
+      "end_point": [
+        2136,
+        1
+      ],
+      "strings": []
+    },
+    "sift_states_bkref": {
+      "start_point": [
+        2139,
+        18
+      ],
+      "end_point": [
+        2234,
+        1
+      ],
+      "strings": []
+    },
+    "sift_states_iter_mb": {
+      "start_point": [
+        2238,
+        0
+      ],
+      "end_point": [
+        2257,
+        1
+      ],
+      "strings": []
+    },
+    "transit_state": {
+      "start_point": [
+        2269,
+        18
+      ],
+      "end_point": [
+        2323,
+        1
+      ],
+      "strings": []
+    },
+    "merge_state_with_log": {
+      "start_point": [
+        2326,
+        0
+      ],
+      "end_point": [
+        2400,
+        1
+      ],
+      "strings": []
+    },
+    "find_recover_state": {
+      "start_point": [
+        2405,
+        0
+      ],
+      "end_point": [
+        2427,
+        1
+      ],
+      "strings": []
+    },
+    "check_subexp_matching_top": {
+      "start_point": [
+        2436,
+        0
+      ],
+      "end_point": [
+        2464,
+        1
+      ],
+      "strings": []
+    },
+    "transit_state_sb": {
+      "start_point": [
+        2470,
+        0
+      ],
+      "end_point": [
+        2505,
+        1
+      ],
+      "strings": []
+    },
+    "transit_state_mb": {
+      "start_point": [
+        2509,
+        0
+      ],
+      "end_point": [
+        2577,
+        1
+      ],
+      "strings": []
+    },
+    "transit_state_bkref": {
+      "start_point": [
+        2580,
+        0
+      ],
+      "end_point": [
+        2686,
+        1
+      ],
+      "strings": []
+    },
+    "get_subexp": {
+      "start_point": [
+        2695,
+        18
+      ],
+      "end_point": [
+        2836,
+        1
+      ],
+      "strings": []
+    },
+    "get_subexp_sub": {
+      "start_point": [
+        2844,
+        0
+      ],
+      "end_point": [
+        2863,
+        1
+      ],
+      "strings": []
+    },
+    "find_subexp_node": {
+      "start_point": [
+        2873,
+        0
+      ],
+      "end_point": [
+        2888,
+        1
+      ],
+      "strings": []
+    },
+    "check_arrival": {
+      "start_point": [
+        2896,
+        18
+      ],
+      "end_point": [
+        3050,
+        1
+      ],
+      "strings": []
+    },
+    "check_arrival_add_next_nodes": {
+      "start_point": [
+        3061,
+        18
+      ],
+      "end_point": [
+        3133,
+        1
+      ],
+      "strings": []
+    },
+    "check_arrival_expand_ecl": {
+      "start_point": [
+        3141,
+        0
+      ],
+      "end_point": [
+        3188,
+        1
+      ],
+      "strings": []
+    },
+    "check_arrival_expand_ecl_sub": {
+      "start_point": [
+        3195,
+        18
+      ],
+      "end_point": [
+        3232,
+        1
+      ],
+      "strings": []
+    },
+    "expand_bkref_cache": {
+      "start_point": [
+        3240,
+        18
+      ],
+      "end_point": [
+        3323,
+        1
+      ],
+      "strings": []
+    },
+    "build_trtable": {
+      "start_point": [
+        3328,
+        0
+      ],
+      "end_point": [
+        3559,
+        1
+      ],
+      "strings": []
+    },
+    "group_nodes_into_DFAstates": {
+      "start_point": [
+        3566,
+        0
+      ],
+      "end_point": [
+        3748,
+        1
+      ],
+      "strings": []
+    },
+    "check_node_accept_bytes": {
+      "start_point": [
+        3763,
+        0
+      ],
+      "end_point": [
+        3990,
+        1
+      ],
+      "strings": []
+    },
+    "find_collation_sequence_value": {
+      "start_point": [
+        3993,
+        0
+      ],
+      "end_point": [
+        4050,
+        1
+      ],
+      "strings": []
+    },
+    "check_node_accept": {
+      "start_point": [
+        4057,
+        0
+      ],
+      "end_point": [
+        4103,
+        1
+      ],
+      "strings": []
+    },
+    "extend_buffers": {
+      "start_point": [
+        4108,
+        18
+      ],
+      "end_point": [
+        4166,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_init": {
+      "start_point": [
+        4174,
+        18
+      ],
+      "end_point": [
+        4202,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_clean": {
+      "start_point": [
+        4208,
+        0
+      ],
+      "end_point": [
+        4234,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_free": {
+      "start_point": [
+        4238,
+        0
+      ],
+      "end_point": [
+        4246,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_add_entry": {
+      "start_point": [
+        4254,
+        18
+      ],
+      "end_point": [
+        4297,
+        1
+      ],
+      "strings": []
+    },
+    "search_cur_bkref_entry": {
+      "start_point": [
+        4302,
+        0
+      ],
+      "end_point": [
+        4320,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_add_subtop": {
+      "start_point": [
+        4326,
+        18
+      ],
+      "end_point": [
+        4350,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_add_sublast": {
+      "start_point": [
+        4355,
+        0
+      ],
+      "end_point": [
+        4380,
+        1
+      ],
+      "strings": []
+    },
+    "sift_ctx_init": {
+      "start_point": [
+        4382,
+        0
+      ],
+      "end_point": [
+        4392,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/regex_internal.c": {
+    "re_string_allocate": {
+      "start_point": [
+        37,
+        18
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_construct": {
+      "start_point": [
+        65,
+        18
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_realloc_buffers": {
+      "start_point": [
+        128,
+        18
+      ],
+      "end_point": [
+        164,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_construct_common": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        184,
+        1
+      ],
+      "strings": []
+    },
+    "build_wcs_buffer": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": []
+    },
+    "build_wcs_upper_buffer": {
+      "start_point": [
+        269,
+        18
+      ],
+      "end_point": [
+        480,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_skip_chars": {
+      "start_point": [
+        485,
+        0
+      ],
+      "end_point": [
+        520,
+        1
+      ],
+      "strings": []
+    },
+    "build_upper_buffer": {
+      "start_point": [
+        526,
+        0
+      ],
+      "end_point": [
+        542,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_translate_buffer": {
+      "start_point": [
+        546,
+        0
+      ],
+      "end_point": [
+        561,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_reconstruct": {
+      "start_point": [
+        568,
+        18
+      ],
+      "end_point": [
+        828,
+        1
+      ],
+      "strings": []
+    },
+    "internal_function": {
+      "start_point": [
+        831,
+        18
+      ],
+      "end_point": [
+        865,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_fetch_byte_case": {
+      "start_point": [
+        867,
+        0
+      ],
+      "end_point": [
+        903,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_destruct": {
+      "start_point": [
+        905,
+        0
+      ],
+      "end_point": [
+        915,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_context_at": {
+      "start_point": [
+        919,
+        0
+      ],
+      "end_point": [
+        960,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_alloc": {
+      "start_point": [
+        965,
+        18
+      ],
+      "end_point": [
+        974,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_init_1": {
+      "start_point": [
+        977,
+        18
+      ],
+      "end_point": [
+        990,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_init_2": {
+      "start_point": [
+        993,
+        18
+      ],
+      "end_point": [
+        1020,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_init_copy": {
+      "start_point": [
+        1023,
+        18
+      ],
+      "end_point": [
+        1041,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_add_intersect": {
+      "start_point": [
+        1048,
+        18
+      ],
+      "end_point": [
+        1133,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_init_union": {
+      "start_point": [
+        1139,
+        18
+      ],
+      "end_point": [
+        1186,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_merge": {
+      "start_point": [
+        1192,
+        18
+      ],
+      "end_point": [
+        1268,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_insert": {
+      "start_point": [
+        1275,
+        18
+      ],
+      "end_point": [
+        1320,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_insert_last": {
+      "start_point": [
+        1327,
+        18
+      ],
+      "end_point": [
+        1344,
+        1
+      ],
+      "strings": []
+    },
+    "pure": {
+      "start_point": [
+        1351,
+        52
+      ],
+      "end_point": [
+        1360,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_remove_at": {
+      "start_point": [
+        1386,
+        0
+      ],
+      "end_point": [
+        1395,
+        1
+      ],
+      "strings": []
+    },
+    "re_dfa_add_node": {
+      "start_point": [
+        1401,
+        0
+      ],
+      "end_point": [
+        1453,
+        1
+      ],
+      "strings": []
+    },
+    "calc_state_hash": {
+      "start_point": [
+        1455,
+        0
+      ],
+      "end_point": [
+        1464,
+        1
+      ],
+      "strings": []
+    },
+    "re_acquire_state": {
+      "start_point": [
+        1476,
+        18
+      ],
+      "end_point": [
+        1511,
+        1
+      ],
+      "strings": []
+    },
+    "re_acquire_state_context": {
+      "start_point": [
+        1524,
+        18
+      ],
+      "end_point": [
+        1558,
+        1
+      ],
+      "strings": []
+    },
+    "register_state": {
+      "start_point": [
+        1564,
+        0
+      ],
+      "end_point": [
+        1598,
+        1
+      ],
+      "strings": []
+    },
+    "free_state": {
+      "start_point": [
+        1600,
+        0
+      ],
+      "end_point": [
+        1614,
+        1
+      ],
+      "strings": []
+    },
+    "create_ci_newstate": {
+      "start_point": [
+        1620,
+        18
+      ],
+      "end_point": [
+        1664,
+        1
+      ],
+      "strings": []
+    },
+    "create_cd_newstate": {
+      "start_point": [
+        1670,
+        18
+      ],
+      "end_point": [
+        1740,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/regex_internal.h": {
+    "bitset_set": {
+      "start_point": [
+        762,
+        0
+      ],
+      "end_point": [
+        766,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_clear": {
+      "start_point": [
+        768,
+        0
+      ],
+      "end_point": [
+        772,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_contain": {
+      "start_point": [
+        774,
+        0
+      ],
+      "end_point": [
+        778,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_empty": {
+      "start_point": [
+        780,
+        0
+      ],
+      "end_point": [
+        784,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_set_all": {
+      "start_point": [
+        786,
+        0
+      ],
+      "end_point": [
+        793,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_copy": {
+      "start_point": [
+        795,
+        0
+      ],
+      "end_point": [
+        799,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_not": {
+      "start_point": [
+        801,
+        0
+      ],
+      "end_point": [
+        811,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_merge": {
+      "start_point": [
+        813,
+        0
+      ],
+      "end_point": [
+        819,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_mask": {
+      "start_point": [
+        821,
+        0
+      ],
+      "end_point": [
+        827,
+        1
+      ],
+      "strings": []
+    },
+    "internal_function": [
+      {
+        "start_point": [
+          832,
+          18
+        ],
+        "end_point": [
+          842,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          845,
+          18
+        ],
+        "end_point": [
+          851,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          858,
+          18
+        ],
+        "end_point": [
+          880,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "gcal/gcal-4.1/lib/sched.in.h": {},
+  "gcal/gcal-4.1/lib/secure_getenv.c": {
+    "secure_getenv": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/sig-handler.c": {},
+  "gcal/gcal-4.1/lib/sig-handler.h": {
+    "get_handler": {
+      "start_point": [
+        36,
+        32
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/sigaction.c": {
+    "sigaction_handler": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    },
+    "sigaction": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        203,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/signal.in.h": {},
+  "gcal/gcal-4.1/lib/sigprocmask.c": {
+    "signal_nothrow": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        73,
+        5
+      ],
+      "strings": []
+    },
+    "ext_signal": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "sigismember": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "sigemptyset": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": []
+    },
+    "sigaddset": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "sigdelset": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    },
+    "sigfillset": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": []
+    },
+    "blocked_handler": {
+      "start_point": [
+        190,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": []
+    },
+    "sigpending": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": []
+    },
+    "sigprocmask": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_signal": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_raise_SIGPIPE": {
+      "start_point": [
+        333,
+        0
+      ],
+      "end_point": [
+        347,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawn-pipe.c": {
+    "nonintr_close": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    },
+    "nonintr_open": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    },
+    "create_pipe": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        378,
+        1
+      ],
+      "strings": [
+        "\"cannot create pipe\"",
+        "\"cannot create pipe\"",
+        "\"NUL\"",
+        "\"%s subprocess failed\"",
+        "\"cannot create pipe\"",
+        "\"cannot create pipe\"",
+        "\"/dev/null\"",
+        "\"%s subprocess failed\""
+      ]
+    },
+    "create_pipe_bidi": {
+      "start_point": [
+        388,
+        0
+      ],
+      "end_point": [
+        400,
+        1
+      ],
+      "strings": []
+    },
+    "create_pipe_in": {
+      "start_point": [
+        409,
+        0
+      ],
+      "end_point": [
+        424,
+        1
+      ],
+      "strings": []
+    },
+    "create_pipe_out": {
+      "start_point": [
+        433,
+        0
+      ],
+      "end_point": [
+        448,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawn-pipe.h": {},
+  "gcal/gcal-4.1/lib/spawn.in.h": {},
+  "gcal/gcal-4.1/lib/spawnattr_destroy.c": {
+    "posix_spawnattr_destroy": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawnattr_init.c": {
+    "posix_spawnattr_init": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawnattr_setflags.c": {
+    "posix_spawnattr_setflags": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawnattr_setsigmask.c": {
+    "posix_spawnattr_setsigmask": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawni.c": {
+    "__spawni": [
+      {
+        "start_point": [
+          94,
+          0
+        ],
+        "end_point": [
+          102,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          137,
+          0
+        ],
+        "end_point": [
+          371,
+          1
+        ],
+        "strings": [
+          "\"PATH\"",
+          "\"\""
+        ]
+      }
+    ],
+    "script_execute": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawnp.c": {
+    "posix_spawnp": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawn_faction_addclose.c": {},
+  "gcal/gcal-4.1/lib/spawn_faction_adddup2.c": {},
+  "gcal/gcal-4.1/lib/spawn_faction_addopen.c": {},
+  "gcal/gcal-4.1/lib/spawn_faction_destroy.c": {
+    "posix_spawn_file_actions_destroy": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        30,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawn_faction_init.c": {
+    "__posix_spawn_file_actions_realloc": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    },
+    "posix_spawn_file_actions_init": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/spawn_int.h": {},
+  "gcal/gcal-4.1/lib/stat.c": {
+    "orig_stat": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_stat": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/stdalign.in.h": {},
+  "gcal/gcal-4.1/lib/stdbool.in.h": {},
+  "gcal/gcal-4.1/lib/stddef.in.h": {},
+  "gcal/gcal-4.1/lib/stdint.in.h": {},
+  "gcal/gcal-4.1/lib/stdio-impl.h": {},
+  "gcal/gcal-4.1/lib/stdio.in.h": {},
+  "gcal/gcal-4.1/lib/stdlib.in.h": {},
+  "gcal/gcal-4.1/lib/str-two-way.h": {
+    "critical_factorization": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "strings": []
+    },
+    "two_way_short_needle": {
+      "start_point": [
+        233,
+        0
+      ],
+      "end_point": [
+        313,
+        1
+      ],
+      "strings": []
+    },
+    "two_way_long_needle": {
+      "start_point": [
+        327,
+        0
+      ],
+      "end_point": [
+        445,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/strchrnul.c": {
+    "strchrnul": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/strcspn.c": {
+    "strcspn": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/strdup.c": {
+    "__strdup": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/streq.h": {
+    "streq9": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "streq8": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "streq7": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "streq6": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "streq5": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "streq4": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "streq3": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "streq2": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "streq1": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "streq0": {
+      "start_point": [
+        151,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": [
+        "\"Success\"",
+        "\"Operation now in progress\"",
+        "\"Operation already in progress\"",
+        "\"Socket operation on non-socket\"",
+        "\"Destination address required\"",
+        "\"Message too long\"",
+        "\"Protocol wrong type for socket\"",
+        "\"Protocol not available\"",
+        "\"Protocol not supported\"",
+        "\"Operation not supported\"",
+        "\"Address family not supported by protocol\"",
+        "\"Address already in use\"",
+        "\"Cannot assign requested address\"",
+        "\"Network is down\"",
+        "\"Network is unreachable\"",
+        "\"Connection reset by peer\"",
+        "\"No buffer space available\"",
+        "\"Transport endpoint is already connected\"",
+        "\"Transport endpoint is not connected\"",
+        "\"Connection timed out\"",
+        "\"Connection refused\"",
+        "\"Too many levels of symbolic links\"",
+        "\"No route to host\"",
+        "\"Operation would block\"",
+        "\"Text file busy\"",
+        "\"No data available\"",
+        "\"Out of streams resources\"",
+        "\"Device not a stream\"",
+        "\"Timer expired\"",
+        "\"Other error\"",
+        "\"Socket type not supported\"",
+        "\"Protocol family not supported\"",
+        "\"Cannot send after transport endpoint shutdown\"",
+        "\"Too many references: cannot splice\"",
+        "\"Host is down\"",
+        "\"Too many processes\"",
+        "\"Too many users\"",
+        "\"Disk quota exceeded\"",
+        "\"Stale NFS file handle\"",
+        "\"Object is remote\"",
+        "\"Overlapped operation aborted\"",
+        "\"Overlapped I/O event object not in signaled state\"",
+        "\"Overlapped operations will complete later\"",
+        "\"Network subsystem is unavailable\"",
+        "\"Winsock.dll version out of range\"",
+        "\"Successful WSAStartup not yet performed\"",
+        "\"Graceful shutdown in progress\"",
+        "\"No more results\"",
+        "\"Call was canceled\"",
+        "\"Procedure call table is invalid\"",
+        "\"Service provider is invalid\"",
+        "\"Service provider failed to initialize\"",
+        "\"System call failure\"",
+        "\"Service not found\"",
+        "\"Class type not found\"",
+        "\"Database query was refused\"",
+        "\"Host not found\"",
+        "\"Nonauthoritative host not found\"",
+        "\"Nonrecoverable error\"",
+        "\"Valid name, no data record of requested type\"",
+        "\"No message of desired type\"",
+        "\"Identifier removed\"",
+        "\"Link has been severed\"",
+        "\"Protocol error\"",
+        "\"Multihop attempted\"",
+        "\"Bad message\"",
+        "\"Value too large for defined data type\"",
+        "\"Not supported\"",
+        "\"Network dropped connection on reset\"",
+        "\"Software caused connection abort\"",
+        "\"Stale NFS file handle\"",
+        "\"Disk quota exceeded\"",
+        "\"Operation canceled\"",
+        "\"Owner died\"",
+        "\"State not recoverable\"",
+        "\"Invalid or incomplete multibyte or wide character\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/strerror-override.h": {},
+  "gcal/gcal-4.1/lib/strerror.c": {},
+  "gcal/gcal-4.1/lib/strerror_r.c": {
+    "local_snprintf": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": []
+    },
+    "safe_copy": {
+      "start_point": [
+        124,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/string.in.h": {},
+  "gcal/gcal-4.1/lib/strings.in.h": {},
+  "gcal/gcal-4.1/lib/stripslash.c": {
+    "strip_trailing_slashes": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/strstr.c": {
+    "strstr": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/strtol.c": {
+    "INTERNAL": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        408,
+        1
+      ],
+      "strings": []
+    },
+    "strtol": {
+      "start_point": [
+        415,
+        0
+      ],
+      "end_point": [
+        421,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/sys_ioctl.in.h": {},
+  "gcal/gcal-4.1/lib/sys_socket.c": {},
+  "gcal/gcal-4.1/lib/sys_socket.in.h": {
+    "rpl_fd_isset": {
+      "start_point": [
+        216,
+        0
+      ],
+      "end_point": [
+        228,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/sys_stat.in.h": {
+    "rpl_mkdir": {
+      "start_point": [
+        503,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/sys_time.in.h": {
+    "GNULIB_NAMESPACE": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/sys_types.in.h": {},
+  "gcal/gcal-4.1/lib/sys_uio.in.h": {},
+  "gcal/gcal-4.1/lib/sys_wait.in.h": {},
+  "gcal/gcal-4.1/lib/tempname.c": {
+    "direxists": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    },
+    "__path_search": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": [
+        "\"file\"",
+        "\"TMPDIR\"",
+        "\"/tmp\"",
+        "\"/tmp\"",
+        "\"/tmp\"",
+        "\"%.*s/%.*sXXXXXX\""
+      ]
+    },
+    "__try_tempname": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        259,
+        1
+      ],
+      "strings": [
+        "\"XXXXXX\""
+      ]
+    },
+    "try_file": {
+      "start_point": [
+        261,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": []
+    },
+    "try_dir": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": []
+    },
+    "try_nocreate": {
+      "start_point": [
+        276,
+        0
+      ],
+      "end_point": [
+        284,
+        1
+      ],
+      "strings": []
+    },
+    "__gen_tempname": {
+      "start_point": [
+        299,
+        0
+      ],
+      "end_point": [
+        323,
+        1
+      ],
+      "strings": [
+        "\"invalid KIND in __gen_tempname\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/tempname.h": {},
+  "gcal/gcal-4.1/lib/time.in.h": {},
+  "gcal/gcal-4.1/lib/tmpdir.c": {
+    "direxists": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "path_search": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "strings": [
+        "\"file\"",
+        "\"TMPDIR\"",
+        "\"/tmp\"",
+        "\"/tmp\"",
+        "\"/tmp\"",
+        "\"/%.*sXXXXXX\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/tmpdir.h": {},
+  "gcal/gcal-4.1/lib/unistd--.h": {},
+  "gcal/gcal-4.1/lib/unistd-safer.h": {},
+  "gcal/gcal-4.1/lib/unistd.c": {},
+  "gcal/gcal-4.1/lib/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        427,
+        0
+      ],
+      "end_point": [
+        431,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        894,
+        0
+      ],
+      "end_point": [
+        898,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/unlink.c": {
+    "rpl_unlink": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/verify.h": {},
+  "gcal/gcal-4.1/lib/w32sock.h": {
+    "set_winsock_errno": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/w32spawn.h": {
+    "dup_noinherit": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": [
+        "\"_open_osfhandle failed\""
+      ]
+    },
+    "fd_safer_noinherit": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "dup_safer_noinherit": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "undup_safer_noinherit": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": [
+        "\"cannot restore fd %d: dup2 failed\""
+      ]
+    },
+    "prepare_spawn": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        228,
+        1
+      ],
+      "strings": [
+        "\"sh.exe\"",
+        "\"\\\"\\\"\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/wait-process.c": {
+    "cleanup_slaves": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        102,
+        1
+      ],
+      "strings": []
+    },
+    "register_slave_subprocess": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        170,
+        1
+      ],
+      "strings": []
+    },
+    "unregister_slave_subprocess": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": []
+    },
+    "wait_subprocess": {
+      "start_point": [
+        191,
+        0
+      ],
+      "end_point": [
+        360,
+        1
+      ],
+      "strings": [
+        "\"%s subprocess\"",
+        "\"%s subprocess\"",
+        "\"%s subprocess got fatal signal %d\"",
+        "\"%s subprocess failed\"",
+        "\"%s subprocess\"",
+        "\"%s subprocess got fatal signal %d\"",
+        "\"%s subprocess failed\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/wait-process.h": {},
+  "gcal/gcal-4.1/lib/waitpid.c": {
+    "waitpid": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/wchar.in.h": {},
+  "gcal/gcal-4.1/lib/wcrtomb.c": {
+    "wcrtomb": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/wctype-h.c": {},
+  "gcal/gcal-4.1/lib/wctype.in.h": {
+    "rpl_towlower": {
+      "start_point": [
+        365,
+        0
+      ],
+      "end_point": [
+        369,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_towupper": {
+      "start_point": [
+        374,
+        0
+      ],
+      "end_point": [
+        378,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/write.c": {
+    "write_nothrow": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        50,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_write": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/xalloc-die.c": {
+    "xalloc_die": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"memory exhausted\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/lib/xalloc-oversized.h": {},
+  "gcal/gcal-4.1/lib/xalloc.h": {
+    "xnmalloc": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    },
+    "xnrealloc": [
+      {
+        "start_point": [
+          116,
+          0
+        ],
+        "end_point": [
+          122,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          237,
+          29
+        ],
+        "end_point": [
+          241,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "x2nrealloc": [
+      {
+        "start_point": [
+          178,
+          0
+        ],
+        "end_point": [
+          211,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          249,
+          29
+        ],
+        "end_point": [
+          253,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "xcharalloc": {
+      "start_point": [
+        218,
+        0
+      ],
+      "end_point": [
+        222,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        231,
+        29
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "x2realloc": {
+      "start_point": [
+        243,
+        29
+      ],
+      "end_point": [
+        247,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        255,
+        29
+      ],
+      "end_point": [
+        259,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/xmalloc.c": {
+    "xmalloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "x2realloc": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "xzalloc": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "xcalloc": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    },
+    "xstrdup": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/glthread/cond.c": {
+    "glthread_cond_timedwait_multithreaded": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          48,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          58,
+          0
+        ],
+        "end_point": [
+          69,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_waitqueue_init": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_add": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_remove": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_notify_first": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_notify_all": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_cond_init_func": {
+      "start_point": [
+        211,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_cond_wait_func": {
+      "start_point": [
+        221,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_cond_timedwait_func": {
+      "start_point": [
+        284,
+        0
+      ],
+      "end_point": [
+        413,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_cond_signal_func": {
+      "start_point": [
+        415,
+        0
+      ],
+      "end_point": [
+        430,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_cond_broadcast_func": {
+      "start_point": [
+        432,
+        0
+      ],
+      "end_point": [
+        447,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_cond_destroy_func": {
+      "start_point": [
+        449,
+        0
+      ],
+      "end_point": [
+        459,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/glthread/cond.h": {
+    "gl_cond_timedwait_func": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        388,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/glthread/lock.c": {
+    "glthread_rwlock_init_for_glibc": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_init_multithreaded": [
+      {
+        "start_point": [
+          65,
+          0
+        ],
+        "end_point": [
+          75,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          155,
+          0
+        ],
+        "end_point": [
+          172,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          512,
+          0
+        ],
+        "end_point": [
+          525,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_rwlock_rdlock_multithreaded": [
+      {
+        "start_point": [
+          77,
+          0
+        ],
+        "end_point": [
+          101,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          174,
+          0
+        ],
+        "end_point": [
+          199,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          527,
+          0
+        ],
+        "end_point": [
+          551,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_rwlock_wrlock_multithreaded": [
+      {
+        "start_point": [
+          103,
+          0
+        ],
+        "end_point": [
+          127,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          201,
+          0
+        ],
+        "end_point": [
+          226,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          553,
+          0
+        ],
+        "end_point": [
+          577,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_rwlock_unlock_multithreaded": [
+      {
+        "start_point": [
+          129,
+          0
+        ],
+        "end_point": [
+          135,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          228,
+          0
+        ],
+        "end_point": [
+          282,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          579,
+          0
+        ],
+        "end_point": [
+          634,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_rwlock_destroy_multithreaded": [
+      {
+        "start_point": [
+          137,
+          0
+        ],
+        "end_point": [
+          149,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          284,
+          0
+        ],
+        "end_point": [
+          299,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          636,
+          0
+        ],
+        "end_point": [
+          641,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_recursive_lock_init_multithreaded": [
+      {
+        "start_point": [
+          309,
+          0
+        ],
+        "end_point": [
+          334,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          338,
+          0
+        ],
+        "end_point": [
+          364,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          418,
+          0
+        ],
+        "end_point": [
+          429,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          692,
+          0
+        ],
+        "end_point": [
+          703,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_recursive_lock_lock_multithreaded": [
+      {
+        "start_point": [
+          366,
+          0
+        ],
+        "end_point": [
+          390,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          431,
+          0
+        ],
+        "end_point": [
+          450,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          705,
+          0
+        ],
+        "end_point": [
+          724,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_recursive_lock_unlock_multithreaded": [
+      {
+        "start_point": [
+          392,
+          0
+        ],
+        "end_point": [
+          398,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          452,
+          0
+        ],
+        "end_point": [
+          466,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          726,
+          0
+        ],
+        "end_point": [
+          740,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_recursive_lock_destroy_multithreaded": [
+      {
+        "start_point": [
+          400,
+          0
+        ],
+        "end_point": [
+          412,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          468,
+          0
+        ],
+        "end_point": [
+          474,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          742,
+          0
+        ],
+        "end_point": [
+          748,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_once_singlethreaded": [
+      {
+        "start_point": [
+          482,
+          0
+        ],
+        "end_point": [
+          496,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          664,
+          0
+        ],
+        "end_point": [
+          676,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          775,
+          0
+        ],
+        "end_point": [
+          787,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_once_call": {
+      "start_point": [
+        649,
+        0
+      ],
+      "end_point": [
+        655,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_once_multithreaded": [
+      {
+        "start_point": [
+          657,
+          0
+        ],
+        "end_point": [
+          662,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          752,
+          0
+        ],
+        "end_point": [
+          773,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_lock_init_func": {
+      "start_point": [
+        797,
+        0
+      ],
+      "end_point": [
+        802,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_lock_lock_func": {
+      "start_point": [
+        804,
+        0
+      ],
+      "end_point": [
+        820,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_lock_unlock_func": {
+      "start_point": [
+        822,
+        0
+      ],
+      "end_point": [
+        829,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_lock_destroy_func": {
+      "start_point": [
+        831,
+        0
+      ],
+      "end_point": [
+        839,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_init": {
+      "start_point": [
+        846,
+        0
+      ],
+      "end_point": [
+        853,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_add": {
+      "start_point": [
+        857,
+        0
+      ],
+      "end_point": [
+        904,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_notify_first": {
+      "start_point": [
+        907,
+        0
+      ],
+      "end_point": [
+        915,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_notify_all": {
+      "start_point": [
+        918,
+        0
+      ],
+      "end_point": [
+        932,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_init_func": {
+      "start_point": [
+        934,
+        0
+      ],
+      "end_point": [
+        942,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_rdlock_func": {
+      "start_point": [
+        944,
+        0
+      ],
+      "end_point": [
+        998,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_wrlock_func": {
+      "start_point": [
+        1000,
+        0
+      ],
+      "end_point": [
+        1051,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_unlock_func": {
+      "start_point": [
+        1053,
+        0
+      ],
+      "end_point": [
+        1095,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_destroy_func": {
+      "start_point": [
+        1097,
+        0
+      ],
+      "end_point": [
+        1111,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_recursive_lock_init_func": {
+      "start_point": [
+        1115,
+        0
+      ],
+      "end_point": [
+        1122,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_recursive_lock_lock_func": {
+      "start_point": [
+        1124,
+        0
+      ],
+      "end_point": [
+        1152,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_recursive_lock_unlock_func": {
+      "start_point": [
+        1154,
+        0
+      ],
+      "end_point": [
+        1167,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_recursive_lock_destroy_func": {
+      "start_point": [
+        1169,
+        0
+      ],
+      "end_point": [
+        1177,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_once_func": {
+      "start_point": [
+        1181,
+        0
+      ],
+      "end_point": [
+        1216,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/lib/glthread/lock.h": {},
+  "gcal/gcal-4.1/lib/glthread/threadlib.c": {
+    "dummy_thread_func": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_in_use": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/src/common.h": {},
+  "gcal/gcal-4.1/src/defines.h": {},
+  "gcal/gcal-4.1/src/file-io.c": {},
+  "gcal/gcal-4.1/src/file-io.h": {},
+  "gcal/gcal-4.1/src/gcal.c": {
+    "eliminate_invalid_data": {
+      "start_point": [
+        7152,
+        0
+      ],
+      "end_point": [
+        7354,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/src/gcal.h": {},
+  "gcal/gcal-4.1/src/gcal2txt.c": {},
+  "gcal/gcal-4.1/src/gcal2txt.h": {},
+  "gcal/gcal-4.1/src/globals.h": {},
+  "gcal/gcal-4.1/src/hd-astro.c": {},
+  "gcal/gcal-4.1/src/hd-astro.h": {},
+  "gcal/gcal-4.1/src/hd-data.c": {},
+  "gcal/gcal-4.1/src/hd-data.h": {},
+  "gcal/gcal-4.1/src/hd-data1.c": {},
+  "gcal/gcal-4.1/src/hd-data1.h": {},
+  "gcal/gcal-4.1/src/hd-data2.c": {},
+  "gcal/gcal-4.1/src/hd-data2.h": {},
+  "gcal/gcal-4.1/src/hd-data3.c": {},
+  "gcal/gcal-4.1/src/hd-data3.h": {},
+  "gcal/gcal-4.1/src/hd-data4.c": {},
+  "gcal/gcal-4.1/src/hd-data4.h": {},
+  "gcal/gcal-4.1/src/hd-data5.c": {},
+  "gcal/gcal-4.1/src/hd-data5.h": {},
+  "gcal/gcal-4.1/src/hd-defs.h": {},
+  "gcal/gcal-4.1/src/hd-use.c": {},
+  "gcal/gcal-4.1/src/hd-use.h": {},
+  "gcal/gcal-4.1/src/help.c": {
+    "usage_msg": {
+      "start_point": [
+        2406,
+        0
+      ],
+      "end_point": [
+        2430,
+        1
+      ],
+      "strings": [
+        "\"usg_text\"",
+        "\"Usage:  %s [%s|%s{[?|h|??|hh|L|V]|{%sHKNOR%sXb%sijn%sq%ssu%s}}] [[%s] [%s]]\""
+      ]
+    },
+    "lopt_msg": {
+      "start_point": [
+        2434,
+        0
+      ],
+      "end_point": [
+        2465,
+        1
+      ],
+      "strings": [
+        "\"lopt_text\"",
+        "\"Use `%s %s|[%s?]\"",
+        "\" %s' \"",
+        "\"' \"",
+        "\"for more information.\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/src/help.h": {},
+  "gcal/gcal-4.1/src/print.c": {
+    "print_calendar": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        1370,
+        1
+      ],
+      "strings": [
+        "\"%*s %0*d\"",
+        "\"%d\"",
+        "\"%*s %d\"",
+        "\"%*s\"",
+        "\"%*s\"",
+        "\" %2s\"",
+        "\"CW\"",
+        "\"%s %0*d\"",
+        "\"%s %d\"",
+        "\"%-*s\"",
+        "\"Week\"",
+        "\"%-*s\"",
+        "\"\"",
+        "\"\"",
+        "\"%02d/0\"",
+        "\"%s\"",
+        "\"53/1\"",
+        "\"%02d\"",
+        "\"  \"",
+        "\" \"",
+        "\"%*s\"",
+        "\"\"",
+        "\"%*s%0*d/%0*d\"",
+        "\"\"",
+        "\"%d\"",
+        "\"%d\"",
+        "\"%*s%d/%d\"",
+        "\"\"",
+        "\"%*s%0*d\"",
+        "\"\"",
+        "\"%d\"",
+        "\"%*s%d\"",
+        "\"\"",
+        "\"%*s\"",
+        "\"%*s\"",
+        "\"\"",
+        "\"%*s\"",
+        "\"%*s\"",
+        "\" %2s\"",
+        "\"CW\"",
+        "\"%*s\"",
+        "\"\"",
+        "\" \"",
+        "\"%*s%s\"",
+        "\"\"",
+        "\"%*s\"",
+        "\"\"",
+        "\"%-*s\"",
+        "\"CW\"",
+        "\"%-*s\"",
+        "\"%-*s\"",
+        "\"\"",
+        "\"\"",
+        "\"%02d\"",
+        "\"%02d\"",
+        "\"%02d\"",
+        "\"  \"",
+        "\" \"",
+        "\"%*s\"",
+        "\"\"",
+        "\"%*s\"",
+        "\"\"",
+        "\" \""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/src/print.h": {},
+  "gcal/gcal-4.1/src/rc-astro.c": {},
+  "gcal/gcal-4.1/src/rc-astro.h": {},
+  "gcal/gcal-4.1/src/rc-check.c": {},
+  "gcal/gcal-4.1/src/rc-check.h": {},
+  "gcal/gcal-4.1/src/rc-defs.h": {},
+  "gcal/gcal-4.1/src/rc-insert.c": {},
+  "gcal/gcal-4.1/src/rc-insert.h": {},
+  "gcal/gcal-4.1/src/rc-use.c": {
+    "rc_use": {
+      "start_point": [
+        458,
+        0
+      ],
+      "end_point": [
+        1508,
+        1
+      ],
+      "strings": [
+        "\"Emo\"",
+        "\"Int\"",
+        "\"Phy\"",
+        "\"lptrs\"",
+        "\"lptrs2\"",
+        "\"rc_files_table[RC_FILES_MAX]\"",
+        "\"rc_elems_table[RC_ELEMS_MAX]\"",
+        "\"the_text\"",
+        "\"gnu_fastmap_table\"",
+        "\"gnu_translate_table\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"`Eternal holiday list'\"",
+        "\"`Eternal holiday list'\"",
+        "\".\"",
+        "\"rc_files_table[rc_files]\"",
+        "\"rc_files_table[rc_files]->pool\"",
+        "\"rc_files_table[rc_files]->filename\"",
+        "\"rc_tvar[i].tvar_local.tvar_text\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/src/rc-use.h": {},
+  "gcal/gcal-4.1/src/rc-utils.c": {
+    "rc_clean_flags": {
+      "start_point": [
+        772,
+        0
+      ],
+      "end_point": [
+        782,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/src/rc-utils.h": {},
+  "gcal/gcal-4.1/src/tailor.h": {
+    "_tmpfn": {
+      "start_point": [
+        594,
+        0
+      ],
+      "end_point": [
+        606,
+        1
+      ],
+      "strings": [
+        "\"gcal\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/src/tcal.c": {},
+  "gcal/gcal-4.1/src/tcal.h": {},
+  "gcal/gcal-4.1/src/tty.c": {
+    "open_termcap": {
+      "start_point": [
+        980,
+        0
+      ],
+      "end_point": [
+        1085,
+        1
+      ],
+      "strings": [
+        "\"environment variable `%s' not found\"",
+        "\"environment variable `%s' not set\"",
+        "\"ptr_env\"",
+        "\"INIT\"",
+        "\"ptr_tc\"",
+        "\"%s=%s\"",
+        "\"`termcap' file not found\"",
+        "\"unknown terminal type defined in `%s'\"",
+        "\"\\n%s: warning, %s.\\n\\n\""
+      ]
+    },
+    "get_ospeed": {
+      "start_point": [
+        1090,
+        0
+      ],
+      "end_point": [
+        1236,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gcal/gcal-4.1/src/tty.h": {},
+  "gcal/gcal-4.1/src/txt2gcal.c": {},
+  "gcal/gcal-4.1/src/txt2gcal.h": {},
+  "gcal/gcal-4.1/src/utils.c": {
+    "get_actual_date": {
+      "start_point": [
+        605,
+        0
+      ],
+      "end_point": [
+        893,
+        1
+      ],
+      "strings": [
+        "\"Internal\""
+      ]
+    }
+  },
+  "gcal/gcal-4.1/src/utils.h": {}
+}

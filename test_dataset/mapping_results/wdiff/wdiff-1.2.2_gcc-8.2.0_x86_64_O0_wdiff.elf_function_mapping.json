@@ -1,0 +1,529 @@
+{
+  "Func_00401530": [],
+  "Func_004011a8": [],
+  "Func_00405d40": [],
+  "Func_0040160d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "signal_handler",
+      [
+        187,
+        192
+      ]
+    ]
+  ],
+  "Func_00401634": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "setup_signals",
+      [
+        198,
+        208
+      ]
+    ]
+  ],
+  "Func_00401672": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "initialize_strings",
+      [
+        213,
+        257
+      ]
+    ]
+  ],
+  "Func_00401713": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "start_of_delete",
+      [
+        280,
+        296
+      ]
+    ]
+  ],
+  "Func_00401769": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "end_of_delete",
+      [
+        302,
+        318
+      ]
+    ]
+  ],
+  "Func_004017bf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "start_of_insert",
+      [
+        324,
+        340
+      ]
+    ]
+  ],
+  "Func_00401815": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "end_of_insert",
+      [
+        346,
+        362
+      ]
+    ]
+  ],
+  "Func_0040186b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "skip_whitespace",
+      [
+        368,
+        376
+      ]
+    ]
+  ],
+  "Func_004018d2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "skip_word",
+      [
+        382,
+        391
+      ]
+    ]
+  ],
+  "Func_00401956": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "copy_whitespace",
+      [
+        397,
+        477
+      ]
+    ]
+  ],
+  "Func_00401bed": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "copy_word",
+      [
+        483,
+        526
+      ]
+    ]
+  ],
+  "Func_00401d6f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "create_template_filename",
+      [
+        534,
+        567
+      ]
+    ]
+  ],
+  "Func_00401ea8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "create_temporary_side",
+      [
+        572,
+        591
+      ]
+    ]
+  ],
+  "Func_00401fd3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "split_diff",
+      [
+        597,
+        648
+      ]
+    ]
+  ],
+  "Func_0040214b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "split_file_into_words",
+      [
+        655,
+        723
+      ]
+    ]
+  ],
+  "Func_004024c6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "decode_directive_line",
+      [
+        734,
+        801
+      ]
+    ]
+  ],
+  "Func_004026ae": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "skip_until_ordinal",
+      [
+        807,
+        815
+      ]
+    ]
+  ],
+  "Func_004026e6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "copy_until_ordinal",
+      [
+        821,
+        829
+      ]
+    ]
+  ],
+  "Func_00402732": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "reformat_diff_output",
+      [
+        835,
+        996
+      ]
+    ]
+  ],
+  "Func_00402c99": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "launch_input_program",
+      [
+        1005,
+        1019
+      ]
+    ]
+  ],
+  "Func_00402d60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "complete_input_program",
+      [
+        1025,
+        1044
+      ]
+    ]
+  ],
+  "Func_00402e07": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "launch_output_program",
+      [
+        1050,
+        1105
+      ]
+    ]
+  ],
+  "Func_00402f64": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "complete_output_program",
+      [
+        1111,
+        1150
+      ]
+    ]
+  ],
+  "Func_0040302d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "print_statistics",
+      [
+        1156,
+        1198
+      ]
+    ]
+  ],
+  "Func_00403342": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "print_copyright",
+      [
+        1207,
+        1223
+      ]
+    ]
+  ],
+  "Func_0040336f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "usage",
+      [
+        1229,
+        1273
+      ]
+    ]
+  ],
+  "Func_00403673": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/wdiff.c",
+      "main",
+      [
+        1279,
+        1517
+      ]
+    ]
+  ],
+  "Func_00403e0b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/pipes.c",
+      "openpipe",
+      [
+        26,
+        59
+      ]
+    ]
+  ],
+  "Func_00403ff1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/pipes.c",
+      "readpipe",
+      [
+        68,
+        78
+      ]
+    ]
+  ],
+  "Func_004040ac": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/src/pipes.c",
+      "writepipe",
+      [
+        87,
+        97
+      ]
+    ]
+  ],
+  "Func_00404167": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xalloc.h",
+      "xnmalloc",
+      [
+        102,
+        108
+      ]
+    ]
+  ],
+  "Func_004041ab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xalloc.h",
+      "xnrealloc",
+      [
+        115,
+        121
+      ]
+    ]
+  ],
+  "Func_004041fd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xalloc.h",
+      "x2nrealloc",
+      [
+        177,
+        209
+      ]
+    ]
+  ],
+  "Func_004042ac": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xalloc.h",
+      "xcharalloc",
+      [
+        216,
+        220
+      ]
+    ]
+  ],
+  "Func_004042c6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xmalloc.c",
+      "xmalloc",
+      [
+        38,
+        45
+      ]
+    ]
+  ],
+  "Func_004042fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xmalloc.c",
+      "xrealloc",
+      [
+        50,
+        65
+      ]
+    ]
+  ],
+  "Func_0040435c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xmalloc.c",
+      "x2realloc",
+      [
+        73,
+        77
+      ]
+    ]
+  ],
+  "Func_00404386": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xmalloc.c",
+      "xzalloc",
+      [
+        83,
+        87
+      ]
+    ]
+  ],
+  "Func_004043b7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xmalloc.c",
+      "xcalloc",
+      [
+        92,
+        104
+      ]
+    ]
+  ],
+  "Func_004043f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xmalloc.c",
+      "xmemdup",
+      [
+        110,
+        114
+      ]
+    ]
+  ],
+  "Func_00404424": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xmalloc.c",
+      "xstrdup",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_00404451": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/xalloc-die.c",
+      "xalloc_die",
+      [
+        31,
+        41
+      ]
+    ]
+  ],
+  "Func_0040448b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/dup2.c",
+      "rpl_dup2",
+      [
+        90,
+        120
+      ]
+    ]
+  ],
+  "Func_00404506": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt.c",
+      "exchange",
+      [
+        143,
+        220
+      ]
+    ]
+  ],
+  "Func_004046c7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt.c",
+      "_getopt_initialize",
+      [
+        224,
+        287
+      ]
+    ]
+  ],
+  "Func_00404794": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt.c",
+      "_getopt_internal_r",
+      [
+        345,
+        1125
+      ]
+    ]
+  ],
+  "Func_00405a9a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt.c",
+      "_getopt_internal",
+      [
+        1127,
+        1146
+      ]
+    ]
+  ],
+  "Func_00405b2a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt.c",
+      "getopt",
+      [
+        1156,
+        1163
+      ]
+    ]
+  ],
+  "Func_00405b6c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt1.c",
+      "getopt_long",
+      [
+        39,
+        45
+      ]
+    ]
+  ],
+  "Func_00405bb6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt1.c",
+      "_getopt_long_r",
+      [
+        47,
+        54
+      ]
+    ]
+  ],
+  "Func_00405c03": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt1.c",
+      "getopt_long_only",
+      [
+        61,
+        68
+      ]
+    ]
+  ],
+  "Func_00405c4d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/wdiff/wdiff-1.2.2/lib/getopt1.c",
+      "_getopt_long_only_r",
+      [
+        70,
+        77
+      ]
+    ]
+  ],
+  "Func_00405ca0": [],
+  "Func_00405d00": [],
+  "Func_00405d10": [],
+  "Func_00405d20": []
+}

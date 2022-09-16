@@ -1,0 +1,1820 @@
+{
+  "libtool/libtool-2.4.6/libltdl/ltdl.c": {
+    "lt__alloc_die_callback": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        170,
+        1
+      ],
+      "strings": []
+    },
+    "loader_init_callback": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": [
+        "\"get_vtable\""
+      ]
+    },
+    "loader_init": {
+      "start_point": [
+        184,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlinit": {
+      "start_point": [
+        224,
+        0
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlexit": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        360,
+        1
+      ],
+      "strings": []
+    },
+    "tryall_dlopen": {
+      "start_point": [
+        366,
+        0
+      ],
+      "end_point": [
+        488,
+        1
+      ],
+      "strings": [
+        "\"tryall_dlopen (%s, %s)\\n\"",
+        "\"(null)\"",
+        "\"(ALL)\"",
+        "\"Calling %s->module_open (%s)\\n\"",
+        "\"(null)\"",
+        "\"(null)\"",
+        "\"  Result: Failed\\n\"",
+        "\"  Error message << %s >>\\n\"",
+        "\"(null)\"",
+        "\"  Result: Success\\n\""
+      ]
+    },
+    "tryall_dlopen_module": {
+      "start_point": [
+        491,
+        0
+      ],
+      "end_point": [
+        538,
+        1
+      ],
+      "strings": [
+        "\"%.*s/%s\""
+      ]
+    },
+    "find_module": {
+      "start_point": [
+        540,
+        0
+      ],
+      "end_point": [
+        582,
+        1
+      ],
+      "strings": [
+        "\"lt_preopen\""
+      ]
+    },
+    "argzize_path": {
+      "start_point": [
+        646,
+        0
+      ],
+      "end_point": [
+        671,
+        1
+      ],
+      "strings": []
+    },
+    "foreach_dirinpath": {
+      "start_point": [
+        677,
+        0
+      ],
+      "end_point": [
+        739,
+        1
+      ],
+      "strings": []
+    },
+    "find_file_callback": {
+      "start_point": [
+        744,
+        0
+      ],
+      "end_point": [
+        768,
+        1
+      ],
+      "strings": []
+    },
+    "find_file": {
+      "start_point": [
+        770,
+        0
+      ],
+      "end_point": [
+        778,
+        1
+      ],
+      "strings": []
+    },
+    "find_handle_callback": {
+      "start_point": [
+        780,
+        0
+      ],
+      "end_point": [
+        797,
+        1
+      ],
+      "strings": []
+    },
+    "find_handle": {
+      "start_point": [
+        801,
+        0
+      ],
+      "end_point": [
+        813,
+        1
+      ],
+      "strings": []
+    },
+    "load_deplibs": [
+      {
+        "start_point": [
+          816,
+          0
+        ],
+        "end_point": [
+          821,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          824,
+          0
+        ],
+        "end_point": [
+          977,
+          1
+        ],
+        "strings": [
+          "\"-L\"",
+          "\"-R\"",
+          "\"-L\"",
+          "\"-R\"",
+          "\"-l\"",
+          "\"lib%s\""
+        ]
+      }
+    ],
+    "unload_deplibs": {
+      "start_point": [
+        980,
+        0
+      ],
+      "end_point": [
+        1000,
+        1
+      ],
+      "strings": []
+    },
+    "trim": {
+      "start_point": [
+        1002,
+        0
+      ],
+      "end_point": [
+        1032,
+        1
+      ],
+      "strings": []
+    },
+    "parse_dotla_file": {
+      "start_point": [
+        1035,
+        0
+      ],
+      "end_point": [
+        1153,
+        1
+      ],
+      "strings": []
+    },
+    "try_dlopen": {
+      "start_point": [
+        1157,
+        0
+      ],
+      "end_point": [
+        1518,
+        1
+      ],
+      "strings": [
+        "\"try_dlopen (%s, %s)\\n\"",
+        "\"(null)\"",
+        "\"(null)\"",
+        "\"%s%s\"",
+        "\"lt_preopen\"",
+        "\"lib\"",
+        "\"%s%s.%s\"",
+        "\"%s.%s\""
+      ]
+    },
+    "file_not_found": {
+      "start_point": [
+        1523,
+        0
+      ],
+      "end_point": [
+        1533,
+        1
+      ],
+      "strings": []
+    },
+    "has_library_ext": {
+      "start_point": [
+        1538,
+        0
+      ],
+      "end_point": [
+        1560,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dladvise_init": {
+      "start_point": [
+        1565,
+        0
+      ],
+      "end_point": [
+        1571,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dladvise_destroy": {
+      "start_point": [
+        1573,
+        0
+      ],
+      "end_point": [
+        1579,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dladvise_ext": {
+      "start_point": [
+        1581,
+        0
+      ],
+      "end_point": [
+        1587,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dladvise_resident": {
+      "start_point": [
+        1589,
+        0
+      ],
+      "end_point": [
+        1595,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dladvise_local": {
+      "start_point": [
+        1597,
+        0
+      ],
+      "end_point": [
+        1603,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dladvise_global": {
+      "start_point": [
+        1605,
+        0
+      ],
+      "end_point": [
+        1611,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dladvise_preload": {
+      "start_point": [
+        1613,
+        0
+      ],
+      "end_point": [
+        1619,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlopen": {
+      "start_point": [
+        1622,
+        0
+      ],
+      "end_point": [
+        1626,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlopenext": {
+      "start_point": [
+        1633,
+        0
+      ],
+      "end_point": [
+        1644,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlopenadvise": {
+      "start_point": [
+        1647,
+        0
+      ],
+      "end_point": [
+        1716,
+        1
+      ],
+      "strings": []
+    },
+    "lt_argz_insert": {
+      "start_point": [
+        1719,
+        0
+      ],
+      "end_point": [
+        1747,
+        1
+      ],
+      "strings": []
+    },
+    "lt_argz_insertinorder": {
+      "start_point": [
+        1749,
+        0
+      ],
+      "end_point": [
+        1768,
+        1
+      ],
+      "strings": []
+    },
+    "lt_argz_insertdir": {
+      "start_point": [
+        1770,
+        0
+      ],
+      "end_point": [
+        1831,
+        1
+      ],
+      "strings": [
+        "\".0123456789\"",
+        "\"/\""
+      ]
+    },
+    "list_files_by_dir": {
+      "start_point": [
+        1833,
+        0
+      ],
+      "end_point": [
+        1863,
+        1
+      ],
+      "strings": []
+    },
+    "foreachfile_callback": {
+      "start_point": [
+        1868,
+        0
+      ],
+      "end_point": [
+        1893,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlforeachfile": {
+      "start_point": [
+        1902,
+        0
+      ],
+      "end_point": [
+        1945,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlclose": {
+      "start_point": [
+        1947,
+        0
+      ],
+      "end_point": [
+        2009,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlsym": {
+      "start_point": [
+        2011,
+        0
+      ],
+      "end_point": [
+        2104,
+        1
+      ],
+      "strings": [
+        "\"_LTX_\""
+      ]
+    },
+    "lt_dlerror": {
+      "start_point": [
+        2106,
+        0
+      ],
+      "end_point": [
+        2115,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlpath_insertdir": {
+      "start_point": [
+        2117,
+        0
+      ],
+      "end_point": [
+        2184,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dladdsearchdir": {
+      "start_point": [
+        2186,
+        0
+      ],
+      "end_point": [
+        2198,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlinsertsearchdir": {
+      "start_point": [
+        2200,
+        0
+      ],
+      "end_point": [
+        2225,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlsetsearchpath": {
+      "start_point": [
+        2227,
+        0
+      ],
+      "end_point": [
+        2243,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlgetsearchpath": {
+      "start_point": [
+        2245,
+        0
+      ],
+      "end_point": [
+        2253,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlmakeresident": {
+      "start_point": [
+        2255,
+        0
+      ],
+      "end_point": [
+        2271,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlisresident": {
+      "start_point": [
+        2273,
+        0
+      ],
+      "end_point": [
+        2283,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlinterface_register": {
+      "start_point": [
+        2294,
+        0
+      ],
+      "end_point": [
+        2311,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlinterface_free": {
+      "start_point": [
+        2313,
+        0
+      ],
+      "end_point": [
+        2318,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlcaller_set_data": {
+      "start_point": [
+        2320,
+        0
+      ],
+      "end_point": [
+        2365,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlcaller_get_data": {
+      "start_point": [
+        2367,
+        0
+      ],
+      "end_point": [
+        2388,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlgetinfo": {
+      "start_point": [
+        2390,
+        0
+      ],
+      "end_point": [
+        2400,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlhandle_iterate": {
+      "start_point": [
+        2403,
+        0
+      ],
+      "end_point": [
+        2424,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlhandle_fetch": {
+      "start_point": [
+        2427,
+        0
+      ],
+      "end_point": [
+        2442,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlhandle_map": {
+      "start_point": [
+        2445,
+        0
+      ],
+      "end_point": [
+        2470,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/ltdl.h": {},
+  "libtool/libtool-2.4.6/libltdl/lt_dlloader.c": {
+    "loader_callback": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlloader_add": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "loader_dump_callback": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": [
+        "\", %s\"",
+        "\"(null)\""
+      ]
+    },
+    "lt_dlloader_dump": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": [
+        "\"loaders: \"",
+        "\"(empty)\"",
+        "\"%s\"",
+        "\"(null)\"",
+        "\"\\n\""
+      ]
+    },
+    "lt_dlloader_next": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlloader_get": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlloader_remove": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        203,
+        1
+      ],
+      "strings": [
+        "\"lt_dlloader_remove\""
+      ]
+    },
+    "lt_dlloader_find": {
+      "start_point": [
+        206,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt_error.c": {
+    "lt_dladderror": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlseterror": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "lt__error_string": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "lt__get_last_error": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "lt__set_last_error": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt__alloc.c": {
+    "alloc_die_default": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": [
+        "\"Out of memory.\\n\""
+      ]
+    },
+    "lt__malloc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    },
+    "lt__zalloc": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    },
+    "lt__realloc": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    },
+    "lt__memdup": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "lt__strdup": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt__argz.c": {
+    "argz_append": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "argz_create_sep": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    },
+    "argz_insert": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    },
+    "argz_next": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    },
+    "argz_stringify": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        224,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt__dirent.c": {
+    "closedir": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "opendir": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": [
+        "\"\\\\\"",
+        "\"\\\\*.*\""
+      ]
+    },
+    "readdir": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt__strl.c": {
+    "lt_strlcat": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": []
+    },
+    "lt_strlcpy": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/slist.c": {
+    "slist_delete": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "slist_remove": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "slist_find": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": []
+    },
+    "slist_concat": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "slist_cons": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": []
+    },
+    "slist_tail": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": []
+    },
+    "slist_nth": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        199,
+        1
+      ],
+      "strings": []
+    },
+    "slist_length": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        212,
+        1
+      ],
+      "strings": []
+    },
+    "slist_reverse": {
+      "start_point": [
+        221,
+        0
+      ],
+      "end_point": [
+        236,
+        1
+      ],
+      "strings": []
+    },
+    "slist_foreach": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        259,
+        1
+      ],
+      "strings": []
+    },
+    "slist_sort_merge": {
+      "start_point": [
+        271,
+        0
+      ],
+      "end_point": [
+        296,
+        1
+      ],
+      "strings": []
+    },
+    "slist_sort": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        335,
+        1
+      ],
+      "strings": []
+    },
+    "slist_box": {
+      "start_point": [
+        349,
+        0
+      ],
+      "end_point": [
+        361,
+        1
+      ],
+      "strings": []
+    },
+    "slist_unbox": {
+      "start_point": [
+        364,
+        0
+      ],
+      "end_point": [
+        378,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt_dlloader.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt_error.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt_system.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__alloc.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__argz_.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__dirent.h": {
+    "struct": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__glibc.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__private.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__strl.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/slist.h": {},
+  "libtool/libtool-2.4.6/libltdl/loaders/dld_link.c": {
+    "get_vtable": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": [
+        "\"lt_dld_link\""
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "vm_open": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "vm_close": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "vm_sym": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/dlopen.c": {
+    "get_vtable": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "strings": [
+        "\"lt_dlopen\"",
+        "\"_\""
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "strings": []
+    },
+    "vm_open": {
+      "start_point": [
+        164,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": [
+        "\"%s%s\""
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        246,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": []
+    },
+    "vm_sym": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/dyld.c": {
+    "get_vtable": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "strings": [
+        "\"lt_dyld\"",
+        "\"_\""
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": []
+    },
+    "vl_init": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": [
+        "\"__dyld_NSAddImage\"",
+        "\"__dyld_NSLookupSymbolInImage\"",
+        "\"__dyld_NSIsSymbolNameDefinedInImage\"",
+        "\"__dyld_NSMakePrivateModulePublic\"",
+        "\"can't close a dylib\""
+      ]
+    },
+    "vm_open": {
+      "start_point": [
+        226,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": []
+    },
+    "vm_close": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        316,
+        1
+      ],
+      "strings": [
+        "\"__DATA\"",
+        "\"__mod_term_func\""
+      ]
+    },
+    "vm_sym": {
+      "start_point": [
+        320,
+        0
+      ],
+      "end_point": [
+        367,
+        1
+      ],
+      "strings": [
+        "\"Symbol not found\""
+      ]
+    },
+    "dylderror": {
+      "start_point": [
+        376,
+        0
+      ],
+      "end_point": [
+        392,
+        1
+      ],
+      "strings": []
+    },
+    "lt__nsmodule_get_header": {
+      "start_point": [
+        395,
+        0
+      ],
+      "end_point": [
+        416,
+        1
+      ],
+      "strings": []
+    },
+    "lt__header_get_instnam": {
+      "start_point": [
+        422,
+        0
+      ],
+      "end_point": [
+        443,
+        1
+      ],
+      "strings": []
+    },
+    "lt__match_loadedlib": {
+      "start_point": [
+        445,
+        0
+      ],
+      "end_point": [
+        465,
+        1
+      ],
+      "strings": []
+    },
+    "lt__linkedlib_symbol": {
+      "start_point": [
+        468,
+        0
+      ],
+      "end_point": [
+        510,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/loadlibrary.c": {
+    "get_vtable": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"ltdl loadlibrary\"",
+        "\"lt_loadlibrary\""
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    },
+    "vm_open": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": []
+    },
+    "vm_close": {
+      "start_point": [
+        246,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": []
+    },
+    "vm_sym": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": []
+    },
+    "loadlibraryerror": {
+      "start_point": [
+        283,
+        0
+      ],
+      "end_point": [
+        306,
+        1
+      ],
+      "strings": []
+    },
+    "wrap_getthreaderrormode": {
+      "start_point": [
+        312,
+        0
+      ],
+      "end_point": [
+        326,
+        1
+      ],
+      "strings": [
+        "\"kernel32.dll\"",
+        "\"GetThreadErrorMode\"",
+        "\"GetErrorMode\""
+      ]
+    },
+    "fallback_getthreaderrormode": {
+      "start_point": [
+        330,
+        0
+      ],
+      "end_point": [
+        339,
+        1
+      ],
+      "strings": []
+    },
+    "wrap_setthreaderrormode": {
+      "start_point": [
+        345,
+        0
+      ],
+      "end_point": [
+        355,
+        1
+      ],
+      "strings": [
+        "\"kernel32.dll\"",
+        "\"SetThreadErrorMode\""
+      ]
+    },
+    "fallback_setthreaderrormode": {
+      "start_point": [
+        359,
+        0
+      ],
+      "end_point": [
+        368,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/load_add_on.c": {
+    "get_vtable": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": [
+        "\"lt_load_add_on\""
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "strings": []
+    },
+    "vm_open": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": []
+    },
+    "vm_close": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    },
+    "vm_sym": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        166,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/preopen.c": {
+    "get_vtable": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "strings": [
+        "\"lt_preopen\""
+      ]
+    },
+    "vl_init": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "vl_exit": {
+      "start_point": [
+        131,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    },
+    "vm_open": {
+      "start_point": [
+        143,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": [
+        "\"@PROGRAM@\""
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        196,
+        0
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "strings": []
+    },
+    "vm_sym": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        232,
+        1
+      ],
+      "strings": [
+        "\"@INIT@\""
+      ]
+    },
+    "free_symlists": {
+      "start_point": [
+        241,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": []
+    },
+    "add_symlist": {
+      "start_point": [
+        259,
+        0
+      ],
+      "end_point": [
+        295,
+        1
+      ],
+      "strings": [
+        "\"@INIT@\""
+      ]
+    },
+    "lt_dlpreload_default": {
+      "start_point": [
+        303,
+        0
+      ],
+      "end_point": [
+        308,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlpreload": {
+      "start_point": [
+        313,
+        0
+      ],
+      "end_point": [
+        333,
+        1
+      ],
+      "strings": []
+    },
+    "lt_dlpreload_open": {
+      "start_point": [
+        339,
+        0
+      ],
+      "end_point": [
+        386,
+        1
+      ],
+      "strings": [
+        "\"@PROGRAM@\"",
+        "\"@PROGRAM@\""
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/shl_load.c": {
+    "get_vtable": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": [
+        "\"lt_shl_load\""
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "strings": []
+    },
+    "vm_open": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": [
+        "\"main\""
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    },
+    "vm_sym": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "strings": []
+    }
+  }
+}

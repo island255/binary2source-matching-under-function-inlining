@@ -1,0 +1,515 @@
+{
+  "macchanger/macchanger-1.6.0/src/mac.c": {
+    "mc_mac_dup": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "content": "mac_t *\nmc_mac_dup (const mac_t *mac)\n{\n\tmac_t *new;\n\n\tnew = (mac_t *)malloc(sizeof(mac_t));\n\tmemcpy (new, mac, sizeof(mac_t));\n\treturn new;\n}",
+      "lines": 9,
+      "depth": 10,
+      "decorators": [
+        "mac_t",
+        "*\nmc_mac_dup (const mac_t *mac)",
+        "*"
+      ]
+    },
+    "mc_mac_free": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "content": "void\nmc_mac_free (mac_t *mac)\n{\n\tfree (mac);\n}",
+      "lines": 5,
+      "depth": 6,
+      "decorators": [
+        "void"
+      ]
+    },
+    "mc_mac_into_string": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "content": "void\nmc_mac_into_string (const mac_t *mac, char *s)\n{\n\tint i;\n\n\tfor (i=0; i<6; i++) {\n\t\tsprintf (&s[i*3], \"%02x%s\", mac->byte[i], i<5?\":\":\"\");\n\t}\n}",
+      "lines": 9,
+      "depth": 11,
+      "decorators": [
+        "void"
+      ]
+    },
+    "mc_mac_random": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "content": "void\nmc_mac_random (mac_t *mac, unsigned char last_n_bytes, char set_bia)\n{\n\t/* The LSB of first octet can not be set.  Those are musticast\n\t * MAC addresses and not allowed for network device:\n\t * x1:, x3:, x5:, x7:, x9:, xB:, xD: and xF:\n\t */\n\n\tswitch (last_n_bytes) {\n\tcase 6:\n\t\t/* 8th bit: Unicast / Multicast address\n\t\t * 7th bit: BIA (burned-in-address) / locally-administered\n\t\t */\n\t\tmac->byte[0] = (random()%255) & 0xFC;\n\t\tmac->byte[1] = random()%255;\n\t\tmac->byte[2] = random()%255;\n\tcase 3:\n\t\tmac->byte[3] = random()%255;\n\t\tmac->byte[4] = random()%255;\n\t\tmac->byte[5] = random()%255;\n\t}\n\n\t/* Handle the burned-in-address bit\n\t */\n\tif (set_bia) {\n\t\tmac->byte[0] &= ~2;\n\t} else {\n\t\tmac->byte[0] |= 2;\n\t}\n}",
+      "lines": 30,
+      "depth": 13,
+      "decorators": [
+        "void"
+      ]
+    },
+    "mc_mac_equal": {
+      "start_point": [
+        94,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "content": "int\nmc_mac_equal (const mac_t *mac1, const mac_t *mac2)\n{\n\tint i;\n\n\tfor (i=0; i<6; i++) {\n\t\tif (mac1->byte[i] != mac2->byte[i]) {\n\t\t\treturn 0;\n\t\t}\n\t}\n\treturn 1;\n}",
+      "lines": 12,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "mc_mac_next": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "content": "void\nmc_mac_next (mac_t *mac)\n{\n\tif (++mac->byte[5]) return;\n\tif (++mac->byte[4]) return;\n\tif (++mac->byte[3]) return;\n\tif (++mac->byte[2]) return;\n\tif (++mac->byte[1]) return;\n\tif (++mac->byte[0]) return;\n\tmac->byte[5] = 1;\n}",
+      "lines": 11,
+      "depth": 8,
+      "decorators": [
+        "void"
+      ]
+    },
+    "mc_mac_read_string": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "content": "int\nmc_mac_read_string (mac_t *mac, char *string)\n{\n\tint nbyte = 5;\n\n\t/* Check the format */\n\tif (strlen(string) != 17) {\n\t\tfprintf (stderr, \"[ERROR] Incorrect format: MAC length should be 17. %s(%lu)\\n\", string, strlen(string));\n\t\treturn -1;\n\t}\n\n\tfor (nbyte=2; nbyte<16; nbyte+=3) {\n\t\tif (string[nbyte] != ':') {\n\t\t\tfprintf (stderr, \"[ERROR] Incorrect format: %s\\n\", string);\n\t\t\treturn -1;\n\t\t}\n\t}\n\n\t/* Read the values */\n\tfor (nbyte=0; nbyte<6; nbyte++) {\n\t\tmac->byte[nbyte] = (char) (strtoul(string+nbyte*3, 0, 16) & 0xFF);\n\t}\n\n\treturn 0;\n}",
+      "lines": 25,
+      "depth": 14,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "macchanger/macchanger-1.6.0/src/mac.h": {},
+  "macchanger/macchanger-1.6.0/src/maclist.c": {
+    "mc_maclist_get_cardname_from_list": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "content": "static char *\nmc_maclist_get_cardname_from_list (const mac_t *mac, card_mac_list_item_t *list)\n{\n\tint i = 0;\n\n\twhile (list[i].name) {\n\t\tif ((mac->byte[0] == list[i].byte[0]) &&\n\t\t    (mac->byte[1] == list[i].byte[1]) &&\n\t\t    (mac->byte[2] == list[i].byte[2]))\n\t\t{\n\t\t\treturn list[i].name;\n\t\t}\n\t\ti++;\n\t}\n\n\treturn NULL;\n}",
+      "lines": 17,
+      "depth": 14,
+      "decorators": [
+        "static",
+        "static",
+        "char",
+        "*\nmc_maclist_get_cardname_from_list (const mac_t *mac, card_mac_list_item_t *list)",
+        "*"
+      ]
+    },
+    "mc_maclist_get_cardname": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "content": "static char *\nmc_maclist_get_cardname (const mac_t *mac)\n{\n\tchar *name;\n\n\tname = mc_maclist_get_cardname_from_list (mac, list_wireless);\n\tif (name) {\n\t\treturn name;\n\t}\n\n\tname = mc_maclist_get_cardname_from_list (mac, list_others);\n\treturn name;\n}",
+      "lines": 13,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "char",
+        "*\nmc_maclist_get_cardname (const mac_t *mac)",
+        "*"
+      ]
+    },
+    "mc_maclist_get_cardname_with_default": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "content": "const char *\nmc_maclist_get_cardname_with_default (const mac_t *mac, const char *def)\n{\n\tchar *name;\n\tname = mc_maclist_get_cardname (mac);\n\treturn name ? name : def;\n}",
+      "lines": 7,
+      "depth": 7,
+      "decorators": [
+        "const",
+        "const",
+        "char",
+        "*\nmc_maclist_get_cardname_with_default (const mac_t *mac, const char *def)",
+        "*"
+      ]
+    },
+    "mc_maclist_set_random_vendor_from_list": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        92,
+        1
+      ],
+      "content": "static void\nmc_maclist_set_random_vendor_from_list (mac_t *mac, card_mac_list_item_t *list)\n{\n\tint i, num = 0;\n\n\t/* Count */\n\twhile (list[++num].name);\n\n\t/* Choose one randomly */\n\tnum = random()%num;\n\n\t/* Copy the vender MAC range */\n\tfor (i=0; i<3; i++) {\n\t\tmac->byte[i] = list[num].byte[i];\n\t}\n}",
+      "lines": 16,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "mc_maclist_set_random_vendor": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "content": "void\nmc_maclist_set_random_vendor (mac_t *mac, mac_type_t type)\n{\n\tunsigned long num;\n\tlong          total;\n\n\ttotal = LIST_LENGTH (list_others) +\n\t\tLIST_LENGTH (list_wireless);\n\n\tnum = random() % total;\n\n\tswitch (type) {\n\tcase mac_is_anykind:\n\t\tif (num < LIST_LENGTH(list_others)) {\n\t\t\tmc_maclist_set_random_vendor_from_list (mac, list_others);\n\t\t} else {\n\t\t\tmc_maclist_set_random_vendor_from_list (mac, list_wireless);\n\t\t}\n\t\tbreak;\n\tcase mac_is_wireless:\n\t\tmc_maclist_set_random_vendor_from_list (mac, list_wireless);\n\t\tbreak;\n\tcase mac_is_others:\n\t\tmc_maclist_set_random_vendor_from_list (mac, list_others);\n\t\tbreak;\n\t}\n}",
+      "lines": 27,
+      "depth": 11,
+      "decorators": [
+        "void"
+      ]
+    },
+    "mc_maclist_is_wireless": {
+      "start_point": [
+        124,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "content": "int\nmc_maclist_is_wireless (const mac_t *mac)\n{\n\treturn (mc_maclist_get_cardname_from_list (mac, list_wireless) != NULL);\n}",
+      "lines": 5,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "mc_maclist_print_from_list": {
+      "start_point": [
+        131,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "content": "static void\nmc_maclist_print_from_list (card_mac_list_item_t *list, const char *keyword)\n{\n\tint i = 0;\n\n\twhile (list[i].name) {\n\t\tif (!keyword || (keyword && strstr(list[i].name, keyword))) {\n\t\t\tprintf (\"%04i - %02x:%02x:%02x - %s\\n\", i,\n\t\t\t\tlist[i].byte[0], list[i].byte[1],list[i].byte[2],\n\t\t\t\tlist[i].name);\n\t\t}\n\t\ti++;\n\t}\n}",
+      "lines": 14,
+      "depth": 14,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "mc_maclist_print": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "content": "void\nmc_maclist_print (const char *keyword)\n{\n\tprintf (\"Misc MACs:\\n\"\n\t\t\"Num    MAC        Vendor\\n\"\n\t\t\"---    ---        ------\\n\");\n\tmc_maclist_print_from_list (list_others, keyword);\n\n\tprintf (\"\\n\"\n\t\t\"Wireless MACs:\\n\"\n\t\t\"Num    MAC        Vendor\\n\"\n\t\t\"---    ---        ------\\n\");\n\tmc_maclist_print_from_list (list_wireless, keyword);\n}",
+      "lines": 14,
+      "depth": 8,
+      "decorators": [
+        "void"
+      ]
+    },
+    "mc_maclist_read_from_file": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        204,
+        1
+      ],
+      "content": "static card_mac_list_item_t *\nmc_maclist_read_from_file (const char *fullpath)\n{\n\tFILE *f;\n\tchar *line;\n\tchar  tmp[512];\n\tint   num =0;\n\tcard_mac_list_item_t *list;\n\n\tif ((f = fopen(fullpath, \"r\")) == NULL) {\n\t\tfprintf (stderr, \"[ERROR] Could not read data file: %s\\n\", fullpath);\n\t\treturn NULL;\n\t}\n\n\t/* Count lines */\n\twhile ((line = fgets (tmp, 511, f)) != NULL) num++;\n\trewind (f);\n\n\t/* Get mem */\n\tlist = (card_mac_list_item_t *) malloc (sizeof(card_mac_list_item_t) * (num+1));\n\n\t/* Parse it */\n\tnum = 0;\n\twhile ((line = fgets (tmp, 511, f)) != NULL) {\n\t\tlist[num].byte[0] = (char) (strtoul (line, NULL, 16) & 0xFF);\n\t\tlist[num].byte[1] = (char) (strtoul (line+3, NULL, 16) & 0xFF);\n\t\tlist[num].byte[2] = (char) (strtoul (line+6, NULL, 16) & 0xFF);\n\n\t\tline[strlen(line)-1] = '\\0';\n\t\tlist[num].name = (char*)(strdup(line+9));\n\n\t\tnum ++;\n\t}\n\n\t/* End of list */\n\tlist[num].byte[0] = list[num].byte[1] = list[num].byte[2] = 0;\n\tlist[num].name = NULL;\n\n\tfclose (f);\n\n\treturn list;\n}",
+      "lines": 42,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "card_mac_list_item_t",
+        "*\nmc_maclist_read_from_file (const char *fullpath)",
+        "*"
+      ]
+    },
+    "mc_maclist_init": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "content": "int\nmc_maclist_init (void)\n{\n\tlist_others = mc_maclist_read_from_file(LISTDIR \"/OUI.list\");\n\tlist_wireless = mc_maclist_read_from_file(LISTDIR \"/wireless.list\");\n\n\treturn (list_others && list_wireless)? 0 : -1;\n}",
+      "lines": 8,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "free_list": {
+      "start_point": [
+        217,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "content": "static void\nfree_list (card_mac_list_item_t *list)\n{\n\tint i = 0;\n\twhile (list[i].name) {\n\t\tfree(list[i].name);\n\t\ti++;\n\t}\n\tfree(list);\n}",
+      "lines": 10,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "mc_maclist_free": {
+      "start_point": [
+        229,
+        0
+      ],
+      "end_point": [
+        234,
+        1
+      ],
+      "content": "void\nmc_maclist_free (void)\n{\n\tfree_list (list_others);\n\tfree_list (list_wireless);\n}",
+      "lines": 6,
+      "depth": 6,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "macchanger/macchanger-1.6.0/src/maclist.h": {},
+  "macchanger/macchanger-1.6.0/src/main.c": {
+    "print_help": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "content": "static void\nprint_help (void)\n{\n\tprintf (\"GNU MAC Changer\\n\"\n\t\t\"Usage: macchanger [options] device\\n\\n\"\n\t\t\"  -h,  --help                   Print this help\\n\"\n\t\t\"  -V,  --version                Print version and exit\\n\"\n\t\t\"  -s,  --show                   Print the MAC address and exit\\n\"\n\t\t\"  -e,  --endding                Don't change the vendor bytes\\n\"\n\t\t\"  -a,  --another                Set random vendor MAC of the same kind\\n\"\n\t\t\"  -A                            Set random vendor MAC of any kind\\n\"\n\t\t\"  -p,  --permanent              Reset to original, permanent hardware MAC\\n\"\n\t\t\"  -r,  --random                 Set fully random MAC\\n\"\n\t\t\"  -l,  --list[=keyword]         Print known vendors\\n\"\n\t\t\"  -b,  --bia                    Pretend to be a burned-in-address\\n\"\n\t\t\"  -m,  --mac=XX:XX:XX:XX:XX:XX  Set the MAC XX:XX:XX:XX:XX:XX\\n\\n\"\n\t\t\"Report bugs to https://github.com/alobbs/macchanger/issues\\n\");\n}",
+      "lines": 18,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "print_usage": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "content": "static void\nprint_usage (void)\n{\n\tprintf (\"GNU MAC Changer\\n\"\n\t\t\"Usage: macchanger [options] device\\n\\n\"\n\t\t\"Try `macchanger --help' for more options.\\n\");\n}",
+      "lines": 7,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "print_mac": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "content": "static void\nprint_mac (const char *s, const mac_t *mac)\n{\n\tchar string[18];\n\tint  is_wireless;\n\n\tis_wireless = mc_maclist_is_wireless(mac);\n\tmc_mac_into_string (mac, string);\n\tprintf (\"%s%s%s (%s)\\n\", s,\n\t\tstring,\n\t\tis_wireless ? \" [wireless]\": \"\",\n\t\tCARD_NAME(mac));\n}",
+      "lines": 13,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "random_seed": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "content": "static void\nrandom_seed (void)\n{\n\tint            fd;\n\tstruct timeval tv;\n\tunsigned int   seed;\n\n\tif ((fd = open(\"/dev/urandom\", O_RDONLY)) >= 0 ||\n\t    (fd = open(\"/dev/random\", O_RDONLY)) >= 0)\n\t{\n\t\tread (fd, &seed, sizeof(seed));\n\t\tclose (fd);\n\t} else {\n\t\tgettimeofday (&tv, NULL);\n\t\tseed = (getpid() << 16) ^ tv.tv_sec ^ tv.tv_usec;\n\t}\n\n\tsrandom(seed);\n}",
+      "lines": 19,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "main": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        279,
+        1
+      ],
+      "content": "int\nmain (int argc, char *argv[])\n{\n\tchar random       = 0;\n\tchar endding      = 0;\n\tchar another_any  = 0;\n\tchar another_same = 0;\n\tchar permanent    = 0;\n\tchar print_list   = 0;\n\tchar show         = 0;\n\tchar set_bia      = 0;\n\tchar *set_mac     = NULL;\n\tchar *search_word = NULL;\n\n\tstruct option long_options[] = {\n\t\t/* Options without arguments */\n\t\t{\"help\",        no_argument,       NULL, 'h'},\n\t\t{\"version\",     no_argument,       NULL, 'V'},\n\t\t{\"random\",      no_argument,       NULL, 'r'},\n\t\t{\"endding\",     no_argument,       NULL, 'e'},\n\t\t{\"another\",     no_argument,       NULL, 'a'},\n\t\t{\"permanent\",   no_argument,       NULL, 'p'},\n\t\t{\"show\",        no_argument,       NULL, 's'},\n\t\t{\"another_any\", no_argument,       NULL, 'A'},\n\t\t{\"bia\",         no_argument,       NULL, 'b'},\n\t\t{\"list\",        optional_argument, NULL, 'l'},\n\t\t{\"mac\",         required_argument, NULL, 'm'},\n\t\t{NULL, 0, NULL, 0}\n\t};\n\n\tnet_info_t *net;\n\tmac_t      *mac;\n\tmac_t      *mac_permanent;\n\tmac_t      *mac_faked;\n\tchar       *device_name;\n\tint         val;\n\tint         ret;\n\n\t/* Read the parameters */\n\twhile ((val = getopt_long (argc, argv, \"VasAbrephlm:\", long_options, NULL)) != -1) {\n\t\tswitch (val) {\n\t\tcase 'V':\n\t\t\tprintf (\"GNU MAC changer %s\\n\"\n\t\t\t\t\"Written by Alvaro Lopez Ortega <alvaro@gnu.org>\\n\\n\"\n\t\t\t\t\"Copyright (C) 2003,2013 Alvaro Lopez Ortega <alvaro@gnu.org>.\\n\"\n\t\t\t\t\"This is free software; see the source for copying conditions.  There is NO\\n\"\n\t\t\t\t\"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\\n\",\n\t\t\t\tVERSION);\n\t\t\texit (EXIT_OK);\n\t\t\tbreak;\n\t\tcase 'l':\n\t\t\tprint_list = 1;\n\t\t\tsearch_word = optarg;\n\t\t\tbreak;\n\t\tcase 'r':\n\t\t\trandom = 1;\n\t\t\tbreak;\n\t\tcase 'e':\n\t\t\tendding = 1;\n\t\t\tbreak;\n\t\tcase 'b':\n\t\t\tset_bia = 1;\n\t\t\tbreak;\n\t\tcase 'a':\n\t\t\tanother_same = 1;\n\t\t\tbreak;\n\t\tcase 's':\n\t\t\tshow = 1;\n\t\t\tbreak;\n\t\tcase 'A':\n\t\t\tanother_any = 1;\n\t\t\tbreak;\n\t\tcase 'p':\n\t\t\tpermanent = 1;\n\t\t\tbreak;\n\t\tcase 'm':\n\t\t\tset_mac = optarg;\n\t\t\tbreak;\n\t\tcase 'h':\n\t\tcase '?':\n\t\tdefault:\n\t\t\tprint_help();\n\t\t\texit (EXIT_OK);\n\t\t\tbreak;\n\t\t}\n\t}\n\n\t/* Read the MAC lists */\n\tif (mc_maclist_init() < 0) {\n\t\texit (EXIT_ERROR);\n\t}\n\n\t/* Print list? */\n\tif (print_list) {\n\t\tmc_maclist_print(search_word);\n\t\texit (EXIT_OK);\n\t}\n\n\t/* Get device name argument */\n\tif (optind >= argc) {\n\t\tprint_usage();\n\t\texit (EXIT_OK);\n\t}\n\tdevice_name = argv[optind];\n\n\t/* Seed a random number generator */\n\trandom_seed();\n\n        /* Read the MAC */\n\tif ((net = mc_net_info_new(device_name)) == NULL) {\n\t\texit (EXIT_ERROR);\n\t}\n\tmac = mc_net_info_get_mac(net);\n\tmac_permanent = mc_net_info_get_permanent_mac(net);\n\n\t/* Print the current MAC info */\n\tprint_mac (\"Current MAC:   \", mac);\n\tprint_mac (\"Permanent MAC: \", mac_permanent);\n\n\t/* Change the MAC */\n\tmac_faked = mc_mac_dup (mac);\n\n\tif (show) {\n\t\texit (EXIT_OK);\n\t} else if (set_mac) {\n\t\tif (mc_mac_read_string (mac_faked, set_mac) < 0) {\n\t\t\texit (EXIT_ERROR);\n\t\t}\n\t} else if (random) {\n\t\tmc_mac_random (mac_faked, 6, set_bia);\n\t} else if (endding) {\n\t\tmc_mac_random (mac_faked, 3, set_bia);\n\t} else if (another_same) {\n\t\tval = mc_maclist_is_wireless (mac);\n\t\tmc_maclist_set_random_vendor (mac_faked, val);\n\t\tmc_mac_random (mac_faked, 3, set_bia);\n\t} else if (another_any) {\n\t\tmc_maclist_set_random_vendor(mac_faked, mac_is_anykind);\n\t\tmc_mac_random (mac_faked, 3, set_bia);\n\t} else if (permanent) {\n\t\tmac_faked = mc_mac_dup (mac_permanent);\n\t} else {\n\t\tmc_mac_next (mac_faked);\n\t}\n\n\t/* Set the new MAC */\n\tret = mc_net_info_set_mac (net, mac_faked);\n\tif (ret == 0) {\n\t\t/* Re-read the MAC */\n\t\tmc_mac_free (mac_faked);\n\t\tmac_faked = mc_net_info_get_mac(net);\n\n\t\t/* Print it */\n\t\tprint_mac (\"New MAC:       \", mac_faked);\n\n\t\t/* Is the same MAC? */\n\t\tif (mc_mac_equal (mac, mac_faked)) {\n\t\t\tprintf (\"It's the same MAC!!\\n\");\n\t\t}\n\t}\n\n\t/* Memory free */\n\tmc_mac_free (mac);\n\tmc_mac_free (mac_faked);\n\tmc_mac_free (mac_permanent);\n\tmc_net_info_free (net);\n\tmc_maclist_free();\n\n\treturn (ret == 0) ? EXIT_OK : EXIT_ERROR;\n}",
+      "lines": 170,
+      "depth": 15,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "macchanger/macchanger-1.6.0/src/netinfo.c": {
+    "mc_net_info_new": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "content": "net_info_t *\nmc_net_info_new (const char *device)\n{\n\tnet_info_t *new = (net_info_t *) malloc (sizeof(net_info_t));\n\n\tnew->sock = socket (AF_INET, SOCK_DGRAM, 0);\n\tif (new->sock<0) {\n\t\tperror (\"[ERROR] Socket\");\n\t\tfree(new);\n\t\treturn NULL;\n\t}\n\n\tstrcpy (new->dev.ifr_name, device);\n\tif (ioctl(new->sock, SIOCGIFHWADDR, &new->dev) < 0) {\n\t\tperror (\"[ERROR] Set device name\");\n\t\tfree(new);\n\t\treturn NULL;\n\t}\n\n\treturn new;\n}",
+      "lines": 21,
+      "depth": 10,
+      "decorators": [
+        "net_info_t",
+        "*\nmc_net_info_new (const char *device)",
+        "*"
+      ]
+    },
+    "mc_net_info_free": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "content": "void\nmc_net_info_free (net_info_t *net)\n{\n\tclose(net->sock);\n\tfree(net);\n}",
+      "lines": 6,
+      "depth": 7,
+      "decorators": [
+        "void"
+      ]
+    },
+    "mc_net_info_get_mac": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "content": "mac_t *\nmc_net_info_get_mac (const net_info_t *net)\n{\n\tint    i;\n\tmac_t *new = (mac_t *) malloc (sizeof(mac_t));\n\n\tfor (i=0; i<6; i++) {\n\t\tnew->byte[i] = net->dev.ifr_hwaddr.sa_data[i] & 0xFF;\n\t}\n\n\treturn new;\n}",
+      "lines": 12,
+      "depth": 12,
+      "decorators": [
+        "mac_t",
+        "*\nmc_net_info_get_mac (const net_info_t *net)",
+        "*"
+      ]
+    },
+    "mc_net_info_set_mac": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "content": "int\nmc_net_info_set_mac (net_info_t *net, const mac_t *mac)\n{\n\tint i;\n\n\tfor (i=0; i<6; i++) {\n\t\tnet->dev.ifr_hwaddr.sa_data[i] = mac->byte[i];\n\t}\n\n\tif (ioctl(net->sock, SIOCSIFHWADDR, &net->dev) < 0) {\n\t\tperror (\"[ERROR] Could not change MAC: interface up or insufficient permissions\");\n\t\treturn -1;\n\t}\n\n\treturn 0;\n}",
+      "lines": 16,
+      "depth": 11,
+      "decorators": [
+        "int"
+      ]
+    },
+    "mc_net_info_get_permanent_mac": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "content": "mac_t *\nmc_net_info_get_permanent_mac (const net_info_t *net)\n{\n\tint                       i;\n\tstruct ifreq              req;\n\tstruct ethtool_perm_addr *epa;\n\tmac_t                    *newmac;\n\n\tnewmac = (mac_t *) calloc (1, sizeof(mac_t));\n\n\tepa = (struct ethtool_perm_addr*) malloc(sizeof(struct ethtool_perm_addr) + IFHWADDRLEN);\n\tepa->cmd = ETHTOOL_GPERMADDR;\n\tepa->size = IFHWADDRLEN;\n\n\tmemcpy(&req, &(net->dev), sizeof(struct ifreq));\n\treq.ifr_data = (caddr_t)epa;\n\n\tif (ioctl(net->sock, SIOCETHTOOL, &req) < 0) {\n\t\tperror (\"[ERROR] Could not read permanent MAC\");\n\t} else {\n\t\tfor (i=0; i<6; i++) {\n\t\t\tnewmac->byte[i] = epa->data[i];\n\t\t}\n\t}\n\n\tfree(epa);\n\treturn newmac;\n}",
+      "lines": 28,
+      "depth": 12,
+      "decorators": [
+        "mac_t",
+        "*\nmc_net_info_get_permanent_mac (const net_info_t *net)",
+        "*"
+      ]
+    }
+  },
+  "macchanger/macchanger-1.6.0/src/netinfo.h": {}
+}

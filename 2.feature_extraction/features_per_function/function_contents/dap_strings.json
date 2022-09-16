@@ -1,0 +1,7356 @@
+{
+  "dap/dap-3.10/examples/cda171.c": {
+    "main": {
+      "start_point": [
+        5,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": [
+        "\"cda171.dat\"",
+        "\" \"",
+        "\"defendant victim penalty n\"",
+        "\"cda171\"",
+        "\"\"",
+        "\"cda171\"",
+        "\"defendant victim penalty\"",
+        "\"\"",
+        "\"(DV, P) vs (D, V, P)\"",
+        "\"cda171.srt\"",
+        "\"n defendant victim penalty\"",
+        "\"victim penalty defendant\"",
+        "\"defendant*victim penalty\"",
+        "\"\"",
+        "\"cda171.srt.llm\"",
+        "\"defendant victim _type_ penalty\"",
+        "\"\"",
+        "\"cda171.srt.llm.srt\"",
+        "\"defendant victim\"",
+        "\"_type_ penalty n\"",
+        "\"s6.2 30\"",
+        "\"\"",
+        "\"(DV, VP) vs (DV, P)\"",
+        "\"cda171.srt\"",
+        "\"n defendant victim penalty\"",
+        "\"defendant*victim penalty\"",
+        "\"defendant*victim victim*penalty\"",
+        "\"\"",
+        "\"cda171.srt.llm\"",
+        "\"defendant victim _type_ penalty\"",
+        "\"\"",
+        "\"cda171.srt.llm.srt\"",
+        "\"defendant victim\"",
+        "\"_type_ penalty n\"",
+        "\"s6.2 30\"",
+        "\"\"",
+        "\"(DV, DP, VP) vs (DV, VP)\"",
+        "\"cda171.srt\"",
+        "\"n defendant victim penalty\"",
+        "\"defendant*victim victim*penalty\"",
+        "\"defendant*victim defendant*penalty victim*penalty\"",
+        "\"\"",
+        "\"cda171.srt.llm\"",
+        "\"defendant victim _type_ penalty\"",
+        "\"\"",
+        "\"cda171.srt.llm.srt\"",
+        "\"defendant victim\"",
+        "\"_type_ penalty n\"",
+        "\"s6.2 30\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/examples/cda262.c": {
+    "main": {
+      "start_point": [
+        4,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": [
+        "\"cda262.dat\"",
+        "\" \"",
+        "\"Income JobSat count\"",
+        "\"cda262\"",
+        "\"\"",
+        "\"<6\"",
+        "\"6-15\"",
+        "\"15-25\"",
+        "\">25\"",
+        "\"VeryDis\"",
+        "\"LittleDis\"",
+        "\"ModSat\"",
+        "\"VerySat\"",
+        "\"cda262\"",
+        "\"count income jobsat\"",
+        "\"\"",
+        "\"mu <6 6-15 15-25 VeryDis LittleDis ModSat ?Inc*Sat\"",
+        "\"\"",
+        "\"\"",
+        "\"cda262.cat\"",
+        "\"income _type_ jobsat\"",
+        "\"\"",
+        "\"cda262.cat.srt\"",
+        "\"income\"",
+        "\"_type_ jobsat count\"",
+        "\"6.2\"",
+        "\"\""
+      ]
+    },
+    "expect": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "dap/dap-3.10/examples/custom.c": {
+    "main": {
+      "start_point": [
+        11,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": [
+        "\"custom.dat\"",
+        "\" \"",
+        "\"x part\"",
+        "\"split\"",
+        "\"\"",
+        "\"split\"",
+        "\"x\"",
+        "\"MIN MAX\"",
+        "\"\"",
+        "\"split.mns\"",
+        "\"MIN\"",
+        "\"split\"",
+        "\"class\"",
+        "\"x class part\"",
+        "\"class\"",
+        "\"part class\"",
+        "\"\"",
+        "\"class.srt\"",
+        "\"count\"",
+        "\"N\"",
+        "\"part class\"",
+        "\"class.srt.mns\"",
+        "\"Count\"",
+        "\"X\"",
+        "\"==\"",
+        "\"Split histogram\""
+      ]
+    }
+  },
+  "dap/dap-3.10/examples/standard.c": {
+    "main": {
+      "start_point": [
+        6,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": [
+        "\"standard.dat\"",
+        "\" \"",
+        "\"x y part\"",
+        "\"mtest\"",
+        "\"\"",
+        "\"Means of y\\nError bars are 95% confidence for means\"",
+        "\"mtest\"",
+        "\"part x\"",
+        "\"\"",
+        "\"mtest.srt\"",
+        "\"y\"",
+        "\"x\"",
+        "\"SEM 1.96\"",
+        "\"==\"",
+        "\"part\"",
+        "\"TRIA\"",
+        "\"SQUA\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap.c": {
+    "ecopy": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        120,
+        1
+      ],
+      "strings": [
+        "\"\\nDap, Copyright (C) 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.\\n\"",
+        "\"Dap comes with ABSOLUTELY NO WARRANTY;\\n\"",
+        "\"for details see the GNU Public License.\\n\"",
+        "\"This is free software, and you are welcome to\\n\"",
+        "\"redistribute it under certain conditions; see\\n\"",
+        "\"the GNU Public License for details.\\n\\n\"",
+        "\"dap: no files to process\\n\"",
+        "\"--help\"",
+        "\"-h\"",
+        "\"Usage:\\ndap [-k] [-d] FILE1.c [ FILE2.c ... ] [-a ARG1 ...]\\n\"",
+        "\"dap [--keep] [--debug] FILE1.c [ FILE2.c ... ] [--args] ARG1 ...]\\n\"",
+        "\"dap [-k] [-d] FILE1.sbs [ FILE2.c ... ]\\n\"",
+        "\"dap [--keep] [--debug] FILE1.sbs [ FILE2.c ... ]\\n\"",
+        "\"\\nReport bugs to <bug-dap@gnu.org>\\n\"",
+        "\"--version\"",
+        "\"-v\"",
+        "\"Dap 3.6\\n\"",
+        "\"dap: bad option: %s\\n\"",
+        "\"DAPEDITOR\"",
+        "\"DAPEDOPTS\"",
+        "\"DAPPP\"",
+        "\"DAPRUNS\"",
+        "\"INCDIR\"",
+        "\"LIBDIR\""
+      ]
+    },
+    "srctype": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": [
+        "\".c\"",
+        "\".sbs\"",
+        "\"dap: name must end in .c or .sbs: %s\\n\""
+      ]
+    },
+    "edrun": {
+      "start_point": [
+        143,
+        0
+      ],
+      "end_point": [
+        203,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\".log\"",
+        "\".lst\"",
+        "\".c\"",
+        "\".sbs\"",
+        "\"(shell-command \\\" &\\\")\"",
+        "\"(shell-command \\\"%s \"",
+        "\" \"",
+        "\"&\\\")\"",
+        "\"--eval\"",
+        "\"-a\"",
+        "\"--args\""
+      ]
+    },
+    "suffix": {
+      "start_point": [
+        206,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "strings": [
+        "\".c\"",
+        "\".sbs\"",
+        "\"dap: name must end in .c or .sbs: %s\\n\""
+      ]
+    },
+    "argcpy": {
+      "start_point": [
+        231,
+        0
+      ],
+      "end_point": [
+        242,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    },
+    "parseopts": {
+      "start_point": [
+        247,
+        0
+      ],
+      "end_point": [
+        285,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap.h": {},
+  "dap/dap-3.10/src/dap0.c": {
+    "dap_malloc": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": [
+        "\"malloc %x %s\\n\""
+      ]
+    },
+    "dap_free": {
+      "start_point": [
+        113,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": [
+        "\"free %x %s\\n\""
+      ]
+    },
+    "initdo": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": [
+        "\"initdo: dato->do_int\"",
+        "\"initdo: dato->do_il\"",
+        "\"initdo: dato->do_dbl\"",
+        "\"initdo: dato->do_dl\"",
+        "\"initdo: dato->do_str\"",
+        "\"initdo: dato->do_sl\"",
+        "\"initdo: dato->do_nam\"",
+        "\"initdo: dato->do_len\"",
+        "\"initdo: dato->do_in\"",
+        "\"initdo: dato->do_out\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        242,
+        1
+      ],
+      "strings": [
+        "\".dap\"",
+        "\"lst\"",
+        "\".lst\"",
+        "\"a\"",
+        "\"log\"",
+        "\"w\"",
+        "\"err\"",
+        "\"w\"",
+        "\"main: rfile\"",
+        "\"main: dfile\"",
+        "\"main: dap_psname\"",
+        "\"ps\""
+      ]
+    },
+    "dopen": {
+      "start_point": [
+        245,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "strings": [
+        "\"dopen: dname\"",
+        "\"dopen: dname\""
+      ]
+    },
+    "dfopen": {
+      "start_point": [
+        258,
+        0
+      ],
+      "end_point": [
+        370,
+        1
+      ],
+      "strings": [
+        "\"(dfopen) no file name given\\n\"",
+        "\"r\"",
+        "\"w\"",
+        "\"dfopen: rfile[f].rfile_str\"",
+        "\"dfopen: dfile[NDFILES + f].dfile_name\"",
+        "\"a\"",
+        "\"(dfopen) bad mode: %s\\n\"",
+        "\"dfopen: dfile[f].dfile_name\""
+      ]
+    },
+    "dfclose": {
+      "start_point": [
+        372,
+        0
+      ],
+      "end_point": [
+        381,
+        1
+      ],
+      "strings": []
+    },
+    "dgetc": {
+      "start_point": [
+        383,
+        0
+      ],
+      "end_point": [
+        394,
+        1
+      ],
+      "strings": []
+    },
+    "undgetc": {
+      "start_point": [
+        396,
+        0
+      ],
+      "end_point": [
+        411,
+        1
+      ],
+      "strings": [
+        "\"(undgetc) can't unget past beginning of file %s\\n\""
+      ]
+    },
+    "dap_putc": {
+      "start_point": [
+        413,
+        0
+      ],
+      "end_point": [
+        428,
+        1
+      ],
+      "strings": [
+        "\"(dap_putc) too many characters: %s\\n\""
+      ]
+    },
+    "dputs": {
+      "start_point": [
+        430,
+        0
+      ],
+      "end_point": [
+        444,
+        1
+      ],
+      "strings": []
+    },
+    "dputi": {
+      "start_point": [
+        446,
+        0
+      ],
+      "end_point": [
+        461,
+        1
+      ],
+      "strings": [
+        "\"dputi: istr\"",
+        "\"%d\"",
+        "\"%d\""
+      ]
+    },
+    "dflush": {
+      "start_point": [
+        463,
+        0
+      ],
+      "end_point": [
+        466,
+        1
+      ],
+      "strings": []
+    },
+    "dap_suffix": {
+      "start_point": [
+        471,
+        0
+      ],
+      "end_point": [
+        497,
+        1
+      ],
+      "strings": [
+        "\"(dap_suffix) source name has no '.': %s\\n\""
+      ]
+    },
+    "dap_varnum": {
+      "start_point": [
+        500,
+        0
+      ],
+      "end_point": [
+        519,
+        1
+      ],
+      "strings": []
+    },
+    "dap_arrnum": {
+      "start_point": [
+        521,
+        0
+      ],
+      "end_point": [
+        546,
+        1
+      ],
+      "strings": []
+    },
+    "dap_getline": {
+      "start_point": [
+        549,
+        0
+      ],
+      "end_point": [
+        601,
+        1
+      ],
+      "strings": [
+        "\"(dap_getline) line too long:\\n%s\\n\"",
+        "\"(dap_getline) bad infile type: %d\\n\""
+      ]
+    },
+    "dap_swap": {
+      "start_point": [
+        603,
+        0
+      ],
+      "end_point": [
+        646,
+        1
+      ],
+      "strings": []
+    },
+    "dap_save": {
+      "start_point": [
+        648,
+        0
+      ],
+      "end_point": [
+        677,
+        1
+      ],
+      "strings": [
+        "\"dap_save: dosave.do_str[dap_obs[dap_ono].do_in[iv]]\"",
+        "\"dap_save: dap_obs[dap_ono].do_nam[dap_obs[dap_ono].do_in[iv]]\""
+      ]
+    },
+    "dap_rest": {
+      "start_point": [
+        679,
+        0
+      ],
+      "end_point": [
+        708,
+        1
+      ],
+      "strings": []
+    },
+    "dap_ftell": {
+      "start_point": [
+        710,
+        0
+      ],
+      "end_point": [
+        715,
+        1
+      ],
+      "strings": []
+    },
+    "dap_mark": {
+      "start_point": [
+        717,
+        0
+      ],
+      "end_point": [
+        720,
+        1
+      ],
+      "strings": []
+    },
+    "dfseek": {
+      "start_point": [
+        722,
+        0
+      ],
+      "end_point": [
+        737,
+        1
+      ],
+      "strings": [
+        "\"(dfseek) seek past end of ramfile %s\\n\""
+      ]
+    },
+    "dap_rewind": {
+      "start_point": [
+        739,
+        0
+      ],
+      "end_point": [
+        753,
+        1
+      ],
+      "strings": [
+        "\"(dap_rewind) file (%d) is closed.\\n\""
+      ]
+    },
+    "dap_blank": {
+      "start_point": [
+        755,
+        0
+      ],
+      "end_point": [
+        764,
+        1
+      ],
+      "strings": []
+    },
+    "skip": {
+      "start_point": [
+        766,
+        0
+      ],
+      "end_point": [
+        784,
+        1
+      ],
+      "strings": [
+        "\"skip: line\"",
+        "\"(skip) tried to read past end of file (%d).\\n\"",
+        "\"skip: line\""
+      ]
+    },
+    "step": {
+      "start_point": [
+        786,
+        0
+      ],
+      "end_point": [
+        969,
+        1
+      ],
+      "strings": [
+        "\"step: line\"",
+        "\"step: value\"",
+        "\"(step) ERROR: tried to read past end of file (%s).\\n\"",
+        "\"?\"",
+        "\"(step) %d lines read from %s\\n\"",
+        "\"(step) WARNING: terminated on null line\\n\"",
+        "\"(step) %d lines read from  %s\\n\"",
+        "\"(step) WARNING: terminated on null line\\n\"",
+        "\"(step) ERROR: number of input variables %d different from number of fields specified %d for %s.\\n\"",
+        "\"(step (%s:%d)) ERROR: got %d of %d characters for fixed length field for %s: %s\\n\"",
+        "\"(step (%s:%d)) ERROR: got %d of %d characters for fixed length field for %s: %s\\n\"",
+        "\" %d\"",
+        "\"(step (%s:%d)) ERROR: invalid integer data for %s: %s\\n\"",
+        "\".\"",
+        "\" %lf\"",
+        "\"(step (%s:%d)) ERROR: invalid double data for %s: %s\\n\"",
+        "\"(step (%s:%d)) WARNING: string data too long (%d) for %s (%d): %s\\n\""
+      ]
+    },
+    "dap_vd": {
+      "start_point": [
+        976,
+        0
+      ],
+      "end_point": [
+        1114,
+        1
+      ],
+      "strings": [
+        "\"dap_vd: varnam\"",
+        "\"dap_vd: dap_obs[dap_ono].do_nam[v]\"",
+        "\"dap_vd: dap_obs[dap_ono].do_nam[v]\"",
+        "\"(dap_vd) missing variable length: %s\\n\"",
+        "\"(dap_vd) respecification of length of %s from %d to %d\\n\"",
+        "\"(dap_vd) respecification of type of %s\\n\"",
+        "\"(dap_vd) invalid variable length for %s: %s\\n\"",
+        "\"dap_vd: dap_obs[dap_ono].do_str[v]\"",
+        "\"dap_vd: dap_prev[dap_ono].do_str[v]\"",
+        "\"dap_vd: dap_obs[dap_ono].do_str[v]\"",
+        "\"dap_vd: dap_prev[dap_ono].do_str[v]\"",
+        "\"(dap_vd) too many variables: %s\\n\"",
+        "\"dap_vd: varnam\""
+      ]
+    },
+    "dap_dl": {
+      "start_point": [
+        1117,
+        0
+      ],
+      "end_point": [
+        1144,
+        1
+      ],
+      "strings": [
+        "\"(dap_dl) unknown variable %s\\n\""
+      ]
+    },
+    "dap_il": {
+      "start_point": [
+        1147,
+        0
+      ],
+      "end_point": [
+        1174,
+        1
+      ],
+      "strings": [
+        "\"(dap_il) unknown variable %s\\n\""
+      ]
+    },
+    "dap_sl": {
+      "start_point": [
+        1177,
+        0
+      ],
+      "end_point": [
+        1193,
+        1
+      ],
+      "strings": [
+        "\"dap_sl: dap_obs[dap_ono].do_str[v]\"",
+        "\"(dap_sl) unknown variable %s\\n\""
+      ]
+    },
+    "dap_name": {
+      "start_point": [
+        1195,
+        0
+      ],
+      "end_point": [
+        1220,
+        1
+      ],
+      "strings": [
+        "\"/dev/null\"",
+        "\"%s: non-directory file exists: %s\\n\"",
+        "\"/\""
+      ]
+    },
+    "dblcmp": {
+      "start_point": [
+        1222,
+        0
+      ],
+      "end_point": [
+        1229,
+        1
+      ],
+      "strings": []
+    },
+    "intcmp": {
+      "start_point": [
+        1231,
+        0
+      ],
+      "end_point": [
+        1238,
+        1
+      ],
+      "strings": []
+    },
+    "stcmp": {
+      "start_point": [
+        1240,
+        0
+      ],
+      "end_point": [
+        1243,
+        1
+      ],
+      "strings": []
+    },
+    "findlev": {
+      "start_point": [
+        1245,
+        0
+      ],
+      "end_point": [
+        1279,
+        1
+      ],
+      "strings": []
+    },
+    "inclev": {
+      "start_point": [
+        1281,
+        0
+      ],
+      "end_point": [
+        1296,
+        1
+      ],
+      "strings": []
+    },
+    "dataset": {
+      "start_point": [
+        1301,
+        0
+      ],
+      "end_point": [
+        1852,
+        1
+      ],
+      "strings": [
+        "\"dataset: outlist\"",
+        "\"dataset: oldvmem\"",
+        "\"dataset: oldvar\"",
+        "\"dataset: newvmem\"",
+        "\"dataset: newvar\"",
+        "\"dataset: dold\"",
+        "\"dataset: dnew\"",
+        "\"RENAME\"",
+        "\"(dataset) can't find ramfile %s\\n\"",
+        "\"(dataset) can't rename ramfile %s to disk file %s\\n\"",
+        "\"(dataset) can't rename disk file %s to ramfile %s\\n\"",
+        "\"COPY\"",
+        "\"(dataset) variable name too long: %s\\n\"",
+        "\"(dataset) new variable name too long: %s\\n\"",
+        "\" \"",
+        "\"dataset: dap_obs[0].do_nam[vn]\"",
+        "\"dataset: dap_obs[0].do_nam[vn]\"",
+        "\"[%d]\"",
+        "\"[%d]\"",
+        "\"dataset: dap_obs[0].do_nam[vn + c]\"",
+        "\"dataset: dap_obs[0].do_nam[vn + c]\"",
+        "\"(dataset) unknown variable %s\\n\"",
+        "\"r\"",
+        "\"(dataset) can't read %s for copy.\\n\"",
+        "\"w\"",
+        "\"(dataset) can't write %s for copy.\\n\"",
+        "\"FILL\"",
+        "\"dataset: celllist\"",
+        "\"(dataset) missing ':' between variable lists in %s\\n\"",
+        "\"dataset: cellv\"",
+        "\"dataset: classv\"",
+        "\"dataset: inlev\"",
+        "\"dataset: outlev\"",
+        "\"dataset: slevelmem\"",
+        "\"dataset: slevel\"",
+        "\"dataset: dlevelmem\"",
+        "\"dataset: dlevel\"",
+        "\"dataset: ilevelmem\"",
+        "\"dataset: ilevel\"",
+        "\"dataset: nlevels\"",
+        "\"\"",
+        "\"dataset: slevel[c][nlevels[c]]\"",
+        "\"(dataset) too many levels for \\%s\\n\"",
+        "\"dataset: slevel[c][v]\"",
+        "\"REMOVE\"",
+        "\"dataset: dfile[NDFILES + fold].dfile_name\"",
+        "\"dataset: rfile[fold].rfile_str\"",
+        "\"APPEND\"",
+        "\"r\"",
+        "\"w\"",
+        "\"(dataset) Can't create new data set for append: %s\\n\"",
+        "\"r\"",
+        "\"(dataset) can't read old data set for append: %s\\n\"",
+        "\"dap_null\"",
+        "\"\"",
+        "\"dataset: baseobs.do_nam[v]\"",
+        "\"dataset: varspec\"",
+        "\"dataset: clearvar\"",
+        "\"%s %d\"",
+        "\"(dataset) variable %s has different lengths (%d appended to %d) in datasets\\n\"",
+        "\"a\"",
+        "\"(dataset) can't append to new data set: %s\\n\"",
+        "\"dataset: baseobs.do_nam[v]\"",
+        "\"dataset: varspec\"",
+        "\"(dataset) unknown action: %s\\n\"",
+        "\"dataset: dold\"",
+        "\"dataset: dnew\"",
+        "\"dataset: oldvmem\"",
+        "\"dataset: oldvar\"",
+        "\"dataset: newvmem\"",
+        "\"dataset: newvar\"",
+        "\"dataset: outlist\"",
+        "\"dataset: clearvar\"",
+        "\"dataset: celllist\"",
+        "\"dataset: cellv\"",
+        "\"dataset: classv\"",
+        "\"dataset: slevelmem\"",
+        "\"dataset: slevel\"",
+        "\"dataset: dlevelmem\"",
+        "\"dataset: dlevel\"",
+        "\"dataset: ilevelmem\"",
+        "\"dataset: ilevel\"",
+        "\"dataset: inlev\"",
+        "\"dataset: outlev\"",
+        "\"dataset: nlevels\""
+      ]
+    },
+    "getblock": {
+      "start_point": [
+        1856,
+        0
+      ],
+      "end_point": [
+        1866,
+        1
+      ],
+      "strings": []
+    },
+    "dap_clearobs": {
+      "start_point": [
+        1868,
+        0
+      ],
+      "end_point": [
+        1913,
+        1
+      ],
+      "strings": [
+        "\"clearobs: dap_prev[dap_ono].do_str[v]\"",
+        "\"clearobs: dap_obs[dap_ono].do_nam[v]\"",
+        "\"clearobs: dap_obs[dap_ono].do_str[v]\"",
+        "\"_type_ 8\"",
+        "\"_type_\"",
+        "\"(clearobs) missing _type_ variable\\n\""
+      ]
+    },
+    "infile": {
+      "start_point": [
+        1915,
+        0
+      ],
+      "end_point": [
+        2008,
+        1
+      ],
+      "strings": [
+        "\"infile: delim\"",
+        "\"infile: fieldwd\"",
+        "\"/dev/null\"",
+        "\"|\"",
+        "\"(infile) Delimiter string must be at least one character: %s\\n\"",
+        "\"(infile) Delimiter string too long: %s\\n\"",
+        "\"rf\"",
+        "\"(infile) can't read data file: %s\\n\"",
+        "\".dbf\"",
+        "\"(infile) too many field width specifiers.\\n\"",
+        "\"OBS\""
+      ]
+    },
+    "input": {
+      "start_point": [
+        2010,
+        0
+      ],
+      "end_point": [
+        2053,
+        1
+      ],
+      "strings": [
+        "\"input: vname\"",
+        "\"(input) variable name too long: %s\\n\"",
+        "\"(input) unknown variable: %s\\n\""
+      ]
+    },
+    "inset": {
+      "start_point": [
+        2056,
+        0
+      ],
+      "end_point": [
+        2092,
+        1
+      ],
+      "strings": [
+        "\"inset: varspec\"",
+        "\"r\"",
+        "\"(inset) can't read data set: %s\\n\"",
+        "\"(inset) data set empty: %s\\n\""
+      ]
+    },
+    "fixlist": {
+      "start_point": [
+        2097,
+        0
+      ],
+      "end_point": [
+        2190,
+        1
+      ],
+      "strings": [
+        "\"fixlist: vname\"",
+        "\"fixlist: outv\"",
+        "\"(fixlist) missing variable list.\\n\"",
+        "\"(fixlist) missing string for fixed variable list.\\n\"",
+        "\"(fixlist) variable name too long: %s\\n\"",
+        "\"(fixlist) unknown variable: %s\\n\""
+      ]
+    },
+    "outset": {
+      "start_point": [
+        2196,
+        0
+      ],
+      "end_point": [
+        2362,
+        1
+      ],
+      "strings": [
+        "\"(outset) no dataset name.\\n\"",
+        "\"outset: varlist\"",
+        "\"outset: vname\"",
+        "\"w\"",
+        "\"(outset) Can't write data set: %s\\n\"",
+        "\"(outset (%s)) Missing variable list.\\n\"",
+        "\"(outset (%s)) variable not in list of variables to exclude: %s\\n\"",
+        "\"(outset(%s)) unknown variable: %s\\n\"",
+        "\"(outset(%s)) unknown variable: %s\\n\"",
+        "\"_type_\"",
+        "\"(outset (%s)) missing _type_ variable\\n\"",
+        "\"(outset (%s)) duplicate variable in output list: %s\\n\"",
+        "\" \""
+      ]
+    },
+    "output": {
+      "start_point": [
+        2365,
+        0
+      ],
+      "end_point": [
+        2416,
+        1
+      ],
+      "strings": [
+        "\"_type_\"",
+        "\"(output) missing _type_ variable\\n\"",
+        "\"\"",
+        "\"(output) %d lines written to %s...\\n\""
+      ]
+    },
+    "expand": {
+      "start_point": [
+        2422,
+        0
+      ],
+      "end_point": [
+        2522,
+        1
+      ],
+      "strings": [
+        "\"(expand) Missing variable index list.\\n\"",
+        "\"expand: mname\"",
+        "\"expand: newname\"",
+        "\"(expand) Can't rename variables being excluded\\n\"",
+        "\"(expand) More than %d variables: %s\\n\"",
+        "\"expand: dap_obs[dap_ono].do_nam[arrn]\"",
+        "\"expand: dap_obs[dap_ono].do_nam[arrn]\"",
+        "\"%s[%d]\"",
+        "\"expand: dap_obs[dap_ono].do_nam[varv[nvars]]\"",
+        "\"expand: dap_obs[dap_ono].do_nam[varv[nvars]]\"",
+        "\"(expand) Variable unknown: %s\\n\"",
+        "\"expand: mname\"",
+        "\"expand: newname\""
+      ]
+    },
+    "varcat": {
+      "start_point": [
+        2524,
+        0
+      ],
+      "end_point": [
+        2550,
+        1
+      ],
+      "strings": []
+    },
+    "merge": {
+      "start_point": [
+        2558,
+        0
+      ],
+      "end_point": [
+        2934,
+        1
+      ],
+      "strings": [
+        "\"(merge) Missing dataset name.\\n\"",
+        "\"(merge) Variable lists may not contain individual array elements: %s\\n\"",
+        "\"(merge) Variable lists may not contain individual array elements: %s\\n\"",
+        "\"merge: outlist\"",
+        "\"merge: outlist1\"",
+        "\"merge:outlist2\"",
+        "\"merge: varv1\"",
+        "\"merge: varv2\"",
+        "\"merge: ovarv1\"",
+        "\"merge: ovarv2\"",
+        "\"merge: markv1\"",
+        "\"merge: markv2\"",
+        "\"merge: vars1\"",
+        "\"_type_\"",
+        "\" \"",
+        "\"merge: vars1a\"",
+        "\"merge: varv1a\"",
+        "\"_type_\"",
+        "\" \"",
+        "\"merge: vars1\"",
+        "\"merge: varv1\"",
+        "\"merge: vars2\"",
+        "\"_type_\"",
+        "\" \"",
+        "\"merge: vars2a\"",
+        "\"merge: varv2a\"",
+        "\"_type_\"",
+        "\" \"",
+        "\"merge: vars2\"",
+        "\"merge: varv2\"",
+        "\"(merge) Part variables of different types: %s (%d) and %s (%d)\\n\"",
+        "\"_type_ 8\"",
+        "\"merge: dap_obs[2].do_nam[dap_obs[2].do_nvar]\"",
+        "\"merge: dap_obs[1].do_nam[varv2[v2]]\"",
+        "\" \"",
+        "\"(merge) variable appears in lists for both %s and %s: %s\\n\"",
+        "\"merge: dap_obs[2].do_nam[dap_obs[2].do_nvar]\"",
+        "\"merge: dap_obs[0].do_nam[varv1[v1]]\"",
+        "\"_type_\"",
+        "\"OBS\"",
+        "\"merge: dap_obs[2].do_str[ovarv1[v1]]\"",
+        "\"merge: dap_obs[0].do_str[ovarv1[v1]]\"",
+        "\"merge: dap_obs[2].do_str[ovarv2[v2]]\"",
+        "\"merge: dap_obs[1].do_str[ovarv2[v2]]\"",
+        "\"merge: outlist\"",
+        "\"merge: outlist1\"",
+        "\"merge: outlist2\"",
+        "\"merge: ovarv1\"",
+        "\"merge: ovarv2\"",
+        "\"merge: markv1\"",
+        "\"merge: markv2\"",
+        "\"merge: vars1\"",
+        "\"merge: vars2\"",
+        "\"merge: vars1a\"",
+        "\"merge: varv1a\"",
+        "\"merge: varv1\"",
+        "\"merge: vars2a\"",
+        "\"merge: varv2a\"",
+        "\"merge: varv2\""
+      ]
+    },
+    "title": {
+      "start_point": [
+        2936,
+        0
+      ],
+      "end_point": [
+        2939,
+        1
+      ],
+      "strings": []
+    },
+    "dap_head": {
+      "start_point": [
+        2941,
+        0
+      ],
+      "end_point": [
+        2985,
+        1
+      ],
+      "strings": [
+        "\"\\n=================================\"",
+        "\"\\nDap %3d. \"",
+        "\"\\nFor: \"",
+        "\"%s = %g\"",
+        "\"%s = %d\"",
+        "\"%s = %s\"",
+        "\", \""
+      ]
+    },
+    "extractWords": {
+      "start_point": [
+        3010,
+        0
+      ],
+      "end_point": [
+        3051,
+        1
+      ],
+      "strings": []
+    },
+    "cleanAttributeList": {
+      "start_point": [
+        3053,
+        0
+      ],
+      "end_point": [
+        3071,
+        1
+      ],
+      "strings": []
+    },
+    "cleanCharList": {
+      "start_point": [
+        3073,
+        0
+      ],
+      "end_point": [
+        3092,
+        1
+      ],
+      "strings": []
+    },
+    "import": {
+      "start_point": [
+        3096,
+        0
+      ],
+      "end_point": [
+        3294,
+        1
+      ],
+      "strings": [
+        "\"CSV\"",
+        "\"DLM\"",
+        "\"csv\"",
+        "\"dlm\"",
+        "\"TAB\"",
+        "\"tab\"",
+        "\"Format not supported :%s\\n\"",
+        "\"CSV\"",
+        "\"csv\"",
+        "\",\"",
+        "\"DLM\"",
+        "\"dlm\"",
+        "\" \"",
+        "\"TAB\"",
+        "\"tab\"",
+        "\"\\t\"",
+        "\"rb\"",
+        "\"File loading error :%s\\n\"",
+        "\"Memory error \\n\"",
+        "\"2nd Memory error \\n\"",
+        "\"Reading error \\n\"",
+        "\"X%d\"",
+        "\"X%d\"",
+        "\"%f\"",
+        "\"%s -1\"",
+        "\"%s %d\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap1.c": {
+    "sortparse": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    },
+    "fieldcmp": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "sortcmp": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "linediff": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "sort": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        236,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"%s:sort: no dataset name given\\n\"",
+        "\"(sort) Bad modifier(s): %s\\n\"",
+        "\"\"",
+        "\".srt\"",
+        "\"\"",
+        "\"(sort) Number of modifiers %d does not equal number of sort variables %d.\\n\"",
+        "\"(sort) Too many lines in ramfile %s\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "printhead": {
+      "start_point": [
+        239,
+        0
+      ],
+      "end_point": [
+        306,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"Printing: \"",
+        "\"  Obs \"",
+        "\"_type_\"",
+        "\"%12s\"",
+        "\"%s\"",
+        "\"----- \"",
+        "\"\""
+      ]
+    },
+    "print": {
+      "start_point": [
+        316,
+        0
+      ],
+      "end_point": [
+        433,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"(print) variable list contains more than one type of separator\\n\"",
+        "\"_type_\"",
+        "\"(print) Missing _type_ variable.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"%%%dd\"",
+        "\"%%%dg\"",
+        "\"%%-%ds\"",
+        "\"%5d \"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "dap_mnsparse": {
+      "start_point": [
+        435,
+        0
+      ],
+      "end_point": [
+        548,
+        1
+      ],
+      "strings": [
+        "\"(meansparse) Missing variable list.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"(meansparse) Variable name too long: %s\\n\"",
+        "\" \"",
+        "\"(meansparse) Variable must be double: %s\\n\"",
+        "\"(meansparse) Statistics other than N requested for unknown variable %s\\n\"",
+        "\" -1\"",
+        "\" \"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "dap_stats": {
+      "start_point": [
+        592,
+        0
+      ],
+      "end_point": [
+        677,
+        1
+      ],
+      "strings": [
+        "\"(dap_stats) Missing statistics index list.\\n\"",
+        "\"\"",
+        "\"(dap_stats) Statistic name too long: %s\\n\"",
+        "\"STD\"",
+        "\"SD\"",
+        "\"STDERR\"",
+        "\"SEM\"",
+        "\"PRT\"",
+        "\"TPROB\"",
+        "\"MEDIAN\"",
+        "\"MED\"",
+        "\"STEP\"",
+        "\"%lf\"",
+        "\"(dap_stats) Too many user-defined statistics: %s\\n\"",
+        "\"(dap_stats) Invalid statistic name: %s\\n\"",
+        "\"\""
+      ]
+    },
+    "meansout": {
+      "start_point": [
+        679,
+        0
+      ],
+      "end_point": [
+        947,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"_type_\"",
+        "\"(meansout) Missing _type_ variable\\n\"",
+        "\"N\"",
+        "\"SUM\"",
+        "\"SUMWT\"",
+        "\"MEAN\"",
+        "\"MIN\"",
+        "\"MAX\"",
+        "\"RANGE\"",
+        "\"VAR\"",
+        "\"SD\"",
+        "\"SEM\"",
+        "\"VARM\"",
+        "\"VARFREQ\"",
+        "\"SDFREQ\"",
+        "\"SEMFREQ\"",
+        "\"SEMFREQ\"",
+        "\"%d\"",
+        "\"\"",
+        "\"STEP\"",
+        "\"\"",
+        "\"(meansout) Bad number of steps: %s\\n\"",
+        "\"T\"",
+        "\"TPROB\"",
+        "\"\""
+      ]
+    },
+    "dap_list": {
+      "start_point": [
+        949,
+        0
+      ],
+      "end_point": [
+        997,
+        1
+      ],
+      "strings": [
+        "\"(dap_list) Missing variable index list.\\n\"",
+        "\"\"",
+        "\"(dap_list) variable name too long: %s\\n\"",
+        "\"(dap_list) More than %d variables: %s\\n\"",
+        "\"(dap_list) variable unknown: %s\\n\"",
+        "\"\""
+      ]
+    },
+    "dap_newpart": {
+      "start_point": [
+        999,
+        0
+      ],
+      "end_point": [
+        1035,
+        1
+      ],
+      "strings": []
+    },
+    "means": {
+      "start_point": [
+        1037,
+        0
+      ],
+      "end_point": [
+        1166,
+        1
+      ],
+      "strings": [
+        "\"(means) Missing input dataset name.\\n\"",
+        "\"\"",
+        "\".mns\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\" \"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(means) %d NaNs for %s\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "newlab": {
+      "start_point": [
+        1197,
+        0
+      ],
+      "end_point": [
+        1209,
+        1
+      ],
+      "strings": [
+        "\"(newlab) too many column labels: %s\\n\""
+      ]
+    },
+    "nodecnt": {
+      "start_point": [
+        1211,
+        0
+      ],
+      "end_point": [
+        1222,
+        1
+      ],
+      "strings": []
+    },
+    "labelprint": {
+      "start_point": [
+        1224,
+        0
+      ],
+      "end_point": [
+        1238,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"%s\""
+      ]
+    },
+    "divider": {
+      "start_point": [
+        1240,
+        0
+      ],
+      "end_point": [
+        1275,
+        1
+      ],
+      "strings": []
+    },
+    "tableline": {
+      "start_point": [
+        1277,
+        0
+      ],
+      "end_point": [
+        1296,
+        1
+      ],
+      "strings": []
+    },
+    "tablehead": {
+      "start_point": [
+        1298,
+        0
+      ],
+      "end_point": [
+        1352,
+        1
+      ],
+      "strings": [
+        "\" for \"",
+        "\" / \""
+      ]
+    },
+    "valprint": {
+      "start_point": [
+        1354,
+        0
+      ],
+      "end_point": [
+        1370,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    },
+    "tableprint": {
+      "start_point": [
+        1372,
+        0
+      ],
+      "end_point": [
+        1410,
+        1
+      ],
+      "strings": []
+    },
+    "findcol": {
+      "start_point": [
+        1412,
+        0
+      ],
+      "end_point": [
+        1503,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"(findcol) too many columns in table\\n\""
+      ]
+    },
+    "tableform": {
+      "start_point": [
+        1505,
+        0
+      ],
+      "end_point": [
+        1532,
+        1
+      ],
+      "strings": [
+        "\"%\"",
+        "\"f\"",
+        "\"g\"",
+        "\"%%%ds\""
+      ]
+    },
+    "specparse": {
+      "start_point": [
+        1534,
+        0
+      ],
+      "end_point": [
+        1686,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"(specparse) Row variable name too long: %s\\n\"",
+        "\"(specparse) Too many row variables: %s\\n\"",
+        "\"(specparse) Unknown row variable: %s\\n\"",
+        "\"(specparse) Column variable name too long: %s\\n\"",
+        "\"(specparse) Too many column variables: %s\\n\"",
+        "\"(specparse) Unknown column variable: %s\\n\"",
+        "\"(specparse) Format too long %s\\n\"",
+        "\"(specparse) Extra character(s) at end of format: %s\\n\"",
+        "\"(specparse) No format\\n\"",
+        "\"(specparse) No column or analysis variable(s) specified.\\n\"",
+        "\"\""
+      ]
+    },
+    "table": {
+      "start_point": [
+        1688,
+        0
+      ],
+      "end_point": [
+        1858,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"dap_strlen\"",
+        "\"(table) no dataset name given\\n\"",
+        "\"(table) no row and/or column variables specified\\n\"",
+        "\"(table) no format given\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"%d\"",
+        "\"%g\"",
+        "\"(table) No rows.\\n\"",
+        "\"%d\"",
+        "\"%g\""
+      ]
+    },
+    "split": {
+      "start_point": [
+        1866,
+        0
+      ],
+      "end_point": [
+        1975,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"(split) No classification variable specified.\\n\"",
+        "\"(split) No value variable specified: %s\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"!\"",
+        "\"\"",
+        "\".spl\"",
+        "\"(split) Unknown variable: %s\\n\"",
+        "\"(split) Length of %s (%d) differs from that of previous variables (%d)\\n\"",
+        "\" %d\"",
+        "\" %d\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "join": {
+      "start_point": [
+        1980,
+        0
+      ],
+      "end_point": [
+        2130,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\".joi\"",
+        "\"dap_maxvar\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"_type_\"",
+        "\"!%s %s\"",
+        "\"!%s\"",
+        "\"(join) Unknown variable: %s\\n\"",
+        "\"(join) Unknown variable: %s\\n\"",
+        "\"\"",
+        "\"(join) Variable %s not string variable (%d)\\n\"",
+        "\"\"",
+        "\" %d\"",
+        "\"(join) Too few lines in part:\"",
+        "\"(join) Too many lines at %s\\n\"",
+        "\"(join) Missing or extra lines at %s\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "strtoi": {
+      "start_point": [
+        2171,
+        0
+      ],
+      "end_point": [
+        2186,
+        1
+      ],
+      "strings": []
+    },
+    "cleanup": {
+      "start_point": [
+        2188,
+        0
+      ],
+      "end_point": [
+        2199,
+        1
+      ],
+      "strings": [
+        "\"%06d\""
+      ]
+    },
+    "linecmp": {
+      "start_point": [
+        2201,
+        0
+      ],
+      "end_point": [
+        2210,
+        1
+      ],
+      "strings": []
+    },
+    "sortseg": {
+      "start_point": [
+        2213,
+        0
+      ],
+      "end_point": [
+        2278,
+        1
+      ],
+      "strings": [
+        "\"%06d\"",
+        "\"(dsort) can't write %s\\n\"",
+        "\"(dsort) line longer than buffer\\n\""
+      ]
+    },
+    "nextlinecmp": {
+      "start_point": [
+        2283,
+        0
+      ],
+      "end_point": [
+        2286,
+        1
+      ],
+      "strings": []
+    },
+    "merge": {
+      "start_point": [
+        2289,
+        0
+      ],
+      "end_point": [
+        2450,
+        1
+      ],
+      "strings": [
+        "\"nextline\"",
+        "\"segnamemem\"",
+        "\"segname\"",
+        "\"spos\"",
+        "\"segord\"",
+        "\"(dsort) insufficient memory\\n\"",
+        "\"chunkread\"",
+        "\"%06d\"",
+        "\"(dsort) can't read %s\\n\"",
+        "\"(dsort) bad initial read of %s\\n\"",
+        "\"prevline\"",
+        "\"prevline\"",
+        "\"(dsort) can't read %s\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "fieldfix": {
+      "start_point": [
+        2453,
+        0
+      ],
+      "end_point": [
+        2464,
+        1
+      ],
+      "strings": []
+    },
+    "fixheader": {
+      "start_point": [
+        2470,
+        0
+      ],
+      "end_point": [
+        2574,
+        1
+      ],
+      "strings": [
+        "\"headerfield\"",
+        "\"fieldstart\"",
+        "\"fieldlen\"",
+        "\"line\"",
+        "\"(dsort) header line too long %s\\n\"",
+        "\"keyend\"",
+        "\"keymap\"",
+        "\"\""
+      ]
+    },
+    "dsort": {
+      "start_point": [
+        2576,
+        0
+      ],
+      "end_point": [
+        2664,
+        1
+      ],
+      "strings": [
+        "\"header\"",
+        "\"field\"",
+        "\"unfield\"",
+        "\"dsortord\"",
+        "\"(dsort) nmods (%d) != nfields (%d)\\n\"",
+        "\"%s: non-directory file exists: %s\\n\"",
+        "\"mem1\"",
+        "\"(dsort) no fields specified for sorting\\n\"",
+        "\"(dsort) can't read %s\\n\"",
+        "\"(dsort) can't write %s\\n\"",
+        "\"(dsort) can't read header\\n\"",
+        "\"%06d\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "bubblesort": {
+      "start_point": [
+        2666,
+        0
+      ],
+      "end_point": [
+        2708,
+        1
+      ],
+      "strings": [
+        "\"return\"",
+        "\"nb swapped =%d\\n\""
+      ]
+    },
+    "surveyselect": {
+      "start_point": [
+        2710,
+        0
+      ],
+      "end_point": [
+        2786,
+        1
+      ],
+      "strings": [
+        "\"nblines to read = %d, nb selected = %d\\n\"",
+        "\"list\"",
+        "\"reload data\\n\"",
+        "\"create index list based on method\\n\"",
+        "\"SRS\"",
+        "\"SYS\"",
+        "\"sort values\\n\"",
+        "\"set output\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap1.h": {},
+  "dap/dap-3.10/src/dap2.c": {
+    "dblcmp": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    },
+    "ddblcmp": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    },
+    "pctpttest": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "pctile2": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": [
+        "\"_type_\"",
+        "\"(pctile2) missing _type_ variable\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"%lf\"",
+        "\"(pctile2) invalid percentile: %s\\n\"",
+        "\"N\"",
+        "\"MIN\"",
+        "\"MAX\"",
+        "\"QRANGE\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "pctile1": {
+      "start_point": [
+        209,
+        0
+      ],
+      "end_point": [
+        326,
+        1
+      ],
+      "strings": [
+        "\"_type_\"",
+        "\"(pctile1) missing _type_ variable\\n\"",
+        "\"%lf\"",
+        "\"N\"",
+        "\"MIN\"",
+        "\"MAX\"",
+        "\"RANGE\"",
+        "\"QRANGE\""
+      ]
+    },
+    "pctiles": {
+      "start_point": [
+        328,
+        0
+      ],
+      "end_point": [
+        425,
+        1
+      ],
+      "strings": [
+        "\"(pctiles) No dataset name given.\\n\"",
+        "\"\"",
+        "\".pct\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\" \"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(pctiles) NaN value %d for %s\\n\"",
+        "\"(pctiles) Too many data.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "corr1": {
+      "start_point": [
+        427,
+        0
+      ],
+      "end_point": [
+        493,
+        1
+      ],
+      "strings": [
+        "\"_var1_\"",
+        "\"_var2_\"",
+        "\"_corr_\"",
+        "\"_type_\"",
+        "\"N\"",
+        "\"CORR\"",
+        "\"PCORR\""
+      ]
+    },
+    "corr": {
+      "start_point": [
+        495,
+        0
+      ],
+      "end_point": [
+        616,
+        1
+      ],
+      "strings": [
+        "\"(corr) No dataset name given.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\".cor\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(corr) Variable not of type dap_double: %s\\n\"",
+        "\"_var1_ %d\"",
+        "\"_var2_ %d\"",
+        "\"_corr_ %d\"",
+        "\" _var1_ _var2_ _corr_\"",
+        "\"(corr) variables must be of type double: %s\\n\"",
+        "\"(corr) NaN value %d for %s\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "groupparse": {
+      "start_point": [
+        634,
+        0
+      ],
+      "end_point": [
+        779,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"(groupparse) variable name too long: %s\\n\"",
+        "\"(groupparse) grouping variable must be of type double: %s\\n\"",
+        "\"(groupparse) invalid number of groups: %s\\n\"",
+        "\"(groupparse) invalid class type: %s\\n\"",
+        "\"(groupparse) too many classes: %d\\n\"",
+        "\"(groupparse) grouping variable must be of type double: %s\\n\"",
+        "\"(groupparse) missing number of groups for %s\\n\"",
+        "\"#\"",
+        "\"/\"",
+        "\"%\"",
+        "\"(groupparse) unknown variable: %s\\n\"",
+        "\"\""
+      ]
+    },
+    "getpoints": {
+      "start_point": [
+        782,
+        0
+      ],
+      "end_point": [
+        823,
+        1
+      ],
+      "strings": []
+    },
+    "group": {
+      "start_point": [
+        825,
+        0
+      ],
+      "end_point": [
+        1042,
+        1
+      ],
+      "strings": [
+        "\"(group) No dataset name given.\\n\"",
+        "\"\"",
+        "\".grp\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"_\"",
+        "\" -1\"",
+        "\"_N_ -1\"",
+        "\"\"",
+        "\"dap_maxval\"",
+        "\"dap_maxval\"",
+        "\"dap_maxbars\"",
+        "\"\"",
+        "\"(group) %d NaNs\\n\"",
+        "\"(group) too many data.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "freq1": {
+      "start_point": [
+        1059,
+        0
+      ],
+      "end_point": [
+        1082,
+        1
+      ],
+      "strings": [
+        "\"COUNT\"",
+        "\"PERCENT\"",
+        "\"FRACTION\""
+      ]
+    },
+    "statparse": {
+      "start_point": [
+        1084,
+        0
+      ],
+      "end_point": [
+        1145,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"(statparse) Statistic name too long: %s\\n\"",
+        "\"COUNT\"",
+        "\"PERCENT\"",
+        "\"ROWPERC\"",
+        "\"COLPERC\"",
+        "\"FRACTION\"",
+        "\"EXPECTED\"",
+        "\"CHISQ\"",
+        "\"ODDSRAT\"",
+        "\"ORDINAL\"",
+        "\"FISHER\"",
+        "\"CMH\"",
+        "\"PAIR\"",
+        "\"NOMINAL\"",
+        "\"(statparse) Invalid statistic name: %s\\n\"",
+        "\"\""
+      ]
+    },
+    "findlev": {
+      "start_point": [
+        1147,
+        0
+      ],
+      "end_point": [
+        1181,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"%d\"",
+        "\"%g\"",
+        "\"(findlev) Too many levels at: %s\\n\""
+      ]
+    },
+    "tabentry": {
+      "start_point": [
+        1183,
+        0
+      ],
+      "end_point": [
+        1189,
+        1
+      ],
+      "strings": []
+    },
+    "valcpy": {
+      "start_point": [
+        1191,
+        0
+      ],
+      "end_point": [
+        1199,
+        1
+      ],
+      "strings": []
+    },
+    "freq2": {
+      "start_point": [
+        1201,
+        0
+      ],
+      "end_point": [
+        1586,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"Variable: Levels\\n\"",
+        "\"----------------\\n\"",
+        "\"%s:\"",
+        "\" %s\"",
+        "\"EXPECTED\"",
+        "\"ROWPERC\"",
+        "\"COLPERC\"",
+        "\"Chisq0[%d] = %g, Prob[Chisq > Chisq0] = %.5f\\n\"",
+        "\"Odds ratio = %g\\nlog(Odds ratio) = %g, ASE = %g\\n\"",
+        "\"(freq2) Odds ratio computed for 2 x 2 tables only.\\n\"",
+        "\"Fisher's exact test: right     %g\\n\"",
+        "\"                     2-tailed  %g\\n\"",
+        "\"Fisher's exact test: left      %g\\n\"",
+        "\"                     2-tailed  %g\\n\"",
+        "\"(freq2) Fisher's exact test computed for 2 x 2 tables only.\\n\"",
+        "\"Statistic          Value   ASE\\n\"",
+        "\"Gamma             %6.3f  %5.3f\\n\"",
+        "\"Kendall's Tau-b   %6.3f  %5.3f\\n\"",
+        "\"Somers' D C|R     %6.3f  %5.3f\\n\"",
+        "\"Somers' D R|C     %6.3f  %5.3f\\n\"",
+        "\"(freq2) PAIR requires square table, table is %d x %d.\\n\"",
+        "\"Statistic          Value   ASE\\n\"",
+        "\"Kappa             %6.3f  %5.3f\\n\"",
+        "\"Statistic              Value   ASE\\n\"",
+        "\"Uncertainty C|R       %6.3f  %5.3f\\n\"",
+        "\"Uncertainty R|C       %6.3f  %5.3f\\n\"",
+        "\"Uncertainty Symmetric %6.3f  %5.3f\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "freqparse": {
+      "start_point": [
+        1588,
+        0
+      ],
+      "end_point": [
+        1649,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"(freqparse) Only one weight variable allowed: %s\\n\"",
+        "\"(dap_list) Variable name too long: %s\\n\"",
+        "\"(dap_list) Weight variable unknown: %s\\n\"",
+        "\"(dap_list) Variable unknown: %s\\n\"",
+        "\"\""
+      ]
+    },
+    "cmh1": {
+      "start_point": [
+        1651,
+        0
+      ],
+      "end_point": [
+        1666,
+        1
+      ],
+      "strings": []
+    },
+    "printcmh": {
+      "start_point": [
+        1668,
+        0
+      ],
+      "end_point": [
+        1686,
+        1
+      ],
+      "strings": [
+        "\"Cochran-Mantel-Haenszel test for %s x %s, stratified by\"",
+        "\" %s\"",
+        "\"M0-squared = %g, Prob[M-squared > M0-squared] = %g\\n\""
+      ]
+    },
+    "freq": {
+      "start_point": [
+        1688,
+        0
+      ],
+      "end_point": [
+        1834,
+        1
+      ],
+      "strings": [
+        "\"(freq) No dataset name given.\\n\"",
+        "\"\"",
+        "\".frq\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"_type_\"",
+        "\"(freq) Missing _type_ variable.\\n\"",
+        "\"(freq) Cochran-Mantel-Haenszel test performed only for tables with dimension >= 3.\\n\"",
+        "\"_cell_ -1\"",
+        "\" \"",
+        "\" _cell_ \"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "trim1": {
+      "start_point": [
+        1836,
+        0
+      ],
+      "end_point": [
+        1849,
+        1
+      ],
+      "strings": []
+    },
+    "trimparse": {
+      "start_point": [
+        1851,
+        0
+      ],
+      "end_point": [
+        1942,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"(trimparse) trim variable name too long: %s\\n\"",
+        "\"(trimparse) multiple decimal points in percent for %s\\n\"",
+        "\"(trimparse) trim variable not double: %s\\n\"",
+        "\"(trimparse) no percent for trim variable: %s\\n\"",
+        "\"(trimparse) unknown trim variable: %s\\n\"",
+        "\"\""
+      ]
+    },
+    "trim": {
+      "start_point": [
+        1944,
+        0
+      ],
+      "end_point": [
+        2030,
+        1
+      ],
+      "strings": [
+        "\"(trim) No dataset name given.\\n\"",
+        "\"\"",
+        "\".trm\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(trim) NaN value %d for %s\\n\"",
+        "\"(group) Too many data.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap3.c": {
+    "plot1": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": [
+        "\"dap_linelen\"",
+        "\"dap_linelen\"",
+        "\"\"",
+        "\"CIRC\"",
+        "\"\\n\"",
+        "\" \"",
+        "\"%g\"",
+        "\"%d\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "plotparse": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": [
+        "\"(plotparse) X-variable name too long: %s\\n\"",
+        "\"(plotparse) X-axis label too long: %s\\n\"",
+        "\"(plotparse) Expected ` after x-axis label: %s\\n\"",
+        "\"(plotparse) Y-variable name too long: %s\\n\"",
+        "\"(plotparse) Y-axis label too long: %s\\n\""
+      ]
+    },
+    "plot": {
+      "start_point": [
+        260,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(plot) No dataset name given.\\n\"",
+        "\"(plot) No x and y variable list given.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(plot) Invalid x and y variable list: %s\\n\"",
+        "\"(plot) x-variable is not double variable: %s\\n\"",
+        "\"(plot) y-variable is not double variable: %s\\n\"",
+        "\"(plot) %d NaNs\\n\"",
+        "\"(plot) More plots than specified by nplots (%d)\\n\"",
+        "\"(plot) Too many points\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "dblcmp": {
+      "start_point": [
+        377,
+        0
+      ],
+      "end_point": [
+        384,
+        1
+      ],
+      "strings": []
+    },
+    "comb": {
+      "start_point": [
+        393,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "strings": []
+    },
+    "orderf": {
+      "start_point": [
+        413,
+        0
+      ],
+      "end_point": [
+        426,
+        1
+      ],
+      "strings": []
+    },
+    "geta": {
+      "start_point": [
+        430,
+        0
+      ],
+      "end_point": [
+        494,
+        1
+      ],
+      "strings": []
+    },
+    "poly": {
+      "start_point": [
+        528,
+        0
+      ],
+      "end_point": [
+        535,
+        1
+      ],
+      "strings": []
+    },
+    "probw": {
+      "start_point": [
+        537,
+        0
+      ],
+      "end_point": [
+        594,
+        1
+      ],
+      "strings": []
+    },
+    "normal1": {
+      "start_point": [
+        599,
+        0
+      ],
+      "end_point": [
+        711,
+        1
+      ],
+      "strings": [
+        "\"dap_linelen\"",
+        "\"(normal1) Zero standard deviation for %s\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"q-q plot: W|0| = %.4f, P[W < W|0|] = %.3f\"",
+        "\"Shapiro-Wilk test for %s:\\nW0 = %.4f, P[W < W0] = %.3f\\n\"",
+        "\"q-q plot\"",
+        "\"\\n\"",
+        "\"\\n\"",
+        "\"%g\"",
+        "\"%d\"",
+        "\"CIRC\"",
+        "\"LINE\"",
+        "\"z\"",
+        "\"-0 NXDIGITS3\""
+      ]
+    },
+    "normal": {
+      "start_point": [
+        716,
+        0
+      ],
+      "end_point": [
+        842,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(normal) No variable specified.\\n\"",
+        "\"(normal) Variable name too long: %s\\n\"",
+        "\"(normal) Variable label too long: %s\\n\"",
+        "\"(normal) No dataset name given.\\n\"",
+        "\"(normal) Variable unknown: %s\\n\"",
+        "\"(normal) Variable is not double variable: %s\\n\"",
+        "\"(normal) %d NaNs\\n\"",
+        "\"(normal) More plots than specified by nplots (%d)\\n\"",
+        "\"(normal) Too many points\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "arint": {
+      "start_point": [
+        844,
+        0
+      ],
+      "end_point": [
+        852,
+        1
+      ],
+      "strings": []
+    },
+    "histo1": {
+      "start_point": [
+        859,
+        0
+      ],
+      "end_point": [
+        1119,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(histo1) Number of bars is zero.\\n\"",
+        "\"(histo1) Style word too long: %s\\n\"",
+        "\"EQUAL\"",
+        "\"VARIABLE\"",
+        "\"COUNT\"",
+        "\"PERCENT\"",
+        "\"FRACTION\"",
+        "\"ROUND\"",
+        "\" \"",
+        "\"MINX\"",
+        "\"%lf\"",
+        "\"(histo1) bad MINX specification: %s\\n\"",
+        "\"MAXX\"",
+        "\"%lf\"",
+        "\"(histo1) bad MAXX specification: %s\\n\"",
+        "\"Count\"",
+        "\"Percent\"",
+        "\"Fraction\"",
+        "\"(histo1) Can't use count with variable width bars.\\n\"",
+        "\"Density (Percent)\"",
+        "\"Density (Fraction)\"",
+        "\"\\n\"",
+        "\" \"",
+        "\"%g\"",
+        "\"%d\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "histogram": {
+      "start_point": [
+        1122,
+        0
+      ],
+      "end_point": [
+        1260,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(histogram) No dataset name given.\\n\"",
+        "\"(histogram) No variable given.\\n\"",
+        "\"(histogram) Variable is not double variable: %s\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"(histogram) Variable list contains more than two variables: %s\\n\"",
+        "\"(histogram) %d missing values for:\"",
+        "\"%g\"",
+        "\"%d\"",
+        "\"(histogram) More plots than specified by nplots (%d)\\n\"",
+        "\"(histogram) Too many points\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "plotlinreg": {
+      "start_point": [
+        1266,
+        0
+      ],
+      "end_point": [
+        1371,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"_type_\"",
+        "\"(plotlinreg) missing type variable in %s\\n\"",
+        "\"LOWER\"",
+        "\"PRED\"",
+        "\"UPPER\"",
+        "\"\"",
+        "\".mns\"",
+        "\"\"",
+        "\".reg\"",
+        "\"\"",
+        "\".srt\"",
+        "\"STEP100\"",
+        "\"\"",
+        "\"APPEND\"",
+        "\"\"",
+        "\" _type_ \"",
+        "\"\"",
+        "\"\"",
+        "\" \"",
+        "\"_type_\"",
+        "\"\"",
+        "\" _type_\"",
+        "\"\"",
+        "\"o4 \"",
+        "\"LINE\"",
+        "\"LINE\"",
+        "\"LINE\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "plotlogreg": {
+      "start_point": [
+        1375,
+        0
+      ],
+      "end_point": [
+        1550,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\".trl\"",
+        "\"\"",
+        "\".grp\"",
+        "\"\"",
+        "\".srt\"",
+        "\"\"",
+        "\".mns\"",
+        "\"\"",
+        "\".lgr\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"_type_\"",
+        "\"\"",
+        "\" _\"",
+        "\"_ntrials %d\"",
+        "\"\"",
+        "\" %d#\"",
+        "\"\"",
+        "\" _ntrials \"",
+        "\"MEAN\"",
+        "\"\"",
+        "\"_ntrials\"",
+        "\"STEP100\"",
+        "\".mns\"",
+        "\"\"",
+        "\"APPEND\"",
+        "\" _type_ \"",
+        "\"\"",
+        "\".srt\"",
+        "\" \"",
+        "\" _type_\"",
+        "\"\"",
+        "\"o4 \"",
+        "\"LINE\"",
+        "\"LINE\"",
+        "\"LINE\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "plotmeans": {
+      "start_point": [
+        1560,
+        0
+      ],
+      "end_point": [
+        1723,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\" \"",
+        "\"\"",
+        "\" _type_\"",
+        "\"_type_\"",
+        "\"\"",
+        "\".mns\"",
+        "\"\"",
+        "\".err\"",
+        "\"\"",
+        "\".srt\"",
+        "\"\"",
+        "\"MEAN \"",
+        "\"\"",
+        "\"o%d %s\"",
+        "\"\"",
+        "\" \"",
+        "\"_type_ \"",
+        "\"\"",
+        "\" \"",
+        "\"%lf\"",
+        "\"%s: bad scale in call to plotmeans: %s\\n\"",
+        "\"\"",
+        "\"_type_\"",
+        "\"%s: missing _type_ variable for plotmeans\\n\"",
+        "\"MEAN\"",
+        "\"MEAN\"",
+        "\"BAR\"",
+        "\"\"",
+        "\"IBEA\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap4.c": {
+    "gettwo": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "rowred": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        240,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"error terms insufficient to impute missing cells\\n\""
+      ]
+    },
+    "lcm": {
+      "start_point": [
+        242,
+        0
+      ],
+      "end_point": [
+        264,
+        1
+      ],
+      "strings": []
+    },
+    "orthog": {
+      "start_point": [
+        271,
+        0
+      ],
+      "end_point": [
+        410,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "sumcheck": {
+      "start_point": [
+        414,
+        0
+      ],
+      "end_point": [
+        449,
+        1
+      ],
+      "strings": [
+        "\"(sumcheck:%s) Unable to fit model:\\n\"",
+        "\"Error %d sums to %g:\\n\"",
+        "\"Contrast %d sums to %g:\\n\"",
+        "\"%s%d (%x) \"",
+        "\"E\"",
+        "\"C\"",
+        "\" %g\""
+      ]
+    },
+    "testparse": {
+      "start_point": [
+        460,
+        0
+      ],
+      "end_point": [
+        533,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"(testparse) name too long: %s\\n\"",
+        "\"(testparse) unknown variable: %s\\n\"",
+        "\"(testparse) variable in test not in model: %s\\n\"",
+        "\"\""
+      ]
+    },
+    "levn": {
+      "start_point": [
+        535,
+        0
+      ],
+      "end_point": [
+        557,
+        1
+      ],
+      "strings": [
+        "\"(levn) too many levels: %s\\n\""
+      ]
+    },
+    "putrand": {
+      "start_point": [
+        559,
+        0
+      ],
+      "end_point": [
+        578,
+        1
+      ],
+      "strings": [
+        "\"\\n    %g Var(\""
+      ]
+    },
+    "ems": {
+      "start_point": [
+        583,
+        0
+      ],
+      "end_point": [
+        739,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"EMS(\"",
+        "\") =\"",
+        "\"\\n    1 Var(Error)\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "putms": {
+      "start_point": [
+        741,
+        0
+      ],
+      "end_point": [
+        765,
+        1
+      ],
+      "strings": [
+        "\"\\n    %g MS(\"",
+        "\"Error\""
+      ]
+    },
+    "emssolve": {
+      "start_point": [
+        767,
+        0
+      ],
+      "end_point": [
+        845,
+        1
+      ],
+      "strings": []
+    },
+    "ftest1": {
+      "start_point": [
+        847,
+        0
+      ],
+      "end_point": [
+        1069,
+        1
+      ],
+      "strings": [
+        "\"ftest1\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(ftest1) Only one one term allowed in numerator of F-test with denominator\\n\"",
+        "\"Error for \"",
+        "\" =\"",
+        "\"Number of observations = %d\\n\"",
+        "\"H0 SS = %g, df = %d, MS = %g\\n\"",
+        "\"Residual \"",
+        "\"Error \"",
+        "\"df = %g, MS = %g\\n\"",
+        "\"F0 = %g\\n\"",
+        "\"Prob[F > F0] = %.5f\\n\"",
+        "\"Prob[F > F0] = %.5f\\n\"",
+        "\"SS = %g, df = %d, MS = %g\\n\"",
+        "\"R-sq = %g\\n\"",
+        "\"F0 = %g\\nProb[F > F0] = %.5f\\n\"",
+        "\"MSERROR\"",
+        "\"ERRORDF\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "puttest": {
+      "start_point": [
+        1071,
+        0
+      ],
+      "end_point": [
+        1099,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "ftest": {
+      "start_point": [
+        1101,
+        0
+      ],
+      "end_point": [
+        1438,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxcell\"",
+        "\"(ftest) No dataset name given.\\n\"",
+        "\"\"",
+        "\"<tst\"",
+        "\"_type_\"",
+        "\"(ftest) no _type_ variable\\n\"",
+        "\"_term_\"",
+        "\"(ftest) no _term_ variable\\n\"",
+        "\"(ftest) No variables given.\\n\"",
+        "\"(ftest) response variable %s must be of type double\\n\"",
+        "\"(ftest) classification variable %s must be string\\n\"",
+        "\"\"",
+        "\"Testing Ho: %s\\n\"",
+        "\"Testing Ho:\"",
+        "\"Denominator: %s\\n\"",
+        "\"Denominator:\"",
+        "\"N\"",
+        "\"MEAN\"",
+        "\"VAR\"",
+        "\"(ftest) Bad cell statistic: %s\\n\"",
+        "\"(ftest) Missing MEAN.\\n\"",
+        "\"(ftest) Missing N.\\n\"",
+        "\"(ftest) Missing VAR.\\n\"",
+        "\"ERROR\"",
+        "\"CONTR\"",
+        "\"CONTR\"",
+        "\"LSMEAN\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "putlev": {
+      "start_point": [
+        1440,
+        0
+      ],
+      "end_point": [
+        1456,
+        1
+      ],
+      "strings": [
+        "\"Response variable: %s\\n\\n\"",
+        "\"%-15s Levels\\n\"",
+        "\"Treatment\"",
+        "\"%-15s ------\\n\"",
+        "\"--------\"",
+        "\"%-15s\"",
+        "\" %s\""
+      ]
+    },
+    "maketerm": {
+      "start_point": [
+        1458,
+        0
+      ],
+      "end_point": [
+        1600,
+        1
+      ],
+      "strings": [
+        "\"ecc\"",
+        "\"\"",
+        "\"dap_maxtreat\"",
+        "\"dap_maxtreat\"",
+        "\"dap_maxtreat\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "cmpstr": {
+      "start_point": [
+        1602,
+        0
+      ],
+      "end_point": [
+        1605,
+        1
+      ],
+      "strings": []
+    },
+    "eff1": {
+      "start_point": [
+        1607,
+        0
+      ],
+      "end_point": [
+        1856,
+        1
+      ],
+      "strings": [
+        "\"dap_maxtreat\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"N\"",
+        "\"MEAN\"",
+        "\"VAR\"",
+        "\"(eff1) Bad cell statistic: %s\\n\"",
+        "\"(eff1) Missing N.\\n\"",
+        "\"(eff1) Missing MEAN.\\n\"",
+        "\"(eff1) Missing VAR.\\n\"",
+        "\"N\"",
+        "\"MEAN\"",
+        "\"VAR\"",
+        "\"ERROR\"",
+        "\"CONTR\"",
+        "\"LSMEAN\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "effects": {
+      "start_point": [
+        1858,
+        0
+      ],
+      "end_point": [
+        1998,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"dap_maxtreat\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxtreat, dap_maxlev, dap_strlen\"",
+        "\"dap_maxtreat, dap_maxlev\"",
+        "\"dap_maxtreat\"",
+        "\"dap_maxtreat\"",
+        "\"(effects) No dataset name given.\\n\"",
+        "\".con\"",
+        "\"_type_\"",
+        "\"(effects) no _type_ variable\\n\"",
+        "\"_term_ 0\"",
+        "\"(effects) too many variables in model: %s\\n\"",
+        "\"(effects) response variable %s must be of type double\\n\"",
+        "\"(effects) classification variable %s must be string\\n\"",
+        "\" _term_\"",
+        "\" \"",
+        "\"(effects) Incomplete cell statistics for: \"",
+        "\"%s (%s) \"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "lsmeans1": {
+      "start_point": [
+        2002,
+        0
+      ],
+      "end_point": [
+        2310,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"lsmeans1\"",
+        "\"(lsmeans1) Number of independent LS means %d differs from number of levels %d\\n\"",
+        "\"EFFN\"",
+        "\"LSMDIFF\"",
+        "\"MINDIFF\"",
+        "\"MINDIFF\"",
+        "\"PROB\"",
+        "\"LSMDIFF\"",
+        "\"PROB\"",
+        "\"Tukey method\\n\\n\"",
+        "\"Minimum significant differences are for level %.5f\\n\"",
+        "\"LSD  method\\n\"",
+        "\"Minimum significant differences are for level %.5f\\n\"",
+        "\"Dunnett method\\n\"",
+        "\"At level %.5f, minimum significant difference = %.6g\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "lsmeans": {
+      "start_point": [
+        2312,
+        0
+      ],
+      "end_point": [
+        2585,
+        1
+      ],
+      "strings": [
+        "\"(lsmeans) no dataset name given.\\n\"",
+        "\".lsm\"",
+        "\".srt\"",
+        "\"dap_maxtreat\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxlev, dap_strlen\"",
+        "\"dap_maxlev\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxcell\"",
+        "\"dap_maxcell\"",
+        "\"(lsmeans) no variable list given.\\n\"",
+        "\"(lsmeans) no treatments specified.\\n\"",
+        "\"(lsmeans) Treatment variable unknown: %s\\n\"",
+        "\"_\"",
+        "\"\"",
+        "\"%s %d\"",
+        "\"_lsm_ -1\"",
+        "\"_LSMEAN_ -1\"",
+        "\" %d\"",
+        "\"_stat_ %d\"",
+        "\"_type_\"",
+        "\"(lsmeans) no _type_ variable\\n\"",
+        "\"_term_\"",
+        "\"(lsmeans) no _term_ variable\\n\"",
+        "\"\"",
+        "\"(lsmeans) no method specified.\\n\"",
+        "\"TUKEY\"",
+        "\"LSD\"",
+        "\"DUNNETT\"",
+        "\"(lsmeans) unknown method: %s\\n\"",
+        "\"Least-squares means for: %s\\n\"",
+        "\"N\"",
+        "\"MEAN\"",
+        "\"VAR\"",
+        "\"(lsmeans) Bad cell statistic: %s\\n\"",
+        "\"(lsmeans) Missing MEAN.\\n\"",
+        "\"(lsmeans) Missing N.\\n\"",
+        "\"(lsmeans) Missing VAR.\\n\"",
+        "\"ERROR\"",
+        "\"CONTR\"",
+        "\"LSMEAN\"",
+        "\"MSERROR\"",
+        "\"ERRORDF\"",
+        "\"(lsmeans1) Expected ERRORDF: %s\\n\"",
+        "\"\"",
+        "\"%s _type_ _LSMEAN_ %s _lsm_ %s\"",
+        "\"\"",
+        "\"_type_ _LSMEAN_ %s\"",
+        "\"_lsm_ %s _stat_\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap5.c": {
+    "matchmark": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": []
+    },
+    "linreg1": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        350,
+        1
+      ],
+      "strings": [
+        "\"_type_\"",
+        "\"(linreg1) Missing _type_ variable.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(linreg1) X'X matrix is singular.\\n\"",
+        "\"Reduced | full model regressors:\"",
+        "\" %s\"",
+        "\" |\"",
+        "\" %s\"",
+        "\"Number of observations = %d\\n\"",
+        "\"\\nResponse: %s\\n\"",
+        "\"   F0(%d, %d) = %.6g, Prob[F > F0] = %.5f\\n   R-sq = %.6g, Adj R-sq = %.6g\\n\"",
+        "\"   F-change(%d, %d) = %.6g, Prob[F > F-change] = %.5f\\n\"",
+        "\"\\n   Parameter           Estimate    Std Error   T0[%6d]  Prob[|T|>|T0|]\\n\"",
+        "\"   %-15s %12.6g %12.6g %12.6g  %14.5f\\n\"",
+        "\"ESTIMATE\"",
+        "\"\"",
+        "\"COVAR\"",
+        "\"OBS\"",
+        "\"PRED\"",
+        "\"LOWER\"",
+        "\"UPPER\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "linreg": {
+      "start_point": [
+        353,
+        0
+      ],
+      "end_point": [
+        544,
+        1
+      ],
+      "strings": [
+        "\"(linreg) No dataset name given.\\n\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"\"",
+        "\".reg\"",
+        "\"_intercept_ -1\"",
+        "\"_intercept_\"",
+        "\"\"",
+        "\".cov\"",
+        "\"_intercept_\"",
+        "\"_response_ %d\"",
+        "\"_param1_ %d\"",
+        "\"_param2_ %d\"",
+        "\"_cov_ -1\"",
+        "\"\"",
+        "\" %d\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(linreg) %s and %s have different numbers (%d and %d) of x-variables.\\n\"",
+        "\"(linreg) Mark variable %s in %s not in %s.\\n\"",
+        "\"(linreg) No data in %s.\\n\"",
+        "\"(linreg) Variable %s not double.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "dap_parsey": {
+      "start_point": [
+        547,
+        0
+      ],
+      "end_point": [
+        630,
+        1
+      ],
+      "strings": [
+        "\"dap_namelen\"",
+        "\"(parsey) Variable name too long: %s\\n\"",
+        "\"(parsey) Unknown variable: %s\\n\"",
+        "\"(parsey) Events variable not double: %s\\n\"",
+        "\"(parsey) Variable name too long: %s\\n\"",
+        "\"(parsey) Invalid number of trials: %s\\n\"",
+        "\"(parsey) Unknown variable: %s\\n\"",
+        "\"(parsey) Trials variable not double: %s\\n\"",
+        "\"(parsey) Expected / in yspec at: %s\\n\"",
+        "\"\""
+      ]
+    },
+    "vlen": {
+      "start_point": [
+        632,
+        0
+      ],
+      "end_point": [
+        640,
+        1
+      ],
+      "strings": []
+    },
+    "vdiff": {
+      "start_point": [
+        642,
+        0
+      ],
+      "end_point": [
+        654,
+        1
+      ],
+      "strings": []
+    },
+    "dap_invert": {
+      "start_point": [
+        656,
+        0
+      ],
+      "end_point": [
+        726,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "irls": {
+      "start_point": [
+        731,
+        0
+      ],
+      "end_point": [
+        850,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(irls) X'DX matrix is singular\\n\"",
+        "\"Failed to converge after %d iterations.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "logreg1": {
+      "start_point": [
+        853,
+        0
+      ],
+      "end_point": [
+        1037,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"_type_\"",
+        "\"(logreg1) Missing _type_ variable.\\n\"",
+        "\"\"",
+        "\"Reduced | full model regressors:\"",
+        "\" %s\"",
+        "\" |\"",
+        "\" %s\"",
+        "\"Number of observations = %d\\n\"",
+        "\"Number of trials = %d\\n\"",
+        "\"Events / Trials: %s / %s\\n\"",
+        "\"Events / Trials: %s / %d\\n\"",
+        "\"\"",
+        "\"-2 (Lred - Lfull) = %.6g = ChiSq0[%d]\\n\"",
+        "\"Prob[ChiSq > ChiSq0] = %.5f\\n\\n\"",
+        "\"  Parameter           Estimate    Std Error   Wald ChiSq  Prob[ChiSq>Wald ChiSq]\\n\"",
+        "\"  %-15s %12.6g %12.6g %12.6g  %14.5f\\n\"",
+        "\"ESTIMATE\"",
+        "\"\"",
+        "\"COVAR\"",
+        "\"PRED\"",
+        "\"LOWER\"",
+        "\"UPPER\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "logreg": {
+      "start_point": [
+        1040,
+        0
+      ],
+      "end_point": [
+        1230,
+        1
+      ],
+      "strings": [
+        "\"(logreg) No dataset name given.\\n\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"\"",
+        "\".lgr\"",
+        "\"_intercept_ -1\"",
+        "\"_intercept_\"",
+        "\"dap_maxval\"",
+        "\"\"",
+        "\"dap_maxval\"",
+        "\"\"",
+        "\".cov\"",
+        "\"_intercept_\"",
+        "\"_param1_ %d\"",
+        "\"_param2_ %d\"",
+        "\"_cov_ -1\"",
+        "\"\"",
+        "\" %d\"",
+        "\"\"",
+        "\"(logreg) %s and %s have different numbers (%d and %d) of x-variables.\\n\"",
+        "\"(logreg) Mark variable %s in %s not in %s.\\n\"",
+        "\"(logreg) No data in %s.\\n\"",
+        "\"\"",
+        "\"(logreg) Too many data.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "valcmp1": {
+      "start_point": [
+        1237,
+        0
+      ],
+      "end_point": [
+        1244,
+        1
+      ],
+      "strings": []
+    },
+    "probkol": {
+      "start_point": [
+        1246,
+        0
+      ],
+      "end_point": [
+        1262,
+        1
+      ],
+      "strings": []
+    },
+    "nonpar1": {
+      "start_point": [
+        1266,
+        0
+      ],
+      "end_point": [
+        1533,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"dap_maxex2\"",
+        "\"\\nResponse: %s\\n\"",
+        "\"Classified by %s:\"",
+        "\" %s (%d)\"",
+        "\"Number of tied observations = %d\\n\"",
+        "\"\\nWilcoxon rank sum statistic S0 (%s) = %g\\n\"",
+        "\"Expected under H0 = %g\\n\"",
+        "\"Prob[|S - E(S)| >= |S0 - E(S)|] = %.4g (exact)\\n\"",
+        "\"Prob[|S - E(S)| >= |S0 - E(S)|] = %.4g\\n\"",
+        "\"(normal approximation, with continuity correction)\\n\"",
+        "\"\\nKolmogorov statistic D0 = %g\\n\"",
+        "\"Maximum deviation at %g for level %s\\n\"",
+        "\"Prob[D >= D0] = %.4g\\n\"",
+        "\"\\nResponse: %s\\n\"",
+        "\"Classified by %s:\"",
+        "\" %s (%d)\"",
+        "\"Number of tied observations = %d\\n\"",
+        "\"Kruskal-Wallis statistic T0 = %g\\n\"",
+        "\"Prob[T >= T0] = %g (chi-squared approximation, df = %d)\\n\"",
+        "\"Warning: sample may be too small for this approximation.\\n\"",
+        "\"\\nResponse: %s\\n\"",
+        "\"Number of non-zero observations = %d\\n\"",
+        "\"Number of tied observations = %d\\n\"",
+        "\"Number of positive observations = %d\\n\"",
+        "\"\\nWilcoxon signed rank statistic W0 = %g\\n\"",
+        "\"Expected under H0 = %g\\n\"",
+        "\"Prob[|W - E(W)| >= |W0 - E(W)|] = %.4g (exact)\\n\"",
+        "\"Prob[|W - E(W)| >= |W0 - E(W)|] = %.4g\\n\"",
+        "\"(t-approximation, df = %d, with continuity correction)\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "findlev": {
+      "start_point": [
+        1535,
+        0
+      ],
+      "end_point": [
+        1554,
+        1
+      ],
+      "strings": [
+        "\"(findlev) Too many levels (%s)\\n\""
+      ]
+    },
+    "nonparam": {
+      "start_point": [
+        1556,
+        0
+      ],
+      "end_point": [
+        1648,
+        1
+      ],
+      "strings": [
+        "\"(nonparam) No dataset name given.\\n\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxlev, dap_strlen\"",
+        "\"dap_maxlev\"",
+        "\"(nonparam) No variables specified.\\n\"",
+        "\"(nonparam) At most one response and one class variable allowed\\n\"",
+        "\"(nonparam) Variable must be dap_double: %s\\n\"",
+        "\"(nonparam) Classification variable must be dap_char: %s\\n\"",
+        "\"dap_maxval\"",
+        "\"Number of observations = %d\\n\"",
+        "\"(nonparam) Too many values.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap6.c": {
+    "loglike": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "selparse": {
+      "start_point": [
+        63,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    },
+    "categ1": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        389,
+        1
+      ],
+      "strings": [
+        "\"_type_\"",
+        "\"(categ1) missing _type_ variable\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"OBS\"",
+        "\"FIT\"",
+        "\"\"",
+        "\"\"",
+        "\"(categ1) covariance matrix is singular\\n\"",
+        "\"_type_\"",
+        "\"(categ1) output dataset has no _type_ variable\\n\"",
+        "\"Maximum likelihood estimation\\n\\n\"",
+        "\"Cell count: %s\\n\"",
+        "\"Class and aux variables:\"",
+        "\" %s\"",
+        "\"\\nStatistic              df      Prob\\n\"",
+        "\"G2[Model]   = %6.2f  %3d    %.4f\\n\"",
+        "\"G2[Reduced] = %6.2f  %3d    %.4f\\n\"",
+        "\"G2[Diff]    = %6.2f  %3d    %.4f\\n\"",
+        "\"X2[Model]   = %6.2f  %3d    %.4f\\n\"",
+        "\"    Estimate          ASE  Model  Parameter\\n\"",
+        "\"%12g \"",
+        "\"              \"",
+        "\"%12g  \"",
+        "\"           ?  \"",
+        "\"  *    \"",
+        "\"  ?    \"",
+        "\"       \"",
+        "\"ESTIMATE\"",
+        "\"\"",
+        "\"COVAR\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "categ": {
+      "start_point": [
+        391,
+        0
+      ],
+      "end_point": [
+        555,
+        1
+      ],
+      "strings": [
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"dap_maxvar\"",
+        "\"\"",
+        "\"FILL \"",
+        "\" \"",
+        "\"\"",
+        "\".fil\"",
+        "\"\"",
+        "\".cat\"",
+        "\"\"",
+        "\".cov\"",
+        "\"(categ) classification or auxiliary variable not of type double: %s\\n\"",
+        "\"_param1_ %d\"",
+        "\"_param2_ %d\"",
+        "\"_cov_ -1\"",
+        "\"\"",
+        "\" %d\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(categ) too many cells\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "llexpect": {
+      "start_point": [
+        572,
+        0
+      ],
+      "end_point": [
+        603,
+        1
+      ],
+      "strings": []
+    },
+    "findclass": {
+      "start_point": [
+        605,
+        0
+      ],
+      "end_point": [
+        615,
+        1
+      ],
+      "strings": []
+    },
+    "llparse": {
+      "start_point": [
+        622,
+        0
+      ],
+      "end_point": [
+        751,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"(llparse) Unknown class variable %s in model %s\\n\"",
+        "\"(llparse) Unknown class variable %s in model %s\\n\"",
+        "\"(llparse) Term in model0 (\"",
+        "\"*\"",
+        "\"%s\"",
+        "\") not in in model1 (%s)\\n\"",
+        "\"\""
+      ]
+    },
+    "loglin": {
+      "start_point": [
+        764,
+        0
+      ],
+      "end_point": [
+        1293,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\".fil\"",
+        "\"\"",
+        "\"FILL \"",
+        "\" \"",
+        "\"\"",
+        "\".llm\"",
+        "\"\"",
+        "\".cat\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"dap_maxvar\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(loglin) Number of classification variables (%d) exceeds %d.\\n\"",
+        "\"(loglin) Count variable %s unknown.\\n\"",
+        "\"(loglin) Count variable %s not of type double.\\n\"",
+        "\"(loglin) Classification variable %s not a string.\\n\"",
+        "\"\"",
+        "\"\"",
+        "\" -1\"",
+        "\" \"",
+        "\"\"",
+        "\"\"",
+        "\"(loglin) Variable %s has different numbers of levels in different parts of dataset %s\\n\"",
+        "\"(loglin) Number of levels (%g) for %s exceeds maximum (100)\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(loglin) Variable %s has different numbers of levels\\n\"",
+        "\"Loglinear model:\\nnumerical indexes of classification variables\\n\\n\"",
+        "\"Number\"",
+        "\"  %%-%ds\"",
+        "\"------\"",
+        "\"%6d\"",
+        "\"  %%-%ds\"",
+        "\"  %%%ds\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"_mu\"",
+        "\"*\"",
+        "\":\"",
+        "\"%d\"",
+        "\"\"",
+        "\"\"",
+        "\" %d\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "findparam": {
+      "start_point": [
+        1299,
+        0
+      ],
+      "end_point": [
+        1309,
+        1
+      ],
+      "strings": []
+    },
+    "estimate": {
+      "start_point": [
+        1311,
+        0
+      ],
+      "end_point": [
+        1601,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"(estimate) bad coefficient in definition: %s\\n\"",
+        "\"(estimate) definition starting at %s missing an =\\n\"",
+        "\"(estimate) undefined parameter %s in definition\\n\"",
+        "\"(estimate) missing sign or coefficient for parameter %s in definition\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"_type_\"",
+        "\"(estimate) missing _type_ variable in dataset %s\\n\"",
+        "\"_param1_\"",
+        "\"(estimate) missing _param1_ variable in dataset %s\\n\"",
+        "\"_param2_\"",
+        "\"(estimate) missing _param2_ variable in dataset %s\\n\"",
+        "\"_cov_\"",
+        "\"(estimate) missing _cov_ variable in dataset %s\\n\"",
+        "\"\"",
+        "\"    Estimate           SE  Parameter\\n\"",
+        "\"(estimate) estimate for parameter %s not in dataset %s\\n\"",
+        "\"%12g %12g  %s =\"",
+        "\"%s\"",
+        "\" -%s\"",
+        "\"%g%s\"",
+        "\"ESTIMATE\"",
+        "\"COVAR\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dappp.c": {
+    "white": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "alpha": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "num": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "alphanum": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": []
+    },
+    "get1c": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        99,
+        1
+      ],
+      "strings": []
+    },
+    "unget1c": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "dgetc": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        215,
+        1
+      ],
+      "strings": [
+        "\"*/\"",
+        "\"/*\"",
+        "\"dappp:%s:%d: unmatched '\\n\"",
+        "\"dappp:%s:%d: unmatched \\\"\\n\"",
+        "\"dappp:%s:%d: non-terminated comment\\n\"",
+        "\"dappp:%s:%d: incomplete escape\\n\"",
+        "\"dappp:%s:%d: incomplete #\\n\""
+      ]
+    },
+    "gettoken": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        265,
+        1
+      ],
+      "strings": [
+        "\"dappp:%s:%d: token too long: %s\\n\"",
+        "\"dappp:%s:%d: token too long: %s\\n\""
+      ]
+    },
+    "newdef": {
+      "start_point": [
+        268,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": [
+        "\"dappp:%s:%d: too many #defines\\n\""
+      ]
+    },
+    "defval": {
+      "start_point": [
+        302,
+        0
+      ],
+      "end_point": [
+        312,
+        1
+      ],
+      "strings": []
+    },
+    "declare": {
+      "start_point": [
+        322,
+        0
+      ],
+      "end_point": [
+        443,
+        1
+      ],
+      "strings": [
+        "\"dappp\"",
+        "\"[\"",
+        "\"dappp:%s:%d: missing array dimension\\n\"",
+        "\"dappp:%s:%d: zero array dimension\\n\"",
+        "\"dappp:%s:%d: missing ]\\n\"",
+        "\"]\"",
+        "\"dappp:%s:%d: expected ], got %s\\n\"",
+        "\"int\"",
+        "\"dap_vd(\\\"%s[%d] 0\\\", 0);\"",
+        "\"dap_il(\\\"%s\\\", %s);\"",
+        "\"double\"",
+        "\"dap_vd(\\\"%s[%d] -1\\\", 0);\"",
+        "\"dap_dl(\\\"%s\\\", %s);\"",
+        "\"dappp:%s:%d: dimension of character array must be at least 2\\n\"",
+        "\"dap_vd(\\\"%s %d\\\", 0);\"",
+        "\"dap_sl(\\\"%s\\\", %s);\"",
+        "\"dappp:%s:%d: missing delimiter after string declaration\\n\"",
+        "\",\"",
+        "\";\"",
+        "\"int\"",
+        "\"dap_vd(\\\"%s 0\\\", 0);\"",
+        "\"dap_il(\\\"%s\\\", &%s);\"",
+        "\"double\"",
+        "\"dap_vd(\\\"%s -1\\\", 0);\"",
+        "\"dap_dl(\\\"%s\\\", &%s);\"",
+        "\"dappp:%s:%d: string variables must be arrays with explicit dimension\\n\"",
+        "\",\"",
+        "\";\"",
+        "\"dappp:%s:%d: expected `;' or `,', got %s\\n\""
+      ]
+    },
+    "preproc": {
+      "start_point": [
+        451,
+        0
+      ],
+      "end_point": [
+        544,
+        1
+      ],
+      "strings": [
+        "\"dappp\"",
+        "\"dappp\"",
+        "\"double\"",
+        "\"int\"",
+        "\"char\"",
+        "\"dappp\"",
+        "\"dappp\"",
+        "\"dappp\"",
+        "\"double\"",
+        "\"int\"",
+        "\"char\"",
+        "\"dappp\"",
+        "\"infile\"",
+        "\"inset\"",
+        "\"main\"",
+        "\"(\"",
+        "\"dappp:%s:%d: call to %s in infile or inset body\\n\"",
+        "\"{\"",
+        "\"}\""
+      ]
+    },
+    "infile": {
+      "start_point": [
+        547,
+        0
+      ],
+      "end_point": [
+        631,
+        1
+      ],
+      "strings": [
+        "\"define\"",
+        "\"main\"",
+        "\"(\"",
+        "\"dappp\"",
+        "\"dappp\"",
+        "\"dap_\"",
+        "\"infile\"",
+        "\"inset\"",
+        "\"(\"",
+        "\"dappp:%s:%d: expected {, got %c\\n\"",
+        "\"dappp:%s:%d: expected (, got %s\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        633,
+        0
+      ],
+      "end_point": [
+        695,
+        1
+      ],
+      "strings": [
+        "\".sbs\"",
+        "\".c\"",
+        "\"dappp: file name does not end in .c: %s\\n\"",
+        "\"dappp\"",
+        "\"dappp\"",
+        "\"dap.c\"",
+        "\"r\"",
+        "\"dappp:\"",
+        "\"w\"",
+        "\"dappp:\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/daprun.c": {
+    "ecopy": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "strings": [
+        "\"\\nDap, Copyright (C) 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.\\n\"",
+        "\"Dap comes with ABSOLUTELY NO WARRANTY;\\n\"",
+        "\"for details see the GNU Public License.\\n\"",
+        "\"This is free software, and you are welcome to\\n\"",
+        "\"redistribute it under certain conditions; see\\n\"",
+        "\"the GNU Public License for details.\\n\\n\"",
+        "\"dap: no files to process\\n\"",
+        "\"-k\"",
+        "\"--keep\"",
+        "\"-d\"",
+        "\"--debug\"",
+        "\"--help\"",
+        "\"Usage:\\ndap [-k] [-d] FILE1.c [ FILE2.c ... ] [-a ARG1 ...]\\n\"",
+        "\"dap [--keep] [--debug] FILE1.c [ FILE2.c ... ] [--args] ARG1 ...]\\n\"",
+        "\"dap [-k] [-d] FILE1.sbs [ FILE2.c ... ]\\n\"",
+        "\"dap [--keep] [--debug] FILE1.sbs [ FILE2.c ... ]\\n\"",
+        "\"\\nReport bugs to <bug-dap@gnu.org>\\n\"",
+        "\"--version\"",
+        "\"-v\"",
+        "\"Dap 3.6\\n\"",
+        "\"dap: bad option: %s\\n\"",
+        "\"DAPPAGER\"",
+        "\"DAPPAGEOPTS\"",
+        "\"DAPCOMPILER\"",
+        "\"DAPCOMPOPTS\"",
+        "\"DAPVIEWER\"",
+        "\"DAPVIEWOPTS\"",
+        "\"DAPPP\"",
+        "\"INCDIR\"",
+        "\"LIBDIR\"",
+        "\".err\""
+      ]
+    },
+    "dappprun": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\"-a\"",
+        "\"--args\"",
+        "\"Preprocessing...\\n\"",
+        "\"dap\""
+      ]
+    },
+    "suffix": {
+      "start_point": [
+        197,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": [
+        "\".c\"",
+        "\".sbs\"",
+        "\"dap: name must end in .c or .sbs: %s\\n\""
+      ]
+    },
+    "argcpy": {
+      "start_point": [
+        222,
+        0
+      ],
+      "end_point": [
+        233,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    },
+    "gccrun": {
+      "start_point": [
+        236,
+        0
+      ],
+      "end_point": [
+        295,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\"-o\"",
+        "\".dap\"",
+        "\"-I\"",
+        "\"-a\"",
+        "\"--args\"",
+        "\".dap.c\"",
+        "\"-L\"",
+        "\"-ldap\"",
+        "\"-lm\"",
+        "\"Compiling...\\n\"",
+        "\"dap\""
+      ]
+    },
+    "run": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        340,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\".dap\"",
+        "\".lst\"",
+        "\".ps\"",
+        "\"-a\"",
+        "\"--args\"",
+        "\"Executing...\\n\"",
+        "\"dap\""
+      ]
+    },
+    "ask": {
+      "start_point": [
+        343,
+        0
+      ],
+      "end_point": [
+        356,
+        1
+      ],
+      "strings": [
+        "\"%s? [y/q] \"",
+        "\"Invalid response. \""
+      ]
+    },
+    "view": {
+      "start_point": [
+        359,
+        0
+      ],
+      "end_point": [
+        396,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\"dap\""
+      ]
+    },
+    "showps": {
+      "start_point": [
+        399,
+        0
+      ],
+      "end_point": [
+        436,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\".ps\"",
+        "\"dap\""
+      ]
+    },
+    "parseopts": {
+      "start_point": [
+        441,
+        0
+      ],
+      "end_point": [
+        479,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dapruns.c": {
+    "ecopy": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": [
+        "\"\\nDap, Copyright (C) 2001, 2002, 2003, 2004, 2005 Free Software Foundation, Inc.\\n\"",
+        "\"Dap comes with ABSOLUTELY NO WARRANTY;\\n\"",
+        "\"for details see the GNU Public License.\\n\"",
+        "\"This is free software, and you are welcome to\\n\"",
+        "\"redistribute it under certain conditions; see\\n\"",
+        "\"the GNU Public License for details.\\n\\n\"",
+        "\"dap: no files to process\\n\"",
+        "\"-k\"",
+        "\"--keep\"",
+        "\"-d\"",
+        "\"--debug\"",
+        "\"--help\"",
+        "\"Usage:\\ndap [-k] [-d] FILE1.c [ FILE2.c ... ] [-a ARG1 ...]\\n\"",
+        "\"dap [--keep] [--debug] FILE1.c [ FILE2.c ... ] [--args] ARG1 ...]\\n\"",
+        "\"dap [-k] [-d] FILE1.sbs [ FILE2.c ... ]\\n\"",
+        "\"dap [--keep] [--debug] FILE1.sbs [ FILE2.c ... ]\\n\"",
+        "\"\\nReport bugs to <bug-dap@gnu.org>\\n\"",
+        "\"--version\"",
+        "\"-v\"",
+        "\"Dap 3.6\\n\"",
+        "\"dap: bad option: %s\\n\"",
+        "\"DAPPAGER\"",
+        "\"DAPPAGEOPTS\"",
+        "\"DAPCOMPILER\"",
+        "\"DAPCOMPOPTS\"",
+        "\"DAPVIEWER\"",
+        "\"DAPVIEWOPTS\"",
+        "\"DAPPP\"",
+        "\"INCDIR\"",
+        "\"LIBDIR\"",
+        "\"Compile and run\"",
+        "\".err\""
+      ]
+    },
+    "dappprun": {
+      "start_point": [
+        168,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\"-a\"",
+        "\"--args\"",
+        "\"Preprocessing...\\n\"",
+        "\"dap\""
+      ]
+    },
+    "suffix": {
+      "start_point": [
+        204,
+        0
+      ],
+      "end_point": [
+        224,
+        1
+      ],
+      "strings": [
+        "\".c\"",
+        "\".sbs\"",
+        "\"dap: name must end in .c or .sbs: %s\\n\""
+      ]
+    },
+    "argcpy": {
+      "start_point": [
+        229,
+        0
+      ],
+      "end_point": [
+        240,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    },
+    "gccrun": {
+      "start_point": [
+        243,
+        0
+      ],
+      "end_point": [
+        302,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\"-o\"",
+        "\".dap\"",
+        "\"-I\"",
+        "\"-a\"",
+        "\"--args\"",
+        "\".dap.c\"",
+        "\"-L\"",
+        "\"-ldap\"",
+        "\"-lm\"",
+        "\"Compiling...\\n\"",
+        "\"dap\""
+      ]
+    },
+    "run": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        347,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\".dap\"",
+        "\".lst\"",
+        "\".ps\"",
+        "\"-a\"",
+        "\"--args\"",
+        "\"Executing...\\n\"",
+        "\"dap\""
+      ]
+    },
+    "ask": {
+      "start_point": [
+        350,
+        0
+      ],
+      "end_point": [
+        363,
+        1
+      ],
+      "strings": [
+        "\"%s? [y/q] \"",
+        "\"Invalid response. \""
+      ]
+    },
+    "view": {
+      "start_point": [
+        366,
+        0
+      ],
+      "end_point": [
+        403,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\"dap\""
+      ]
+    },
+    "showps": {
+      "start_point": [
+        406,
+        0
+      ],
+      "end_point": [
+        443,
+        1
+      ],
+      "strings": [
+        "\"dap\"",
+        "\".ps\"",
+        "\"dap\""
+      ]
+    },
+    "parseopts": {
+      "start_point": [
+        448,
+        0
+      ],
+      "end_point": [
+        486,
+        1
+      ],
+      "strings": [
+        "\"dap\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/dap_make.h": {},
+  "dap/dap-3.10/src/externs.h": {},
+  "dap/dap-3.10/src/machdep.c": {
+    "putnd": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "dap_putdouble": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "getnh": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "dap_getdouble": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        139,
+        1
+      ],
+      "strings": [
+        "\"A!!!!!!!!!!!\"",
+        "\"aaaaaaaaaaaa\""
+      ]
+    },
+    "dap_putint": {
+      "start_point": [
+        141,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    },
+    "dap_getint": {
+      "start_point": [
+        170,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": [
+        "\"0\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/misc.c": {
+    "dap_numdate": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    },
+    "dap_datenum": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": [
+        "\"?\"",
+        "\"0101%4d\"",
+        "\"0101%4d\"",
+        "\"?\"",
+        "\"%02d01%4d\"",
+        "\"%02d01%4d\"",
+        "\"%02d%02d%4d\"",
+        "\"%02d%02d%4d\""
+      ]
+    },
+    "dap_bincoeff": {
+      "start_point": [
+        124,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": []
+    },
+    "takestep": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        139,
+        1
+      ],
+      "strings": []
+    },
+    "vcopy": {
+      "start_point": [
+        141,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "vsub": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        155,
+        1
+      ],
+      "strings": []
+    },
+    "vlen": {
+      "start_point": [
+        157,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": []
+    },
+    "dirstep": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": []
+    },
+    "dap_maximize": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"TRACE\"",
+        "\"PAUSE\"",
+        "\"(dap_maximize) bad trace interval: %s\\n\"",
+        "\"(dap_maximize) bad tracing option: %s\\n\"",
+        "\"(dap_maximize) stepsize = %g failed to reach tolerance = %g after %d iterations\\n\"",
+        "\"(dap_maximize) nsteps = %d, f0 = %.16g, f1 = %.16g, step = %g\\ndir = \"",
+        "\"(dap_maximize) nsteps = %d, f0 = %.16g, f1 = %.16g, step = %g\\ndir = \"",
+        "\" %g\"",
+        "\" %g\"",
+        "\"\\nx =\"",
+        "\"\\nx =\"",
+        "\" %g\"",
+        "\" %g\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/prob.c": {
+    "dap_simp": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": []
+    },
+    "Tfun": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": []
+    },
+    "probt": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "zpoint": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        115,
+        1
+      ],
+      "strings": [
+        "\"(zpoint) input not between 0 and 1\\n\""
+      ]
+    },
+    "tpoint": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": []
+    },
+    "Ffun": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    },
+    "probf": {
+      "start_point": [
+        164,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": []
+    },
+    "fpoint": {
+      "start_point": [
+        222,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": []
+    },
+    "varnorm": {
+      "start_point": [
+        261,
+        0
+      ],
+      "end_point": [
+        273,
+        1
+      ],
+      "strings": []
+    },
+    "varunif": {
+      "start_point": [
+        275,
+        0
+      ],
+      "end_point": [
+        278,
+        1
+      ],
+      "strings": []
+    },
+    "probz": {
+      "start_point": [
+        280,
+        0
+      ],
+      "end_point": [
+        292,
+        1
+      ],
+      "strings": []
+    },
+    "probchisq": {
+      "start_point": [
+        294,
+        0
+      ],
+      "end_point": [
+        325,
+        1
+      ],
+      "strings": [
+        "\"(probchisq) non-positive df = %d\\n\""
+      ]
+    },
+    "chisqpoint": {
+      "start_point": [
+        327,
+        0
+      ],
+      "end_point": [
+        362,
+        1
+      ],
+      "strings": []
+    },
+    "rangef1": {
+      "start_point": [
+        369,
+        0
+      ],
+      "end_point": [
+        390,
+        1
+      ],
+      "strings": []
+    },
+    "rangef2": {
+      "start_point": [
+        392,
+        0
+      ],
+      "end_point": [
+        413,
+        1
+      ],
+      "strings": []
+    },
+    "range": {
+      "start_point": [
+        416,
+        0
+      ],
+      "end_point": [
+        421,
+        1
+      ],
+      "strings": []
+    },
+    "sturf": {
+      "start_point": [
+        423,
+        0
+      ],
+      "end_point": [
+        443,
+        1
+      ],
+      "strings": []
+    },
+    "dap_sr": {
+      "start_point": [
+        445,
+        0
+      ],
+      "end_point": [
+        462,
+        1
+      ],
+      "strings": []
+    },
+    "dap_srpt": {
+      "start_point": [
+        464,
+        0
+      ],
+      "end_point": [
+        499,
+        1
+      ],
+      "strings": []
+    },
+    "maxdf1": {
+      "start_point": [
+        501,
+        0
+      ],
+      "end_point": [
+        515,
+        1
+      ],
+      "strings": []
+    },
+    "maxdf2": {
+      "start_point": [
+        517,
+        0
+      ],
+      "end_point": [
+        531,
+        1
+      ],
+      "strings": []
+    },
+    "maxdf": {
+      "start_point": [
+        533,
+        0
+      ],
+      "end_point": [
+        538,
+        1
+      ],
+      "strings": []
+    },
+    "maxdiff": {
+      "start_point": [
+        540,
+        0
+      ],
+      "end_point": [
+        553,
+        1
+      ],
+      "strings": []
+    },
+    "dap_md": {
+      "start_point": [
+        555,
+        0
+      ],
+      "end_point": [
+        572,
+        1
+      ],
+      "strings": []
+    },
+    "dap_mdpt": {
+      "start_point": [
+        574,
+        0
+      ],
+      "end_point": [
+        610,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "dap/dap-3.10/src/ps.c": {
+    "dap_initpict": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": [
+        "\"dap_maxpts\"",
+        "\"dap_maxpts\"",
+        "\"dap_maxchar\""
+      ]
+    },
+    "pict_newpoint": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": [
+        "\"(pict_newpoint) Too many points.\\n\""
+      ]
+    },
+    "pict_newstr": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        102,
+        1
+      ],
+      "strings": [
+        "\"(pict_newstr) Too many characters.\\n\""
+      ]
+    },
+    "pict_init": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": [
+        "\"w\"",
+        "\"(pict_init) Can't create .ps file: %s\\n\"",
+        "\"%!PS-Adobe-2.0\\n\"",
+        "\"%%Title: %s\\n\"",
+        "\"%%Creator: ps.c\\n\"",
+        "\"%%CreationDate: \"",
+        "\"%%For: bassein@localhost.localdomain (,,,,)\\n\"",
+        "\"%s %s\\n\"",
+        "\"%%Orientation:\"",
+        "\"Portrait\"",
+        "\"Landscape\"",
+        "\"%s %d %d %d %d\\n\"",
+        "\"%%BoundingBox:\"",
+        "\"%s %d\\n\"",
+        "\"%%Pages:\"",
+        "\"%%BeginSetup\\n\"",
+        "\"%%IncludeFeature: *PageSize Letter\\n\"",
+        "\"%%EndSetup\\n\"",
+        "\"%%Magnification: 1.0000\\n\"",
+        "\"%%EndComments\\n\"",
+        "\"/cp {closepath} bind def /gr {grestore} bind def /gs {gsave} bind def\\n\"",
+        "\"/sa {save} bind def /rs {restore} bind def /l {lineto} bind def\\n\"",
+        "\"/rl {rlineto} bind def /ar {arc} bind def\\n\"",
+        "\"/m {moveto} bind def /rm {rmoveto} bind def /n {newpath} bind def\\n\"",
+        "\"/f {fill} bind def /s {stroke} bind def /sh {show} bind def\\n\"",
+        "\"/slw {setlinewidth} bind def /sg {setgray} bind def /rot {rotate} bind def\\n\"",
+        "\"/sc {scale} bind def /sd {setdash} bind def /ff {findfont} bind def\\n\"",
+        "\"/sf {setfont} bind def /scf {scalefont} bind def /sw {stringwidth} bind def\\n\"",
+        "\"/tr {translate} bind def\\n\"",
+        "\"%%EndProlog\\n\""
+      ]
+    },
+    "pict_port": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": []
+    },
+    "pict_land": {
+      "start_point": [
+        154,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "pict_end": {
+      "start_point": [
+        159,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": [
+        "\"gr\\n\"",
+        "\"showpage\\n\"",
+        "\"%%Trailer\\n\""
+      ]
+    },
+    "pict_page": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": [
+        "\"gr\\n\"",
+        "\"showpage\\n\"",
+        "\"%%%%Page: %d %d\\n\"",
+        "\"gs\\n\"",
+        "\"%d %d tr 90 rot %d %d tr\\n\""
+      ]
+    },
+    "pict_clearpict": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "pict_initpict": {
+      "start_point": [
+        193,
+        0
+      ],
+      "end_point": [
+        223,
+        1
+      ],
+      "strings": [
+        "\"dap_maxntxt\"",
+        "\"LINE\"",
+        "\"dap_maxfont\"",
+        "\"Helvetica-Bold\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\""
+      ]
+    },
+    "pict_text": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": [
+        "\"(pict_text) Invalid position string: %s\\n\"",
+        "\"(pict_text) Position string too long: %s\\n\"",
+        "\"(pict_text) Too many texts in pict\\n\""
+      ]
+    },
+    "pict_circle": {
+      "start_point": [
+        259,
+        0
+      ],
+      "end_point": [
+        265,
+        1
+      ],
+      "strings": [
+        "\"CIRC\""
+      ]
+    },
+    "pict_rectangle": {
+      "start_point": [
+        267,
+        0
+      ],
+      "end_point": [
+        275,
+        1
+      ],
+      "strings": [
+        "\"LINE\""
+      ]
+    },
+    "pict_hrect": {
+      "start_point": [
+        277,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": []
+    },
+    "pict_bhrect": {
+      "start_point": [
+        324,
+        0
+      ],
+      "end_point": [
+        369,
+        1
+      ],
+      "strings": []
+    },
+    "pict_point": {
+      "start_point": [
+        371,
+        0
+      ],
+      "end_point": [
+        394,
+        1
+      ],
+      "strings": []
+    },
+    "pict_line": {
+      "start_point": [
+        396,
+        0
+      ],
+      "end_point": [
+        400,
+        1
+      ],
+      "strings": []
+    },
+    "pict_curve": {
+      "start_point": [
+        402,
+        0
+      ],
+      "end_point": [
+        418,
+        1
+      ],
+      "strings": []
+    },
+    "pict_scale": {
+      "start_point": [
+        420,
+        0
+      ],
+      "end_point": [
+        447,
+        1
+      ],
+      "strings": []
+    },
+    "pict_rotate": {
+      "start_point": [
+        449,
+        0
+      ],
+      "end_point": [
+        497,
+        1
+      ],
+      "strings": []
+    },
+    "pict_translate": {
+      "start_point": [
+        499,
+        0
+      ],
+      "end_point": [
+        522,
+        1
+      ],
+      "strings": []
+    },
+    "putmode": {
+      "start_point": [
+        525,
+        0
+      ],
+      "end_point": [
+        539,
+        1
+      ],
+      "strings": [
+        "\"s\\n\"",
+        "\"f\\n\"",
+        "\"clip\\n\""
+      ]
+    },
+    "picttype": {
+      "start_point": [
+        552,
+        0
+      ],
+      "end_point": [
+        568,
+        1
+      ],
+      "strings": [
+        "\"LINE\"",
+        "\"SEGM\"",
+        "\"IBEA\"",
+        "\"CIRC\"",
+        "\"SQUA\"",
+        "\"TRIA\"",
+        "\"UTRI\"",
+        "\"DIAM\"",
+        "\"PATT\"",
+        "\"bad pict type: %s\\n\""
+      ]
+    },
+    "show0": {
+      "start_point": [
+        571,
+        0
+      ],
+      "end_point": [
+        728,
+        1
+      ],
+      "strings": [
+        "\"(show0) Requested SEGM with odd number of points.\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l\\n\"",
+        "\"(show0) Requested IBEA with odd number of points.\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l\\n\"",
+        "\"(show0) IBEA requested but neither x nor y coordinates match: (%g, %g), (%g, %g)\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l %.6f %.6f l %.6f %.6f l\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l %.6f %.6f l %.6f %.6f l %.6f %.6f l\\n\"",
+        "\"n %.6f %.6f m\\n\"",
+        "\"%.6f %.6f l\\n\"",
+        "\"n %.6f %.6f %.3f 0 360 ar\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l %.6f %.6f l %.6f %.6f l %.6f %.6f l\\n\"",
+        "\"n %.6f %.6f m %.6f %.6f l %.6f %.6f l %.6f %.6f l\\n\"",
+        "\"gs n %.6f %.6f tr\\n\"",
+        "\"gr\\n\""
+      ]
+    },
+    "show1": {
+      "start_point": [
+        731,
+        0
+      ],
+      "end_point": [
+        983,
+        1
+      ],
+      "strings": [
+        "\"dap_maxtxt\"",
+        "\"dap_maxtxt\"",
+        "\"%.2f sg\\n\"",
+        "\"%.2f slw %.2f sg\\n\"",
+        "\"[%.3f] 0 sd\\n\"",
+        "\"[] 0 sd\\n\"",
+        "\"PATT\"",
+        "\"(show1) Text too long: %s\\n\"",
+        "\"(show1) Text too long: %s\\n\"",
+        "\"gs n 1 sg\\n\"",
+        "\"%.6f %.6f tr %.3f rot\\n\"",
+        "\"%.3f %.3f tr\\n\"",
+        "\"%.3f %.3f tr\\n\"",
+        "\"%.3f %.3f tr\\n\"",
+        "\" 0 0 m %.3f 0 rl 0 %.3f rl %.3f 0 rl cp f\\n\"",
+        "\"gr\\n\"",
+        "\"gs\\n\"",
+        "\"n %.2f sg\\n\"",
+        "\"/%s ff %.3f scf sf\\n\"",
+        "\"%.6f %.6f tr %.3f rot\\n\"",
+        "\"0 %.3f m (%s) sw pop %.3f mul \"",
+        "\"-2 div 0 rm\\n\"",
+        "\"neg 0 rm\\n\"",
+        "\"0 %.3f m \"",
+        "\"(show1) Text too long: %s\\n\"",
+        "\"(show1) Text too long: %s\\n\"",
+        "\"(%s) sh \"",
+        "\"/%s ff %.3f scf sf\\n\"",
+        "\"0 %.3f rm \"",
+        "\"0 %.3f rm \"",
+        "\"/%s ff %.3f scf sf\\n\"",
+        "\"0 %.3f rm \"",
+        "\"0 %.3f rm \"",
+        "\"\\ngr\\n\""
+      ]
+    },
+    "pict_show": {
+      "start_point": [
+        986,
+        0
+      ],
+      "end_point": [
+        990,
+        1
+      ],
+      "strings": []
+    },
+    "nport": {
+      "start_point": [
+        992,
+        0
+      ],
+      "end_point": [
+        1010,
+        1
+      ],
+      "strings": [
+        "\"(nport) Number of plots %d not a multiple of number per page %d\\n\""
+      ]
+    },
+    "nland": {
+      "start_point": [
+        1012,
+        0
+      ],
+      "end_point": [
+        1030,
+        1
+      ],
+      "strings": [
+        "\"(pict_nlandscape) Number of plots %d not a multiple of number per page %d\\n\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/ps.h": {},
+  "dap/dap-3.10/src/ps1.c": {
+    "pict_maketick": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "yaxis": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        115,
+        1
+      ],
+      "strings": [
+        "\"cb \"",
+        "\"rm\"",
+        "\"lm\"",
+        "\"cb \"",
+        "\"ct \"",
+        "\"cb \""
+      ]
+    },
+    "xaxis": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": [
+        "\"lt \"",
+        "\"ct\"",
+        "\"rm \"",
+        "\"lm \""
+      ]
+    },
+    "pict_axes": {
+      "start_point": [
+        190,
+        0
+      ],
+      "end_point": [
+        312,
+        1
+      ],
+      "strings": [
+        "\"(axes) Can't have double y-axes and no x-axis.\\n\"",
+        "\"(axes) Can't have double x-axes and no y-axis.\\n\""
+      ]
+    },
+    "makeform": {
+      "start_point": [
+        321,
+        0
+      ],
+      "end_point": [
+        342,
+        1
+      ],
+      "strings": [
+        "\"%.0f\"",
+        "\"%%.%dg\""
+      ]
+    },
+    "ticks": {
+      "start_point": [
+        345,
+        0
+      ],
+      "end_point": [
+        398,
+        1
+      ],
+      "strings": [
+        "\"dap_maxtxt\""
+      ]
+    },
+    "pict_autoaxes": {
+      "start_point": [
+        408,
+        0
+      ],
+      "end_point": [
+        816,
+        1
+      ],
+      "strings": [
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"\"",
+        "\"00\"",
+        "\"(pict_autoaxes) word in axspec too long: %s\\n\"",
+        "\"MAXX\"",
+        "\"MINX\"",
+        "\"MAXY\"",
+        "\"MINY\"",
+        "\"(pict_autoaxes) bad number for MIN or MAX: %s\\n\"",
+        "\"(pict_autoaxes) bad number for MIN or MAX: %s\\n\"",
+        "\"NXTICKS\"",
+        "\"NYTICKS\"",
+        "\"(pict_autoaxes) bad number of ticks: %s\\n\"",
+        "\"NXDIGITS\"",
+        "\"NYDIGITS\"",
+        "\"(pict_autoaxes) bad number of digits: %s\\n\"",
+        "\"(pict_autoaxes) bad axes specification: %s\\n\"",
+        "\"00\"",
+        "\"(pict_autoaxes) no points.\\n\"",
+        "\"(pict_autoaxes) Too many x-ticks (%d)\\n\"",
+        "\"(pict_autoaxes) Too many y-ticks (%d)\\n\"",
+        "\"(pict_autoaxes) Bad axis specification: %s\\n\"",
+        "\"(autoaxes) Bad axis specification: %s\\n\"",
+        "\"ct \"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "pict_save": {
+      "start_point": [
+        843,
+        0
+      ],
+      "end_point": [
+        1046,
+        1
+      ],
+      "strings": [
+        "\"(pict_save) maximum string length too long: %d\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"pict_npts 0\"",
+        "\"pict_npts\"",
+        "\"pict_type 5\"",
+        "\"pict_type\"",
+        "\"pict_dash -1\"",
+        "\"pict_dash\"",
+        "\"pict_minx -1\"",
+        "\"pict_minx\"",
+        "\"pict_maxx -1\"",
+        "\"pict_maxx\"",
+        "\"pict_miny -1\"",
+        "\"pict_miny\"",
+        "\"pict_maxy -1\"",
+        "\"pict_maxy\"",
+        "\"pict_ntxt 0\"",
+        "\"pict_ntxt\"",
+        "\"pict_font %d\"",
+        "\"pict_font\"",
+        "\"pict_fs -1\"",
+        "\"pict_fs\"",
+        "\"pict_lw -1\"",
+        "\"pict_lw\"",
+        "\"pict_r -1\"",
+        "\"pict_r\"",
+        "\"pict_lgray -1\"",
+        "\"pict_lgray\"",
+        "\"pict_fgray -1\"",
+        "\"pict_fgray\"",
+        "\"pict_next 0\"",
+        "\"pict_next\"",
+        "\"pict_patt 0\"",
+        "\"pict_patt\"",
+        "\"\"",
+        "\"%s.pic%04d\"",
+        "\"\"",
+        "\"(pict_save) too many picts.\\n\"",
+        "\"pict_pt[0] -1 pict_pt[1] - 1\"",
+        "\"pict_pt\"",
+        "\"%s.pts%04d\"",
+        "\"\"",
+        "\"pict_txt %d\"",
+        "\"pict_txt\"",
+        "\"pict_tpt[0] -1 pict_tpt[1] -1\"",
+        "\"pict_tpt\"",
+        "\"pict_tang -1\"",
+        "\"pict_tang\"",
+        "\"pict_pos 3\"",
+        "\"pict_pos\"",
+        "\"%s.txt%04d\"",
+        "\"\"",
+        "\"%s.pat%04d\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "pict_rest": {
+      "start_point": [
+        1048,
+        0
+      ],
+      "end_point": [
+        1300,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"%s.pic%04d\"",
+        "\"pict_next\"",
+        "\"(pict_rest) no pict_next in %s\\n\"",
+        "\"\"",
+        "\"%s.pic%04d\"",
+        "\"pict_npts\"",
+        "\"(pict_rest) missing pict_npts\\n\"",
+        "\"pict_type\"",
+        "\"(pict_rest) missing pict_type\\n\"",
+        "\"pict_dash\"",
+        "\"(pict_rest) missing pict_dash\\n\"",
+        "\"pict_minx\"",
+        "\"(pict_rest) missing pict_minx\\n\"",
+        "\"pict_maxx\"",
+        "\"(pict_rest) missing pict_maxx\\n\"",
+        "\"pict_miny\"",
+        "\"(pict_rest) missing pict_miny\\n\"",
+        "\"pict_maxy\"",
+        "\"(pict_rest) missing pict_maxy\\n\"",
+        "\"pict_ntxt\"",
+        "\"(pict_rest) missing pict_ntxt\\n\"",
+        "\"pict_font\"",
+        "\"(pict_rest) missing pict_font\\n\"",
+        "\"\"",
+        "\"pict_fs\"",
+        "\"(pict_rest) missing pict_fs\\n\"",
+        "\"pict_lw\"",
+        "\"(pict_rest) missing pict_lw\\n\"",
+        "\"pict_r\"",
+        "\"(pict_rest) missing pict_r\\n\"",
+        "\"pict_lgray\"",
+        "\"(pict_rest) missing pict_lgray\\n\"",
+        "\"pict_fgray\"",
+        "\"(pict_rest) missing pict_fgray\\n\"",
+        "\"pict_next\"",
+        "\"(pict_rest) missing pict_next\\n\"",
+        "\"pict_patt\"",
+        "\"(pict_rest) missing pict_patt\\n\"",
+        "\"%s.pat%04d\"",
+        "\"%s.pts%04d\"",
+        "\"pict_pt\"",
+        "\"(pict_rest) missing pict_pt\\n\"",
+        "\"(pict_rest) bad dimension for pict_pt: %d\\n\"",
+        "\"%s.txt%04d\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"dap_maxntxt\"",
+        "\"pict_txt\"",
+        "\"(pict_rest) missing pict_txt\\n\"",
+        "\"pict_tpt\"",
+        "\"(pict_rest) missing pict_tpt\\n\"",
+        "\"(pict_rest) bad dimension for pict_tpt: %d\\n\"",
+        "\"pict_tang\"",
+        "\"(pict_rest) missing pict_tang\\n\"",
+        "\"pict_pos\"",
+        "\"(pict_rest) missing pict_pos\\n\"",
+        "\"\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/sbs.h": {},
+  "dap/dap-3.10/src/sbstrans.c": {
+    "iskeyword": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "namecvt": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": [
+        "\"sbs: %s not a .sbs file\\n\"",
+        "\".c\""
+      ]
+    },
+    "is_space": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "sbsgetc": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    },
+    "sbstoken": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        222,
+        1
+      ],
+      "strings": [
+        "\"sbstrans: before %d: token too long: %s\\n\"",
+        "\"sbstrans: before %d: token too long: %s\\n\"",
+        "\"sbstrans: before %d: token too long: %s\\n\"",
+        "\"sbstrans: before %d: token too long: %s\\n\"",
+        "\"sbstrans: before %d: token too long: %s\\n\""
+      ]
+    },
+    "lineput": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        232,
+        1
+      ],
+      "strings": []
+    },
+    "getstatement": {
+      "start_point": [
+        234,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": [
+        "\";\"",
+        "\";\""
+      ]
+    },
+    "linecpy": {
+      "start_point": [
+        259,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": []
+    },
+    "putlines": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        292,
+        1
+      ],
+      "strings": []
+    },
+    "lower": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": []
+    },
+    "linecmp": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        313,
+        1
+      ],
+      "strings": []
+    },
+    "getstep": {
+      "start_point": [
+        318,
+        0
+      ],
+      "end_point": [
+        360,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"proc\"",
+        "\"data\"",
+        "\"proc\"",
+        "\"sbstrans: before %d: %s step too long\\n\"",
+        "\"data\"",
+        "\"proc\""
+      ]
+    },
+    "findvar": {
+      "start_point": [
+        362,
+        0
+      ],
+      "end_point": [
+        374,
+        1
+      ],
+      "strings": []
+    },
+    "opfix": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        430,
+        1
+      ],
+      "strings": [
+        "\"=\"",
+        "\"==\"",
+        "\"^=\"",
+        "\"~=\"",
+        "\"!=\"",
+        "\"&\"",
+        "\"&&\"",
+        "\"|\"",
+        "\"||\"",
+        "\"^\"",
+        "\"~\"",
+        "\"!\"",
+        "\"first.\"",
+        "\"[\"",
+        "\"[(int)(\"",
+        "\"]\"",
+        "\")-1]\""
+      ]
+    },
+    "nonaction": {
+      "start_point": [
+        432,
+        0
+      ],
+      "end_point": [
+        446,
+        1
+      ],
+      "strings": [
+        "\"set\"",
+        "\"infile\"",
+        "\"input\"",
+        "\"length\"",
+        "\"merge\"",
+        "\"by\"",
+        "\"drop\"",
+        "\"keep\"",
+        "\"title\""
+      ]
+    },
+    "statementtrans": {
+      "start_point": [
+        449,
+        0
+      ],
+      "end_point": [
+        553,
+        1
+      ],
+      "strings": [
+        "\"sbstrans: before %d: missing ; after %s statement in data step\\n\"",
+        "\"output\"",
+        "\"output();\\n\"",
+        "\"output\"",
+        "\"end\"",
+        "\"}\\n\"",
+        "\"end\"",
+        "\"if\"",
+        "\"if (\"",
+        "\"then\"",
+        "\")\\n\"",
+        "\"if\"",
+        "\"else\"",
+        "\"else\\n\"",
+        "\"do\"",
+        "\"while\"",
+        "\"(\"",
+        "\"sbstrans: before %d: missing ( after do while\\n\"",
+        "\"while (\"",
+        "\")\"",
+        "\")\\n{\\n\"",
+        "\"do while\"",
+        "\"{\\n\"",
+        "\"do\"",
+        "\"[(int)(\"",
+        "\")-1]\"",
+        "\"assignment\"",
+        "\";\"",
+        "\"sbstrans: before %d: missing ; after %s statement in data step\\n\""
+      ]
+    },
+    "globaltrans": {
+      "start_point": [
+        555,
+        0
+      ],
+      "end_point": [
+        590,
+        1
+      ],
+      "strings": [
+        "\"title\"",
+        "\"title(\"",
+        "\"sbstrans: before %d: missing ; at end of title statement\\n\"",
+        "\"NULL\"",
+        "\"sbstrans: before %d: title must begin with \\\"\\n\"",
+        "\");\\n\"",
+        "\"sbstrans: before %d: unknown global statement: %s\\n\""
+      ]
+    },
+    "datatrans": {
+      "start_point": [
+        592,
+        0
+      ],
+      "end_point": [
+        1219,
+        1
+      ],
+      "strings": [
+        "\"sbstrans: processing data step...\\n\"",
+        "\"title\"",
+        "\"infile\"",
+        "\"infile(%s, \"",
+        "\"delimiter\"",
+        "\"dlm\"",
+        "\"input\"",
+        "\"sbstrans: before %d: bad start column in input statement.\\n\"",
+        "\"sbstrans: before %d: bad end column in input statement.\\n\"",
+        "\"x%d\"",
+        "\"\\\"\"",
+        "\"\\\" \\\"\"",
+        "\")\\n{\\n\"",
+        "\"set\"",
+        "\"inset (\\\"%s\\\")\\n{\\n\"",
+        "\"sbstrans: before %d: missing ; or extra characters at end of set statement.\\n\"",
+        "\"merge\"",
+        "\"merge (\\\"\"",
+        "\"%s\\\", \\\"\"",
+        "\"(\"",
+        "\"keep\"",
+        "\"drop\"",
+        "\"=\"",
+        "\"sbstrans: before %d: missing = after keep or drop option in merge statement.\\n\"",
+        "\"sbstrans: before %d: missing ) after keep or drop option in merge statement.\\n\"",
+        "\"sbstrans: before %d: invalid dataset option in merge statement.\\n\"",
+        "\"\\\", \\\"\"",
+        "\"sbstrans: before %d: missing ; at end of merge statement.\\n\"",
+        "\"by\"",
+        "\"sbstmp%02d\"",
+        "\"\\\", \\\"%s\\\");\\n\"",
+        "\"inset(\\\"%s\\\")\\n{\\n\"",
+        "\"infile (NULL, NULL)\\n{\\n\"",
+        "\"length\"",
+        "\"char \"",
+        "\"%s[\"",
+        "\"sbstrans: before %d: redeclaration of %s\\n\"",
+        "\"$\"",
+        "\"sbstrans: before %d: missing $ in length statement for %s\\n\"",
+        "\"%d\"",
+        "\"sbstrans: before %d: bad length in length statement: %s\\n\"",
+        "\"%d]\"",
+        "\"sbstrans: before %d: missing ; or extra characters at end of length statement.\\n\"",
+        "\";\\n\"",
+        "\"input\"",
+        "\"sbstrans: before %d: null data step body or missing ; in data statement.\\n\"",
+        "\"first.\"",
+        "\"double \"",
+        "\"input\"",
+        "\"sbstrans: before %d: null data step body or missing ; in data statement.\\n\"",
+        "\"first.\"",
+        "\";\\n\"",
+        "\"int\"",
+        "\" _%s_\"",
+        "\", _partv_[%d], _firstobs_;\\n\"",
+        "\"input\"",
+        "\"input(\\\"\"",
+        "\"\\\");\\n\"",
+        "\"sbstrans: before %d: missing ; in input statement.\\n\"",
+        "\"sbstrans: before %d: infile statement present but missing input statement.\\n\"",
+        "\"sbstrans: before %d: missing ; or extra characters at end of data statement.\\n\"",
+        "\"sbstmp%02d\"",
+        "\"outset(\\\"%s\\\", \\\"\"",
+        "\"drop\"",
+        "\"keep\"",
+        "\"sbstrans: before %d: bad option for data statement.\\n\"",
+        "\"=\"",
+        "\"sbstrans: before %d: missing = after option name in data statement.\\n\"",
+        "\"sbstrans: before %d: missing ) after option for data statement.\\n\"",
+        "\"sbstrans: before %d: missing ; at end of data statement.\\n\"",
+        "\"drop\"",
+        "\"sbstrans: before %d: invalid character %c in variable name in drop statement.\\n\"",
+        "\"keep\"",
+        "\"!_firstobs_ _partv_ \"",
+        "\"_ \"",
+        "\"\\\");\\n\"",
+        "\"dap_list(\\\"\"",
+        "\"by\"",
+        "\"\\\", _partv_, %d);\\n\"",
+        "\"_firstobs_ = 1;\\n\"",
+        "\"%s[%d] = '\\\\0';\\n\"",
+        "\"firstobs\"",
+        "\"skip(%s - 1);\\n\"",
+        "\"while (step())\\n{\\n\"",
+        "\"if (_firstobs_ || dap_newpart(_partv_, %d))\\n\"",
+        "\"_%s_ = 1;\\nelse _%s_ = 0;\\n\"",
+        "\"sbstrans: before %d: null data step body or missing ; in data statement.\\n\"",
+        "\"output();\\n\"",
+        "\"_firstobs_ = 0;\\n\"",
+        "\"}\\n\"",
+        "\"}\\n\""
+      ]
+    },
+    "proctrans": {
+      "start_point": [
+        1221,
+        0
+      ],
+      "end_point": [
+        1278,
+        1
+      ],
+      "strings": [
+        "\"sbstrans: processing proc %s...\\n\"",
+        "\"dap\"",
+        "\"title\"",
+        "\"print\"",
+        "\"means\"",
+        "\"sort\"",
+        "\"chart\"",
+        "\"datasets\"",
+        "\"freq\"",
+        "\"tabulate\"",
+        "\"corr\"",
+        "\"plot\"",
+        "\"rank\"",
+        "\"univariate\"",
+        "\"glm\"",
+        "\"logistic\"",
+        "\"npar1way\"",
+        "\"reg\"",
+        "\"dap\"",
+        "\"import\"",
+        "\"surveyselect\"",
+        "\"sbstrans: before %d: unknown proc.\\n\""
+      ]
+    },
+    "header": {
+      "start_point": [
+        1280,
+        0
+      ],
+      "end_point": [
+        1289,
+        1
+      ],
+      "strings": [
+        "\"#include <dap.h>\\n\"",
+        "\"void main()\\n\"",
+        "\"{\\n\"",
+        "\"pict *_sbspict_[%d];\\n\"",
+        "\"int _sbspictcnt_[%d];\\n\"",
+        "\"int _sbspictpage_[%d];\\n\"",
+        "\"int _sbsnpicts_ = 0, _sbspictn_, _sbspictindex_;\\n\""
+      ]
+    },
+    "trailer": {
+      "start_point": [
+        1291,
+        0
+      ],
+      "end_point": [
+        1305,
+        1
+      ],
+      "strings": [
+        "\"pict_port(%d);\\n\"",
+        "\"for (_sbspictn_ = 0; _sbspictn_ < _sbsnpicts_; _sbspictn_++)\\n{\\n\"",
+        "\"for (_sbspictindex_ = 0; _sbspictindex_ < _sbspictcnt_[_sbspictn_];\"",
+        "\"_sbspictindex_++)\\n{\\n\"",
+        "\"pict_page();\\n\"",
+        "\"pict_show(_sbspict_[_sbspictn_] + _sbspictindex_ * _sbspictpage_[_sbspictn_]);\\n\"",
+        "\"}\\n}\\npict_end();\\n\"",
+        "\"}\\n\""
+      ]
+    },
+    "isby": {
+      "start_point": [
+        1310,
+        0
+      ],
+      "end_point": [
+        1325,
+        1
+      ],
+      "strings": [
+        "\"by\""
+      ]
+    },
+    "getoption": {
+      "start_point": [
+        1334,
+        0
+      ],
+      "end_point": [
+        1362,
+        1
+      ],
+      "strings": [
+        "\"=\"",
+        "\"sbstrans: before %d: missing = in option\\n\""
+      ]
+    },
+    "findstatement": {
+      "start_point": [
+        1367,
+        0
+      ],
+      "end_point": [
+        1381,
+        1
+      ],
+      "strings": []
+    },
+    "countparts": {
+      "start_point": [
+        1384,
+        0
+      ],
+      "end_point": [
+        1396,
+        1
+      ],
+      "strings": [
+        "\"sort(\\\"%s\\\", \\\"\"",
+        "\".srt\"",
+        "\"by\"",
+        "\"\\\", \\\"u\\\");\\n\"",
+        "\"inset(\\\"%s\\\")\\n{\\n\"",
+        "\"for (_sbspictcnt_[_sbsnpicts_] = 0; step(); _sbspictcnt_[_sbsnpicts_]++)\\n;\\n}\\n\""
+      ]
+    },
+    "copylist": {
+      "start_point": [
+        1401,
+        0
+      ],
+      "end_point": [
+        1422,
+        1
+      ],
+      "strings": []
+    },
+    "sbstrans": {
+      "start_point": [
+        1424,
+        0
+      ],
+      "end_point": [
+        1466,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"sbstrans: can't read %s\\n\"",
+        "\"w\"",
+        "\"sbstrans: can't write %s\\n\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/sbstrans1.c": {
+    "upper": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    },
+    "printtrans": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"print(\\\"%s\\\", \\\"\"",
+        "\"var\"",
+        "\"\\\");\\n\""
+      ]
+    },
+    "meanstrans": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"means(\\\"%s\\\", \\\"\"",
+        "\"var\"",
+        "\"weight\"",
+        "\"weight\"",
+        "\"\\\", \\\"\"",
+        "\"vardf\"",
+        "\"wdf\"",
+        "\"df\"",
+        "\"sbstrans: before %d: invalid option for vardf in proc means\\n\"",
+        "\"noprint\"",
+        "\"data\"",
+        "\"vardf\"",
+        "\"wdf\"",
+        "\"STD\"",
+        "\"SD\"",
+        "\"STDERR\"",
+        "\"SEM\"",
+        "\"SD\"",
+        "\"SEM\"",
+        "\"VAR\"",
+        "\"FREQ\"",
+        "\"N MEAN SDFREQ MIN MAX\"",
+        "\"N MEAN SD MIN MAX\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"output\"",
+        "\"out\"",
+        "\"sbstmp%02d\"",
+        "\"print(\\\"%s.mns\\\", \\\"\\\");\\n\"",
+        "\"dataset(\\\"%s.mns\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\""
+      ]
+    },
+    "sorttrans": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": [
+        "\"sort(\\\"\"",
+        "\"data\"",
+        "\"out\"",
+        "\"%s\\\", \\\"\"",
+        "\"by\"",
+        "\"descending\"",
+        "\"sbstrans: before %d: missing by statement in proc sort.\\n\"",
+        "\"\\\", \\\"\"",
+        "\"nodupkey\"",
+        "\"by\"",
+        "\"descending\"",
+        "\"\\\");\\n\"",
+        "\".srt\"",
+        "\"dataset(\\\"%s\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\""
+      ]
+    },
+    "datasetstrans": {
+      "start_point": [
+        244,
+        0
+      ],
+      "end_point": [
+        306,
+        1
+      ],
+      "strings": [
+        "\"append\"",
+        "\"base\"",
+        "\"out\"",
+        "\"data\"",
+        "\"new\"",
+        "\"dataset(\\\"%s\\\", \\\"%s\\\", \\\"APPEND\\\");\\n\"",
+        "\"sbstrans: before %d: missing base or out statement in proc datasets.\\n\"",
+        "\"change\"",
+        "\"=\"",
+        "\";\"",
+        "\"dataset(\\\"%s\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\"",
+        "\"sbstrans: before %d: missing filename after = in change statement in proc datasets.\\n\"",
+        "\"sbstrans: before %d: missing = after filename in change statement in proc datasets.\\n\"",
+        "\"delete\"",
+        "\"dataset(\\\"%s\\\", \\\"\\\", \\\"REMOVE\\\");\\n\""
+      ]
+    },
+    "freqtrans": {
+      "start_point": [
+        309,
+        0
+      ],
+      "end_point": [
+        569,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"sort(\\\"%s\\\", \\\"\"",
+        "\"tables\"",
+        "\"by\"",
+        "\"sbstrans: before %d: missing tables statement in proc freq.\\n\"",
+        "\"\\\", \\\"\\\");\\n\"",
+        "\"freq(\\\"%s.srt\\\", \\\"\"",
+        "\"sbstrans: before %d: no variables in tables statement in proc freq.\\n\"",
+        "\"weight\"",
+        "\"sbstrans: before %d: only one weight variable allowed in proc freq.\\n\"",
+        "\"\\\", \\\"\"",
+        "\"noprint\"",
+        "\"out\"",
+        "\"=\"",
+        "\"sbstrans: before %d: missing = after out option in tables statement in proc freq.\\n\"",
+        "\"NOFREQ\"",
+        "\"NOPERCENT\"",
+        "\"NOROW\"",
+        "\"NOCOL\"",
+        "\"EXPECTED\"",
+        "\"CHISQ\"",
+        "\" FISHER \"",
+        "\"MEASURES\"",
+        "\" ODDSRAT \"",
+        "\"ORDINAL\"",
+        "\"sbstrans: before %d: missing ; at end of tables statement in proc freq.\\n\"",
+        "\" COUNT\"",
+        "\" PERCENT\"",
+        "\" ROWPERC\"",
+        "\" COLPERC\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"print(\\\"%s.srt.frq\\\", \\\"\\\");\\n\"",
+        "\"sort(\\\"%s.srt.frq\\\", \\\"\"",
+        "\"by\"",
+        "\" _type_ \"",
+        "\"\\\", \\\"\\\");\\n\"",
+        "\"table(\\\"%s.srt.frq.srt\\\", \\\"\"",
+        "\" _type_\"",
+        "\"\\\", \\\"\"",
+        "\" _cell_\\\", \\\"s12\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"dataset(\\\"%s.srt.frq\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\""
+      ]
+    },
+    "tabulatetrans": {
+      "start_point": [
+        572,
+        0
+      ],
+      "end_point": [
+        707,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\".srt\"",
+        "\"sort(\\\"%s\\\", \\\"\"",
+        "\"by\"",
+        "\"table\"",
+        "\"sbstrans: before %d: no analysis variable in table statement in proc tabulate.\\n\"",
+        "\"sbstrans: before %d: no table statement in proc tabulate.\\n\"",
+        "\"\\\", \\\"\\\");\\n\"",
+        "\"table(\\\"%s\\\", \\\"\"",
+        "\"format\"",
+        "\"12\"",
+        "\"sbstrans: before %d: no column variables in table statement in proc tabulate.\\n\"",
+        "\"\\\", \\\"\"",
+        "\"sbstrans: before %d: no analysis variable in table statement in proc tabulate.\\n\"",
+        "\"\\\", \\\"%s \"",
+        "\"rtspace\"",
+        "\"rts\"",
+        "\"sbstrans: before %d: bad option in table statement in proc tabulate.\\n\"",
+        "\"=\"",
+        "\"sbstrans: before %d: bad format for rtspace in table statement in proc tabulate.\\n\"",
+        "\"sbstrans: before %d: extra characters at end of table statement in proc tabulate.\\n\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\""
+      ]
+    },
+    "corrtrans": {
+      "start_point": [
+        710,
+        0
+      ],
+      "end_point": [
+        763,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"corr(\\\"%s\\\", \\\"\"",
+        "\"var\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"noprint\"",
+        "\"sort(\\\"%s.cor\\\", \\\"\"",
+        "\"by\"",
+        "\" _var1_ _type_ _var2_\\\", \\\"\\\");\\n\"",
+        "\"table(\\\"%s.cor.srt\\\", \\\"_var1_ _type_\\\", \\\"_var2_ _corr_\\\", \\\"s12\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"outp\"",
+        "\"dataset(\\\"%s.cor\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\""
+      ]
+    },
+    "ranktrans": {
+      "start_point": [
+        766,
+        0
+      ],
+      "end_point": [
+        860,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"group(\\\"%s\\\", \\\"\"",
+        "\"groups\"",
+        "\"%d\"",
+        "\"sbstrans: before %d: bad number %s of groups in proc rank\\n\"",
+        "\"groups\"",
+        "\"data\"",
+        "\"out\"",
+        "\"sbstrans: before %d: can't combine %s with groups= in proc rank\\n\"",
+        "\"fraction\"",
+        "\"f\"",
+        "\"/ \"",
+        "\"percent\"",
+        "\"p\"",
+        "\"% \"",
+        "\"sbstrans: before %d: invalid option %s for proc rank\\n\"",
+        "\"var\"",
+        "\" %d# \"",
+        "\"sbstrans: before %d: missing var statement in proc rank\\n\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"out\"",
+        "\"sbstmp%02d\"",
+        "\"dataset(\\\"%s.grp\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\""
+      ]
+    },
+    "univariatetrans": {
+      "start_point": [
+        863,
+        0
+      ],
+      "end_point": [
+        1056,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"pctiles(\\\"%s\\\", \\\"\"",
+        "\"var\"",
+        "\"weight\"",
+        "\"weight\"",
+        "\"\\\", \\\"\"",
+        "\"output\"",
+        "\"out\"",
+        "\"sbstrans: before %d: bad option for output in proc univariate.\\n\"",
+        "\"out\"",
+        "\"pctlpts\"",
+        "\"=\"",
+        "\"sbstrans: before %d: missing = after pctlpts in proc univariate.\\n\"",
+        "\"MAX MED MIN N P1 P5 P10 P90 P95 P99 Q1 Q3 QRANGE RANGE\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"noprint\"",
+        "\"data\"",
+        "\"normal\"",
+        "\"plot\"",
+        "\"sbstrans: before %d: invalid option for proc univariate.\\n\"",
+        "\"print(\\\"%s.pct\\\", \\\"\\\");\\n\"",
+        "\"var\"",
+        "\"nonparam(\\\"%s\\\", \\\"\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"dataset(\\\"%s.pct\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\"",
+        "\"var\"",
+        "\"_sbspictcnt_[_sbsnpicts_] = 1;\\n\"",
+        "\"_sbspict_[_sbsnpicts_] = \"",
+        "\"normal(\\\"%s\\\", \\\"%s\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\", %d);\\n\"",
+        "\"_sbspictpage_[_sbsnpicts_++] = 1;\\n\"",
+        "\"sbstrans: before %d: var statement required for normality testing proc univariate.\\n\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/sbstrans2.c": {
+    "charttrans": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"_sbspictcnt_[_sbsnpicts_] = 1;\\n\"",
+        "\"_sbspict_[_sbsnpicts_] = histogram(\\\"%s\\\", \\\"\"",
+        "\"vbar\"",
+        "\"%s \"",
+        "\"freq\"",
+        "\"\\\", \\\"\"",
+        "\"sbstrans: before %d: missing vbar statement in proc chart.\\n\"",
+        "\"by\"",
+        "\"\\\", \"",
+        "\"vbar\"",
+        "\"levels\"",
+        "\"10\"",
+        "\", \\\"\"",
+        "\"== \"",
+        "\"type\"",
+        "\"freq\"",
+        "\"COUNT\"",
+        "\"percent\"",
+        "\"pct\"",
+        "\"PERCENT\"",
+        "\"sbstrans: before %d: bad option %s in vbar statement in proc chart.\\n\"",
+        "\"axis\"",
+        "\"+\"",
+        "\"-\"",
+        "\" MINX%s\"",
+        "\" MAXX%s\"",
+        "\"\\\", NULL, %d);\\n\"",
+        "\"_sbspictpage_[_sbsnpicts_++] = 1;\\n\""
+      ]
+    },
+    "plottrans": {
+      "start_point": [
+        115,
+        0
+      ],
+      "end_point": [
+        196,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"plot\"",
+        "\"_sbspictcnt_[_sbsnpicts_] = 1;\\n\"",
+        "\"_sbspict_[_sbsnpicts_] = plot(\\\"%s\\\", \\\"\"",
+        "\"sbstrans: before %d: bad vertical variable name in plot statement in proc plot.\\n\"",
+        "\"*\"",
+        "\"sbstrans: before %d: missing * after vertical variable name in plot statement in proc plot.\\n\"",
+        "\"sbstrans: before %d: bad horizontal variable name in plot statement in proc plot.\\n\"",
+        "\"%s %s\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\", \\\"\"",
+        "\"box\"",
+        "\"== \"",
+        "\"sbstrans: before %d: bad option %s in plot statement in proc plot.\\n\"",
+        "\"\\\", NULL, NULL, %d);\\n\"",
+        "\"_sbspictpage_[_sbsnpicts_++] = 1;\\n\"",
+        "\"sbstrans: before %d: missing plot statement in proc plot.\\n\""
+      ]
+    }
+  },
+  "dap/dap-3.10/src/sbstrans3.c": {
+    "glmtrans": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        431,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"model\"",
+        "\"sbstrans: before %d: missing model statement in proc glm\\n\"",
+        "\"class\"",
+        "\"sbstrans: before %d: missing class statement in proc glm\\n\"",
+        "\"by\"",
+        "\"sort(\\\"%s\\\", \\\"\"",
+        "\"by\"",
+        "\"class\"",
+        "\"\\\", \\\"\\\");\\n\"",
+        "\"means(\\\"%s.srt\\\", \\\"%s\\\", \\\"N MEAN VAR\\\", \\\"\"",
+        "\"by\"",
+        "\"class\"",
+        "\"\\\");\\n\"",
+        "\"effects(\\\"%s.srt.mns\\\", \\\"%s \"",
+        "\"class\"",
+        "\"\\\", \\\"\"",
+        "\"sbstrans: before %d: missing = in model statement in proc glm\\n\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"lsmeans\"",
+        "\"e\"",
+        "\"DUNNETT\"",
+        "\"TUKEY\"",
+        "\"LSD\"",
+        "\"sbstrans: before %d: no test specified in lsmeans statement in proc glm\\n\"",
+        "\"alpha\"",
+        "\"0.05\"",
+        "\"ftest(\\\"%s.srt.mns.con\\\", \\\"%s \"",
+        "\"class\"",
+        "\"\\\", \\\"\"",
+        "\"\\\", \\\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"lsmeans(\\\"%s.srt.mns.tst\\\", \\\"%s\\\", %s, \\\"%s \"",
+        "\"class\"",
+        "\"\\\", \\\"\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\", \\\"s12\\\");\\n\"",
+        "\"test\"",
+        "\"ftest(\\\"%s.srt.mns.con\\\", \\\"%s \"",
+        "\"class\"",
+        "\"\\\", \\\"\"",
+        "\"h\"",
+        "\"=\"",
+        "\"sbstrans: before %d: missing h= in test statement in proc glm\\n\"",
+        "\"e\"",
+        "\"=\"",
+        "\"e\"",
+        "\"=\"",
+        "\"sbstrans: before %d: missing e= in test statement in proc glm\\n\"",
+        "\"\\\", \\\"\"",
+        "\"sbstrans: before %d: extra characters after e=<effect> in test statement in proc glm\\n\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"contrast\"",
+        "\"sbstrans: before %d: missing \\\"LABEL\\\" in contrast statement in proc glm\\n\"",
+        "\"title(\\\"\"",
+        "\"sbstrans: before %d: no terminating \\\" in contrast statement label in proc glm\\n\"",
+        "\"\\\");\\n\"",
+        "\"%d\"",
+        "\"sbstrans: before %d: invalid coefficient in contrast statement in proc glm\\n\"",
+        "\"sbstrans: before %d: coefficients sum to nonzero in contrast statement in proc glm\\n\"",
+        "\"inset(\\\"%s.srt.mns.con\\\")\\n{\\n\"",
+        "\"char _type_[9];\\ndouble %s;\\nint _n_, _term_;\\n\"",
+        "\"int _partv_[%d];\\n\"",
+        "\"int _c_, _more_, _contr1_;\\ndouble _coeff_[%d];\\n\"",
+        "\"outset(\\\"%s.srt.mns.con.con\\\", \\\"\\\");\\n\"",
+        "\"dap_list(\\\"\"",
+        "\"by\"",
+        "\"\\\", _partv_, %d);\\n\"",
+        "\"_coeff_[%d] = %d.0;\\n\"",
+        "\"for (_c_ = 0, _contr1_ = 1, _more_ = step(); _more_; )\\n{\\n\"",
+        "\"if (dap_newpart(_partv_, %d))\\n_c_ = 0;\\n\"",
+        "\"else if (dap_newpart(_partv_, %d))\\n_c_++;\\n\"",
+        "\"output();\\nstep();\\noutput();\\nstep();\\noutput();\\n\"",
+        "\"while ((_more_ = step()))\\n{\\n\"",
+        "\"if (!strcmp(_type_, \\\"ERROR\\\"))\\noutput();\\n\"",
+        "\"else if (!strcmp(_type_, \\\"CONTR\\\"))\\n{\\n\"",
+        "\"if (_term_ == %d)\\n{\\n\"",
+        "\"if (_contr1_)\\n{\\n_contr1_ = 0;\\n_term_ = %d;\\n\"",
+        "\"if (_c_ < %d)\\n\"",
+        "\"%s = _coeff_[_c_];\\nelse\\n%s = 0.0;\\n\"",
+        "\"output();\\n}\\n}\\n\"",
+        "\"else\\noutput();\\n}\\n\"",
+        "\"else if (!strcmp(_type_, \\\"LSMEAN\\\"))\\noutput();\\n\"",
+        "\"else\\n\\{\\n_contr1_ = 1;\\nbreak;\\n}\\n}\\n}\\n}\\n\"",
+        "\"ftest(\\\"%s.srt.mns.con.con\\\", \\\"%s \"",
+        "\"class\"",
+        "\"\\\", \\\"%s\\\", \\\"\"",
+        "\"e\"",
+        "\";\"",
+        "\"sbstrans: before %d: missing ; at end of contrast statement in proc glm\\n\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\ntitle(NULL);\\n\"",
+        "\"lsmeans\"",
+        "\"e\"",
+        "\"alpha\"",
+        "\"0.05\"",
+        "\"DUNNETT\"",
+        "\"TUKEY\"",
+        "\"LSD\"",
+        "\"sbstrans: before %d: no test specified in lsmeans statement in proc glm\\n\"",
+        "\"ftest(\\\"%s.srt.mns.con\\\", \\\"%s \"",
+        "\"class\"",
+        "\"\\\", \\\"\"",
+        "\"\\\", \\\"\"",
+        "\"alpha\"",
+        "\"dunnett\"",
+        "\"tukey\"",
+        "\"lsd\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"lsmeans(\\\"%s.srt.mns.tst\\\", \\\"%s\\\", %s, \\\"%s \"",
+        "\"class\"",
+        "\"\\\", \\\"\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\", \\\"s12\\\");\\n\""
+      ]
+    },
+    "logistictrans": {
+      "start_point": [
+        434,
+        0
+      ],
+      "end_point": [
+        484,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"logreg(\\\"%s\\\", \\\"\"",
+        "\"model\"",
+        "\"\\\", \\\"\\\", \\\"\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\", NULL, 0.95);\\n\"",
+        "\"sbstrans: before %d: missing = in model statement in proc logistic.\\n\"",
+        "\"sbstrans: before %d: missing model statement in proc logistic.\\n\"",
+        "\"outest\"",
+        "\"dataset(\\\"%s.cov\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\""
+      ]
+    },
+    "npar1waytrans": {
+      "start_point": [
+        487,
+        0
+      ],
+      "end_point": [
+        533,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"class\"",
+        "\"sbstrans: before %d: missing class statement in proc npar1way.\\n\"",
+        "\"var\"",
+        "\"nonparam(\\\"%s\\\", \\\"\"",
+        "\" %s\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\");\\n\"",
+        "\"sbstrans: before %d: missing ; at end of proc npar1way.\\n\"",
+        "\"sbstrans: before %d: missing var statement in proc npar1way.\\n\""
+      ]
+    },
+    "regtrans": {
+      "start_point": [
+        536,
+        0
+      ],
+      "end_point": [
+        638,
+        1
+      ],
+      "strings": [
+        "\"data\"",
+        "\"plot\"",
+        "\"_sbspictcnt_[_sbsnpicts_] = 1;\\n\"",
+        "\"_sbspict_[_sbsnpicts_] = plotlinreg(\\\"%s\\\", \\\"\"",
+        "\"model\"",
+        "\"\\\", \\\"\"",
+        "\"sbstrans: before %d: only one explanatory variable allowed in model statement in proc reg with plotting\\n\"",
+        "\"\\\", \\\"==\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\", _sbspictcnt_[_sbsnpicts_], 0.95);\\n\"",
+        "\"_sbspictpage_[_sbsnpicts_++] = 4;\\n\"",
+        "\"sbstrans: before %d: only one response variable allowed in model statement in proc reg with plotting\\n\"",
+        "\"sbstrans: before %d: missing model statement in proc reg.\\n\"",
+        "\"linreg(\\\"%s\\\", \\\"\"",
+        "\"model\"",
+        "\"\\\", \\\"\"",
+        "\"add\"",
+        "\"\\\", \\\"\"",
+        "\"\\\", \\\"\"",
+        "\"add\"",
+        "\"\\\", \\\"\"",
+        "\"by\"",
+        "\"\\\", NULL, 0.95);\\n\"",
+        "\"sbstrans: before %d: missing = in model statement in proc reg.\\n\"",
+        "\"sbstrans: before %d: missing model statement in proc reg.\\n\"",
+        "\"outest\"",
+        "\"dataset(\\\"%s.cov\\\", \\\"%s\\\", \\\"RENAME\\\");\\n\""
+      ]
+    },
+    "daptrans": {
+      "start_point": [
+        641,
+        0
+      ],
+      "end_point": [
+        686,
+        1
+      ],
+      "strings": [
+        "\"sbstrans: before %d: no options allowed for proc dap\\n\"",
+        "\"{\\n\"",
+        "\"sbstrans: before %d: missing } in proc dap\\n\"",
+        "\"sbstrans: before %d: missing ; in proc dap\\n\"",
+        "\";\\n\""
+      ]
+    },
+    "importtrans": {
+      "start_point": [
+        690,
+        0
+      ],
+      "end_point": [
+        738,
+        1
+      ],
+      "strings": [
+        "\"out\"",
+        "\"datafile\"",
+        "\"dbms\"",
+        "\"delimiter\"",
+        "\"\"",
+        "\"getnames\"",
+        "\"no\"",
+        "\"yes\"",
+        "\"no\"",
+        "\"replace\"",
+        "\"import(\\\"%s\\\", %s , \\\"%s\\\",%s, %i,%i);\\n\""
+      ]
+    },
+    "surveyselecttrans": {
+      "start_point": [
+        742,
+        0
+      ],
+      "end_point": [
+        772,
+        1
+      ],
+      "strings": [
+        "\"out\"",
+        "\"data\"",
+        "\"method\"",
+        "\"n\"",
+        "\"1\"",
+        "\" surveyselect(\\\"%s\\\", \\\"%s\\\" , \\\"%s\\\",%s);\\n\""
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Func_00400f70": [],
+  "Func_00401850": [],
+  "Func_004018a0": [],
+  "Func_00401930": [],
+  "Func_00401a00": [],
+  "Func_00401d90": [],
+  "Func_00401ee0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gcal/gcal-4.1/lib/fclose.c",
+      "rpl_fclose",
+      [
+        55,
+        110
+      ]
+    ]
+  ],
+  "Func_00401f60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gcal/gcal-4.1/lib/fflush.c",
+      "rpl_fflush",
+      [
+        126,
+        229
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gcal/gcal-4.1/lib/fflush.c",
+      "clear_ungetc_buffer_preserving_position",
+      [
+        39,
+        45
+      ]
+    ]
+  ],
+  "Func_00401fa0": []
+}

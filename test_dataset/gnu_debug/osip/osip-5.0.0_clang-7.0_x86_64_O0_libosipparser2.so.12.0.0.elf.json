@@ -1,0 +1,2882 @@
+{
+  "sdp_message_o_origin_set": {
+    "start_address": 171248, 
+    "end_address": 171391
+  }, 
+  "sdp_message_c_nettype_get": {
+    "start_address": 173232, 
+    "end_address": 173314
+  }, 
+  "osip_list_clone": {
+    "start_address": 112512, 
+    "end_address": 112694
+  }, 
+  "__osip_uri_unescape": {
+    "start_address": 57072, 
+    "end_address": 57467
+  }, 
+  "osip_authentication_info_set_nonce_count": {
+    "start_address": 165376, 
+    "end_address": 165402
+  }, 
+  "osip_message_set_to": {
+    "start_address": 45648, 
+    "end_address": 45880
+  }, 
+  ".term_proc": {
+    "start_address": 205916, 
+    "end_address": 205925
+  }, 
+  "osip_util_replace_all_lws": {
+    "start_address": 123232, 
+    "end_address": 123878
+  }, 
+  "osip_hash": {
+    "start_address": 156272, 
+    "end_address": 156342
+  }, 
+  "sdp_message_c_addr_multicast_int_get": {
+    "start_address": 173616, 
+    "end_address": 173699
+  }, 
+  ".realloc": {
+    "start_address": 39920, 
+    "end_address": 39926
+  }, 
+  "osip_www_authenticate_set_domain": {
+    "start_address": 87328, 
+    "end_address": 87354
+  }, 
+  ".vfprintf": {
+    "start_address": 40304, 
+    "end_address": 40310
+  }, 
+  "sdp_message_a_att_field_get": {
+    "start_address": 177472, 
+    "end_address": 177554
+  }, 
+  "osip_uri_to_str_canonical": {
+    "start_address": 68336, 
+    "end_address": 68410
+  }, 
+  ".memcpy": {
+    "start_address": 39328, 
+    "end_address": 39334
+  }, 
+  "osip_body_init": {
+    "start_address": 96720, 
+    "end_address": 97098
+  }, 
+  "j_osip_authorization_free": {
+    "start_address": 40832, 
+    "end_address": 40838
+  }, 
+  "_Jv_RegisterClasses": {
+    "start_address": 2334408, 
+    "end_address": 2334416
+  }, 
+  "osip_message_set_version": {
+    "start_address": 108384, 
+    "end_address": 108409
+  }, 
+  ".sdp_message_to_str": {
+    "start_address": 38640, 
+    "end_address": 38646
+  }, 
+  "osip_message_get_knownheaderlist": {
+    "start_address": 112336, 
+    "end_address": 112430
+  }, 
+  "j_osip_via_free": {
+    "start_address": 40736, 
+    "end_address": 40742
+  }, 
+  "j_osip_from_clone": {
+    "start_address": 40768, 
+    "end_address": 40774
+  }, 
+  "osip_authorization_get_cnonce": {
+    "start_address": 73200, 
+    "end_address": 73218
+  }, 
+  "sdp_message_free": {
+    "start_address": 204592, 
+    "end_address": 205694
+  }, 
+  "osip_www_authenticate_init": {
+    "start_address": 81504, 
+    "end_address": 81651
+  }, 
+  ".osip_strn_append": {
+    "start_address": 40048, 
+    "end_address": 40054
+  }, 
+  ".osip_record_route_to_str": {
+    "start_address": 39232, 
+    "end_address": 39238
+  }, 
+  "j_osip_call_info_free": {
+    "start_address": 40664, 
+    "end_address": 40670
+  }, 
+  ".strcmp": {
+    "start_address": 39216, 
+    "end_address": 39222
+  }, 
+  "osip_generic_param_set_name": {
+    "start_address": 53584, 
+    "end_address": 53609
+  }, 
+  "snprintf": {
+    "start_address": 2334160, 
+    "end_address": 2334168
+  }, 
+  "osip_from_parse": {
+    "start_address": 46560, 
+    "end_address": 48477
+  }, 
+  "memset": {
+    "start_address": 2334184, 
+    "end_address": 2334192
+  }, 
+  ".osip_list_size": {
+    "start_address": 39504, 
+    "end_address": 39510
+  }, 
+  "sdp_media_init": {
+    "start_address": 181360, 
+    "end_address": 182242
+  }, 
+  "osip_uri_param_set": {
+    "start_address": 67168, 
+    "end_address": 67265
+  }, 
+  ".osip_uri_param_set": {
+    "start_address": 40080, 
+    "end_address": 40086
+  }, 
+  "osip_to_parse": {
+    "start_address": 45888, 
+    "end_address": 45923
+  }, 
+  "osip_uri_set_username": {
+    "start_address": 60560, 
+    "end_address": 60602
+  }, 
+  "sdp_message_z_adjustments_set": {
+    "start_address": 175024, 
+    "end_address": 175086
+  }, 
+  "osip_MD5_memcpy": {
+    "start_address": 102848, 
+    "end_address": 102924
+  }, 
+  "osip_contact_clone": {
+    "start_address": 132160, 
+    "end_address": 132195
+  }, 
+  ".osip_call_id_free": {
+    "start_address": 39200, 
+    "end_address": 39206
+  }, 
+  "osip_authentication_info_set_rspauth": {
+    "start_address": 165312, 
+    "end_address": 165338
+  }, 
+  "osip_authorization_get_cnum": {
+    "start_address": 73712, 
+    "end_address": 73733
+  }, 
+  "osip_trace_initialize_syslog": {
+    "start_address": 153424, 
+    "end_address": 153560
+  }, 
+  ".osip_message_set_body_mime": {
+    "start_address": 38240, 
+    "end_address": 38246
+  }, 
+  "sdp_append_time_descr": {
+    "start_address": 202496, 
+    "end_address": 202915
+  }, 
+  "osip_message_parse_sipfrag": {
+    "start_address": 122400, 
+    "end_address": 122448
+  }, 
+  "osip_cseq_set_method": {
+    "start_address": 42800, 
+    "end_address": 42825
+  }, 
+  "osip_from_set_displayname": {
+    "start_address": 52096, 
+    "end_address": 52121
+  }, 
+  "sdp_message_m_payload_del": {
+    "start_address": 178752, 
+    "end_address": 178962
+  }, 
+  "osip_header_get_value": {
+    "start_address": 81136, 
+    "end_address": 81186
+  }, 
+  "osip_message_clone": {
+    "start_address": 109696, 
+    "end_address": 112336
+  }, 
+  "osip_authentication_info_clone": {
+    "start_address": 167680, 
+    "end_address": 168183
+  }, 
+  "osip_accept_encoding_get_element": {
+    "start_address": 161552, 
+    "end_address": 161569
+  }, 
+  "sdp_append_bandwidth": {
+    "start_address": 202240, 
+    "end_address": 202489
+  }, 
+  "osip_header_clone": {
+    "start_address": 81232, 
+    "end_address": 81499
+  }, 
+  "sdp_message_m_payload_add": {
+    "start_address": 178528, 
+    "end_address": 178640
+  }, 
+  "osip_message_set_accept": {
+    "start_address": 168864, 
+    "end_address": 169020
+  }, 
+  "osip_message_set_status_code": {
+    "start_address": 108320, 
+    "end_address": 108343
+  }, 
+  "osip_authentication_info_init": {
+    "start_address": 161952, 
+    "end_address": 162099
+  }, 
+  "__osip_message_startline_parsereq": {
+    "start_address": 128368, 
+    "end_address": 131400
+  }, 
+  ".osip_authorization_init": {
+    "start_address": 40016, 
+    "end_address": 40022
+  }, 
+  ".osip_uri_clone": {
+    "start_address": 38928, 
+    "end_address": 38934
+  }, 
+  "osip_from_free": {
+    "start_address": 48480, 
+    "end_address": 48699
+  }, 
+  "gettimeofday": {
+    "start_address": 2334176, 
+    "end_address": 2334184
+  }, 
+  "sdp_message_m_port_get": {
+    "start_address": 178048, 
+    "end_address": 178132
+  }, 
+  "osip_clrncpy": {
+    "start_address": 156528, 
+    "end_address": 157089
+  }, 
+  ".read": {
+    "start_address": 39072, 
+    "end_address": 39078
+  }, 
+  ".sdp_message_connection_get": {
+    "start_address": 38864, 
+    "end_address": 38870
+  }, 
+  "sdp_message_bandwidth_get": {
+    "start_address": 174000, 
+    "end_address": 174162
+  }, 
+  "next_separator": {
+    "start_address": 54272, 
+    "end_address": 54438
+  }, 
+  "osip_message_fix_last_via_header": {
+    "start_address": 122448, 
+    "end_address": 122888
+  }, 
+  "osip_message_get_www_authenticate": {
+    "start_address": 87040, 
+    "end_address": 87161
+  }, 
+  ".sdp_message_free": {
+    "start_address": 38672, 
+    "end_address": 38678
+  }, 
+  "malloc": {
+    "start_address": 2334264, 
+    "end_address": 2334272
+  }, 
+  "sdp_message_o_sess_id_get": {
+    "start_address": 171456, 
+    "end_address": 171506
+  }, 
+  "__osip_uri_escape_uri_param": {
+    "start_address": 65184, 
+    "end_address": 65221
+  }, 
+  "osip_authorization_get_response": {
+    "start_address": 73008, 
+    "end_address": 73026
+  }, 
+  "osip_to_clone": {
+    "start_address": 46048, 
+    "end_address": 46083
+  }, 
+  "sdp_message_c_addr_multicast_ttl_get": {
+    "start_address": 173520, 
+    "end_address": 173603
+  }, 
+  ".__osip_message_is_known_header": {
+    "start_address": 40192, 
+    "end_address": 40198
+  }, 
+  ".sdp_message_bandwidth_get": {
+    "start_address": 40000, 
+    "end_address": 40006
+  }, 
+  "osip_call_id_match": {
+    "start_address": 117248, 
+    "end_address": 117576
+  }, 
+  "select": {
+    "start_address": 2334248, 
+    "end_address": 2334256
+  }, 
+  ".osip_to_parse": {
+    "start_address": 39136, 
+    "end_address": 39142
+  }, 
+  "osip_message_set_www_authenticate": {
+    "start_address": 81664, 
+    "end_address": 81884
+  }, 
+  ".osip_uri_parse_params": {
+    "start_address": 39424, 
+    "end_address": 39430
+  }, 
+  "osip_call_id_free": {
+    "start_address": 116064, 
+    "end_address": 116337
+  }, 
+  "osip_route_init": {
+    "start_address": 45120, 
+    "end_address": 45147
+  }, 
+  "__osip_token_set": {
+    "start_address": 86000, 
+    "end_address": 87038
+  }, 
+  ".osip_str_append": {
+    "start_address": 39488, 
+    "end_address": 39494
+  }, 
+  ".osip_uri_to_str": {
+    "start_address": 38384, 
+    "end_address": 38390
+  }, 
+  "osip_set_allocators": {
+    "start_address": 156208, 
+    "end_address": 156268
+  }, 
+  "osip_authorization_parse": {
+    "start_address": 68800, 
+    "end_address": 71156
+  }, 
+  ".osip_header_to_str": {
+    "start_address": 38336, 
+    "end_address": 38342
+  }, 
+  ".osip_uri_param_get_byname": {
+    "start_address": 39360, 
+    "end_address": 39366
+  }, 
+  "sdp_message_o_nettype_get": {
+    "start_address": 171584, 
+    "end_address": 171634
+  }, 
+  "osip_message_set_reason_phrase": {
+    "start_address": 108288, 
+    "end_address": 108314
+  }, 
+  ".osip_list_remove": {
+    "start_address": 39280, 
+    "end_address": 39286
+  }, 
+  "osip_message_get_accept_encoding": {
+    "start_address": 160448, 
+    "end_address": 160564
+  }, 
+  ".sdp_attribute_init": {
+    "start_address": 39552, 
+    "end_address": 39558
+  }, 
+  "osip_call_id_set_host": {
+    "start_address": 117024, 
+    "end_address": 117050
+  }, 
+  "osip_authentication_info_set_srand": {
+    "start_address": 165568, 
+    "end_address": 165594
+  }, 
+  "osip_route_free": {
+    "start_address": 45408, 
+    "end_address": 45435
+  }, 
+  "__osip_uri_escape_password": {
+    "start_address": 65136, 
+    "end_address": 65173
+  }, 
+  "osip_message_set_method": {
+    "start_address": 108352, 
+    "end_address": 108378
+  }, 
+  ".osip_call_id_parse": {
+    "start_address": 39344, 
+    "end_address": 39350
+  }, 
+  "osip_cseq_clone": {
+    "start_address": 43120, 
+    "end_address": 43332
+  }, 
+  "j_sdp_attribute_free": {
+    "start_address": 40800, 
+    "end_address": 40806
+  }, 
+  "osip_message_get_reason_phrase": {
+    "start_address": 132208, 
+    "end_address": 132226
+  }, 
+  "osip_uri_set_host": {
+    "start_address": 60784, 
+    "end_address": 60826
+  }, 
+  "osip_via_to_str": {
+    "start_address": 93968, 
+    "end_address": 95223
+  }, 
+  "osip_call_info_to_str": {
+    "start_address": 158240, 
+    "end_address": 158851
+  }, 
+  "osip_authorization_get_nonce_count": {
+    "start_address": 73392, 
+    "end_address": 73410
+  }, 
+  "osip_MD5_memset": {
+    "start_address": 107216, 
+    "end_address": 107282
+  }, 
+  ".osip_record_route_parse": {
+    "start_address": 39904, 
+    "end_address": 39910
+  }, 
+  ".fprintf": {
+    "start_address": 39296, 
+    "end_address": 39302
+  }, 
+  ".__osip_message_call_method": {
+    "start_address": 38768, 
+    "end_address": 38774
+  }, 
+  "osip_uri_param_clone": {
+    "start_address": 66800, 
+    "end_address": 67008
+  }, 
+  "fprintf": {
+    "start_address": 2334224, 
+    "end_address": 2334232
+  }, 
+  "osip_authorization_get_username": {
+    "start_address": 72752, 
+    "end_address": 72770
+  }, 
+  "osip_message_set_header": {
+    "start_address": 78048, 
+    "end_address": 78606
+  }, 
+  "strlen": {
+    "start_address": 2334144, 
+    "end_address": 2334152
+  }, 
+  "osip_body_set_contenttype": {
+    "start_address": 98448, 
+    "end_address": 98632
+  }, 
+  "osip_www_authenticate_set_opaque": {
+    "start_address": 87520, 
+    "end_address": 87546
+  }, 
+  "osip_authentication_info_get_nextnonce": {
+    "start_address": 165152, 
+    "end_address": 165170
+  }, 
+  "__osip_quote_find": {
+    "start_address": 152064, 
+    "end_address": 152488
+  }, 
+  "osip_www_authenticate_clone": {
+    "start_address": 89328, 
+    "end_address": 90402
+  }, 
+  "__osip_uri_escape_nonascii_and_nondef": {
+    "start_address": 67552, 
+    "end_address": 68324
+  }, 
+  "osip_message_set_multiple_header": {
+    "start_address": 118608, 
+    "end_address": 120872
+  }, 
+  "sdp_message_v_version_get": {
+    "start_address": 171184, 
+    "end_address": 171233
+  }, 
+  "osip_uri_set_password": {
+    "start_address": 60672, 
+    "end_address": 60714
+  }, 
+  ".sdp_key_init": {
+    "start_address": 39168, 
+    "end_address": 39174
+  }, 
+  "vfprintf": {
+    "start_address": 2334344, 
+    "end_address": 2334352
+  }, 
+  "osip_message_get_content_type": {
+    "start_address": 147632, 
+    "end_address": 147653
+  }, 
+  "osip_body_clone": {
+    "start_address": 97872, 
+    "end_address": 98312
+  }, 
+  ".osip_uri_param_freelist": {
+    "start_address": 40096, 
+    "end_address": 40102
+  }, 
+  ".osip_atoi": {
+    "start_address": 39936, 
+    "end_address": 39942
+  }, 
+  "strncat": {
+    "start_address": 2334192, 
+    "end_address": 2334200
+  }, 
+  "osip_uri_param_init": {
+    "start_address": 67008, 
+    "end_address": 67160
+  }, 
+  "osip_message_get_proxy_authentication_info": {
+    "start_address": 168400, 
+    "end_address": 168521
+  }, 
+  ".osip_record_route_init": {
+    "start_address": 39392, 
+    "end_address": 39398
+  }, 
+  "osip_uri_init": {
+    "start_address": 54016, 
+    "end_address": 54269
+  }, 
+  "osip_list_get": {
+    "start_address": 114080, 
+    "end_address": 114227
+  }, 
+  ".osip_authentication_info_parse": {
+    "start_address": 40528, 
+    "end_address": 40534
+  }, 
+  "__cxa_finalize": {
+    "start_address": 40816, 
+    "end_address": 40822
+  }, 
+  ".osip_message_set_multiple_header": {
+    "start_address": 38720, 
+    "end_address": 38726
+  }, 
+  "sdp_message_v_version_set": {
+    "start_address": 171120, 
+    "end_address": 171178
+  }, 
+  ".osip_strncpy": {
+    "start_address": 38288, 
+    "end_address": 38294
+  }, 
+  "strcasecmp": {
+    "start_address": 2334096, 
+    "end_address": 2334104
+  }, 
+  ".osip_message_set_body": {
+    "start_address": 39792, 
+    "end_address": 39798
+  }, 
+  "osip_message_get_alert_info": {
+    "start_address": 170320, 
+    "end_address": 170436
+  }, 
+  "osip_content_type_clone": {
+    "start_address": 148480, 
+    "end_address": 148789
+  }, 
+  ".strrchr": {
+    "start_address": 38784, 
+    "end_address": 38790
+  }, 
+  "osip_www_authenticate_get_algorithm": {
+    "start_address": 87552, 
+    "end_address": 87570
+  }, 
+  "osip_MD5Final": {
+    "start_address": 106784, 
+    "end_address": 106967
+  }, 
+  "osip_trace_disable_level": {
+    "start_address": 153808, 
+    "end_address": 153836
+  }, 
+  "sdp_message_m_port_set": {
+    "start_address": 178240, 
+    "end_address": 178431
+  }, 
+  "lrand48": {
+    "start_address": 2334304, 
+    "end_address": 2334312
+  }, 
+  "osip_authorization_set_realm": {
+    "start_address": 72848, 
+    "end_address": 72874
+  }, 
+  "osip_body_set_header": {
+    "start_address": 98640, 
+    "end_address": 98910
+  }, 
+  "_osip_message_realloc": {
+    "start_address": 137936, 
+    "end_address": 138174
+  }, 
+  ".strncat": {
+    "start_address": 39008, 
+    "end_address": 39014
+  }, 
+  "osip_tolower": {
+    "start_address": 150688, 
+    "end_address": 150758
+  }, 
+  ".open": {
+    "start_address": 40160, 
+    "end_address": 40166
+  }, 
+  ".__osip_quoted_string_set": {
+    "start_address": 38480, 
+    "end_address": 38486
+  }, 
+  "osip_to_to_str": {
+    "start_address": 46000, 
+    "end_address": 46035
+  }, 
+  "osip_generic_param_get_value": {
+    "start_address": 53616, 
+    "end_address": 53693
+  }, 
+  "osip_content_type_parse": {
+    "start_address": 146720, 
+    "end_address": 147322
+  }, 
+  "osip_route_to_str": {
+    "start_address": 45568, 
+    "end_address": 45603
+  }, 
+  "osip_list_get_next": {
+    "start_address": 113680, 
+    "end_address": 113845
+  }, 
+  "__osip_find_next_crlf": {
+    "start_address": 117888, 
+    "end_address": 118249
+  }, 
+  ".__osip_uri_escape_header_param": {
+    "start_address": 38512, 
+    "end_address": 38518
+  }, 
+  ".sdp_key_free": {
+    "start_address": 39616, 
+    "end_address": 39622
+  }, 
+  "sdp_message_c_connection_add": {
+    "start_address": 172752, 
+    "end_address": 173071
+  }, 
+  ".osip_contact_parse": {
+    "start_address": 40128, 
+    "end_address": 40134
+  }, 
+  "sdp_message_o_addr_get": {
+    "start_address": 171712, 
+    "end_address": 171762
+  }, 
+  "parser_init": {
+    "start_address": 142528, 
+    "end_address": 145952
+  }, 
+  ".osip_via_to_str": {
+    "start_address": 38608, 
+    "end_address": 38614
+  }, 
+  "j_sdp_bandwidth_free": {
+    "start_address": 40760, 
+    "end_address": 40766
+  }, 
+  "osip_authorization_get_gssapi_data": {
+    "start_address": 73584, 
+    "end_address": 73602
+  }, 
+  ".osip_uri_parse_headers": {
+    "start_address": 39456, 
+    "end_address": 39462
+  }, 
+  "osip_www_authenticate_get_gssapi_data": {
+    "start_address": 87808, 
+    "end_address": 87826
+  }, 
+  ".next_separator": {
+    "start_address": 39248, 
+    "end_address": 39254
+  }, 
+  ".osip_list_get_first": {
+    "start_address": 38816, 
+    "end_address": 38822
+  }, 
+  "osip_authentication_info_parse": {
+    "start_address": 162336, 
+    "end_address": 164022
+  }, 
+  "osip_authentication_info_get_nonce_count": {
+    "start_address": 165344, 
+    "end_address": 165362
+  }, 
+  ".osip_message_get__property": {
+    "start_address": 39184, 
+    "end_address": 39190
+  }, 
+  "osip_header_set_value": {
+    "start_address": 81200, 
+    "end_address": 81226
+  }, 
+  "osip_call_info_free": {
+    "start_address": 157904, 
+    "end_address": 158106
+  }, 
+  "osip_authorization_set_cnonce": {
+    "start_address": 73232, 
+    "end_address": 73258
+  }, 
+  ".snprintf": {
+    "start_address": 38736, 
+    "end_address": 38742
+  }, 
+  "osip_uri_param_get_byname": {
+    "start_address": 67280, 
+    "end_address": 67541
+  }, 
+  "sdp_message_parse_p": {
+    "start_address": 190848, 
+    "end_address": 191444
+  }, 
+  "osip_message_get_content_length": {
+    "start_address": 142192, 
+    "end_address": 142213
+  }, 
+  "osip_authorization_set_uri": {
+    "start_address": 72976, 
+    "end_address": 73002
+  }, 
+  "osip_message_set_proxy_authenticate": {
+    "start_address": 148800, 
+    "end_address": 148997
+  }, 
+  "sdp_message_a_attribute_add": {
+    "start_address": 175888, 
+    "end_address": 176176
+  }, 
+  "sdp_message_parse_v": {
+    "start_address": 186944, 
+    "end_address": 187549
+  }, 
+  "sdp_message_p_phone_add": {
+    "start_address": 172544, 
+    "end_address": 172627
+  }, 
+  "osip_authentication_info_get_realm": {
+    "start_address": 165664, 
+    "end_address": 165682
+  }, 
+  "osip_message_get_uri": {
+    "start_address": 132336, 
+    "end_address": 132354
+  }, 
+  ".osip_www_authenticate_init": {
+    "start_address": 38992, 
+    "end_address": 38998
+  }, 
+  "via_set_version": {
+    "start_address": 95232, 
+    "end_address": 95257
+  }, 
+  "sdp_message_parse_a": {
+    "start_address": 196352, 
+    "end_address": 197273
+  }, 
+  "sdp_message_parse_c": {
+    "start_address": 191456, 
+    "end_address": 192746
+  }, 
+  "sdp_message_parse_b": {
+    "start_address": 192752, 
+    "end_address": 193509
+  }, 
+  "sdp_message_parse_e": {
+    "start_address": 190240, 
+    "end_address": 190836
+  }, 
+  "sdp_message_parse_i": {
+    "start_address": 188976, 
+    "end_address": 189635
+  }, 
+  "sdp_message_parse_k": {
+    "start_address": 195472, 
+    "end_address": 196345
+  }, 
+  "sdp_message_parse_m": {
+    "start_address": 197280, 
+    "end_address": 198753
+  }, 
+  "sdp_message_parse_o": {
+    "start_address": 188144, 
+    "end_address": 188971
+  }, 
+  "osip_strcasestr": {
+    "start_address": 150864, 
+    "end_address": 151081
+  }, 
+  "osip_message_get_accept_language": {
+    "start_address": 168736, 
+    "end_address": 168852
+  }, 
+  "osip_authentication_info_set_snum": {
+    "start_address": 165504, 
+    "end_address": 165530
+  }, 
+  "osip_authorization_set_cnum": {
+    "start_address": 73744, 
+    "end_address": 73773
+  }, 
+  ".osip_content_type_to_str": {
+    "start_address": 39744, 
+    "end_address": 39750
+  }, 
+  "osip_message_get_from": {
+    "start_address": 48704, 
+    "end_address": 48725
+  }, 
+  "osip_message_set__header": {
+    "start_address": 120880, 
+    "end_address": 121089
+  }, 
+  "osip_trace_initialize_func": {
+    "start_address": 153664, 
+    "end_address": 153772
+  }, 
+  "osip_contact_parse": {
+    "start_address": 131648, 
+    "end_address": 131798
+  }, 
+  "osip_message_set_authorization": {
+    "start_address": 68576, 
+    "end_address": 68796
+  }, 
+  ".strncasecmp": {
+    "start_address": 39648, 
+    "end_address": 39654
+  }, 
+  ".osip_header_init": {
+    "start_address": 38528, 
+    "end_address": 38534
+  }, 
+  "osip_call_id_set_number": {
+    "start_address": 116992, 
+    "end_address": 117017
+  }, 
+  "sdp_message_t_stop_time_get": {
+    "start_address": 174640, 
+    "end_address": 174750
+  }, 
+  "strrchr": {
+    "start_address": 2334168, 
+    "end_address": 2334176
+  }, 
+  ".osip_route_parse": {
+    "start_address": 39088, 
+    "end_address": 39094
+  }, 
+  "sdp_message_e_email_get": {
+    "start_address": 172432, 
+    "end_address": 172542
+  }, 
+  "osip_authorization_get_realm": {
+    "start_address": 72816, 
+    "end_address": 72834
+  }, 
+  "osip_strdup": {
+    "start_address": 149872, 
+    "end_address": 150069
+  }, 
+  "sdp_message_init": {
+    "start_address": 182848, 
+    "end_address": 184339
+  }, 
+  ".__isoc99_sscanf": {
+    "start_address": 39712, 
+    "end_address": 39718
+  }, 
+  "j_osip_record_route_free": {
+    "start_address": 40640, 
+    "end_address": 40646
+  }, 
+  ".osip_hash": {
+    "start_address": 39984, 
+    "end_address": 39990
+  }, 
+  "free": {
+    "start_address": 2334088, 
+    "end_address": 2334096
+  }, 
+  "j_osip_header_free": {
+    "start_address": 40648, 
+    "end_address": 40654
+  }, 
+  "osip_accept_encoding_free": {
+    "start_address": 160240, 
+    "end_address": 160442
+  }, 
+  "osip_authentication_info_get_snum": {
+    "start_address": 165472, 
+    "end_address": 165490
+  }, 
+  "j_osip_www_authenticate_free": {
+    "start_address": 40656, 
+    "end_address": 40662
+  }, 
+  "sdp_key_free": {
+    "start_address": 180000, 
+    "end_address": 180250
+  }, 
+  "__osip_message_startline_to_strresp": {
+    "start_address": 140912, 
+    "end_address": 141381
+  }, 
+  "__osip_message_startline_to_str": {
+    "start_address": 137792, 
+    "end_address": 137933
+  }, 
+  ".osip_authentication_info_init": {
+    "start_address": 39872, 
+    "end_address": 39878
+  }, 
+  "sprintf": {
+    "start_address": 2334368, 
+    "end_address": 2334376
+  }, 
+  "osip_authentication_info_set_nextnonce": {
+    "start_address": 165184, 
+    "end_address": 165210
+  }, 
+  ".strtol": {
+    "start_address": 39312, 
+    "end_address": 39318
+  }, 
+  "osip_list_init": {
+    "start_address": 112432, 
+    "end_address": 112504
+  }, 
+  ".osip_to_clone": {
+    "start_address": 39440, 
+    "end_address": 39446
+  }, 
+  "osip_message_set_topheader": {
+    "start_address": 79920, 
+    "end_address": 80475
+  }, 
+  "j_osip_content_length_clone": {
+    "start_address": 40792, 
+    "end_address": 40798
+  }, 
+  "osip_to_free": {
+    "start_address": 45936, 
+    "end_address": 45963
+  }, 
+  ".osip_from_to_str": {
+    "start_address": 39472, 
+    "end_address": 39478
+  }, 
+  "via_get_port": {
+    "start_address": 95552, 
+    "end_address": 95602
+  }, 
+  "osip_authentication_info_to_str": {
+    "start_address": 165792, 
+    "end_address": 167676
+  }, 
+  "osip_body_free": {
+    "start_address": 97552, 
+    "end_address": 97859
+  }, 
+  ".osip_cseq_free": {
+    "start_address": 38960, 
+    "end_address": 38966
+  }, 
+  ".osip_route_init": {
+    "start_address": 38112, 
+    "end_address": 38118
+  }, 
+  "osip_call_info_init": {
+    "start_address": 157312, 
+    "end_address": 157471
+  }, 
+  "__osip_set_next_token": {
+    "start_address": 151600, 
+    "end_address": 152064
+  }, 
+  "__osip_uri_escape_header_param": {
+    "start_address": 65232, 
+    "end_address": 65269
+  }, 
+  "sdp_time_descr_free": {
+    "start_address": 179568, 
+    "end_address": 179834
+  }, 
+  ".__osip_find_next_crlf": {
+    "start_address": 40336, 
+    "end_address": 40342
+  }, 
+  "osip_www_authenticate_get_stale": {
+    "start_address": 87424, 
+    "end_address": 87442
+  }, 
+  "osip_authorization_set_crand": {
+    "start_address": 73680, 
+    "end_address": 73706
+  }, 
+  "open": {
+    "start_address": 2334336, 
+    "end_address": 2334344
+  }, 
+  "strncpy": {
+    "start_address": 2334104, 
+    "end_address": 2334112
+  }, 
+  "sdp_message_e_email_add": {
+    "start_address": 172336, 
+    "end_address": 172419
+  }, 
+  "osip_call_info_get_uri": {
+    "start_address": 159136, 
+    "end_address": 159153
+  }, 
+  "osip_header_set_name": {
+    "start_address": 81104, 
+    "end_address": 81129
+  }, 
+  "osip_uri_get_host": {
+    "start_address": 60832, 
+    "end_address": 60882
+  }, 
+  "msg_headers_parse": {
+    "start_address": 124000, 
+    "end_address": 125132
+  }, 
+  "osip_authorization_to_str": {
+    "start_address": 73776, 
+    "end_address": 76603
+  }, 
+  "osip_authorization_set_targetname": {
+    "start_address": 73552, 
+    "end_address": 73578
+  }, 
+  "osip_message_set_cseq": {
+    "start_address": 41600, 
+    "end_address": 41832
+  }, 
+  "__isoc99_sscanf": {
+    "start_address": 2334288, 
+    "end_address": 2334296
+  }, 
+  ".osip_clrspace": {
+    "start_address": 38560, 
+    "end_address": 38566
+  }, 
+  ".osip_clrncpy": {
+    "start_address": 38576, 
+    "end_address": 38582
+  }, 
+  "__osip_message_is_known_header": {
+    "start_address": 145952, 
+    "end_address": 146096
+  }, 
+  "osip_build_random_number": {
+    "start_address": 149520, 
+    "end_address": 149788
+  }, 
+  ".osip_list_init": {
+    "start_address": 38944, 
+    "end_address": 38950
+  }, 
+  "osip_from_clone": {
+    "start_address": 52368, 
+    "end_address": 52698
+  }, 
+  "osip_enquote": {
+    "start_address": 152496, 
+    "end_address": 152950
+  }, 
+  ".osip_uri_parse": {
+    "start_address": 38096, 
+    "end_address": 38102
+  }, 
+  ".__osip_uri_escape_password": {
+    "start_address": 40240, 
+    "end_address": 40246
+  }, 
+  "sdp_message_k_key_set": {
+    "start_address": 175152, 
+    "end_address": 175398
+  }, 
+  "osip_message_set_accept_language": {
+    "start_address": 168528, 
+    "end_address": 168723
+  }, 
+  "osip_cseq_match": {
+    "start_address": 43344, 
+    "end_address": 43731
+  }, 
+  "osip_message_get_accept": {
+    "start_address": 169024, 
+    "end_address": 169140
+  }, 
+  "syslog": {
+    "start_address": 2334296, 
+    "end_address": 2334304
+  }, 
+  ".srand48": {
+    "start_address": 39968, 
+    "end_address": 39974
+  }, 
+  "osip_message_set_mime_version": {
+    "start_address": 149136, 
+    "end_address": 149368
+  }, 
+  "osip_authorization_get_digest": {
+    "start_address": 73072, 
+    "end_address": 73090
+  }, 
+  "osip_message_force_update": {
+    "start_address": 132432, 
+    "end_address": 132489
+  }, 
+  "osip_authentication_info_set_auth_type": {
+    "start_address": 165120, 
+    "end_address": 165145
+  }, 
+  "osip_authorization_get_crand": {
+    "start_address": 73648, 
+    "end_address": 73666
+  }, 
+  "j_osip_body_free": {
+    "start_address": 40680, 
+    "end_address": 40686
+  }, 
+  ".osip_content_length_parse": {
+    "start_address": 38192, 
+    "end_address": 38198
+  }, 
+  "osip_cseq_get_method": {
+    "start_address": 42736, 
+    "end_address": 42753
+  }, 
+  ".gettimeofday": {
+    "start_address": 38848, 
+    "end_address": 38854
+  }, 
+  "vsnprintf": {
+    "start_address": 2334136, 
+    "end_address": 2334144
+  }, 
+  "sdp_message_to_str": {
+    "start_address": 198768, 
+    "end_address": 201451
+  }, 
+  "osip_message_get_method": {
+    "start_address": 132272, 
+    "end_address": 132290
+  }, 
+  "osip_www_authenticate_set_qop_options": {
+    "start_address": 87648, 
+    "end_address": 87674
+  }, 
+  "__osip_message_startline_to_strreq": {
+    "start_address": 140288, 
+    "end_address": 140911
+  }, 
+  ".osip_body_parse_mime": {
+    "start_address": 40496, 
+    "end_address": 40502
+  }, 
+  "osip_trace_enable_level": {
+    "start_address": 153776, 
+    "end_address": 153804
+  }, 
+  "osip_uri_parse": {
+    "start_address": 54448, 
+    "end_address": 57070
+  }, 
+  ".osip_tolower": {
+    "start_address": 38128, 
+    "end_address": 38134
+  }, 
+  "sdp_bandwidth_init": {
+    "start_address": 178976, 
+    "end_address": 179128
+  }, 
+  "sdp_message_k_keydata_get": {
+    "start_address": 175648, 
+    "end_address": 175886
+  }, 
+  "osip_message_get_route": {
+    "start_address": 45440, 
+    "end_address": 45561
+  }, 
+  "sdp_message_r_repeat_get": {
+    "start_address": 174896, 
+    "end_address": 175020
+  }, 
+  "sdp_message_attribute_get": {
+    "start_address": 177296, 
+    "end_address": 177460
+  }, 
+  "osip_cseq_parse": {
+    "start_address": 41840, 
+    "end_address": 42406
+  }, 
+  "osip_authentication_info_get_auth_type": {
+    "start_address": 165088, 
+    "end_address": 165105
+  }, 
+  "osip_message_set_route": {
+    "start_address": 45152, 
+    "end_address": 45349
+  }, 
+  "osip_www_authenticate_get_realm": {
+    "start_address": 87232, 
+    "end_address": 87250
+  }, 
+  "osip_authorization_set_nonce": {
+    "start_address": 72912, 
+    "end_address": 72938
+  }, 
+  "sdp_message_b_bandwidth_get": {
+    "start_address": 174272, 
+    "end_address": 174355
+  }, 
+  "sdp_attribute_free": {
+    "start_address": 180416, 
+    "end_address": 180666
+  }, 
+  "strchr": {
+    "start_address": 2334152, 
+    "end_address": 2334160
+  }, 
+  "tolower": {
+    "start_address": 2334256, 
+    "end_address": 2334264
+  }, 
+  "osip_strcasecmp": {
+    "start_address": 150768, 
+    "end_address": 150803
+  }, 
+  "osip_from_param_get": {
+    "start_address": 52224, 
+    "end_address": 52355
+  }, 
+  "osip_www_authenticate_set_version": {
+    "start_address": 87712, 
+    "end_address": 87738
+  }, 
+  "osip_uri_param_freelist": {
+    "start_address": 65952, 
+    "end_address": 66047
+  }, 
+  "sdp_message_a_att_value_get": {
+    "start_address": 177568, 
+    "end_address": 177651
+  }, 
+  "osip_message_set_proxy_authorization": {
+    "start_address": 41104, 
+    "end_address": 41301
+  }, 
+  ".osip_list_add": {
+    "start_address": 40560, 
+    "end_address": 40566
+  }, 
+  "osip_authorization_set_auth_type": {
+    "start_address": 72720, 
+    "end_address": 72745
+  }, 
+  "srand48": {
+    "start_address": 2334320, 
+    "end_address": 2334328
+  }, 
+  "sdp_message_m_media_add": {
+    "start_address": 177792, 
+    "end_address": 177949
+  }, 
+  "osip_authorization_get_targetname": {
+    "start_address": 73520, 
+    "end_address": 73538
+  }, 
+  "__osip_quoted_string_set": {
+    "start_address": 84496, 
+    "end_address": 85985
+  }, 
+  ".__osip_quote_find": {
+    "start_address": 39568, 
+    "end_address": 39574
+  }, 
+  ".osip_contact_init": {
+    "start_address": 38624, 
+    "end_address": 38630
+  }, 
+  "osip_authorization_get_message_qop": {
+    "start_address": 73328, 
+    "end_address": 73346
+  }, 
+  "sdp_message_clone": {
+    "start_address": 205696, 
+    "end_address": 205914
+  }, 
+  "osip_call_id_to_str": {
+    "start_address": 116384, 
+    "end_address": 116859
+  }, 
+  "openlog": {
+    "start_address": 2334360, 
+    "end_address": 2334368
+  }, 
+  "osip_message_get_contact": {
+    "start_address": 131840, 
+    "end_address": 131975
+  }, 
+  "osip_authorization_get_algorithm": {
+    "start_address": 73136, 
+    "end_address": 73154
+  }, 
+  "osip_message_set_accept_encoding": {
+    "start_address": 159536, 
+    "end_address": 159731
+  }, 
+  "strncasecmp": {
+    "start_address": 2334272, 
+    "end_address": 2334280
+  }, 
+  ".osip_list_special_free": {
+    "start_address": 38832, 
+    "end_address": 38838
+  }, 
+  ".osip_via_parse": {
+    "start_address": 38400, 
+    "end_address": 38406
+  }, 
+  ".osip_body_to_str": {
+    "start_address": 38256, 
+    "end_address": 38262
+  }, 
+  "osip_www_authenticate_set_realm": {
+    "start_address": 87264, 
+    "end_address": 87290
+  }, 
+  "osip_uri_clone": {
+    "start_address": 66288, 
+    "end_address": 66793
+  }, 
+  ".openlog": {
+    "start_address": 40400, 
+    "end_address": 40406
+  }, 
+  "sdp_message_endof_media": {
+    "start_address": 177664, 
+    "end_address": 177782
+  }, 
+  "osip_message_set_allow": {
+    "start_address": 170784, 
+    "end_address": 170979
+  }, 
+  "sdp_append_key": {
+    "start_address": 202928, 
+    "end_address": 203165
+  }, 
+  ".strstr": {
+    "start_address": 40608, 
+    "end_address": 40614
+  }, 
+  "strtol": {
+    "start_address": 2334232, 
+    "end_address": 2334240
+  }, 
+  "osip_uri_get_port": {
+    "start_address": 60944, 
+    "end_address": 60994
+  }, 
+  "osip_uri_get_scheme": {
+    "start_address": 60496, 
+    "end_address": 60545
+  }, 
+  "osip_authentication_info_set_cnonce": {
+    "start_address": 165248, 
+    "end_address": 165274
+  }, 
+  "osip_from_init": {
+    "start_address": 46384, 
+    "end_address": 46558
+  }, 
+  "osip_list_iterator_remove": {
+    "start_address": 114864, 
+    "end_address": 115126
+  }, 
+  "osip_via_init": {
+    "start_address": 90624, 
+    "end_address": 90793
+  }, 
+  "osip_authorization_free": {
+    "start_address": 71168, 
+    "end_address": 72552
+  }, 
+  ".osip_uri_free": {
+    "start_address": 39888, 
+    "end_address": 39894
+  }, 
+  "osip_contact_free": {
+    "start_address": 131808, 
+    "end_address": 131835
+  }, 
+  ".__osip_uri_escape_uri_param": {
+    "start_address": 38656, 
+    "end_address": 38662
+  }, 
+  "via_set_host": {
+    "start_address": 95424, 
+    "end_address": 95450
+  }, 
+  "osip_cseq_set_number": {
+    "start_address": 42768, 
+    "end_address": 42794
+  }, 
+  "osip_content_type_to_str": {
+    "start_address": 147664, 
+    "end_address": 148473
+  }, 
+  "osip_www_authenticate_set_algorithm": {
+    "start_address": 87584, 
+    "end_address": 87610
+  }, 
+  "osip_message_get_header": {
+    "start_address": 80480, 
+    "end_address": 80593
+  }, 
+  "osip_authorization_get_uri": {
+    "start_address": 72944, 
+    "end_address": 72962
+  }, 
+  "memcpy": {
+    "start_address": 2334240, 
+    "end_address": 2334248
+  }, 
+  "__imp___cxa_finalize": {
+    "start_address": 2334376, 
+    "end_address": 2334384
+  }, 
+  "osip_strncasecmp": {
+    "start_address": 150816, 
+    "end_address": 150859
+  }, 
+  "osip_contact_init": {
+    "start_address": 131616, 
+    "end_address": 131643
+  }, 
+  ".sdp_bandwidth_init": {
+    "start_address": 38176, 
+    "end_address": 38182
+  }, 
+  "osip_trace_enable_until_level": {
+    "start_address": 153568, 
+    "end_address": 153661
+  }, 
+  "osip_authorization_set_opaque": {
+    "start_address": 73296, 
+    "end_address": 73322
+  }, 
+  "osip_message_get_error_info": {
+    "start_address": 170656, 
+    "end_address": 170777
+  }, 
+  "sdp_time_descr_init": {
+    "start_address": 179392, 
+    "end_address": 179566
+  }, 
+  ".__osip_uri_escape_userinfo": {
+    "start_address": 38880, 
+    "end_address": 38886
+  }, 
+  "osip_MD5Init": {
+    "start_address": 102464, 
+    "end_address": 102539
+  }, 
+  ".strncpy": {
+    "start_address": 38208, 
+    "end_address": 38214
+  }, 
+  ".osip_uri_param_add": {
+    "start_address": 38352, 
+    "end_address": 38358
+  }, 
+  "strncmp": {
+    "start_address": 2334112, 
+    "end_address": 2334120
+  }, 
+  "sdp_message_connection_get": {
+    "start_address": 173072, 
+    "end_address": 173223
+  }, 
+  "osip_www_authenticate_set_targetname": {
+    "start_address": 87776, 
+    "end_address": 87802
+  }, 
+  ".osip_accept_encoding_parse": {
+    "start_address": 40624, 
+    "end_address": 40630
+  }, 
+  "sdp_bandwidth_free": {
+    "start_address": 179136, 
+    "end_address": 179386
+  }, 
+  "osip_uri_param_free": {
+    "start_address": 66048, 
+    "end_address": 66282
+  }, 
+  "osip_cseq_free": {
+    "start_address": 42416, 
+    "end_address": 42666
+  }, 
+  "osip_content_length_to_str": {
+    "start_address": 142224, 
+    "end_address": 142324
+  }, 
+  "osip_from_tag_match": {
+    "start_address": 53696, 
+    "end_address": 54003
+  }, 
+  "osip_content_disposition_parse": {
+    "start_address": 159200, 
+    "end_address": 159529
+  }, 
+  "osip_message_get_version": {
+    "start_address": 132304, 
+    "end_address": 132321
+  }, 
+  "osip_message_set_authentication_info": {
+    "start_address": 162112, 
+    "end_address": 162330
+  }, 
+  "sdp_append_connection": {
+    "start_address": 201760, 
+    "end_address": 202237
+  }, 
+  "close": {
+    "start_address": 2334200, 
+    "end_address": 2334208
+  }, 
+  "osip_uri_set_port": {
+    "start_address": 60896, 
+    "end_address": 60938
+  }, 
+  ".osip_from_free": {
+    "start_address": 40144, 
+    "end_address": 40150
+  }, 
+  "osip_message_set_via": {
+    "start_address": 90416, 
+    "end_address": 90613
+  }, 
+  "sdp_message_m_number_of_port_get": {
+    "start_address": 178144, 
+    "end_address": 178228
+  }, 
+  "osip_authentication_info_get_targetname": {
+    "start_address": 165600, 
+    "end_address": 165618
+  }, 
+  "osip_Decode": {
+    "start_address": 107296, 
+    "end_address": 107456
+  }, 
+  ".__osip_uri_escape_nonascii_and_nondef": {
+    "start_address": 40224, 
+    "end_address": 40230
+  }, 
+  "osip_call_id_get_host": {
+    "start_address": 116928, 
+    "end_address": 116978
+  }, 
+  "osip_message_set_call_info": {
+    "start_address": 157104, 
+    "end_address": 157301
+  }, 
+  ".osip_strdup": {
+    "start_address": 39680, 
+    "end_address": 39686
+  }, 
+  "j_osip_content_type_free": {
+    "start_address": 40784, 
+    "end_address": 40790
+  }, 
+  ".fflush": {
+    "start_address": 39664, 
+    "end_address": 39670
+  }, 
+  "sdp_message_t_start_time_get": {
+    "start_address": 174528, 
+    "end_address": 174637
+  }, 
+  ".sdp_connection_init": {
+    "start_address": 40176, 
+    "end_address": 40182
+  }, 
+  "osip_message_set_content_length": {
+    "start_address": 141536, 
+    "end_address": 141768
+  }, 
+  "sdp_message_i_info_set": {
+    "start_address": 171904, 
+    "end_address": 172056
+  }, 
+  ".osip_cseq_parse": {
+    "start_address": 38144, 
+    "end_address": 38150
+  }, 
+  "osip_call_info_parse": {
+    "start_address": 157472, 
+    "end_address": 157897
+  }, 
+  "sdp_message_m_media_get": {
+    "start_address": 177952, 
+    "end_address": 178035
+  }, 
+  ".lrand48": {
+    "start_address": 39808, 
+    "end_address": 39814
+  }, 
+  ".osip_uri_param_free": {
+    "start_address": 38688, 
+    "end_address": 38694
+  }, 
+  "osip_via_parse": {
+    "start_address": 90800, 
+    "end_address": 93158
+  }, 
+  "osip_header_to_str": {
+    "start_address": 80608, 
+    "end_address": 81040
+  }, 
+  "frame_dummy": {
+    "start_address": 41056, 
+    "end_address": 41104
+  }, 
+  "osip_list_special_free": {
+    "start_address": 113856, 
+    "end_address": 113988
+  }, 
+  ".osip_uri_param_init": {
+    "start_address": 38320, 
+    "end_address": 38326
+  }, 
+  "osip_uri_to_str": {
+    "start_address": 61152, 
+    "end_address": 65073
+  }, 
+  "osip_call_id_init": {
+    "start_address": 115376, 
+    "end_address": 115528
+  }, 
+  "sdp_message_z_adjustments_get": {
+    "start_address": 175088, 
+    "end_address": 175141
+  }, 
+  ".sdp_message_attribute_get": {
+    "start_address": 39264, 
+    "end_address": 39270
+  }, 
+  "osip_authorization_set_version": {
+    "start_address": 73488, 
+    "end_address": 73514
+  }, 
+  "osip_call_id_parse": {
+    "start_address": 115536, 
+    "end_address": 116049
+  }, 
+  ".__osip_generic_param_parseall": {
+    "start_address": 39824, 
+    "end_address": 39830
+  }, 
+  "__do_global_dtors_aux": {
+    "start_address": 40992, 
+    "end_address": 41042
+  }, 
+  "osip_authorization_get_version": {
+    "start_address": 73456, 
+    "end_address": 73474
+  }, 
+  ".sdp_time_descr_init": {
+    "start_address": 39696, 
+    "end_address": 39702
+  }, 
+  "osip_accept_encoding_clone": {
+    "start_address": 161232, 
+    "end_address": 161552
+  }, 
+  "osip_Encode": {
+    "start_address": 106976, 
+    "end_address": 107202
+  }, 
+  "osip_cseq_get_number": {
+    "start_address": 42704, 
+    "end_address": 42722
+  }, 
+  "osip_record_route_parse": {
+    "start_address": 43984, 
+    "end_address": 44019
+  }, 
+  "osip_call_info_set_uri": {
+    "start_address": 159168, 
+    "end_address": 159193
+  }, 
+  "osip_uri_get_username": {
+    "start_address": 60608, 
+    "end_address": 60658
+  }, 
+  "register_tm_clones": {
+    "start_address": 40912, 
+    "end_address": 40978
+  }, 
+  "sdp_message_o_username_get": {
+    "start_address": 171392, 
+    "end_address": 171442
+  }, 
+  "osip_MD5Update": {
+    "start_address": 102544, 
+    "end_address": 102843
+  }, 
+  "osip_www_authenticate_free": {
+    "start_address": 83568, 
+    "end_address": 84493
+  }, 
+  "osip_message_replace_header": {
+    "start_address": 79056, 
+    "end_address": 79692
+  }, 
+  "osip_call_id_clone": {
+    "start_address": 117056, 
+    "end_address": 117247
+  }, 
+  "j_osip_content_length_free": {
+    "start_address": 40696, 
+    "end_address": 40702
+  }, 
+  ".osip_body_set_contenttype": {
+    "start_address": 38896, 
+    "end_address": 38902
+  }, 
+  "__osip_find_next_occurence": {
+    "start_address": 117584, 
+    "end_address": 117875
+  }, 
+  "sdp_message_parse_s": {
+    "start_address": 187552, 
+    "end_address": 188134
+  }, 
+  "sdp_message_s_name_get": {
+    "start_address": 171840, 
+    "end_address": 171890
+  }, 
+  ".sdp_message_parse": {
+    "start_address": 40368, 
+    "end_address": 40374
+  }, 
+  "osip_cseq_to_str": {
+    "start_address": 42832, 
+    "end_address": 43114
+  }, 
+  "osip_authorization_set_digest": {
+    "start_address": 73104, 
+    "end_address": 73130
+  }, 
+  "osip_www_authenticate_get_auth_type": {
+    "start_address": 87168, 
+    "end_address": 87185
+  }, 
+  "osip_contact_to_str": {
+    "start_address": 131984, 
+    "end_address": 132159
+  }, 
+  ".select": {
+    "start_address": 39536, 
+    "end_address": 39542
+  }, 
+  "osip_message_get_body": {
+    "start_address": 98320, 
+    "end_address": 98441
+  }, 
+  ".osip_content_type_init": {
+    "start_address": 40112, 
+    "end_address": 40118
+  }, 
+  "osip_body_parse_mime": {
+    "start_address": 99104, 
+    "end_address": 99650
+  }, 
+  "j_sdp_media_free": {
+    "start_address": 40752, 
+    "end_address": 40758
+  }, 
+  "via_set_port": {
+    "start_address": 95520, 
+    "end_address": 95546
+  }, 
+  ".osip_list_get": {
+    "start_address": 39120, 
+    "end_address": 39126
+  }, 
+  "osip_authorization_set_username": {
+    "start_address": 72784, 
+    "end_address": 72810
+  }, 
+  "sdp_message_parse_r": {
+    "start_address": 194192, 
+    "end_address": 194865
+  }, 
+  "osip_www_authenticate_get_qop_options": {
+    "start_address": 87616, 
+    "end_address": 87634
+  }, 
+  "osip_list_get_first": {
+    "start_address": 112704, 
+    "end_address": 112841
+  }, 
+  ".osip_content_type_parse": {
+    "start_address": 39840, 
+    "end_address": 39846
+  }, 
+  "osip_generic_param_set_value": {
+    "start_address": 53488, 
+    "end_address": 53514
+  }, 
+  "osip_from_compare": {
+    "start_address": 52704, 
+    "end_address": 53487
+  }, 
+  "osip_header_get_name": {
+    "start_address": 81040, 
+    "end_address": 81089
+  }, 
+  "osip_message_to_str_sipfrag": {
+    "start_address": 137744, 
+    "end_address": 137792
+  }, 
+  "osip_from_get_displayname": {
+    "start_address": 52032, 
+    "end_address": 52081
+  }, 
+  "strcat_simple_header": {
+    "start_address": 138176, 
+    "end_address": 139178
+  }, 
+  ".osip_uri_init": {
+    "start_address": 39152, 
+    "end_address": 39158
+  }, 
+  "osip_authorization_set_nonce_count": {
+    "start_address": 73424, 
+    "end_address": 73450
+  }, 
+  "osip_authorization_clone": {
+    "start_address": 76608, 
+    "end_address": 78035
+  }, 
+  "_osip_message_to_str": {
+    "start_address": 132544, 
+    "end_address": 137741
+  }, 
+  ".strcpy": {
+    "start_address": 38304, 
+    "end_address": 38310
+  }, 
+  ".sdp_media_init": {
+    "start_address": 38368, 
+    "end_address": 38374
+  }, 
+  "osip_trace": {
+    "start_address": 153872, 
+    "end_address": 156200
+  }, 
+  "via_get_comment": {
+    "start_address": 95648, 
+    "end_address": 95698
+  }, 
+  "osip_strerror": {
+    "start_address": 149408, 
+    "end_address": 149506
+  }, 
+  "__osip_find_next_crlfcrlf": {
+    "start_address": 118256, 
+    "end_address": 118601
+  }, 
+  ".vsnprintf": {
+    "start_address": 38464, 
+    "end_address": 38470
+  }, 
+  "osip_call_info_clone": {
+    "start_address": 158864, 
+    "end_address": 159124
+  }, 
+  "osip_www_authenticate_parse": {
+    "start_address": 81888, 
+    "end_address": 83562
+  }, 
+  "sub_94A0": {
+    "start_address": 38048, 
+    "end_address": 38060
+  }, 
+  "via_get_protocol": {
+    "start_address": 95360, 
+    "end_address": 95410
+  }, 
+  "osip_message_set_body": {
+    "start_address": 97104, 
+    "end_address": 97270
+  }, 
+  "osip_authentication_info_set_realm": {
+    "start_address": 165696, 
+    "end_address": 165722
+  }, 
+  "osip_content_type_free": {
+    "start_address": 147328, 
+    "end_address": 147617
+  }, 
+  "j_osip_content_type_clone": {
+    "start_address": 40808, 
+    "end_address": 40814
+  }, 
+  "osip_str_append": {
+    "start_address": 156352, 
+    "end_address": 156434
+  }, 
+  "osip_body_to_str": {
+    "start_address": 100672, 
+    "end_address": 102454
+  }, 
+  "osip_uri_parse_headers": {
+    "start_address": 57472, 
+    "end_address": 58815
+  }, 
+  "osip_message_set_content_type": {
+    "start_address": 146480, 
+    "end_address": 146712
+  }, 
+  "__osip_uri_escape_userinfo": {
+    "start_address": 65088, 
+    "end_address": 65125
+  }, 
+  "osip_uri_get_password": {
+    "start_address": 60720, 
+    "end_address": 60770
+  }, 
+  ".osip_body_parse": {
+    "start_address": 40320, 
+    "end_address": 40326
+  }, 
+  ".sdp_message_init": {
+    "start_address": 38448, 
+    "end_address": 38454
+  }, 
+  "osip_strncpy": {
+    "start_address": 149792, 
+    "end_address": 149858
+  }, 
+  ".osip_list_ofchar_free": {
+    "start_address": 39408, 
+    "end_address": 39414
+  }, 
+  "osip_route_parse": {
+    "start_address": 45360, 
+    "end_address": 45395
+  }, 
+  "__osip_sdp_append_string": {
+    "start_address": 201456, 
+    "end_address": 201757
+  }, 
+  "osip_uri_free": {
+    "start_address": 65280, 
+    "end_address": 65944
+  }, 
+  ".osip_body_set_header": {
+    "start_address": 38496, 
+    "end_address": 38502
+  }, 
+  ".osip_message_free": {
+    "start_address": 40432, 
+    "end_address": 40438
+  }, 
+  "osip_from_to_str": {
+    "start_address": 51104, 
+    "end_address": 52022
+  }, 
+  ".strlen": {
+    "start_address": 38592, 
+    "end_address": 38598
+  }, 
+  ".atoi": {
+    "start_address": 40352, 
+    "end_address": 40358
+  }, 
+  "osip_message_set_error_info": {
+    "start_address": 170448, 
+    "end_address": 170645
+  }, 
+  "osip_body_parse_header": {
+    "start_address": 99664, 
+    "end_address": 100669
+  }, 
+  "osip_www_authenticate_to_str": {
+    "start_address": 87872, 
+    "end_address": 89322
+  }, 
+  ".osip_call_id_clone": {
+    "start_address": 39376, 
+    "end_address": 39382
+  }, 
+  "osip_header_init": {
+    "start_address": 78608, 
+    "end_address": 78760
+  }, 
+  ".osip_MD5Update": {
+    "start_address": 38800, 
+    "end_address": 38806
+  }, 
+  "sdp_message_a_attribute_del": {
+    "start_address": 176176, 
+    "end_address": 176641
+  }, 
+  "osip_list_size": {
+    "start_address": 114816, 
+    "end_address": 114861
+  }, 
+  ".strchr": {
+    "start_address": 38704, 
+    "end_address": 38710
+  }, 
+  "deregister_tm_clones": {
+    "start_address": 40848, 
+    "end_address": 40898
+  }, 
+  "osip_message_get_proxy_authenticate": {
+    "start_address": 149008, 
+    "end_address": 149129
+  }, 
+  ".osip_via_init": {
+    "start_address": 40480, 
+    "end_address": 40486
+  }, 
+  "osip_to_tag_match": {
+    "start_address": 46096, 
+    "end_address": 46131
+  }, 
+  "osip_www_authenticate_get_targetname": {
+    "start_address": 87744, 
+    "end_address": 87762
+  }, 
+  "osip_message_get_allow": {
+    "start_address": 170992, 
+    "end_address": 171108
+  }, 
+  "j_osip_message_set_content_length": {
+    "start_address": 40712, 
+    "end_address": 40718
+  }, 
+  "osip_record_route_init": {
+    "start_address": 43744, 
+    "end_address": 43771
+  }, 
+  "osip_www_authenticate_set_nonce": {
+    "start_address": 87392, 
+    "end_address": 87418
+  }, 
+  "osip_www_authenticate_set_stale": {
+    "start_address": 87456, 
+    "end_address": 87482
+  }, 
+  "msg_osip_body_parse": {
+    "start_address": 125136, 
+    "end_address": 127372
+  }, 
+  "osip_authorization_get_auth_type": {
+    "start_address": 72688, 
+    "end_address": 72705
+  }, 
+  "osip_content_type_init": {
+    "start_address": 146304, 
+    "end_address": 146478
+  }, 
+  "sdp_message_o_sess_version_get": {
+    "start_address": 171520, 
+    "end_address": 171570
+  }, 
+  "osip_message_set_proxy_authentication_info": {
+    "start_address": 168192, 
+    "end_address": 168389
+  }, 
+  "sdp_message_a_attribute_del_at_index": {
+    "start_address": 176656, 
+    "end_address": 177296
+  }, 
+  "osip_clrspace": {
+    "start_address": 151088, 
+    "end_address": 151598
+  }, 
+  "osip_www_authenticate_get_domain": {
+    "start_address": 87296, 
+    "end_address": 87314
+  }, 
+  ".osip_strcasecmp": {
+    "start_address": 39856, 
+    "end_address": 39862
+  }, 
+  "osip_message_get_to": {
+    "start_address": 45968, 
+    "end_address": 45989
+  }, 
+  "osip_authorization_set_algorithm": {
+    "start_address": 73168, 
+    "end_address": 73194
+  }, 
+  "sdp_message_b_bandwidth_add": {
+    "start_address": 173712, 
+    "end_address": 173998
+  }, 
+  "osip_accept_encoding_init": {
+    "start_address": 159744, 
+    "end_address": 159903
+  }, 
+  "osip_www_authenticate_get_nonce": {
+    "start_address": 87360, 
+    "end_address": 87378
+  }, 
+  "osip_message_get_cseq": {
+    "start_address": 42672, 
+    "end_address": 42693
+  }, 
+  "osip_message_to_str": {
+    "start_address": 132496, 
+    "end_address": 132541
+  }, 
+  "sdp_message_k_keytype_get": {
+    "start_address": 175408, 
+    "end_address": 175644
+  }, 
+  ".osip_to_init": {
+    "start_address": 40208, 
+    "end_address": 40214
+  }, 
+  ".osip_cseq_clone": {
+    "start_address": 38064, 
+    "end_address": 38070
+  }, 
+  "osip_authentication_info_set_opaque": {
+    "start_address": 165760, 
+    "end_address": 165786
+  }, 
+  "osip_message_get_reason": {
+    "start_address": 122896, 
+    "end_address": 123232
+  }, 
+  ".osip_from_tag_match": {
+    "start_address": 40032, 
+    "end_address": 40038
+  }, 
+  "fflush": {
+    "start_address": 2334280, 
+    "end_address": 2334288
+  }, 
+  ".osip_message_set_header": {
+    "start_address": 40448, 
+    "end_address": 40454
+  }, 
+  ".osip_cseq_init": {
+    "start_address": 39104, 
+    "end_address": 39110
+  }, 
+  "osip_message_set_body_mime": {
+    "start_address": 98912, 
+    "end_address": 99101
+  }, 
+  "osip_message_set_from": {
+    "start_address": 46144, 
+    "end_address": 46376
+  }, 
+  "osip_www_authenticate_set_auth_type": {
+    "start_address": 87200, 
+    "end_address": 87225
+  }, 
+  "__osip_message_startline_parseresp": {
+    "start_address": 127376, 
+    "end_address": 128353
+  }, 
+  "osip_trace_initialize": {
+    "start_address": 153248, 
+    "end_address": 153418
+  }, 
+  "realloc": {
+    "start_address": 2334312, 
+    "end_address": 2334320
+  }, 
+  "osip_www_authenticate_get_opaque": {
+    "start_address": 87488, 
+    "end_address": 87506
+  }, 
+  "osip_content_length_parse": {
+    "start_address": 141776, 
+    "end_address": 142004
+  }, 
+  "sdp_message_c_addr_get": {
+    "start_address": 173424, 
+    "end_address": 173507
+  }, 
+  "osip_authentication_info_get_opaque": {
+    "start_address": 165728, 
+    "end_address": 165746
+  }, 
+  "read": {
+    "start_address": 2334208, 
+    "end_address": 2334216
+  }, 
+  "osip_authentication_info_get_rspauth": {
+    "start_address": 165280, 
+    "end_address": 165298
+  }, 
+  "osip_message_get_proxy_authorization": {
+    "start_address": 41312, 
+    "end_address": 41433
+  }, 
+  "j_osip_authentication_info_free": {
+    "start_address": 40688, 
+    "end_address": 40694
+  }, 
+  "osip_www_authenticate_get_version": {
+    "start_address": 87680, 
+    "end_address": 87698
+  }, 
+  "sdp_key_init": {
+    "start_address": 179840, 
+    "end_address": 179992
+  }, 
+  "osip_message_get__property": {
+    "start_address": 132368, 
+    "end_address": 132417
+  }, 
+  ".tolower": {
+    "start_address": 39600, 
+    "end_address": 39606
+  }, 
+  "osip_uri_set_scheme": {
+    "start_address": 60448, 
+    "end_address": 60489
+  }, 
+  "sdp_message_parse_u": {
+    "start_address": 189648, 
+    "end_address": 190230
+  }, 
+  "osip_accept_to_str": {
+    "start_address": 169152, 
+    "end_address": 170098
+  }, 
+  "sdp_message_parse_t": {
+    "start_address": 193520, 
+    "end_address": 194177
+  }, 
+  ".osip_call_id_init": {
+    "start_address": 39024, 
+    "end_address": 39030
+  }, 
+  "osip_from_set_url": {
+    "start_address": 52192, 
+    "end_address": 52218
+  }, 
+  "strstr": {
+    "start_address": 2334384, 
+    "end_address": 2334392
+  }, 
+  "osip_message_free": {
+    "start_address": 108448, 
+    "end_address": 109685
+  }, 
+  "memmove": {
+    "start_address": 2334328, 
+    "end_address": 2334336
+  }, 
+  "osip_message_set_call_id": {
+    "start_address": 115136, 
+    "end_address": 115368
+  }, 
+  ".osip_message_header_get_byname": {
+    "start_address": 39520, 
+    "end_address": 39526
+  }, 
+  "osip_authorization_set_response": {
+    "start_address": 73040, 
+    "end_address": 73066
+  }, 
+  ".strcasecmp": {
+    "start_address": 38160, 
+    "end_address": 38166
+  }, 
+  "osip_authorization_init": {
+    "start_address": 68416, 
+    "end_address": 68563
+  }, 
+  ".osip_list_clone": {
+    "start_address": 40288, 
+    "end_address": 40294
+  }, 
+  "strcpy": {
+    "start_address": 2334128, 
+    "end_address": 2334136
+  }, 
+  "strcmp": {
+    "start_address": 2334216, 
+    "end_address": 2334224
+  }, 
+  "sdp_append_media": {
+    "start_address": 203408, 
+    "end_address": 204588
+  }, 
+  "osip_usleep": {
+    "start_address": 150224, 
+    "end_address": 150326
+  }, 
+  "sdp_message_parse_z": {
+    "start_address": 194880, 
+    "end_address": 195465
+  }, 
+  "osip_via_clone": {
+    "start_address": 95712, 
+    "end_address": 96338
+  }, 
+  "strcat_headers_one_per_line": {
+    "start_address": 139184, 
+    "end_address": 140288
+  }, 
+  "osip_record_route_free": {
+    "start_address": 44032, 
+    "end_address": 44059
+  }, 
+  "sdp_message_b_bwtype_get": {
+    "start_address": 174176, 
+    "end_address": 174258
+  }, 
+  "osip_list_add": {
+    "start_address": 112848, 
+    "end_address": 113680
+  }, 
+  "sdp_message_p_phone_get": {
+    "start_address": 172640, 
+    "end_address": 172750
+  }, 
+  "osip_generic_param_get_name": {
+    "start_address": 53520, 
+    "end_address": 53569
+  }, 
+  "via_get_version": {
+    "start_address": 95264, 
+    "end_address": 95313
+  }, 
+  "osip_message_get_call_id": {
+    "start_address": 116352, 
+    "end_address": 116373
+  }, 
+  "osip_content_length_init": {
+    "start_address": 141392, 
+    "end_address": 141529
+  }, 
+  ".osip_to_free": {
+    "start_address": 39584, 
+    "end_address": 39590
+  }, 
+  ".osip_call_info_parse": {
+    "start_address": 39776, 
+    "end_address": 39782
+  }, 
+  "osip_strn_append": {
+    "start_address": 156448, 
+    "end_address": 156521
+  }, 
+  "via_set_comment": {
+    "start_address": 95616, 
+    "end_address": 95642
+  }, 
+  "osip_authorization_set_message_qop": {
+    "start_address": 73360, 
+    "end_address": 73386
+  }, 
+  "_osip_message_parse": {
+    "start_address": 121152, 
+    "end_address": 122390
+  }, 
+  "osip_message_get_content_encoding": {
+    "start_address": 161824, 
+    "end_address": 161945
+  }, 
+  "osip_authorization_get_nonce": {
+    "start_address": 72880, 
+    "end_address": 72898
+  }, 
+  "osip_list_ofchar_free": {
+    "start_address": 114640, 
+    "end_address": 114810
+  }, 
+  "osip_message_parse": {
+    "start_address": 121104, 
+    "end_address": 121149
+  }, 
+  ".__osip_set_next_token": {
+    "start_address": 38752, 
+    "end_address": 38758
+  }, 
+  "j_osip_uri_param_clone": {
+    "start_address": 40720, 
+    "end_address": 40726
+  }, 
+  "osip_message_header_get_byname": {
+    "start_address": 79696, 
+    "end_address": 79910
+  }, 
+  ".close": {
+    "start_address": 39040, 
+    "end_address": 39046
+  }, 
+  "__osip_generic_param_parseall": {
+    "start_address": 48736, 
+    "end_address": 51101
+  }, 
+  "sdp_message_s_name_set": {
+    "start_address": 171776, 
+    "end_address": 171835
+  }, 
+  "osip_message_set_contact": {
+    "start_address": 131408, 
+    "end_address": 131605
+  }, 
+  "osip_content_length_clone": {
+    "start_address": 142336, 
+    "end_address": 142519
+  }, 
+  "osip_record_route_to_str": {
+    "start_address": 44192, 
+    "end_address": 45110
+  }, 
+  "sdp_media_free": {
+    "start_address": 182256, 
+    "end_address": 182838
+  }, 
+  "sdp_message_r_repeat_add": {
+    "start_address": 174752, 
+    "end_address": 174886
+  }, 
+  "osip_message_set_uri": {
+    "start_address": 108416, 
+    "end_address": 108442
+  }, 
+  "__osip_message_startline_parse": {
+    "start_address": 123888, 
+    "end_address": 124000
+  }, 
+  "osip_authentication_info_set_targetname": {
+    "start_address": 165632, 
+    "end_address": 165658
+  }, 
+  "osip_message_get_record_route": {
+    "start_address": 44064, 
+    "end_address": 44185
+  }, 
+  "osip_MD5Transform": {
+    "start_address": 102928, 
+    "end_address": 106775
+  }, 
+  "osip_strdup_without_quote": {
+    "start_address": 150336, 
+    "end_address": 150674
+  }, 
+  "j_osip_route_free": {
+    "start_address": 40704, 
+    "end_address": 40710
+  }, 
+  "sdp_connection_init": {
+    "start_address": 180672, 
+    "end_address": 180869
+  }, 
+  "osip_message_init": {
+    "start_address": 107456, 
+    "end_address": 108282
+  }, 
+  ".osip_list_get_next": {
+    "start_address": 40592, 
+    "end_address": 40598
+  }, 
+  ".osip_message_init": {
+    "start_address": 39952, 
+    "end_address": 39958
+  }, 
+  "sdp_attribute_init": {
+    "start_address": 180256, 
+    "end_address": 180408
+  }, 
+  "osip_message_get_status_code": {
+    "start_address": 132240, 
+    "end_address": 132257
+  }, 
+  "osip_uri_param_add": {
+    "start_address": 61008, 
+    "end_address": 61151
+  }, 
+  "sdp_append_attribute": {
+    "start_address": 203168, 
+    "end_address": 203405
+  }, 
+  ".sprintf": {
+    "start_address": 40464, 
+    "end_address": 40470
+  }, 
+  ".malloc": {
+    "start_address": 39632, 
+    "end_address": 39638
+  }, 
+  "via_set_protocol": {
+    "start_address": 95328, 
+    "end_address": 95354
+  }, 
+  ".strncmp": {
+    "start_address": 38272, 
+    "end_address": 38278
+  }, 
+  "osip_authentication_info_set_qop_options": {
+    "start_address": 165440, 
+    "end_address": 165466
+  }, 
+  "osip_list_remove": {
+    "start_address": 114240, 
+    "end_address": 114626
+  }, 
+  "j_sdp_time_descr_free": {
+    "start_address": 40824, 
+    "end_address": 40830
+  }, 
+  "osip_accept_encoding_set_element": {
+    "start_address": 161584, 
+    "end_address": 161609
+  }, 
+  ".osip_call_info_init": {
+    "start_address": 40576, 
+    "end_address": 40582
+  }, 
+  ".init_proc": {
+    "start_address": 38016, 
+    "end_address": 38042
+  }, 
+  "osip_via_free": {
+    "start_address": 93168, 
+    "end_address": 93659
+  }, 
+  "osip_authentication_info_get_cnonce": {
+    "start_address": 165216, 
+    "end_address": 165234
+  }, 
+  "osip_accept_encoding_to_str": {
+    "start_address": 160576, 
+    "end_address": 161218
+  }, 
+  ".osip_content_length_init": {
+    "start_address": 40256, 
+    "end_address": 40262
+  }, 
+  "osip_header_free": {
+    "start_address": 78768, 
+    "end_address": 79041
+  }, 
+  ".osip_www_authenticate_parse": {
+    "start_address": 40512, 
+    "end_address": 40518
+  }, 
+  "osip_authorization_set_gssapi_data": {
+    "start_address": 73616, 
+    "end_address": 73642
+  }, 
+  "atoi": {
+    "start_address": 2334352, 
+    "end_address": 2334360
+  }, 
+  "__osip_message_call_method": {
+    "start_address": 146096, 
+    "end_address": 146292
+  }, 
+  "osip_message_get_via": {
+    "start_address": 93824, 
+    "end_address": 93959
+  }, 
+  ".__osip_token_set": {
+    "start_address": 40544, 
+    "end_address": 40550
+  }, 
+  "sdp_message_u_uri_set": {
+    "start_address": 172208, 
+    "end_address": 172267
+  }, 
+  "osip_accept_encoding_parse": {
+    "start_address": 159904, 
+    "end_address": 160233
+  }, 
+  ".osip_authorization_parse": {
+    "start_address": 38976, 
+    "end_address": 38982
+  }, 
+  "via_get_host": {
+    "start_address": 95456, 
+    "end_address": 95506
+  }, 
+  ".__osip_uri_unescape": {
+    "start_address": 39760, 
+    "end_address": 39766
+  }, 
+  "osip_dequote": {
+    "start_address": 152960, 
+    "end_address": 153248
+  }, 
+  "sdp_message_t_time_descr_add": {
+    "start_address": 174368, 
+    "end_address": 174516
+  }, 
+  "j_osip_accept_encoding_free": {
+    "start_address": 40776, 
+    "end_address": 40782
+  }, 
+  ".osip_trace": {
+    "start_address": 40272, 
+    "end_address": 40278
+  }, 
+  "sdp_message_m_proto_get": {
+    "start_address": 178432, 
+    "end_address": 178516
+  }, 
+  "osip_message_set_record_route": {
+    "start_address": 43776, 
+    "end_address": 43973
+  }, 
+  ".memmove": {
+    "start_address": 40064, 
+    "end_address": 40070
+  }, 
+  "osip_content_length_free": {
+    "start_address": 142016, 
+    "end_address": 142191
+  }, 
+  "osip_atoi": {
+    "start_address": 150080, 
+    "end_address": 150211
+  }, 
+  "osip_authentication_info_get_qop_options": {
+    "start_address": 165408, 
+    "end_address": 165426
+  }, 
+  "sdp_message_m_payload_get": {
+    "start_address": 178640, 
+    "end_address": 178738
+  }, 
+  "osip_message_set_content_encoding": {
+    "start_address": 161616, 
+    "end_address": 161813
+  }, 
+  "sdp_message_c_addrtype_get": {
+    "start_address": 173328, 
+    "end_address": 173411
+  }, 
+  "osip_message_get_call_info": {
+    "start_address": 158112, 
+    "end_address": 158233
+  }, 
+  "osip_uri_parse_params": {
+    "start_address": 58816, 
+    "end_address": 60445
+  }, 
+  ".osip_from_init": {
+    "start_address": 38544, 
+    "end_address": 38550
+  }, 
+  "osip_to_init": {
+    "start_address": 45616, 
+    "end_address": 45643
+  }, 
+  "osip_authentication_info_free": {
+    "start_address": 164032, 
+    "end_address": 164957
+  }, 
+  ".osip_strncasecmp": {
+    "start_address": 38432, 
+    "end_address": 38438
+  }, 
+  "osip_body_parse": {
+    "start_address": 97280, 
+    "end_address": 97542
+  }, 
+  "sdp_message_parse": {
+    "start_address": 184352, 
+    "end_address": 186938
+  }, 
+  ".syslog": {
+    "start_address": 39728, 
+    "end_address": 39734
+  }, 
+  "osip_message_set_alert_info": {
+    "start_address": 170112, 
+    "end_address": 170307
+  }, 
+  ".osip_body_init": {
+    "start_address": 40384, 
+    "end_address": 40390
+  }, 
+  "sdp_message_o_addrtype_get": {
+    "start_address": 171648, 
+    "end_address": 171698
+  }, 
+  "osip_call_id_get_number": {
+    "start_address": 116864, 
+    "end_address": 116913
+  }, 
+  "osip_authorization_get_opaque": {
+    "start_address": 73264, 
+    "end_address": 73282
+  }, 
+  "sdp_connection_free": {
+    "start_address": 180880, 
+    "end_address": 181355
+  }, 
+  ".osip_accept_encoding_init": {
+    "start_address": 39056, 
+    "end_address": 39062
+  }, 
+  "sdp_message_u_uri_get": {
+    "start_address": 172272, 
+    "end_address": 172322
+  }, 
+  "osip_cseq_init": {
+    "start_address": 41440, 
+    "end_address": 41592
+  }, 
+  ".__osip_find_next_occurence": {
+    "start_address": 40416, 
+    "end_address": 40422
+  }, 
+  "osip_from_get_url": {
+    "start_address": 52128, 
+    "end_address": 52178
+  }, 
+  ".osip_list_eol": {
+    "start_address": 38224, 
+    "end_address": 38230
+  }, 
+  "osip_list_eol": {
+    "start_address": 114000, 
+    "end_address": 114073
+  }, 
+  "osip_message_get_authorization": {
+    "start_address": 72560, 
+    "end_address": 72681
+  }, 
+  "osip_authentication_info_get_srand": {
+    "start_address": 165536, 
+    "end_address": 165554
+  }, 
+  ".osip_from_parse": {
+    "start_address": 38416, 
+    "end_address": 38422
+  }, 
+  "__gmon_start__": {
+    "start_address": 40744, 
+    "end_address": 40750
+  }, 
+  "sdp_message_i_info_get": {
+    "start_address": 172064, 
+    "end_address": 172201
+  }, 
+  "osip_via_match": {
+    "start_address": 96352, 
+    "end_address": 96719
+  }, 
+  "j_osip_contact_free": {
+    "start_address": 40728, 
+    "end_address": 40734
+  }, 
+  "osip_message_append_via": {
+    "start_address": 93664, 
+    "end_address": 93819
+  }, 
+  "osip_message_get_authentication_info": {
+    "start_address": 164960, 
+    "end_address": 165076
+  }, 
+  ".memset": {
+    "start_address": 38912, 
+    "end_address": 38918
+  }, 
+  "osip_message_get_mime_version": {
+    "start_address": 149376, 
+    "end_address": 149397
+  }, 
+  ".free": {
+    "start_address": 38080, 
+    "end_address": 38086
+  }, 
+  "j_sdp_connection_free": {
+    "start_address": 40672, 
+    "end_address": 40678
+  }, 
+  "osip_www_authenticate_set_gssapi_data": {
+    "start_address": 87840, 
+    "end_address": 87866
+  }, 
+  "osip_is_trace_level_activate": {
+    "start_address": 153840, 
+    "end_address": 153864
+  }
+}

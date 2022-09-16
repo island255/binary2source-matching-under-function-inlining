@@ -1,0 +1,6416 @@
+{
+  "wdiff/wdiff-1.2.2/build-aux/snippet/arg-nonnull.h": {},
+  "wdiff/wdiff-1.2.2/build-aux/snippet/c++defs.h": {},
+  "wdiff/wdiff-1.2.2/build-aux/snippet/warn-on-use.h": {},
+  "wdiff/wdiff-1.2.2/build-aux/snippet/_Noreturn.h": {},
+  "wdiff/wdiff-1.2.2/lib/alloca.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/asnprintf.c": {
+    "asnprintf": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/asprintf.c": {
+    "asprintf": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/btowc.c": {
+    "btowc": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/canonicalize-lgpl.c": {
+    "__realpath": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": []
+    },
+    "__old_realpath": {
+      "start_point": [
+        381,
+        0
+      ],
+      "end_point": [
+        392,
+        1
+      ],
+      "strings": []
+    },
+    "__canonicalize_file_name": {
+      "start_point": [
+        397,
+        0
+      ],
+      "end_point": [
+        401,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/dosname.h": {},
+  "wdiff/wdiff-1.2.2/lib/dup2.c": {
+    "ms_windows_dup2": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        71,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_dup2": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        119,
+        1
+      ],
+      "strings": []
+    },
+    "dupfd": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": []
+    },
+    "dup2": {
+      "start_point": [
+        143,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/errno.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/error.c": {
+    "is_open": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": []
+    },
+    "flush_stdout": {
+      "start_point": [
+        141,
+        0
+      ],
+      "end_point": [
+        164,
+        1
+      ],
+      "strings": []
+    },
+    "print_errno_message": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        195,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\"",
+        "\": %s\"",
+        "\": %s\""
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        198,
+        42
+      ],
+      "end_point": [
+        281,
+        1
+      ],
+      "strings": [
+        "L\"out of memory\\n\"",
+        "L\"???\"",
+        "\"\\n\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        288,
+        0
+      ],
+      "end_point": [
+        325,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"%s: \""
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        331,
+        0
+      ],
+      "end_point": [
+        392,
+        1
+      ],
+      "strings": [
+        "\"%s:\"",
+        "\"%s:\"",
+        "\"%s:%d: \"",
+        "\" \"",
+        "\"%s:%d: \"",
+        "\" \""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/error.h": {},
+  "wdiff/wdiff-1.2.2/lib/exitfail.c": {},
+  "wdiff/wdiff-1.2.2/lib/exitfail.h": {},
+  "wdiff/wdiff-1.2.2/lib/float+.h": {},
+  "wdiff/wdiff-1.2.2/lib/float.c": {},
+  "wdiff/wdiff-1.2.2/lib/float.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/getdelim.c": {
+    "getdelim": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/getline.c": {
+    "getline": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        26,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/getopt.c": {
+    "exchange": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": [
+        "\"POSIXLY_CORRECT\""
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        1124,
+        1
+      ],
+      "strings": [
+        "\"--\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"%s\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '--%s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"%s: option '--%s' requires an argument\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s\"",
+        "\"\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"%s\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"\\\n%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\""
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        1126,
+        0
+      ],
+      "end_point": [
+        1145,
+        1
+      ],
+      "strings": []
+    },
+    "getopt": {
+      "start_point": [
+        1155,
+        0
+      ],
+      "end_point": [
+        1162,
+        1
+      ],
+      "strings": []
+    },
+    "__posix_getopt": {
+      "start_point": [
+        1165,
+        0
+      ],
+      "end_point": [
+        1172,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        1181,
+        0
+      ],
+      "end_point": [
+        1242,
+        1
+      ],
+      "strings": [
+        "\"abc:d:0123456789\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/getopt.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "getopt_long_only": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"add\"",
+        "\"append\"",
+        "\"delete\"",
+        "\"verbose\"",
+        "\"create\"",
+        "\"file\"",
+        "\"abc:d:0123456789\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"\\n\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"option d with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/getopt_int.h": {},
+  "wdiff/wdiff-1.2.2/lib/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        165,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        253,
+        0
+      ],
+      "end_point": [
+        285,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/gettimeofday.c": {
+    "rpl_localtime": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_gmtime": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_tzset": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "gettimeofday": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/intprops.h": {},
+  "wdiff/wdiff-1.2.2/lib/iswblank.c": {
+    "iswblank": {
+      "start_point": [
+        21,
+        0
+      ],
+      "end_point": [
+        25,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/itold.c": {
+    "_Qp_itoq": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/langinfo.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/localcharset.c": {
+    "get_charset_aliases": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        349,
+        1
+      ],
+      "strings": [
+        "\"charset.alias\"",
+        "\"CHARSETALIASDIR\"",
+        "\"\"",
+        "\"\"",
+        "\"r\"",
+        "\"\"",
+        "\"%50s %50s\"",
+        "\"\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-4\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"ISO8859-13\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"ISO8859-15\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"eucCN\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucKR\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"Big5\"",
+        "\"\\0\"",
+        "\"BIG5\"",
+        "\"\\0\"",
+        "\"Big5HKSCS\"",
+        "\"\\0\"",
+        "\"BIG5-HKSCS\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"*\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-8\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"DECKANJI\"",
+        "\"\\0\"",
+        "\"DEC-KANJI\"",
+        "\"\\0\"",
+        "\"SDECKANJI\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucTW\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"DECHANYU\"",
+        "\"\\0\"",
+        "\"DEC-HANYU\"",
+        "\"\\0\"",
+        "\"DECHANZI\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"DECKOREAN\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP936\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP1361\"",
+        "\"\\0\"",
+        "\"JOHAB\"",
+        "\"\\0\"",
+        "\"CP20127\"",
+        "\"\\0\"",
+        "\"ASCII\"",
+        "\"\\0\"",
+        "\"CP20866\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP20936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP21866\"",
+        "\"\\0\"",
+        "\"KOI8-RU\"",
+        "\"\\0\"",
+        "\"CP28591\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP28592\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP28593\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP28594\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP28595\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP28596\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP28597\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP28598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP28599\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP28605\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP38598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP51932\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP51936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP51949\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP51950\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP54936\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"CP65001\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\""
+      ]
+    },
+    "locale_charset": {
+      "start_point": [
+        360,
+        0
+      ],
+      "end_point": [
+        557,
+        1
+      ],
+      "strings": [
+        "\"US-ASCII\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"\"",
+        "\"CP%u\"",
+        "\"\"",
+        "\"ASCII\"",
+        "\"UTF-8\"",
+        "\"ASCII\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/localcharset.h": {},
+  "wdiff/wdiff-1.2.2/lib/locale.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/localeconv.c": {
+    "localeconv": [
+      {
+        "start_point": [
+          26,
+          0
+        ],
+        "end_point": [
+          60,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          68,
+          0
+        ],
+        "end_point": [
+          100,
+          1
+        ],
+        "strings": [
+          "\".\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\"",
+          "\"\""
+        ]
+      }
+    ]
+  },
+  "wdiff/wdiff-1.2.2/lib/lstat.c": {
+    "orig_lstat": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_lstat": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/malloca.c": {
+    "mmalloca": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "freea": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/malloca.h": {},
+  "wdiff/wdiff-1.2.2/lib/mbchar.c": {},
+  "wdiff/wdiff-1.2.2/lib/mbchar.h": {
+    "mb_width_aux": {
+      "start_point": [
+        245,
+        0
+      ],
+      "end_point": [
+        252,
+        1
+      ],
+      "strings": []
+    },
+    "mb_copy": {
+      "start_point": [
+        266,
+        0
+      ],
+      "end_point": [
+        279,
+        1
+      ],
+      "strings": []
+    },
+    "is_basic": [
+      {
+        "start_point": [
+          314,
+          0
+        ],
+        "end_point": [
+          319,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          323,
+          0
+        ],
+        "end_point": [
+          353,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "wdiff/wdiff-1.2.2/lib/mbrtowc.c": {
+    "mbrtowc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"UTF-8\"",
+        "\"EUC-JP\"",
+        "\"EUC-KR\"",
+        "\"GB2312\"",
+        "\"BIG5\"",
+        "\"EUC-TW\"",
+        "\"GB18030\"",
+        "\"SJIS\""
+      ]
+    },
+    "rpl_mbrtowc": {
+      "start_point": [
+        327,
+        0
+      ],
+      "end_point": [
+        399,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/mbsinit.c": {
+    "mbsinit": [
+      {
+        "start_point": [
+          28,
+          0
+        ],
+        "end_point": [
+          32,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          52,
+          0
+        ],
+        "end_point": [
+          58,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "wdiff/wdiff-1.2.2/lib/mbsrchr.c": {
+    "mbsrchr": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/mbtowc-impl.h": {
+    "mbtowc": {
+      "start_point": [
+        21,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/mbtowc.c": {},
+  "wdiff/wdiff-1.2.2/lib/mbuiter.c": {},
+  "wdiff/wdiff-1.2.2/lib/mbuiter.h": {
+    "mbuiter_multi_next": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        189,
+        1
+      ],
+      "strings": []
+    },
+    "mbuiter_multi_reloc": {
+      "start_point": [
+        191,
+        0
+      ],
+      "end_point": [
+        195,
+        1
+      ],
+      "strings": []
+    },
+    "mbuiter_multi_copy": {
+      "start_point": [
+        197,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/memchr.c": {
+    "__memchr": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/msvc-inval.h": {},
+  "wdiff/wdiff-1.2.2/lib/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/msvc-nothrow.h": {},
+  "wdiff/wdiff-1.2.2/lib/nl_langinfo.c": {
+    "rpl_nl_langinfo": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"%I:%M:%S %p\"",
+        "\"\"",
+        "\"\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\"",
+        "\"^[yY]\"",
+        "\"^[nN]\""
+      ]
+    },
+    "nl_langinfo": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": [
+        "\"CP%u\"",
+        "\"UTF-8\"",
+        "\"ISO-8859-1\"",
+        "\"%a %b %e %H:%M:%S %Y\"",
+        "\"%m/%d/%y\"",
+        "\"%H:%M:%S\"",
+        "\"%I:%M:%S %p\"",
+        "\"AM\"",
+        "\"PM\"",
+        "\"Sunday\"",
+        "\"Monday\"",
+        "\"Tuesday\"",
+        "\"Wednesday\"",
+        "\"Thursday\"",
+        "\"Friday\"",
+        "\"Saturday\"",
+        "\"Sun\"",
+        "\"Mon\"",
+        "\"Tue\"",
+        "\"Wed\"",
+        "\"Thu\"",
+        "\"Fri\"",
+        "\"Sat\"",
+        "\"January\"",
+        "\"February\"",
+        "\"March\"",
+        "\"April\"",
+        "\"May\"",
+        "\"June\"",
+        "\"July\"",
+        "\"August\"",
+        "\"September\"",
+        "\"October\"",
+        "\"November\"",
+        "\"December\"",
+        "\"Jan\"",
+        "\"Feb\"",
+        "\"Mar\"",
+        "\"Apr\"",
+        "\"May\"",
+        "\"Jun\"",
+        "\"Jul\"",
+        "\"Aug\"",
+        "\"Sep\"",
+        "\"Oct\"",
+        "\"Nov\"",
+        "\"Dec\"",
+        "\"\"",
+        "\"\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\"",
+        "\"-\"",
+        "\"^[yY]\"",
+        "\"^[nN]\"",
+        "\"\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/pathmax.h": {},
+  "wdiff/wdiff-1.2.2/lib/printf-args.c": {
+    "PRINTF_FETCHARGS": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        186,
+        1
+      ],
+      "strings": [
+        "\"(NULL)\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/printf-args.h": {},
+  "wdiff/wdiff-1.2.2/lib/printf-parse.c": {
+    "PRINTF_PARSE": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        631,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/printf-parse.h": {},
+  "wdiff/wdiff-1.2.2/lib/readlink.c": {
+    "readlink": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_readlink": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/realloc.c": {
+    "rpl_realloc": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/regcomp.c": {
+    "re_set_fastmap": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        300,
+        1
+      ],
+      "strings": []
+    },
+    "re_compile_fastmap_iter": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        433,
+        1
+      ],
+      "strings": []
+    },
+    "regerror": {
+      "start_point": [
+        541,
+        0
+      ],
+      "end_point": [
+        574,
+        1
+      ],
+      "strings": []
+    },
+    "free_dfa_content": {
+      "start_point": [
+        609,
+        0
+      ],
+      "end_point": [
+        654,
+        1
+      ],
+      "strings": []
+    },
+    "free_mem": {
+      "start_point": [
+        743,
+        0
+      ],
+      "end_point": [
+        746,
+        1
+      ],
+      "strings": []
+    },
+    "re_compile_internal": {
+      "start_point": [
+        755,
+        0
+      ],
+      "end_point": [
+        851,
+        1
+      ],
+      "strings": []
+    },
+    "init_dfa": {
+      "start_point": [
+        856,
+        0
+      ],
+      "end_point": [
+        950,
+        1
+      ],
+      "strings": [
+        "\"UTF-8\"",
+        "\"8\""
+      ]
+    },
+    "init_word_char": {
+      "start_point": [
+        956,
+        0
+      ],
+      "end_point": [
+        1000,
+        1
+      ],
+      "strings": []
+    },
+    "free_workarea_compile": {
+      "start_point": [
+        1004,
+        0
+      ],
+      "end_point": [
+        1019,
+        1
+      ],
+      "strings": []
+    },
+    "create_initial_state": {
+      "start_point": [
+        1023,
+        0
+      ],
+      "end_point": [
+        1101,
+        1
+      ],
+      "strings": []
+    },
+    "optimize_utf8": {
+      "start_point": [
+        1108,
+        0
+      ],
+      "end_point": [
+        1182,
+        1
+      ],
+      "strings": []
+    },
+    "analyze": {
+      "start_point": [
+        1188,
+        0
+      ],
+      "end_point": [
+        1246,
+        1
+      ],
+      "strings": []
+    },
+    "postorder": {
+      "start_point": [
+        1251,
+        0
+      ],
+      "end_point": [
+        1281,
+        1
+      ],
+      "strings": []
+    },
+    "preorder": {
+      "start_point": [
+        1283,
+        0
+      ],
+      "end_point": [
+        1311,
+        1
+      ],
+      "strings": []
+    },
+    "optimize_subexps": {
+      "start_point": [
+        1316,
+        0
+      ],
+      "end_point": [
+        1343,
+        1
+      ],
+      "strings": []
+    },
+    "lower_subexps": {
+      "start_point": [
+        1347,
+        0
+      ],
+      "end_point": [
+        1367,
+        1
+      ],
+      "strings": []
+    },
+    "lower_subexp": {
+      "start_point": [
+        1369,
+        0
+      ],
+      "end_point": [
+        1402,
+        1
+      ],
+      "strings": []
+    },
+    "calc_first": {
+      "start_point": [
+        1406,
+        0
+      ],
+      "end_point": [
+        1425,
+        1
+      ],
+      "strings": []
+    },
+    "calc_next": {
+      "start_point": [
+        1428,
+        0
+      ],
+      "end_point": [
+        1448,
+        1
+      ],
+      "strings": []
+    },
+    "link_nfa_nodes": {
+      "start_point": [
+        1451,
+        0
+      ],
+      "end_point": [
+        1505,
+        1
+      ],
+      "strings": []
+    },
+    "duplicate_node_closure": {
+      "start_point": [
+        1511,
+        0
+      ],
+      "end_point": [
+        1614,
+        1
+      ],
+      "strings": []
+    },
+    "search_duplicated_node": {
+      "start_point": [
+        1619,
+        0
+      ],
+      "end_point": [
+        1631,
+        1
+      ],
+      "strings": []
+    },
+    "duplicate_node": {
+      "start_point": [
+        1637,
+        0
+      ],
+      "end_point": [
+        1651,
+        1
+      ],
+      "strings": []
+    },
+    "calc_inveclosure": {
+      "start_point": [
+        1653,
+        0
+      ],
+      "end_point": [
+        1673,
+        1
+      ],
+      "strings": []
+    },
+    "calc_eclosure": {
+      "start_point": [
+        1677,
+        0
+      ],
+      "end_point": [
+        1718,
+        1
+      ],
+      "strings": []
+    },
+    "calc_eclosure_iter": {
+      "start_point": [
+        1722,
+        0
+      ],
+      "end_point": [
+        1796,
+        1
+      ],
+      "strings": []
+    },
+    "fetch_token": {
+      "start_point": [
+        1803,
+        0
+      ],
+      "end_point": [
+        1808,
+        1
+      ],
+      "strings": []
+    },
+    "internal_function": {
+      "start_point": [
+        1813,
+        0
+      ],
+      "end_point": [
+        2047,
+        1
+      ],
+      "strings": []
+    },
+    "peek_token_bracket": {
+      "start_point": [
+        2052,
+        0
+      ],
+      "end_point": [
+        2133,
+        1
+      ],
+      "strings": []
+    },
+    "parse": {
+      "start_point": [
+        2149,
+        0
+      ],
+      "end_point": [
+        2172,
+        1
+      ],
+      "strings": []
+    },
+    "parse_reg_exp": {
+      "start_point": [
+        2183,
+        0
+      ],
+      "end_point": [
+        2213,
+        1
+      ],
+      "strings": []
+    },
+    "parse_branch": {
+      "start_point": [
+        2224,
+        0
+      ],
+      "end_point": [
+        2261,
+        1
+      ],
+      "strings": []
+    },
+    "parse_expression": {
+      "start_point": [
+        2269,
+        0
+      ],
+      "end_point": [
+        2476,
+        1
+      ],
+      "strings": [
+        "\"alnum\"",
+        "\"_\"",
+        "\"space\"",
+        "\"\""
+      ]
+    },
+    "parse_sub_exp": {
+      "start_point": [
+        2485,
+        0
+      ],
+      "end_point": [
+        2523,
+        1
+      ],
+      "strings": []
+    },
+    "parse_dup_op": {
+      "start_point": [
+        2527,
+        0
+      ],
+      "end_point": [
+        2669,
+        1
+      ],
+      "strings": []
+    },
+    "start_elem": {
+      "start_point": [
+        2696,
+        23
+      ],
+      "end_point": [
+        2795,
+        1
+      ],
+      "strings": []
+    },
+    "parse_bracket_exp": {
+      "start_point": [
+        2828,
+        0
+      ],
+      "end_point": [
+        3371,
+        1
+      ],
+      "strings": []
+    },
+    "seek_collating_symbol_entry": {
+      "start_point": [
+        2845,
+        2
+      ],
+      "end_point": [
+        2865,
+        5
+      ],
+      "strings": []
+    },
+    "lookup_collation_sequence_value": {
+      "start_point": [
+        2871,
+        2
+      ],
+      "end_point": [
+        2930,
+        5
+      ],
+      "strings": []
+    },
+    "build_range_exp": {
+      "start_point": [
+        2939,
+        2
+      ],
+      "end_point": [
+        3012,
+        5
+      ],
+      "strings": []
+    },
+    "build_collating_symbol": {
+      "start_point": [
+        3020,
+        2
+      ],
+      "end_point": [
+        3076,
+        5
+      ],
+      "strings": []
+    },
+    "parse_bracket_element": {
+      "start_point": [
+        3375,
+        0
+      ],
+      "end_point": [
+        3409,
+        1
+      ],
+      "strings": []
+    },
+    "parse_bracket_symbol": {
+      "start_point": [
+        3415,
+        0
+      ],
+      "end_point": [
+        3454,
+        1
+      ],
+      "strings": []
+    },
+    "build_charclass": {
+      "start_point": [
+        3564,
+        9
+      ],
+      "end_point": [
+        3638,
+        1
+      ],
+      "strings": [
+        "\"upper\"",
+        "\"lower\"",
+        "\"alpha\"",
+        "\"alnum\"",
+        "\"cntrl\"",
+        "\"lower\"",
+        "\"space\"",
+        "\"alpha\"",
+        "\"digit\"",
+        "\"print\"",
+        "\"upper\"",
+        "\"blank\"",
+        "\"graph\"",
+        "\"punct\"",
+        "\"xdigit\""
+      ]
+    },
+    "build_charclass_op": {
+      "start_point": [
+        3640,
+        0
+      ],
+      "end_point": [
+        3746,
+        1
+      ],
+      "strings": []
+    },
+    "fetch_number": {
+      "start_point": [
+        3754,
+        0
+      ],
+      "end_point": [
+        3775,
+        1
+      ],
+      "strings": []
+    },
+    "free_charset": {
+      "start_point": [
+        3778,
+        0
+      ],
+      "end_point": [
+        3790,
+        1
+      ],
+      "strings": []
+    },
+    "create_tree": {
+      "start_point": [
+        3797,
+        0
+      ],
+      "end_point": [
+        3804,
+        1
+      ],
+      "strings": []
+    },
+    "create_token_tree": {
+      "start_point": [
+        3806,
+        0
+      ],
+      "end_point": [
+        3838,
+        1
+      ],
+      "strings": []
+    },
+    "mark_opt_subexp": {
+      "start_point": [
+        3843,
+        0
+      ],
+      "end_point": [
+        3851,
+        1
+      ],
+      "strings": []
+    },
+    "free_token": {
+      "start_point": [
+        3855,
+        0
+      ],
+      "end_point": [
+        3865,
+        1
+      ],
+      "strings": []
+    },
+    "free_tree": {
+      "start_point": [
+        3870,
+        0
+      ],
+      "end_point": [
+        3875,
+        1
+      ],
+      "strings": []
+    },
+    "duplicate_tree": {
+      "start_point": [
+        3883,
+        0
+      ],
+      "end_point": [
+        3921,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/regex.c": {},
+  "wdiff/wdiff-1.2.2/lib/regex.h": {},
+  "wdiff/wdiff-1.2.2/lib/regexec.c": {
+    "__compat_regexec": {
+      "start_point": [
+        264,
+        0
+      ],
+      "end_point": [
+        272,
+        1
+      ],
+      "strings": []
+    },
+    "re_search_2_stub": {
+      "start_point": [
+        363,
+        0
+      ],
+      "end_point": [
+        403,
+        1
+      ],
+      "strings": []
+    },
+    "re_search_stub": {
+      "start_point": [
+        410,
+        0
+      ],
+      "end_point": [
+        498,
+        1
+      ],
+      "strings": []
+    },
+    "re_copy_regs": {
+      "start_point": [
+        500,
+        0
+      ],
+      "end_point": [
+        563,
+        1
+      ],
+      "strings": []
+    },
+    "re_search_internal": {
+      "start_point": [
+        629,
+        0
+      ],
+      "end_point": [
+        963,
+        1
+      ],
+      "strings": []
+    },
+    "prune_impossible_nodes": {
+      "start_point": [
+        965,
+        0
+      ],
+      "end_point": [
+        1055,
+        1
+      ],
+      "strings": []
+    },
+    "acquire_init_state_context": {
+      "start_point": [
+        1062,
+        32
+      ],
+      "end_point": [
+        1092,
+        1
+      ],
+      "strings": []
+    },
+    "check_matching": {
+      "start_point": [
+        1104,
+        18
+      ],
+      "end_point": [
+        1232,
+        1
+      ],
+      "strings": []
+    },
+    "check_halt_node_context": {
+      "start_point": [
+        1236,
+        0
+      ],
+      "end_point": [
+        1249,
+        1
+      ],
+      "strings": []
+    },
+    "check_halt_state_context": {
+      "start_point": [
+        1255,
+        0
+      ],
+      "end_point": [
+        1270,
+        1
+      ],
+      "strings": []
+    },
+    "proceed_next_node": {
+      "start_point": [
+        1277,
+        0
+      ],
+      "end_point": [
+        1377,
+        1
+      ],
+      "strings": []
+    },
+    "push_fail_stack": {
+      "start_point": [
+        1380,
+        18
+      ],
+      "end_point": [
+        1404,
+        1
+      ],
+      "strings": []
+    },
+    "pop_fail_stack": {
+      "start_point": [
+        1406,
+        0
+      ],
+      "end_point": [
+        1419,
+        1
+      ],
+      "strings": []
+    },
+    "set_regs": {
+      "start_point": [
+        1427,
+        18
+      ],
+      "end_point": [
+        1531,
+        1
+      ],
+      "strings": []
+    },
+    "free_fail_stack_return": {
+      "start_point": [
+        1533,
+        0
+      ],
+      "end_point": [
+        1548,
+        1
+      ],
+      "strings": []
+    },
+    "update_regs": {
+      "start_point": [
+        1550,
+        0
+      ],
+      "end_point": [
+        1597,
+        1
+      ],
+      "strings": []
+    },
+    "sift_states_backward": {
+      "start_point": [
+        1622,
+        0
+      ],
+      "end_point": [
+        1678,
+        1
+      ],
+      "strings": []
+    },
+    "build_sifted_states": {
+      "start_point": [
+        1681,
+        18
+      ],
+      "end_point": [
+        1738,
+        1
+      ],
+      "strings": []
+    },
+    "clean_state_log_if_needed": {
+      "start_point": [
+        1742,
+        0
+      ],
+      "end_point": [
+        1766,
+        1
+      ],
+      "strings": []
+    },
+    "merge_state_array": {
+      "start_point": [
+        1768,
+        0
+      ],
+      "end_point": [
+        1793,
+        1
+      ],
+      "strings": []
+    },
+    "update_cur_sifted_state": {
+      "start_point": [
+        1795,
+        0
+      ],
+      "end_point": [
+        1841,
+        1
+      ],
+      "strings": []
+    },
+    "add_epsilon_src_nodes": {
+      "start_point": [
+        1844,
+        18
+      ],
+      "end_point": [
+        1870,
+        1
+      ],
+      "strings": []
+    },
+    "sub_epsilon_src_nodes": {
+      "start_point": [
+        1872,
+        0
+      ],
+      "end_point": [
+        1919,
+        1
+      ],
+      "strings": []
+    },
+    "check_dst_limits": {
+      "start_point": [
+        1921,
+        0
+      ],
+      "end_point": [
+        1955,
+        1
+      ],
+      "strings": []
+    },
+    "check_dst_limits_calc_pos_1": {
+      "start_point": [
+        1957,
+        0
+      ],
+      "end_point": [
+        2037,
+        1
+      ],
+      "strings": []
+    },
+    "check_dst_limits_calc_pos": {
+      "start_point": [
+        2039,
+        0
+      ],
+      "end_point": [
+        2064,
+        1
+      ],
+      "strings": []
+    },
+    "check_subexp_limits": {
+      "start_point": [
+        2069,
+        0
+      ],
+      "end_point": [
+        2155,
+        1
+      ],
+      "strings": []
+    },
+    "sift_states_bkref": {
+      "start_point": [
+        2158,
+        18
+      ],
+      "end_point": [
+        2253,
+        1
+      ],
+      "strings": []
+    },
+    "sift_states_iter_mb": {
+      "start_point": [
+        2257,
+        0
+      ],
+      "end_point": [
+        2276,
+        1
+      ],
+      "strings": []
+    },
+    "transit_state": {
+      "start_point": [
+        2288,
+        18
+      ],
+      "end_point": [
+        2342,
+        1
+      ],
+      "strings": []
+    },
+    "merge_state_with_log": {
+      "start_point": [
+        2345,
+        0
+      ],
+      "end_point": [
+        2419,
+        1
+      ],
+      "strings": []
+    },
+    "find_recover_state": {
+      "start_point": [
+        2424,
+        0
+      ],
+      "end_point": [
+        2446,
+        1
+      ],
+      "strings": []
+    },
+    "check_subexp_matching_top": {
+      "start_point": [
+        2455,
+        0
+      ],
+      "end_point": [
+        2483,
+        1
+      ],
+      "strings": []
+    },
+    "transit_state_sb": {
+      "start_point": [
+        2489,
+        0
+      ],
+      "end_point": [
+        2524,
+        1
+      ],
+      "strings": []
+    },
+    "transit_state_mb": {
+      "start_point": [
+        2528,
+        0
+      ],
+      "end_point": [
+        2596,
+        1
+      ],
+      "strings": []
+    },
+    "transit_state_bkref": {
+      "start_point": [
+        2599,
+        0
+      ],
+      "end_point": [
+        2705,
+        1
+      ],
+      "strings": []
+    },
+    "get_subexp": {
+      "start_point": [
+        2714,
+        18
+      ],
+      "end_point": [
+        2855,
+        1
+      ],
+      "strings": []
+    },
+    "get_subexp_sub": {
+      "start_point": [
+        2863,
+        0
+      ],
+      "end_point": [
+        2882,
+        1
+      ],
+      "strings": []
+    },
+    "find_subexp_node": {
+      "start_point": [
+        2892,
+        0
+      ],
+      "end_point": [
+        2907,
+        1
+      ],
+      "strings": []
+    },
+    "check_arrival": {
+      "start_point": [
+        2915,
+        18
+      ],
+      "end_point": [
+        3069,
+        1
+      ],
+      "strings": []
+    },
+    "check_arrival_add_next_nodes": {
+      "start_point": [
+        3080,
+        18
+      ],
+      "end_point": [
+        3152,
+        1
+      ],
+      "strings": []
+    },
+    "check_arrival_expand_ecl": {
+      "start_point": [
+        3160,
+        0
+      ],
+      "end_point": [
+        3207,
+        1
+      ],
+      "strings": []
+    },
+    "check_arrival_expand_ecl_sub": {
+      "start_point": [
+        3214,
+        18
+      ],
+      "end_point": [
+        3251,
+        1
+      ],
+      "strings": []
+    },
+    "expand_bkref_cache": {
+      "start_point": [
+        3259,
+        18
+      ],
+      "end_point": [
+        3342,
+        1
+      ],
+      "strings": []
+    },
+    "build_trtable": {
+      "start_point": [
+        3347,
+        0
+      ],
+      "end_point": [
+        3578,
+        1
+      ],
+      "strings": []
+    },
+    "group_nodes_into_DFAstates": {
+      "start_point": [
+        3585,
+        0
+      ],
+      "end_point": [
+        3767,
+        1
+      ],
+      "strings": []
+    },
+    "check_node_accept_bytes": {
+      "start_point": [
+        3778,
+        0
+      ],
+      "end_point": [
+        4007,
+        1
+      ],
+      "strings": []
+    },
+    "find_collation_sequence_value": {
+      "start_point": [
+        4010,
+        0
+      ],
+      "end_point": [
+        4067,
+        1
+      ],
+      "strings": []
+    },
+    "check_node_accept": {
+      "start_point": [
+        4074,
+        0
+      ],
+      "end_point": [
+        4120,
+        1
+      ],
+      "strings": []
+    },
+    "extend_buffers": {
+      "start_point": [
+        4125,
+        18
+      ],
+      "end_point": [
+        4183,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_init": {
+      "start_point": [
+        4191,
+        18
+      ],
+      "end_point": [
+        4219,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_clean": {
+      "start_point": [
+        4225,
+        0
+      ],
+      "end_point": [
+        4251,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_free": {
+      "start_point": [
+        4255,
+        0
+      ],
+      "end_point": [
+        4263,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_add_entry": {
+      "start_point": [
+        4271,
+        18
+      ],
+      "end_point": [
+        4314,
+        1
+      ],
+      "strings": []
+    },
+    "search_cur_bkref_entry": {
+      "start_point": [
+        4319,
+        0
+      ],
+      "end_point": [
+        4337,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_add_subtop": {
+      "start_point": [
+        4343,
+        18
+      ],
+      "end_point": [
+        4367,
+        1
+      ],
+      "strings": []
+    },
+    "match_ctx_add_sublast": {
+      "start_point": [
+        4372,
+        0
+      ],
+      "end_point": [
+        4397,
+        1
+      ],
+      "strings": []
+    },
+    "sift_ctx_init": {
+      "start_point": [
+        4399,
+        0
+      ],
+      "end_point": [
+        4409,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/regex_internal.c": {
+    "re_string_allocate": {
+      "start_point": [
+        37,
+        18
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_construct": {
+      "start_point": [
+        65,
+        18
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_realloc_buffers": {
+      "start_point": [
+        128,
+        18
+      ],
+      "end_point": [
+        164,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_construct_common": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        184,
+        1
+      ],
+      "strings": []
+    },
+    "build_wcs_buffer": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": []
+    },
+    "build_wcs_upper_buffer": {
+      "start_point": [
+        269,
+        18
+      ],
+      "end_point": [
+        480,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_skip_chars": {
+      "start_point": [
+        485,
+        0
+      ],
+      "end_point": [
+        520,
+        1
+      ],
+      "strings": []
+    },
+    "build_upper_buffer": {
+      "start_point": [
+        526,
+        0
+      ],
+      "end_point": [
+        542,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_translate_buffer": {
+      "start_point": [
+        546,
+        0
+      ],
+      "end_point": [
+        561,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_reconstruct": {
+      "start_point": [
+        568,
+        18
+      ],
+      "end_point": [
+        828,
+        1
+      ],
+      "strings": []
+    },
+    "internal_function": {
+      "start_point": [
+        831,
+        18
+      ],
+      "end_point": [
+        865,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_fetch_byte_case": {
+      "start_point": [
+        867,
+        0
+      ],
+      "end_point": [
+        903,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_destruct": {
+      "start_point": [
+        905,
+        0
+      ],
+      "end_point": [
+        915,
+        1
+      ],
+      "strings": []
+    },
+    "re_string_context_at": {
+      "start_point": [
+        919,
+        0
+      ],
+      "end_point": [
+        960,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_alloc": {
+      "start_point": [
+        965,
+        18
+      ],
+      "end_point": [
+        974,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_init_1": {
+      "start_point": [
+        977,
+        18
+      ],
+      "end_point": [
+        990,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_init_2": {
+      "start_point": [
+        993,
+        18
+      ],
+      "end_point": [
+        1020,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_init_copy": {
+      "start_point": [
+        1023,
+        18
+      ],
+      "end_point": [
+        1041,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_add_intersect": {
+      "start_point": [
+        1048,
+        18
+      ],
+      "end_point": [
+        1133,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_init_union": {
+      "start_point": [
+        1139,
+        18
+      ],
+      "end_point": [
+        1186,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_merge": {
+      "start_point": [
+        1192,
+        18
+      ],
+      "end_point": [
+        1269,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_insert": {
+      "start_point": [
+        1276,
+        18
+      ],
+      "end_point": [
+        1321,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_insert_last": {
+      "start_point": [
+        1328,
+        18
+      ],
+      "end_point": [
+        1345,
+        1
+      ],
+      "strings": []
+    },
+    "pure": {
+      "start_point": [
+        1352,
+        52
+      ],
+      "end_point": [
+        1361,
+        1
+      ],
+      "strings": []
+    },
+    "re_node_set_remove_at": {
+      "start_point": [
+        1387,
+        0
+      ],
+      "end_point": [
+        1396,
+        1
+      ],
+      "strings": []
+    },
+    "re_dfa_add_node": {
+      "start_point": [
+        1402,
+        0
+      ],
+      "end_point": [
+        1448,
+        1
+      ],
+      "strings": []
+    },
+    "calc_state_hash": {
+      "start_point": [
+        1450,
+        0
+      ],
+      "end_point": [
+        1459,
+        1
+      ],
+      "strings": []
+    },
+    "re_acquire_state": {
+      "start_point": [
+        1471,
+        18
+      ],
+      "end_point": [
+        1506,
+        1
+      ],
+      "strings": []
+    },
+    "re_acquire_state_context": {
+      "start_point": [
+        1519,
+        18
+      ],
+      "end_point": [
+        1553,
+        1
+      ],
+      "strings": []
+    },
+    "register_state": {
+      "start_point": [
+        1559,
+        0
+      ],
+      "end_point": [
+        1593,
+        1
+      ],
+      "strings": []
+    },
+    "free_state": {
+      "start_point": [
+        1595,
+        0
+      ],
+      "end_point": [
+        1609,
+        1
+      ],
+      "strings": []
+    },
+    "create_ci_newstate": {
+      "start_point": [
+        1615,
+        18
+      ],
+      "end_point": [
+        1659,
+        1
+      ],
+      "strings": []
+    },
+    "create_cd_newstate": {
+      "start_point": [
+        1665,
+        18
+      ],
+      "end_point": [
+        1735,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/regex_internal.h": {
+    "bitset_set": {
+      "start_point": [
+        771,
+        0
+      ],
+      "end_point": [
+        775,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_clear": {
+      "start_point": [
+        777,
+        0
+      ],
+      "end_point": [
+        781,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_contain": {
+      "start_point": [
+        783,
+        0
+      ],
+      "end_point": [
+        787,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_empty": {
+      "start_point": [
+        789,
+        0
+      ],
+      "end_point": [
+        793,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_set_all": {
+      "start_point": [
+        795,
+        0
+      ],
+      "end_point": [
+        802,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_copy": {
+      "start_point": [
+        804,
+        0
+      ],
+      "end_point": [
+        808,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_not": {
+      "start_point": [
+        810,
+        0
+      ],
+      "end_point": [
+        820,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_merge": {
+      "start_point": [
+        822,
+        0
+      ],
+      "end_point": [
+        828,
+        1
+      ],
+      "strings": []
+    },
+    "bitset_mask": {
+      "start_point": [
+        830,
+        0
+      ],
+      "end_point": [
+        836,
+        1
+      ],
+      "strings": []
+    },
+    "internal_function": [
+      {
+        "start_point": [
+          841,
+          18
+        ],
+        "end_point": [
+          851,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          854,
+          18
+        ],
+        "end_point": [
+          860,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          864,
+          18
+        ],
+        "end_point": [
+          887,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "wdiff/wdiff-1.2.2/lib/setenv.c": {
+    "__add_to_environ": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        287,
+        1
+      ],
+      "strings": [
+        "\"=\"",
+        "\"=\""
+      ]
+    },
+    "setenv": {
+      "start_point": [
+        289,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    },
+    "clearenv": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": []
+    },
+    "free_mem": {
+      "start_point": [
+        325,
+        0
+      ],
+      "end_point": [
+        334,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_setenv": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        387,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/size_max.h": {},
+  "wdiff/wdiff-1.2.2/lib/stat.c": {
+    "orig_stat": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_stat": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/stdbool.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/stddef.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/stdint.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/stdio.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/stdlib.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/str-two-way.h": {
+    "critical_factorization": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "strings": []
+    },
+    "two_way_short_needle": {
+      "start_point": [
+        233,
+        0
+      ],
+      "end_point": [
+        313,
+        1
+      ],
+      "strings": []
+    },
+    "two_way_long_needle": {
+      "start_point": [
+        327,
+        0
+      ],
+      "end_point": [
+        445,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/streq.h": {
+    "streq9": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "streq8": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "streq7": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "streq6": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "streq5": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "streq4": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "streq3": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "streq2": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "streq1": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "streq0": {
+      "start_point": [
+        151,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": [
+        "\"Success\"",
+        "\"Operation now in progress\"",
+        "\"Operation already in progress\"",
+        "\"Socket operation on non-socket\"",
+        "\"Destination address required\"",
+        "\"Message too long\"",
+        "\"Protocol wrong type for socket\"",
+        "\"Protocol not available\"",
+        "\"Protocol not supported\"",
+        "\"Operation not supported\"",
+        "\"Address family not supported by protocol\"",
+        "\"Address already in use\"",
+        "\"Cannot assign requested address\"",
+        "\"Network is down\"",
+        "\"Network is unreachable\"",
+        "\"Connection reset by peer\"",
+        "\"No buffer space available\"",
+        "\"Transport endpoint is already connected\"",
+        "\"Transport endpoint is not connected\"",
+        "\"Connection timed out\"",
+        "\"Connection refused\"",
+        "\"Too many levels of symbolic links\"",
+        "\"No route to host\"",
+        "\"Operation would block\"",
+        "\"Text file busy\"",
+        "\"No data available\"",
+        "\"Out of streams resources\"",
+        "\"Device not a stream\"",
+        "\"Timer expired\"",
+        "\"Other error\"",
+        "\"Socket type not supported\"",
+        "\"Protocol family not supported\"",
+        "\"Cannot send after transport endpoint shutdown\"",
+        "\"Too many references: cannot splice\"",
+        "\"Host is down\"",
+        "\"Too many processes\"",
+        "\"Too many users\"",
+        "\"Disk quota exceeded\"",
+        "\"Stale NFS file handle\"",
+        "\"Object is remote\"",
+        "\"Overlapped operation aborted\"",
+        "\"Overlapped I/O event object not in signaled state\"",
+        "\"Overlapped operations will complete later\"",
+        "\"Network subsystem is unavailable\"",
+        "\"Winsock.dll version out of range\"",
+        "\"Successful WSAStartup not yet performed\"",
+        "\"Graceful shutdown in progress\"",
+        "\"No more results\"",
+        "\"Call was canceled\"",
+        "\"Procedure call table is invalid\"",
+        "\"Service provider is invalid\"",
+        "\"Service provider failed to initialize\"",
+        "\"System call failure\"",
+        "\"Service not found\"",
+        "\"Class type not found\"",
+        "\"Database query was refused\"",
+        "\"Host not found\"",
+        "\"Nonauthoritative host not found\"",
+        "\"Nonrecoverable error\"",
+        "\"Valid name, no data record of requested type\"",
+        "\"No message of desired type\"",
+        "\"Identifier removed\"",
+        "\"Link has been severed\"",
+        "\"Protocol error\"",
+        "\"Multihop attempted\"",
+        "\"Bad message\"",
+        "\"Value too large for defined data type\"",
+        "\"Not supported\"",
+        "\"Network dropped connection on reset\"",
+        "\"Software caused connection abort\"",
+        "\"Stale NFS file handle\"",
+        "\"Disk quota exceeded\"",
+        "\"Operation canceled\"",
+        "\"Owner died\"",
+        "\"State not recoverable\"",
+        "\"Invalid or incomplete multibyte or wide character\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/strerror-override.h": {},
+  "wdiff/wdiff-1.2.2/lib/strerror.c": {},
+  "wdiff/wdiff-1.2.2/lib/string.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/strnlen1.c": {
+    "strnlen1": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/strnlen1.h": {},
+  "wdiff/wdiff-1.2.2/lib/strstr.c": {
+    "strstr": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/sys_stat.in.h": {
+    "rpl_mkdir": {
+      "start_point": [
+        503,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/sys_time.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/sys_types.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/sys_wait.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/time.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/unistd.c": {},
+  "wdiff/wdiff-1.2.2/lib/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        417,
+        0
+      ],
+      "end_point": [
+        421,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        884,
+        0
+      ],
+      "end_point": [
+        888,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/unitypes.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/uniwidth.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/vasnprintf.c": {
+    "local_strnlen": {
+      "start_point": [
+        216,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "strings": []
+    },
+    "local_wcslen": {
+      "start_point": [
+        236,
+        0
+      ],
+      "end_point": [
+        244,
+        1
+      ],
+      "strings": []
+    },
+    "local_wcsnlen": {
+      "start_point": [
+        255,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": []
+    },
+    "decimal_point_char": {
+      "start_point": [
+        272,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": [
+        "\"%#.0f\""
+      ]
+    },
+    "is_infinite_or_zero": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        302,
+        1
+      ],
+      "strings": []
+    },
+    "is_infinite_or_zerol": {
+      "start_point": [
+        309,
+        0
+      ],
+      "end_point": [
+        313,
+        1
+      ],
+      "strings": []
+    },
+    "multiply": {
+      "start_point": [
+        341,
+        0
+      ],
+      "end_point": [
+        404,
+        1
+      ],
+      "strings": []
+    },
+    "divide": {
+      "start_point": [
+        413,
+        0
+      ],
+      "end_point": [
+        836,
+        1
+      ],
+      "strings": []
+    },
+    "convert_to_decimal": {
+      "start_point": [
+        844,
+        0
+      ],
+      "end_point": [
+        890,
+        1
+      ],
+      "strings": []
+    },
+    "decode_long_double": {
+      "start_point": [
+        898,
+        0
+      ],
+      "end_point": [
+        976,
+        1
+      ],
+      "strings": []
+    },
+    "decode_double": {
+      "start_point": [
+        986,
+        0
+      ],
+      "end_point": [
+        1061,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_decoded": {
+      "start_point": [
+        1070,
+        0
+      ],
+      "end_point": [
+        1283,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_long_double": {
+      "start_point": [
+        1292,
+        0
+      ],
+      "end_point": [
+        1299,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_double": {
+      "start_point": [
+        1310,
+        0
+      ],
+      "end_point": [
+        1317,
+        1
+      ],
+      "strings": []
+    },
+    "floorlog10l": {
+      "start_point": [
+        1326,
+        0
+      ],
+      "end_point": [
+        1408,
+        1
+      ],
+      "strings": []
+    },
+    "floorlog10": {
+      "start_point": [
+        1417,
+        0
+      ],
+      "end_point": [
+        1499,
+        1
+      ],
+      "strings": []
+    },
+    "is_borderline": {
+      "start_point": [
+        1505,
+        0
+      ],
+      "end_point": [
+        1515,
+        1
+      ],
+      "strings": []
+    },
+    "MAX_ROOM_NEEDED": {
+      "start_point": [
+        1532,
+        0
+      ],
+      "end_point": [
+        1767,
+        1
+      ],
+      "strings": []
+    },
+    "xsum": {
+      "start_point": [
+        4629,
+        16
+      ],
+      "end_point": [
+        5542,
+        15
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/vasnprintf.h": {},
+  "wdiff/wdiff-1.2.2/lib/vasprintf.c": {
+    "vasprintf": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/verify.h": {},
+  "wdiff/wdiff-1.2.2/lib/wchar.in.h": {},
+  "wdiff/wdiff-1.2.2/lib/wcrtomb.c": {
+    "wcrtomb": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/wctype-h.c": {},
+  "wdiff/wdiff-1.2.2/lib/wctype.in.h": {
+    "rpl_towlower": {
+      "start_point": [
+        353,
+        0
+      ],
+      "end_point": [
+        357,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_towupper": {
+      "start_point": [
+        362,
+        0
+      ],
+      "end_point": [
+        366,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/wcwidth.c": {},
+  "wdiff/wdiff-1.2.2/lib/xalloc-die.c": {
+    "xalloc_die": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"memory exhausted\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/xalloc-oversized.h": {},
+  "wdiff/wdiff-1.2.2/lib/xalloc.h": {
+    "xnmalloc": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "xnrealloc": [
+      {
+        "start_point": [
+          114,
+          0
+        ],
+        "end_point": [
+          120,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          234,
+          29
+        ],
+        "end_point": [
+          238,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "x2nrealloc": [
+      {
+        "start_point": [
+          176,
+          0
+        ],
+        "end_point": [
+          208,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          246,
+          29
+        ],
+        "end_point": [
+          250,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "xcharalloc": {
+      "start_point": [
+        215,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        228,
+        29
+      ],
+      "end_point": [
+        232,
+        1
+      ],
+      "strings": []
+    },
+    "x2realloc": {
+      "start_point": [
+        240,
+        29
+      ],
+      "end_point": [
+        244,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        252,
+        29
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/xmalloc.c": {
+    "xmalloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "x2realloc": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "xzalloc": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "xcalloc": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    },
+    "xstrdup": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/xsize.c": {},
+  "wdiff/wdiff-1.2.2/lib/xsize.h": {
+    "size_t": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "__pure__": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/glthread/lock.c": {
+    "glthread_rwlock_init_multithreaded": [
+      {
+        "start_point": [
+          36,
+          0
+        ],
+        "end_point": [
+          46,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          126,
+          0
+        ],
+        "end_point": [
+          143,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_rwlock_rdlock_multithreaded": [
+      {
+        "start_point": [
+          48,
+          0
+        ],
+        "end_point": [
+          72,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          145,
+          0
+        ],
+        "end_point": [
+          172,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_rwlock_wrlock_multithreaded": [
+      {
+        "start_point": [
+          74,
+          0
+        ],
+        "end_point": [
+          98,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          174,
+          0
+        ],
+        "end_point": [
+          199,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_rwlock_unlock_multithreaded": [
+      {
+        "start_point": [
+          100,
+          0
+        ],
+        "end_point": [
+          106,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          201,
+          0
+        ],
+        "end_point": [
+          255,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_rwlock_destroy_multithreaded": [
+      {
+        "start_point": [
+          108,
+          0
+        ],
+        "end_point": [
+          120,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          257,
+          0
+        ],
+        "end_point": [
+          272,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_recursive_lock_init_multithreaded": [
+      {
+        "start_point": [
+          282,
+          0
+        ],
+        "end_point": [
+          307,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          311,
+          0
+        ],
+        "end_point": [
+          337,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          391,
+          0
+        ],
+        "end_point": [
+          402,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          530,
+          0
+        ],
+        "end_point": [
+          541,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_recursive_lock_lock_multithreaded": [
+      {
+        "start_point": [
+          339,
+          0
+        ],
+        "end_point": [
+          363,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          404,
+          0
+        ],
+        "end_point": [
+          423,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          543,
+          0
+        ],
+        "end_point": [
+          562,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_recursive_lock_unlock_multithreaded": [
+      {
+        "start_point": [
+          365,
+          0
+        ],
+        "end_point": [
+          371,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          425,
+          0
+        ],
+        "end_point": [
+          439,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          564,
+          0
+        ],
+        "end_point": [
+          578,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_recursive_lock_destroy_multithreaded": [
+      {
+        "start_point": [
+          373,
+          0
+        ],
+        "end_point": [
+          385,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          441,
+          0
+        ],
+        "end_point": [
+          447,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          580,
+          0
+        ],
+        "end_point": [
+          586,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_once_singlethreaded": [
+      {
+        "start_point": [
+          455,
+          0
+        ],
+        "end_point": [
+          469,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          502,
+          0
+        ],
+        "end_point": [
+          514,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          613,
+          0
+        ],
+        "end_point": [
+          625,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_once_call": {
+      "start_point": [
+        487,
+        0
+      ],
+      "end_point": [
+        493,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_once_multithreaded": [
+      {
+        "start_point": [
+          495,
+          0
+        ],
+        "end_point": [
+          500,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          590,
+          0
+        ],
+        "end_point": [
+          611,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "glthread_lock_init_func": {
+      "start_point": [
+        635,
+        0
+      ],
+      "end_point": [
+        640,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_lock_lock_func": {
+      "start_point": [
+        642,
+        0
+      ],
+      "end_point": [
+        658,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_lock_unlock_func": {
+      "start_point": [
+        660,
+        0
+      ],
+      "end_point": [
+        667,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_lock_destroy_func": {
+      "start_point": [
+        669,
+        0
+      ],
+      "end_point": [
+        677,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_init": {
+      "start_point": [
+        684,
+        0
+      ],
+      "end_point": [
+        691,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_add": {
+      "start_point": [
+        695,
+        0
+      ],
+      "end_point": [
+        742,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_notify_first": {
+      "start_point": [
+        745,
+        0
+      ],
+      "end_point": [
+        753,
+        1
+      ],
+      "strings": []
+    },
+    "gl_waitqueue_notify_all": {
+      "start_point": [
+        756,
+        0
+      ],
+      "end_point": [
+        770,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_init_func": {
+      "start_point": [
+        772,
+        0
+      ],
+      "end_point": [
+        780,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_rdlock_func": {
+      "start_point": [
+        782,
+        0
+      ],
+      "end_point": [
+        834,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_wrlock_func": {
+      "start_point": [
+        836,
+        0
+      ],
+      "end_point": [
+        887,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_unlock_func": {
+      "start_point": [
+        889,
+        0
+      ],
+      "end_point": [
+        931,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_rwlock_destroy_func": {
+      "start_point": [
+        933,
+        0
+      ],
+      "end_point": [
+        947,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_recursive_lock_init_func": {
+      "start_point": [
+        951,
+        0
+      ],
+      "end_point": [
+        958,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_recursive_lock_lock_func": {
+      "start_point": [
+        960,
+        0
+      ],
+      "end_point": [
+        988,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_recursive_lock_unlock_func": {
+      "start_point": [
+        990,
+        0
+      ],
+      "end_point": [
+        1003,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_recursive_lock_destroy_func": {
+      "start_point": [
+        1005,
+        0
+      ],
+      "end_point": [
+        1013,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_once_func": {
+      "start_point": [
+        1017,
+        0
+      ],
+      "end_point": [
+        1052,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/glthread/lock.h": {},
+  "wdiff/wdiff-1.2.2/lib/glthread/threadlib.c": {
+    "dummy_thread_func": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "glthread_in_use": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/uniwidth/cjk.h": {
+    "is_cjk_encoding": {
+      "start_point": [
+        19,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": [
+        "\"EUC-JP\"",
+        "\"GB2312\"",
+        "\"GBK\"",
+        "\"EUC-TW\"",
+        "\"BIG5\"",
+        "\"EUC-KR\"",
+        "\"CP949\"",
+        "\"JOHAB\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/lib/uniwidth/width.c": {
+    "uc_width": {
+      "start_point": [
+        313,
+        0
+      ],
+      "end_point": [
+        367,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "wdiff/wdiff-1.2.2/src/mdiff.c": {
+    "alloc_and_compile_regex": {
+      "start_point": [
+        354,
+        0
+      ],
+      "end_point": [
+        394,
+        1
+      ],
+      "strings": [
+        "\"%s (for regexp `%s')\""
+      ]
+    },
+    "item_type": [
+      {
+        "start_point": [
+          453,
+          0
+        ],
+        "end_point": [
+          461,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          487,
+          0
+        ],
+        "end_point": [
+          491,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "set_item_type": [
+      {
+        "start_point": [
+          463,
+          0
+        ],
+        "end_point": [
+          472,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          493,
+          0
+        ],
+        "end_point": [
+          497,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "dump_item": {
+      "start_point": [
+        507,
+        0
+      ],
+      "end_point": [
+        514,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"delim\"",
+        "\"white\"",
+        "\"SENTIN\"",
+        "\"(%ld)\\t%s\\t%08x\\n\""
+      ]
+    },
+    "dump_all_items": {
+      "start_point": [
+        520,
+        0
+      ],
+      "end_point": [
+        528,
+        1
+      ],
+      "strings": [
+        "\"\\f\\n\""
+      ]
+    },
+    "compare_for_positions": {
+      "start_point": [
+        546,
+        0
+      ],
+      "end_point": [
+        556,
+        1
+      ],
+      "strings": []
+    },
+    "compare_for_checksum_runs": {
+      "start_point": [
+        565,
+        0
+      ],
+      "end_point": [
+        600,
+        1
+      ],
+      "strings": []
+    },
+    "new_item": {
+      "start_point": [
+        606,
+        0
+      ],
+      "end_point": [
+        625,
+        1
+      ],
+      "strings": []
+    },
+    "new_sentinel": {
+      "start_point": [
+        631,
+        0
+      ],
+      "end_point": [
+        635,
+        1
+      ],
+      "strings": []
+    },
+    "identical_size": {
+      "start_point": [
+        644,
+        0
+      ],
+      "end_point": [
+        681,
+        1
+      ],
+      "strings": []
+    },
+    "item_distance": {
+      "start_point": [
+        688,
+        0
+      ],
+      "end_point": [
+        706,
+        1
+      ],
+      "strings": []
+    },
+    "dump_input": {
+      "start_point": [
+        771,
+        0
+      ],
+      "end_point": [
+        777,
+        1
+      ],
+      "strings": [
+        "\"%s1,%d\\t%7d\\t%s\\n\""
+      ]
+    },
+    "dump_all_inputs": {
+      "start_point": [
+        783,
+        0
+      ],
+      "end_point": [
+        791,
+        1
+      ],
+      "strings": [
+        "\"\\f\\n\""
+      ]
+    },
+    "swallow_input": {
+      "start_point": [
+        803,
+        0
+      ],
+      "end_point": [
+        869,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"%s\"",
+        "\"%s\""
+      ]
+    },
+    "new_input": {
+      "start_point": [
+        875,
+        0
+      ],
+      "end_point": [
+        908,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"-\"",
+        "\"only one file may be standard input\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"directories not supported\""
+      ]
+    },
+    "open_input": {
+      "start_point": [
+        914,
+        0
+      ],
+      "end_point": [
+        927,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"%s\""
+      ]
+    },
+    "close_input": {
+      "start_point": [
+        929,
+        0
+      ],
+      "end_point": [
+        937,
+        1
+      ],
+      "strings": []
+    },
+    "input_line": {
+      "start_point": [
+        945,
+        0
+      ],
+      "end_point": [
+        983,
+        1
+      ],
+      "strings": []
+    },
+    "input_character_helper": {
+      "start_point": [
+        990,
+        0
+      ],
+      "end_point": [
+        1012,
+        1
+      ],
+      "strings": []
+    },
+    "input_character": {
+      "start_point": [
+        1014,
+        0
+      ],
+      "end_point": [
+        1021,
+        1
+      ],
+      "strings": []
+    },
+    "study_input": {
+      "start_point": [
+        1027,
+        0
+      ],
+      "end_point": [
+        1176,
+        1
+      ],
+      "strings": [
+        "\"Reading %s\"",
+        "\", %d item\\n\"",
+        "\", %d items\\n\""
+      ]
+    },
+    "study_all_inputs": {
+      "start_point": [
+        1188,
+        0
+      ],
+      "end_point": [
+        1265,
+        1
+      ],
+      "strings": [
+        "\"-\"",
+        "\"+\"",
+        "\"Read summary:\"",
+        "\" %d file,\"",
+        "\" %d files,\"",
+        "\" %d item\\n\"",
+        "\" %d items\\n\""
+      ]
+    },
+    "get_reference": {
+      "start_point": [
+        1280,
+        0
+      ],
+      "end_point": [
+        1297,
+        1
+      ],
+      "strings": []
+    },
+    "reference_string": {
+      "start_point": [
+        1304,
+        0
+      ],
+      "end_point": [
+        1329,
+        1
+      ],
+      "strings": [
+        "\"%s.EOF\"",
+        "\"%s%d\""
+      ]
+    },
+    "dump_reference": {
+      "start_point": [
+        1338,
+        0
+      ],
+      "end_point": [
+        1356,
+        1
+      ],
+      "strings": [
+        "\"%d\"",
+        "\"%s:%s: \""
+      ]
+    },
+    "real_member_size": {
+      "start_point": [
+        1405,
+        0
+      ],
+      "end_point": [
+        1450,
+        1
+      ],
+      "strings": []
+    },
+    "dump_cluster": {
+      "start_point": [
+        1458,
+        0
+      ],
+      "end_point": [
+        1476,
+        1
+      ],
+      "strings": [
+        "\"{%ld},%d\"",
+        "\"%c[%d] %s,%d\""
+      ]
+    },
+    "dump_all_clusters": {
+      "start_point": [
+        1482,
+        0
+      ],
+      "end_point": [
+        1490,
+        1
+      ],
+      "strings": [
+        "\"\\f\\n\""
+      ]
+    },
+    "dump_member": {
+      "start_point": [
+        1496,
+        0
+      ],
+      "end_point": [
+        1503,
+        1
+      ],
+      "strings": [
+        "\" [%ld]\\t{%d}\\t%s,%d+\\n\""
+      ]
+    },
+    "dump_all_members": {
+      "start_point": [
+        1509,
+        0
+      ],
+      "end_point": [
+        1517,
+        1
+      ],
+      "strings": [
+        "\"\\f\\n\""
+      ]
+    },
+    "compare_for_member_start": {
+      "start_point": [
+        1526,
+        0
+      ],
+      "end_point": [
+        1546,
+        1
+      ],
+      "strings": []
+    },
+    "new_cluster": {
+      "start_point": [
+        1552,
+        0
+      ],
+      "end_point": [
+        1564,
+        1
+      ],
+      "strings": []
+    },
+    "new_member": {
+      "start_point": [
+        1570,
+        0
+      ],
+      "end_point": [
+        1582,
+        1
+      ],
+      "strings": []
+    },
+    "explain_member": {
+      "start_point": [
+        1588,
+        0
+      ],
+      "end_point": [
+        1606,
+        1
+      ],
+      "strings": [
+        "\" %s%d,%d\"",
+        "\" (%s%d,%d)\""
+      ]
+    },
+    "prepare_clusters": {
+      "start_point": [
+        1612,
+        0
+      ],
+      "end_point": [
+        1837,
+        1
+      ],
+      "strings": [
+        "\"Sorting\"",
+        "\", clustering\"",
+        "\", done\\n\""
+      ]
+    },
+    "active_elsewhere": {
+      "start_point": [
+        1843,
+        0
+      ],
+      "end_point": [
+        1857,
+        1
+      ],
+      "strings": []
+    },
+    "prepare_indirects": {
+      "start_point": [
+        1872,
+        0
+      ],
+      "end_point": [
+        1921,
+        1
+      ],
+      "strings": [
+        "\"Sorting members\"",
+        "\", done\\n\"",
+        "\"\\f\\n\"",
+        "\"Overlapping with next member\\n\"",
+        "\"Work summary:\"",
+        "\" %d cluster,\"",
+        "\" %d clusters,\"",
+        "\" %d member\\n\"",
+        "\" %d members\\n\""
+      ]
+    },
+    "dump_all_mergings": {
+      "start_point": [
+        1956,
+        0
+      ],
+      "end_point": [
+        1979,
+        1
+      ],
+      "strings": [
+        "\"\\f\\n\"",
+        "\"<%ld>\"",
+        "\"\\t[%d]%c%s%d\""
+      ]
+    },
+    "explain_group": {
+      "start_point": [
+        1988,
+        0
+      ],
+      "end_point": [
+        2015,
+        1
+      ],
+      "strings": [
+        "\" %s%d,%d\"",
+        "\" (%s%d,%d)\""
+      ]
+    },
+    "new_merging": {
+      "start_point": [
+        2021,
+        0
+      ],
+      "end_point": [
+        2030,
+        1
+      ],
+      "strings": []
+    },
+    "prepare_mergings": {
+      "start_point": [
+        2036,
+        0
+      ],
+      "end_point": [
+        2306,
+        1
+      ],
+      "strings": [
+        "\"\\nCHOOSING NEXT CLUSTER\\n\"",
+        "\"%s:\\t\"",
+        "\"%s:\\tNone\\n\"",
+        "\"%s:\\t\"",
+        "\"    Cost += %d  [%s..%s)\\n\"",
+        "\"  {%ld}=%d <-> {%ld}=%d\\n\"",
+        "\"  {%ld}=%d\\n\"",
+        "\"\\nCHOICE\\t\"",
+        "\"Work summary:\"",
+        "\" %d cluster,\"",
+        "\" %d clusters,\"",
+        "\" %d member,\"",
+        "\" %d members,\"",
+        "\" %d overlap\\n\"",
+        "\" %d overlaps\\n\""
+      ]
+    },
+    "initialize_strings": {
+      "start_point": [
+        2336,
+        0
+      ],
+      "end_point": [
+        2396,
+        1
+      ],
+      "strings": [
+        "\"TERM\"",
+        "\"select a terminal through the TERM environment variable\"",
+        "\"could not access the termcap data base\"",
+        "\"terminal type `%s' is not defined\"",
+        "\"us\"",
+        "\"ue\"",
+        "\"so\"",
+        "\"se\"",
+        "\"[-\"",
+        "\"-]\"",
+        "\"{+\"",
+        "\"+}\""
+      ]
+    },
+    "putc_for_tputs": {
+      "start_point": [
+        2404,
+        0
+      ],
+      "end_point": [
+        2408,
+        1
+      ],
+      "strings": []
+    },
+    "set_emphasis": {
+      "start_point": [
+        2416,
+        0
+      ],
+      "end_point": [
+        2486,
+        1
+      ],
+      "strings": []
+    },
+    "push_emphasis": {
+      "start_point": [
+        2497,
+        0
+      ],
+      "end_point": [
+        2504,
+        1
+      ],
+      "strings": []
+    },
+    "pop_emphasis": {
+      "start_point": [
+        2506,
+        0
+      ],
+      "end_point": [
+        2512,
+        1
+      ],
+      "strings": []
+    },
+    "output_characters": {
+      "start_point": [
+        2520,
+        0
+      ],
+      "end_point": [
+        2655,
+        1
+      ],
+      "strings": []
+    },
+    "start_of_emphasis": {
+      "start_point": [
+        2661,
+        0
+      ],
+      "end_point": [
+        2683,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "end_of_emphasis": {
+      "start_point": [
+        2689,
+        0
+      ],
+      "end_point": [
+        2711,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "launch_output_program": {
+      "start_point": [
+        2718,
+        0
+      ],
+      "end_point": [
+        2792,
+        1
+      ],
+      "strings": [
+        "\"pr\"",
+        "\"-f\"",
+        "\"-h\"",
+        "\"pr\"",
+        "\"-f\"",
+        "\"WDIFF_PAGER\"",
+        "\"PAGER\"",
+        "\"LESS\"",
+        "\"LESS\"",
+        "\"%s %s\"",
+        "\"LESS\"",
+        "\"%s\""
+      ]
+    },
+    "complete_output_program": {
+      "start_point": [
+        2798,
+        0
+      ],
+      "end_point": [
+        2809,
+        1
+      ],
+      "strings": []
+    },
+    "make_margin": {
+      "start_point": [
+        2825,
+        0
+      ],
+      "end_point": [
+        2867,
+        1
+      ],
+      "strings": [
+        "\"%s%d\""
+      ]
+    },
+    "skip_line_item": {
+      "start_point": [
+        2873,
+        0
+      ],
+      "end_point": [
+        2880,
+        1
+      ],
+      "strings": []
+    },
+    "copy_line_item": {
+      "start_point": [
+        2886,
+        0
+      ],
+      "end_point": [
+        2896,
+        1
+      ],
+      "strings": []
+    },
+    "skip_whitespace": {
+      "start_point": [
+        2902,
+        0
+      ],
+      "end_point": [
+        2910,
+        1
+      ],
+      "strings": []
+    },
+    "copy_whitespace": {
+      "start_point": [
+        2916,
+        0
+      ],
+      "end_point": [
+        2959,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"%s\""
+      ]
+    },
+    "skip_word_item": {
+      "start_point": [
+        2965,
+        0
+      ],
+      "end_point": [
+        2975,
+        1
+      ],
+      "strings": []
+    },
+    "copy_word_item": {
+      "start_point": [
+        2981,
+        0
+      ],
+      "end_point": [
+        2996,
+        1
+      ],
+      "strings": []
+    },
+    "skip_until": {
+      "start_point": [
+        3002,
+        0
+      ],
+      "end_point": [
+        3015,
+        1
+      ],
+      "strings": []
+    },
+    "copy_until": {
+      "start_point": [
+        3021,
+        0
+      ],
+      "end_point": [
+        3034,
+        1
+      ],
+      "strings": []
+    },
+    "skip_member_proper": {
+      "start_point": [
+        3040,
+        0
+      ],
+      "end_point": [
+        3045,
+        1
+      ],
+      "strings": []
+    },
+    "copy_member_proper": {
+      "start_point": [
+        3051,
+        0
+      ],
+      "end_point": [
+        3057,
+        1
+      ],
+      "strings": []
+    },
+    "relist_annotated_files": {
+      "start_point": [
+        3065,
+        0
+      ],
+      "end_point": [
+        3420,
+        1
+      ],
+      "strings": [
+        "\"\\f\\n\"",
+        "\"\\f\\n\"",
+        "\"@@@ %s\\n\"",
+        "\"[%c%s%d\"",
+        "\".-> [%d/%d] \"",
+        "\"%s%d\"",
+        "\" (%s)\"",
+        "\"[%c\"",
+        "\".-\\n\"",
+        "\"%s%d\"",
+        "\"%s%d%c]\"",
+        "\"`-> [%d/%d] \"",
+        "\"%s%d\"",
+        "\" (%s)\"",
+        "\"%c]\"",
+        "\"`-\\n\""
+      ]
+    },
+    "relist_merged_lines": {
+      "start_point": [
+        3428,
+        0
+      ],
+      "end_point": [
+        3527,
+        1
+      ],
+      "strings": [
+        "\"\\f\\n\""
+      ]
+    },
+    "relist_merged_words": {
+      "start_point": [
+        3537,
+        0
+      ],
+      "end_point": [
+        3751,
+        1
+      ],
+      "strings": [
+        "\"\\n%s\\n\"",
+        "\"\\n%s\\n\"",
+        "\"\\n%s\\n\"",
+        "\"%s: %d word\"",
+        "\"%s: %d words\"",
+        "\"  %d %.0f%% common\"",
+        "\"  %d %.0f%% common\"",
+        "\"  %d %.0f%% deleted\"",
+        "\"  %d %.0f%% deleted\"",
+        "\"  %d %.0f%% changed\"",
+        "\"  %d %.0f%% changed\"",
+        "\"\\n\"",
+        "\"%s: %d word\"",
+        "\"%s: %d words\"",
+        "\"  %d %.0f%% common\"",
+        "\"  %d %.0f%% common\"",
+        "\"  %d %.0f%% inserted\"",
+        "\"  %d %.0f%% inserted\"",
+        "\"  %d %.0f%% changed\"",
+        "\"  %d %.0f%% changed\"",
+        "\"\\n\""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        3759,
+        0
+      ],
+      "end_point": [
+        3996,
+        1
+      ],
+      "strings": [
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"\\\nmdiff - Studies multiple files and searches for similar sequences, it then\\n\\\nproduces possibly detailed lists of differences and similarities.\\n\"",
+        "\"\\n\"",
+        "\"\\\nUsage: %s [OPTION]... [FILE]...\\n\"",
+        "\"\\nOperation modes:\\n\"",
+        "\"  -h                     (ignored)\\n\"",
+        "\"  -v, --verbose          report a few statistics on stderr\\n\"",
+        "\"      --help             display this help then exit\\n\"",
+        "\"      --version          display program version then exit\\n\"",
+        "\"\\nFormatting output:\\n\"",
+        "\"  -T, --initial-tab       produce TAB instead of initial space\\n\"",
+        "\"  -l, --paginate          paginate output through `pr'\\n\"",
+        "\"  -S, --string[=STRING]   take note of another user STRING\\n\"",
+        "\"  -V, --show-links        give file and line references in annotations\\n\"",
+        "\"  -t, --expand-tabs       expand tabs to spaces in the output\\n\"",
+        "\"\\nDebugging:\\n\"",
+        "\"  -0, --debugging   output many details about what is going on\\n\"",
+        "\"\\nWord mode options:\\n\"",
+        "\"  -1, --no-deleted           inhibit output of deleted words\\n\"",
+        "\"  -2, --no-inserted          inhibit output of inserted words\\n\"",
+        "\"  -3, --no-common            inhibit output of common words\\n\"",
+        "\"  -A, --auto-pager           automatically calls a pager\\n\"",
+        "\"  -k, --less-mode            variation of printer mode for \\\"less\\\"\\n\"",
+        "\"  -m, --avoid-wraps          do not extend fields through newlines\\n\"",
+        "\"  -o, --printer              overstrike as for printers\\n\"",
+        "\"  -z, --terminal             use termcap as for terminal displays\\n\"",
+        "\"  -O, --item-regexp=REGEXP   compare items as defined by REGEXP\\n\"",
+        "\"  -W, --word-mode            compare words instead of lines\\n\"",
+        "\"\\n\"",
+        "\"With no FILE, or when FILE is -, read standard input.\\n\"",
+        "\"\\n\"",
+        "\"Report bugs to <wdiff-bugs@gnu.org>.\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        4006,
+        0
+      ],
+      "end_point": [
+        4421,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"--debugging\"",
+        "\"--ifdef\"",
+        "\"--show-function-line\"",
+        "\"--speed-large-files\"",
+        "\"--label\"",
+        "\"--new-file\"",
+        "\"--compare-words\"",
+        "\"--unidirectional-new-file\"",
+        "\"--starting-file\"",
+        "\"--exclude-from\"",
+        "\"--text\"",
+        "\"--context\"",
+        "\"--minimal\"",
+        "\"--ed\"",
+        "\"-h\"",
+        "\"--rcs\"",
+        "\"--show-c-function\"",
+        "\"--brief\"",
+        "\"--recursive\"",
+        "\"--report-identical-files\"",
+        "\"--tolerance\"",
+        "\"--expand-tabs\"",
+        "\"--unified\"",
+        "\"--width\"",
+        "\"--exclude\"",
+        "\"--side-by-side\"",
+        "\"cannot use -z, termcap not available\"",
+        "\"--gtype-group-format\"",
+        "\"--horizon-lines\"",
+        "\"--left-column\"",
+        "\"--line-format\"",
+        "\"--ltype-line-format\"",
+        "\"--suppress-common-lines\"",
+        "\"word merging for two files only (so far)\"",
+        "\"mdiff (GNU %s) %s\\n\"",
+        "\"\\\n\\n\\\nCopyright (C) 1992, 1997, 1998, 1999, 2010 Free Software Foundation, Inc.\\n\"",
+        "\"\\\nThis is free software; see the source for copying conditions.  There is NO\\n\\\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\\n\"",
+        "\"\\\n\\n\\\nWritten by Franc,ois Pinard <pinard@iro.umontreal.ca>.\\n\"",
+        "\"-\"",
+        "\"options -123RSYZ meaningful only when two inputs\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/src/pipes.c": {
+    "openpipe": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": [
+        "\"error redirecting stream\"",
+        "\"failed to execute %s\""
+      ]
+    },
+    "readpipe": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": [
+        "\"r\""
+      ]
+    },
+    "writepipe": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": [
+        "\"w\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/src/unify.c": {
+    "string_equal": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "add_line": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        129,
+        1
+      ],
+      "strings": []
+    },
+    "ensure_name": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": [
+        "\"could not find a name for the diff at line %ld\"",
+        "\"Index: %s\\n\""
+      ]
+    },
+    "generate_output": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": [
+        "\"@@ -%ld,%ld +%ld,%ld @@\\n\"",
+        "\"%c%s\"",
+        "\"***************\\n*** %ld\"",
+        "\" ****\\n\"",
+        "\",%ld ****\\n\"",
+        "\"%c %s\"",
+        "\"--- %ld ----\\n\"",
+        "\"--- %ld,%ld ----\\n\"",
+        "\"%c %s\""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        269,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "strings": [
+        "\"try `%s --help' for more information\\n\"",
+        "\"\\\nunify - Transforms context diffs into unidiffs, or vice-versa.\\n\"",
+        "\"\\n\"",
+        "\"\\\nUsage: %s [OPTION]... [FILE]\\n\"",
+        "\"\\n\"",
+        "\"  -c, --context-diffs    force output to context diffs\\n\"",
+        "\"  -e, --echo-comments    echo comments to standard error\\n\"",
+        "\"  -o, --old-diffs        output old-style diffs, no matter what\\n\"",
+        "\"  -p, --patch-format     generate patch format\\n\"",
+        "\"  -P                     same as -p\\n\"",
+        "\"  -s, --strip-comments   strip comment lines\\n\"",
+        "\"  -u, --unidiffs         force output to unidiffs\\n\"",
+        "\"  -U                     same as -p and -u\\n\"",
+        "\"  -=, --use-equals       replace spaces by equal signs in unidiffs\\n\"",
+        "\"      --help             display this help then exit\\n\"",
+        "\"      --version          display program version then exit\\n\"",
+        "\"\\n\"",
+        "\"If FILE is not specified, read standard input.\\n\"",
+        "\"\\n\"",
+        "\"Report bugs to <wdiff-bugs@gnu.org>.\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        324,
+        0
+      ],
+      "end_point": [
+        807,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"=ceopPsUu\"",
+        "\"r\"",
+        "\"unable to open `%s'\"",
+        "\"only one filename allowed\"",
+        "\"unify (GNU %s) %s\\n\"",
+        "\"\\\n\\n\\\nCopyright (C) 1994, 1997 Free Software Foundation, Inc.\\n\"",
+        "\"\\\nThis is free software; see the source for copying conditions.  There is NO\\n\\\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\\n\"",
+        "\"\\\n\\n\\\nWritten by Wayne Davison <davison@borland.com>.\\n\"",
+        "\"@@ -\"",
+        "\"********\"",
+        "\"Index:\"",
+        "\"%s\"",
+        "\"Prereq: \"",
+        "\"%s\"",
+        "\"*** \"",
+        "\"--- \"",
+        "\"+++ \"",
+        "\"%s\"",
+        "\"---%s\"",
+        "\"+++%s\"",
+        "\"***%s\"",
+        "\"Only in \"",
+        "\"Common subdir\"",
+        "\"diff -\"",
+        "\"Binary files\"",
+        "\"%s%s\"",
+        "\"\"",
+        "\"!!! \"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"@@ -\"",
+        "\"invalid unified diff header at line %ld\"",
+        "\"malformed unified diff at line %ld\"",
+        "\"********\"",
+        "\"*** %ld,%ld %c\"",
+        "\"context diff missing `old' header at line %ld\"",
+        "\"--- \"",
+        "\"  \\n\"",
+        "\" \\n\"",
+        "\"malformed context diff at line %ld\"",
+        "\"malformed context diff at line %ld\"",
+        "\"--- %ld,%ld\"",
+        "\"context diff missing `new' header at line %ld\"",
+        "\"  \\n\"",
+        "\" \\n\"",
+        "\"malformed context diff at line %ld\"",
+        "\"malformed context diff at line %ld\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/src/wdiff.c": {
+    "signal_handler": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": []
+    },
+    "setup_signals": {
+      "start_point": [
+        197,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    },
+    "initialize_strings": {
+      "start_point": [
+        212,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": [
+        "\"TERM\"",
+        "\"select a terminal through the TERM environment variable\"",
+        "\"could not access the termcap data base\"",
+        "\"terminal type `%s' is not defined\"",
+        "\"us\"",
+        "\"ue\"",
+        "\"so\"",
+        "\"se\"",
+        "\"[-\"",
+        "\"-]\"",
+        "\"{+\"",
+        "\"+}\""
+      ]
+    },
+    "putc_for_tputs": {
+      "start_point": [
+        267,
+        0
+      ],
+      "end_point": [
+        271,
+        1
+      ],
+      "strings": []
+    },
+    "start_of_delete": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        295,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "end_of_delete": {
+      "start_point": [
+        301,
+        0
+      ],
+      "end_point": [
+        317,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "start_of_insert": {
+      "start_point": [
+        323,
+        0
+      ],
+      "end_point": [
+        339,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "end_of_insert": {
+      "start_point": [
+        345,
+        0
+      ],
+      "end_point": [
+        361,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "skip_whitespace": {
+      "start_point": [
+        367,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": []
+    },
+    "skip_word": {
+      "start_point": [
+        381,
+        0
+      ],
+      "end_point": [
+        390,
+        1
+      ],
+      "strings": []
+    },
+    "copy_whitespace": {
+      "start_point": [
+        396,
+        0
+      ],
+      "end_point": [
+        476,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"%s\""
+      ]
+    },
+    "copy_word": {
+      "start_point": [
+        482,
+        0
+      ],
+      "end_point": [
+        525,
+        1
+      ],
+      "strings": []
+    },
+    "create_template_filename": {
+      "start_point": [
+        533,
+        0
+      ],
+      "end_point": [
+        566,
+        1
+      ],
+      "strings": [
+        "\"TMPDIR\"",
+        "\"/tmp\"",
+        "\"/tmp\"",
+        "\"%.*s/wdiff.XXXXXX\""
+      ]
+    },
+    "create_temporary_side": {
+      "start_point": [
+        571,
+        0
+      ],
+      "end_point": [
+        590,
+        1
+      ],
+      "strings": [
+        "\"no suitable temporary directory exists\"",
+        "\"%s\"",
+        "\"w+\"",
+        "\"%s\"",
+        "\"%s\""
+      ]
+    },
+    "split_diff": {
+      "start_point": [
+        596,
+        0
+      ],
+      "end_point": [
+        647,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"%s\""
+      ]
+    },
+    "split_file_into_words": {
+      "start_point": [
+        654,
+        0
+      ],
+      "end_point": [
+        722,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"directories not supported\"",
+        "\"r\"",
+        "\"%s\"",
+        "\"no suitable temporary directory exists\"",
+        "\"%s\"",
+        "\"w\"",
+        "\"%s\""
+      ]
+    },
+    "decode_directive_line": {
+      "start_point": [
+        733,
+        0
+      ],
+      "end_point": [
+        800,
+        1
+      ],
+      "strings": []
+    },
+    "skip_until_ordinal": {
+      "start_point": [
+        806,
+        0
+      ],
+      "end_point": [
+        814,
+        1
+      ],
+      "strings": []
+    },
+    "copy_until_ordinal": {
+      "start_point": [
+        820,
+        0
+      ],
+      "end_point": [
+        828,
+        1
+      ],
+      "strings": []
+    },
+    "reformat_diff_output": {
+      "start_point": [
+        834,
+        0
+      ],
+      "end_point": [
+        995,
+        1
+      ],
+      "strings": [
+        "\"\\n%s\\n\"",
+        "\"\\n%s\\n\"",
+        "\"\\n%s\\n\""
+      ]
+    },
+    "launch_input_program": {
+      "start_point": [
+        1004,
+        0
+      ],
+      "end_point": [
+        1018,
+        1
+      ],
+      "strings": [
+        "\"-i\"",
+        "\"%s\""
+      ]
+    },
+    "complete_input_program": {
+      "start_point": [
+        1024,
+        0
+      ],
+      "end_point": [
+        1043,
+        1
+      ],
+      "strings": [
+        "\"%s: input program killed by signal %d\\n\""
+      ]
+    },
+    "launch_output_program": {
+      "start_point": [
+        1049,
+        0
+      ],
+      "end_point": [
+        1104,
+        1
+      ],
+      "strings": [
+        "\"WDIFF_PAGER\"",
+        "\"PAGER\"",
+        "\"LESS\"",
+        "\"LESS\"",
+        "\"%s %s\"",
+        "\"LESS\"",
+        "\"%s\""
+      ]
+    },
+    "complete_output_program": {
+      "start_point": [
+        1110,
+        0
+      ],
+      "end_point": [
+        1149,
+        1
+      ],
+      "strings": [
+        "\"%s: output program killed by signal %d\\n\""
+      ]
+    },
+    "print_statistics": {
+      "start_point": [
+        1155,
+        0
+      ],
+      "end_point": [
+        1197,
+        1
+      ],
+      "strings": [
+        "\"%s: %d word\"",
+        "\"%s: %d words\"",
+        "\"  %d %.0f%% common\"",
+        "\"  %d %.0f%% common\"",
+        "\"  %d %.0f%% deleted\"",
+        "\"  %d %.0f%% deleted\"",
+        "\"  %d %.0f%% changed\"",
+        "\"  %d %.0f%% changed\"",
+        "\"\\n\"",
+        "\"%s: %d word\"",
+        "\"%s: %d words\"",
+        "\"  %d %.0f%% common\"",
+        "\"  %d %.0f%% common\"",
+        "\"  %d %.0f%% inserted\"",
+        "\"  %d %.0f%% inserted\"",
+        "\"  %d %.0f%% changed\"",
+        "\"  %d %.0f%% changed\"",
+        "\"\\n\""
+      ]
+    },
+    "print_copyright": {
+      "start_point": [
+        1206,
+        0
+      ],
+      "end_point": [
+        1222,
+        1
+      ],
+      "strings": [
+        "\"\\\nThis program is free software: you can redistribute it and/or modify\\n\\\nit under the terms of the GNU General Public License as published by\\n\\\nthe Free Software Foundation, either version 3 of the License, or\\n\\\n(at your option) any later version.\\n\\\n\\n\\\nThis program is distributed in the hope that it will be useful,\\n\\\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\\n\\\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\\n\\\nGNU General Public License for more details.\\n\\\n\\n\\\nYou should have received a copy of the GNU General Public License\\n\\\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\\n\""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        1228,
+        0
+      ],
+      "end_point": [
+        1272,
+        1
+      ],
+      "strings": [
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"\\\nwdiff - Compares words in two files and report differences.\\n\"",
+        "\"\\n\"",
+        "\"\\\nUsage: %s [OPTION]... FILE1 FILE2\\n\\\n   or: %s -d [OPTION]... [FILE]\\n\"",
+        "\"\\n\"",
+        "\"\\\nMandatory arguments to long options are mandatory for short options too.\\n\"",
+        "\"  -C, --copyright            display copyright then exit\\n\"",
+        "\"  -1, --no-deleted           inhibit output of deleted words\\n\"",
+        "\"  -2, --no-inserted          inhibit output of inserted words\\n\"",
+        "\"  -3, --no-common            inhibit output of common words\\n\"",
+        "\"  -a, --auto-pager           automatically calls a pager\\n\"",
+        "\"  -d, --diff-input           use single unified diff as input\\n\"",
+        "\"  -h, --help                 display this help then exit\\n\"",
+        "\"  -i, --ignore-case          fold character case while comparing\\n\"",
+        "\"  -l, --less-mode            variation of printer mode for \\\"less\\\"\\n\"",
+        "\"  -n, --avoid-wraps          do not extend fields through newlines\\n\"",
+        "\"  -p, --printer              overstrike as for printers\\n\"",
+        "\"  -s, --statistics           say how many words deleted, inserted etc.\\n\"",
+        "\"  -t, --terminal             use termcap as for terminal displays\\n\"",
+        "\"  -v, --version              display program version then exit\\n\"",
+        "\"  -w, --start-delete=STRING  string to mark beginning of delete region\\n\"",
+        "\"  -x, --end-delete=STRING    string to mark end of delete region\\n\"",
+        "\"  -y, --start-insert=STRING  string to mark beginning of insert region\\n\"",
+        "\"  -z, --end-insert=STRING    string to mark end of insert region\\n\"",
+        "\"\\n\"",
+        "\"Report bugs to <wdiff-bugs@gnu.org>.\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        1278,
+        0
+      ],
+      "end_point": [
+        1516,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"123CKadhilnpstvw:x:y:z:\"",
+        "\"cannot use -t, termcap not available\"",
+        "\"wdiff (GNU %s) %s\\n\"",
+        "\"\\\n\\n\\\nCopyright (C) 1992, 1997, 1998, 1999, 2009, 2010, 2011, 2012 Free Software\\n\\\nFoundation, Inc.\\n\"",
+        "\"\\\nThis is free software; see the source for copying conditions.  There is NO\\n\\\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\\n\"",
+        "\"\\\n\\n\\\nWritten by Franc,ois Pinard <pinard@iro.umontreal.ca>.\\n\"",
+        "\"too many file arguments\"",
+        "\"\"",
+        "\"-\"",
+        "\"missing file arguments\"",
+        "\"too many file arguments\"",
+        "\"\"",
+        "\"-\"",
+        "\"\"",
+        "\"-\"",
+        "\"only one file may be standard input\""
+      ]
+    }
+  },
+  "wdiff/wdiff-1.2.2/src/wdiff.h": {},
+  "wdiff/wdiff-1.2.2/src/wdiff2.c": {
+    "add_argument": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "add_simple_option": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "add_option_with_argument": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        99,
+        1
+      ],
+      "strings": []
+    },
+    "print_copyright": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": [
+        "\"\\\nThis program is free software: you can redistribute it and/or modify\\n\\\nit under the terms of the GNU General Public License as published by\\n\\\nthe Free Software Foundation, either version 3 of the License, or\\n\\\n(at your option) any later version.\\n\\\n\\n\\\nThis program is distributed in the hope that it will be useful,\\n\\\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\\n\\\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\\n\\\nGNU General Public License for more details.\\n\\\n\\n\\\nYou should have received a copy of the GNU General Public License\\n\\\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\\n\""
+      ]
+    },
+    "print_version": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": [
+        "\"wdiff (GNU %s) %s\\n\"",
+        "\"\\\n\\n\\\nCopyright (C) 1997, 1998, 1999 Free Software Foundation, Inc.\\n\"",
+        "\"\\\nThis is free software; see the source for copying conditions.  There is NO\\n\\\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\\n\"",
+        "\"\\\n\\n\\\nWritten by Franc,ois Pinard <pinard@iro.umontreal.ca>.\\n\""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": [
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"\\\nwdiff - Compute word differences by internally launching `mdiff -W'.\\n\\\nThis program exists mainly to support the now oldish `wdiff' syntax.\\n\"",
+        "\"\\n\"",
+        "\"\\\nUsage: %s [OPTION]... FILE1 FILE2\\n\"",
+        "\"\\n\"",
+        "\"\\\nMandatory arguments to long options are mandatory for short options too.\\n\"",
+        "\"  -C, --copyright            display copyright then exit\\n\"",
+        "\"  -1, --no-deleted           inhibit output of deleted words\\n\"",
+        "\"  -2, --no-inserted          inhibit output of inserted words\\n\"",
+        "\"  -3, --no-common            inhibit output of common words\\n\"",
+        "\"  -a, --auto-pager           automatically calls a pager\\n\"",
+        "\"  -h, --help                 display this help then exit\\n\"",
+        "\"  -i, --ignore-case          fold character case while comparing\\n\"",
+        "\"  -l, --less-mode            variation of printer mode for \\\"less\\\"\\n\"",
+        "\"  -n, --avoid-wraps          do not extend fields through newlines\\n\"",
+        "\"  -p, --printer              overstrike as for printers\\n\"",
+        "\"  -q, --quiet                inhibit the `mdiff' call message\\n\"",
+        "\"  -s, --statistics           say how many words deleted, inserted etc.\\n\"",
+        "\"  -t, --terminal             use termcap as for terminal displays\\n\"",
+        "\"  -v, --version              display program version then exit\\n\"",
+        "\"  -w, --start-delete=STRING  string to mark beginning of delete region\\n\"",
+        "\"  -x, --end-delete=STRING    string to mark end of delete region\\n\"",
+        "\"  -y, --start-insert=STRING  string to mark beginning of insert region\\n\"",
+        "\"  -z, --end-insert=STRING    string to mark end of insert region\\n\"",
+        "\"\\n\"",
+        "\"This program also tells how `mdiff' could have been called directly.\\n\"",
+        "\"\\n\"",
+        "\"Report bugs to <wdiff-bugs@gnu.org>.\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        219,
+        0
+      ],
+      "end_point": [
+        341,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"123CKachidlnpqstvw:x:y:z:\"",
+        "\"missing file arguments\"",
+        "\"Launching `%s\"",
+        "\" %s\"",
+        "\"'\\n\""
+      ]
+    }
+  }
+}

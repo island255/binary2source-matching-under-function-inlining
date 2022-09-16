@@ -1,0 +1,2175 @@
+{
+  "Func_004020e0": [],
+  "Func_00401b78": [],
+  "Func_0040ec98": [],
+  "Func_004021bd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/system.h",
+      "emit_ancillary_info",
+      [
+        629,
+        669
+      ]
+    ]
+  ],
+  "Func_00402395": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/system.h",
+      "bad_cast",
+      [
+        693,
+        697
+      ]
+    ]
+  ],
+  "Func_004023a3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown.c",
+      "usage",
+      [
+        73,
+        154
+      ]
+    ]
+  ],
+  "Func_004025b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown.c",
+      "main",
+      [
+        156,
+        331
+      ]
+    ]
+  ],
+  "Func_00402bac": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "chopt_init",
+      [
+        57,
+        67
+      ]
+    ]
+  ],
+  "Func_00402bfd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "chopt_free",
+      [
+        69,
+        74
+      ]
+    ]
+  ],
+  "Func_00402c08": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "gid_to_name",
+      [
+        80,
+        88
+      ]
+    ]
+  ],
+  "Func_00402c4d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "uid_to_name",
+      [
+        94,
+        102
+      ]
+    ]
+  ],
+  "Func_00402c92": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "user_group_str",
+      [
+        106,
+        129
+      ]
+    ]
+  ],
+  "Func_00402d48": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "describe_change",
+      [
+        135,
+        191
+      ]
+    ]
+  ],
+  "Func_00402f57": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "restricted_chown",
+      [
+        211,
+        262
+      ]
+    ]
+  ],
+  "Func_00403171": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "change_file_owner",
+      [
+        270,
+        499
+      ]
+    ]
+  ],
+  "Func_00403b07": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/src/chown-core.c",
+      "chown_files",
+      [
+        510,
+        555
+      ]
+    ]
+  ],
+  "Func_00403c68": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/closeout.c",
+      "close_stdout_set_file_name",
+      [
+        50,
+        54
+      ]
+    ]
+  ],
+  "Func_00403c7e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/closeout.c",
+      "close_stdout_set_ignore_EPIPE",
+      [
+        87,
+        91
+      ]
+    ]
+  ],
+  "Func_00403c94": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/closeout.c",
+      "close_stdout",
+      [
+        116,
+        136
+      ]
+    ]
+  ],
+  "Func_00403d80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/openat.h",
+      "chownat",
+      [
+        61,
+        65
+      ]
+    ]
+  ],
+  "Func_00403db1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/openat.h",
+      "lchownat",
+      [
+        67,
+        71
+      ]
+    ]
+  ],
+  "Func_00403de2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/anytostr.c",
+      "__attribute_warn_unused_result__",
+      [
+        35,
+        57
+      ]
+    ]
+  ],
+  "Func_00403e67": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/progname.c",
+      "set_program_name",
+      [
+        38,
+        92
+      ]
+    ]
+  ],
+  "Func_00403f49": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "clone_quoting_options",
+      [
+        121,
+        129
+      ]
+    ]
+  ],
+  "Func_00403f95": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "get_quoting_style",
+      [
+        132,
+        136
+      ]
+    ]
+  ],
+  "Func_00403fb3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "set_quoting_style",
+      [
+        140,
+        144
+      ]
+    ]
+  ],
+  "Func_00403fd8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "set_char_quoting",
+      [
+        151,
+        161
+      ]
+    ]
+  ],
+  "Func_00404060": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "set_quoting_flags",
+      [
+        167,
+        176
+      ]
+    ]
+  ],
+  "Func_00404093": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "set_custom_quoting",
+      [
+        178,
+        189
+      ]
+    ]
+  ],
+  "Func_004040ee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quoting_options_from_style",
+      [
+        192,
+        200
+      ]
+    ]
+  ],
+  "Func_00404187": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "gettext_quote",
+      [
+        206,
+        240
+      ]
+    ]
+  ],
+  "Func_0040422f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_buffer_restyled",
+      [
+        255,
+        772
+      ]
+    ]
+  ],
+  "Func_00405148": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_buffer",
+      [
+        783,
+        795
+      ]
+    ]
+  ],
+  "Func_004051ea": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_alloc",
+      [
+        798,
+        803
+      ]
+    ]
+  ],
+  "Func_0040521c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_alloc_mem",
+      [
+        811,
+        831
+      ]
+    ]
+  ],
+  "Func_00405348": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_free",
+      [
+        847,
+        866
+      ]
+    ]
+  ],
+  "Func_004053f6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_options",
+      [
+        876,
+        928
+      ]
+    ]
+  ],
+  "Func_00405663": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n",
+      [
+        930,
+        934
+      ]
+    ]
+  ],
+  "Func_0040568e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_mem",
+      [
+        936,
+        940
+      ]
+    ]
+  ],
+  "Func_004056ba": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg",
+      [
+        942,
+        946
+      ]
+    ]
+  ],
+  "Func_004056d9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_mem",
+      [
+        948,
+        952
+      ]
+    ]
+  ],
+  "Func_00405700": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_style",
+      [
+        954,
+        959
+      ]
+    ]
+  ],
+  "Func_00405741": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_style_mem",
+      [
+        961,
+        967
+      ]
+    ]
+  ],
+  "Func_00405780": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_style",
+      [
+        969,
+        973
+      ]
+    ]
+  ],
+  "Func_004057a4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_style_mem",
+      [
+        975,
+        979
+      ]
+    ]
+  ],
+  "Func_004057d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_char_mem",
+      [
+        981,
+        988
+      ]
+    ]
+  ],
+  "Func_00405864": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_char",
+      [
+        990,
+        994
+      ]
+    ]
+  ],
+  "Func_0040588e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_colon",
+      [
+        996,
+        1000
+      ]
+    ]
+  ],
+  "Func_004058ad": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_colon_mem",
+      [
+        1002,
+        1006
+      ]
+    ]
+  ],
+  "Func_004058d7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_style_colon",
+      [
+        1008,
+        1015
+      ]
+    ]
+  ],
+  "Func_00405972": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_custom",
+      [
+        1017,
+        1023
+      ]
+    ]
+  ],
+  "Func_004059a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_n_custom_mem",
+      [
+        1025,
+        1033
+      ]
+    ]
+  ],
+  "Func_00405a3f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_custom",
+      [
+        1035,
+        1040
+      ]
+    ]
+  ],
+  "Func_00405a6e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quotearg_custom_mem",
+      [
+        1042,
+        1048
+      ]
+    ]
+  ],
+  "Func_00405aa8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quote_n_mem",
+      [
+        1060,
+        1064
+      ]
+    ]
+  ],
+  "Func_00405ad4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quote_mem",
+      [
+        1066,
+        1070
+      ]
+    ]
+  ],
+  "Func_00405afb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quote_n",
+      [
+        1072,
+        1076
+      ]
+    ]
+  ],
+  "Func_00405b24": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/quotearg.c",
+      "quote",
+      [
+        1078,
+        1082
+      ]
+    ]
+  ],
+  "Func_00405b43": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/root-dev-ino.c",
+      "get_root_dev_ino",
+      [
+        28,
+        37
+      ]
+    ]
+  ],
+  "Func_00405ba0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/userspec.c",
+      "parse_with_separator",
+      [
+        101,
+        238
+      ]
+    ]
+  ],
+  "Func_00405f6a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/userspec.c",
+      "parse_user_spec",
+      [
+        258,
+        281
+      ]
+    ]
+  ],
+  "Func_0040603d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "version_etc_arn",
+      [
+        61,
+        173
+      ]
+    ]
+  ],
+  "Func_004065ac": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "version_etc_ar",
+      [
+        179,
+        189
+      ]
+    ]
+  ],
+  "Func_0040661b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "version_etc_va",
+      [
+        195,
+        210
+      ]
+    ]
+  ],
+  "Func_004066ee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "version_etc",
+      [
+        226,
+        236
+      ]
+    ]
+  ],
+  "Func_004067a5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/version-etc.c",
+      "emit_bug_reporting_address",
+      [
+        238,
+        258
+      ]
+    ]
+  ],
+  "Func_0040680f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc.h",
+      "xnmalloc",
+      [
+        104,
+        110
+      ]
+    ]
+  ],
+  "Func_0040685f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc.h",
+      "xnrealloc",
+      [
+        117,
+        123
+      ]
+    ]
+  ],
+  "Func_004068bd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc.h",
+      "x2nrealloc",
+      [
+        179,
+        214
+      ]
+    ]
+  ],
+  "Func_00406997": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc.h",
+      "xcharalloc",
+      [
+        221,
+        225
+      ]
+    ]
+  ],
+  "Func_004069b1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xmalloc",
+      [
+        38,
+        45
+      ]
+    ]
+  ],
+  "Func_004069e6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xrealloc",
+      [
+        50,
+        65
+      ]
+    ]
+  ],
+  "Func_00406a47": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "x2realloc",
+      [
+        73,
+        77
+      ]
+    ]
+  ],
+  "Func_00406a71": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xzalloc",
+      [
+        83,
+        87
+      ]
+    ]
+  ],
+  "Func_00406aa2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xcalloc",
+      [
+        92,
+        104
+      ]
+    ]
+  ],
+  "Func_00406b03": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xmemdup",
+      [
+        110,
+        114
+      ]
+    ]
+  ],
+  "Func_00406b37": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xmalloc.c",
+      "xstrdup",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_00406b64": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xalloc-die.c",
+      "xalloc_die",
+      [
+        31,
+        41
+      ]
+    ]
+  ],
+  "Func_00406b99": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xfts.c",
+      "xfts_open",
+      [
+        32,
+        46
+      ]
+    ]
+  ],
+  "Func_00406c01": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xfts.c",
+      "cycle_warning_required",
+      [
+        55,
+        65
+      ]
+    ]
+  ],
+  "Func_00406c63": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xstrtol.c",
+      "bkm_scale",
+      [
+        59,
+        74
+      ]
+    ]
+  ],
+  "Func_00406cc2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xstrtol.c",
+      "bkm_scale_by_power",
+      [
+        76,
+        83
+      ]
+    ]
+  ],
+  "Func_00406d03": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/xstrtol.c",
+      "__xstrtol",
+      [
+        87,
+        249
+      ]
+    ]
+  ],
+  "Func_004070f6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/at-func.c",
+      "AT_FUNC_NAME",
+      [
+        69,
+        143
+      ]
+    ]
+  ],
+  "Func_004073bb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts-cycle.c",
+      "AD_compare",
+      [
+        31,
+        38
+      ]
+    ]
+  ],
+  "Func_00407410": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts-cycle.c",
+      "AD_hash",
+      [
+        40,
+        45
+      ]
+    ]
+  ],
+  "Func_0040743a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts-cycle.c",
+      "setup_dir",
+      [
+        49,
+        69
+      ]
+    ]
+  ],
+  "Func_004074d4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts-cycle.c",
+      "enter_dir",
+      [
+        73,
+        120
+      ]
+    ]
+  ],
+  "Func_004075e2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts-cycle.c",
+      "leave_dir",
+      [
+        124,
+        146
+      ]
+    ]
+  ],
+  "Func_004076f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts-cycle.c",
+      "free_dir",
+      [
+        150,
+        160
+      ]
+    ]
+  ],
+  "Func_0040773e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fd_ring_clear",
+      [
+        274,
+        283
+      ]
+    ]
+  ],
+  "Func_00407781": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_set_stat_required",
+      [
+        288,
+        295
+      ]
+    ]
+  ],
+  "Func_004077c5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "internal_function",
+      [
+        299,
+        320
+      ]
+    ]
+  ],
+  "Func_00407856": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "cwd_advance_fd",
+      [
+        327,
+        350
+      ]
+    ]
+  ],
+  "Func_004078e2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "restore_initial_cwd",
+      [
+        356,
+        362
+      ]
+    ]
+  ],
+  "Func_0040798c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "internal_function",
+      [
+        368,
+        380
+      ]
+    ]
+  ],
+  "Func_00407a13": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_open",
+      [
+        382,
+        571
+      ]
+    ]
+  ],
+  "Func_00407ddb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "internal_function",
+      [
+        573,
+        595
+      ]
+    ]
+  ],
+  "Func_00407e96": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_close",
+      [
+        597,
+        659
+      ]
+    ]
+  ],
+  "Func_00408022": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "dev_type_hash",
+      [
+        712,
+        718
+      ]
+    ]
+  ],
+  "Func_00408053": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "dev_type_compare",
+      [
+        720,
+        726
+      ]
+    ]
+  ],
+  "Func_00408085": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "filesystem_type",
+      [
+        731,
+        778
+      ]
+    ]
+  ],
+  "Func_004081f9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "dirent_inode_sort_may_be_useful",
+      [
+        784,
+        804
+      ]
+    ]
+  ],
+  "Func_0040822f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "leaf_optimization",
+      [
+        812,
+        844
+      ]
+    ]
+  ],
+  "Func_00408293": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_read",
+      [
+        867,
+        1136
+      ]
+    ]
+  ],
+  "Func_00408986": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_set",
+      [
+        1145,
+        1155
+      ]
+    ]
+  ],
+  "Func_004089dd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_children",
+      [
+        1157,
+        1233
+      ]
+    ]
+  ],
+  "Func_00408b76": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_compare_ino",
+      [
+        1240,
+        1245
+      ]
+    ]
+  ],
+  "Func_00408bd1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "set_stat_type",
+      [
+        1249,
+        1280
+      ]
+    ]
+  ],
+  "Func_00408c42": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "internal_function",
+      [
+        1315,
+        1659
+      ]
+    ]
+  ],
+  "Func_0040958c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_stat",
+      [
+        1806,
+        1855
+      ]
+    ]
+  ],
+  "Func_0040976d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_compar",
+      [
+        1857,
+        1868
+      ]
+    ]
+  ],
+  "Func_004097ae": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "internal_function",
+      [
+        1870,
+        1918
+      ]
+    ]
+  ],
+  "Func_004098f5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "internal_function",
+      [
+        1920,
+        1949
+      ]
+    ]
+  ],
+  "Func_004099a7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "internal_function",
+      [
+        1951,
+        1964
+      ]
+    ]
+  ],
+  "Func_004099e3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "internal_function",
+      [
+        1973,
+        1998
+      ]
+    ]
+  ],
+  "Func_00409ab0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_padjust",
+      [
+        2004,
+        2027
+      ]
+    ]
+  ],
+  "Func_00409bbe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_maxarglen",
+      [
+        2030,
+        2039
+      ]
+    ]
+  ],
+  "Func_00409c14": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fts.c",
+      "fts_safe_changedir",
+      [
+        2050,
+        2134
+      ]
+    ]
+  ],
+  "Func_00409e4a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt.c",
+      "exchange",
+      [
+        130,
+        183
+      ]
+    ]
+  ],
+  "Func_0040a02d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt.c",
+      "process_long_option",
+      [
+        193,
+        376
+      ]
+    ]
+  ],
+  "Func_0040a660": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt.c",
+      "_getopt_initialize",
+      [
+        380,
+        412
+      ]
+    ]
+  ],
+  "Func_0040a72e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt.c",
+      "_getopt_internal_r",
+      [
+        470,
+        700
+      ]
+    ]
+  ],
+  "Func_0040af2e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt.c",
+      "_getopt_internal",
+      [
+        702,
+        721
+      ]
+    ]
+  ],
+  "Func_0040afbe": [],
+  "Func_0040b000": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt1.c",
+      "getopt_long",
+      [
+        27,
+        33
+      ]
+    ]
+  ],
+  "Func_0040b04a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt1.c",
+      "_getopt_long_r",
+      [
+        35,
+        42
+      ]
+    ]
+  ],
+  "Func_0040b097": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt1.c",
+      "getopt_long_only",
+      [
+        49,
+        56
+      ]
+    ]
+  ],
+  "Func_0040b0e1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getopt1.c",
+      "_getopt_long_only_r",
+      [
+        58,
+        65
+      ]
+    ]
+  ],
+  "Func_0040b12e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/mbrtowc.c",
+      "rpl_mbrtowc",
+      [
+        340,
+        412
+      ]
+    ]
+  ],
+  "Func_0040b1e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/openat-proc.c",
+      "openat_proc_name",
+      [
+        43,
+        134
+      ]
+    ]
+  ],
+  "Func_0040b31e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-strcasecmp.c",
+      "c_strcasecmp",
+      [
+        26,
+        56
+      ]
+    ]
+  ],
+  "Func_0040b396": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/close-stream.c",
+      "close_stream",
+      [
+        55,
+        78
+      ]
+    ]
+  ],
+  "Func_0040b421": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/cycle-check.c",
+      "is_zero_or_power_of_two",
+      [
+        36,
+        40
+      ]
+    ]
+  ],
+  "Func_0040b43d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/cycle-check.c",
+      "cycle_check_init",
+      [
+        42,
+        47
+      ]
+    ]
+  ],
+  "Func_0040b45f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/cycle-check.c",
+      "cycle_check",
+      [
+        57,
+        85
+      ]
+    ]
+  ],
+  "Func_0040b533": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/open-safer.c",
+      "open_safer",
+      [
+        28,
+        46
+      ]
+    ]
+  ],
+  "Func_0040b642": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hard-locale.c",
+      "hard_locale",
+      [
+        37,
+        72
+      ]
+    ]
+  ],
+  "Func_0040b69f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_get_n_buckets",
+      [
+        149,
+        153
+      ]
+    ]
+  ],
+  "Func_0040b6b1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_get_n_buckets_used",
+      [
+        157,
+        161
+      ]
+    ]
+  ],
+  "Func_0040b6c3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_get_n_entries",
+      [
+        165,
+        169
+      ]
+    ]
+  ],
+  "Func_0040b6d5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_get_max_bucket_length",
+      [
+        173,
+        195
+      ]
+    ]
+  ],
+  "Func_0040b753": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_table_ok",
+      [
+        200,
+        227
+      ]
+    ]
+  ],
+  "Func_0040b7ed": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_print_statistics",
+      [
+        229,
+        244
+      ]
+    ]
+  ],
+  "Func_0040b906": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "safe_hasher",
+      [
+        248,
+        255
+      ]
+    ]
+  ],
+  "Func_0040b95d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_lookup",
+      [
+        260,
+        274
+      ]
+    ]
+  ],
+  "Func_0040b9f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_get_first",
+      [
+        287,
+        300
+      ]
+    ]
+  ],
+  "Func_0040ba4c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_get_next",
+      [
+        306,
+        329
+      ]
+    ]
+  ],
+  "Func_0040bae6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_get_entries",
+      [
+        335,
+        357
+      ]
+    ]
+  ],
+  "Func_0040bb82": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_do_for_each",
+      [
+        367,
+        389
+      ]
+    ]
+  ],
+  "Func_0040bc16": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_string",
+      [
+        427,
+        436
+      ]
+    ]
+  ],
+  "Func_0040bc6c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "_GL_ATTRIBUTE_CONST",
+      [
+        443,
+        457
+      ]
+    ]
+  ],
+  "Func_0040bcd8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "_GL_ATTRIBUTE_CONST",
+      [
+        462,
+        476
+      ]
+    ]
+  ],
+  "Func_0040bd1f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_reset_tuning",
+      [
+        478,
+        482
+      ]
+    ]
+  ],
+  "Func_0040bd71": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "raw_hasher",
+      [
+        485,
+        495
+      ]
+    ]
+  ],
+  "Func_0040bda8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "raw_comparator",
+      [
+        498,
+        502
+      ]
+    ]
+  ],
+  "Func_0040bdc1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "check_tuning",
+      [
+        511,
+        537
+      ]
+    ]
+  ],
+  "Func_0040bec4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "compute_bucket_size",
+      [
+        543,
+        557
+      ]
+    ]
+  ],
+  "Func_0040bfd1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_initialize",
+      [
+        593,
+        646
+      ]
+    ]
+  ],
+  "Func_0040c13c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_clear",
+      [
+        652,
+        688
+      ]
+    ]
+  ],
+  "Func_0040c243": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_free",
+      [
+        695,
+        743
+      ]
+    ]
+  ],
+  "Func_0040c36e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "allocate_entry",
+      [
+        750,
+        770
+      ]
+    ]
+  ],
+  "Func_0040c3b9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "free_entry",
+      [
+        775,
+        781
+      ]
+    ]
+  ],
+  "Func_0040c3ef": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_find_entry",
+      [
+        789,
+        851
+      ]
+    ]
+  ],
+  "Func_0040c584": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "transfer_entries",
+      [
+        859,
+        932
+      ]
+    ]
+  ],
+  "Func_0040c754": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_rehash",
+      [
+        942,
+        1019
+      ]
+    ]
+  ],
+  "Func_0040c958": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_insert_if_absent",
+      [
+        1037,
+        1117
+      ]
+    ]
+  ],
+  "Func_0040cc72": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_insert",
+      [
+        1125,
+        1133
+      ]
+    ]
+  ],
+  "Func_0040ccbb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/hash.c",
+      "hash_delete",
+      [
+        1139,
+        1197
+      ]
+    ]
+  ],
+  "Func_0040cf6a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/i-ring.c",
+      "i_ring_init",
+      [
+        24,
+        34
+      ]
+    ]
+  ],
+  "Func_0040cfc3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/i-ring.c",
+      "i_ring_empty",
+      [
+        36,
+        40
+      ]
+    ]
+  ],
+  "Func_0040cfd5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/i-ring.c",
+      "i_ring_push",
+      [
+        42,
+        53
+      ]
+    ]
+  ],
+  "Func_0040d05d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/i-ring.c",
+      "i_ring_pop",
+      [
+        55,
+        68
+      ]
+    ]
+  ],
+  "Func_0040d0df": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/localcharset.c",
+      "get_charset_aliases",
+      [
+        124,
+        385
+      ]
+    ]
+  ],
+  "Func_0040d4a4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/localcharset.c",
+      "locale_charset",
+      [
+        396,
+        617
+      ]
+    ]
+  ],
+  "Func_0040d572": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/openat-die.c",
+      "openat_save_fail",
+      [
+        33,
+        45
+      ]
+    ]
+  ],
+  "Func_0040d5a6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/openat-die.c",
+      "openat_restore_fail",
+      [
+        52,
+        62
+      ]
+    ]
+  ],
+  "Func_0040d5da": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/openat-safer.c",
+      "openat_safer",
+      [
+        28,
+        46
+      ]
+    ]
+  ],
+  "Func_0040d6eb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/save-cwd.c",
+      "save_cwd",
+      [
+        61,
+        76
+      ]
+    ]
+  ],
+  "Func_0040d765": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/save-cwd.c",
+      "restore_cwd",
+      [
+        82,
+        89
+      ]
+    ]
+  ],
+  "Func_0040d79c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/save-cwd.c",
+      "free_cwd",
+      [
+        91,
+        97
+      ]
+    ]
+  ],
+  "Func_0040d7d2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fd-safer.c",
+      "fd_safer",
+      [
+        36,
+        49
+      ]
+    ]
+  ],
+  "Func_0040d822": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/chdir-long.c",
+      "cdb_init",
+      [
+        46,
+        50
+      ]
+    ]
+  ],
+  "Func_0040d837": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/chdir-long.c",
+      "cdb_fchdir",
+      [
+        52,
+        56
+      ]
+    ]
+  ],
+  "Func_0040d852": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/chdir-long.c",
+      "cdb_free",
+      [
+        58,
+        66
+      ]
+    ]
+  ],
+  "Func_0040d8a4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/chdir-long.c",
+      "cdb_advance_fd",
+      [
+        72,
+        84
+      ]
+    ]
+  ],
+  "Func_0040d8fe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/chdir-long.c",
+      "find_non_slash",
+      [
+        87,
+        92
+      ]
+    ]
+  ],
+  "Func_0040d92c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/chdir-long.c",
+      "chdir_long",
+      [
+        109,
+        208
+      ]
+    ]
+  ],
+  "Func_0040dc19": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fclose.c",
+      "rpl_fclose",
+      [
+        57,
+        112
+      ]
+    ]
+  ],
+  "Func_0040dcd1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fcntl.c",
+      "rpl_fcntl",
+      [
+        275,
+        418
+      ]
+    ]
+  ],
+  "Func_0040df8d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fflush.c",
+      "clear_ungetc_buffer_preserving_position",
+      [
+        39,
+        45
+      ]
+    ]
+  ],
+  "Func_0040dfc1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/fflush.c",
+      "rpl_fflush",
+      [
+        126,
+        229
+      ]
+    ]
+  ],
+  "Func_0040e00c": [],
+  "Func_0040e0c6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/getcwd.c",
+      "__getcwd",
+      [
+        109,
+        442
+      ]
+    ]
+  ],
+  "Func_0040e683": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/memchr.c",
+      "__memchr",
+      [
+        58,
+        169
+      ]
+    ]
+  ],
+  "Func_0040e796": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "uint64_t",
+      [
+        38,
+        42
+      ]
+    ]
+  ],
+  "Func_0040e7b2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "uint64_t",
+      [
+        47,
+        51
+      ]
+    ]
+  ],
+  "Func_0040e7ce": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "uint32_t",
+      [
+        57,
+        61
+      ]
+    ]
+  ],
+  "Func_0040e7e6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "uint32_t",
+      [
+        66,
+        70
+      ]
+    ]
+  ],
+  "Func_0040e7fe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "rotl_sz",
+      [
+        75,
+        79
+      ]
+    ]
+  ],
+  "Func_0040e835": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "rotr_sz",
+      [
+        84,
+        88
+      ]
+    ]
+  ],
+  "Func_0040e86c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "uint16_t",
+      [
+        95,
+        99
+      ]
+    ]
+  ],
+  "Func_0040e89e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "uint16_t",
+      [
+        106,
+        110
+      ]
+    ]
+  ],
+  "Func_0040e8d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "uint8_t",
+      [
+        117,
+        121
+      ]
+    ]
+  ],
+  "Func_0040e901": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/bitrotate.h",
+      "uint8_t",
+      [
+        128,
+        132
+      ]
+    ]
+  ],
+  "Func_0040e932": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isalnum",
+      [
+        168,
+        180
+      ]
+    ]
+  ],
+  "Func_0040e96b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isalpha",
+      [
+        182,
+        193
+      ]
+    ]
+  ],
+  "Func_0040e997": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isascii",
+      [
+        197,
+        212
+      ]
+    ]
+  ],
+  "Func_0040e9b7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isblank",
+      [
+        214,
+        218
+      ]
+    ]
+  ],
+  "Func_0040e9db": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_iscntrl",
+      [
+        220,
+        230
+      ]
+    ]
+  ],
+  "Func_0040ea02": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isdigit",
+      [
+        232,
+        242
+      ]
+    ]
+  ],
+  "Func_0040ea22": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isgraph",
+      [
+        244,
+        257
+      ]
+    ]
+  ],
+  "Func_0040ea42": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_islower",
+      [
+        259,
+        269
+      ]
+    ]
+  ],
+  "Func_0040ea62": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isprint",
+      [
+        271,
+        285
+      ]
+    ]
+  ],
+  "Func_0040ea82": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_ispunct",
+      [
+        287,
+        297
+      ]
+    ]
+  ],
+  "Func_0040eac7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isspace",
+      [
+        299,
+        309
+      ]
+    ]
+  ],
+  "Func_0040eaee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isupper",
+      [
+        311,
+        321
+      ]
+    ]
+  ],
+  "Func_0040eb0e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_isxdigit",
+      [
+        323,
+        334
+      ]
+    ]
+  ],
+  "Func_0040eb3a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_tolower",
+      [
+        336,
+        346
+      ]
+    ]
+  ],
+  "Func_0040eb59": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/c-ctype.h",
+      "c_toupper",
+      [
+        348,
+        358
+      ]
+    ]
+  ],
+  "Func_0040eb78": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/coreutils/coreutils-8.29/lib/dup-safer.c",
+      "dup_safer",
+      [
+        30,
+        34
+      ]
+    ]
+  ],
+  "Func_0040eba0": [],
+  "Func_0040ec00": [],
+  "Func_0040ec10": [],
+  "Func_0040ec30": [],
+  "Func_0040ec40": [],
+  "Func_0040ec50": [],
+  "Func_0040ec60": [],
+  "Func_0040ec75": []
+}

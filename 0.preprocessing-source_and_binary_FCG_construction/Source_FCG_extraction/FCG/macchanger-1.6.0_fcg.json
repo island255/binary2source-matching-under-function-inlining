@@ -1,0 +1,1313 @@
+{
+  "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\main.c": [
+    {
+      "print_help": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "47",
+        "total_line": "18",
+        "end_line": "65",
+        "call": [
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 49,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "print_usage": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "67",
+        "total_line": "7",
+        "end_line": "74",
+        "call": [
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 69,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "print_mac": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "76",
+        "total_line": "13",
+        "end_line": "89",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_is_wireless",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 81,
+            "column": 22
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_into_string",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 82,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 83,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_get_cardname_with_default",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 86,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "random_seed": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "91",
+        "total_line": "19",
+        "end_line": "110",
+        "call": [
+          {
+            "file": null,
+            "entity": "open",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 97,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "open",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 98,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "read",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 100,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 101,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "gettimeofday",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 103,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "getpid",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 104,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "srandom",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 107,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "main": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "112",
+        "total_line": "170",
+        "end_line": "282",
+        "call": [
+          {
+            "file": null,
+            "entity": "getopt_long",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 150,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 153,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 159,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\main.c",
+            "entity": "print_help",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 192,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 193,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_init",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 199,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 200,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_print",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 205,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 206,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\main.c",
+            "entity": "print_usage",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 211,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 212,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\main.c",
+            "entity": "random_seed",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 217,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\netinfo.c",
+            "entity": "mc_net_info_new",
+            "type": "net_info_t *",
+            "kind": "C Function",
+            "line_number": 220,
+            "column": 19
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 221,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\netinfo.c",
+            "entity": "mc_net_info_get_mac",
+            "type": "mac_t *",
+            "kind": "C Function",
+            "line_number": 223,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\netinfo.c",
+            "entity": "mc_net_info_get_permanent_mac",
+            "type": "mac_t *",
+            "kind": "C Function",
+            "line_number": 224,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\main.c",
+            "entity": "print_mac",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 227,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\main.c",
+            "entity": "print_mac",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 228,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_dup",
+            "type": "mac_t *",
+            "kind": "C Function",
+            "line_number": 231,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 234,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_read_string",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 236,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 237,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_random",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 240,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_random",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 242,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_is_wireless",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 244,
+            "column": 22
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_set_random_vendor",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 245,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_random",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 246,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_set_random_vendor",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 248,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_random",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 249,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_dup",
+            "type": "mac_t *",
+            "kind": "C Function",
+            "line_number": 251,
+            "column": 28
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_next",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 253,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\netinfo.c",
+            "entity": "mc_net_info_set_mac",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 257,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 260,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\netinfo.c",
+            "entity": "mc_net_info_get_mac",
+            "type": "mac_t *",
+            "kind": "C Function",
+            "line_number": 261,
+            "column": 28
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\main.c",
+            "entity": "print_mac",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 264,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_equal",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 267,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 268,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 273,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 274,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c",
+            "entity": "mc_mac_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 275,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\netinfo.c",
+            "entity": "mc_net_info_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 276,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 277,
+            "column": 8
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\netinfo.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c": [
+    {
+      "mc_maclist_get_cardname_from_list": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "37",
+        "total_line": "17",
+        "end_line": "54",
+        "call": []
+      }
+    },
+    {
+      "mc_maclist_get_cardname": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "56",
+        "total_line": "13",
+        "end_line": "69",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_get_cardname_from_list",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 60,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_get_cardname_from_list",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 65,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_get_cardname_with_default": {
+        "kind": "C Function",
+        "type": "const char *",
+        "begin_line": "71",
+        "total_line": "7",
+        "end_line": "78",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_get_cardname",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 74,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_set_random_vendor_from_list": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "79",
+        "total_line": "16",
+        "end_line": "95",
+        "call": [
+          {
+            "file": null,
+            "entity": "random",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 87,
+            "column": 14
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_set_random_vendor": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "97",
+        "total_line": "27",
+        "end_line": "124",
+        "call": [
+          {
+            "file": null,
+            "entity": "random",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 105,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_set_random_vendor_from_list",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 110,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_set_random_vendor_from_list",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 112,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_set_random_vendor_from_list",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 116,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_set_random_vendor_from_list",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 119,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_is_wireless": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "126",
+        "total_line": "5",
+        "end_line": "131",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_get_cardname_from_list",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 128,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_print_from_list": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "133",
+        "total_line": "14",
+        "end_line": "147",
+        "call": [
+          {
+            "file": null,
+            "entity": "strstr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 138,
+            "column": 44
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 139,
+            "column": 24
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_print": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "149",
+        "total_line": "14",
+        "end_line": "163",
+        "call": [
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 151,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_print_from_list",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 154,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 156,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_print_from_list",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 160,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_read_from_file": {
+        "kind": "C Function Static",
+        "type": "card_mac_list_item_t *",
+        "begin_line": "165",
+        "total_line": "42",
+        "end_line": "207",
+        "call": [
+          {
+            "file": null,
+            "entity": "fopen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 173,
+            "column": 17
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 174,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "fgets",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 179,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "rewind",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 180,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 183,
+            "column": 40
+          },
+          {
+            "file": null,
+            "entity": "fgets",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 187,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "strtoul",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 188,
+            "column": 44
+          },
+          {
+            "file": null,
+            "entity": "strtoul",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 189,
+            "column": 44
+          },
+          {
+            "file": null,
+            "entity": "strtoul",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 190,
+            "column": 44
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 192,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "strdup",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 193,
+            "column": 41
+          },
+          {
+            "file": null,
+            "entity": "fclose",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 202,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_init": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "209",
+        "total_line": "8",
+        "end_line": "217",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_read_from_file",
+            "type": "card_mac_list_item_t *",
+            "kind": "C Function Static",
+            "line_number": 211,
+            "column": 22
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "mc_maclist_read_from_file",
+            "type": "card_mac_list_item_t *",
+            "kind": "C Function Static",
+            "line_number": 212,
+            "column": 24
+          }
+        ]
+      }
+    },
+    {
+      "free_list": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "219",
+        "total_line": "10",
+        "end_line": "229",
+        "call": [
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 223,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 226,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "mc_maclist_free": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "231",
+        "total_line": "6",
+        "end_line": "237",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "free_list",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 233,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\maclist.c",
+            "entity": "free_list",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 234,
+            "column": 8
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\netinfo.c": [
+    {
+      "mc_net_info_new": {
+        "kind": "C Function",
+        "type": "net_info_t *",
+        "begin_line": "39",
+        "total_line": "21",
+        "end_line": "60",
+        "call": [
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 41,
+            "column": 41
+          },
+          {
+            "file": null,
+            "entity": "socket",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 43,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "perror",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 45,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 46,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 50,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "ioctl",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 51,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "perror",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 52,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 53,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "mc_net_info_free": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "62",
+        "total_line": "6",
+        "end_line": "68",
+        "call": [
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 64,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 65,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "mc_net_info_get_mac": {
+        "kind": "C Function",
+        "type": "mac_t *",
+        "begin_line": "70",
+        "total_line": "12",
+        "end_line": "82",
+        "call": [
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 73,
+            "column": 31
+          }
+        ]
+      }
+    },
+    {
+      "mc_net_info_set_mac": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "84",
+        "total_line": "16",
+        "end_line": "100",
+        "call": [
+          {
+            "file": null,
+            "entity": "ioctl",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 92,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "perror",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 93,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "mc_net_info_get_permanent_mac": {
+        "kind": "C Function",
+        "type": "mac_t *",
+        "begin_line": "101",
+        "total_line": "28",
+        "end_line": "129",
+        "call": [
+          {
+            "file": null,
+            "entity": "calloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 108,
+            "column": 27
+          },
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 110,
+            "column": 42
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 114,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "ioctl",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 117,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "perror",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 118,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 125,
+            "column": 8
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\macchanger\\macchanger-1.6.0\\src\\mac.c": [
+    {
+      "mc_mac_dup": {
+        "kind": "C Function",
+        "type": "mac_t *",
+        "begin_line": "35",
+        "total_line": "9",
+        "end_line": "44",
+        "call": [
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 39,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 40,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "mc_mac_free": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "46",
+        "total_line": "5",
+        "end_line": "51",
+        "call": [
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 48,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "mc_mac_into_string": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "53",
+        "total_line": "9",
+        "end_line": "62",
+        "call": [
+          {
+            "file": null,
+            "entity": "sprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 58,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "mc_mac_random": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "64",
+        "total_line": "30",
+        "end_line": "94",
+        "call": [
+          {
+            "file": null,
+            "entity": "random",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 76,
+            "column": 32
+          },
+          {
+            "file": null,
+            "entity": "random",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 77,
+            "column": 31
+          },
+          {
+            "file": null,
+            "entity": "random",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 78,
+            "column": 31
+          },
+          {
+            "file": null,
+            "entity": "random",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 80,
+            "column": 31
+          },
+          {
+            "file": null,
+            "entity": "random",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 81,
+            "column": 31
+          },
+          {
+            "file": null,
+            "entity": "random",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 82,
+            "column": 31
+          }
+        ]
+      }
+    },
+    {
+      "mc_mac_equal": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "96",
+        "total_line": "12",
+        "end_line": "108",
+        "call": []
+      }
+    },
+    {
+      "mc_mac_next": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "110",
+        "total_line": "11",
+        "end_line": "121",
+        "call": []
+      }
+    },
+    {
+      "mc_mac_read_string": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "123",
+        "total_line": "25",
+        "end_line": "148",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 128,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 129,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 129,
+            "column": 105
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 135,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "strtoul",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 142,
+            "column": 43
+          }
+        ]
+      }
+    }
+  ]
+}

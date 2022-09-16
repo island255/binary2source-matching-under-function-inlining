@@ -1,0 +1,7075 @@
+{
+  "libidn/libidn2-2.0.5/doc/decode.c": {
+    "main": {
+      "start_point": [
+        7,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"Enter (possibly non-ASCII) domain name to decode: \"",
+        "\"fgets\"",
+        "\"error: %s (%s, %d)\\n\"",
+        "\"Decoded domain name: %s\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/doc/example-toascii.c": {
+    "main": {
+      "start_point": [
+        21,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": [
+        "\"fgets\"",
+        "\"Read string (length %ld): \"",
+        "\"%02x \"",
+        "\"\\n\"",
+        "\"ToASCII() failed (%d): %s\\n\"",
+        "\"ACE label (length %ld): '%s'\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/doc/example-tounicode.c": {
+    "main": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": [
+        "\"fgets\"",
+        "\"Read string (length %ld): \"",
+        "\"%02x \"",
+        "\"\\n\"",
+        "\"ToUnicode() failed (%d): %s\\n\"",
+        "\"ACE label (length %ld): '%s'\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/doc/lookup.c": {
+    "main": {
+      "start_point": [
+        6,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"Enter (possibly non-ASCII) domain name to lookup: \"",
+        "\"fgets\"",
+        "\"error: %s (%s, %d)\\n\"",
+        "\"IDNA2008 domain name to lookup in DNS: %s\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/doc/register.c": {
+    "main": {
+      "start_point": [
+        6,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"Enter (possibly non-ASCII) label to register: \"",
+        "\"fgets\"",
+        "\"error: %s (%s, %d)\\n\"",
+        "\"IDNA2008 label to register in DNS: %s\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/examples/decode.c": {
+    "main": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"Enter (possibly non-ASCII) domain name to decode: \"",
+        "\"fgets\"",
+        "\"error: %s (%s, %d)\\n\"",
+        "\"Decoded domain name: %s\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/examples/example-toascii.c": {
+    "main": {
+      "start_point": [
+        21,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": [
+        "\"fgets\"",
+        "\"Read string (length %ld): \"",
+        "\"%02x \"",
+        "\"\\n\"",
+        "\"ToASCII() failed (%d): %s\\n\"",
+        "\"ACE label (length %ld): '%s'\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/examples/example-tounicode.c": {
+    "main": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": [
+        "\"fgets\"",
+        "\"Read string (length %ld): \"",
+        "\"%02x \"",
+        "\"\\n\"",
+        "\"ToUnicode() failed (%d): %s\\n\"",
+        "\"ACE label (length %ld): '%s'\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/examples/lookup.c": {
+    "main": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"Enter (possibly non-ASCII) domain name to lookup: \"",
+        "\"fgets\"",
+        "\"error: %s (%s, %d)\\n\"",
+        "\"IDNA2008 domain name to lookup in DNS: %s\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/examples/register.c": {
+    "main": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"Enter (possibly non-ASCII) label to register: \"",
+        "\"fgets\"",
+        "\"error: %s (%s, %d)\\n\"",
+        "\"IDNA2008 label to register in DNS: %s\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/fuzz/fuzzer.h": {},
+  "libidn/libidn2-2.0.5/fuzz/libidn2_to_ascii_8z_fuzzer.c": {
+    "LLVMFuzzerTestOneInput": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/fuzz/libidn2_to_unicode_8z8z_fuzzer.c": {
+    "LLVMFuzzerTestOneInput": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/fuzz/main.c": {
+    "test_all_from": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": [
+        "\"%s/%s\"",
+        "\"Failed to open %s (%d)\\n\"",
+        "\"Failed to stat %d (%d)\\n\"",
+        "\"testing %llu bytes from '%s'\\n\"",
+        "\"Failed to read %llu bytes from %s (%d), got %zd\\n\""
+      ]
+    },
+    "main": [
+      {
+        "start_point": [
+          81,
+          0
+        ],
+        "end_point": [
+          109,
+          1
+        ],
+        "strings": [
+          "\"TESTS_VALGRIND\"",
+          "\"TESTS_VALGRIND=\"",
+          "\" %s %s\"",
+          "\"/%s.in\"",
+          "\"/%s.repro\""
+        ]
+      },
+      {
+        "start_point": [
+          127,
+          0
+        ],
+        "end_point": [
+          141,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "__AFL_LOOP": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/arg-nonnull.h": {},
+  "libidn/libidn2-2.0.5/gl/basename-lgpl.c": {
+    "last_component": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "base_len": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/c++defs.h": {},
+  "libidn/libidn2-2.0.5/gl/dirname-lgpl.c": {
+    "dir_len": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "mdir_name": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/dirname.h": {},
+  "libidn/libidn2-2.0.5/gl/dosname.h": {},
+  "libidn/libidn2-2.0.5/gl/errno.in.h": {},
+  "libidn/libidn2-2.0.5/gl/error.c": {
+    "is_open": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    },
+    "flush_stdout": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": []
+    },
+    "print_errno_message": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\"",
+        "\": %s\"",
+        "\": %s\""
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        205,
+        42
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": [
+        "L\"out of memory\\n\"",
+        "L\"???\"",
+        "\"\\n\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        331,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"%s: \""
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        337,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "strings": [
+        "\"%s:\"",
+        "\"%s:\"",
+        "\"%s:%u: \"",
+        "\" \"",
+        "\"%s:%u: \"",
+        "\" \""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/error.h": {},
+  "libidn/libidn2-2.0.5/gl/getdelim.c": {
+    "alloc_failed": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    },
+    "getdelim": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/getline.c": {
+    "getline": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        26,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/getopt-cdefs.in.h": {},
+  "libidn/libidn2-2.0.5/gl/getopt-core.h": {},
+  "libidn/libidn2-2.0.5/gl/getopt-ext.h": {
+    "struct": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/getopt-pfx-core.h": {},
+  "libidn/libidn2-2.0.5/gl/getopt-pfx-ext.h": {},
+  "libidn/libidn2-2.0.5/gl/getopt.c": {
+    "exchange": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "strings": []
+    },
+    "process_long_option": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": [
+        "\"%s: option '%s%s' is ambiguous\\n\"",
+        "\"%s: option '%s%s' is ambiguous; possibilities:\"",
+        "\" '%s%s'\"",
+        "\"\\n\"",
+        "\"%s: unrecognized option '%s%s'\\n\"",
+        "\"%s: option '%s%s' doesn't allow an argument\\n\"",
+        "\"%s: option '%s%s' requires an argument\\n\""
+      ]
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        411,
+        1
+      ],
+      "strings": [
+        "\"POSIXLY_CORRECT\""
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        469,
+        0
+      ],
+      "end_point": [
+        699,
+        1
+      ],
+      "strings": [
+        "\"--\"",
+        "\"--\"",
+        "\"-\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"-W \"",
+        "\"%s: option requires an argument -- '%c'\\n\""
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        701,
+        0
+      ],
+      "end_point": [
+        720,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        747,
+        0
+      ],
+      "end_point": [
+        808,
+        1
+      ],
+      "strings": [
+        "\"abc:d:0123456789\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/getopt.in.h": {},
+  "libidn/libidn2-2.0.5/gl/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "getopt_long_only": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": [
+        "\"add\"",
+        "\"append\"",
+        "\"delete\"",
+        "\"verbose\"",
+        "\"create\"",
+        "\"file\"",
+        "\"abc:d:0123456789\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"\\n\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"option d with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/getopt_int.h": {},
+  "libidn/libidn2-2.0.5/gl/getprogname.c": {
+    "getprogname": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "strings": [
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"/proc/pinfo/%d\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/getprogname.h": {},
+  "libidn/libidn2-2.0.5/gl/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/intprops.h": {},
+  "libidn/libidn2-2.0.5/gl/limits.in.h": {},
+  "libidn/libidn2-2.0.5/gl/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/msvc-inval.h": {},
+  "libidn/libidn2-2.0.5/gl/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/msvc-nothrow.h": {},
+  "libidn/libidn2-2.0.5/gl/progname.c": {
+    "set_program_name": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"A NULL argv[0] was passed through an exec system call.\\n\"",
+        "\"/.libs/\"",
+        "\"lt-\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/progname.h": {},
+  "libidn/libidn2-2.0.5/gl/rawmemchr.c": {
+    "rawmemchr": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/stdarg.in.h": {},
+  "libidn/libidn2-2.0.5/gl/stdbool.in.h": {},
+  "libidn/libidn2-2.0.5/gl/stddef.in.h": {},
+  "libidn/libidn2-2.0.5/gl/stdint.in.h": {},
+  "libidn/libidn2-2.0.5/gl/stdio.in.h": {},
+  "libidn/libidn2-2.0.5/gl/stdlib.in.h": {},
+  "libidn/libidn2-2.0.5/gl/strchrnul.c": {
+    "strchrnul": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": [
+        "\"Success\"",
+        "\"Operation now in progress\"",
+        "\"Operation already in progress\"",
+        "\"Socket operation on non-socket\"",
+        "\"Destination address required\"",
+        "\"Message too long\"",
+        "\"Protocol wrong type for socket\"",
+        "\"Protocol not available\"",
+        "\"Protocol not supported\"",
+        "\"Operation not supported\"",
+        "\"Address family not supported by protocol\"",
+        "\"Address already in use\"",
+        "\"Cannot assign requested address\"",
+        "\"Network is down\"",
+        "\"Network is unreachable\"",
+        "\"Connection reset by peer\"",
+        "\"No buffer space available\"",
+        "\"Transport endpoint is already connected\"",
+        "\"Transport endpoint is not connected\"",
+        "\"Connection timed out\"",
+        "\"Connection refused\"",
+        "\"Too many levels of symbolic links\"",
+        "\"No route to host\"",
+        "\"Operation would block\"",
+        "\"Text file busy\"",
+        "\"No data available\"",
+        "\"Out of streams resources\"",
+        "\"Device not a stream\"",
+        "\"Timer expired\"",
+        "\"Other error\"",
+        "\"Socket type not supported\"",
+        "\"Protocol family not supported\"",
+        "\"Cannot send after transport endpoint shutdown\"",
+        "\"Too many references: cannot splice\"",
+        "\"Host is down\"",
+        "\"Too many processes\"",
+        "\"Too many users\"",
+        "\"Disk quota exceeded\"",
+        "\"Stale NFS file handle\"",
+        "\"Object is remote\"",
+        "\"Overlapped operation aborted\"",
+        "\"Overlapped I/O event object not in signaled state\"",
+        "\"Overlapped operations will complete later\"",
+        "\"Network subsystem is unavailable\"",
+        "\"Winsock.dll version out of range\"",
+        "\"Successful WSAStartup not yet performed\"",
+        "\"Graceful shutdown in progress\"",
+        "\"No more results\"",
+        "\"Call was canceled\"",
+        "\"Procedure call table is invalid\"",
+        "\"Service provider is invalid\"",
+        "\"Service provider failed to initialize\"",
+        "\"System call failure\"",
+        "\"Service not found\"",
+        "\"Class type not found\"",
+        "\"Database query was refused\"",
+        "\"Host not found\"",
+        "\"Nonauthoritative host not found\"",
+        "\"Nonrecoverable error\"",
+        "\"Valid name, no data record of requested type\"",
+        "\"No message of desired type\"",
+        "\"Identifier removed\"",
+        "\"Link has been severed\"",
+        "\"Protocol error\"",
+        "\"Multihop attempted\"",
+        "\"Bad message\"",
+        "\"Value too large for defined data type\"",
+        "\"Not supported\"",
+        "\"Network dropped connection on reset\"",
+        "\"Software caused connection abort\"",
+        "\"Stale NFS file handle\"",
+        "\"Disk quota exceeded\"",
+        "\"Operation canceled\"",
+        "\"Owner died\"",
+        "\"State not recoverable\"",
+        "\"Invalid or incomplete multibyte or wide character\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/strerror-override.h": {},
+  "libidn/libidn2-2.0.5/gl/strerror.c": {},
+  "libidn/libidn2-2.0.5/gl/string.in.h": {},
+  "libidn/libidn2-2.0.5/gl/stripslash.c": {
+    "strip_trailing_slashes": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/strverscmp.c": {
+    "__strverscmp": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/sys_types.in.h": {},
+  "libidn/libidn2-2.0.5/gl/unistd.c": {},
+  "libidn/libidn2-2.0.5/gl/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        427,
+        0
+      ],
+      "end_point": [
+        431,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        894,
+        0
+      ],
+      "end_point": [
+        898,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/verify.h": {},
+  "libidn/libidn2-2.0.5/gl/version-etc.c": {
+    "version_etc_arn": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": [
+        "\"%s (%s) %s\\n\"",
+        "\"%s %s\\n\"",
+        "\"Packaged by %s (%s)\\n\"",
+        "\"Packaged by %s\\n\"",
+        "\"(C)\"",
+        "\"\\\n\\n\\\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\\n\\\n\\n\\\n\"",
+        "\"Written by %s.\\n\"",
+        "\"Written by %s and %s.\\n\"",
+        "\"Written by %s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\nand %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, %s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\nand %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, %s, and others.\\n\""
+      ]
+    },
+    "version_etc_ar": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc_va": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "emit_bug_reporting_address": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": [
+        "\"\\nReport bugs to: %s\\n\"",
+        "\"Report %s bugs to: %s\\n\"",
+        "\"%s home page: <%s>\\n\"",
+        "\"%s home page: <http://www.gnu.org/software/%s/>\\n\"",
+        "\"General help using GNU software: <http://www.gnu.org/gethelp/>\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/gl/version-etc.h": {},
+  "libidn/libidn2-2.0.5/gl/warn-on-use.h": {},
+  "libidn/libidn2-2.0.5/gl/_Noreturn.h": {},
+  "libidn/libidn2-2.0.5/lib/bidi.c": {
+    "_isBidi": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_bidi": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/bidi.h": {},
+  "libidn/libidn2-2.0.5/lib/context.c": {
+    "_idn2_contextj_rule": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        115,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_contexto_rule": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": [
+        "\"Greek\"",
+        "\"Hebrew\"",
+        "\"Hiragana\"",
+        "\"Katakana\"",
+        "\"Han\""
+      ]
+    },
+    "_idn2_contexto_with_rule": {
+      "start_point": [
+        219,
+        0
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/context.h": {},
+  "libidn/libidn2-2.0.5/lib/data.c": {},
+  "libidn/libidn2-2.0.5/lib/data.h": {},
+  "libidn/libidn2-2.0.5/lib/decode.c": {
+    "idn2_to_unicode_8z4z": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_unicode_4z4z": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_unicode_44i": {
+      "start_point": [
+        242,
+        0
+      ],
+      "end_point": [
+        278,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_unicode_8z8z": {
+      "start_point": [
+        301,
+        0
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_unicode_8zlz": {
+      "start_point": [
+        353,
+        0
+      ],
+      "end_point": [
+        389,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_unicode_lzlz": {
+      "start_point": [
+        414,
+        0
+      ],
+      "end_point": [
+        442,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/error.c": {
+    "idn2_strerror": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": [
+        "\"success\"",
+        "\"out of memory\"",
+        "\"could not determine locale encoding format\"",
+        "\"could not convert string to UTF-8\"",
+        "\"string encoding error\"",
+        "\"string could not be NFC normalized\"",
+        "\"string contains invalid punycode data\"",
+        "\"punycode encoded data will be too large\"",
+        "\"punycode conversion resulted in overflow\"",
+        "\"domain name longer than 255 characters\"",
+        "\"domain label longer than 63 characters\"",
+        "\"input A-label is not valid\"",
+        "\"input A-label and U-label does not match\"",
+        "\"string is not in Unicode NFC format\"",
+        "\"string contains forbidden two hyphens pattern\"",
+        "\"string start/ends with forbidden hyphen\"",
+        "\"string contains a forbidden leading combining character\"",
+        "\"string contains a disallowed character\"",
+        "\"string contains a forbidden context-j character\"",
+        "\"string contains a context-j character with null rule\"",
+        "\"string contains a forbidden context-o character\"",
+        "\"string contains a context-o character with null rule\"",
+        "\"string contains unassigned code point\"",
+        "\"string has forbidden bi-directional properties\"",
+        "\"Unknown error\""
+      ]
+    },
+    "idn2_strerror_name": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": [
+        "\"IDN2_UNKNOWN\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/free.c": {
+    "idn2_free": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/gentr46map.c": {
+    "_nextField": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": [
+        "\";#\""
+      ]
+    },
+    "_scan_file": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"Failed to open %s\\n\""
+      ]
+    },
+    "_u32_stream_len": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": []
+    },
+    "_u32_to_stream": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": []
+    },
+    "_copy_from_stream": {
+      "start_point": [
+        213,
+        0
+      ],
+      "end_point": [
+        228,
+        1
+      ],
+      "strings": []
+    },
+    "read_IdnaMappings": {
+      "start_point": [
+        230,
+        0
+      ],
+      "end_point": [
+        343,
+        1
+      ],
+      "strings": [
+        "\"%X..%X\"",
+        "\"Failed to scan mapping codepoint '%s'\\n\"",
+        "\"Invalid codepoint range '%s'\\n\"",
+        "\"Mapping codepoints out of order '%s'\\n\"",
+        "\"valid\"",
+        "\"mapped\"",
+        "\"disallowed\"",
+        "\"ignored\"",
+        "\"deviation\"",
+        "\"disallowed_STD3_mapped\"",
+        "\"disallowed_STD3_valid\"",
+        "\"Unknown flag '%s'\\n\"",
+        "\" %X%n\"",
+        "\"genmapdata too small - increase and retry\\n\"",
+        "\"offset overflow (%zu)\\n\"",
+        "\"Missing mapping for '%s'\\n\"",
+        "\"Internal map size too small\\n\""
+      ]
+    },
+    "_compare_map": {
+      "start_point": [
+        345,
+        0
+      ],
+      "end_point": [
+        353,
+        1
+      ],
+      "strings": []
+    },
+    "read_NFCQC": {
+      "start_point": [
+        355,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "strings": [
+        "\"NFC_QC\"",
+        "\"%X..%X\"",
+        "\"Failed to scan mapping codepoint '%s'\\n\"",
+        "\"Invalid codepoint range '%s'\\n\"",
+        "\"NFQQC: Unknown value '%s'\\n\"",
+        "\"Internal NFCQC map size too small\\n\""
+      ]
+    },
+    "_compare_map_by_maplen": {
+      "start_point": [
+        404,
+        0
+      ],
+      "end_point": [
+        414,
+        1
+      ],
+      "strings": []
+    },
+    "_u8_memmem": {
+      "start_point": [
+        435,
+        0
+      ],
+      "end_point": [
+        450,
+        1
+      ],
+      "strings": []
+    },
+    "_u32_cp_stream_len": {
+      "start_point": [
+        452,
+        0
+      ],
+      "end_point": [
+        464,
+        1
+      ],
+      "strings": []
+    },
+    "_compact_idna_map": {
+      "start_point": [
+        471,
+        0
+      ],
+      "end_point": [
+        513,
+        1
+      ],
+      "strings": []
+    },
+    "_combine_idna_flags": {
+      "start_point": [
+        515,
+        0
+      ],
+      "end_point": [
+        558,
+        1
+      ],
+      "strings": [
+        "\"flag_combination[] too small - increase and retry\\n\"",
+        "\"Flags do not for 0x%X-0x%X)\\n\""
+      ]
+    },
+    "_print_tr46_map": {
+      "start_point": [
+        560,
+        0
+      ],
+      "end_point": [
+        620,
+        1
+      ],
+      "strings": [
+        "\"0x%X,0x%X,\"",
+        "\"0x%X,0x%X,0x%X,0x%X,\"",
+        "\"0x%X,0x%X,0x%X,0x%X,0x%X,\"",
+        "\"0x%X,0x%X,0x%X,\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        622,
+        0
+      ],
+      "end_point": [
+        683,
+        1
+      ],
+      "strings": [
+        "\"/IdnaMappingTable.txt\"",
+        "\"/DerivedNormalizationProps.txt\"",
+        "\"/* This file is automatically generated.  DO NOT EDIT! */\\n\\n\"",
+        "\"#include <stdint.h>\\n\"",
+        "\"#include \\\"tr46map.h\\\"\\n\\n\"",
+        "\"static const uint8_t idna_flags[%u] =\\n{\"",
+        "\"0x%X,\"",
+        "\"};\\n\\n\"",
+        "\"static const uint8_t idna_map_8[%d] = {\\n\"",
+        "\"};\\n\\n\"",
+        "\"static const uint8_t idna_map_16[%d] = {\\n\"",
+        "\"};\\n\\n\"",
+        "\"static const uint8_t idna_map_24[%d] = {\\n\"",
+        "\"};\\n\\n\"",
+        "\"static const uint8_t mapdata[%zu] = {\\n\"",
+        "\"0x%02X,%s\"",
+        "\"\\n\"",
+        "\"\"",
+        "\"};\\n\\n\"",
+        "\"static const NFCQCMap nfcqc_map[%zu] = {\\n\"",
+        "\"{0x%X,0x%X,%d},\\n\"",
+        "\"};\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/idn2.h": {},
+  "libidn/libidn2-2.0.5/lib/idna.c": {
+    "_isNFC": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_u8_to_u32_nfc": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_ascii_p": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_label_test": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/idna.h": {},
+  "libidn/libidn2-2.0.5/lib/lookup.c": {
+    "set_default_flags": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    },
+    "label": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": []
+    },
+    "_tr46": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        358,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_lookup_u8": {
+      "start_point": [
+        398,
+        0
+      ],
+      "end_point": [
+        484,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_lookup_ul": {
+      "start_point": [
+        517,
+        0
+      ],
+      "end_point": [
+        543,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_ascii_4i": {
+      "start_point": [
+        579,
+        0
+      ],
+      "end_point": [
+        625,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_ascii_4z": {
+      "start_point": [
+        647,
+        0
+      ],
+      "end_point": [
+        673,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_ascii_8z": {
+      "start_point": [
+        695,
+        0
+      ],
+      "end_point": [
+        699,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_to_ascii_lz": {
+      "start_point": [
+        722,
+        0
+      ],
+      "end_point": [
+        726,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/punycode.h": {},
+  "libidn/libidn2-2.0.5/lib/puny_decode.c": {
+    "decode_digit": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        99,
+        1
+      ],
+      "strings": []
+    },
+    "adapt": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "punycode_decode": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/puny_encode.c": {
+    "encode_digit": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "adapt": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    },
+    "punycode_encode": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        222,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/register.c": {
+    "idn2_register_u8": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": []
+    },
+    "idn2_register_ul": {
+      "start_point": [
+        236,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/tables.c": {
+    "_compare": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "property": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_disallowed_p": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_contextj_p": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_contexto_p": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "_idn2_unassigned_p": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/tables.h": {},
+  "libidn/libidn2-2.0.5/lib/tr46map.c": {
+    "_fill_map": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    },
+    "_compare_idna_map": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    },
+    "get_idna_map": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": []
+    },
+    "map_is": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": []
+    },
+    "_compare_nfcqc_map": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "get_nfcqc_map": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "get_map_data": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/lib/tr46map.h": {},
+  "libidn/libidn2-2.0.5/lib/tr46map_data.c": {},
+  "libidn/libidn2-2.0.5/lib/version.c": {
+    "idn2_check_version": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/src/blurbs.h": {},
+  "libidn/libidn2-2.0.5/src/idn2.c": {
+    "usage": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "strings": [
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"\\\nUsage: %s [OPTION]... [STRINGS]...\\n\\\n\"",
+        "\"\\\nInternationalized Domain Name (IDNA2008) convert STRINGS, or standard input.\\n\\\n\\n\\\n\"",
+        "\"\\\nCommand line interface to the Libidn2 implementation of IDNA2008.\\n\\\n\\n\\\nAll strings are expected to be encoded in the locale charset.\\n\\\n\\n\\\nTo process a string that starts with `-', for example `-foo', use `--'\\n\\\nto signal the end of parameters, as in `idn2 --quiet -- -foo'.\\n\\\n\\n\\\nMandatory arguments to long options are mandatory for short options too.\\n\\\n\"",
+        "\"\\\n  -h, --help               Print help and exit\\n\\\n  -V, --version            Print version and exit\\n\\\n\"",
+        "\"\\\n  -d, --decode             Decode (punycode) domain name\\n\\\n  -l, --lookup             Lookup domain name (default)\\n\\\n  -r, --register           Register label\\n\\\n\"",
+        "\"\\\n  -T, --tr46t              Enable TR46 transitional processing\\n\\\n  -N, --tr46nt             Enable TR46 non-transitional processing\\n\\\n      --no-tr46            Disable TR46 processing\\n\\\n\"",
+        "\"\\\n      --usestd3asciirules  Enable STD3 ASCII rules\\n\\\n      --debug              Print debugging information\\n\\\n      --quiet              Silent operation\\n\\\n\""
+      ]
+    },
+    "hexdump": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        129,
+        1
+      ],
+      "strings": [
+        "\"%s[%lu] = 0x%02x\\n\"",
+        "\"UTF-8 %s[%lu] = 0x%02x\\n\"",
+        "\"UCS-4 %s[%lu] = U+%04x\\n\""
+      ]
+    },
+    "process_input": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        184,
+        1
+      ],
+      "strings": [
+        "\"show w\"",
+        "\"show c\"",
+        "\"input\"",
+        "\"register\"",
+        "\"decode\"",
+        "\"toAscii\"",
+        "\"output\"",
+        "\"%s\\n\"",
+        "\"%s: %s\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        252,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"idn2\"",
+        "\"Simon Josefsson\"",
+        "\"%s %s\\n\"",
+        "\"Charset: %s\\n\"",
+        "\"%s\"",
+        "\"Type each input string on a line by itself, \"",
+        "\"terminated by a newline character.\\n\"",
+        "\"%s\"",
+        "\"input error\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/src/idn2_cmd.c": {
+    "clear_given": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "clear_args": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "init_args_info": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_print_version": {
+      "start_point": [
+        115,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": [
+        "\"%s %s\\n\"",
+        "\"\\n%s\\n\""
+      ]
+    },
+    "print_help_common": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        139,
+        1
+      ],
+      "strings": [
+        "\"\\n%s\\n\"",
+        "\"\\n%s\\n\"",
+        "\"\\n\"",
+        "\"%s\\n\\n\""
+      ]
+    },
+    "cmdline_parser_print_help": {
+      "start_point": [
+        141,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "cmdline_parser_init": {
+      "start_point": [
+        150,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_params_init": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_params_create": {
+      "start_point": [
+        174,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_release": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": []
+    },
+    "write_into_file": {
+      "start_point": [
+        201,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": [
+        "\"%s=\\\"%s\\\"\\n\"",
+        "\"%s\\n\""
+      ]
+    },
+    "cmdline_parser_dump": {
+      "start_point": [
+        213,
+        0
+      ],
+      "end_point": [
+        250,
+        1
+      ],
+      "strings": [
+        "\"%s: cannot dump options to stream\\n\"",
+        "\"help\"",
+        "\"version\"",
+        "\"decode\"",
+        "\"lookup\"",
+        "\"register\"",
+        "\"tr46t\"",
+        "\"tr46nt\"",
+        "\"no-tr46\"",
+        "\"usestd3asciirules\"",
+        "\"debug\"",
+        "\"quiet\""
+      ]
+    },
+    "cmdline_parser_file_save": {
+      "start_point": [
+        252,
+        0
+      ],
+      "end_point": [
+        270,
+        1
+      ],
+      "strings": [
+        "\"w\"",
+        "\"%s: cannot open file for writing: %s\\n\""
+      ]
+    },
+    "cmdline_parser_free": {
+      "start_point": [
+        272,
+        0
+      ],
+      "end_point": [
+        276,
+        1
+      ],
+      "strings": []
+    },
+    "gengetopt_strdup": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        297,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_ext": {
+      "start_point": [
+        299,
+        0
+      ],
+      "end_point": [
+        313,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser2": {
+      "start_point": [
+        315,
+        0
+      ],
+      "end_point": [
+        336,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_required": {
+      "start_point": [
+        338,
+        0
+      ],
+      "end_point": [
+        344,
+        1
+      ],
+      "strings": []
+    },
+    "update_arg": {
+      "start_point": [
+        367,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "strings": [
+        "\"%s: `--%s' (`-%c') option given more than once%s\\n\"",
+        "\"\"",
+        "\"%s: `--%s' option given more than once%s\\n\"",
+        "\"\""
+      ]
+    },
+    "cmdline_parser_internal": {
+      "start_point": [
+        440,
+        0
+      ],
+      "end_point": [
+        681,
+        1
+      ],
+      "strings": [
+        "\"help\"",
+        "\"version\"",
+        "\"decode\"",
+        "\"lookup\"",
+        "\"register\"",
+        "\"tr46t\"",
+        "\"tr46nt\"",
+        "\"no-tr46\"",
+        "\"usestd3asciirules\"",
+        "\"debug\"",
+        "\"quiet\"",
+        "\"hVdlrTN\"",
+        "\"help\"",
+        "\"version\"",
+        "\"decode\"",
+        "\"lookup\"",
+        "\"register\"",
+        "\"tr46t\"",
+        "\"tr46nt\"",
+        "\"no-tr46\"",
+        "\"no-tr46\"",
+        "\"usestd3asciirules\"",
+        "\"usestd3asciirules\"",
+        "\"debug\"",
+        "\"debug\"",
+        "\"quiet\"",
+        "\"quiet\"",
+        "\"%s: option unknown: %c%s\\n\"",
+        "\"\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/src/idn2_cmd.h": {},
+  "libidn/libidn2-2.0.5/tests/test-lookup.c": {
+    "_nextField": {
+      "start_point": [
+        841,
+        0
+      ],
+      "end_point": [
+        860,
+        1
+      ],
+      "strings": [
+        "\";#\""
+      ]
+    },
+    "_scan_file": {
+      "start_point": [
+        862,
+        0
+      ],
+      "end_point": [
+        894,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"Failed to open %s (%d)\\n\""
+      ]
+    },
+    "test_homebrewed": {
+      "start_point": [
+        896,
+        0
+      ],
+      "end_point": [
+        1041,
+        1
+      ],
+      "strings": [
+        "\"%3d  %-25s %-40s %s\\n\"",
+        "\"\"",
+        "\"utc bug\\n\"",
+        "\"expected rc %d got rc %d\\n\"",
+        "\"expected: %s\\ngot: %s\\n\"",
+        "\"%3d  %-25s %-40s %s\\n\"",
+        "\"\"",
+        "\"utc bug\\n\"",
+        "\"expected rc %d got rc %d\\n\"",
+        "\"expected: %s\\ngot: %s\\n\"",
+        "\"%3d  %-25s %-40s %s\\n\"",
+        "\"\"",
+        "\"utc bug\\n\"",
+        "\"expected rc %d got rc %d\\n\"",
+        "\"expected: %s\\ngot: %s\\n\"",
+        "\"special #1 failed with %d\\n\"",
+        "\"special #2 failed with %d\\n\"",
+        "\"special #2 failed with out!=NULL\\n\"",
+        "\"special #3 failed with %d\\n\"",
+        "\"special #4 failed with %d\\n\"",
+        "\"special #4 failed with out!=NULL\\n\"",
+        "\"abc\"",
+        "\"special #5 failed with %d\\n\"",
+        "\"abc\"",
+        "\"special #6 failed with %d\\n\"",
+        "\"abc\"",
+        "\"special #7 failed with %d\\n\"",
+        "\"special #8 failed with %d\\n\"",
+        "\"special #9 failed with %d\\n\""
+      ]
+    },
+    "_decodeIdnaTest": {
+      "start_point": [
+        1044,
+        0
+      ],
+      "end_point": [
+        1099,
+        1
+      ],
+      "strings": [
+        "\"u8_to_u32(%s) failed (%d)\\n\"",
+        "\"Missing low surrogate\\n\"",
+        "\"Missing low surrogate\\n\"",
+        "\"u32_to_u8(%s) failed (%d)\\n\""
+      ]
+    },
+    "_check_toASCII": {
+      "start_point": [
+        1101,
+        0
+      ],
+      "end_point": [
+        1126,
+        1
+      ],
+      "strings": [
+        "\"OK\\n\"",
+        "\"Failed: _check_toASCII(%s) -> %d (expected 0) %p\\n\"",
+        "\"Failed: _check_toASCII(%s) -> %s (expected %s) %p\\n\"",
+        "\"OK\\n\""
+      ]
+    },
+    "test_IdnaTest": {
+      "start_point": [
+        1128,
+        0
+      ],
+      "end_point": [
+        1186,
+        1
+      ],
+      "strings": [
+        "\"##########%s#%s#%s#%s#%s#\\n\"",
+        "\"xn--8jb.xn--etb875g\"",
+        "\"Failed: Unknown type '%s'\\n\""
+      ]
+    },
+    "separator": {
+      "start_point": [
+        1188,
+        0
+      ],
+      "end_point": [
+        1193,
+        1
+      ],
+      "strings": [
+        "\"-----------------------------------------------------------\"",
+        "\"-------------------------------------\""
+      ]
+    },
+    "test_unicode_range": {
+      "start_point": [
+        1195,
+        0
+      ],
+      "end_point": [
+        1233,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        1235,
+        0
+      ],
+      "end_point": [
+        1264,
+        1
+      ],
+      "strings": [
+        "\"                                          IDNA2008 Lookup\\n\"",
+        "\"  #  Result                    ACE output                  \"",
+        "\"             Unicode input\"",
+        "\"/IdnaTest.txt\"",
+        "\"Summary: %d out of %d tests failed\\n\"",
+        "\"Summary: All %d tests passed\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/tests/test-punycode.c": {
+    "fail": {
+      "start_point": [
+        169,
+        35
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": []
+    },
+    "ucs4print": {
+      "start_point": [
+        182,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": [
+        "\"\\t;; \"",
+        "\"U+%04x \"",
+        "\" \"",
+        "\"\\n\\t;; \"",
+        "\"\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        201,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": [
+        "\"idn2_check_version(%s) failed\\n\"",
+        "\"idn2_check_version(NULL) failed\\n\"",
+        "\"100.100\"",
+        "\"idn2_check_version(\\\"100.100\\\") failed\\n\"",
+        "\"malloc() returned NULL\\n\"",
+        "\"malloc() returned NULL\\n\"",
+        "\"PUNYCODE entry %d: %s\\n\"",
+        "\"in:\\n\"",
+        "\"punycode_encode() entry %d failed: %d\\n\"",
+        "\"FATAL\\n\"",
+        "\"computed out: %s\\n\"",
+        "\"expected out: %s\\n\"",
+        "\"returned %d expected %d\\n\"",
+        "\"punycode() entry %d failed\\n\"",
+        "\"ERROR\\n\"",
+        "\"OK\\n\\n\"",
+        "\"OK\\n\\n\"",
+        "\"in: %s\\n\"",
+        "\"punycode() entry %d failed: %d\\n\"",
+        "\"FATAL\\n\"",
+        "\"computed out:\\n\"",
+        "\"expected out:\\n\"",
+        "\"returned %d expected %d\\n\"",
+        "\"punycode_decode() entry %d failed\\n\"",
+        "\"ERROR\\n\"",
+        "\"OK\\n\\n\"",
+        "\"OK\\n\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/tests/test-register.c": {
+    "fail": {
+      "start_point": [
+        97,
+        35
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        193,
+        1
+      ],
+      "strings": [
+        "\"-----------------------------------------------------------\"",
+        "\"-------------------------------------\"",
+        "\"                                          IDNA2008 Register\\n\"",
+        "\"  #  Result                    Output                    A-label\"",
+        "\" input             U-label input\"",
+        "\"-----------------------------------------------------------\"",
+        "\"-------------------------------------\"",
+        "\"%3u  %-25s %-25s %-25s %s\\n\"",
+        "\"\"",
+        "\"(null)\"",
+        "\"(null)\"",
+        "\"expected rc %d got rc %d\\n\"",
+        "\"expected: %s\\ngot: %s\\n\"",
+        "\"out has not been set\"",
+        "\"lookup failed?! tv %u\"",
+        "\"lookup and register different? lookup %s register %s\\n\"",
+        "\"out has been tainted on error\"",
+        "\"-----------------------------------------------------------\"",
+        "\"-------------------------------------\"",
+        "\"special #1 failed with %d\\n\"",
+        "\"special #2 failed with %d\\n\"",
+        "\"special #2 failed with out!=NULL\\n\"",
+        "\"xn+-xxx\"",
+        "\"special #3 failed with %d\\n\"",
+        "\"special #3 failed with out!=NULL\\n\"",
+        "\"xn--\\xff\"",
+        "\"special #4 failed with %d\\n\"",
+        "\"special #4 failed with out!=NULL\\n\"",
+        "\"special #5 failed with %d\\n\"",
+        "\"foo\"",
+        "\"special #6 failed with %d\\n\"",
+        "\"fa\u00c3\u009f\", ",
+        "\"special #7 failed with %d\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/tests/test-strerror.c": {
+    "main": {
+      "start_point": [
+        21,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/tests/test-tounicode.c": {
+    "fail": {
+      "start_point": [
+        358,
+        35
+      ],
+      "end_point": [
+        371,
+        1
+      ],
+      "strings": []
+    },
+    "ucs4print": {
+      "start_point": [
+        373,
+        0
+      ],
+      "end_point": [
+        383,
+        1
+      ],
+      "strings": [
+        "\"U+%04x%s\"",
+        "\" \"",
+        "\"\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "_u32_strlen": {
+      "start_point": [
+        385,
+        0
+      ],
+      "end_point": [
+        394,
+        1
+      ],
+      "strings": []
+    },
+    "_u32_strcmp": {
+      "start_point": [
+        396,
+        0
+      ],
+      "end_point": [
+        403,
+        1
+      ],
+      "strings": []
+    },
+    "_check_4z": {
+      "start_point": [
+        405,
+        0
+      ],
+      "end_point": [
+        434,
+        1
+      ],
+      "strings": [
+        "\"Test[%u] '%s' failed (got %d, expected %d):\\n\"",
+        "\"  %s(): %s\\n\"",
+        "\"got:\\n\"",
+        "\"expected:\\n\"",
+        "\"%s() entry %u mismatch\\n\"",
+        "\"returned %d expected %d (%s)\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        436,
+        0
+      ],
+      "end_point": [
+        574,
+        1
+      ],
+      "strings": [
+        "\"C.UTF-8\"",
+        "\"charset=%s\\n\"",
+        "\"UTF-8\"",
+        "\"\\nPUNYCODE entry %u: %s\\n\"",
+        "\"idn2_to_unicode_8z4z\"",
+        "\"idn2_to_unicode_4z4z\"",
+        "\"idn2_to_unicode_44i\"",
+        "\"idn2_to_unicode_8z8z\"",
+        "\"idn2_to_unicode_8zlz\"",
+        "\"idn2_to_unicode_lzlz\"",
+        "\"abc\"",
+        "\"xn--tda\"",
+        "\"abc\"",
+        "\"xn--tda\"",
+        "\"abc\"",
+        "\"xn--tda\"",
+        "\"abc\"",
+        "\"xn--tda\"",
+        "\"error_count: %d\\n\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/alloca.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/arg-nonnull.h": {},
+  "libidn/libidn2-2.0.5/unistring/array-mergesort.h": {
+    "merge": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "merge_sort_fromto": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "merge_sort_inplace": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        278,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/c++defs.h": {},
+  "libidn/libidn2-2.0.5/unistring/c-ctype.c": {},
+  "libidn/libidn2-2.0.5/unistring/c-ctype.h": {
+    "c_isalnum": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "c_isalpha": {
+      "start_point": [
+        190,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": []
+    },
+    "c_isascii": {
+      "start_point": [
+        205,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": []
+    },
+    "c_isblank": {
+      "start_point": [
+        222,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "strings": []
+    },
+    "c_iscntrl": {
+      "start_point": [
+        228,
+        0
+      ],
+      "end_point": [
+        238,
+        1
+      ],
+      "strings": []
+    },
+    "c_isdigit": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        250,
+        1
+      ],
+      "strings": []
+    },
+    "c_isgraph": {
+      "start_point": [
+        252,
+        0
+      ],
+      "end_point": [
+        265,
+        1
+      ],
+      "strings": []
+    },
+    "c_islower": {
+      "start_point": [
+        267,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": []
+    },
+    "c_isprint": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        293,
+        1
+      ],
+      "strings": []
+    },
+    "c_ispunct": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        305,
+        1
+      ],
+      "strings": []
+    },
+    "c_isspace": {
+      "start_point": [
+        307,
+        0
+      ],
+      "end_point": [
+        317,
+        1
+      ],
+      "strings": []
+    },
+    "c_isupper": {
+      "start_point": [
+        319,
+        0
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "strings": []
+    },
+    "c_isxdigit": {
+      "start_point": [
+        331,
+        0
+      ],
+      "end_point": [
+        342,
+        1
+      ],
+      "strings": []
+    },
+    "c_tolower": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        354,
+        1
+      ],
+      "strings": []
+    },
+    "c_toupper": {
+      "start_point": [
+        356,
+        0
+      ],
+      "end_point": [
+        366,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/c-strcase.h": {},
+  "libidn/libidn2-2.0.5/unistring/c-strcasecmp.c": {
+    "c_strcasecmp": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/c-strcaseeq.h": {
+    "strcaseeq9": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq8": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq7": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq6": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq5": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq4": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq3": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq2": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq1": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq0": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/c-strncasecmp.c": {
+    "c_strncasecmp": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/iconv.c": {
+    "utf16be_mbtowc": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "utf16be_wctomb": {
+      "start_point": [
+        92,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    },
+    "utf16le_mbtowc": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        161,
+        1
+      ],
+      "strings": []
+    },
+    "utf16le_wctomb": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        196,
+        1
+      ],
+      "strings": []
+    },
+    "utf32be_mbtowc": {
+      "start_point": [
+        204,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "utf32be_wctomb": {
+      "start_point": [
+        221,
+        0
+      ],
+      "end_point": [
+        238,
+        1
+      ],
+      "strings": []
+    },
+    "utf32le_mbtowc": {
+      "start_point": [
+        246,
+        0
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "strings": []
+    },
+    "utf32le_wctomb": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        280,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/iconv.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/iconveh.h": {},
+  "libidn/libidn2-2.0.5/unistring/iconv_close.c": {},
+  "libidn/libidn2-2.0.5/unistring/iconv_open-aix.h": {
+    "mapping_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "mapping_lookup": {
+      "start_point": [
+        229,
+        0
+      ],
+      "end_point": [
+        249,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/iconv_open-hpux.h": {
+    "mapping_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "mapping_lookup": {
+      "start_point": [
+        272,
+        0
+      ],
+      "end_point": [
+        292,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/iconv_open-irix.h": {
+    "mapping_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "mapping_lookup": {
+      "start_point": [
+        172,
+        0
+      ],
+      "end_point": [
+        192,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/iconv_open-osf.h": {
+    "mapping_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "mapping_lookup": {
+      "start_point": [
+        251,
+        0
+      ],
+      "end_point": [
+        271,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/iconv_open-solaris.h": {
+    "mapping_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": []
+    },
+    "mapping_lookup": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        183,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/iconv_open.c": {},
+  "libidn/libidn2-2.0.5/unistring/limits.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/localcharset.c": {
+    "get_charset_aliases": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        393,
+        1
+      ],
+      "strings": [
+        "\"charset.alias\"",
+        "\"CHARSETALIASDIR\"",
+        "\"\"",
+        "\"\"",
+        "\"r\"",
+        "\"\"",
+        "\"%50s %50s\"",
+        "\"\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-4\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"ISO8859-13\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"ISO8859-15\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"eucCN\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucKR\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"Big5\"",
+        "\"\\0\"",
+        "\"BIG5\"",
+        "\"\\0\"",
+        "\"Big5HKSCS\"",
+        "\"\\0\"",
+        "\"BIG5-HKSCS\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"*\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-8\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"DECKANJI\"",
+        "\"\\0\"",
+        "\"DEC-KANJI\"",
+        "\"\\0\"",
+        "\"SDECKANJI\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucTW\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"DECHANYU\"",
+        "\"\\0\"",
+        "\"DEC-HANYU\"",
+        "\"\\0\"",
+        "\"DECHANZI\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"DECKOREAN\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP936\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP1361\"",
+        "\"\\0\"",
+        "\"JOHAB\"",
+        "\"\\0\"",
+        "\"CP20127\"",
+        "\"\\0\"",
+        "\"ASCII\"",
+        "\"\\0\"",
+        "\"CP20866\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP20936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP21866\"",
+        "\"\\0\"",
+        "\"KOI8-RU\"",
+        "\"\\0\"",
+        "\"CP28591\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP28592\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP28593\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP28594\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP28595\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP28596\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP28597\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP28598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP28599\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP28605\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP38598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP51932\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP51936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP51949\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP51950\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP54936\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"CP65001\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP813\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP878\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP819\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP912\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP913\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP914\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP915\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP916\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP920\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP921\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"CP923\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP954\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP964\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP970\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP1089\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP1208\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP1381\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP1386\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP3372\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\""
+      ]
+    },
+    "locale_charset": {
+      "start_point": [
+        404,
+        0
+      ],
+      "end_point": [
+        625,
+        1
+      ],
+      "strings": [
+        "\"US-ASCII\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%s\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"C\"",
+        "\"POSIX\"",
+        "\"\"",
+        "\"\"",
+        "\"CP%u\"",
+        "\"\"",
+        "\"ASCII\"",
+        "\"UTF-8\"",
+        "\"ASCII\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/localcharset.h": {},
+  "libidn/libidn2-2.0.5/unistring/malloca.c": {
+    "mmalloca": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": []
+    },
+    "NO_SANITIZE_MEMORY": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        166,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/malloca.h": {},
+  "libidn/libidn2-2.0.5/unistring/stdbool.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/stdint.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/striconveh.c": {
+    "iconveh_open": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": [
+        "\"EUC-KR\"",
+        "\"EUC-KR\"",
+        "\"UTF-8\"",
+        "\"UTF-8\"",
+        "\"UTF-8\"",
+        "\"UTF-8//TRANSLIT\"",
+        "\"UTF-8\""
+      ]
+    },
+    "iconveh_close": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    },
+    "iconv_carefully": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        216,
+        1
+      ],
+      "strings": []
+    },
+    "iconv_carefully_1": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": []
+    },
+    "utf8conv_carefully": {
+      "start_point": [
+        291,
+        0
+      ],
+      "end_point": [
+        355,
+        1
+      ],
+      "strings": []
+    },
+    "mem_cd_iconveh_internal": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        1022,
+        1
+      ],
+      "strings": [
+        "\"0123456789ABCDEF\""
+      ]
+    },
+    "mem_cd_iconveh": {
+      "start_point": [
+        1024,
+        0
+      ],
+      "end_point": [
+        1033,
+        1
+      ],
+      "strings": []
+    },
+    "str_cd_iconveh": {
+      "start_point": [
+        1035,
+        0
+      ],
+      "end_point": [
+        1065,
+        1
+      ],
+      "strings": []
+    },
+    "mem_iconveh": {
+      "start_point": [
+        1069,
+        0
+      ],
+      "end_point": [
+        1151,
+        1
+      ],
+      "strings": []
+    },
+    "str_iconveh": {
+      "start_point": [
+        1153,
+        0
+      ],
+      "end_point": [
+        1207,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/striconveh.h": {},
+  "libidn/libidn2-2.0.5/unistring/striconveha.c": {
+    "uniconv_register_autodetect": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        155,
+        1
+      ],
+      "strings": []
+    },
+    "mem_iconveha_notranslit": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        218,
+        1
+      ],
+      "strings": []
+    },
+    "mem_iconveha": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "strings": [
+        "\"//TRANSLIT\""
+      ]
+    },
+    "str_iconveha_notranslit": {
+      "start_point": [
+        264,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": []
+    },
+    "str_iconveha": {
+      "start_point": [
+        322,
+        0
+      ],
+      "end_point": [
+        360,
+        1
+      ],
+      "strings": [
+        "\"//TRANSLIT\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/striconveha.h": {},
+  "libidn/libidn2-2.0.5/unistring/sys_types.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/uniconv.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/unictype.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/unistr.in.h": {
+    "u8_mbtouc_unsafe": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        170,
+        1
+      ],
+      "strings": []
+    },
+    "u16_mbtouc_unsafe": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        193,
+        1
+      ],
+      "strings": []
+    },
+    "u32_mbtouc_unsafe": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": []
+    },
+    "u8_mbtouc": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        237,
+        1
+      ],
+      "strings": []
+    },
+    "u16_mbtouc": {
+      "start_point": [
+        248,
+        0
+      ],
+      "end_point": [
+        260,
+        1
+      ],
+      "strings": []
+    },
+    "u32_mbtouc": {
+      "start_point": [
+        269,
+        0
+      ],
+      "end_point": [
+        280,
+        1
+      ],
+      "strings": []
+    },
+    "u8_uctomb": {
+      "start_point": [
+        321,
+        0
+      ],
+      "end_point": [
+        331,
+        1
+      ],
+      "strings": []
+    },
+    "u16_uctomb": {
+      "start_point": [
+        343,
+        0
+      ],
+      "end_point": [
+        353,
+        1
+      ],
+      "strings": []
+    },
+    "u32_uctomb": {
+      "start_point": [
+        362,
+        0
+      ],
+      "end_point": [
+        377,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unitypes.in.h": {},
+  "libidn/libidn2-2.0.5/unistring/unused-parameter.h": {},
+  "libidn/libidn2-2.0.5/unistring/verify.h": {},
+  "libidn/libidn2-2.0.5/unistring/warn-on-use.h": {},
+  "libidn/libidn2-2.0.5/unistring/xalloc-oversized.h": {},
+  "libidn/libidn2-2.0.5/unistring/uniconv/u-strconv-from-enc.h": {
+    "FUNC": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uniconv/u8-conv-from-enc.c": {
+    "u8_conv_from_encoding": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": [
+        "\"UTF-8\"",
+        "\"UTF-8\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uniconv/u8-strconv-from-enc.c": {},
+  "libidn/libidn2-2.0.5/unistring/uniconv/u8-strconv-from-locale.c": {
+    "u8_strconv_from_locale": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uniconv/u8-strconv-to-enc.c": {
+    "u8_strconv_to_encoding": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": [
+        "\"UTF-8\"",
+        "\"UTF-8\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uniconv/u8-strconv-to-locale.c": {
+    "u8_strconv_to_locale": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/bidi_of.c": {
+    "uc_bidi_class": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "uc_bidi_category": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/bidi_of.h": {},
+  "libidn/libidn2-2.0.5/unistring/unictype/bitmap.h": {
+    "bitmap_lookup": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/categ_M.c": {},
+  "libidn/libidn2-2.0.5/unistring/unictype/categ_M.h": {},
+  "libidn/libidn2-2.0.5/unistring/unictype/categ_none.c": {
+    "always_false": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/categ_of.c": {
+    "lookup_withtable": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    },
+    "uc_is_general_category_withtable": {
+      "start_point": [
+        63,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": []
+    },
+    "uc_general_category": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/categ_of.h": {},
+  "libidn/libidn2-2.0.5/unistring/unictype/categ_test.c": {
+    "uc_is_general_category": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/combiningclass.c": {
+    "uc_combining_class": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/combiningclass.h": {},
+  "libidn/libidn2-2.0.5/unistring/unictype/joiningtype_of.c": {
+    "uc_joining_type": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/joiningtype_of.h": {},
+  "libidn/libidn2-2.0.5/unistring/unictype/scripts.c": {
+    "uc_script": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    },
+    "uc_script_byname": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "uc_is_script": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "uc_all_scripts": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unictype/scripts.h": {},
+  "libidn/libidn2-2.0.5/unistring/unictype/scripts_byname.h": {
+    "scripts_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        102,
+        1
+      ],
+      "strings": []
+    },
+    "uc_script_lookup": {
+      "start_point": [
+        662,
+        0
+      ],
+      "end_point": [
+        682,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uninorm/canonical-decomposition.c": {
+    "uc_canonical_decomposition": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        115,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uninorm/composition-table.h": {
+    "gl_uninorm_compose_hash": {
+      "start_point": [
+        20,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "gl_uninorm_compose_lookup": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        2196,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\002\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\002\\000\\003\\000\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\003\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\003\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\177\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\370\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\347\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000C\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\357\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\345\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000C\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000C\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\001\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\001\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\001\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\010\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\010\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\010\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\000\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\000\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\000\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000F\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\316\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\002\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\001\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\365\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\003\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\010\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\346\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001a\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\000\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\266\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037'\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037a\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037a\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037a\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\366\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001i\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\334\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\334\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\011\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\011\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\011\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037a\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037-\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000J\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037i\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037i\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037i\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\011\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\002\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\365\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036\\315\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\003\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0379\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0379\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0379\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037i\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036\\314\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000<\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037I\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037I\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037@\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037@\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037)\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037)\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037)\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037|\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\004\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\374\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\374\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\256\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\007\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\254\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004:\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037)\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000=\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004C\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\331\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037A\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037A\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004'\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0043\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000v\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036\\270\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\351\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\020\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\020\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\002\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004-\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0113\\000\\011<\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\003\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004C\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037e\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\350\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0047\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\002)\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037,\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\353\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\036\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\012\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000C\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\002'\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0370\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0370\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0370\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037o\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\326\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\002\\222\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037+\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\366\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\005\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\365\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\015\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\346\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\015\\331\\000\\015\\317\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\344\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\334\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\334\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\304\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\015\\331\\000\\015\\337\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\025\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037*\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004C\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\020\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\357\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000{\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0110\\000\\011<\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000F\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000X\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000{\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0367\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\025\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\374\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037$\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000a\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\374\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004+\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\020\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0040\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\304\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000X\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\375\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\025\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000v\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000t\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\022\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\022\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0040\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\031\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\031\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000t\\000\\003&\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000r\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037t\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000r\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\362\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\361\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\307\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003(\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000t\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\021\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\021\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037.\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000d\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000B\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\360\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\015F\\000\\015>\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037n\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\020\\233\\001\\020\\272\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0046\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\013\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004u\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037d\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\310\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000H\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000H\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003\\012\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037H\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037H\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\273\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037Y\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037Y\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037Y\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000o\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\275\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\325\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0046\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001h\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000u\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\255\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000H\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000o\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000m\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000h\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000h\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000m\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037h\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037h\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037h\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000u\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\015F\\000\\015W\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000C\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\\"\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037h\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037m\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037(\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037(\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037(\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\325\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0371\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0371\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0371\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\246\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000r\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037(\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000h\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003\\012\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000W\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000W\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000R\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000W\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000W\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000O\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000R\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"C\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\003\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\010\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"{\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000t\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0366\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000G\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\264\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\262\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000G\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000G\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\002.\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"<\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\222\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000i\\000\\0030\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\242\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000r\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000U\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\235\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004t\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"a\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\002(\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000W\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\011(\\000\\011<\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\207\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\012\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\206\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000I\\000\\0030\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\203\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000d\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000w\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000w\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000t\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000w\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000w\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"v\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\237\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\237\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000g\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000g\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000g\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\026\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"|\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000r\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000H\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001L\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001L\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000f\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000t\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\202\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000L\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037g\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000r\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000G\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\322\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000w\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000e\\000\\0030\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037f\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000d\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000r\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000B\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\325\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001M\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001M\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"}\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\026\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000r\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000M\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000d\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000M\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000h\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004G\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000T\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000_\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000d\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"e\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000B\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000R\\000\\003\\017\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\376\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\376\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\376\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000T\\000\\003&\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\012\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\322\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\277\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\277\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\237\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\0030\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000]\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000g\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\271\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\271\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\271\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000H\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\277\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\277\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\277\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000Y\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\032\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000y\\000\\003\\012\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000>\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\023\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\023\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000t\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Y\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\027\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\014\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000h\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\263\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000R\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\325\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\017\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000r\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\267\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\267\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\267\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\241\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\241\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000G\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000h\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000E\\000\\0030\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000G\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\271\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\325\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\267\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\333\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000h\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000m\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\253\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\261\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\261\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\261\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004>\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\221\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\221\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000d\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036\\271\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\016\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\333\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004C\\000\\003\\013\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\261\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"E\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\277\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000R\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\221\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004M\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\237\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000s\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\271\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\271\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000s\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000s\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\024\\271\\001\\024\\275\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\0030\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000W\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\023\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000g\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000K\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\006\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000g\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000s\\000\\003&\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000W\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\306\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000R\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036\\241\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\305\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\305\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\305\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000l\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\305\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000S\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\267\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\241\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000S\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000S\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000L\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\231\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\231\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001Z\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\306\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Z\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000t\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000S\\000\\003&\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Z\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Z\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037l\\000\\003E\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000c\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\261\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\261\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000c\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000c\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\221\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\221\\000\\003\\006\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000r\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\305\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000z\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000T\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000D\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000z\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000z\\000\\003\\007\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\277\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037c\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000w\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000n\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\013\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\231\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\271\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000L\\000\\0031\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\260\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\260\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000d\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000f\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\013\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\271\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000R\\000\\003\\021\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\240\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\240\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036\\241\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\006\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"r\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\305\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\305\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\257\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\257\\000\\003\\000\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\241\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000L\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036c\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\267\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000H\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\322\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000T\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\231\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\231\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\241\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004K\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\013\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\267\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"d\\000\\0038\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000M\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000b\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037%\\000\\003E\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\322\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\015G\\000\\015>\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\261\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000M\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\265\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\265\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\221\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000T\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\024\\271\\001\\024\\272\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\261\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037b\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037#\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"H\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\221\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\013\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000k\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037/\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\330\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000h\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\277\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036\\240\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\260\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\312\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\312\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\312\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\271\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\312\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\312\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\240\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\301\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033<\\000\\0335\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000s\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000w\\000\\003\\012\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037k\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\263\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\257\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\013\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036b\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\305\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\251\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\251\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000K\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001k\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\306\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000L\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033:\\000\\0335\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\305\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033\\011\\000\\0335\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\267\\0000\\231\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\231\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\251\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000l\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000x\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000S\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\241\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\253\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000R\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\231\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0378\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0378\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0378\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\245\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\245\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\265\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Z\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\261\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\030\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037\\030\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000T\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000G\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001[\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000c\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\311\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\311\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\311\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033\\007\\000\\0335\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004#\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000K\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036\\240\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\260\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000D\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000x\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000z\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\312\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\311\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\317\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\240\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000s\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000l\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000N\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000K\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\301\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000V\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\257\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\245\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\306\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\006'\\000\\006T\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000K\\000\\003#\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\251\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\330\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Z\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036Z\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000S\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0048\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004#\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\324\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\324\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000l\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000g\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000S\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003$\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\030\\000\\003\\000\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\352\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\352\\000\\003\\000\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000D\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004V\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000z\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\011\\307\\000\\011\\276\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000Z\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\002/\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\245\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\0212\\001\\021'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000L\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\265\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\006J\\000\\006T\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"w\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037!\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037!\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037!\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\013G\\000\\013>\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\311\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\227\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\227\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0048\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000D\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\020\\231\\001\\020\\272\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000z\\000\\003#\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037!\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\312\\000\\003\\011\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\030\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033\\005\\000\\0335\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\227\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\025\\270\\001\\025\\257\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033\\015\\000\\0335\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000k\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000T\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000P\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033?\\000\\0335\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\260\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000P\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\301\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037P\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037P\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037P\\000\\003B\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\240\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\251\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000b\\000\\0031\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\324\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0048\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000!\\224\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\257\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\257\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001`\\000\\003\\007\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000!\\220\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000l\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\352\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\030\\000\\003\\006\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"M\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004#\\000\\003\\004\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037`\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037`\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037`\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003$\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\364\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\364\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000b\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000!\\222\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\245\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000k\\000\\0031\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\013G\\000\\013W\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037`\\000\\003E\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\265\\0000\\231\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\245\\000\\003\\004\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\227\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\311\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000!\\320\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\014F\\000\\014V\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000D\\000\\003-\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\330\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\225\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\225\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\342\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\342\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000k\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\313\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\313\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\313\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\302\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\302\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\250\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\250\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\250\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\330\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037Q\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037Q\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037Q\\000\\003B\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000o\\000\\003\\033\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000p\\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037&\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000j\\000\\003\\002\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\324\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000p\\000\\003\\007\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000V\\000\\003#\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0045\\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000u\\000\\003\\033\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000a\\000\\003%\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\352\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000s\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000x\\0000\\231\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0048\\000\\003\\004\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037j\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037p\\000\\003E\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\364\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001\\352\\000\\003\\004\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000K\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004\\030\\000\\003\\004\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\036[\\000\\003\\004\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\001j\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000x\\0000\\232\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\221\\000\\0038\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000l\\000\\003'\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000S\\000\\003'\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000[\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\227\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0045\\000\\003\\010\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"s\\000\\0038\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\342\\000\\003\\003\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\225\\000\\003\\023\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037 \\000\\003\\001\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037 \\000\\003\\000\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037 \\000\\003B\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\302\\000\\003\\003\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\317\\0000\\231\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000c\\000\\003'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\020\\245\\001\\020\\272\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000O\\000\\003\\033\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\037 \\000\\003E\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033\\021\\000\\0335\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033\\013\\000\\0335\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000D\\000\\003'\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000\\317\\0000\\232\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033B\\000\\0335\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000H\\000\\003.\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\0045\\000\\003\\006\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000A\\000\\003%\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\0211\\001\\021'\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\013\\222\\000\\013\\327\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000U\\000\\003\\033\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\364\\000\\003\\011\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\011\\307\\000\\011\\327\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"z\\000\\0038\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\014\\277\\000\\014\\325\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000h\\000\\003.\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\342\\000\\003\\011\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\003\\225\\000\\003\\024\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000\\302\\000\\003\\011\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\002&\\000\\003\\004\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\015\\331\\000\\015\\312\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"%\\000\\0038\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\006'\\000\\006S\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000k\\000\\003'\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\013G\\000\\013V\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\000j\\000\\003\\014\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\013\\307\\000\\013\\276\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"#\\000\\0038\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\023G\\001\\023>\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\265\\000\\0038\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\006H\\000\\006T\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\015\\334\\000\\015\\312\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\014\\306\\000\\014\\326\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\014\\306\\000\\014\\302\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\014\\306\\000\\014\\325\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\0000Q\\0000\\231\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\006\\325\\000\\006T\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\251\\000\\0038\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\023G\\001\\023W\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\024\\271\\001\\024\\260\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\033>\\000\\0335\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\014\\312\\000\\014\\325\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\004#\\000\\003\\013\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\006\\322\\000\\006T\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\001\\025\\271\\001\\025\\257\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\006'\\000\\006U\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\\"\\250\\000\\0038\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000!\\322\\000\\0038\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\013\\306\\000\\013\\276\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\006\\301\\000\\006T\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\020%\\000\\020.\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000\\013\\306\\000\\013\\327\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"./uninorm/composition-table.gperf\"",
+        "\"\\000!\\324\\000\\0038\""
+      ]
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uninorm/composition.c": {
+    "uc_composition": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uninorm/decompose-internal.c": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm/decompose-internal.h": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm/decomposition-table.c": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm/decomposition-table.h": {
+    "decomp_index": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uninorm/decomposition-table1.h": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm/decomposition-table2.h": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm/nfc.c": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm/nfd.c": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm/normalize-internal.h": {},
+  "libidn/libidn2-2.0.5/unistring/uninorm/u-normalize-internal.h": {
+    "FUNC": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        388,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/uninorm/u32-normalize.c": {},
+  "libidn/libidn2-2.0.5/unistring/unistr/u-cpy-alloc.h": {
+    "FUNC": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u-cpy.h": {
+    "FUNC": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u-strlen.h": {
+    "FUNC": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u32-cpy-alloc.c": {},
+  "libidn/libidn2-2.0.5/unistring/unistr/u32-cpy.c": {},
+  "libidn/libidn2-2.0.5/unistring/unistr/u32-mbtouc-unsafe.c": {
+    "u32_mbtouc_unsafe": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u32-strlen.c": {},
+  "libidn/libidn2-2.0.5/unistring/unistr/u32-to-u8.c": {
+    "FUNC": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u32-uctomb.c": {
+    "u32_uctomb": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-check.c": {
+    "u8_check": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-mblen.c": {
+    "u8_mblen": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-mbtouc-aux.c": {
+    "u8_mbtouc_aux": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-mbtouc-unsafe-aux.c": {
+    "u8_mbtouc_unsafe_aux": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-mbtouc-unsafe.c": {
+    "u8_mbtouc_unsafe": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-mbtouc.c": {
+    "u8_mbtouc": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-mbtoucr.c": {
+    "u8_mbtoucr": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        150,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-prev.c": {
+    "u8_prev": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-strlen.c": {
+    "u8_strlen": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-to-u32.c": {
+    "FUNC": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-uctomb-aux.c": {
+    "u8_uctomb_aux": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libidn/libidn2-2.0.5/unistring/unistr/u8-uctomb.c": {
+    "u8_uctomb": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    }
+  }
+}

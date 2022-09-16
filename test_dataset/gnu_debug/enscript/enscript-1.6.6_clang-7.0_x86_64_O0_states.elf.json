@@ -1,0 +1,982 @@
+{
+  "define_sub": {
+    "start_address": 4213504, 
+    "end_address": 4213762
+  }, 
+  "do_regsubsts": {
+    "start_address": 4214672, 
+    "end_address": 4216607
+  }, 
+  "bcmp_translate": {
+    "start_address": 4300864, 
+    "end_address": 4301011
+  }, 
+  "re_compile_pattern": {
+    "start_address": 4258704, 
+    "end_address": 4258839
+  }, 
+  "list_prepend": {
+    "start_address": 4202816, 
+    "end_address": 4202921
+  }, 
+  "prim_concat": {
+    "start_address": 4218432, 
+    "end_address": 4218853
+  }, 
+  "xrealloc": {
+    "start_address": 4254640, 
+    "end_address": 4254792
+  }, 
+  ".gettext": {
+    "start_address": 4199040, 
+    "end_address": 4199046
+  }, 
+  "yyensure_buffer_stack": {
+    "start_address": 4243296, 
+    "end_address": 4243621
+  }, 
+  ".exit": {
+    "start_address": 4199440, 
+    "end_address": 4199446
+  }, 
+  "memset": {
+    "start_address": 6425104, 
+    "end_address": 6425112
+  }, 
+  "set_var": {
+    "start_address": 4211248, 
+    "end_address": 4211556
+  }, 
+  "define_state": {
+    "start_address": 4205344, 
+    "end_address": 4205734
+  }, 
+  "lookup_state": {
+    "start_address": 4214512, 
+    "end_address": 4214668
+  }, 
+  ".term_proc": {
+    "start_address": 4303424, 
+    "end_address": 4303433
+  }, 
+  "prim_print": {
+    "start_address": 4221584, 
+    "end_address": 4221795
+  }, 
+  "yyunput": {
+    "start_address": 4251600, 
+    "end_address": 4252100
+  }, 
+  "at_endline_loc_p": {
+    "start_address": 4302048, 
+    "end_address": 4302382
+  }, 
+  "mk_expr": {
+    "start_address": 4204880, 
+    "end_address": 4205261
+  }, 
+  "prim_float": {
+    "start_address": 4218864, 
+    "end_address": 4219328
+  }, 
+  "store_op2": {
+    "start_address": 4303056, 
+    "end_address": 4303155
+  }, 
+  "fwrite": {
+    "start_address": 6425280, 
+    "end_address": 6425288
+  }, 
+  ".realloc": {
+    "start_address": 4199344, 
+    "end_address": 4199350
+  }, 
+  "load_states_file": {
+    "start_address": 4213776, 
+    "end_address": 4214057
+  }, 
+  ".__errno_location": {
+    "start_address": 4198832, 
+    "end_address": 4198838
+  }, 
+  "match_arg": {
+    "start_address": 4231168, 
+    "end_address": 4231435
+  }, 
+  "yyerror": {
+    "start_address": 4240736, 
+    "end_address": 4240801
+  }, 
+  "usage": {
+    "start_address": 4202704, 
+    "end_address": 4202782
+  }, 
+  "input": {
+    "start_address": 4251200, 
+    "end_address": 4251598
+  }, 
+  ".memcpy": {
+    "start_address": 4199232, 
+    "end_address": 4199238
+  }, 
+  "main": {
+    "start_address": 4199776, 
+    "end_address": 4202691
+  }, 
+  "sprintf": {
+    "start_address": 6425264, 
+    "end_address": 6425272
+  }, 
+  "yy_get_previous_state": {
+    "start_address": 4245584, 
+    "end_address": 4245880
+  }, 
+  ".fwrite": {
+    "start_address": 4199456, 
+    "end_address": 4199462
+  }, 
+  "re_search": {
+    "start_address": 4257168, 
+    "end_address": 4257275
+  }, 
+  ".__libc_start_main": {
+    "start_address": 4199136, 
+    "end_address": 4199142
+  }, 
+  "yyget_text": {
+    "start_address": 4250448, 
+    "end_address": 4250462
+  }, 
+  "__libc_start_main": {
+    "start_address": 6425120, 
+    "end_address": 6425128
+  }, 
+  "read_string": {
+    "start_address": 4243936, 
+    "end_address": 4244701
+  }, 
+  ".abort": {
+    "start_address": 4198816, 
+    "end_address": 4198822
+  }, 
+  ".tolower": {
+    "start_address": 4199280, 
+    "end_address": 4199286
+  }, 
+  "yydestruct": {
+    "start_address": 4240816, 
+    "end_address": 4240863
+  }, 
+  "strrchr": {
+    "start_address": 6425096, 
+    "end_address": 6425104
+  }, 
+  "prim_string": {
+    "start_address": 4229040, 
+    "end_address": 4229711
+  }, 
+  "prim_regexp_syntax": {
+    "start_address": 4223104, 
+    "end_address": 4223441
+  }, 
+  "memcpy": {
+    "start_address": 6425168, 
+    "end_address": 6425176
+  }, 
+  "_IO_getc": {
+    "start_address": 6425208, 
+    "end_address": 6425216
+  }, 
+  "fileno": {
+    "start_address": 6425176, 
+    "end_address": 6425184
+  }, 
+  "yyget_leng": {
+    "start_address": 4250432, 
+    "end_address": 4250445
+  }, 
+  "xfree": {
+    "start_address": 4254800, 
+    "end_address": 4254843
+  }, 
+  "prim_prereq": {
+    "start_address": 4220944, 
+    "end_address": 4221584
+  }, 
+  "memmove": {
+    "start_address": 6425240, 
+    "end_address": 6425248
+  }, 
+  "list": {
+    "start_address": 4202784, 
+    "end_address": 4202809
+  }, 
+  ".fileno": {
+    "start_address": 4199248, 
+    "end_address": 4199254
+  }, 
+  "autoload_file": {
+    "start_address": 4214064, 
+    "end_address": 4214511
+  }, 
+  "yy_try_NUL_trans": {
+    "start_address": 4245888, 
+    "end_address": 4246128
+  }, 
+  "prim_check_startrules": {
+    "start_address": 4217968, 
+    "end_address": 4218417
+  }, 
+  ".strncpy": {
+    "start_address": 4198848, 
+    "end_address": 4198854
+  }, 
+  "store_op1": {
+    "start_address": 4302384, 
+    "end_address": 4302443
+  }, 
+  "re_set_character_syntax": {
+    "start_address": 4254976, 
+    "end_address": 4255096
+  }, 
+  ".strcmp": {
+    "start_address": 4199184, 
+    "end_address": 4199190
+  }, 
+  "ferror": {
+    "start_address": 6424992, 
+    "end_address": 6425000
+  }, 
+  "fputc": {
+    "start_address": 6425112, 
+    "end_address": 6425120
+  }, 
+  ".sscanf": {
+    "start_address": 4199328, 
+    "end_address": 4199334
+  }, 
+  "yy_scan_string": {
+    "start_address": 4250096, 
+    "end_address": 4250147
+  }, 
+  "prim_length": {
+    "start_address": 4220128, 
+    "end_address": 4220506
+  }, 
+  "fclose": {
+    "start_address": 6425032, 
+    "end_address": 6425040
+  }, 
+  "read_regexp": {
+    "start_address": 4244704, 
+    "end_address": 4245573
+  }, 
+  "gettext": {
+    "start_address": 6425072, 
+    "end_address": 6425080
+  }, 
+  "strchr": {
+    "start_address": 6425080, 
+    "end_address": 6425088
+  }, 
+  "strncpy": {
+    "start_address": 6424976, 
+    "end_address": 6424984
+  }, 
+  "fopen": {
+    "start_address": 6425248, 
+    "end_address": 6425256
+  }, 
+  "regfree": {
+    "start_address": 4281616, 
+    "end_address": 4281788
+  }, 
+  ".memset": {
+    "start_address": 4199104, 
+    "end_address": 4199110
+  }, 
+  "prim_int": {
+    "start_address": 4219680, 
+    "end_address": 4220123
+  }, 
+  "yy_create_buffer": {
+    "start_address": 4243632, 
+    "end_address": 4243796
+  }, 
+  ".ferror": {
+    "start_address": 4198880, 
+    "end_address": 4198886
+  }, 
+  "regcomp": {
+    "start_address": 4280240, 
+    "end_address": 4280726
+  }, 
+  "prim_panic": {
+    "start_address": 4220768, 
+    "end_address": 4220934
+  }, 
+  "__ctype_b_loc": {
+    "start_address": 6425296, 
+    "end_address": 6425304
+  }, 
+  "re_set_syntax": {
+    "start_address": 4254928, 
+    "end_address": 4254966
+  }, 
+  "regexec": {
+    "start_address": 4280736, 
+    "end_address": 4281419
+  }, 
+  "yy_switch_to_buffer": {
+    "start_address": 4248432, 
+    "end_address": 4248715
+  }, 
+  ".fopen": {
+    "start_address": 4199392, 
+    "end_address": 4199398
+  }, 
+  ".fread": {
+    "start_address": 4198912, 
+    "end_address": 4198918
+  }, 
+  "init_syntax_once": {
+    "start_address": 4281792, 
+    "end_address": 4281997
+  }, 
+  "yypop_buffer_state": {
+    "start_address": 4249504, 
+    "end_address": 4249797
+  }, 
+  "compile_regexp": {
+    "start_address": 4204160, 
+    "end_address": 4204532
+  }, 
+  "__libc_csu_fini": {
+    "start_address": 4303392, 
+    "end_address": 4303394
+  }, 
+  "prim_check_namerules": {
+    "start_address": 4217424, 
+    "end_address": 4217956
+  }, 
+  "prim_regexp": {
+    "start_address": 4222832, 
+    "end_address": 4223103
+  }, 
+  "free": {
+    "start_address": 6424952, 
+    "end_address": 6424960
+  }, 
+  "frame_dummy": {
+    "start_address": 4199728, 
+    "end_address": 4199766
+  }, 
+  "yy_scan_bytes": {
+    "start_address": 4250160, 
+    "end_address": 4250375
+  }, 
+  ".system": {
+    "start_address": 4199024, 
+    "end_address": 4199030
+  }, 
+  "yyrealloc": {
+    "start_address": 4250960, 
+    "end_address": 4250995
+  }, 
+  "yyset_in": {
+    "start_address": 4250496, 
+    "end_address": 4250518
+  }, 
+  "printf": {
+    "start_address": 6425088, 
+    "end_address": 6425096
+  }, 
+  "prim_getenv": {
+    "start_address": 4219328, 
+    "end_address": 4219676
+  }, 
+  "yyset_debug": {
+    "start_address": 4250576, 
+    "end_address": 4250595
+  }, 
+  "node_alloc": {
+    "start_address": 4203056, 
+    "end_address": 4203183
+  }, 
+  "stat_0": {
+    "start_address": 4303408, 
+    "end_address": 4303424
+  }, 
+  "re_set_registers": {
+    "start_address": 4257024, 
+    "end_address": 4257160
+  }, 
+  "__do_global_dtors_aux": {
+    "start_address": 4199696, 
+    "end_address": 4199724
+  }, 
+  "strcmp": {
+    "start_address": 6425144, 
+    "end_address": 6425152
+  }, 
+  "insert_op2": {
+    "start_address": 4302928, 
+    "end_address": 4303052
+  }, 
+  "insert_op1": {
+    "start_address": 4302448, 
+    "end_address": 4302566
+  }, 
+  "prim_split": {
+    "start_address": 4224800, 
+    "end_address": 4225592
+  }, 
+  ".getenv": {
+    "start_address": 4198784, 
+    "end_address": 4198790
+  }, 
+  ".bindtextdomain": {
+    "start_address": 4198976, 
+    "end_address": 4198982
+  }, 
+  "yyset_lineno": {
+    "start_address": 4250464, 
+    "end_address": 4250483
+  }, 
+  "yy_scan_buffer": {
+    "start_address": 4249808, 
+    "end_address": 4250086
+  }, 
+  "eval_expr": {
+    "start_address": 4205744, 
+    "end_address": 4210051
+  }, 
+  "xmalloc": {
+    "start_address": 4254400, 
+    "end_address": 4254507
+  }, 
+  "enter_system_variable": {
+    "start_address": 4203920, 
+    "end_address": 4204145
+  }, 
+  "prim_regsuball": {
+    "start_address": 4224176, 
+    "end_address": 4224429
+  }, 
+  "at_begline_loc_p": {
+    "start_address": 4301808, 
+    "end_address": 4302034
+  }, 
+  "register_tm_clones": {
+    "start_address": 4199632, 
+    "end_address": 4199690
+  }, 
+  "setlocale": {
+    "start_address": 6425232, 
+    "end_address": 6425240
+  }, 
+  ".fputc": {
+    "start_address": 4199120, 
+    "end_address": 4199126
+  }, 
+  "realloc": {
+    "start_address": 6425224, 
+    "end_address": 6425232
+  }, 
+  "re_match_2": {
+    "start_address": 4258592, 
+    "end_address": 4258694
+  }, 
+  "yyget_lineno": {
+    "start_address": 4250384, 
+    "end_address": 4250397
+  }, 
+  "eval_end_rules": {
+    "start_address": 4234480, 
+    "end_address": 4234677
+  }, 
+  "xstrdup": {
+    "start_address": 4254848, 
+    "end_address": 4254915
+  }, 
+  "fread": {
+    "start_address": 6425008, 
+    "end_address": 6425016
+  }, 
+  "group_match_null_string_p": {
+    "start_address": 4300272, 
+    "end_address": 4300856
+  }, 
+  ".sprintf": {
+    "start_address": 4199424, 
+    "end_address": 4199430
+  }, 
+  ".malloc": {
+    "start_address": 4199296, 
+    "end_address": 4199302
+  }, 
+  "yy_init_buffer": {
+    "start_address": 4248176, 
+    "end_address": 4248426
+  }, 
+  "prim_system": {
+    "start_address": 4230896, 
+    "end_address": 4231162
+  }, 
+  "_start": {
+    "start_address": 4199520, 
+    "end_address": 4199562
+  }, 
+  "yy_init_globals": {
+    "start_address": 4250848, 
+    "end_address": 4250950
+  }, 
+  "eval_statement": {
+    "start_address": 4212704, 
+    "end_address": 4213496
+  }, 
+  ".textdomain": {
+    "start_address": 4198944, 
+    "end_address": 4198950
+  }, 
+  "yyget_out": {
+    "start_address": 4250416, 
+    "end_address": 4250430
+  }, 
+  ".printf": {
+    "start_address": 4199072, 
+    "end_address": 4199078
+  }, 
+  "prim_list": {
+    "start_address": 4220512, 
+    "end_address": 4220765
+  }, 
+  "system": {
+    "start_address": 6425064, 
+    "end_address": 6425072
+  }, 
+  ".setlocale": {
+    "start_address": 4199360, 
+    "end_address": 4199366
+  }, 
+  "yyparse": {
+    "start_address": 4234688, 
+    "end_address": 4240721
+  }, 
+  "prim_substring": {
+    "start_address": 4230336, 
+    "end_address": 4230882
+  }, 
+  "memcmp": {
+    "start_address": 6425128, 
+    "end_address": 6425136
+  }, 
+  ".init_proc": {
+    "start_address": 4198736, 
+    "end_address": 4198762
+  }, 
+  "process_file": {
+    "start_address": 4231888, 
+    "end_address": 4232300
+  }, 
+  "yypush_buffer_state": {
+    "start_address": 4249184, 
+    "end_address": 4249492
+  }, 
+  "strcpy": {
+    "start_address": 6424984, 
+    "end_address": 6424992
+  }, 
+  "isatty": {
+    "start_address": 6425000, 
+    "end_address": 6425008
+  }, 
+  "node_copy": {
+    "start_address": 4203184, 
+    "end_address": 4203622
+  }, 
+  "yyfree": {
+    "start_address": 4248944, 
+    "end_address": 4248971
+  }, 
+  ".clearerr": {
+    "start_address": 4199216, 
+    "end_address": 4199222
+  }, 
+  "strhash_get_next": {
+    "start_address": 4254112, 
+    "end_address": 4254394
+  }, 
+  "._IO_getc": {
+    "start_address": 4199312, 
+    "end_address": 4199318
+  }, 
+  "getenv": {
+    "start_address": 6424944, 
+    "end_address": 6424952
+  }, 
+  "atoi": {
+    "start_address": 6425256, 
+    "end_address": 6425264
+  }, 
+  "sub_401170": {
+    "start_address": 4198768, 
+    "end_address": 4198780
+  }, 
+  "alt_match_null_string_p": {
+    "start_address": 4301024, 
+    "end_address": 4301231
+  }, 
+  "prim_sprintf": {
+    "start_address": 4225600, 
+    "end_address": 4228505
+  }, 
+  "yy_get_next_buffer": {
+    "start_address": 4246128, 
+    "end_address": 4247874
+  }, 
+  ".memcmp": {
+    "start_address": 4199152, 
+    "end_address": 4199158
+  }, 
+  "atof": {
+    "start_address": 6425016, 
+    "end_address": 6425024
+  }, 
+  "yyget_debug": {
+    "start_address": 4250560, 
+    "end_address": 4250573
+  }, 
+  "eval_statement_list": {
+    "start_address": 4211056, 
+    "end_address": 4211245
+  }, 
+  "group_in_compile_stack": {
+    "start_address": 4303168, 
+    "end_address": 4303267
+  }, 
+  "eat_comment": {
+    "start_address": 4251008, 
+    "end_address": 4251191
+  }, 
+  "re_search_2": {
+    "start_address": 4257280, 
+    "end_address": 4258479
+  }, 
+  "exit": {
+    "start_address": 6425272, 
+    "end_address": 6425280
+  }, 
+  "eval_begin_rules": {
+    "start_address": 4234080, 
+    "end_address": 4234467
+  }, 
+  "__errno_location": {
+    "start_address": 6424968, 
+    "end_address": 6424976
+  }, 
+  "strerror": {
+    "start_address": 6425288, 
+    "end_address": 6425296
+  }, 
+  "prim_strcmp": {
+    "start_address": 4228512, 
+    "end_address": 4229029
+  }, 
+  "strhash_put": {
+    "start_address": 4252448, 
+    "end_address": 4253017
+  }, 
+  ".memmove": {
+    "start_address": 4199376, 
+    "end_address": 4199382
+  }, 
+  "compile_range": {
+    "start_address": 4302576, 
+    "end_address": 4302922
+  }, 
+  ".getopt_long": {
+    "start_address": 4199008, 
+    "end_address": 4199014
+  }, 
+  ".calloc": {
+    "start_address": 4199168, 
+    "end_address": 4199174
+  }, 
+  "re_match": {
+    "start_address": 4258480, 
+    "end_address": 4258582
+  }, 
+  ".fclose": {
+    "start_address": 4198960, 
+    "end_address": 4198966
+  }, 
+  "calculate_binary": {
+    "start_address": 4211568, 
+    "end_address": 4212700
+  }, 
+  "malloc": {
+    "start_address": 6425200, 
+    "end_address": 6425208
+  }, 
+  "cons": {
+    "start_address": 4205264, 
+    "end_address": 4205332
+  }, 
+  "sscanf": {
+    "start_address": 6425216, 
+    "end_address": 6425224
+  }, 
+  "yylex_destroy": {
+    "start_address": 4250608, 
+    "end_address": 4250841
+  }, 
+  "strhash_get": {
+    "start_address": 4253136, 
+    "end_address": 4253435
+  }, 
+  ".fprintf": {
+    "start_address": 4199200, 
+    "end_address": 4199206
+  }, 
+  ".strcpy": {
+    "start_address": 4198864, 
+    "end_address": 4198870
+  }, 
+  "prim_call": {
+    "start_address": 4216880, 
+    "end_address": 4217138
+  }, 
+  "abort": {
+    "start_address": 6424960, 
+    "end_address": 6424968
+  }, 
+  "fprintf": {
+    "start_address": 6425152, 
+    "end_address": 6425160
+  }, 
+  "strhash_delete": {
+    "start_address": 4253440, 
+    "end_address": 4253855
+  }, 
+  "count_hash": {
+    "start_address": 4253024, 
+    "end_address": 4253124
+  }, 
+  "prim_require_state": {
+    "start_address": 4224432, 
+    "end_address": 4224791
+  }, 
+  "common_op_match_null_string_p": {
+    "start_address": 4301232, 
+    "end_address": 4301801
+  }, 
+  "__libc_csu_init": {
+    "start_address": 4303280, 
+    "end_address": 4303381
+  }, 
+  "yyalloc_0": {
+    "start_address": 4248720, 
+    "end_address": 4248747
+  }, 
+  "prim_range": {
+    "start_address": 4221808, 
+    "end_address": 4222828
+  }, 
+  "print_node": {
+    "start_address": 4231440, 
+    "end_address": 4231879
+  }, 
+  "re_compile_fastmap": {
+    "start_address": 4255104, 
+    "end_address": 4257024
+  }, 
+  "strlen": {
+    "start_address": 6425048, 
+    "end_address": 6425056
+  }, 
+  "execute_state": {
+    "start_address": 4232304, 
+    "end_address": 4234071
+  }, 
+  "yyset_out": {
+    "start_address": 4250528, 
+    "end_address": 4250550
+  }, 
+  ".__ctype_b_loc": {
+    "start_address": 4199488, 
+    "end_address": 4199494
+  }, 
+  ".atof": {
+    "start_address": 4198928, 
+    "end_address": 4198934
+  }, 
+  ".__xstat": {
+    "start_address": 4199264, 
+    "end_address": 4199270
+  }, 
+  "re_match_2_internal": {
+    "start_address": 4282000, 
+    "end_address": 4300269
+  }, 
+  ".strerror": {
+    "start_address": 4199472, 
+    "end_address": 4199478
+  }, 
+  ".strlen": {
+    "start_address": 4198992, 
+    "end_address": 4198998
+  }, 
+  ".atoi": {
+    "start_address": 4199408, 
+    "end_address": 4199414
+  }, 
+  ".free": {
+    "start_address": 4198800, 
+    "end_address": 4198806
+  }, 
+  "list_append": {
+    "start_address": 4202928, 
+    "end_address": 4203049
+  }, 
+  "tolower": {
+    "start_address": 6425192, 
+    "end_address": 6425200
+  }, 
+  "yy_flush_buffer": {
+    "start_address": 4248976, 
+    "end_address": 4249169
+  }, 
+  "lookup_var": {
+    "start_address": 4210064, 
+    "end_address": 4211046
+  }, 
+  "yylex": {
+    "start_address": 4240864, 
+    "end_address": 4243290
+  }, 
+  "regerror": {
+    "start_address": 4281424, 
+    "end_address": 4281611
+  }, 
+  "yy_fatal_error": {
+    "start_address": 4248112, 
+    "end_address": 4248166
+  }, 
+  "yy_load_buffer_state": {
+    "start_address": 4243808, 
+    "end_address": 4243934
+  }, 
+  ".strchr": {
+    "start_address": 4199056, 
+    "end_address": 4199062
+  }, 
+  "node_free": {
+    "start_address": 4203664, 
+    "end_address": 4203914
+  }, 
+  "deregister_tm_clones": {
+    "start_address": 4199568, 
+    "end_address": 4199618
+  }, 
+  "yy_delete_buffer": {
+    "start_address": 4248752, 
+    "end_address": 4248931
+  }, 
+  "calloc": {
+    "start_address": 6425136, 
+    "end_address": 6425144
+  }, 
+  "clearerr": {
+    "start_address": 6425160, 
+    "end_address": 6425168
+  }, 
+  "strhash_init": {
+    "start_address": 4252112, 
+    "end_address": 4252250
+  }, 
+  "getopt_long": {
+    "start_address": 6425056, 
+    "end_address": 6425064
+  }, 
+  "node_reference": {
+    "start_address": 4203632, 
+    "end_address": 4203655
+  }, 
+  "prim_regsub": {
+    "start_address": 4223920, 
+    "end_address": 4224170
+  }, 
+  "yywrap": {
+    "start_address": 4247888, 
+    "end_address": 4247899
+  }, 
+  "xcalloc": {
+    "start_address": 4254512, 
+    "end_address": 4254627
+  }, 
+  "mk_stmt": {
+    "start_address": 4204544, 
+    "end_address": 4204866
+  }, 
+  ".isatty": {
+    "start_address": 4198896, 
+    "end_address": 4198902
+  }, 
+  "__gmon_start__": {
+    "start_address": 4199504, 
+    "end_address": 4199510
+  }, 
+  "strhash_free": {
+    "start_address": 4252256, 
+    "end_address": 4252435
+  }, 
+  "prim_regmatch": {
+    "start_address": 4223456, 
+    "end_address": 4223916
+  }, 
+  "regex_compile": {
+    "start_address": 4258848, 
+    "end_address": 4280231
+  }, 
+  "strhash_get_first": {
+    "start_address": 4253856, 
+    "end_address": 4254105
+  }, 
+  ".strrchr": {
+    "start_address": 4199088, 
+    "end_address": 4199094
+  }, 
+  "bindtextdomain": {
+    "start_address": 6425040, 
+    "end_address": 6425048
+  }, 
+  "init_primitives": {
+    "start_address": 4216608, 
+    "end_address": 4216870
+  }, 
+  "textdomain": {
+    "start_address": 6425024, 
+    "end_address": 6425032
+  }, 
+  "prim_calln": {
+    "start_address": 4217152, 
+    "end_address": 4217416
+  }, 
+  "prim_strncmp": {
+    "start_address": 4229712, 
+    "end_address": 4230329
+  }, 
+  "__xstat": {
+    "start_address": 6425184, 
+    "end_address": 6425192
+  }, 
+  "yyget_in": {
+    "start_address": 4250400, 
+    "end_address": 4250414
+  }, 
+  "yyrestart": {
+    "start_address": 4247904, 
+    "end_address": 4248108
+  }
+}

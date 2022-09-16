@@ -1,0 +1,3706 @@
+{
+  "libtasn1/libtasn1-4.13/build-aux/snippet/arg-nonnull.h": {},
+  "libtasn1/libtasn1-4.13/build-aux/snippet/c++defs.h": {},
+  "libtasn1/libtasn1-4.13/build-aux/snippet/warn-on-use.h": {},
+  "libtasn1/libtasn1-4.13/build-aux/snippet/_Noreturn.h": {},
+  "libtasn1/libtasn1-4.13/examples/CertificateExample.c": {
+    "my_ltostr": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": []
+    },
+    "get_Name_type": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        196,
+        1
+      ],
+      "strings": [
+        "\".rdnSequence.?\"",
+        "\".?\"",
+        "\".type\"",
+        "\".value\"",
+        "\"PKIX1Implicit88.id-at-countryName\"",
+        "\"PKIX1Implicit88.X520OrganizationName\"",
+        "\"\"",
+        "\" C=\"",
+        "\"PKIX1Implicit88.id-at-organizationName\"",
+        "\"PKIX1Implicit88.X520OrganizationName\"",
+        "\"\"",
+        "\" O=\"",
+        "\"PKIX1Implicit88.id-at-organizationalUnitName\"",
+        "\"PKIX1Implicit88.X520OrganizationalUnitName\"",
+        "\"\"",
+        "\" OU=\""
+      ]
+    },
+    "create_certificate": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        554,
+        1
+      ],
+      "strings": [
+        "\"PKIX1Implicit88.Certificate\"",
+        "\"tbsCertificate.version\"",
+        "\"v3\"",
+        "\"tbsCertificate.serialNumber\"",
+        "\"17\"",
+        "\"PKIX1Implicit88.id-dsa-with-sha1\"",
+        "\"tbsCertificate.signature.algorithm\"",
+        "\"tbsCertificate.signature.parameters\"",
+        "\"tbsCertificate.issuer\"",
+        "\"rdnSequence\"",
+        "\"tbsCertificate.issuer.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-countryName\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520countryName\"",
+        "\"\"",
+        "\"US\"",
+        "\"\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST.?LAST.value\"",
+        "\"tbsCertificate.issuer.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-organizationName\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520OrganizationName\"",
+        "\"\"",
+        "\"printableString\"",
+        "\"printableString\"",
+        "\"gov\"",
+        "\"\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST.?LAST.value\"",
+        "\"tbsCertificate.issuer.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-organizationalUnitName\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520OrganizationalUnitName\"",
+        "\"\"",
+        "\"printableString\"",
+        "\"printableString\"",
+        "\"nist\"",
+        "\"\"",
+        "\"tbsCertificate.issuer.rdnSequence.?LAST.?LAST.value\"",
+        "\"tbsCertificate.validity.notBefore\"",
+        "\"utcTime\"",
+        "\"tbsCertificate.validity.notBefore.utcTime\"",
+        "\"970630000000Z\"",
+        "\"tbsCertificate.validity.notAfter\"",
+        "\"utcTime\"",
+        "\"tbsCertificate.validity.notAfter.utcTime\"",
+        "\"971231000000Z\"",
+        "\"tbsCertificate.subject\"",
+        "\"rdnSequence\"",
+        "\"tbsCertificate.subject.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-countryName\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520countryName\"",
+        "\"\"",
+        "\"US\"",
+        "\"\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST.?LAST.value\"",
+        "\"tbsCertificate.subject.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-organizationName\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520OrganizationName\"",
+        "\"\"",
+        "\"printableString\"",
+        "\"printableString\"",
+        "\"gov\"",
+        "\"\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST.?LAST.value\"",
+        "\"tbsCertificate.subject.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-organizationalUnitName\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520OrganizationalUnitName\"",
+        "\"\"",
+        "\"printableString\"",
+        "\"printableString\"",
+        "\"nist\"",
+        "\"\"",
+        "\"tbsCertificate.subject.rdnSequence.?LAST.?LAST.value\"",
+        "\"PKIX1Implicit88.id-dsa\"",
+        "\"tbsCertificate.subjectPublicKeyInfo.algorithm.algorithm\"",
+        "\"PKIX1Implicit88.Dss-Parms\"",
+        "\"\\xd4\\x38\"",
+        "\"p\"",
+        "\"\\xd4\\x38\"",
+        "\"q\"",
+        "\"\\xd4\\x38\"",
+        "\"g\"",
+        "\"\"",
+        "\"tbsCertificate.subjectPublicKeyInfo.algorithm.parameters\"",
+        "\"\\x02\\x81\"",
+        "\"tbsCertificate.subjectPublicKeyInfo.subjectPublicKey\"",
+        "\"tbsCertificate.issuerUniqueID\"",
+        "\"tbsCertificate.subjectUniqueID\"",
+        "\"tbsCertificate.extensions\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-ce-basicConstraints\"",
+        "\"tbsCertificate.extensions.?LAST.extnID\"",
+        "\"tbsCertificate.extensions.?LAST.critical\"",
+        "\"TRUE\"",
+        "\"PKIX1Implicit88.BasicConstraints\"",
+        "\"cA\"",
+        "\"TRUE\"",
+        "\"pathLenConstraint\"",
+        "\"\"",
+        "\"tbsCertificate.extensions.?LAST.extnValue\"",
+        "\"tbsCertificate.extensions\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-ce-subjectKeyIdentifier\"",
+        "\"tbsCertificate.extensions.?LAST.extnID\"",
+        "\"tbsCertificate.extensions.?LAST.critical\"",
+        "\"FALSE\"",
+        "\"\\x04\\x14\\xe7\\x26\\xc5\"",
+        "\"tbsCertificate.extensions.?LAST.extnValue\"",
+        "\"PKIX1Implicit88.id-dsa-with-sha1\"",
+        "\"signatureAlgorithm.algorithm\"",
+        "\"signatureAlgorithm.parameters\"",
+        "\"tbsCertificate\"",
+        "\"\\n'tbsCertificate' encoding creation: ERROR\\n\"",
+        "\"signature\"",
+        "\"\"",
+        "\"\\n'certificate' encoding creation: ERROR\\n\"",
+        "\"-----------------\\nCertificate Encoding:\\nNumber of bytes=%i\\n\"",
+        "\"%02x \"",
+        "\"\\n-----------------\\n\""
+      ]
+    },
+    "get_certificate": {
+      "start_point": [
+        567,
+        0
+      ],
+      "end_point": [
+        624,
+        1
+      ],
+      "strings": [
+        "\"PKIX1Implicit88.Certificate\"",
+        "\"Problems with DER encoding\\n\"",
+        "\"tbsCertificate.issuer\"",
+        "\"certificate:\\nissuer :%s\\n\"",
+        "\"tbsCertificate.subject\"",
+        "\"subject:%s\\n\"",
+        "\"signatureAlgorithm.algorithm\"",
+        "\"PKIX1Implicit88.id-dsa-with-sha1\"",
+        "\"tbsCertificate\"",
+        "\"signature\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        635,
+        0
+      ],
+      "end_point": [
+        672,
+        1
+      ],
+      "strings": [
+        "\"pkix.asn\"",
+        "\"%s\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/examples/CrlExample.c": {
+    "my_ltostr": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "get_Name_type": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        208,
+        1
+      ],
+      "strings": [
+        "\".rdnSequence.?\"",
+        "\".?\"",
+        "\".type\"",
+        "\".value\"",
+        "\"PKIX1Implicit88.id-at-countryName\"",
+        "\"PKIX1Implicit88.X520OrganizationName\"",
+        "\"\"",
+        "\" C=\"",
+        "\"PKIX1Implicit88.id-at-organizationName\"",
+        "\"PKIX1Implicit88.X520OrganizationName\"",
+        "\"\"",
+        "\" O=\"",
+        "\"PKIX1Implicit88.id-at-organizationalUnitName\"",
+        "\"PKIX1Implicit88.X520OrganizationalUnitName\"",
+        "\"\"",
+        "\" OU=\""
+      ]
+    },
+    "create_CRL": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        425,
+        1
+      ],
+      "strings": [
+        "\"PKIX1Implicit88.CertificateList\"",
+        "\"tbsCertList.version\"",
+        "\"v2\"",
+        "\"PKIX1Implicit88.id-dsa-with-sha1\"",
+        "\"tbsCertList.signature.algorithm\"",
+        "\"tbsCertList.signature.parameters\"",
+        "\"tbsCertList.issuer\"",
+        "\"rdnSequence\"",
+        "\"tbsCertList.issuer.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-countryName\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520countryName\"",
+        "\"\"",
+        "\"US\"",
+        "\"\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST.?LAST.value\"",
+        "\"tbsCertList.issuer.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-organizationName\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520OrganizationName\"",
+        "\"\"",
+        "\"printableString\"",
+        "\"printableString\"",
+        "\"gov\"",
+        "\"\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST.?LAST.value\"",
+        "\"tbsCertList.issuer.rdnSequence\"",
+        "\"NEW\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-at-organizationalUnitName\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST.?LAST.type\"",
+        "\"PKIX1Implicit88.X520OrganizationalUnitName\"",
+        "\"\"",
+        "\"printableString\"",
+        "\"printableString\"",
+        "\"nist\"",
+        "\"\"",
+        "\"tbsCertList.issuer.rdnSequence.?LAST.?LAST.value\"",
+        "\"tbsCertList.thisUpdate\"",
+        "\"utcTime\"",
+        "\"tbsCertList.thisUpdate.utcTime\"",
+        "\"970801000000Z\"",
+        "\"tbsCertList.nextUpdate\"",
+        "\"utcTime\"",
+        "\"tbsCertList.nextUpdate.utcTime\"",
+        "\"970808000000Z\"",
+        "\"tbsCertList.revokedCertificates\"",
+        "\"NEW\"",
+        "\"tbsCertList.revokedCertificates.?LAST.userCertificate\"",
+        "\"tbsCertList.revokedCertificates.?LAST.revocationDate\"",
+        "\"utcTime\"",
+        "\"tbsCertList.revokedCertificates.?LAST.revocationDate.utcTime\"",
+        "\"970731000000Z\"",
+        "\"tbsCertList.revokedCertificates.?LAST.crlEntryExtensions\"",
+        "\"NEW\"",
+        "\"PKIX1Implicit88.id-ce-cRLReasons\"",
+        "\"tbsCertList.revokedCertificates.?LAST.crlEntryExtensions.?LAST.extnID\"",
+        "\"tbsCertList.revokedCertificates.?LAST.crlEntryExtensions.?LAST.critical\"",
+        "\"FALSE\"",
+        "\"\\x0a\\x01\\x01\"",
+        "\"tbsCertList.revokedCertificates.?LAST.crlEntryExtensions.?LAST.extnValue\"",
+        "\"tbsCertList.crlExtensions\"",
+        "\"PKIX1Implicit88.id-dsa-with-sha1\"",
+        "\"signatureAlgorithm.algorithm\"",
+        "\"signatureAlgorithm.parameters\"",
+        "\"tbsCertList\"",
+        "\"\\n'tbsCertList' encoding creation: ERROR\\n\"",
+        "\"signature\"",
+        "\"\"",
+        "\"\\n'crl1' encoding creation: ERROR\\n\"",
+        "\"-----------------\\nCrl1 Encoding:\\nNumber of bytes=%i\\n\"",
+        "\"%02x \"",
+        "\"\\n-----------------\\n\""
+      ]
+    },
+    "get_CRL": {
+      "start_point": [
+        438,
+        0
+      ],
+      "end_point": [
+        491,
+        1
+      ],
+      "strings": [
+        "\"PKIX1Implicit88.CertificateList\"",
+        "\"Problems with DER encoding\\n\"",
+        "\"tbsCertList.issuer\"",
+        "\"crl2:\\nissuer: %s\\n\"",
+        "\"signatureAlgorithm.algorithm\"",
+        "\"PKIX1Implicit88.id-dsa-with-sha1\"",
+        "\"tbsCertList\"",
+        "\"signature\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        502,
+        0
+      ],
+      "end_point": [
+        539,
+        1
+      ],
+      "strings": [
+        "\"pkix.asn\"",
+        "\"%s\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/examples/pkix_asn1_tab.c": {},
+  "libtasn1/libtasn1-4.13/gl/errno.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/fstat.c": {
+    "orig_fstat": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "fstat_nothrow": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        61,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_fstat": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/ftell.c": {
+    "ftell": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/ftello.c": {},
+  "libtasn1/libtasn1-4.13/gl/getopt.c": {
+    "exchange": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": [
+        "\"POSIXLY_CORRECT\""
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        1154,
+        1
+      ],
+      "strings": [
+        "\"--\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"%s\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"%s: option '%s' is ambiguous\\n\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '--%s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"%s: option '--%s' requires an argument\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s\"",
+        "\"\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"%s\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"\\\n%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\""
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        1156,
+        0
+      ],
+      "end_point": [
+        1175,
+        1
+      ],
+      "strings": []
+    },
+    "getopt": {
+      "start_point": [
+        1185,
+        0
+      ],
+      "end_point": [
+        1192,
+        1
+      ],
+      "strings": []
+    },
+    "__posix_getopt": {
+      "start_point": [
+        1195,
+        0
+      ],
+      "end_point": [
+        1202,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        1211,
+        0
+      ],
+      "end_point": [
+        1272,
+        1
+      ],
+      "strings": [
+        "\"abc:d:0123456789\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/getopt.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "getopt_long_only": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"add\"",
+        "\"append\"",
+        "\"delete\"",
+        "\"verbose\"",
+        "\"create\"",
+        "\"file\"",
+        "\"abc:d:0123456789\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"\\n\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"option d with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/getopt_int.h": {},
+  "libtasn1/libtasn1-4.13/gl/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        165,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        255,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/gettime.c": {
+    "gettime": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/gettimeofday.c": {
+    "rpl_localtime": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_gmtime": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_tzset": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "gettimeofday": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/limits.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/lseek.c": {
+    "rpl_lseek": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/msvc-inval.h": {},
+  "libtasn1/libtasn1-4.13/gl/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/msvc-nothrow.h": {},
+  "libtasn1/libtasn1-4.13/gl/progname.c": {
+    "set_program_name": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"A NULL argv[0] was passed through an exec system call.\\n\"",
+        "\"/.libs/\"",
+        "\"lt-\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/progname.h": {},
+  "libtasn1/libtasn1-4.13/gl/read-file.c": {
+    "fread_file": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    },
+    "internal_read_file": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    },
+    "read_file": {
+      "start_point": [
+        170,
+        0
+      ],
+      "end_point": [
+        174,
+        1
+      ],
+      "strings": [
+        "\"r\""
+      ]
+    },
+    "read_binary_file": {
+      "start_point": [
+        183,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "strings": [
+        "\"rb\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/read-file.h": {},
+  "libtasn1/libtasn1-4.13/gl/realloc.c": {
+    "rpl_realloc": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/stdarg.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/stddef.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/stdint.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/stdio-impl.h": {},
+  "libtasn1/libtasn1-4.13/gl/stdio.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/stdlib.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/sys_stat.in.h": {
+    "rpl_mkdir": {
+      "start_point": [
+        503,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/sys_time.in.h": {
+    "GNULIB_NAMESPACE": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/sys_types.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/time.in.h": {},
+  "libtasn1/libtasn1-4.13/gl/timespec.c": {},
+  "libtasn1/libtasn1-4.13/gl/timespec.h": {
+    "make_timespec": {
+      "start_point": [
+        39,
+        27
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": []
+    },
+    "timespec_cmp": {
+      "start_point": [
+        76,
+        24
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    },
+    "timespec_sign": {
+      "start_point": [
+        86,
+        24
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "timespectod": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/unistd.c": {},
+  "libtasn1/libtasn1-4.13/gl/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        427,
+        0
+      ],
+      "end_point": [
+        431,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        894,
+        0
+      ],
+      "end_point": [
+        898,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/version-etc-fsf.c": {},
+  "libtasn1/libtasn1-4.13/gl/version-etc.c": {
+    "version_etc_arn": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": [
+        "\"%s (%s) %s\\n\"",
+        "\"%s %s\\n\"",
+        "\"Packaged by %s (%s)\\n\"",
+        "\"Packaged by %s\\n\"",
+        "\"(C)\"",
+        "\"\\\n\\n\\\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\\n\\\n\\n\\\n\"",
+        "\"Written by %s.\\n\"",
+        "\"Written by %s and %s.\\n\"",
+        "\"Written by %s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\nand %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, %s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\nand %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, %s, and others.\\n\""
+      ]
+    },
+    "version_etc_ar": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc_va": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "emit_bug_reporting_address": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": [
+        "\"\\nReport bugs to: %s\\n\"",
+        "\"Report %s bugs to: %s\\n\"",
+        "\"%s home page: <%s>\\n\"",
+        "\"%s home page: <http://www.gnu.org/software/%s/>\\n\"",
+        "\"General help using GNU software: <http://www.gnu.org/gethelp/>\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/gl/version-etc.h": {},
+  "libtasn1/libtasn1-4.13/lib/ASN1.c": {
+    "yy_symbol_value_print": {
+      "start_point": [
+        933,
+        0
+      ],
+      "end_point": [
+        945,
+        1
+      ],
+      "strings": []
+    },
+    "yy_symbol_print": {
+      "start_point": [
+        952,
+        0
+      ],
+      "end_point": [
+        960,
+        1
+      ],
+      "strings": [
+        "\"%s %s (\"",
+        "\"token\"",
+        "\"nterm\"",
+        "\")\""
+      ]
+    },
+    "yy_stack_print": {
+      "start_point": [
+        967,
+        0
+      ],
+      "end_point": [
+        977,
+        1
+      ],
+      "strings": [
+        "\"Stack now\"",
+        "\" %d\"",
+        "\"\\n\""
+      ]
+    },
+    "yy_reduce_print": {
+      "start_point": [
+        990,
+        0
+      ],
+      "end_point": [
+        1008,
+        1
+      ],
+      "strings": [
+        "\"Reducing stack by rule %d (line %lu):\\n\"",
+        "\"   $%d = \"",
+        "\"\\n\""
+      ]
+    },
+    "yystrlen": {
+      "start_point": [
+        1051,
+        0
+      ],
+      "end_point": [
+        1058,
+        1
+      ],
+      "strings": []
+    },
+    "yystpcpy": {
+      "start_point": [
+        1068,
+        0
+      ],
+      "end_point": [
+        1078,
+        1
+      ],
+      "strings": []
+    },
+    "yytnamerr": {
+      "start_point": [
+        1090,
+        0
+      ],
+      "end_point": [
+        1127,
+        1
+      ],
+      "strings": []
+    },
+    "yysyntax_error": {
+      "start_point": [
+        1138,
+        0
+      ],
+      "end_point": [
+        1263,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "yydestruct": {
+      "start_point": [
+        1270,
+        0
+      ],
+      "end_point": [
+        1281,
+        1
+      ],
+      "strings": [
+        "\"Deleting\""
+      ]
+    },
+    "yyparse": {
+      "start_point": [
+        1299,
+        0
+      ],
+      "end_point": [
+        2577,
+        1
+      ],
+      "strings": [
+        "\"Starting parse\\n\"",
+        "\"memory exhausted\"",
+        "\"Stack size increased to %lu\\n\"",
+        "\"Entering state %d\\n\"",
+        "\"Reading a token: \"",
+        "\"Now at end of input.\\n\"",
+        "\"Next token is\"",
+        "\"Shifting\"",
+        "\"\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"-%s\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"-%s\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"-> $$ =\"",
+        "\"syntax error\"",
+        "\"syntax error\"",
+        "\"Error: discarding\"",
+        "\"Error: popping\"",
+        "\"memory exhausted\"",
+        "\"Cleanup: discarding lookahead\"",
+        "\"Cleanup: popping\""
+      ]
+    },
+    "_asn1_yylex": {
+      "start_point": [
+        2610,
+        0
+      ],
+      "end_point": [
+        2704,
+        1
+      ],
+      "strings": [
+        "\"End Of File\"",
+        "\"End Of File\"",
+        "\"%s\"",
+        "\"%s\"",
+        "\"%s\""
+      ]
+    },
+    "_asn1_create_errorDescription": {
+      "start_point": [
+        2715,
+        0
+      ],
+      "end_point": [
+        2745,
+        1
+      ],
+      "strings": [
+        "\"%s file was not found\"",
+        "\"%s\"",
+        "\"%s:%u: name too long (more than %u characters)\"",
+        "\"%s:: identifier '%s' not found\""
+      ]
+    },
+    "asn1_parser2tree": {
+      "start_point": [
+        2768,
+        0
+      ],
+      "end_point": [
+        2829,
+        1
+      ],
+      "strings": [
+        "\"r\""
+      ]
+    },
+    "asn1_parser2array": {
+      "start_point": [
+        2856,
+        0
+      ],
+      "end_point": [
+        2962,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"_asn1_tab.c\"",
+        "\"_asn1_tab.c\"",
+        "\"_asn1_tab\"",
+        "\"_asn1_tab\""
+      ]
+    },
+    "_asn1_yyerror": {
+      "start_point": [
+        2972,
+        0
+      ],
+      "end_point": [
+        3003,
+        1
+      ],
+      "strings": [
+        "\"VisibleString\"",
+        "\"PrintableString\"",
+        "\"UniversalString\"",
+        "\"IA5String\"",
+        "\"UTF8String\"",
+        "\"NumericString\"",
+        "\"TeletexString\"",
+        "\"BMPString\"",
+        "\"%s\"",
+        "\"%s:%u: Warning: %s is a built-in ASN.1 type.\\n\"",
+        "\"%s:%u: Error: %s near '%s'\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/ASN1.y": {
+    "explicit_implicit": {
+      "start_point": [
+        191,
+        20
+      ],
+      "end_point": [
+        192,
+        98
+      ],
+      "strings": []
+    },
+    "NUM": [
+      {
+        "start_point": [
+          207,
+          7
+        ],
+        "end_point": [
+          207,
+          65
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          208,
+          7
+        ],
+        "end_point": [
+          208,
+          65
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "libtasn1/libtasn1-4.13/lib/coding.c": {
+    "_asn1_error_description_value_not_found": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": [
+        "\":: value of element '\"",
+        "\"' not found\""
+      ]
+    },
+    "asn1_length_der": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        106,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_tag_der": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_octet_der": {
+      "start_point": [
+        171,
+        0
+      ],
+      "end_point": [
+        183,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_encode_simple_der": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        244,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_time_der": {
+      "start_point": [
+        260,
+        0
+      ],
+      "end_point": [
+        279,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_objectid_der": {
+      "start_point": [
+        333,
+        0
+      ],
+      "end_point": [
+        403,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_bit_der": {
+      "start_point": [
+        428,
+        0
+      ],
+      "end_point": [
+        450,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_complete_explicit_tag": {
+      "start_point": [
+        467,
+        0
+      ],
+      "end_point": [
+        525,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_insert_tag_der": {
+      "start_point": [
+        593,
+        0
+      ],
+      "end_point": [
+        692,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_ordering_set": {
+      "start_point": [
+        705,
+        0
+      ],
+      "end_point": [
+        830,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_ordering_set_of": {
+      "start_point": [
+        843,
+        0
+      ],
+      "end_point": [
+        989,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_der_coding": {
+      "start_point": [
+        1012,
+        0
+      ],
+      "end_point": [
+        1346,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/decoding.c": {
+    "_asn1_error_description_tag_error": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": [
+        "\":: tag error near element '\"",
+        "\"'\""
+      ]
+    },
+    "asn1_get_length_der": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_get_tag_der": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_get_length_ber": {
+      "start_point": [
+        246,
+        0
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_get_octet_der": {
+      "start_point": [
+        278,
+        0
+      ],
+      "end_point": [
+        305,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_get_time_der": {
+      "start_point": [
+        324,
+        0
+      ],
+      "end_point": [
+        390,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_get_object_id_der": {
+      "start_point": [
+        405,
+        0
+      ],
+      "end_point": [
+        465,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\".\""
+      ]
+    },
+    "asn1_get_bit_der": {
+      "start_point": [
+        480,
+        0
+      ],
+      "end_point": [
+        511,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_extract_tag_der": {
+      "start_point": [
+        516,
+        0
+      ],
+      "end_point": [
+        698,
+        1
+      ],
+      "strings": []
+    },
+    "extract_tag_der_recursive": {
+      "start_point": [
+        700,
+        0
+      ],
+      "end_point": [
+        723,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_delete_not_used": {
+      "start_point": [
+        725,
+        0
+      ],
+      "end_point": [
+        782,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_get_indefinite_length_string": {
+      "start_point": [
+        784,
+        0
+      ],
+      "end_point": [
+        839,
+        1
+      ],
+      "strings": []
+    },
+    "delete_unneeded_choice_fields": {
+      "start_point": [
+        841,
+        0
+      ],
+      "end_point": [
+        850,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_der_decoding2": {
+      "start_point": [
+        879,
+        0
+      ],
+      "end_point": [
+        1544,
+        1
+      ],
+      "strings": [
+        "\"F\"",
+        "\"T\""
+      ]
+    },
+    "asn1_der_decoding": {
+      "start_point": [
+        1567,
+        0
+      ],
+      "end_point": [
+        1572,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_der_decoding_element": {
+      "start_point": [
+        1598,
+        0
+      ],
+      "end_point": [
+        1603,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_der_decoding_startEnd": {
+      "start_point": [
+        1633,
+        0
+      ],
+      "end_point": [
+        1678,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_expand_any_defined_by": {
+      "start_point": [
+        1696,
+        0
+      ],
+      "end_point": [
+        1904,
+        1
+      ],
+      "strings": [
+        "\"%s.%s\"",
+        "\"%s.%s\""
+      ]
+    },
+    "asn1_expand_octet_string": {
+      "start_point": [
+        1924,
+        0
+      ],
+      "end_point": [
+        2046,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\".\""
+      ]
+    },
+    "_asn1_decode_simple_der": {
+      "start_point": [
+        2062,
+        0
+      ],
+      "end_point": [
+        2118,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_decode_simple_der": {
+      "start_point": [
+        2133,
+        0
+      ],
+      "end_point": [
+        2139,
+        1
+      ],
+      "strings": []
+    },
+    "append": {
+      "start_point": [
+        2141,
+        0
+      ],
+      "end_point": [
+        2149,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_decode_simple_ber": {
+      "start_point": [
+        2167,
+        0
+      ],
+      "end_point": [
+        2352,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_decode_simple_ber": {
+      "start_point": [
+        2369,
+        0
+      ],
+      "end_point": [
+        2375,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/element.c": {
+    "_asn1_hierarchical_name": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"ROOT\""
+      ]
+    },
+    "_asn1_convert_integer": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": [
+        "\"_asn1_convert_integer: valueIn=%s, lenOut=%d\"",
+        "\", vOut[%d]=%d\"",
+        "\"\\n\""
+      ]
+    },
+    "_asn1_append_sequence_set": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": [
+        "\"?1\""
+      ]
+    },
+    "asn1_write_value": {
+      "start_point": [
+        300,
+        0
+      ],
+      "end_point": [
+        646,
+        1
+      ],
+      "strings": [
+        "\"TRUE\"",
+        "\"T\"",
+        "\"T\"",
+        "\"FALSE\"",
+        "\"F\"",
+        "\"F\"",
+        "\"NEW\""
+      ]
+    },
+    "asn1_read_value": {
+      "start_point": [
+        758,
+        0
+      ],
+      "end_point": [
+        762,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_read_value_type": {
+      "start_point": [
+        832,
+        0
+      ],
+      "end_point": [
+        1008,
+        1
+      ],
+      "strings": [
+        "\"NULL\"",
+        "\"TRUE\"",
+        "\"FALSE\"",
+        "\"TRUE\"",
+        "\"FALSE\"",
+        "\".\""
+      ]
+    },
+    "asn1_read_tag": {
+      "start_point": [
+        1026,
+        0
+      ],
+      "end_point": [
+        1089,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_read_node_value": {
+      "start_point": [
+        1101,
+        0
+      ],
+      "end_point": [
+        1110,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/element.h": {},
+  "libtasn1/libtasn1-4.13/lib/errors.c": {
+    "asn1_perror": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": [
+        "\"LIBTASN1 ERROR: %s\\n\"",
+        "\"(null)\""
+      ]
+    },
+    "asn1_strerror": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": [
+        "\"ASN1_\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/gstr.c": {
+    "_asn1_str_cat": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_str_cpy": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/gstr.h": {
+    "safe_memset": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/int.h": {
+    "type_field": {
+      "start_point": [
+        177,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": []
+    },
+    "convert_old_type": {
+      "start_point": [
+        184,
+        0
+      ],
+      "end_point": [
+        203,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_realloc": {
+      "start_point": [
+        205,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/libtasn1.h": {},
+  "libtasn1/libtasn1-4.13/lib/parser_aux.c": {
+    "_asn1_add_static_node": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_find_node": {
+      "start_point": [
+        92,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_set_value": {
+      "start_point": [
+        222,
+        0
+      ],
+      "end_point": [
+        252,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_set_value_lv": {
+      "start_point": [
+        265,
+        0
+      ],
+      "end_point": [
+        281,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_set_value_m": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        307,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_append_value": {
+      "start_point": [
+        319,
+        0
+      ],
+      "end_point": [
+        367,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_set_name": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        398,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_cpy_name": {
+      "start_point": [
+        408,
+        0
+      ],
+      "end_point": [
+        425,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_set_right": {
+      "start_point": [
+        436,
+        0
+      ],
+      "end_point": [
+        445,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_get_last_right": {
+      "start_point": [
+        455,
+        0
+      ],
+      "end_point": [
+        466,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_remove_node": {
+      "start_point": [
+        476,
+        0
+      ],
+      "end_point": [
+        493,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_find_up": {
+      "start_point": [
+        502,
+        0
+      ],
+      "end_point": [
+        516,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_delete_list": {
+      "start_point": [
+        523,
+        0
+      ],
+      "end_point": [
+        534,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_delete_list_and_nodes": {
+      "start_point": [
+        541,
+        0
+      ],
+      "end_point": [
+        553,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_ltostr": {
+      "start_point": [
+        556,
+        0
+      ],
+      "end_point": [
+        591,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_change_integer_value": {
+      "start_point": [
+        604,
+        0
+      ],
+      "end_point": [
+        660,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_expand_object_id": {
+      "start_point": [
+        672,
+        0
+      ],
+      "end_point": [
+        850,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\".\"",
+        "\".\""
+      ]
+    },
+    "_asn1_type_set_config": {
+      "start_point": [
+        863,
+        0
+      ],
+      "end_point": [
+        920,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_check_identifier": {
+      "start_point": [
+        936,
+        0
+      ],
+      "end_point": [
+        1036,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"(null)\"",
+        "\".\"",
+        "\"(null)\"",
+        "\".\""
+      ]
+    },
+    "_asn1_set_default_tag": {
+      "start_point": [
+        1050,
+        0
+      ],
+      "end_point": [
+        1096,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/parser_aux.h": {
+    "_asn1_get_right": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_set_down": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_get_down": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        120,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_get_name": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_mod_type": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        155,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/structure.c": {
+    "_asn1_add_single_node": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_find_left": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_create_static_structure": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": [
+        "\"w\"",
+        "\"#if HAVE_CONFIG_H\\n\"",
+        "\"# include \\\"config.h\\\"\\n\"",
+        "\"#endif\\n\\n\"",
+        "\"#include <libtasn1.h>\\n\\n\"",
+        "\"const asn1_static_node %s[] = {\\n\"",
+        "\"  { \"",
+        "\"\\\"%s\\\", \"",
+        "\"NULL, \"",
+        "\"%lu, \"",
+        "\"\\\"%s\\\"},\\n\"",
+        "\"NULL },\\n\"",
+        "\"  { NULL, 0, NULL }\\n};\\n\""
+      ]
+    },
+    "asn1_array2tree": {
+      "start_point": [
+        175,
+        0
+      ],
+      "end_point": [
+        276,
+        1
+      ],
+      "strings": [
+        "\":: identifier '\"",
+        "\"' not found\""
+      ]
+    },
+    "asn1_delete_structure": {
+      "start_point": [
+        288,
+        0
+      ],
+      "end_point": [
+        292,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_delete_structure2": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        354,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_delete_element": {
+      "start_point": [
+        369,
+        0
+      ],
+      "end_point": [
+        393,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_copy_structure3": {
+      "start_point": [
+        395,
+        0
+      ],
+      "end_point": [
+        452,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_copy_structure2": {
+      "start_point": [
+        455,
+        0
+      ],
+      "end_point": [
+        464,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_type_choice_config": {
+      "start_point": [
+        467,
+        0
+      ],
+      "end_point": [
+        550,
+        1
+      ],
+      "strings": []
+    },
+    "_asn1_expand_identifier": {
+      "start_point": [
+        553,
+        0
+      ],
+      "end_point": [
+        657,
+        1
+      ],
+      "strings": [
+        "\"%s.%s\""
+      ]
+    },
+    "asn1_create_element": {
+      "start_point": [
+        675,
+        0
+      ],
+      "end_point": [
+        695,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    },
+    "asn1_print_structure": {
+      "start_point": [
+        710,
+        0
+      ],
+      "end_point": [
+        1036,
+        1
+      ],
+      "strings": [
+        "\" \"",
+        "\"name:\"",
+        "\"%s  \"",
+        "\"NULL  \"",
+        "\" \"",
+        "\"name:\"",
+        "\"%s  \"",
+        "\"NULL  \"",
+        "\"type:CONST\"",
+        "\"type:TAG\"",
+        "\"type:SIZE\"",
+        "\"type:DEFAULT\"",
+        "\"type:IDENTIFIER\"",
+        "\"type:ANY\"",
+        "\"type:CHOICE\"",
+        "\"type:DEFINITIONS\"",
+        "\"%s\"",
+        "\"  value:%s\"",
+        "\"  value:%s\"",
+        "\"  value:%s\"",
+        "\"  value:%s\"",
+        "\"  value:TRUE\"",
+        "\"  value:FALSE\"",
+        "\"  value:%s\"",
+        "\"  value:0x\"",
+        "\"%02x\"",
+        "\"  value:0x\"",
+        "\"%02x\"",
+        "\"  value:TRUE\"",
+        "\"  value:FALSE\"",
+        "\"  value(%i):\"",
+        "\"%02x\"",
+        "\"  value:\"",
+        "\"%c\"",
+        "\"  value:\"",
+        "\"%c\"",
+        "\"  value:\"",
+        "\"%02x\"",
+        "\"  value:%s\"",
+        "\"  value:\"",
+        "\"%02x\"",
+        "\"  attr:\"",
+        "\"UNIVERSAL,\"",
+        "\"PRIVATE,\"",
+        "\"APPLICATION,\"",
+        "\"EXPLICIT,\"",
+        "\"IMPLICIT,\"",
+        "\"TAG,\"",
+        "\"DEFAULT,\"",
+        "\"TRUE,\"",
+        "\"FALSE,\"",
+        "\"LIST,\"",
+        "\"MIN_MAX,\"",
+        "\"OPTION,\"",
+        "\"1_PARAM,\"",
+        "\"SIZE,\"",
+        "\"DEF_BY,\"",
+        "\"GENERALIZED,\"",
+        "\"UTC,\"",
+        "\"SET,\"",
+        "\"NOT_USED,\"",
+        "\"ASSIGNMENT,\"",
+        "\"\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "asn1_number_of_elements": {
+      "start_point": [
+        1052,
+        0
+      ],
+      "end_point": [
+        1076,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_find_structure_from_oid": {
+      "start_point": [
+        1090,
+        0
+      ],
+      "end_point": [
+        1130,
+        1
+      ],
+      "strings": [
+        "\"%s.%s\""
+      ]
+    },
+    "asn1_copy_node": {
+      "start_point": [
+        1144,
+        0
+      ],
+      "end_point": [
+        1180,
+        1
+      ],
+      "strings": []
+    },
+    "asn1_dup_node": {
+      "start_point": [
+        1192,
+        0
+      ],
+      "end_point": [
+        1196,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/structure.h": {},
+  "libtasn1/libtasn1-4.13/lib/version.c": {
+    "asn1_check_version": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/gllib/hash-pjw-bare.c": {
+    "hash_pjw_bare": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/gllib/hash-pjw-bare.h": {},
+  "libtasn1/libtasn1-4.13/lib/gllib/intprops.h": {},
+  "libtasn1/libtasn1-4.13/lib/gllib/limits.in.h": {},
+  "libtasn1/libtasn1-4.13/lib/gllib/minmax.h": {},
+  "libtasn1/libtasn1-4.13/lib/gllib/stddef.in.h": {},
+  "libtasn1/libtasn1-4.13/lib/gllib/stdint.in.h": {},
+  "libtasn1/libtasn1-4.13/lib/gllib/string.in.h": {},
+  "libtasn1/libtasn1-4.13/lib/gllib/strverscmp.c": {
+    "__strverscmp": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/lib/gllib/sys_types.in.h": {},
+  "libtasn1/libtasn1-4.13/lib/gllib/verify.h": {},
+  "libtasn1/libtasn1-4.13/src/asn1Coding.c": {
+    "usage": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": [
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"\\\nUsage: %s [OPTION] DEFINITIONS ASSIGNMENTS\\n\"",
+        "\"\\\nGenerates a DER encoding of ASN.1 DEFINITIONS file\\n\\\nand ASSIGNMENTS file with value assignments.\\n\\\n\\n\"",
+        "\"\\\nMandatory arguments to long options are mandatory for short options too.\\n\\\n  -c, --check           checks the syntax only\\n\\\n  -o, --output=FILE     output file\\n\\\n  -h, --help            display this help and exit\\n\\\n  -v, --version         output version information and exit\\n\""
+      ]
+    },
+    "readAssignment": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"''\"",
+        "\"%s\""
+      ]
+    },
+    "createFileName": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": [
+        "\".out\"",
+        "\".out\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        358,
+        1
+      ],
+      "strings": [
+        "\"help\"",
+        "\"version\"",
+        "\"check\"",
+        "\"output\"",
+        "\"hvco:\"",
+        "\"Fabio Fiorina\"",
+        "\"asn1Coding: option '%s' not recognized or without argument.\\n\\n\"",
+        "\"asn1Coding: ?? getopt returned character code Ox%x ??\\n\"",
+        "\"asn1Coding: input files missing\\n\"",
+        "\"Parse: done.\\n\"",
+        "\"asn1Coding: FILE %s NOT FOUND\\n\"",
+        "\"asn1Coding: %s\\n\"",
+        "\"libtasn1 ERROR: %s\\n\"",
+        "\"r\"",
+        "\"asn1Coding: file '%s' not found\\n\"",
+        "\"var=%s, value=%s\\n\"",
+        "\"(NULL)\"",
+        "\"libtasn1 ERROR: %s\\n\"",
+        "\"asn1Coding: error reading assignment file\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\\nCoding: %s\\n\\n\"",
+        "\"asn1Coding: %s\\n\"",
+        "\"-----------------\\nNumber of bytes=%i\\n\"",
+        "\"%02x \"",
+        "\"\\n-----------------\\n\"",
+        "\"\\nOutputFile=%s\\n\"",
+        "\"w\"",
+        "\"asn1Coding: output file '%s' not available\\n\"",
+        "\"%c\"",
+        "\"\\nWriting: done.\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/src/asn1Decoding.c": {
+    "usage": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": [
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"\\\nUsage: %s [OPTION] DEFINITIONS ENCODED ASN1TYPE\\n\"",
+        "\"\\\nDecodes DER data in ENCODED file, for the ASN1TYPE element\\n\\\ndescribed in ASN.1 DEFINITIONS file, and print decoded structures.\\n\\\n\\n\"",
+        "\"\\\n  -b, --benchmark       perform a benchmark on decoding\\n\\\n  -s, --strict          use strict DER decoding\\n\\\n  -t, --no-time-strict  use strict DER decoding but not in time fields\\n\\\n  -h, --help            display this help and exit\\n\\\n  -v, --version         output version information and exit\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        252,
+        1
+      ],
+      "strings": [
+        "\"help\"",
+        "\"strict\"",
+        "\"no-time-strict\"",
+        "\"debug\"",
+        "\"benchmark\"",
+        "\"version\"",
+        "\"hbdsvtc\"",
+        "\"Fabio Fiorina\"",
+        "\"asn1Decoding: option '%s' not recognized or without argument.\\n\\n\"",
+        "\"asn1Decoding: ?? getopt returned character code Ox%x ??\\n\"",
+        "\"asn1Decoding: input files or ASN.1 type \"",
+        "\"name missing\\n\"",
+        "\"allocation failed\\n\"",
+        "\"Parse: done.\\n\"",
+        "\"asn1Decoding: FILE %s NOT FOUND\\n\"",
+        "\"asn1Decoding: %s\\n\"",
+        "\"libtasn1 ERROR: %s\\n\"",
+        "\"asn1Decoding: could not read '%s'\\n\""
+      ]
+    },
+    "simple_decode": {
+      "start_point": [
+        254,
+        0
+      ],
+      "end_point": [
+        300,
+        1
+      ],
+      "strings": [
+        "\"Structure creation: %s\\n\"",
+        "\"\\nDecoding: %s\\n\"",
+        "\"asn1Decoding: %s\\n\"",
+        "\"\\nDECODING RESULT:\\n\"",
+        "\"\""
+      ]
+    },
+    "decode": {
+      "start_point": [
+        302,
+        0
+      ],
+      "end_point": [
+        326,
+        1
+      ],
+      "strings": [
+        "\"structures\"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/src/asn1Parser.c": {
+    "usage": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": [
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"\\\nUsage: %s [OPTION] FILE\\n\"",
+        "\"\\\nRead FILE with ASN.1 definitions and generate\\n\\\na C array that is used with libtasn1 functions.\\n\\\n\\n\"",
+        "\"\\\nMandatory arguments to long options are mandatory for short options too.\\n\\\n  -c, --check           checks the syntax only\\n\\\n  -o, --output=FILE     output file\\n\\\n  -n, --name=NAME       array name\\n\\\n  -h, --help            display this help and exit\\n\\\n  -v, --version         output version information and exit\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": [
+        "\"help\"",
+        "\"version\"",
+        "\"check\"",
+        "\"output\"",
+        "\"name\"",
+        "\"hvco:n:\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"Fabio Fiorina\"",
+        "\"asn1Parser: option '%s' not recognized or without argument.\\n\\n\"",
+        "\"asn1Parser: ?? getopt returned character code Ox%x ??\\n\"",
+        "\"Done.\\n\"",
+        "\"asn1Parser: file %s was not found\\n\"",
+        "\"asn1Parser: %s\\n\"",
+        "\"libtasn1 ERROR: %s\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/src/benchmark.c": {
+    "alarm_handler": [
+      {
+        "start_point": [
+          32,
+          0
+        ],
+        "end_point": [
+          39,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          41,
+          0
+        ],
+        "end_point": [
+          45,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "value2human": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": [
+        "\"KB\"",
+        "\"MB\"",
+        "\"GB\"",
+        "\"bytes\""
+      ]
+    },
+    "start_benchmark": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": [
+        "\"error: CreateWaitableTimer %u\\n\"",
+        "\"error: CreateThread %u\\n\"",
+        "\"error: SetWaitableTimer %u\\n\""
+      ]
+    },
+    "stop_benchmark": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": [
+        "\"  Processed %.2f %s in %.2f secs: \"",
+        "\"%.2f %s/sec\\n\"",
+        "\"  Processed %.2f %s in %.2f secs: \"",
+        "\"%.2f %s/sec\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/src/benchmark.h": {
+    "timespec_sub_ms": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/coding-decoding2.c": {
+    "main": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": [
+        "\"ASN1CODINGDECODING2\"",
+        "\"coding-decoding2.asn\"",
+        "\"error in %d\\n\"",
+        "\"TEST.Main\"",
+        "\"error in %d\\n\"",
+        "\"pad1\"",
+        "\"\\x01\\x02\\x03\"",
+        "\"error in %d\\n\"",
+        "\"pad2\"",
+        "\"\\x00\\x01\"",
+        "\"error in %d\\n\"",
+        "\"choice0\"",
+        "\"choice1\"",
+        "\"error in %d\\n\"",
+        "\"choice0.choice1\"",
+        "\"choice2\"",
+        "\"error in %d\\n\"",
+        "\"choice0.choice1.choice2\"",
+        "\"int1\"",
+        "\"error in %d\\n\"",
+        "\"choice0.choice1.choice2.int1\"",
+        "\"1234\"",
+        "\"error in %d\\n\"",
+        "\"\"",
+        "\"error in %d\\n\"",
+        "\"choice0.choice1.choice2.int1\"",
+        "\"Cannot find start End: %d\\n\"",
+        "\"Error in start and end values for choice1.choice2.int1. Have: %d..%d\\n\"",
+        "\"choice0.choice1\"",
+        "\"Cannot find start End: %d\\n\"",
+        "\"Error in start and end values for choice1. Have: %d..%d\\n\"",
+        "\"pad2\"",
+        "\"Cannot find start End\\n\"",
+        "\"Error in start and end values for pad2. Have: %d..%d\\n\"",
+        "\"TEST.Main\"",
+        "\"error in %d\\n\"",
+        "\"der:\"",
+        "\"%.2x \"",
+        "\"\\n\"",
+        "\"error in %d: %s\\n\"",
+        "\"choice0.choice1.choice2.int1\"",
+        "\"Cannot find start End: %d\\n\"",
+        "\"Error in start and end values for choice0.choice1.choice2.int1. Have: %d..%d\\n\"",
+        "\"pad2\"",
+        "\"Cannot find start End: %d\\n\"",
+        "\"Error in start and end values for pad2. Have: %d..%d\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/coding-long-oid.c": {
+    "main": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        204,
+        1
+      ],
+      "strings": [
+        "\"ASN1PKIX\"",
+        "\"pkix.asn\"",
+        "\"error in %d: %s\\n\"",
+        "\"PKIX1.Certificate\"",
+        "\"error in %d\\n\"",
+        "\"error in %d: %s\\n\"",
+        "\"\"",
+        "\"error in %d\\n\"",
+        "\"error in %d\\n\"",
+        "\"new_size is %d, expected: %d\\n\"",
+        "\"error in %d\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/copynode.c": {
+    "main": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": [
+        "\"ASN1PKIX\"",
+        "\"ASN1CRLDER\"",
+        "\"pkix.asn\"",
+        "\"crl.der\"",
+        "\"\\n\\n/****************************************/\\n\"",
+        "\"/*     Test sequence : Test_indefinite  */\\n\"",
+        "\"/****************************************/\\n\\n\"",
+        "\"ASN1TREE: %s\\n\"",
+        "\"0.3.3\"",
+        "\"\\nLibrary version check ERROR:\\n actual version: %s\\n\\n\"",
+        "\"ErrorDescription = %s\\n\\n\"",
+        "\"rb\"",
+        "\"Cannot read file %s\\n\"",
+        "\"Cannot read from file %s\\n\"",
+        "\"PKIX1.CertificateList\"",
+        "\"Cannot create CRL element\\n\"",
+        "\"Cannot decode DER data (size %ld)\\n\"",
+        "\"PKIX1.CertificateList\"",
+        "\"Cannot create CRL element\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"Cannot copy node\\n\"",
+        "\"\"",
+        "\"Cannot encode data (size %ld)\\n\"",
+        "\"DER encoded data differ!\\n\"",
+        "\"\"",
+        "\"Cannot copy node (dup_node)\\n\"",
+        "\"\"",
+        "\"Cannot encode data (size %ld)\\n\"",
+        "\"DER encoded data differ!\\n\"",
+        "\"tbsCertList.issuer\"",
+        "\"Cannot find start End\\n\"",
+        "\"Error in start and end values for issuer. Have: %d..%d\\n\"",
+        "\"signature\"",
+        "\"Cannot find start End\\n\"",
+        "\"Error in start and end values for signature. Have: %d..%d\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/object-id-decoding.c": {
+    "main": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "strings": [
+        "\"%d: asn1_get_object_id_der iter %lu: got %d expected %d\\n\"",
+        "\"%d: iter %lu: error in DER, length returned is %d, had %d\\n\"",
+        "\"%d: strcmp iter %lu: got invalid OID: %s, expected: %s\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/ocsp-basic-response.c": {
+    "main": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": [
+        "\"ASN1CHOICE_OCSP\"",
+        "\"ASN1_RESPONSE_OCSP_DATA\"",
+        "\"pkix.asn\"",
+        "\"ocsp-basic-response.der\"",
+        "\"error in %d: %s\\n\"",
+        "\"PKIX1.BasicOCSPResponse\"",
+        "\"error in %d\\n\"",
+        "\"rb\"",
+        "\"error in %d\\n\"",
+        "\"error in %d: decoding: %s\\n\"",
+        "\"tbsResponseData.responderID\"",
+        "\"error in %d: %s\\n\"",
+        "\"byKey\"",
+        "\"error in %d: %s\\n\"",
+        "\"tbsResponseData.responderID.byKey\"",
+        "\"error in %d: result is: %s\\n\"",
+        "\"error in %d: The type (%d) doesn't match octet string.\\n\"",
+        "\"length doesn't match the expected (got: %d, should be: 20)\\n\"",
+        "\"tbsResponseData.responderID.byKey\"",
+        "\"error in %d: %s\\n\"",
+        "\"\\x50\\xEA\\x73\\x89\\xDB\\x29\\xFB\\x10\\x8F\\x9E\\xE5\\x01\\x20\\xD4\\xDE\\x79\\x99\\x48\\x83\\xF7\"",
+        "\"contents don't match\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/octet-string.c": {
+    "main": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        186,
+        1
+      ],
+      "strings": [
+        "\"%d: asn1_get_octet_der iter %lu: got %d expected %d\\n\"",
+        "\"%d: error in DER, length returned is %d, had %d\\n\"",
+        "\"%d: memcmp iter %lu: got invalid decoding\\n\"",
+        "\"encoding iter %lu: got invalid encoding\\n\"",
+        "\"%d: asn1_decode_simple_ber iter %lu: got %s expected %s\\n\"",
+        "\"%d: error in iter %lu: DER, length returned is %d, had %d\\n\"",
+        "\"%d: memcmp iter %lu: got invalid decoding\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/spc_pe_image_data.c": {
+    "main": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": [
+        "\"ASN1_MSCAT\"",
+        "\"ASN1_SPC_PE_IMAGE_DATA\"",
+        "\"mscat.asn\"",
+        "\"spc_pe_image_data.der\"",
+        "\"error in %d: %s\\n\"",
+        "\"CATALOG.SpcPEImageData\"",
+        "\"error in %d\\n\"",
+        "\"rb\"",
+        "\"error in %d\\n\"",
+        "\"error in %d: decoding: %s\\n\"",
+        "\"flags\"",
+        "\"error in %d: %s\\n\"",
+        "\"error len=%d, sizeof(data)=%zu\\n\"",
+        "\"flags\"",
+        "\"error in %d: %s\\n\"",
+        "\"link\"",
+        "\"error in %d: result is: %s\\n\"",
+        "\"error in %d: The type (%u) doesn't match choice.\\n\"",
+        "\"length doesn't match the expected (got: %d, should be: 20)\\n\"",
+        "\"link\"",
+        "\"error in %d: %s\\n\"",
+        "\"file\"",
+        "\"contents don't match\\n\"",
+        "\"SUCCESS\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/strict-der.c": {
+    "main": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": [
+        "\"ASN1PKIX\"",
+        "\"ASN1INDEF\"",
+        "\"pkix.asn\"",
+        "\"TestIndef.p12\"",
+        "\"\\n\\n/****************************************/\\n\"",
+        "\"/*     Test sequence : strict DER decoding  */\\n\"",
+        "\"/****************************************/\\n\\n\"",
+        "\"ASN1TREE: %s\\n\"",
+        "\"0.2.11\"",
+        "\"\\nLibrary version check ERROR:\\n actual version: %s\\n\\n\"",
+        "\"ErrorDescription = %s\\n\\n\"",
+        "\"rb\"",
+        "\"Cannot read file %s\\n\"",
+        "\"Cannot read from file %s\\n\"",
+        "\"PKIX1.pkcs-12-PFX\"",
+        "\"Cannot create PKCS12 element\\n\"",
+        "\"Cannot decode BER data (size %ld) in %s: %s\\n\"",
+        "\"PKIX1.pkcs-12-PFX\"",
+        "\"Cannot create PKCS12 element\\n\"",
+        "\"Should not have decoded DER data (size %ld) in %s: %s\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_choice.c": {
+    "main": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": [
+        "\"ASN1CHOICE\"",
+        "\"pkix.asn\"",
+        "\"error in %d\\n\"",
+        "\"TEST.Choice0\"",
+        "\"error in %d\\n\"",
+        "\"\"",
+        "\"choice1\"",
+        "\"error in %d\\n\"",
+        "\"choice1\"",
+        "\"choice2\"",
+        "\"error in %d\\n\"",
+        "\"choice1.choice2\"",
+        "\"int1\"",
+        "\"error in %d\\n\"",
+        "\"choice1.choice2.int1\"",
+        "\"1234\"",
+        "\"error in %d\\n\"",
+        "\"\"",
+        "\"error in %d\\n\"",
+        "\"TEST.Choice0\"",
+        "\"error in %d\\n\"",
+        "\"der:\"",
+        "\"%.2x \"",
+        "\"\\n\"",
+        "\"error in %d\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_choice_ocsp.c": {
+    "main": {
+      "start_point": [
+        5,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": [
+        "\"ASN1CHOICE_OCSP\"",
+        "\"ASN1CHOICE_OCSP_DATA\"",
+        "\"pkix.asn\"",
+        "\"ocsp.der\"",
+        "\"error in %d: %s\\n\"",
+        "\"PKIX1.ResponseData\"",
+        "\"error in %d\\n\"",
+        "\"rb\"",
+        "\"error in %d\\n\"",
+        "\"error in %d: %s\\n\"",
+        "\"\"",
+        "\"error in %d: %s\\n\"",
+        "\"length doesn't match (got: %d, should be: %d)\\n\"",
+        "\"contents don't match\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_encdec.c": {
+    "main": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": [
+        "\"ASN1PKIX\"",
+        "\"ASN1CRLDER\"",
+        "\"pkix.asn\"",
+        "\"crl.der\"",
+        "\"\\n\\n/****************************************/\\n\"",
+        "\"/*     Test sequence : Test_indefinite  */\\n\"",
+        "\"/****************************************/\\n\\n\"",
+        "\"ASN1TREE: %s\\n\"",
+        "\"0.3.3\"",
+        "\"\\nLibrary version check ERROR:\\n actual version: %s\\n\\n\"",
+        "\"ErrorDescription = %s\\n\\n\"",
+        "\"rb\"",
+        "\"Cannot read file %s\\n\"",
+        "\"Cannot read from file %s\\n\"",
+        "\"PKIX1.CertificateList\"",
+        "\"Cannot create CRL element\\n\"",
+        "\"Cannot decode DER data (size %ld)\\n\"",
+        "\"tbsCertList\"",
+        "\"Cannot find start End\\n\"",
+        "\"Error in start and end values. Have: %d..%d\\n\"",
+        "\"signature\"",
+        "\"Cannot find start End\\n\"",
+        "\"Error in start and end values for signature. Have: %d..%d\\n\"",
+        "\"tbsCertList.revokedCertificates.?1.userCertificate\"",
+        "\"Cannot find start End\\n\"",
+        "\"Error in start and end values for userCertificate. Have: %d..%d\\n\"",
+        "\"\"",
+        "\"Cannot encode data (size %ld)\\n\"",
+        "\"DER encoded data differ!\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_encoding.c": {
+    "main": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"ASN1ENCODING\"",
+        "\"Test_encoding.asn\"",
+        "\"\\n\\n/****************************************/\\n\"",
+        "\"/*     Test sequence : coding-decoding  */\\n\"",
+        "\"/****************************************/\\n\\n\"",
+        "\"0.3.3\"",
+        "\"\\nLibrary version check ERROR:\\n actual version: %s\\n\\n\"",
+        "\"ErrorDescription = %s\\n\\n\"",
+        "\"TEST_TREE.Koko\"",
+        "\"asn1_create_element(): \"",
+        "\"seqint\"",
+        "\"NEW\"",
+        "\"asn1_write_value(): seqint \"",
+        "\"seqint.?LAST\"",
+        "\"1234\"",
+        "\"asn1_write_value(): seqint.?LAST \"",
+        "\"int\"",
+        "\"\\x0f\\xff\\x01\"",
+        "\"asn1_write_value(): int \"",
+        "\"str\"",
+        "\"string\"",
+        "\"asn1_write_value(): str \"",
+        "\"a\"",
+        "\"string1\"",
+        "\"asn1_write_value(): str \"",
+        "\"b\"",
+        "\"string2\"",
+        "\"asn1_write_value(): str \"",
+        "\"c\"",
+        "\"string3\"",
+        "\"asn1_write_value(): str \"",
+        "\"exp\"",
+        "\"string4\"",
+        "\"asn1_write_value(): str \"",
+        "\"\"",
+        "\"Encoding error.\\n\"",
+        "\"Decoding error.\\n\"",
+        "\"Success\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_errors.c": {
+    "main": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_indefinite.c": {
+    "main": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        203,
+        1
+      ],
+      "strings": [
+        "\"ASN1PKIX\"",
+        "\"ASN1INDEF\"",
+        "\"ASN1INDEF2\"",
+        "\"ASN1INDEF3\"",
+        "\"pkix.asn\"",
+        "\"TestIndef.p12\"",
+        "\"TestIndef2.p12\"",
+        "\"TestIndef3.der\"",
+        "\"\\n\\n/****************************************/\\n\"",
+        "\"/*     Test sequence : Test_indefinite  */\\n\"",
+        "\"/****************************************/\\n\\n\"",
+        "\"ASN1TREE: %s\\n\"",
+        "\"0.2.11\"",
+        "\"\\nLibrary version check ERROR:\\n actual version: %s\\n\\n\"",
+        "\"ErrorDescription = %s\\n\\n\"",
+        "\"rb\"",
+        "\"Cannot read file %s\\n\"",
+        "\"Cannot read from file %s\\n\"",
+        "\"PKIX1.pkcs-12-PFX\"",
+        "\"Cannot create PKCS12 element\\n\"",
+        "\"Cannot decode BER data (size %ld) in %s: %s\\n\"",
+        "\"rb\"",
+        "\"Cannot read file %s\\n\"",
+        "\"Cannot read from file %s\\n\"",
+        "\"PKIX1.pkcs-12-PFX\"",
+        "\"Cannot create PKCS12 element\\n\"",
+        "\"Cannot decode BER data (size %ld) in %s: %s\\n\"",
+        "\"rb\"",
+        "\"Cannot read file %s\\n\"",
+        "\"Cannot read from file %s\\n\"",
+        "\"PKIX1.pkcs-12-CertBag\"",
+        "\"Cannot create CertBag element\\n\"",
+        "\"Cannot decode DER data (size %ld) in %s: %s\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_overflow.c": {
+    "main": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"\\xFF\\xFF\\xFF\\xFF\\xFF\\xFF\\xFF\\xFF\\xFF\\xFF\"",
+        "\"OK: asn1_get_length_der bignum\"",
+        "\"ERROR: asn1_get_length_der bignum (l %ld len %d)\\n\"",
+        "\"OK: asn1_get_length_der intnum\"",
+        "\"ERROR: asn1_get_length_der intnum (l %ld len %d)\\n\"",
+        "\"OK: asn1_get_length_der overflow-small\"",
+        "\"ERROR: asn1_get_length_der overflow-small (l %ld len %d)\\n\"",
+        "\"OK: asn1_get_length_der overflow-large1\"",
+        "\"ERROR: asn1_get_length_der overflow-large1 (l %ld len %d)\\n\"",
+        "\"OK: asn1_get_length_der overflow-large2\"",
+        "\"ERROR: asn1_get_length_der overflow-large2 (l %ld len %d)\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_parser.c": {
+    "readLine": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": []
+    },
+    "createFile": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"w\"",
+        "\"%s\\n\"",
+        "\"%s\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        154,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": [
+        "\"ASN1PARSER\"",
+        "\"Test_parser.asn\"",
+        "\"\\n\\n/****************************************/\\n\"",
+        "\"/*     Test sequence : Test_parser      */\\n\"",
+        "\"/****************************************/\\n\\n\"",
+        "\"ASN1PARSER: %s\\n\"",
+        "\"File '%s' not correct\\n\"",
+        "\"ErrorDescription = %s\\n\\n\"",
+        "\"ERROR N. %d:\\n\"",
+        "\"  Line %d - %s\\n\"",
+        "\"  Error expected: %s - %s\\n\"",
+        "\"  Error detected: %s - %s\\n\\n\"",
+        "\"Total tests : %d\\n\"",
+        "\"Total errors: %d\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_simple.c": {
+    "main": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        208,
+        1
+      ],
+      "strings": [
+        "\"asn1_get_bit_der zero\\n\"",
+        "\"\\\\x%02x\"",
+        "\"\\n\"",
+        "\"asn1_bit_der iter %lu\\n\"",
+        "\"asn1_get_bit_der iter %lu, err: %d\\n\"",
+        "\"\\x04\\x06\\x6e\\x5d\\xc0\"",
+        "\"\\x6e\\x5d\\xc0\"",
+        "\"asn1_get_bit_der example\\n\"",
+        "\"\\x04\\x06\\x6e\\x5d\\xc0\"",
+        "\"asn1_bit_der example roundtrip\\n\"",
+        "\"\\x04\\x06\\x6e\\x5d\\xe0\"",
+        "\"\\x6e\\x5d\\xe0\"",
+        "\"asn1_get_bit_der example padded\\n\"",
+        "\"\\x04\\x06\\x6e\\x5d\\xc0\"",
+        "\"asn1_bit_der example roundtrip\\n\"",
+        "\"\\x81\\x04\\x06\\x6e\\x5d\\xc0\"",
+        "\"\\x6e\\x5d\\xc0\"",
+        "\"asn1_get_bit_der example long form\\n\"",
+        "\"\\x04\\x06\\x6e\\x5d\\xc0\"",
+        "\"asn1_bit_der example roundtrip\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_strings.c": {
+    "main": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": [
+        "\"Encoding error in %u: %s\\n\"",
+        "\"DER encoding differs in %u! (size: %u, expected: %u)\\n\"",
+        "\"Decoding error in %u: %s\\n\"",
+        "\"DER decoded data differ in %u! (size: %u, expected: %u)\\n\"",
+        "\"BER decoding error in %u: %s\\n\"",
+        "\"BER decoded data differ in %u! (size: %u, expected: %u)\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_tree.c": {
+    "main": {
+      "start_point": [
+        459,
+        0
+      ],
+      "end_point": [
+        828,
+        1
+      ],
+      "strings": [
+        "\"ASN1TREE\"",
+        "\"Test_tree.asn\"",
+        "\"\\n\\n/****************************************/\\n\"",
+        "\"/*     Test sequence : Test_tree        */\\n\"",
+        "\"/****************************************/\\n\\n\"",
+        "\"ASN1TREE: %s\\n\"",
+        "\"0.2.11\"",
+        "\"\\nLibrary version check ERROR:\\n actual version: %s\\n\\n\"",
+        "\"ErrorDescription = %s\\n\\n\"",
+        "\"Test_tree.out\"",
+        "\"w\"",
+        "\"Output file ERROR\\n\"",
+        "\"TEST_TREE\"",
+        "\"\\n\"",
+        "\"DER\"",
+        "\"\\n\"",
+        "\"DER encoding len:%i\\n\"",
+        "\"DER encoding: \"",
+        "\"%02x \"",
+        "\"\\n\\n\"",
+        "\"ERROR in %d:\\n\"",
+        "\"  Action %d - %s - %s - %d\\n\"",
+        "\"  Error expected: %s\\n\"",
+        "\"  Error detected: %s\\n\\n\"",
+        "\"ERROR in %d:\\n\"",
+        "\"  Action %d - %s - %s - %d\\n\"",
+        "\"  Error expected: %s\\n\"",
+        "\"  Error detected: %s\\n\"",
+        "\"  Error description : %s\\n\\n\"",
+        "\"ERROR in %d:\\n\"",
+        "\"  Action %d - %s\\n\"",
+        "\"  Error expected: %s - %d\\n\"",
+        "\"  Error detected: %s - %d\\n\\n\"",
+        "\"ERROR in %d:\\n\"",
+        "\"  Action %d - %s\\n\"",
+        "\"  Error expected: %s - %d\\n\"",
+        "\"  Error detected: %s - %d\\n\\n\"",
+        "\"ERROR in %d:\\n\"",
+        "\"  Action %d - %s\\n\"",
+        "\"  Error expected: %s - %s\\n\"",
+        "\"  Value detected: %s\\n\\n\"",
+        "\"START\"",
+        "\"END\"",
+        "\"ERROR in %d:\\n\"",
+        "\"  Action %d - %s - %d\\n\"",
+        "\"  Error expected: %s - %s - %d\\n\"",
+        "\"  Error detected: %s - %d - %d\\n\\n\"",
+        "\"TAG\"",
+        "\"CLASS\"",
+        "\"ERROR in %d:\\n\"",
+        "\"  Action %d - %s - %d\\n\"",
+        "\"  Error expected: %s - %s - %d\\n\"",
+        "\"  Error detected: %s - %d - %d\\n\\n\"",
+        "\"ERROR in %d:\\n\"",
+        "\"  Action %d - %s\\n\"",
+        "\"  Error expected: %s - %d - \"",
+        "\"%02x\"",
+        "\"\\n  Error detected: %s - %d - \"",
+        "\"%02x\"",
+        "\"\\n\\n\"",
+        "\"Total tests : %d\\n\"",
+        "\"Total errors: %d\\n\""
+      ]
+    }
+  },
+  "libtasn1/libtasn1-4.13/tests/Test_tree_asn1_tab.c": {},
+  "libtasn1/libtasn1-4.13/windows/asn1-parser/config.h": {},
+  "libtasn1/libtasn1-4.13/windows/gnulib/getopt.h": {}
+}

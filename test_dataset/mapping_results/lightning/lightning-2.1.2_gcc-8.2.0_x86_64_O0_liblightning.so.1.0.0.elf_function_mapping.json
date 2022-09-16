@@ -1,0 +1,5323 @@
+{
+  "Func_00107d18": [],
+  "Func_001404a0": [],
+  "Func_00108317": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_disasm.c",
+      "jit_init_debug",
+      [
+        59,
+        206
+      ]
+    ]
+  ],
+  "Func_00108322": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_disasm.c",
+      "jit_finish_debug",
+      [
+        208,
+        217
+      ]
+    ]
+  ],
+  "Func_00108329": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_disasm.c",
+      "_jit_disassemble",
+      [
+        219,
+        233
+      ]
+    ]
+  ],
+  "Func_00108334": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_memcpy",
+      [
+        41,
+        47
+      ]
+    ]
+  ],
+  "Func_0010836e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_memmove",
+      [
+        49,
+        55
+      ]
+    ]
+  ],
+  "Func_001083a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_set_memory_functions",
+      [
+        57,
+        71
+      ]
+    ]
+  ],
+  "Func_00108412": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_get_memory_functions",
+      [
+        73,
+        81
+      ]
+    ]
+  ],
+  "Func_0010844f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_alloc",
+      [
+        83,
+        88
+      ]
+    ]
+  ],
+  "Func_00108494": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_realloc",
+      [
+        90,
+        96
+      ]
+    ]
+  ],
+  "Func_00108502": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_free",
+      [
+        98,
+        105
+      ]
+    ]
+  ],
+  "Func_0010853b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_default_alloc_func",
+      [
+        107,
+        111
+      ]
+    ]
+  ],
+  "Func_00108555": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_default_realloc_func",
+      [
+        113,
+        117
+      ]
+    ]
+  ],
+  "Func_0010857a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_memory.c",
+      "jit_default_free_func",
+      [
+        119,
+        123
+      ]
+    ]
+  ],
+  "Func_00108595": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "jit_init_note",
+      [
+        39,
+        42
+      ]
+    ]
+  ],
+  "Func_0010859c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "jit_finish_note",
+      [
+        44,
+        47
+      ]
+    ]
+  ],
+  "Func_001085a3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "_jit_name",
+      [
+        49,
+        70
+      ]
+    ]
+  ],
+  "Func_001086de": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "_jit_note",
+      [
+        72,
+        97
+      ]
+    ]
+  ],
+  "Func_001088c7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "_jit_annotate",
+      [
+        99,
+        165
+      ]
+    ]
+  ],
+  "Func_00108c52": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "_jit_set_note",
+      [
+        167,
+        214
+      ]
+    ]
+  ],
+  "Func_00108fab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "_jit_get_note",
+      [
+        216,
+        248
+      ]
+    ]
+  ],
+  "Func_00109151": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "_new_note",
+      [
+        250,
+        268
+      ]
+    ]
+  ],
+  "Func_00109216": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "new_line",
+      [
+        270,
+        295
+      ]
+    ]
+  ],
+  "Func_0010938f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "_note_search_index",
+      [
+        297,
+        319
+      ]
+    ]
+  ],
+  "Func_0010949d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "line_insert_index",
+      [
+        321,
+        341
+      ]
+    ]
+  ],
+  "Func_00109533": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "line_search_index",
+      [
+        343,
+        368
+      ]
+    ]
+  ],
+  "Func_00109623": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "offset_insert_index",
+      [
+        370,
+        389
+      ]
+    ]
+  ],
+  "Func_001096a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_note.c",
+      "offset_search_index",
+      [
+        391,
+        414
+      ]
+    ]
+  ],
+  "Func_0010977e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_print.c",
+      "_jit_print",
+      [
+        52,
+        65
+      ]
+    ]
+  ],
+  "Func_00109816": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_print.c",
+      "_jit_print_node",
+      [
+        67,
+        367
+      ]
+    ]
+  ],
+  "Func_0010bb14": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_size.c",
+      "jit_init_size",
+      [
+        60,
+        74
+      ]
+    ]
+  ],
+  "Func_0010bb1b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_size.c",
+      "_jit_get_size",
+      [
+        97,
+        107
+      ]
+    ]
+  ],
+  "Func_0010bb80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_size.c",
+      "jit_get_max_instr",
+      [
+        110,
+        114
+      ]
+    ]
+  ],
+  "Func_0010bb8b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_size.c",
+      "jit_finish_size",
+      [
+        116,
+        130
+      ]
+    ]
+  ],
+  "Func_0010bb92": [],
+  "Func_0010bbb7": [],
+  "Func_0010bbc8": [],
+  "Func_0010c1a6": [],
+  "Func_0010c30c": [],
+  "Func_0010c33c": [],
+  "Func_0010c374": [],
+  "Func_0010c3c2": [],
+  "Func_0010c418": [],
+  "Func_0010c4a6": [],
+  "Func_0010c50c": [],
+  "Func_0010c522": [],
+  "Func_0010c9de": [],
+  "Func_0010cb64": [],
+  "Func_0010cc01": [],
+  "Func_0010cc58": [],
+  "Func_0010ccda": [],
+  "Func_0010cd4d": [],
+  "Func_0010cd96": [],
+  "Func_0010cdc9": [],
+  "Func_0010ce9f": [],
+  "Func_0010cf25": [],
+  "Func_0010cf97": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_ireg",
+      [
+        823,
+        832
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_freg",
+      [
+        834,
+        843
+      ]
+    ]
+  ],
+  "Func_0010d189": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_symbol",
+      [
+        845,
+        860
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "jmp_forward",
+      [
+        862,
+        866
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "mov_forward",
+      [
+        868,
+        872
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "call_forward",
+      [
+        874,
+        878
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "make_arg",
+      [
+        880,
+        887
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_arg",
+      [
+        889,
+        898
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_imm",
+      [
+        900,
+        940
+      ]
+    ]
+  ],
+  "Func_0010d44a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_imm",
+      [
+        900,
+        940
+      ]
+    ]
+  ],
+  "Func_0010d4bf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_imm",
+      [
+        900,
+        940
+      ]
+    ]
+  ],
+  "Func_0010d4f7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_imm",
+      [
+        900,
+        940
+      ]
+    ]
+  ],
+  "Func_0010d52b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_imm",
+      [
+        900,
+        940
+      ]
+    ]
+  ],
+  "Func_0010d54d": [],
+  "Func_0010d573": [],
+  "Func_0010d5ab": [],
+  "Func_0010d5f4": [],
+  "Func_0010d640": [],
+  "Func_0010d68c": [],
+  "Func_0010d6d5": [],
+  "Func_0010d72e": [],
+  "Func_0010d75e": [],
+  "Func_0010d7ba": [],
+  "Func_0010d816": [],
+  "Func_0010d846": [],
+  "Func_0010d8a2": [],
+  "Func_0010d8fe": [],
+  "Func_0010d967": [],
+  "Func_0010d9da": [],
+  "Func_0010da46": [],
+  "Func_0010dab2": [],
+  "Func_0010db1b": [],
+  "Func_0010db87": [],
+  "Func_0010dbf3": [],
+  "Func_0010dc4b": [],
+  "Func_0010dc6a": [],
+  "Func_0010dca1": [],
+  "Func_0010ddcb": [],
+  "Func_0010de0f": [],
+  "Func_0010de47": [],
+  "Func_0010de7a": [],
+  "Func_0010df02": [],
+  "Func_0010df5f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "allocai",
+      [
+        1371,
+        1380
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "movi",
+      [
+        1425,
+        1471
+      ]
+    ]
+  ],
+  "Func_0010e13a": [],
+  "Func_0010e18f": [],
+  "Func_0010e24f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "vastart",
+      [
+        1654,
+        1659
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "vaarg",
+      [
+        1660,
+        1665
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "vaarg_d",
+      [
+        1666,
+        1672
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "vaend",
+      [
+        1673,
+        1678
+      ]
+    ]
+  ],
+  "Func_0010ea26": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "error",
+      [
+        1722,
+        1740
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "warn",
+      [
+        1742,
+        1749
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "message",
+      [
+        1751,
+        1758
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "getch",
+      [
+        1760,
+        1784
+      ]
+    ]
+  ],
+  "Func_0010f098": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "getch",
+      [
+        1760,
+        1784
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "getch_noeof",
+      [
+        1786,
+        1795
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "ungetch",
+      [
+        1797,
+        1810
+      ]
+    ]
+  ],
+  "Func_0010f1f2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "ungetch",
+      [
+        1797,
+        1810
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "skipws",
+      [
+        1812,
+        1833
+      ]
+    ]
+  ],
+  "Func_0010f35b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "skipws",
+      [
+        1812,
+        1833
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "skipnl",
+      [
+        1835,
+        1859
+      ]
+    ]
+  ],
+  "Func_0010f3df": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "skipnl",
+      [
+        1835,
+        1859
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "skipct",
+      [
+        1861,
+        1884
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "skipcp",
+      [
+        1886,
+        1912
+      ]
+    ]
+  ],
+  "Func_0010f65a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "skipcp",
+      [
+        1886,
+        1912
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_int",
+      [
+        1914,
+        1929
+      ]
+    ]
+  ],
+  "Func_0010f6b4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_int",
+      [
+        1914,
+        1929
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_uint",
+      [
+        1931,
+        1946
+      ]
+    ]
+  ],
+  "Func_0010f6ed": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_uint",
+      [
+        1931,
+        1946
+      ]
+    ]
+  ],
+  "Func_0010f73e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_float",
+      [
+        1948,
+        1964
+      ]
+    ]
+  ],
+  "Func_0010f7b7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "make_float",
+      [
+        1968,
+        1981
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_pointer",
+      [
+        1983,
+        2014
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_label",
+      [
+        2016,
+        2037
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "regname",
+      [
+        2039,
+        2115
+      ]
+    ]
+  ],
+  "Func_0010fa9b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "regname",
+      [
+        2039,
+        2115
+      ]
+    ]
+  ],
+  "Func_0010fac3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "regname",
+      [
+        2039,
+        2115
+      ]
+    ]
+  ],
+  "Func_0010faeb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "regname",
+      [
+        2039,
+        2115
+      ]
+    ]
+  ],
+  "Func_0010fbdc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "identifier",
+      [
+        2117,
+        2136
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_data",
+      [
+        2138,
+        2206
+      ]
+    ]
+  ],
+  "Func_0011003b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "get_data",
+      [
+        2138,
+        2206
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "dot",
+      [
+        2208,
+        2280
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "number",
+      [
+        2282,
+        2390
+      ]
+    ]
+  ],
+  "Func_001108ba": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "number",
+      [
+        2282,
+        2390
+      ]
+    ]
+  ],
+  "Func_001109df": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "escape",
+      [
+        2392,
+        2407
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "string",
+      [
+        2409,
+        2443
+      ]
+    ]
+  ],
+  "Func_00110bcc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "string",
+      [
+        2409,
+        2443
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "character",
+      [
+        2445,
+        2462
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "dynamic",
+      [
+        2464,
+        2492
+      ]
+    ]
+  ],
+  "Func_00110d81": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "dynamic",
+      [
+        2464,
+        2492
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_prim",
+      [
+        2494,
+        2663
+      ]
+    ]
+  ],
+  "Func_00110eb4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_prim",
+      [
+        2494,
+        2663
+      ]
+    ]
+  ],
+  "Func_00111285": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_prim",
+      [
+        2494,
+        2663
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_inc",
+      [
+        2665,
+        2699
+      ]
+    ]
+  ],
+  "Func_00111429": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_dec",
+      [
+        2701,
+        2735
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_unary",
+      [
+        2737,
+        2882
+      ]
+    ]
+  ],
+  "Func_0011166b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_unary",
+      [
+        2737,
+        2882
+      ]
+    ]
+  ],
+  "Func_00111884": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_unary",
+      [
+        2737,
+        2882
+      ]
+    ]
+  ],
+  "Func_00111b67": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_unary",
+      [
+        2737,
+        2882
+      ]
+    ]
+  ],
+  "Func_00111cd6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_mul",
+      [
+        2884,
+        2966
+      ]
+    ]
+  ],
+  "Func_00111f59": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_mul",
+      [
+        2884,
+        2966
+      ]
+    ]
+  ],
+  "Func_00111ff4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_mul",
+      [
+        2884,
+        2966
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_add",
+      [
+        2968,
+        3075
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_shift",
+      [
+        3077,
+        3113
+      ]
+    ]
+  ],
+  "Func_0011282b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_shift",
+      [
+        3077,
+        3113
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_bit",
+      [
+        3115,
+        3161
+      ]
+    ]
+  ],
+  "Func_0011299d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_bit",
+      [
+        3115,
+        3161
+      ]
+    ]
+  ],
+  "Func_00112ab3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_bit",
+      [
+        3115,
+        3161
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_rel",
+      [
+        3163,
+        3457
+      ]
+    ]
+  ],
+  "Func_00113031": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/check/lightning.c",
+      "expression_rel",
+      [
+        3163,
+        3457
+      ]
+    ]
+  ],
+  "Func_0011313f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "jit_get_cpu",
+      [
+        233,
+        376
+      ]
+    ]
+  ],
+  "Func_001133f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_init",
+      [
+        378,
+        398
+      ]
+    ]
+  ],
+  "Func_0011340a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_prolog",
+      [
+        400,
+        441
+      ]
+    ]
+  ],
+  "Func_001136d6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_allocai",
+      [
+        443,
+        467
+      ]
+    ]
+  ],
+  "Func_0011381c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_allocar",
+      [
+        469,
+        488
+      ]
+    ]
+  ],
+  "Func_001139da": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_ret",
+      [
+        490,
+        500
+      ]
+    ]
+  ],
+  "Func_00113a52": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retr",
+      [
+        502,
+        514
+      ]
+    ]
+  ],
+  "Func_00113adc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_reti",
+      [
+        516,
+        523
+      ]
+    ]
+  ],
+  "Func_00113b45": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retr_f",
+      [
+        525,
+        535
+      ]
+    ]
+  ],
+  "Func_00113bcf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_reti_f",
+      [
+        537,
+        544
+      ]
+    ]
+  ],
+  "Func_00113c38": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retr_d",
+      [
+        546,
+        556
+      ]
+    ]
+  ],
+  "Func_00113cc2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_reti_d",
+      [
+        558,
+        565
+      ]
+    ]
+  ],
+  "Func_00113d2b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_epilog",
+      [
+        567,
+        574
+      ]
+    ]
+  ],
+  "Func_00113d6f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_arg_register_p",
+      [
+        576,
+        583
+      ]
+    ]
+  ],
+  "Func_00113dd9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_ellipsis",
+      [
+        585,
+        622
+      ]
+    ]
+  ],
+  "Func_00113ffc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_arg",
+      [
+        624,
+        648
+      ]
+    ]
+  ],
+  "Func_00114113": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_arg_f",
+      [
+        650,
+        677
+      ]
+    ]
+  ],
+  "Func_0011422e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_arg_d",
+      [
+        679,
+        706
+      ]
+    ]
+  ],
+  "Func_00114349": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_c",
+      [
+        708,
+        720
+      ]
+    ]
+  ],
+  "Func_00114400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_uc",
+      [
+        722,
+        734
+      ]
+    ]
+  ],
+  "Func_001144b7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_s",
+      [
+        736,
+        748
+      ]
+    ]
+  ],
+  "Func_0011456e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_us",
+      [
+        750,
+        762
+      ]
+    ]
+  ],
+  "Func_00114625": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_i",
+      [
+        764,
+        781
+      ]
+    ]
+  ],
+  "Func_001146dc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_ui",
+      [
+        784,
+        794
+      ]
+    ]
+  ],
+  "Func_00114793": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_l",
+      [
+        796,
+        806
+      ]
+    ]
+  ],
+  "Func_0011484a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_putargr",
+      [
+        809,
+        821
+      ]
+    ]
+  ],
+  "Func_00114907": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_putargi",
+      [
+        823,
+        841
+      ]
+    ]
+  ],
+  "Func_00114a01": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_f",
+      [
+        843,
+        855
+      ]
+    ]
+  ],
+  "Func_00114ab8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_putargr_f",
+      [
+        857,
+        869
+      ]
+    ]
+  ],
+  "Func_00114b75": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_putargi_f",
+      [
+        871,
+        889
+      ]
+    ]
+  ],
+  "Func_00114c6a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_getarg_d",
+      [
+        891,
+        903
+      ]
+    ]
+  ],
+  "Func_00114d21": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_putargr_d",
+      [
+        905,
+        917
+      ]
+    ]
+  ],
+  "Func_00114dde": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_putargi_d",
+      [
+        919,
+        937
+      ]
+    ]
+  ],
+  "Func_00114ed3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_pushargr",
+      [
+        939,
+        962
+      ]
+    ]
+  ],
+  "Func_00115027": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_pushargi",
+      [
+        964,
+        992
+      ]
+    ]
+  ],
+  "Func_001151bb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_pushargr_f",
+      [
+        994,
+        1026
+      ]
+    ]
+  ],
+  "Func_0011530f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_pushargi_f",
+      [
+        1028,
+        1064
+      ]
+    ]
+  ],
+  "Func_001154a7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_pushargr_d",
+      [
+        1066,
+        1098
+      ]
+    ]
+  ],
+  "Func_001155fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_pushargi_d",
+      [
+        1100,
+        1136
+      ]
+    ]
+  ],
+  "Func_00115793": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_regarg_p",
+      [
+        1138,
+        1159
+      ]
+    ]
+  ],
+  "Func_00115840": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_finishr",
+      [
+        1161,
+        1194
+      ]
+    ]
+  ],
+  "Func_00115a4b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_finishi",
+      [
+        1196,
+        1230
+      ]
+    ]
+  ],
+  "Func_00115bb7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_c",
+      [
+        1232,
+        1238
+      ]
+    ]
+  ],
+  "Func_00115c14": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_uc",
+      [
+        1240,
+        1246
+      ]
+    ]
+  ],
+  "Func_00115c71": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_s",
+      [
+        1248,
+        1254
+      ]
+    ]
+  ],
+  "Func_00115cce": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_us",
+      [
+        1256,
+        1262
+      ]
+    ]
+  ],
+  "Func_00115d2b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_i",
+      [
+        1264,
+        1275
+      ]
+    ]
+  ],
+  "Func_00115d88": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_ui",
+      [
+        1278,
+        1284
+      ]
+    ]
+  ],
+  "Func_00115de5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_l",
+      [
+        1286,
+        1293
+      ]
+    ]
+  ],
+  "Func_00115e48": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_f",
+      [
+        1296,
+        1305
+      ]
+    ]
+  ],
+  "Func_00115eab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_jit_retval_d",
+      [
+        1307,
+        1316
+      ]
+    ]
+  ],
+  "Func_00115f0e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_emit_code",
+      [
+        1318,
+        2165
+      ]
+    ]
+  ],
+  "Func_0012afd8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_rex",
+      [
+        692,
+        708
+      ]
+    ]
+  ],
+  "Func_0012b058": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_rx",
+      [
+        710,
+        778
+      ]
+    ]
+  ],
+  "Func_0012b4ef": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_nop",
+      [
+        780,
+        819
+      ]
+    ]
+  ],
+  "Func_0012b85b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_lea",
+      [
+        821,
+        828
+      ]
+    ]
+  ],
+  "Func_0012b8d9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_pushr",
+      [
+        830,
+        835
+      ]
+    ]
+  ],
+  "Func_0012b933": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_popr",
+      [
+        837,
+        842
+      ]
+    ]
+  ],
+  "Func_0012b98d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_xchgr",
+      [
+        844,
+        850
+      ]
+    ]
+  ],
+  "Func_0012ba0c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_testr",
+      [
+        852,
+        858
+      ]
+    ]
+  ],
+  "Func_0012ba8b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_testi",
+      [
+        860,
+        871
+      ]
+    ]
+  ],
+  "Func_0012bb33": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_cc",
+      [
+        873,
+        880
+      ]
+    ]
+  ],
+  "Func_0012bbc3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_alur",
+      [
+        882,
+        888
+      ]
+    ]
+  ],
+  "Func_0012bc4e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_alui",
+      [
+        890,
+        917
+      ]
+    ]
+  ],
+  "Func_0012be31": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_save",
+      [
+        919,
+        929
+      ]
+    ]
+  ],
+  "Func_0012bf1e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_load",
+      [
+        931,
+        938
+      ]
+    ]
+  ],
+  "Func_0012bf9d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_addr",
+      [
+        940,
+        949
+      ]
+    ]
+  ],
+  "Func_0012c01a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_addi",
+      [
+        951,
+        978
+      ]
+    ]
+  ],
+  "Func_0012c193": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_addcr",
+      [
+        981,
+        990
+      ]
+    ]
+  ],
+  "Func_0012c1f7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_addci",
+      [
+        992,
+        1010
+      ]
+    ]
+  ],
+  "Func_0012c330": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_addxr",
+      [
+        1012,
+        1021
+      ]
+    ]
+  ],
+  "Func_0012c394": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_addxi",
+      [
+        1023,
+        1041
+      ]
+    ]
+  ],
+  "Func_0012c4cd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_subr",
+      [
+        1043,
+        1056
+      ]
+    ]
+  ],
+  "Func_0012c566": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_subi",
+      [
+        1058,
+        1085
+      ]
+    ]
+  ],
+  "Func_0012c6e7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_subcr",
+      [
+        1088,
+        1103
+      ]
+    ]
+  ],
+  "Func_0012c7ea": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_subci",
+      [
+        1105,
+        1118
+      ]
+    ]
+  ],
+  "Func_0012c8e9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_subxr",
+      [
+        1120,
+        1135
+      ]
+    ]
+  ],
+  "Func_0012c9ec": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_subxi",
+      [
+        1137,
+        1150
+      ]
+    ]
+  ],
+  "Func_0012caeb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_rsbi",
+      [
+        1152,
+        1157
+      ]
+    ]
+  ],
+  "Func_0012cb2e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_imulr",
+      [
+        1159,
+        1166
+      ]
+    ]
+  ],
+  "Func_0012cbc2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_imuli",
+      [
+        1168,
+        1191
+      ]
+    ]
+  ],
+  "Func_0012cd8a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_mulr",
+      [
+        1193,
+        1204
+      ]
+    ]
+  ],
+  "Func_0012ce06": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_muli",
+      [
+        1206,
+        1241
+      ]
+    ]
+  ],
+  "Func_0012cfea": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_iqmulr",
+      [
+        1276,
+        1313
+      ]
+    ]
+  ],
+  "Func_0012d259": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_iqmuli",
+      [
+        1315,
+        1334
+      ]
+    ]
+  ],
+  "Func_0012d39a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_sign_extend_rdx_rax",
+      [
+        1336,
+        1341
+      ]
+    ]
+  ],
+  "Func_0012d3e5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_divremr",
+      [
+        1343,
+        1425
+      ]
+    ]
+  ],
+  "Func_0012d850": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_divremi",
+      [
+        1427,
+        1520
+      ]
+    ]
+  ],
+  "Func_0012ddb1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_iqdivr",
+      [
+        1522,
+        1606
+      ]
+    ]
+  ],
+  "Func_0012e266": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_iqdivi",
+      [
+        1608,
+        1621
+      ]
+    ]
+  ],
+  "Func_0012e36d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_andr",
+      [
+        1626,
+        1639
+      ]
+    ]
+  ],
+  "Func_0012e410": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_andi",
+      [
+        1641,
+        1664
+      ]
+    ]
+  ],
+  "Func_0012e578": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_orr",
+      [
+        1666,
+        1679
+      ]
+    ]
+  ],
+  "Func_0012e61b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ori",
+      [
+        1681,
+        1703
+      ]
+    ]
+  ],
+  "Func_0012e797": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_xorr",
+      [
+        1705,
+        1718
+      ]
+    ]
+  ],
+  "Func_0012e83d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_xori",
+      [
+        1720,
+        1742
+      ]
+    ]
+  ],
+  "Func_0012e9b5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_irotshr",
+      [
+        1744,
+        1750
+      ]
+    ]
+  ],
+  "Func_0012ea31": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_rotshr",
+      [
+        1752,
+        1798
+      ]
+    ]
+  ],
+  "Func_0012ecf1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_irotshi",
+      [
+        1800,
+        1813
+      ]
+    ]
+  ],
+  "Func_0012edd2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_rotshi",
+      [
+        1815,
+        1822
+      ]
+    ]
+  ],
+  "Func_0012ee1f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_lshi",
+      [
+        1824,
+        1833
+      ]
+    ]
+  ],
+  "Func_0012eec1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_unr",
+      [
+        1835,
+        1841
+      ]
+    ]
+  ],
+  "Func_0012ef3d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_negr",
+      [
+        1843,
+        1852
+      ]
+    ]
+  ],
+  "Func_0012ef9e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_comr",
+      [
+        1854,
+        1859
+      ]
+    ]
+  ],
+  "Func_0012efdb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_cr",
+      [
+        1889,
+        1912
+      ]
+    ]
+  ],
+  "Func_0012f07a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ci",
+      [
+        1914,
+        1937
+      ]
+    ]
+  ],
+  "Func_0012f10a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ci0",
+      [
+        1939,
+        1961
+      ]
+    ]
+  ],
+  "Func_0012f192": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ltr",
+      [
+        1963,
+        1970
+      ]
+    ]
+  ],
+  "Func_0012f1e7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_lti",
+      [
+        1972,
+        1979
+      ]
+    ]
+  ],
+  "Func_0012f23e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ltr_u",
+      [
+        1981,
+        1988
+      ]
+    ]
+  ],
+  "Func_0012f293": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ler",
+      [
+        1990,
+        1997
+      ]
+    ]
+  ],
+  "Func_0012f2e8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ler_u",
+      [
+        1999,
+        2006
+      ]
+    ]
+  ],
+  "Func_0012f33d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_lei_u",
+      [
+        2008,
+        2015
+      ]
+    ]
+  ],
+  "Func_0012f394": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_eqr",
+      [
+        2017,
+        2024
+      ]
+    ]
+  ],
+  "Func_0012f3e9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_eqi",
+      [
+        2026,
+        2033
+      ]
+    ]
+  ],
+  "Func_0012f440": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ger",
+      [
+        2035,
+        2042
+      ]
+    ]
+  ],
+  "Func_0012f495": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_gei",
+      [
+        2044,
+        2051
+      ]
+    ]
+  ],
+  "Func_0012f4ec": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ger_u",
+      [
+        2053,
+        2060
+      ]
+    ]
+  ],
+  "Func_0012f541": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_gei_u",
+      [
+        2062,
+        2069
+      ]
+    ]
+  ],
+  "Func_0012f598": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_gtr",
+      [
+        2071,
+        2078
+      ]
+    ]
+  ],
+  "Func_0012f5ed": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_gtr_u",
+      [
+        2080,
+        2087
+      ]
+    ]
+  ],
+  "Func_0012f642": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_gti_u",
+      [
+        2089,
+        2096
+      ]
+    ]
+  ],
+  "Func_0012f699": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ner",
+      [
+        2098,
+        2105
+      ]
+    ]
+  ],
+  "Func_0012f6ee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_nei",
+      [
+        2107,
+        2114
+      ]
+    ]
+  ],
+  "Func_0012f745": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movr",
+      [
+        2116,
+        2124
+      ]
+    ]
+  ],
+  "Func_0012f7c9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_imovi",
+      [
+        2126,
+        2148
+      ]
+    ]
+  ],
+  "Func_0012f8b8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movi",
+      [
+        2150,
+        2157
+      ]
+    ]
+  ],
+  "Func_0012f903": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movi_p",
+      [
+        2159,
+        2166
+      ]
+    ]
+  ],
+  "Func_0012f980": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movcr",
+      [
+        2168,
+        2175
+      ]
+    ]
+  ],
+  "Func_0012fa14": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movcr_u",
+      [
+        2177,
+        2184
+      ]
+    ]
+  ],
+  "Func_0012faa8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movsr",
+      [
+        2186,
+        2193
+      ]
+    ]
+  ],
+  "Func_0012fb3c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movsr_u",
+      [
+        2195,
+        2202
+      ]
+    ]
+  ],
+  "Func_0012fbd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movir",
+      [
+        2205,
+        2211
+      ]
+    ]
+  ],
+  "Func_0012fc4f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_movir_u",
+      [
+        2213,
+        2219
+      ]
+    ]
+  ],
+  "Func_0012fccb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_htonr_us",
+      [
+        2222,
+        2231
+      ]
+    ]
+  ],
+  "Func_0012fd7b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_htonr_ui",
+      [
+        2233,
+        2240
+      ]
+    ]
+  ],
+  "Func_0012fe01": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_htonr_ul",
+      [
+        2243,
+        2250
+      ]
+    ]
+  ],
+  "Func_0012fe87": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_extr_c",
+      [
+        2253,
+        2265
+      ]
+    ]
+  ],
+  "Func_0012feb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_extr_uc",
+      [
+        2267,
+        2279
+      ]
+    ]
+  ],
+  "Func_0012fed9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldr_c",
+      [
+        2281,
+        2288
+      ]
+    ]
+  ],
+  "Func_0012ff64": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldi_c",
+      [
+        2290,
+        2306
+      ]
+    ]
+  ],
+  "Func_001300ac": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldr_uc",
+      [
+        2308,
+        2315
+      ]
+    ]
+  ],
+  "Func_00130137": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldi_uc",
+      [
+        2317,
+        2333
+      ]
+    ]
+  ],
+  "Func_0013027f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldr_s",
+      [
+        2335,
+        2342
+      ]
+    ]
+  ],
+  "Func_0013030a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldi_s",
+      [
+        2344,
+        2360
+      ]
+    ]
+  ],
+  "Func_00130452": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldr_us",
+      [
+        2362,
+        2369
+      ]
+    ]
+  ],
+  "Func_001304dd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldi_us",
+      [
+        2371,
+        2387
+      ]
+    ]
+  ],
+  "Func_00130625": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldr_i",
+      [
+        2390,
+        2400
+      ]
+    ]
+  ],
+  "Func_0013069b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldi_i",
+      [
+        2402,
+        2421
+      ]
+    ]
+  ],
+  "Func_001307ca": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldr_ui",
+      [
+        2425,
+        2431
+      ]
+    ]
+  ],
+  "Func_00130840": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldi_ui",
+      [
+        2433,
+        2448
+      ]
+    ]
+  ],
+  "Func_0013096f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldr_l",
+      [
+        2451,
+        2457
+      ]
+    ]
+  ],
+  "Func_001309e5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldi_l",
+      [
+        2459,
+        2474
+      ]
+    ]
+  ],
+  "Func_00130b14": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxr_c",
+      [
+        2478,
+        2490
+      ]
+    ]
+  ],
+  "Func_00130ba2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxi_c",
+      [
+        2492,
+        2508
+      ]
+    ]
+  ],
+  "Func_00130cf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxr_uc",
+      [
+        2510,
+        2522
+      ]
+    ]
+  ],
+  "Func_00130d7e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxi_uc",
+      [
+        2524,
+        2540
+      ]
+    ]
+  ],
+  "Func_00130ecc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxr_s",
+      [
+        2542,
+        2554
+      ]
+    ]
+  ],
+  "Func_00130f5a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxi_s",
+      [
+        2556,
+        2572
+      ]
+    ]
+  ],
+  "Func_001310a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxr_us",
+      [
+        2574,
+        2586
+      ]
+    ]
+  ],
+  "Func_00131136": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxi_us",
+      [
+        2588,
+        2604
+      ]
+    ]
+  ],
+  "Func_00131284": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxr_i",
+      [
+        2607,
+        2617
+      ]
+    ]
+  ],
+  "Func_001312fd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxi_i",
+      [
+        2619,
+        2638
+      ]
+    ]
+  ],
+  "Func_00131432": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxr_ui",
+      [
+        2642,
+        2654
+      ]
+    ]
+  ],
+  "Func_001314ab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxi_ui",
+      [
+        2656,
+        2671
+      ]
+    ]
+  ],
+  "Func_001315e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxr_l",
+      [
+        2674,
+        2680
+      ]
+    ]
+  ],
+  "Func_00131659": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_ldxi_l",
+      [
+        2682,
+        2697
+      ]
+    ]
+  ],
+  "Func_0013178e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_str_c",
+      [
+        2701,
+        2718
+      ]
+    ]
+  ],
+  "Func_00131804": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_sti_c",
+      [
+        2720,
+        2745
+      ]
+    ]
+  ],
+  "Func_00131933": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_str_s",
+      [
+        2747,
+        2754
+      ]
+    ]
+  ],
+  "Func_001319be": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_sti_s",
+      [
+        2756,
+        2772
+      ]
+    ]
+  ],
+  "Func_00131b06": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_str_i",
+      [
+        2774,
+        2780
+      ]
+    ]
+  ],
+  "Func_00131b7c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_sti_i",
+      [
+        2782,
+        2797
+      ]
+    ]
+  ],
+  "Func_00131cab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_str_l",
+      [
+        2800,
+        2806
+      ]
+    ]
+  ],
+  "Func_00131d21": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_sti_l",
+      [
+        2808,
+        2823
+      ]
+    ]
+  ],
+  "Func_00131e50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_stxr_c",
+      [
+        2826,
+        2850
+      ]
+    ]
+  ],
+  "Func_00131ec9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_stxi_c",
+      [
+        2852,
+        2877
+      ]
+    ]
+  ],
+  "Func_00131ffe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_stxr_s",
+      [
+        2879,
+        2894
+      ]
+    ]
+  ],
+  "Func_0013208c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_stxi_s",
+      [
+        2896,
+        2912
+      ]
+    ]
+  ],
+  "Func_001321da": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_stxr_i",
+      [
+        2914,
+        2928
+      ]
+    ]
+  ],
+  "Func_00132253": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_stxi_i",
+      [
+        2930,
+        2945
+      ]
+    ]
+  ],
+  "Func_00132388": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_stxr_l",
+      [
+        2948,
+        2954
+      ]
+    ]
+  ],
+  "Func_00132401": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_stxi_l",
+      [
+        2956,
+        2971
+      ]
+    ]
+  ],
+  "Func_00132536": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_jccs",
+      [
+        2974,
+        2981
+      ]
+    ]
+  ],
+  "Func_00132594": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_jcc",
+      [
+        2983,
+        2991
+      ]
+    ]
+  ],
+  "Func_00132607": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_jcr",
+      [
+        2993,
+        2999
+      ]
+    ]
+  ],
+  "Func_00132650": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_jci",
+      [
+        3001,
+        3007
+      ]
+    ]
+  ],
+  "Func_0013269a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_jci0",
+      [
+        3009,
+        3014
+      ]
+    ]
+  ],
+  "Func_001326dc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bltr",
+      [
+        3016,
+        3021
+      ]
+    ]
+  ],
+  "Func_00132719": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_blti",
+      [
+        3023,
+        3029
+      ]
+    ]
+  ],
+  "Func_00132779": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bltr_u",
+      [
+        3031,
+        3036
+      ]
+    ]
+  ],
+  "Func_001327b6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_blti_u",
+      [
+        3038,
+        3044
+      ]
+    ]
+  ],
+  "Func_00132816": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bler",
+      [
+        3046,
+        3052
+      ]
+    ]
+  ],
+  "Func_00132870": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_blei",
+      [
+        3054,
+        3060
+      ]
+    ]
+  ],
+  "Func_001328d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bler_u",
+      [
+        3062,
+        3068
+      ]
+    ]
+  ],
+  "Func_0013292a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_blei_u",
+      [
+        3070,
+        3076
+      ]
+    ]
+  ],
+  "Func_0013298a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_beqr",
+      [
+        3078,
+        3084
+      ]
+    ]
+  ],
+  "Func_001329e4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_beqi",
+      [
+        3086,
+        3092
+      ]
+    ]
+  ],
+  "Func_00132a44": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bger",
+      [
+        3094,
+        3100
+      ]
+    ]
+  ],
+  "Func_00132a9e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bgei",
+      [
+        3102,
+        3108
+      ]
+    ]
+  ],
+  "Func_00132afe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bger_u",
+      [
+        3110,
+        3116
+      ]
+    ]
+  ],
+  "Func_00132b58": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bgei_u",
+      [
+        3118,
+        3124
+      ]
+    ]
+  ],
+  "Func_00132bb3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bgtr",
+      [
+        3126,
+        3131
+      ]
+    ]
+  ],
+  "Func_00132bf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bgti",
+      [
+        3133,
+        3138
+      ]
+    ]
+  ],
+  "Func_00132c2f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bgtr_u",
+      [
+        3140,
+        3145
+      ]
+    ]
+  ],
+  "Func_00132c6c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bgti_u",
+      [
+        3147,
+        3153
+      ]
+    ]
+  ],
+  "Func_00132ccc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bner",
+      [
+        3155,
+        3160
+      ]
+    ]
+  ],
+  "Func_00132d09": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bnei",
+      [
+        3162,
+        3168
+      ]
+    ]
+  ],
+  "Func_00132d69": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bmsr",
+      [
+        3170,
+        3176
+      ]
+    ]
+  ],
+  "Func_00132db1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bmsi",
+      [
+        3178,
+        3192
+      ]
+    ]
+  ],
+  "Func_00132ea1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bmcr",
+      [
+        3194,
+        3200
+      ]
+    ]
+  ],
+  "Func_00132ee9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bmci",
+      [
+        3202,
+        3216
+      ]
+    ]
+  ],
+  "Func_00132fd9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_boaddr",
+      [
+        3218,
+        3224
+      ]
+    ]
+  ],
+  "Func_00133024": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_boaddi",
+      [
+        3226,
+        3239
+      ]
+    ]
+  ],
+  "Func_0013312a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_boaddr_u",
+      [
+        3241,
+        3247
+      ]
+    ]
+  ],
+  "Func_00133175": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_boaddi_u",
+      [
+        3249,
+        3262
+      ]
+    ]
+  ],
+  "Func_0013327b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bxaddr",
+      [
+        3264,
+        3270
+      ]
+    ]
+  ],
+  "Func_001332c6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bxaddi",
+      [
+        3272,
+        3285
+      ]
+    ]
+  ],
+  "Func_001333cc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bxaddr_u",
+      [
+        3287,
+        3293
+      ]
+    ]
+  ],
+  "Func_00133417": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bxaddi_u",
+      [
+        3295,
+        3308
+      ]
+    ]
+  ],
+  "Func_0013351d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bosubr",
+      [
+        3310,
+        3316
+      ]
+    ]
+  ],
+  "Func_00133568": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bosubi",
+      [
+        3318,
+        3331
+      ]
+    ]
+  ],
+  "Func_0013366e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bosubr_u",
+      [
+        3333,
+        3339
+      ]
+    ]
+  ],
+  "Func_001336b9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bosubi_u",
+      [
+        3341,
+        3354
+      ]
+    ]
+  ],
+  "Func_001337bf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bxsubr",
+      [
+        3356,
+        3362
+      ]
+    ]
+  ],
+  "Func_0013380a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bxsubi",
+      [
+        3364,
+        3377
+      ]
+    ]
+  ],
+  "Func_00133910": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bxsubr_u",
+      [
+        3379,
+        3385
+      ]
+    ]
+  ],
+  "Func_0013395b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_bxsubi_u",
+      [
+        3387,
+        3400
+      ]
+    ]
+  ],
+  "Func_00133a61": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_callr",
+      [
+        3402,
+        3408
+      ]
+    ]
+  ],
+  "Func_00133ad0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_calli",
+      [
+        3410,
+        3429
+      ]
+    ]
+  ],
+  "Func_00133b77": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_jmpr",
+      [
+        3431,
+        3437
+      ]
+    ]
+  ],
+  "Func_00133be6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_jmpi",
+      [
+        3439,
+        3447
+      ]
+    ]
+  ],
+  "Func_00133c3e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_jmpsi",
+      [
+        3449,
+        3454
+      ]
+    ]
+  ],
+  "Func_00133c7b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_prolog",
+      [
+        3456,
+        3583
+      ]
+    ]
+  ],
+  "Func_001341b2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_epilog",
+      [
+        3585,
+        3652
+      ]
+    ]
+  ],
+  "Func_00134356": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_vastart",
+      [
+        3654,
+        3687
+      ]
+    ]
+  ],
+  "Func_001345ac": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_vaarg",
+      [
+        3689,
+        3750
+      ]
+    ]
+  ],
+  "Func_0013490a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_vaarg_d",
+      [
+        3754,
+        3824
+      ]
+    ]
+  ],
+  "Func_00134d24": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-cpu.c",
+      "_patch_at",
+      [
+        3826,
+        3841
+      ]
+    ]
+  ],
+  "Func_00134d79": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sser",
+      [
+        486,
+        493
+      ]
+    ]
+  ],
+  "Func_00134e12": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_ssexr",
+      [
+        495,
+        504
+      ]
+    ]
+  ],
+  "Func_00134ec6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_ssexi",
+      [
+        506,
+        516
+      ]
+    ]
+  ],
+  "Func_00134f8f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sselxr",
+      [
+        519,
+        528
+      ]
+    ]
+  ],
+  "Func_00135043": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_ssexrx",
+      [
+        531,
+        540
+      ]
+    ]
+  ],
+  "Func_001350ec": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_addr_f",
+      [
+        542,
+        553
+      ]
+    ]
+  ],
+  "Func_0013518f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_addr_d",
+      [
+        555,
+        568
+      ]
+    ]
+  ],
+  "Func_00135239": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_addr_d",
+      [
+        555,
+        568
+      ]
+    ]
+  ],
+  "Func_001352dc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_subr_f",
+      [
+        570,
+        589
+      ]
+    ]
+  ],
+  "Func_00135386": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_subr_f",
+      [
+        570,
+        589
+      ]
+    ]
+  ],
+  "Func_001354bf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_subr_d",
+      [
+        591,
+        610
+      ]
+    ]
+  ],
+  "Func_00135569": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_subr_d",
+      [
+        591,
+        610
+      ]
+    ]
+  ],
+  "Func_001356a2": [],
+  "Func_0013574c": [],
+  "Func_001357fa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_mulr_f",
+      [
+        616,
+        629
+      ]
+    ]
+  ],
+  "Func_001358a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_mulr_f",
+      [
+        616,
+        629
+      ]
+    ]
+  ],
+  "Func_0013594b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_mulr_d",
+      [
+        631,
+        644
+      ]
+    ]
+  ],
+  "Func_001359f5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_mulr_d",
+      [
+        631,
+        644
+      ]
+    ]
+  ],
+  "Func_00135a98": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_divr_f",
+      [
+        646,
+        665
+      ]
+    ]
+  ],
+  "Func_00135b42": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_divr_f",
+      [
+        646,
+        665
+      ]
+    ]
+  ],
+  "Func_00135c7b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_divr_d",
+      [
+        667,
+        686
+      ]
+    ]
+  ],
+  "Func_00135d25": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_divr_d",
+      [
+        667,
+        686
+      ]
+    ]
+  ],
+  "Func_00135e5e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_absr_f",
+      [
+        688,
+        706
+      ]
+    ]
+  ],
+  "Func_00135f08": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_absr_f",
+      [
+        688,
+        706
+      ]
+    ]
+  ],
+  "Func_00136082": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_absr_d",
+      [
+        708,
+        724
+      ]
+    ]
+  ],
+  "Func_00136210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_negr_f",
+      [
+        726,
+        743
+      ]
+    ]
+  ],
+  "Func_001363a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_negr_d",
+      [
+        745,
+        764
+      ]
+    ]
+  ],
+  "Func_001365b6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_ssecmp",
+      [
+        766,
+        786
+      ]
+    ]
+  ],
+  "Func_00136668": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_movr_f",
+      [
+        788,
+        793
+      ]
+    ]
+  ],
+  "Func_001366a6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_movi_f",
+      [
+        795,
+        824
+      ]
+    ]
+  ],
+  "Func_001367f5": [],
+  "Func_001368b1": [],
+  "Func_0013696d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_eqr_f",
+      [
+        829,
+        849
+      ]
+    ]
+  ],
+  "Func_00136a28": [],
+  "Func_00136ad2": [],
+  "Func_00136b8e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ner_f",
+      [
+        853,
+        875
+      ]
+    ]
+  ],
+  "Func_00136c4a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ner_f",
+      [
+        853,
+        875
+      ]
+    ]
+  ],
+  "Func_00136d04": [],
+  "Func_00136dae": [],
+  "Func_00136e6a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_unler_f",
+      [
+        880,
+        887
+      ]
+    ]
+  ],
+  "Func_00136ec9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_uneqr_f",
+      [
+        889,
+        898
+      ]
+    ]
+  ],
+  "Func_00136f73": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_uneqr_f",
+      [
+        889,
+        898
+      ]
+    ]
+  ],
+  "Func_00136fd2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_unger_f",
+      [
+        900,
+        909
+      ]
+    ]
+  ],
+  "Func_0013707c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_unger_f",
+      [
+        900,
+        909
+      ]
+    ]
+  ],
+  "Func_001370db": [],
+  "Func_00137185": [],
+  "Func_00137241": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ltgtr_f",
+      [
+        914,
+        921
+      ]
+    ]
+  ],
+  "Func_001372a1": [],
+  "Func_0013734b": [],
+  "Func_00137407": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ldi_f",
+      [
+        925,
+        939
+      ]
+    ]
+  ],
+  "Func_001374c3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ldi_f",
+      [
+        925,
+        939
+      ]
+    ]
+  ],
+  "Func_001375df": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ldxr_f",
+      [
+        941,
+        953
+      ]
+    ]
+  ],
+  "Func_00137628": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ldxi_f",
+      [
+        955,
+        972
+      ]
+    ]
+  ],
+  "Func_0013772d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_sti_f",
+      [
+        974,
+        986
+      ]
+    ]
+  ],
+  "Func_00137849": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_stxr_f",
+      [
+        988,
+        1000
+      ]
+    ]
+  ],
+  "Func_00137892": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_stxi_f",
+      [
+        1002,
+        1019
+      ]
+    ]
+  ],
+  "Func_00137997": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bltr_f",
+      [
+        1021,
+        1027
+      ]
+    ]
+  ],
+  "Func_001379e2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bler_f",
+      [
+        1028,
+        1036
+      ]
+    ]
+  ],
+  "Func_00137a95": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bler_f",
+      [
+        1028,
+        1036
+      ]
+    ]
+  ],
+  "Func_00137ae0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_beqr_f",
+      [
+        1037,
+        1049
+      ]
+    ]
+  ],
+  "Func_00137b93": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_beqr_f",
+      [
+        1037,
+        1049
+      ]
+    ]
+  ],
+  "Func_00137c18": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bger_f",
+      [
+        1050,
+        1058
+      ]
+    ]
+  ],
+  "Func_00137ccb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bger_f",
+      [
+        1050,
+        1058
+      ]
+    ]
+  ],
+  "Func_00137d16": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bgtr_f",
+      [
+        1059,
+        1067
+      ]
+    ]
+  ],
+  "Func_00137dc9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bgtr_f",
+      [
+        1059,
+        1067
+      ]
+    ]
+  ],
+  "Func_00137e14": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bner_f",
+      [
+        1068,
+        1084
+      ]
+    ]
+  ],
+  "Func_00137ec7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bner_f",
+      [
+        1068,
+        1084
+      ]
+    ]
+  ],
+  "Func_00137f84": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunltr_f",
+      [
+        1085,
+        1093
+      ]
+    ]
+  ],
+  "Func_00138037": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunltr_f",
+      [
+        1085,
+        1093
+      ]
+    ]
+  ],
+  "Func_00138082": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunler_f",
+      [
+        1094,
+        1106
+      ]
+    ]
+  ],
+  "Func_00138135": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunler_f",
+      [
+        1094,
+        1106
+      ]
+    ]
+  ],
+  "Func_0013819d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_buneqr_f",
+      [
+        1107,
+        1119
+      ]
+    ]
+  ],
+  "Func_00138250": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_buneqr_f",
+      [
+        1107,
+        1119
+      ]
+    ]
+  ],
+  "Func_001382b8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunger_f",
+      [
+        1120,
+        1132
+      ]
+    ]
+  ],
+  "Func_0013836b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunger_f",
+      [
+        1120,
+        1132
+      ]
+    ]
+  ],
+  "Func_001383d3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bungtr_f",
+      [
+        1133,
+        1141
+      ]
+    ]
+  ],
+  "Func_00138486": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bungtr_f",
+      [
+        1133,
+        1141
+      ]
+    ]
+  ],
+  "Func_001384d1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bltgtr_f",
+      [
+        1142,
+        1150
+      ]
+    ]
+  ],
+  "Func_00138584": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bltgtr_f",
+      [
+        1142,
+        1150
+      ]
+    ]
+  ],
+  "Func_001385cf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bordr_f",
+      [
+        1151,
+        1159
+      ]
+    ]
+  ],
+  "Func_00138682": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bordr_f",
+      [
+        1151,
+        1159
+      ]
+    ]
+  ],
+  "Func_001386cd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunordr_f",
+      [
+        1160,
+        1168
+      ]
+    ]
+  ],
+  "Func_00138780": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunordr_f",
+      [
+        1160,
+        1168
+      ]
+    ]
+  ],
+  "Func_001387cb": [],
+  "Func_0013887e": [],
+  "Func_0013893a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_eqr_d",
+      [
+        1172,
+        1194
+      ]
+    ]
+  ],
+  "Func_001389f6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_eqr_d",
+      [
+        1172,
+        1194
+      ]
+    ]
+  ],
+  "Func_00138abb": [],
+  "Func_00138b65": [],
+  "Func_00138c21": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ner_d",
+      [
+        1198,
+        1220
+      ]
+    ]
+  ],
+  "Func_00138cdd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ner_d",
+      [
+        1198,
+        1220
+      ]
+    ]
+  ],
+  "Func_00138da1": [],
+  "Func_00138e4b": [],
+  "Func_00138f07": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_unler_d",
+      [
+        1225,
+        1232
+      ]
+    ]
+  ],
+  "Func_00138f66": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_uneqr_d",
+      [
+        1234,
+        1243
+      ]
+    ]
+  ],
+  "Func_00139010": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_uneqr_d",
+      [
+        1234,
+        1243
+      ]
+    ]
+  ],
+  "Func_0013906f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_unger_d",
+      [
+        1245,
+        1254
+      ]
+    ]
+  ],
+  "Func_00139119": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_unger_d",
+      [
+        1245,
+        1254
+      ]
+    ]
+  ],
+  "Func_00139178": [],
+  "Func_00139222": [],
+  "Func_001392de": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ltgtr_d",
+      [
+        1259,
+        1266
+      ]
+    ]
+  ],
+  "Func_0013933e": [],
+  "Func_001393e8": [],
+  "Func_001394a4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_movr_d",
+      [
+        1270,
+        1277
+      ]
+    ]
+  ],
+  "Func_00139560": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_movr_d",
+      [
+        1270,
+        1277
+      ]
+    ]
+  ],
+  "Func_0013959e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_movi_d",
+      [
+        1279,
+        1318
+      ]
+    ]
+  ],
+  "Func_001396f7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ldi_d",
+      [
+        1320,
+        1332
+      ]
+    ]
+  ],
+  "Func_00139813": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ldxr_d",
+      [
+        1334,
+        1346
+      ]
+    ]
+  ],
+  "Func_0013985c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_ldxi_d",
+      [
+        1348,
+        1365
+      ]
+    ]
+  ],
+  "Func_00139961": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_sti_d",
+      [
+        1367,
+        1379
+      ]
+    ]
+  ],
+  "Func_00139a7d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_stxr_d",
+      [
+        1381,
+        1393
+      ]
+    ]
+  ],
+  "Func_00139ac6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_stxi_d",
+      [
+        1395,
+        1412
+      ]
+    ]
+  ],
+  "Func_00139bcb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bltr_d",
+      [
+        1414,
+        1420
+      ]
+    ]
+  ],
+  "Func_00139c20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bler_d",
+      [
+        1421,
+        1429
+      ]
+    ]
+  ],
+  "Func_00139cd3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bler_d",
+      [
+        1421,
+        1429
+      ]
+    ]
+  ],
+  "Func_00139d28": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_beqr_d",
+      [
+        1430,
+        1442
+      ]
+    ]
+  ],
+  "Func_00139ddb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_beqr_d",
+      [
+        1430,
+        1442
+      ]
+    ]
+  ],
+  "Func_00139e6a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bger_d",
+      [
+        1443,
+        1451
+      ]
+    ]
+  ],
+  "Func_00139f1d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bger_d",
+      [
+        1443,
+        1451
+      ]
+    ]
+  ],
+  "Func_00139f72": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bgtr_d",
+      [
+        1452,
+        1460
+      ]
+    ]
+  ],
+  "Func_0013a025": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bgtr_d",
+      [
+        1452,
+        1460
+      ]
+    ]
+  ],
+  "Func_0013a07a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bner_d",
+      [
+        1461,
+        1477
+      ]
+    ]
+  ],
+  "Func_0013a12d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bner_d",
+      [
+        1461,
+        1477
+      ]
+    ]
+  ],
+  "Func_0013a1f4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunltr_d",
+      [
+        1478,
+        1486
+      ]
+    ]
+  ],
+  "Func_0013a2a7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunltr_d",
+      [
+        1478,
+        1486
+      ]
+    ]
+  ],
+  "Func_0013a2fc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunler_d",
+      [
+        1487,
+        1499
+      ]
+    ]
+  ],
+  "Func_0013a3af": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunler_d",
+      [
+        1487,
+        1499
+      ]
+    ]
+  ],
+  "Func_0013a421": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_buneqr_d",
+      [
+        1500,
+        1512
+      ]
+    ]
+  ],
+  "Func_0013a4d4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_buneqr_d",
+      [
+        1500,
+        1512
+      ]
+    ]
+  ],
+  "Func_0013a546": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunger_d",
+      [
+        1513,
+        1525
+      ]
+    ]
+  ],
+  "Func_0013a5f9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunger_d",
+      [
+        1513,
+        1525
+      ]
+    ]
+  ],
+  "Func_0013a66b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bungtr_d",
+      [
+        1526,
+        1534
+      ]
+    ]
+  ],
+  "Func_0013a71e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bungtr_d",
+      [
+        1526,
+        1534
+      ]
+    ]
+  ],
+  "Func_0013a773": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bltgtr_d",
+      [
+        1535,
+        1543
+      ]
+    ]
+  ],
+  "Func_0013a826": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bltgtr_d",
+      [
+        1535,
+        1543
+      ]
+    ]
+  ],
+  "Func_0013a87b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bordr_d",
+      [
+        1544,
+        1552
+      ]
+    ]
+  ],
+  "Func_0013a92e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bordr_d",
+      [
+        1544,
+        1552
+      ]
+    ]
+  ],
+  "Func_0013a983": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunordr_d",
+      [
+        1553,
+        1561
+      ]
+    ]
+  ],
+  "Func_0013aa36": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-sse.c",
+      "_sse_bunordr_d",
+      [
+        1553,
+        1561
+      ]
+    ]
+  ],
+  "Func_0013aa8b": [],
+  "Func_0013ab3e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_fstcwm",
+      [
+        425,
+        432
+      ]
+    ]
+  ],
+  "Func_0013abb9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87rx",
+      [
+        434,
+        441
+      ]
+    ]
+  ],
+  "Func_0013ac48": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87ri",
+      [
+        443,
+        448
+      ]
+    ]
+  ],
+  "Func_0013aca5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87rri",
+      [
+        450,
+        459
+      ]
+    ]
+  ],
+  "Func_0013acf2": [],
+  "Func_0013ad9c": [],
+  "Func_0013ae46": [],
+  "Func_0013aef4": [],
+  "Func_0013af9e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_addr_d",
+      [
+        465,
+        497
+      ]
+    ]
+  ],
+  "Func_0013b048": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_addr_d",
+      [
+        465,
+        497
+      ]
+    ]
+  ],
+  "Func_0013b1ee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_subr_d",
+      [
+        499,
+        531
+      ]
+    ]
+  ],
+  "Func_0013b298": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_subr_d",
+      [
+        499,
+        531
+      ]
+    ]
+  ],
+  "Func_0013b43e": [],
+  "Func_0013b4e8": [],
+  "Func_0013b596": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_mulr_d",
+      [
+        537,
+        567
+      ]
+    ]
+  ],
+  "Func_0013b73c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_divr_d",
+      [
+        569,
+        601
+      ]
+    ]
+  ],
+  "Func_0013b7e6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_divr_d",
+      [
+        569,
+        601
+      ]
+    ]
+  ],
+  "Func_0013b98c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_absr_d",
+      [
+        603,
+        622
+      ]
+    ]
+  ],
+  "Func_0013ba36": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_absr_d",
+      [
+        603,
+        622
+      ]
+    ]
+  ],
+  "Func_0013baf5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_negr_d",
+      [
+        624,
+        641
+      ]
+    ]
+  ],
+  "Func_0013bbb4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_sqrtr_d",
+      [
+        643,
+        660
+      ]
+    ]
+  ],
+  "Func_0013bc73": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_truncr_d_i",
+      [
+        662,
+        689
+      ]
+    ]
+  ],
+  "Func_0013bcde": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_truncr_d_l",
+      [
+        692,
+        698
+      ]
+    ]
+  ],
+  "Func_0013bd49": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_extr_d",
+      [
+        701,
+        711
+      ]
+    ]
+  ],
+  "Func_0013bdb9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87cmp",
+      [
+        713,
+        735
+      ]
+    ]
+  ],
+  "Func_0013be6e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87cmp2",
+      [
+        737,
+        762
+      ]
+    ]
+  ],
+  "Func_0013bf43": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87jcc",
+      [
+        764,
+        776
+      ]
+    ]
+  ],
+  "Func_0013bfc2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87jcc2",
+      [
+        778,
+        793
+      ]
+    ]
+  ],
+  "Func_0013c061": [],
+  "Func_0013c113": [],
+  "Func_0013c1c5": [],
+  "Func_0013c26f": [],
+  "Func_0013c321": [],
+  "Func_0013c3d3": [],
+  "Func_0013c47d": [],
+  "Func_0013c52f": [],
+  "Func_0013c5e1": [],
+  "Func_0013c693": [],
+  "Func_0013c745": [],
+  "Func_0013c7f7": [],
+  "Func_0013c8a1": [],
+  "Func_0013c953": [],
+  "Func_0013ca05": [],
+  "Func_0013cac0": [],
+  "Func_0013cb7b": [],
+  "Func_0013cc2e": [],
+  "Func_0013cce9": [],
+  "Func_0013cda4": [],
+  "Func_0013ce57": [],
+  "Func_0013cf12": [],
+  "Func_0013cfcd": [],
+  "Func_0013d088": [],
+  "Func_0013d143": [],
+  "Func_0013d1fe": [],
+  "Func_0013d2b9": [],
+  "Func_0013d374": [],
+  "Func_0013d42f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_movi_f",
+      [
+        824,
+        861
+      ]
+    ]
+  ],
+  "Func_0013d6bb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldr_f",
+      [
+        863,
+        868
+      ]
+    ]
+  ],
+  "Func_0013d70e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldi_f",
+      [
+        870,
+        884
+      ]
+    ]
+  ],
+  "Func_0013d81a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldxr_f",
+      [
+        886,
+        899
+      ]
+    ]
+  ],
+  "Func_0013d870": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldxi_f",
+      [
+        901,
+        920
+      ]
+    ]
+  ],
+  "Func_0013d982": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_str_f",
+      [
+        922,
+        932
+      ]
+    ]
+  ],
+  "Func_0013da15": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_sti_f",
+      [
+        934,
+        951
+      ]
+    ]
+  ],
+  "Func_0013db6a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_stxr_f",
+      [
+        953,
+        971
+      ]
+    ]
+  ],
+  "Func_0013dc00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_stxi_f",
+      [
+        973,
+        995
+      ]
+    ]
+  ],
+  "Func_0013dd5d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_movr_d",
+      [
+        997,
+        1012
+      ]
+    ]
+  ],
+  "Func_0013ddf1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_movi_d",
+      [
+        1014,
+        1059
+      ]
+    ]
+  ],
+  "Func_0013e089": [],
+  "Func_0013e13b": [],
+  "Func_0013e1ed": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_eqr_d",
+      [
+        1064,
+        1091
+      ]
+    ]
+  ],
+  "Func_0013e2f8": [],
+  "Func_0013e3a6": [],
+  "Func_0013e458": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ner_d",
+      [
+        1095,
+        1124
+      ]
+    ]
+  ],
+  "Func_0013e50a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ner_d",
+      [
+        1095,
+        1124
+      ]
+    ]
+  ],
+  "Func_0013e614": [],
+  "Func_0013e6c2": [],
+  "Func_0013e774": [],
+  "Func_0013e826": [],
+  "Func_0013e8d8": [],
+  "Func_0013e98a": [],
+  "Func_0013ea3c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ltgtr_d",
+      [
+        1133,
+        1140
+      ]
+    ]
+  ],
+  "Func_0013ea91": [],
+  "Func_0013eb3b": [],
+  "Func_0013ebed": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldr_d",
+      [
+        1144,
+        1151
+      ]
+    ]
+  ],
+  "Func_0013ec9f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldr_d",
+      [
+        1144,
+        1151
+      ]
+    ]
+  ],
+  "Func_0013ecf2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldi_d",
+      [
+        1153,
+        1167
+      ]
+    ]
+  ],
+  "Func_0013edfe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldxr_d",
+      [
+        1169,
+        1182
+      ]
+    ]
+  ],
+  "Func_0013ee54": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_ldxi_d",
+      [
+        1184,
+        1203
+      ]
+    ]
+  ],
+  "Func_0013ef66": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_str_d",
+      [
+        1205,
+        1215
+      ]
+    ]
+  ],
+  "Func_0013eff9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_sti_d",
+      [
+        1217,
+        1234
+      ]
+    ]
+  ],
+  "Func_0013f14e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_stxr_d",
+      [
+        1236,
+        1254
+      ]
+    ]
+  ],
+  "Func_0013f1e4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_stxi_d",
+      [
+        1256,
+        1278
+      ]
+    ]
+  ],
+  "Func_0013f341": [],
+  "Func_0013f3fc": [],
+  "Func_0013f4b7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_beqr_d",
+      [
+        1283,
+        1301
+      ]
+    ]
+  ],
+  "Func_0013f58c": [],
+  "Func_0013f63f": [],
+  "Func_0013f6fa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_bner_d",
+      [
+        1304,
+        1328
+      ]
+    ]
+  ],
+  "Func_0013f7b5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86-x87.c",
+      "_x87_bner_d",
+      [
+        1304,
+        1328
+      ]
+    ]
+  ],
+  "Func_0013f8c2": [],
+  "Func_0013f975": [],
+  "Func_0013fa30": [],
+  "Func_0013faeb": [],
+  "Func_0013fba6": [],
+  "Func_0013fc61": [],
+  "Func_0013fd1c": [],
+  "Func_0013fdd7": [],
+  "Func_0013fe92": [],
+  "Func_0013ff4d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "jit_flush",
+      [
+        2173,
+        2176
+      ]
+    ]
+  ],
+  "Func_0013ff5c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_emit_ldxi",
+      [
+        2178,
+        2182
+      ]
+    ]
+  ],
+  "Func_0013ffd2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_emit_stxi",
+      [
+        2184,
+        2188
+      ]
+    ]
+  ],
+  "Func_00140043": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_emit_ldxi_d",
+      [
+        2190,
+        2197
+      ]
+    ]
+  ],
+  "Func_00140124": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_emit_stxi_d",
+      [
+        2199,
+        2206
+      ]
+    ]
+  ],
+  "Func_001401fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_patch",
+      [
+        2208,
+        2228
+      ]
+    ]
+  ],
+  "Func_0014034a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_sse_from_x87_f",
+      [
+        2230,
+        2235
+      ]
+    ]
+  ],
+  "Func_00140397": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_sse_from_x87_d",
+      [
+        2237,
+        2242
+      ]
+    ]
+  ],
+  "Func_001403e4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_x87_from_sse_f",
+      [
+        2244,
+        2249
+      ]
+    ]
+  ],
+  "Func_00140431": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/lightning/lightning-2.1.2/lib/jit_x86.c",
+      "_x87_from_sse_d",
+      [
+        2251,
+        2256
+      ]
+    ]
+  ]
+}

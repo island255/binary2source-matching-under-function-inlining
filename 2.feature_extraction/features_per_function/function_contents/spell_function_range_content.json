@@ -1,0 +1,250 @@
+{
+  "spell/spell-1.1/spell.c": {
+    "main": {
+      "start_point": [
+        154,
+        0
+      ],
+      "end_point": [
+        278,
+        1
+      ],
+      "content": "int\nmain (int argc, char **argv)\n{\n  int opt = 0;\t\t\t/* Current option.  */\n  int opt_error = 0;\t\t/* Whether an option error occurred.  */\n  int show_help = 0;\t\t/* Display help (--help, -h).  */\n  int show_version = 0;\t\t/* Display the version (--version, -V).  */\n  pid_t pid = 0;\t\t/* Child's pid.  */\n  pipe_t ispell_pipe;\t\t/* The descriptors for our pipe.  */\n\n  program_name = argv[0];\n\n  /* Option processing loop.  */\n  while (1)\n    {\n      opt = getopt_long (argc, argv, \"IVbdhilnosvx\", long_options,\n\t\t\t (int *) 0);\n\n      if (opt == EOF)\n\tbreak;\n\n      switch (opt)\n\t{\n\tcase 'I':\n\t  show_ispell_version = 1;\n\t  break;\n\tcase 'V':\n\t  show_version = 1;\n\t  break;\n\tcase 'b':\n\t  british = 1;\n\t  break;\n\tcase 'd':\n\t  if (optarg != NULL)\n\t    dictionary = xstrdup (optarg);\n\t  else\n\t    error (0, 0, \"option argument not given\");\n\t  break;\n\tcase 'h':\n\t  show_help = 1;\n\t  break;\n\tcase 'i':\n\t  if (optarg != NULL)\n\t    ispell_prog = xstrdup (optarg);\n\t  else\n\t    error (0, 0, \"option argument not given\");\n\t  break;\n\tcase 'l':\n\t  break;\n\tcase 'n':\n\t  number_lines = 1;\n\t  break;\n\tcase 'o':\n\t  print_file_names = 1;\n\t  break;\n\tcase 's':\n\t  break;\n\tcase 'v':\n\t  verbose = 1;\n\t  break;\n\tcase 'x':\n\t  break;\n\tdefault:\n\t  opt_error = 1;\n\t  break;\n\t}\n    }\n\n  if (opt_error)\n    {\n      printf (\"Try `%s --help' for more information.\\n\", program_name);\n      exit (EXIT_FAILURE);\n    }\n\n  if (show_version)\n    {\n      puts ( \"GNU Spell \" VERSION \"\\n\"\n\t\"Copyright (C) 1996,2010 Free Software Foundation, Inc.\\n\"\n\t\"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\\n\"\n\t\"This is free software: you are free to change and redistribute it.\\n\"\n\t\"There is NO WARRANTY, to the extent permitted by law.\\n\"\n\t);\n      exit (EXIT_SUCCESS);\n    }\n\n  if (show_help)\n    {\n      printf (\"Usage: %s [OPTION]... [FILE]...\\n\", program_name);\n      puts (\"This is GNU Spell, a Unix spell emulator.\\n\\n\"\n\t     \"  -I, --ispell-version\\t\\tPrint Ispell's version.\\n\"\n\t     \"  -V, --version\\t\\t\\tPrint the version number.\\n\"\n\t     \"  -b, --british\\t\\t\\tUse the British dictionary.\\n\"\n\t     \"  -d, --dictionary=FILE\\t\\tUse FILE to look up words.\\n\"\n\t     \"  -h, --help\\t\\t\\tPrint a summary of the options.\\n\"\n\t     \"  -i, --ispell=PROGRAM\\t\\tCalls PROGRAM as Ispell.\\n\"\n\t     \"  -l, --all-chains\\t\\tIgnored; for compatibility.\\n\"\n\t     \"  -n, --number\\t\\t\\tPrint line numbers before lines.\\n\"\n\t     \"  -o, --print-file-name\\t\\tPrint file names before lines.\\n\"\n\t     \"  -s, --stop-list=FILE\\t\\tIgnored; for compatibility.\\n\"\n\t     \"  -v, --verbose\\t\\t\\tPrint words not literally found.\\n\"\n\t     \"  -x, --print-stems\\t\\tIgnored; for compatibility.\\n\\n\"\n\t     \"Please use Info to read more (type `info spell').\\n\"\n\t     \"Report bugs to: cate@gnu.org\\n\"\n\t     \"spell home page: <http://www.gnu.org/software/spell/>\\n\"\n\t     \"General help using GNU software: <http://www.gnu.org/gethelp/>\\n\"\n\t   );\n      exit (EXIT_SUCCESS);\n    }\n\n  if (!ispell_prog)\n    ispell_prog = \"ispell\";\n\n  new_pipe (&ispell_pipe);\n\n  pid = fork ();\n\n  if (pid < 0)\n    error (EXIT_FAILURE, errno, \"error forking to run Ispell\");\n  else if (pid > 0)\n    parent (&ispell_pipe, argc, argv);\n  else\n    run_ispell_in_child (&ispell_pipe);\n\n  exit (EXIT_SUCCESS);\n}",
+      "lines": 125,
+      "depth": 13,
+      "decorators": [
+        "int"
+      ]
+    },
+    "read_file": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        349,
+        1
+      ],
+      "content": "void\nread_file (pipe_t * the_pipe, FILE * stream, char *file)\n{\n  size_t buff_size = INITIAL_BUFF_SIZE;\n  char *buff = xmalloc(sizeof(char[INITIAL_BUFF_SIZE]));\n  ssize_t len, rlen, zlen;\n  char *wbuff;\n  unsigned long line = 0;\n\n  while (1)\n    {\n      len = getline(&buff, &buff_size, stream);\n      line++;\n      if (len < 0) {\n        if (feof(stream)) {\n\t    free(buff);\n            return;\n\t} else {\n\t    error (EXIT_FAILURE, errno, \"%s: error reading line\", file);\n\t}\n     }\n    /* In case there was no newline at the end of the file.  */\n    if (len>0  && buff[len-1] != '\\n') {\n      if (len >= buff_size-1)\n\tbuff = xrealloc(buff, buff_size += 16);\n      buff[len] = '\\n';\n      len++;\n    }\n    /* The '\\0' chars in the string are transformed to a space ' ' */\n    wbuff = buff;\n    rlen = 0;\n    zlen = 0;\n    while (1) {\n      rlen = strlen(wbuff);\n      zlen += rlen;\n      if (zlen >= len)\n\tbreak;\n      wbuff[rlen] = ' ';\n      wbuff += rlen;\n    }\n\n    rlen = write (the_pipe->pout, \"^\", 1);\n    if (rlen <= 0)\n        error (EXIT_FAILURE, errno, \"error writing to Ispell\");\n\n    wbuff = buff;\n    while (len > 0) {\n      rlen = write (the_pipe->pout, wbuff, len);\n      if (rlen <= 0)\n\terror (EXIT_FAILURE, errno, \"error writing to Ispell\");\n      len -= rlen;\n      wbuff += rlen;\n    }\n    fsync(the_pipe->pout);\n\n    read_ispell_errors (the_pipe);\n    read_ispell (the_pipe, file, line);\n    read_ispell_errors (the_pipe);\n  }\n\n  if (fclose (stream) == EOF)\n    error (0, errno, \"%s: close error\", file);\n  free(buff);\n}",
+      "lines": 64,
+      "depth": 13,
+      "decorators": [
+        "void"
+      ]
+    },
+    "read_ispell": {
+      "start_point": [
+        359,
+        0
+      ],
+      "end_point": [
+        416,
+        1
+      ],
+      "content": "void\nread_ispell (pipe_t * ispell_pipe, char *file, int line)\n{\n  size_t buff_size = INITIAL_BUFF_SIZE;\n  char *buff = xmalloc(sizeof(char[INITIAL_BUFF_SIZE]));\n  ssize_t len;\n  char b0;\n\n  while (1)\n    {\n      len = getline(&buff, &buff_size, ispell_pipe->fpin);\n      if (len == -1) {\n\tif (feof(ispell_pipe->fpin))\n\t    exit (EXIT_SUCCESS);\n\telse\n\t    error(EXIT_FAILURE, errno, \"error reading data from ispell/aspell\");\n     }\n     b0 = buff[0];\n     /* Ispell gives us a blank line when it's finished processing\n        the line we just gave it.  */\n     if (len == 1 && b0 == '\\n') {\n      free(buff);\n\treturn;\n      }\n      /* There was no problem with this word.  */\n      if (b0 == '*' || b0 == '+'\n\t  || b0 == '-')\n\tcontinue;\n\n      /* The word appears to have been misspelled.  */\n      if (b0 == '&' || b0 == '#'\n\t  || (b0 == '?' && verbose))\n\t{\n\t  int pos;\n\n\t  if (print_file_names)\n\t    {\n\t      printf (\"%s:\", file);\n\t      if (!number_lines)\n\t\tputchar (' ');\n\t    }\n\t  if (number_lines)\n\t    printf (\"%d: \", line);\n\n\t  for (pos = 2; buff[pos] != ' '; pos++)\n\t    putchar (buff[pos]);\n\t  putchar ('\\n');\n\n\t  continue;\n\t}\n\n      if (b0 == '?' && !verbose)\n\tcontinue;\n\n      error (0, 0, \"unrecognized Ispell line `%s'\", buff);\n    }\n  free(buff);\n}",
+      "lines": 58,
+      "depth": 14,
+      "decorators": [
+        "void"
+      ]
+    },
+    "read_ispell_errors": {
+      "start_point": [
+        425,
+        0
+      ],
+      "end_point": [
+        463,
+        1
+      ],
+      "content": "void\nread_ispell_errors (pipe_t * the_pipe)\n{\n  struct timeval time_out;\n  size_t buff_size = INITIAL_BUFF_SIZE;\n  char *buff = xmalloc(sizeof(char[INITIAL_BUFF_SIZE]));\n  ssize_t len;\n\n  time_out.tv_sec = time_out.tv_usec = 0;\n\n  while (select (FD_SETSIZE, &(the_pipe->error_set), NULL, NULL,\n\t\t &time_out) == 1)\n    {\n       len = getline(&buff, &buff_size, the_pipe->fperr);\n       if (len == -1) {\n         if (feof(the_pipe->fperr))\n\t    /* Ispell closed its stderr.  */\n\t    error (EXIT_FAILURE, 0, \"premature EOF from Ispell's stderr\");\n        else\n            error(EXIT_FAILURE, errno, \"error reading errors of ispell/aspell\");\n      }\n\n      /* Strip the crlf.  */\n      if (len > 1  &&  buff[len-1] == '\\r'  ||  buff[len-1] == '\\n') {\n\tif (len > 2  &&  buff[len-2] == '\\r'  ||  buff[len-2] == '\\n')\n\t    len -= 2;\n\telse\n            len -= 1;\n\tbuff[len] = 0;\n      }\n\t\n      if (!memcmp (buff, \"Can't open \", strlen (\"Can't open \")))\n\terror (EXIT_FAILURE, 0, \"%s: cannot open\",\n\t       buff + strlen (\"Can't open \"));\n\n      fprintf (stderr, \"%s: %s\\n\", ispell_prog, buff);\n    }\n  free(buff);\n}",
+      "lines": 39,
+      "depth": 14,
+      "decorators": [
+        "void"
+      ]
+    },
+    "new_pipe": {
+      "start_point": [
+        468,
+        0
+      ],
+      "end_point": [
+        503,
+        1
+      ],
+      "content": "void\nnew_pipe (pipe_t * the_pipe)\n{\n  int ifd[2];\n  int ofd[2];\n  int efd[2];\n\n  if (signal (SIGPIPE, sig_pipe) == SIG_ERR)\n    error (EXIT_FAILURE, errno, \"error creating SIGPIPE handler\");\n  if (signal (SIGCHLD, sig_chld) == SIG_ERR)\n    error (EXIT_FAILURE, errno, \"error creating SIGCHLD handler\");\n\n  if (pipe (ifd) < 0)\n    error (EXIT_FAILURE, errno, \"error creating pipe to Ispell\");\n  the_pipe->pin = ifd[0];\n  the_pipe->cout = ifd[1];\n  the_pipe->fpin = fdopen(the_pipe->pin, \"r\");\n  if (the_pipe->fpin == NULL)\n    error (EXIT_FAILURE, errno, \"error opening the pipe to Ispell\"); \n\n  if (pipe (ofd) < 0)\n    error (EXIT_FAILURE, errno, \"error creating pipe to Ispell\");\n  the_pipe->cin = ofd[0];\n  the_pipe->pout = ofd[1];\n\n  if (pipe (efd) < 0)\n    error (EXIT_FAILURE, errno, \"error creating pipe to Ispell\");\n  the_pipe->perr = efd[0];\n  the_pipe->cerr = efd[1];\n  the_pipe->fperr = fdopen(the_pipe->perr, \"r\");\n  if (the_pipe->fperr == NULL)\n    error (EXIT_FAILURE, errno, \"error opening the error pipe to Ispell\");\n\n  FD_ZERO (&(the_pipe->error_set));\n  FD_SET (the_pipe->perr, &(the_pipe->error_set));\n}",
+      "lines": 36,
+      "depth": 9,
+      "decorators": [
+        "void"
+      ]
+    },
+    "sig_pipe": {
+      "start_point": [
+        507,
+        0
+      ],
+      "end_point": [
+        511,
+        1
+      ],
+      "content": "static void\nsig_pipe (int signo)\n{\n  error (EXIT_FAILURE, 0, \"broken pipe\");\n}",
+      "lines": 5,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "sig_chld": {
+      "start_point": [
+        515,
+        0
+      ],
+      "end_point": [
+        519,
+        1
+      ],
+      "content": "static void\nsig_chld (int signo)\n{\n  error (EXIT_FAILURE, 0, \"Ispell died\");\n}",
+      "lines": 5,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "parent": {
+      "start_point": [
+        527,
+        0
+      ],
+      "end_point": [
+        619,
+        1
+      ],
+      "content": "void\nparent (pipe_t * the_pipe, int argc, char **argv)\n{\n  FILE *stream;\n  char *file = NULL;\n  int arg_error = 0;\n  int arg_index = optind;\n\n  /* Close the child's end of the pipes.  This is very important, as I\n     found out the hard way.  */\n  close (the_pipe->cin);\n  close (the_pipe->cout);\n  close (the_pipe->cerr);\n\n  read_ispell_errors (the_pipe);\n\n  /* This block parses Ispell's banner and grabs its version.  It then\n     prints it if the flag `--ispell-version' or `-I' was used.\n     FIXME: check that the version is high enough that it is going to\n     be able to interact with GNU Spell sucessfully.  */\n  {\n    size_t buff_size = INITIAL_BUFF_SIZE;\n    char *buff = xmalloc(sizeof(char[INITIAL_BUFF_SIZE]));\n    ssize_t len;\n\n    size_t ipos = 0;\n    size_t fpos;\n\n    len = getline(&buff, &buff_size, the_pipe->fpin);\n    if (len == -1) {\n      if (feof(the_pipe->fpin))\n          error (EXIT_FAILURE, 0, \"premature EOF from Ispell's stdout\");\n      else\n          error(EXIT_FAILURE, errno, \"error reading errors of ispell/aspell\");\n    }\n\n    if (show_ispell_version) {\n      for (; !isdigit (buff[ipos]) && ipos < len; ipos++);\n      fpos = ipos;\n      for (; buff[fpos] != ' ' && fpos < len; fpos++);\n      buff[fpos] = 0;\n\n      printf (\"%s: Ispell version %s\\n\", program_name, buff+ipos);\n      exit (EXIT_SUCCESS);\n    }\n    free(buff);\n  }\n\n  if (argc == 1)\n    read_file (the_pipe, stdin, \"-\");\n\n  while (arg_index < argc)\n    {\n      arg_error = 0;\n\n      file = argv[arg_index];\n\n      if (file[0] == '-' && file[1] == 0)\n\t{\n\t    read_stdin = 1;\n\t    stream = stdin;\n\t}\n      else\n\t{\n\t  struct stat stat_buf;\n\n\t  if (stat (file, &stat_buf) == -1)\n\t    {\n\t      error (0, errno, \"%s: stat error\", file);\n\t      arg_index++;\n\t      continue;\n\t    }\n\t  if (S_ISDIR (stat_buf.st_mode))\n\t    {\n\t      error (0, 0, \"%s: is a directory\", file);\n\t      arg_index++;\n\t      continue;\n\t    }\n\n\t  stream = fopen (file, \"r\");\n\t  if (!stream)\n\t    {\n\t      error (0, errno, \"%s: open error\", file);\n\t      arg_error = 1;\n\t    }\n\t}\n\n      if (!arg_error)\n\tread_file (the_pipe, stream, file);\n\n      arg_index++;\n    }\n}",
+      "lines": 93,
+      "depth": 13,
+      "decorators": [
+        "void"
+      ]
+    },
+    "run_ispell_in_child": {
+      "start_point": [
+        625,
+        0
+      ],
+      "end_point": [
+        661,
+        1
+      ],
+      "content": "void\nrun_ispell_in_child (pipe_t * the_pipe)\n{\n  /* Close the parent side of the pipe.  */\n  close (the_pipe->pin);\n  close (the_pipe->pout);\n  close (the_pipe->perr);\n\n  if (the_pipe->cin != STDIN_FILENO)\n    if (dup2 (the_pipe->cin, STDIN_FILENO) != STDIN_FILENO)\n      error (EXIT_FAILURE, errno, \"error duping to stdin\");\n\n  if (the_pipe->cout != STDOUT_FILENO)\n    if (dup2 (the_pipe->cout, STDOUT_FILENO) != STDOUT_FILENO)\n      error (EXIT_FAILURE, errno, \"error duping to stdout\");\n\n  if (the_pipe->cerr != STDERR_FILENO)\n    if (dup2 (the_pipe->cerr, STDERR_FILENO) != STDERR_FILENO)\n      error (EXIT_FAILURE, errno, \"error duping to stderr\");\n\n  if (dictionary != NULL)\n    if (execlp (ispell_prog, \"ispell\", \"-a\", \"-p\", dictionary, NULL) < 0)\n      if (errno != ENOENT  ||\n\t   execlp (\"aspell\", \"aspell\", \"-a\", \"-p\", dictionary, NULL) < 0)\n\terror (EXIT_FAILURE, errno, \"error executing ispell/aspell\");\n\n  if (british)\n    if (execlp (ispell_prog, \"ispell\", \"-a\", \"-d\", \"british\", NULL) < 0)\n      if (errno != ENOENT  ||\n\t   execlp (\"aspell\", \"aspell\", \"-a\", \"-d\", \"british\", NULL) < 0)\n        error (EXIT_FAILURE, errno, \"error executing ispell/aspell\");\n\n  if (execlp (ispell_prog, \"ispell\", \"-a\", NULL) < 0)\n    if (errno != ENOENT  ||\n         execlp (\"aspell\", \"aspell\", \"-a\", NULL) < 0)\n      error (EXIT_FAILURE, errno, \"error executing ispell/aspell\");\n}",
+      "lines": 37,
+      "depth": 12,
+      "decorators": [
+        "void"
+      ]
+    },
+    "strerror": {
+      "start_point": [
+        667,
+        0
+      ],
+      "end_point": [
+        676,
+        1
+      ],
+      "content": "static char *\nstrerror (int errnum)\n{\n  extern char *sys_errlist[];\n  extern int sys_nerr;\n\n  if (errnum > 0 && errnum <= sys_nerr)\n    return sys_errlist[errnum];\n  return \"Unknown system error\";\n}",
+      "lines": 10,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "char",
+        "*\nstrerror (int errnum)",
+        "*"
+      ]
+    },
+    "error": {
+      "start_point": [
+        685,
+        0
+      ],
+      "end_point": [
+        703,
+        1
+      ],
+      "content": "static void\nerror (int status, int errnum, const char *message,...)\n{\n  va_list args;\n\n  fflush (stdout);\n  fprintf (stderr, \"%s: \", program_name);\n\n  va_start (args, message);\n  vfprintf (stderr, message, args);\n  va_end (args);\n\n  if (errnum)\n    fprintf (stderr, \": %s\", strerror (errnum));\n  putc ('\\n', stderr);\n  fflush (stderr);\n  if (status)\n    exit (status);\n}",
+      "lines": 19,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "xmalloc": {
+      "start_point": [
+        708,
+        0
+      ],
+      "end_point": [
+        716,
+        1
+      ],
+      "content": "static void *\nxmalloc (size_t size)\n{\n  void *ptr = malloc (size);\n\n  if (!ptr)\n    error (EXIT_FAILURE, errno, \"virtual memory exhausted\");\n  return ptr;\n}",
+      "lines": 9,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nxmalloc (size_t size)",
+        "*"
+      ]
+    },
+    "xrealloc": {
+      "start_point": [
+        722,
+        0
+      ],
+      "end_point": [
+        731,
+        1
+      ],
+      "content": "static void *\nxrealloc (void *ptr, size_t size)\n{\n  if (!ptr)\n    return xmalloc (size);\n  ptr = realloc (ptr, size);\n  if (!ptr)\n    error (EXIT_FAILURE, errno, \"virtual memory exhausted\");\n  return ptr;\n}",
+      "lines": 10,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nxrealloc (void *ptr, size_t size)",
+        "*"
+      ]
+    },
+    "xstrdup": {
+      "start_point": [
+        733,
+        0
+      ],
+      "end_point": [
+        740,
+        1
+      ],
+      "content": "static char *\nxstrdup (const char *str)\n{\n  char *ptr = strdup (str);\n  if (!ptr)\n    error (EXIT_FAILURE, errno, \"virtual memory exhausted\");\n  return ptr;\n}",
+      "lines": 8,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "char",
+        "*\nxstrdup (const char *str)",
+        "*"
+      ]
+    }
+  }
+}

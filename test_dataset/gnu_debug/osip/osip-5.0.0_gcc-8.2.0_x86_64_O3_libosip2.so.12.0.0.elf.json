@@ -1,0 +1,1606 @@
+{
+  "osip_list_clone": {
+    "start_address": 2170088, 
+    "end_address": 2170096
+  }, 
+  "pthread_mutex_lock": {
+    "start_address": 2170160, 
+    "end_address": 2170168
+  }, 
+  ".parser_init": {
+    "start_address": 24688, 
+    "end_address": 24694
+  }, 
+  ".term_proc": {
+    "start_address": 55460, 
+    "end_address": 55474
+  }, 
+  ".pthread_cond_wait": {
+    "start_address": 22736, 
+    "end_address": 22742
+  }, 
+  ".pthread_mutex_init": {
+    "start_address": 24624, 
+    "end_address": 24630
+  }, 
+  "__osip_remove_ist_transaction": {
+    "start_address": 38096, 
+    "end_address": 38234
+  }, 
+  ".memcpy": {
+    "start_address": 23456, 
+    "end_address": 23462
+  }, 
+  ".__osip_add_ict": {
+    "start_address": 23856, 
+    "end_address": 23862
+  }, 
+  ".clock_gettime": {
+    "start_address": 23808, 
+    "end_address": 23814
+  }, 
+  ".osip_dialog_match_as_uas": {
+    "start_address": 23424, 
+    "end_address": 23430
+  }, 
+  "osip_fifo_free": {
+    "start_address": 50416, 
+    "end_address": 50478
+  }, 
+  "osip_sem_init": {
+    "start_address": 54688, 
+    "end_address": 54810
+  }, 
+  "osip_getsystemtime": {
+    "start_address": 54480, 
+    "end_address": 54516
+  }, 
+  "osip_set_application_context": {
+    "start_address": 40176, 
+    "end_address": 40180
+  }, 
+  "osip_ict_timeout_a_event": {
+    "start_address": 25376, 
+    "end_address": 25692
+  }, 
+  "osip_nist_unlock": {
+    "start_address": 37680, 
+    "end_address": 37689
+  }, 
+  "__osip_ict_init": {
+    "start_address": 32128, 
+    "end_address": 33048
+  }, 
+  "osip_dialog_update_osip_cseq_as_uas": {
+    "start_address": 50656, 
+    "end_address": 50717
+  }, 
+  ".__osip_transaction_snd_xxx": {
+    "start_address": 24464, 
+    "end_address": 24470
+  }, 
+  ".strcmp": {
+    "start_address": 23296, 
+    "end_address": 23302
+  }, 
+  ".pthread_mutex_destroy": {
+    "start_address": 22912, 
+    "end_address": 22918
+  }, 
+  "osip_fifo_add": {
+    "start_address": 49888, 
+    "end_address": 49958
+  }, 
+  ".__osip_remove_ict_transaction": {
+    "start_address": 24512, 
+    "end_address": 24518
+  }, 
+  ".__osip_ict_need_timer_d_event": {
+    "start_address": 24576, 
+    "end_address": 24582
+  }, 
+  "osip_timers_ist_execute": {
+    "start_address": 43296, 
+    "end_address": 43483
+  }, 
+  "osip_contact_clone": {
+    "start_address": 2169664, 
+    "end_address": 2169672
+  }, 
+  ".osip_call_id_free": {
+    "start_address": 23280, 
+    "end_address": 23286
+  }, 
+  ".__osip_nict_init": {
+    "start_address": 22896, 
+    "end_address": 22902
+  }, 
+  "osip_transaction_set_out_socket": {
+    "start_address": 47152, 
+    "end_address": 47169
+  }, 
+  "osip_message_clone": {
+    "start_address": 2169648, 
+    "end_address": 2169656
+  }, 
+  "osip_retransmissions_execute": {
+    "start_address": 37184, 
+    "end_address": 37559
+  }, 
+  "osip_get_application_context": {
+    "start_address": 40192, 
+    "end_address": 40211
+  }, 
+  "osip_transaction_init": {
+    "start_address": 44896, 
+    "end_address": 45901
+  }, 
+  ".osip_mutex_init": {
+    "start_address": 23792, 
+    "end_address": 23798
+  }, 
+  "osip_stop_retransmissions_from_dialog": {
+    "start_address": 36960, 
+    "end_address": 37175
+  }, 
+  ".osip_uri_clone": {
+    "start_address": 23056, 
+    "end_address": 23062
+  }, 
+  ".osip_response_get_destination": {
+    "start_address": 24592, 
+    "end_address": 24598
+  }, 
+  ".sem_post": {
+    "start_address": 23904, 
+    "end_address": 23910
+  }, 
+  ".fsm_callmethod": {
+    "start_address": 22784, 
+    "end_address": 22790
+  }, 
+  "osip_thread_set_priority": {
+    "start_address": 55120, 
+    "end_address": 55123
+  }, 
+  ".osip_message_get_via": {
+    "start_address": 23392, 
+    "end_address": 23398
+  }, 
+  "osip_start_200ok_retransmissions": {
+    "start_address": 36064, 
+    "end_address": 36324
+  }, 
+  "osip_to_clone": {
+    "start_address": 2169872, 
+    "end_address": 2169880
+  }, 
+  "osip_list_get_next": {
+    "start_address": 2170152, 
+    "end_address": 2170160
+  }, 
+  "osip_nist_timeout_j_event": {
+    "start_address": 31360, 
+    "end_address": 31409
+  }, 
+  ".pthread_mutex_unlock": {
+    "start_address": 23664, 
+    "end_address": 23670
+  }, 
+  "osip_message_init": {
+    "start_address": 2169992, 
+    "end_address": 2170000
+  }, 
+  "osip_call_id_free": {
+    "start_address": 2169776, 
+    "end_address": 2169784
+  }, 
+  "nist_rcv_request": {
+    "start_address": 30720, 
+    "end_address": 31354
+  }, 
+  "via_get_host": {
+    "start_address": 2169848, 
+    "end_address": 2169856
+  }, 
+  ".pthread_join": {
+    "start_address": 24272, 
+    "end_address": 24278
+  }, 
+  ".osip_uri_param_get_byname": {
+    "start_address": 23504, 
+    "end_address": 23510
+  }, 
+  "__osip_transport_error_callback": {
+    "start_address": 44032, 
+    "end_address": 44105
+  }, 
+  ".osip_list_remove": {
+    "start_address": 23408, 
+    "end_address": 23414
+  }, 
+  "gettimeofday": {
+    "start_address": 2169688, 
+    "end_address": 2169696
+  }, 
+  "nict_rcv_1xx": {
+    "start_address": 29088, 
+    "end_address": 29206
+  }, 
+  ".__osip_nist_need_timer_j_event": {
+    "start_address": 23840, 
+    "end_address": 23846
+  }, 
+  "osip_cseq_clone": {
+    "start_address": 2169568, 
+    "end_address": 2169576
+  }, 
+  "osip_transaction_find": {
+    "start_address": 38992, 
+    "end_address": 39305
+  }, 
+  ".osip_dialog_free": {
+    "start_address": 22592, 
+    "end_address": 22598
+  }, 
+  "osip_id_mutex_lock": {
+    "start_address": 36032, 
+    "end_address": 36041
+  }, 
+  "osip_call_id_match": {
+    "start_address": 2170032, 
+    "end_address": 2170040
+  }, 
+  "sem_trywait": {
+    "start_address": 2170040, 
+    "end_address": 2170048
+  }, 
+  "__osip_add_ist": {
+    "start_address": 37760, 
+    "end_address": 37816
+  }, 
+  ".osip_nict_set_destination": {
+    "start_address": 23440, 
+    "end_address": 23446
+  }, 
+  "osip_fifo_get": {
+    "start_address": 50096, 
+    "end_address": 50243
+  }, 
+  "strlen": {
+    "start_address": 2169640, 
+    "end_address": 2169648
+  }, 
+  ".__osip_nict_need_timer_e_event": {
+    "start_address": 22528, 
+    "end_address": 22534
+  }, 
+  "osip_sem_trywait": {
+    "start_address": 54928, 
+    "end_address": 54944
+  }, 
+  ".osip_to_tag_match": {
+    "start_address": 22720, 
+    "end_address": 22726
+  }, 
+  ".min_timercmp": {
+    "start_address": 22560, 
+    "end_address": 22566
+  }, 
+  ".osip_via_match": {
+    "start_address": 23120, 
+    "end_address": 23126
+  }, 
+  ".osip_atoi": {
+    "start_address": 23968, 
+    "end_address": 23974
+  }, 
+  "osip_message_free": {
+    "start_address": 2170104, 
+    "end_address": 2170112
+  }, 
+  "osip_list_get": {
+    "start_address": 2169744, 
+    "end_address": 2169752
+  }, 
+  "__cxa_finalize": {
+    "start_address": 24704, 
+    "end_address": 24710
+  }, 
+  ".via_get_host": {
+    "start_address": 23488, 
+    "end_address": 23494
+  }, 
+  ".osip_fifo_size": {
+    "start_address": 23824, 
+    "end_address": 23830
+  }, 
+  "pthread_join": {
+    "start_address": 2170064, 
+    "end_address": 2170072
+  }, 
+  "__osip_find_transaction": {
+    "start_address": 39312, 
+    "end_address": 39721
+  }, 
+  "osip_fifo_size": {
+    "start_address": 50048, 
+    "end_address": 50093
+  }, 
+  "osip_nist_execute": {
+    "start_address": 41280, 
+    "end_address": 41630
+  }, 
+  "osip_nict_timeout_k_event": {
+    "start_address": 29024, 
+    "end_address": 29074
+  }, 
+  "osip_create_transaction": {
+    "start_address": 38608, 
+    "end_address": 38992
+  }, 
+  ".__osip_remove_nist_transaction": {
+    "start_address": 22704, 
+    "end_address": 22710
+  }, 
+  ".pthread_create": {
+    "start_address": 22496, 
+    "end_address": 22502
+  }, 
+  ".__osip_transaction_matching_request_osip_to_xist_17_2_3": {
+    "start_address": 23728, 
+    "end_address": 23734
+  }, 
+  "osip_cond_timedwait": {
+    "start_address": 55408, 
+    "end_address": 55424
+  }, 
+  ".__osip_ist_init": {
+    "start_address": 23152, 
+    "end_address": 23158
+  }, 
+  ".pthread_mutex_lock": {
+    "start_address": 24672, 
+    "end_address": 24678
+  }, 
+  "osip_new_outgoing_sipmessage": {
+    "start_address": 49632, 
+    "end_address": 49762
+  }, 
+  ".osip_transaction_init": {
+    "start_address": 22608, 
+    "end_address": 22614
+  }, 
+  ".pthread_cond_init": {
+    "start_address": 23616, 
+    "end_address": 23622
+  }, 
+  ".__osip_add_nict": {
+    "start_address": 23008, 
+    "end_address": 23014
+  }, 
+  "evt_set_type_outgoing_sipmessage": {
+    "start_address": 49520, 
+    "end_address": 49631
+  }, 
+  "parser_init": {
+    "start_address": 2170168, 
+    "end_address": 2170176
+  }, 
+  "osip_dialog_update_tag_as_uac": {
+    "start_address": 51088, 
+    "end_address": 51319
+  }, 
+  ".osip_sem_init": {
+    "start_address": 22880, 
+    "end_address": 22886
+  }, 
+  ".pthread_cond_destroy": {
+    "start_address": 24208, 
+    "end_address": 24214
+  }, 
+  ".osip_list_get_first": {
+    "start_address": 22960, 
+    "end_address": 22966
+  }, 
+  ".__osip_transaction_set_state": {
+    "start_address": 24112, 
+    "end_address": 24118
+  }, 
+  "osip_uri_param_get_byname": {
+    "start_address": 2169856, 
+    "end_address": 2169864
+  }, 
+  ".osip_from_clone": {
+    "start_address": 23584, 
+    "end_address": 23590
+  }, 
+  ".__osip_event_new": {
+    "start_address": 23232, 
+    "end_address": 23238
+  }, 
+  ".__osip_kill_transaction_callback": {
+    "start_address": 22672, 
+    "end_address": 22678
+  }, 
+  "osip_nict_execute": {
+    "start_address": 40928, 
+    "end_address": 41278
+  }, 
+  "osip_ist_timeout_i_event": {
+    "start_address": 27792, 
+    "end_address": 27842
+  }, 
+  "clock_gettime": {
+    "start_address": 2169952, 
+    "end_address": 2169960
+  }, 
+  "osip_stop_200ok_retransmissions": {
+    "start_address": 36624, 
+    "end_address": 36956
+  }, 
+  "__osip_nist_need_timer_j_event": {
+    "start_address": 35680, 
+    "end_address": 35707
+  }, 
+  ".osip_sem_trywait": {
+    "start_address": 23760, 
+    "end_address": 23766
+  }, 
+  "pthread_cond_signal": {
+    "start_address": 2169752, 
+    "end_address": 2169760
+  }, 
+  "__osip_ict_need_timer_d_event": {
+    "start_address": 33120, 
+    "end_address": 33147
+  }, 
+  "osip_fifo_tryget": {
+    "start_address": 50256, 
+    "end_address": 50403
+  }, 
+  ".__osip_nict_need_timer_f_event": {
+    "start_address": 22832, 
+    "end_address": 22838
+  }, 
+  "__osip_transaction_matching_request_osip_to_xist_17_2_3": {
+    "start_address": 47616, 
+    "end_address": 48652
+  }, 
+  ".memset": {
+    "start_address": 23024, 
+    "end_address": 23030
+  }, 
+  "__osip_ict_need_timer_a_event": {
+    "start_address": 33056, 
+    "end_address": 33080
+  }, 
+  "osip_set_transport_error_callback": {
+    "start_address": 44272, 
+    "end_address": 44341
+  }, 
+  "osip_nict_lock": {
+    "start_address": 37632, 
+    "end_address": 37641
+  }, 
+  "osip_strdup": {
+    "start_address": 2169944, 
+    "end_address": 2169952
+  }, 
+  "__osip_ist_free": {
+    "start_address": 33648, 
+    "end_address": 33737
+  }, 
+  "osip_release": {
+    "start_address": 40080, 
+    "end_address": 40166
+  }, 
+  "osip_response_get_destination": {
+    "start_address": 35792, 
+    "end_address": 36032
+  }, 
+  "free": {
+    "start_address": 2169576, 
+    "end_address": 2169584
+  }, 
+  "__osip_nict_need_timer_k_event": {
+    "start_address": 35104, 
+    "end_address": 35131
+  }, 
+  "nist_snd_1xx": {
+    "start_address": 31424, 
+    "end_address": 31559
+  }, 
+  ".osip_transaction_find": {
+    "start_address": 24352, 
+    "end_address": 24358
+  }, 
+  "osip_list_init": {
+    "start_address": 2169720, 
+    "end_address": 2169728
+  }, 
+  ".sem_destroy": {
+    "start_address": 24560, 
+    "end_address": 24566
+  }, 
+  ".osip_to_clone": {
+    "start_address": 23552, 
+    "end_address": 23558
+  }, 
+  "osip_ict_unlock": {
+    "start_address": 37584, 
+    "end_address": 37593
+  }, 
+  "via_get_port": {
+    "start_address": 2169608, 
+    "end_address": 2169616
+  }, 
+  ".osip_cseq_free": {
+    "start_address": 23104, 
+    "end_address": 23110
+  }, 
+  "osip_thread_join": {
+    "start_address": 55136, 
+    "end_address": 55157
+  }, 
+  "sem_post": {
+    "start_address": 2169968, 
+    "end_address": 2169976
+  }, 
+  "osip_gettimeofday": {
+    "start_address": 54352, 
+    "end_address": 54460
+  }, 
+  ".__osip_ist_need_timer_i_event": {
+    "start_address": 24528, 
+    "end_address": 24534
+  }, 
+  "osip_ist_lock": {
+    "start_address": 37600, 
+    "end_address": 37609
+  }, 
+  ".osip_fifo_add": {
+    "start_address": 22512, 
+    "end_address": 22518
+  }, 
+  ".osip_id_mutex_lock": {
+    "start_address": 22416, 
+    "end_address": 22422
+  }, 
+  "osip_to_free": {
+    "start_address": 2169912, 
+    "end_address": 2169920
+  }, 
+  "memset": {
+    "start_address": 2169704, 
+    "end_address": 2169712
+  }, 
+  "osip_thread_exit": {
+    "start_address": 55168, 
+    "end_address": 55179
+  }, 
+  ".osip_list_init": {
+    "start_address": 23072, 
+    "end_address": 23078
+  }, 
+  "osip_from_clone": {
+    "start_address": 2169888, 
+    "end_address": 2169896
+  }, 
+  "osip_call_id_to_str": {
+    "start_address": 2170096, 
+    "end_address": 2170104
+  }, 
+  "osip_dialog_init_as_uac_with_remote_request": {
+    "start_address": 53904, 
+    "end_address": 54063
+  }, 
+  "pthread_cond_timedwait": {
+    "start_address": 2170016, 
+    "end_address": 2170024
+  }, 
+  "ict_rcv_1xx": {
+    "start_address": 25056, 
+    "end_address": 25122
+  }, 
+  "osip_cseq_match": {
+    "start_address": 2170008, 
+    "end_address": 2170016
+  }, 
+  "osip_transaction_get_destination": {
+    "start_address": 46480, 
+    "end_address": 46552
+  }, 
+  ".__osip_transport_error_callback": {
+    "start_address": 24640, 
+    "end_address": 24646
+  }, 
+  ".pthread_exit": {
+    "start_address": 23696, 
+    "end_address": 23702
+  }, 
+  ".gettimeofday": {
+    "start_address": 22992, 
+    "end_address": 22998
+  }, 
+  "osip_timers_nict_execute": {
+    "start_address": 43488, 
+    "end_address": 43675
+  }, 
+  "__osip_transaction_matching_response_osip_to_xict_17_1_3": {
+    "start_address": 47184, 
+    "end_address": 47615
+  }, 
+  "__osip_remove_nist_transaction": {
+    "start_address": 38384, 
+    "end_address": 38522
+  }, 
+  "nict_rcv_23456xx": {
+    "start_address": 29216, 
+    "end_address": 29455
+  }, 
+  "__osip_dialog_init": {
+    "start_address": 52608, 
+    "end_address": 53814
+  }, 
+  "osip_message_get_route": {
+    "start_address": 2169800, 
+    "end_address": 2169808
+  }, 
+  "osip_sem_destroy": {
+    "start_address": 54816, 
+    "end_address": 54881
+  }, 
+  ".__osip_ist_need_timer_h_event": {
+    "start_address": 22640, 
+    "end_address": 22646
+  }, 
+  ".osip_transaction_execute": {
+    "start_address": 23872, 
+    "end_address": 23878
+  }, 
+  "osip_ist_timeout_g_event": {
+    "start_address": 28560, 
+    "end_address": 28698
+  }, 
+  ".osip_via_free": {
+    "start_address": 23344, 
+    "end_address": 23350
+  }, 
+  ".via_get_protocol": {
+    "start_address": 22624, 
+    "end_address": 22630
+  }, 
+  "ist_rcv_ack": {
+    "start_address": 28176, 
+    "end_address": 28300
+  }, 
+  ".__osip_transaction_need_timer_x_event": {
+    "start_address": 24256, 
+    "end_address": 24262
+  }, 
+  ".osip_message_clone": {
+    "start_address": 22816, 
+    "end_address": 22822
+  }, 
+  "osip_sem_wait": {
+    "start_address": 54912, 
+    "end_address": 54928
+  }, 
+  "osip_compensatetime": {
+    "start_address": 54464, 
+    "end_address": 54465
+  }, 
+  "osip_strcasecmp": {
+    "start_address": 2169960, 
+    "end_address": 2169968
+  }, 
+  "ist_snd_1xx": {
+    "start_address": 28304, 
+    "end_address": 28423
+  }, 
+  ".osip_list_get_next": {
+    "start_address": 24656, 
+    "end_address": 24662
+  }, 
+  "pthread_cond_init": {
+    "start_address": 2169904, 
+    "end_address": 2169912
+  }, 
+  ".osip_list_add": {
+    "start_address": 24608, 
+    "end_address": 24614
+  }, 
+  "__osip_ist_need_timer_i_event": {
+    "start_address": 33808, 
+    "end_address": 33835
+  }, 
+  "osip_transaction_free2": {
+    "start_address": 44352, 
+    "end_address": 44791
+  }, 
+  ".__osip_transaction_matching_response_osip_to_xict_17_1_3": {
+    "start_address": 22656, 
+    "end_address": 22662
+  }, 
+  "nict_snd_request": {
+    "start_address": 29456, 
+    "end_address": 30306
+  }, 
+  ".osip_call_id_to_str": {
+    "start_address": 24368, 
+    "end_address": 24374
+  }, 
+  "__osip_add_nict": {
+    "start_address": 37824, 
+    "end_address": 37880
+  }, 
+  "osip_mutex_unlock": {
+    "start_address": 54672, 
+    "end_address": 54688
+  }, 
+  "__osip_nict_init": {
+    "start_address": 34080, 
+    "end_address": 35028
+  }, 
+  ".osip_list_special_free": {
+    "start_address": 22976, 
+    "end_address": 22982
+  }, 
+  "sem_wait": {
+    "start_address": 2169816, 
+    "end_address": 2169824
+  }, 
+  "__osip_transaction_set_state": {
+    "start_address": 47088, 
+    "end_address": 47105
+  }, 
+  ".__osip_add_ist": {
+    "start_address": 23648, 
+    "end_address": 23654
+  }, 
+  "osip_uri_clone": {
+    "start_address": 2169712, 
+    "end_address": 2169720
+  }, 
+  "__osip_ict_need_timer_b_event": {
+    "start_address": 33088, 
+    "end_address": 33115
+  }, 
+  ".__osip_ict_need_timer_a_event": {
+    "start_address": 24384, 
+    "end_address": 24390
+  }, 
+  ".__osip_remove_nict_transaction": {
+    "start_address": 24496, 
+    "end_address": 24502
+  }, 
+  "osip_list_iterator_remove": {
+    "start_address": 2169880, 
+    "end_address": 2169888
+  }, 
+  "pthread_mutex_init": {
+    "start_address": 2170136, 
+    "end_address": 2170144
+  }, 
+  "osip_set_cb_send_message": {
+    "start_address": 43824, 
+    "end_address": 43832
+  }, 
+  "osip_contact_free": {
+    "start_address": 2169768, 
+    "end_address": 2169776
+  }, 
+  "osip_fifo_init": {
+    "start_address": 49840, 
+    "end_address": 49881
+  }, 
+  ".osip_transaction_free": {
+    "start_address": 24448, 
+    "end_address": 24454
+  }, 
+  "memcpy": {
+    "start_address": 2169840, 
+    "end_address": 2169848
+  }, 
+  "__imp___cxa_finalize": {
+    "start_address": 2170144, 
+    "end_address": 2170152
+  }, 
+  ".__osip_nict_free": {
+    "start_address": 23248, 
+    "end_address": 23254
+  }, 
+  "pthread_cond_wait": {
+    "start_address": 2169632, 
+    "end_address": 2169640
+  }, 
+  "osip_ict_timeout_d_event": {
+    "start_address": 25008, 
+    "end_address": 25055
+  }, 
+  "osip_ict_set_destination": {
+    "start_address": 32032, 
+    "end_address": 32121
+  }, 
+  "osip_cseq_free": {
+    "start_address": 2169728, 
+    "end_address": 2169736
+  }, 
+  "osip_from_tag_match": {
+    "start_address": 2170000, 
+    "end_address": 2170008
+  }, 
+  "__osip_nist_init": {
+    "start_address": 35136, 
+    "end_address": 35572
+  }, 
+  "osip_mutex_destroy": {
+    "start_address": 54592, 
+    "end_address": 54646
+  }, 
+  "osip_ict_timeout_b_event": {
+    "start_address": 24928, 
+    "end_address": 24995
+  }, 
+  "osip_transaction_add_event": {
+    "start_address": 45904, 
+    "end_address": 45950
+  }, 
+  ".osip_from_free": {
+    "start_address": 24192, 
+    "end_address": 24198
+  }, 
+  "__osip_event_new": {
+    "start_address": 49072, 
+    "end_address": 49143
+  }, 
+  ".osip_fifo_init": {
+    "start_address": 23312, 
+    "end_address": 23318
+  }, 
+  ".__osip_ist_free": {
+    "start_address": 24032, 
+    "end_address": 24038
+  }, 
+  ".osip_strdup": {
+    "start_address": 23744, 
+    "end_address": 23750
+  }, 
+  ".__osip_nist_init": {
+    "start_address": 23088, 
+    "end_address": 23094
+  }, 
+  ".sem_trywait": {
+    "start_address": 24176, 
+    "end_address": 24182
+  }, 
+  "sem_destroy": {
+    "start_address": 2170120, 
+    "end_address": 2170128
+  }, 
+  "osip_set_message_callback": {
+    "start_address": 44112, 
+    "end_address": 44181
+  }, 
+  "ict_retransmit_ack": {
+    "start_address": 25216, 
+    "end_address": 25367
+  }, 
+  "frame_dummy": {
+    "start_address": 24922, 
+    "end_address": 24927
+  }, 
+  "osip_list_special_free": {
+    "start_address": 2169680, 
+    "end_address": 2169688
+  }, 
+  ".osip_ict_set_destination": {
+    "start_address": 24320, 
+    "end_address": 24326
+  }, 
+  "osip_transaction_get_your_instance": {
+    "start_address": 46864, 
+    "end_address": 46883
+  }, 
+  "osip_ict_execute": {
+    "start_address": 40224, 
+    "end_address": 40574
+  }, 
+  "osip_dialog_update_route_set_as_uas": {
+    "start_address": 50496, 
+    "end_address": 50654
+  }, 
+  "osip_timers_ict_execute": {
+    "start_address": 43024, 
+    "end_address": 43292
+  }, 
+  ".osip_call_id_match": {
+    "start_address": 24160, 
+    "end_address": 24166
+  }, 
+  "__do_global_dtors_aux": {
+    "start_address": 24811, 
+    "end_address": 24922
+  }, 
+  "osip_id_mutex_unlock": {
+    "start_address": 36048, 
+    "end_address": 36057
+  }, 
+  "osip_dialog_update_route_set_as_uac": {
+    "start_address": 50720, 
+    "end_address": 51086
+  }, 
+  "osip_transaction_set_your_instance": {
+    "start_address": 46640, 
+    "end_address": 46661
+  }, 
+  "__osip_message_callback": {
+    "start_address": 43840, 
+    "end_address": 43913
+  }, 
+  ".pthread_cond_timedwait": {
+    "start_address": 24128, 
+    "end_address": 24134
+  }, 
+  "register_tm_clones": {
+    "start_address": 24754, 
+    "end_address": 24811
+  }, 
+  ".osip_mutex_lock": {
+    "start_address": 24224, 
+    "end_address": 24230
+  }, 
+  "osip_call_id_clone": {
+    "start_address": 2169864, 
+    "end_address": 2169872
+  }, 
+  "osip_transaction_set_in_socket": {
+    "start_address": 47120, 
+    "end_address": 47137
+  }, 
+  "__osip_nist_free": {
+    "start_address": 35584, 
+    "end_address": 35673
+  }, 
+  "osip_cond_wait": {
+    "start_address": 55392, 
+    "end_address": 55408
+  }, 
+  ".osip_remove_transaction": {
+    "start_address": 24240, 
+    "end_address": 24246
+  }, 
+  "osip_transaction_get_reserved6": {
+    "start_address": 47056, 
+    "end_address": 47075
+  }, 
+  "osip_transaction_get_reserved4": {
+    "start_address": 46992, 
+    "end_address": 47011
+  }, 
+  "osip_transaction_get_reserved5": {
+    "start_address": 47024, 
+    "end_address": 47043
+  }, 
+  "osip_transaction_get_reserved2": {
+    "start_address": 46928, 
+    "end_address": 46947
+  }, 
+  "osip_transaction_get_reserved3": {
+    "start_address": 46960, 
+    "end_address": 46979
+  }, 
+  ".osip_fifo_free": {
+    "start_address": 23472, 
+    "end_address": 23478
+  }, 
+  "osip_transaction_get_reserved1": {
+    "start_address": 46896, 
+    "end_address": 46915
+  }, 
+  "osip_ist_timeout_h_event": {
+    "start_address": 27728, 
+    "end_address": 27778
+  }, 
+  ".osip_contact_free": {
+    "start_address": 23264, 
+    "end_address": 23270
+  }, 
+  "osip_list_get_first": {
+    "start_address": 2169672, 
+    "end_address": 2169680
+  }, 
+  "__osip_remove_nict_transaction": {
+    "start_address": 38240, 
+    "end_address": 38378
+  }, 
+  "osip_from_compare": {
+    "start_address": 2169760, 
+    "end_address": 2169768
+  }, 
+  "fsm_callmethod": {
+    "start_address": 35712, 
+    "end_address": 35782
+  }, 
+  "osip_dialog_match_as_uac": {
+    "start_address": 51328, 
+    "end_address": 51882
+  }, 
+  "osip_authorization_clone": {
+    "start_address": 2170072, 
+    "end_address": 2170080
+  }, 
+  "osip_mutex_lock": {
+    "start_address": 54656, 
+    "end_address": 54672
+  }, 
+  "osip_dialog_match_as_uas": {
+    "start_address": 51888, 
+    "end_address": 52346
+  }, 
+  "osip_sem_post": {
+    "start_address": 54896, 
+    "end_address": 54912
+  }, 
+  "osip_trace": {
+    "start_address": 2170080, 
+    "end_address": 2170088
+  }, 
+  "pthread_mutex_destroy": {
+    "start_address": 2169656, 
+    "end_address": 2169664
+  }, 
+  "ict_snd_invite": {
+    "start_address": 25696, 
+    "end_address": 25967
+  }, 
+  "via_get_protocol": {
+    "start_address": 2169616, 
+    "end_address": 2169624
+  }, 
+  "malloc": {
+    "start_address": 2169936, 
+    "end_address": 2169944
+  }, 
+  "osip_from_free": {
+    "start_address": 2170048, 
+    "end_address": 2170056
+  }, 
+  ".osip_mutex_unlock": {
+    "start_address": 24000, 
+    "end_address": 24006
+  }, 
+  "osip_transaction_free": {
+    "start_address": 44800, 
+    "end_address": 44892
+  }, 
+  ".__osip_message_callback": {
+    "start_address": 22752, 
+    "end_address": 22758
+  }, 
+  ".osip_fifo_tryget": {
+    "start_address": 22480, 
+    "end_address": 22486
+  }, 
+  "osip_thread_create": {
+    "start_address": 54944, 
+    "end_address": 55105
+  }, 
+  "osip_cond_destroy": {
+    "start_address": 55296, 
+    "end_address": 55373
+  }, 
+  ".sem_init": {
+    "start_address": 24144, 
+    "end_address": 24150
+  }, 
+  ".osip_message_free": {
+    "start_address": 24400, 
+    "end_address": 24406
+  }, 
+  ".evt_set_type_outgoing_sipmessage": {
+    "start_address": 24048, 
+    "end_address": 24054
+  }, 
+  "osip_transaction_set_naptr_record": {
+    "start_address": 46608, 
+    "end_address": 46629
+  }, 
+  "__do_global_ctors_aux": {
+    "start_address": 55424, 
+    "end_address": 55458
+  }, 
+  ".osip_gettimeofday": {
+    "start_address": 23200, 
+    "end_address": 23206
+  }, 
+  "osip_timers_gettimeout": {
+    "start_address": 41632, 
+    "end_address": 43009
+  }, 
+  ".strlen": {
+    "start_address": 22800, 
+    "end_address": 22806
+  }, 
+  "__osip_add_ict": {
+    "start_address": 37696, 
+    "end_address": 37752
+  }, 
+  ".osip_call_id_clone": {
+    "start_address": 23520, 
+    "end_address": 23526
+  }, 
+  "osip_list_size": {
+    "start_address": 2169896, 
+    "end_address": 2169904
+  }, 
+  "deregister_tm_clones": {
+    "start_address": 24720, 
+    "end_address": 24754
+  }, 
+  ".osip_sem_post": {
+    "start_address": 22864, 
+    "end_address": 22870
+  }, 
+  "osip_to_tag_match": {
+    "start_address": 2169624, 
+    "end_address": 2169632
+  }, 
+  "__osip_ist_init": {
+    "start_address": 33152, 
+    "end_address": 33636
+  }, 
+  "osip_dialog_set_state": {
+    "start_address": 50480, 
+    "end_address": 50489
+  }, 
+  "__osip_nict_need_timer_e_event": {
+    "start_address": 35040, 
+    "end_address": 35070
+  }, 
+  ".osip_strcasecmp": {
+    "start_address": 23888, 
+    "end_address": 23894
+  }, 
+  "osip_nict_set_destination": {
+    "start_address": 33984, 
+    "end_address": 34073
+  }, 
+  ".osip_list_iterator_remove": {
+    "start_address": 23568, 
+    "end_address": 23574
+  }, 
+  ".osip_from_tag_match": {
+    "start_address": 24064, 
+    "end_address": 24070
+  }, 
+  ".osip_via_clone": {
+    "start_address": 24416, 
+    "end_address": 24422
+  }, 
+  ".__osip_ict_free": {
+    "start_address": 22688, 
+    "end_address": 22694
+  }, 
+  ".osip_from_compare": {
+    "start_address": 23216, 
+    "end_address": 23222
+  }, 
+  "osip_event_free": {
+    "start_address": 49776, 
+    "end_address": 49838
+  }, 
+  "sem_init": {
+    "start_address": 2170024, 
+    "end_address": 2170032
+  }, 
+  ".pthread_cond_signal": {
+    "start_address": 23184, 
+    "end_address": 23190
+  }, 
+  ".__osip_remove_ist_transaction": {
+    "start_address": 24096, 
+    "end_address": 24102
+  }, 
+  "__osip_remove_ict_transaction": {
+    "start_address": 37952, 
+    "end_address": 38090
+  }, 
+  ".__osip_add_nist": {
+    "start_address": 22768, 
+    "end_address": 22774
+  }, 
+  ".sem_wait": {
+    "start_address": 23360, 
+    "end_address": 23366
+  }, 
+  "__osip_ict_free": {
+    "start_address": 31888, 
+    "end_address": 32023
+  }, 
+  ".osip_cseq_clone": {
+    "start_address": 22448, 
+    "end_address": 22454
+  }, 
+  ".ict_create_ack": {
+    "start_address": 23376, 
+    "end_address": 23382
+  }, 
+  "ict_rcv_2xx": {
+    "start_address": 25136, 
+    "end_address": 25212
+  }, 
+  "osip_dialog_init_as_uas": {
+    "start_address": 54064, 
+    "end_address": 54190
+  }, 
+  "ist_rcv_invite": {
+    "start_address": 28704, 
+    "end_address": 28934
+  }, 
+  ".add_gettimeofday": {
+    "start_address": 23920, 
+    "end_address": 23926
+  }, 
+  ".osip_list_clone": {
+    "start_address": 24304, 
+    "end_address": 24310
+  }, 
+  "osip_dialog_init_as_uac": {
+    "start_address": 53824, 
+    "end_address": 53897
+  }, 
+  "__osip_ist_need_timer_g_event": {
+    "start_address": 33744, 
+    "end_address": 33771
+  }, 
+  ".osip_message_get_route": {
+    "start_address": 23328, 
+    "end_address": 23334
+  }, 
+  "osip_via_clone": {
+    "start_address": 2170112, 
+    "end_address": 2170120
+  }, 
+  ".osip_transaction_free2": {
+    "start_address": 24432, 
+    "end_address": 24438
+  }, 
+  "ist_snd_3456xx": {
+    "start_address": 27856, 
+    "end_address": 28162
+  }, 
+  ".osip_message_parse": {
+    "start_address": 23936, 
+    "end_address": 23942
+  }, 
+  ".osip_mutex_destroy": {
+    "start_address": 23776, 
+    "end_address": 23782
+  }, 
+  "osip_list_add": {
+    "start_address": 2170128, 
+    "end_address": 2170136
+  }, 
+  "osip_ist_unlock": {
+    "start_address": 37616, 
+    "end_address": 37625
+  }, 
+  ".osip_to_free": {
+    "start_address": 23632, 
+    "end_address": 23638
+  }, 
+  "__osip_add_nist": {
+    "start_address": 37888, 
+    "end_address": 37944
+  }, 
+  ".__osip_ict_need_timer_b_event": {
+    "start_address": 23136, 
+    "end_address": 23142
+  }, 
+  "osip_ict_lock": {
+    "start_address": 37568, 
+    "end_address": 37577
+  }, 
+  "ict_rcv_3456xx": {
+    "start_address": 26832, 
+    "end_address": 27717
+  }, 
+  "osip_nict_timeout_e_event": {
+    "start_address": 30320, 
+    "end_address": 30715
+  }, 
+  "osip_message_parse": {
+    "start_address": 2169976, 
+    "end_address": 2169984
+  }, 
+  "pthread_exit": {
+    "start_address": 2169928, 
+    "end_address": 2169936
+  }, 
+  "__osip_nict_free": {
+    "start_address": 33840, 
+    "end_address": 33975
+  }, 
+  "__osip_ist_need_timer_h_event": {
+    "start_address": 33776, 
+    "end_address": 33803
+  }, 
+  "ist_snd_2xx": {
+    "start_address": 28432, 
+    "end_address": 28545
+  }, 
+  "osip_mutex_init": {
+    "start_address": 54528, 
+    "end_address": 54586
+  }, 
+  "osip_parse": {
+    "start_address": 49264, 
+    "end_address": 49513
+  }, 
+  ".osip_list_size": {
+    "start_address": 23600, 
+    "end_address": 23606
+  }, 
+  "osip_nict_unlock": {
+    "start_address": 37648, 
+    "end_address": 37657
+  }, 
+  ".osip_list_eol": {
+    "start_address": 22544, 
+    "end_address": 22550
+  }, 
+  ".osip_getsystemtime": {
+    "start_address": 24480, 
+    "end_address": 24486
+  }, 
+  "strcmp": {
+    "start_address": 2169784, 
+    "end_address": 2169792
+  }, 
+  "__osip_transaction_snd_xxx": {
+    "start_address": 48832, 
+    "end_address": 49072
+  }, 
+  "osip_transaction_execute": {
+    "start_address": 45952, 
+    "end_address": 46468
+  }, 
+  "osip_init": {
+    "start_address": 39760, 
+    "end_address": 40065
+  }, 
+  ".osip_message_init": {
+    "start_address": 23984, 
+    "end_address": 23990
+  }, 
+  "osip_remove_transaction": {
+    "start_address": 38528, 
+    "end_address": 38598
+  }, 
+  "osip_transaction_set_srv_record": {
+    "start_address": 46560, 
+    "end_address": 46599
+  }, 
+  ".osip_list_get": {
+    "start_address": 23168, 
+    "end_address": 23174
+  }, 
+  ".__osip_ist_need_timer_g_event": {
+    "start_address": 22944, 
+    "end_address": 22950
+  }, 
+  ".malloc": {
+    "start_address": 23712, 
+    "end_address": 23718
+  }, 
+  "pthread_create": {
+    "start_address": 2169584, 
+    "end_address": 2169592
+  }, 
+  "osip_set_kill_transaction_callback": {
+    "start_address": 44192, 
+    "end_address": 44261
+  }, 
+  "__osip_kill_transaction_callback": {
+    "start_address": 43920, 
+    "end_address": 44029
+  }, 
+  "osip_list_remove": {
+    "start_address": 2169832, 
+    "end_address": 2169840
+  }, 
+  "__osip_transaction_need_timer_x_event": {
+    "start_address": 48656, 
+    "end_address": 48820
+  }, 
+  "osip_record_route_free": {
+    "start_address": 2169600, 
+    "end_address": 2169608
+  }, 
+  ".init_proc": {
+    "start_address": 22360, 
+    "end_address": 22393
+  }, 
+  "min_timercmp": {
+    "start_address": 54304, 
+    "end_address": 54351
+  }, 
+  "osip_nict_timeout_f_event": {
+    "start_address": 28944, 
+    "end_address": 29014
+  }, 
+  "osip_cond_signal": {
+    "start_address": 55376, 
+    "end_address": 55392
+  }, 
+  ".__osip_find_transaction": {
+    "start_address": 22432, 
+    "end_address": 22438
+  }, 
+  "osip_via_free": {
+    "start_address": 2169808, 
+    "end_address": 2169816
+  }, 
+  "osip_nist_lock": {
+    "start_address": 37664, 
+    "end_address": 37673
+  }, 
+  "osip_find_transaction_and_add_event": {
+    "start_address": 39728, 
+    "end_address": 39758
+  }, 
+  ".__osip_ict_init": {
+    "start_address": 24016, 
+    "end_address": 24022
+  }, 
+  ".osip_sem_wait": {
+    "start_address": 22848, 
+    "end_address": 22854
+  }, 
+  "add_gettimeofday": {
+    "start_address": 54192, 
+    "end_address": 54304
+  }, 
+  "osip_message_get_via": {
+    "start_address": 2169824, 
+    "end_address": 2169832
+  }, 
+  "pthread_mutex_unlock": {
+    "start_address": 2169920, 
+    "end_address": 2169928
+  }, 
+  "evt_set_type_incoming_sipmessage": {
+    "start_address": 49152, 
+    "end_address": 49263
+  }, 
+  "osip_ist_execute": {
+    "start_address": 40576, 
+    "end_address": 40926
+  }, 
+  ".osip_trace": {
+    "start_address": 24288, 
+    "end_address": 24294
+  }, 
+  "osip_timers_nist_execute": {
+    "start_address": 43680, 
+    "end_address": 43813
+  }, 
+  ".osip_id_mutex_unlock": {
+    "start_address": 23536, 
+    "end_address": 23542
+  }, 
+  "osip_atoi": {
+    "start_address": 2169984, 
+    "end_address": 2169992
+  }, 
+  "nist_snd_23456xx": {
+    "start_address": 31568, 
+    "end_address": 31882
+  }, 
+  ".osip_cseq_match": {
+    "start_address": 24080, 
+    "end_address": 24086
+  }, 
+  "__osip_nict_need_timer_f_event": {
+    "start_address": 35072, 
+    "end_address": 35102
+  }, 
+  "pthread_cond_destroy": {
+    "start_address": 2170056, 
+    "end_address": 2170064
+  }, 
+  ".via_get_port": {
+    "start_address": 22576, 
+    "end_address": 22582
+  }, 
+  "osip_start_ack_retransmissions": {
+    "start_address": 36336, 
+    "end_address": 36612
+  }, 
+  ".osip_transaction_add_event": {
+    "start_address": 24336, 
+    "end_address": 24342
+  }, 
+  ".osip_sem_destroy": {
+    "start_address": 23680, 
+    "end_address": 23686
+  }, 
+  "ict_create_ack": {
+    "start_address": 25968, 
+    "end_address": 26831
+  }, 
+  ".__osip_nict_need_timer_k_event": {
+    "start_address": 24544, 
+    "end_address": 24550
+  }, 
+  "osip_fifo_insert": {
+    "start_address": 49968, 
+    "end_address": 50035
+  }, 
+  "osip_dialog_free": {
+    "start_address": 52352, 
+    "end_address": 52603
+  }, 
+  "osip_transaction_set_reserved2": {
+    "start_address": 46704, 
+    "end_address": 46725
+  }, 
+  "osip_transaction_set_reserved3": {
+    "start_address": 46736, 
+    "end_address": 46757
+  }, 
+  "osip_transaction_set_reserved1": {
+    "start_address": 46672, 
+    "end_address": 46693
+  }, 
+  "osip_transaction_set_reserved6": {
+    "start_address": 46832, 
+    "end_address": 46853
+  }, 
+  "osip_transaction_set_reserved4": {
+    "start_address": 46768, 
+    "end_address": 46789
+  }, 
+  "osip_transaction_set_reserved5": {
+    "start_address": 46800, 
+    "end_address": 46821
+  }, 
+  "osip_list_eol": {
+    "start_address": 2169592, 
+    "end_address": 2169600
+  }, 
+  ".evt_set_type_incoming_sipmessage": {
+    "start_address": 23952, 
+    "end_address": 23958
+  }, 
+  "__gmon_start__": {
+    "start_address": 2170184, 
+    "end_address": 2170192
+  }, 
+  "osip_via_match": {
+    "start_address": 2169736, 
+    "end_address": 2169744
+  }, 
+  "sub_5780": {
+    "start_address": 22400, 
+    "end_address": 22412
+  }, 
+  ".osip_contact_clone": {
+    "start_address": 22928, 
+    "end_address": 22934
+  }, 
+  ".free": {
+    "start_address": 22464, 
+    "end_address": 22470
+  }, 
+  "osip_cond_init": {
+    "start_address": 55184, 
+    "end_address": 55295
+  }, 
+  ".__osip_nist_free": {
+    "start_address": 23040, 
+    "end_address": 23046
+  }
+}

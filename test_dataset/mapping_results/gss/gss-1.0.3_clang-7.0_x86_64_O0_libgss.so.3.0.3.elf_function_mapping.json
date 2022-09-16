@@ -1,0 +1,582 @@
+{
+  "Func_00101da0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/meta.c",
+      "_gss_find_mech_no_default",
+      [
+        85,
+        95
+      ]
+    ]
+  ],
+  "Func_00101e40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/meta.c",
+      "_gss_find_mech",
+      [
+        97,
+        108
+      ]
+    ]
+  ],
+  "Func_00101ea0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/meta.c",
+      "_gss_find_mech_by_saslname",
+      [
+        110,
+        126
+      ]
+    ]
+  ],
+  "Func_00101fb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/meta.c",
+      "_gss_indicate_mechs1",
+      [
+        128,
+        145
+      ]
+    ]
+  ],
+  "Func_00102070": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_init_sec_context",
+      [
+        343,
+        430
+      ]
+    ]
+  ],
+  "Func_00102320": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_accept_sec_context",
+      [
+        684,
+        750
+      ]
+    ]
+  ],
+  "Func_00102500": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_delete_sec_context",
+      [
+        799,
+        841
+      ]
+    ]
+  ],
+  "Func_00102620": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_process_context_token",
+      [
+        876,
+        882
+      ]
+    ]
+  ],
+  "Func_00102640": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_context_time",
+      [
+        906,
+        928
+      ]
+    ]
+  ],
+  "Func_001026f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_inquire_context",
+      [
+        1034,
+        1044
+      ]
+    ]
+  ],
+  "Func_00102730": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_wrap_size_limit",
+      [
+        1098,
+        1106
+      ]
+    ]
+  ],
+  "Func_00102760": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_export_sec_context",
+      [
+        1169,
+        1175
+      ]
+    ]
+  ],
+  "Func_00102780": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/context.c",
+      "gss_import_sec_context",
+      [
+        1205,
+        1211
+      ]
+    ]
+  ],
+  "Func_001027a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/cred.c",
+      "gss_acquire_cred",
+      [
+        119,
+        181
+      ]
+    ]
+  ],
+  "Func_00102980": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/cred.c",
+      "gss_add_cred",
+      [
+        322,
+        335
+      ]
+    ]
+  ],
+  "Func_001029e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/cred.c",
+      "gss_inquire_cred",
+      [
+        374,
+        409
+      ]
+    ]
+  ],
+  "Func_00102b00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/cred.c",
+      "gss_release_cred",
+      [
+        529,
+        564
+      ]
+    ]
+  ],
+  "Func_00102c10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/cred.c",
+      "gss_inquire_cred_by_mech",
+      [
+        458,
+        508
+      ]
+    ]
+  ],
+  "Func_00102d70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/error.c",
+      "gss_display_status",
+      [
+        182,
+        338
+      ]
+    ]
+  ],
+  "Func_00103470": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/misc.c",
+      "gss_create_empty_oid_set",
+      [
+        46,
+        63
+      ]
+    ]
+  ],
+  "Func_00103510": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/misc.c",
+      "gss_add_oid_set_member",
+      [
+        135,
+        190
+      ]
+    ]
+  ],
+  "Func_001036f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/misc.c",
+      "gss_test_oid_set_member",
+      [
+        211,
+        238
+      ]
+    ]
+  ],
+  "Func_001037f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/misc.c",
+      "_gss_copy_oid",
+      [
+        84,
+        108
+      ]
+    ]
+  ],
+  "Func_001038e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/misc.c",
+      "gss_release_oid_set",
+      [
+        259,
+        278
+      ]
+    ]
+  ],
+  "Func_001039c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/misc.c",
+      "gss_indicate_mechs",
+      [
+        296,
+        315
+      ]
+    ]
+  ],
+  "Func_00103a70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/misc.c",
+      "gss_release_buffer",
+      [
+        337,
+        351
+      ]
+    ]
+  ],
+  "Func_00103ad0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/krb5/msg.c",
+      "gss_krb5_wrap",
+      [
+        53,
+        265
+      ]
+    ]
+  ],
+  "Func_00103b80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/krb5/msg.c",
+      "gss_krb5_wrap",
+      [
+        53,
+        265
+      ]
+    ]
+  ],
+  "Func_00103c30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/krb5/msg.c",
+      "gss_krb5_wrap",
+      [
+        53,
+        265
+      ]
+    ]
+  ],
+  "Func_00103d00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/krb5/msg.c",
+      "gss_krb5_unwrap",
+      [
+        267,
+        493
+      ]
+    ]
+  ],
+  "Func_00103dc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_import_name",
+      [
+        62,
+        98
+      ]
+    ]
+  ],
+  "Func_00103f10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_display_name",
+      [
+        134,
+        163
+      ]
+    ]
+  ],
+  "Func_00104020": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_compare_name",
+      [
+        189,
+        208
+      ]
+    ]
+  ],
+  "Func_00104110": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_release_name",
+      [
+        225,
+        244
+      ]
+    ]
+  ],
+  "Func_001041b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_inquire_names_for_mech",
+      [
+        260,
+        288
+      ]
+    ]
+  ],
+  "Func_00104290": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_inquire_mechs_for_name",
+      [
+        409,
+        438
+      ]
+    ]
+  ],
+  "Func_00104380": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "_gss_inquire_mechs_for_name1",
+      [
+        352,
+        373
+      ]
+    ]
+  ],
+  "Func_00104440": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_export_name",
+      [
+        468,
+        500
+      ]
+    ]
+  ],
+  "Func_00104520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_canonicalize_name",
+      [
+        526,
+        543
+      ]
+    ]
+  ],
+  "Func_001045a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "gss_duplicate_name",
+      [
+        564,
+        605
+      ]
+    ]
+  ],
+  "Func_00104730": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "_gss_inquire_mechs_for_name2",
+      [
+        326,
+        347
+      ]
+    ]
+  ],
+  "Func_001047f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/name.c",
+      "_gss_inquire_mechs_for_name3",
+      [
+        292,
+        321
+      ]
+    ]
+  ],
+  "Func_00104900": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/obsolete.c",
+      "gss_sign",
+      [
+        25,
+        33
+      ]
+    ]
+  ],
+  "Func_00104940": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/obsolete.c",
+      "gss_verify",
+      [
+        36,
+        44
+      ]
+    ]
+  ],
+  "Func_00104980": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/obsolete.c",
+      "gss_seal",
+      [
+        46,
+        57
+      ]
+    ]
+  ],
+  "Func_001049d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/obsolete.c",
+      "gss_unseal",
+      [
+        60,
+        70
+      ]
+    ]
+  ],
+  "Func_00104a20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/oid.c",
+      "gss_oid_equal",
+      [
+        161,
+        168
+      ]
+    ]
+  ],
+  "Func_00104ab0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/asn1.c",
+      "_gss_encapsulate_token_prefix",
+      [
+        106,
+        144
+      ]
+    ]
+  ],
+  "Func_00104c50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/asn1.c",
+      "_gss_asn1_length_der",
+      [
+        29,
+        60
+      ]
+    ]
+  ],
+  "Func_00104d60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/asn1.c",
+      "gss_encapsulate_token",
+      [
+        168,
+        193
+      ]
+    ]
+  ],
+  "Func_00104e40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/asn1.c",
+      "_gss_decapsulate_token",
+      [
+        195,
+        247
+      ]
+    ]
+  ],
+  "Func_00105040": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/asn1.c",
+      "_gss_asn1_get_length_der",
+      [
+        62,
+        104
+      ]
+    ]
+  ],
+  "Func_00105180": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/asn1.c",
+      "gss_decapsulate_token",
+      [
+        273,
+        308
+      ]
+    ]
+  ],
+  "Func_001052d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/ext.c",
+      "gss_userok",
+      [
+        40,
+        46
+      ]
+    ]
+  ],
+  "Func_00105340": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/lib/version.c",
+      "gss_check_version",
+      [
+        41,
+        48
+      ]
+    ]
+  ],
+  "Func_001053a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/tests/saslname.c",
+      "main",
+      [
+        36,
+        180
+      ]
+    ]
+  ],
+  "Func_00105520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/tests/saslname.c",
+      "main",
+      [
+        36,
+        180
+      ]
+    ]
+  ],
+  "Func_001055e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gss/gss-1.0.3/tests/saslname.c",
+      "main",
+      [
+        36,
+        180
+      ]
+    ]
+  ]
+}

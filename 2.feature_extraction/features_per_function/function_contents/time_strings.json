@@ -1,0 +1,1113 @@
+{
+  "time/time-1.9/lib/arg-nonnull.h": {},
+  "time/time-1.9/lib/basename-lgpl.c": {
+    "last_component": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "base_len": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/c++defs.h": {},
+  "time/time-1.9/lib/dirname-lgpl.c": {
+    "dir_len": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "mdir_name": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/dirname.h": {},
+  "time/time-1.9/lib/dosname.h": {},
+  "time/time-1.9/lib/errno.in.h": {},
+  "time/time-1.9/lib/error.c": {
+    "is_open": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    },
+    "flush_stdout": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": []
+    },
+    "print_errno_message": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\"",
+        "\": %s\"",
+        "\": %s\""
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        205,
+        42
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": [
+        "L\"out of memory\\n\"",
+        "L\"???\"",
+        "\"\\n\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        331,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"%s: \""
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        337,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "strings": [
+        "\"%s:\"",
+        "\"%s:\"",
+        "\"%s:%u: \"",
+        "\" \"",
+        "\"%s:%u: \"",
+        "\" \""
+      ]
+    }
+  },
+  "time/time-1.9/lib/error.h": {},
+  "time/time-1.9/lib/getopt-cdefs.in.h": {},
+  "time/time-1.9/lib/getopt-core.h": {},
+  "time/time-1.9/lib/getopt-ext.h": {
+    "struct": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/getopt-pfx-core.h": {},
+  "time/time-1.9/lib/getopt-pfx-ext.h": {},
+  "time/time-1.9/lib/getopt.c": {
+    "exchange": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "strings": []
+    },
+    "process_long_option": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": [
+        "\"%s: option '%s%s' is ambiguous\\n\"",
+        "\"%s: option '%s%s' is ambiguous; possibilities:\"",
+        "\" '%s%s'\"",
+        "\"\\n\"",
+        "\"%s: unrecognized option '%s%s'\\n\"",
+        "\"%s: option '%s%s' doesn't allow an argument\\n\"",
+        "\"%s: option '%s%s' requires an argument\\n\""
+      ]
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        411,
+        1
+      ],
+      "strings": [
+        "\"POSIXLY_CORRECT\""
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        469,
+        0
+      ],
+      "end_point": [
+        699,
+        1
+      ],
+      "strings": [
+        "\"--\"",
+        "\"--\"",
+        "\"-\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"-W \"",
+        "\"%s: option requires an argument -- '%c'\\n\""
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        701,
+        0
+      ],
+      "end_point": [
+        720,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        747,
+        0
+      ],
+      "end_point": [
+        808,
+        1
+      ],
+      "strings": [
+        "\"abc:d:0123456789\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "time/time-1.9/lib/getopt.in.h": {},
+  "time/time-1.9/lib/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "getopt_long_only": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": [
+        "\"add\"",
+        "\"append\"",
+        "\"delete\"",
+        "\"verbose\"",
+        "\"create\"",
+        "\"file\"",
+        "\"abc:d:0123456789\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"\\n\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"option d with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "time/time-1.9/lib/getopt_int.h": {},
+  "time/time-1.9/lib/getpagesize.c": {
+    "getpagesize": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/getprogname.c": {
+    "getprogname": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": [
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"/proc/pinfo/%d\""
+      ]
+    }
+  },
+  "time/time-1.9/lib/getprogname.h": {},
+  "time/time-1.9/lib/getrusage.c": {
+    "getrusage": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/gettimeofday.c": {
+    "initialize": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": [
+        "\"kernel32.dll\"",
+        "\"GetSystemTimePreciseAsFileTime\""
+      ]
+    },
+    "gettimeofday": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/intprops.h": {},
+  "time/time-1.9/lib/inttypes.in.h": {},
+  "time/time-1.9/lib/limits.in.h": {},
+  "time/time-1.9/lib/localtime-buffer.c": {
+    "rpl_localtime": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_gmtime": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/localtime-buffer.h": {},
+  "time/time-1.9/lib/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/msvc-inval.h": {},
+  "time/time-1.9/lib/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/msvc-nothrow.h": {},
+  "time/time-1.9/lib/progname.c": {
+    "set_program_name": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"A NULL argv[0] was passed through an exec system call.\\n\"",
+        "\"/.libs/\"",
+        "\"lt-\""
+      ]
+    }
+  },
+  "time/time-1.9/lib/progname.h": {},
+  "time/time-1.9/lib/signal.in.h": {},
+  "time/time-1.9/lib/stdarg.in.h": {},
+  "time/time-1.9/lib/stdbool.in.h": {},
+  "time/time-1.9/lib/stddef.in.h": {},
+  "time/time-1.9/lib/stdint.in.h": {},
+  "time/time-1.9/lib/stdio.in.h": {},
+  "time/time-1.9/lib/stdlib.in.h": {},
+  "time/time-1.9/lib/stdnoreturn.in.h": {},
+  "time/time-1.9/lib/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": [
+        "\"Success\"",
+        "\"Operation now in progress\"",
+        "\"Operation already in progress\"",
+        "\"Socket operation on non-socket\"",
+        "\"Destination address required\"",
+        "\"Message too long\"",
+        "\"Protocol wrong type for socket\"",
+        "\"Protocol not available\"",
+        "\"Protocol not supported\"",
+        "\"Operation not supported\"",
+        "\"Address family not supported by protocol\"",
+        "\"Address already in use\"",
+        "\"Cannot assign requested address\"",
+        "\"Network is down\"",
+        "\"Network is unreachable\"",
+        "\"Connection reset by peer\"",
+        "\"No buffer space available\"",
+        "\"Transport endpoint is already connected\"",
+        "\"Transport endpoint is not connected\"",
+        "\"Connection timed out\"",
+        "\"Connection refused\"",
+        "\"Too many levels of symbolic links\"",
+        "\"No route to host\"",
+        "\"Operation would block\"",
+        "\"Text file busy\"",
+        "\"No data available\"",
+        "\"Out of streams resources\"",
+        "\"Device not a stream\"",
+        "\"Timer expired\"",
+        "\"Other error\"",
+        "\"Socket type not supported\"",
+        "\"Protocol family not supported\"",
+        "\"Cannot send after transport endpoint shutdown\"",
+        "\"Too many references: cannot splice\"",
+        "\"Host is down\"",
+        "\"Too many processes\"",
+        "\"Too many users\"",
+        "\"Disk quota exceeded\"",
+        "\"Stale NFS file handle\"",
+        "\"Object is remote\"",
+        "\"Overlapped operation aborted\"",
+        "\"Overlapped I/O event object not in signaled state\"",
+        "\"Overlapped operations will complete later\"",
+        "\"Network subsystem is unavailable\"",
+        "\"Winsock.dll version out of range\"",
+        "\"Successful WSAStartup not yet performed\"",
+        "\"Graceful shutdown in progress\"",
+        "\"No more results\"",
+        "\"Call was canceled\"",
+        "\"Procedure call table is invalid\"",
+        "\"Service provider is invalid\"",
+        "\"Service provider failed to initialize\"",
+        "\"System call failure\"",
+        "\"Service not found\"",
+        "\"Class type not found\"",
+        "\"Database query was refused\"",
+        "\"Host not found\"",
+        "\"Nonauthoritative host not found\"",
+        "\"Nonrecoverable error\"",
+        "\"Valid name, no data record of requested type\"",
+        "\"No message of desired type\"",
+        "\"Identifier removed\"",
+        "\"Link has been severed\"",
+        "\"Protocol error\"",
+        "\"Multihop attempted\"",
+        "\"Bad message\"",
+        "\"Value too large for defined data type\"",
+        "\"Not supported\"",
+        "\"Network dropped connection on reset\"",
+        "\"Software caused connection abort\"",
+        "\"Stale NFS file handle\"",
+        "\"Disk quota exceeded\"",
+        "\"Operation canceled\"",
+        "\"Owner died\"",
+        "\"State not recoverable\"",
+        "\"Invalid or incomplete multibyte or wide character\""
+      ]
+    }
+  },
+  "time/time-1.9/lib/strerror-override.h": {},
+  "time/time-1.9/lib/strerror.c": {},
+  "time/time-1.9/lib/string.in.h": {},
+  "time/time-1.9/lib/stripslash.c": {
+    "strip_trailing_slashes": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/sys_resource.in.h": {},
+  "time/time-1.9/lib/sys_time.in.h": {
+    "GNULIB_NAMESPACE": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/sys_types.in.h": {},
+  "time/time-1.9/lib/sys_wait.in.h": {},
+  "time/time-1.9/lib/time.in.h": {},
+  "time/time-1.9/lib/unistd.c": {},
+  "time/time-1.9/lib/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        433,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        912,
+        0
+      ],
+      "end_point": [
+        916,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/lib/verify.h": {},
+  "time/time-1.9/lib/version-etc-fsf.c": {},
+  "time/time-1.9/lib/version-etc.c": {
+    "version_etc_arn": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": [
+        "\"%s (%s) %s\\n\"",
+        "\"%s %s\\n\"",
+        "\"Packaged by %s (%s)\\n\"",
+        "\"Packaged by %s\\n\"",
+        "\"(C)\"",
+        "\"\\\n\\n\\\nLicense GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\\n\\\n\\n\\\n\"",
+        "\"Written by %s.\\n\"",
+        "\"Written by %s and %s.\\n\"",
+        "\"Written by %s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\nand %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, %s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\nand %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, %s, and others.\\n\""
+      ]
+    },
+    "version_etc_ar": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc_va": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "emit_bug_reporting_address": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": [
+        "\"\\nReport bugs to: %s\\n\"",
+        "\"Report %s bugs to: %s\\n\"",
+        "\"%s home page: <%s>\\n\"",
+        "\"%s home page: <https://www.gnu.org/software/%s/>\\n\"",
+        "\"General help using GNU software: <https://www.gnu.org/gethelp/>\\n\""
+      ]
+    }
+  },
+  "time/time-1.9/lib/version-etc.h": {},
+  "time/time-1.9/lib/warn-on-use.h": {},
+  "time/time-1.9/lib/_Noreturn.h": {},
+  "time/time-1.9/src/resuse.c": {},
+  "time/time-1.9/src/resuse.h": {},
+  "time/time-1.9/src/rusage-kb.c": {
+    "ptok": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/src/rusage-kb.h": {
+    "get_rusage_maxrss_kb": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    },
+    "get_rusage_ixrss_kb": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "get_rusage_idrss_kb": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    },
+    "get_rusage_isrss_kb": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "time/time-1.9/src/time.c": {
+    "usage": {
+      "start_point": [
+        217,
+        0
+      ],
+      "end_point": [
+        311,
+        1
+      ],
+      "strings": [
+        "\"Try '%s --help' for more information.\\n\"",
+        "\"\\\nUsage: %s [OPTIONS] COMMAND [ARG]...\\n\\\n\"",
+        "\"\\\nRun COMMAND, then print system resource usage.\\n\\\n\\n\\\n\"",
+        "\"\\\n  -a, --append              with -o FILE, append instead of overwriting\\n\\\n\"",
+        "\"\\\n  -f, --format=FORMAT       use the specified FORMAT instead of the default\\n\\\n\"",
+        "\"\\\n  -o, --output=FILE         write to FILE instead of STDERR\\n\"",
+        "\"\\\n  -p, --portability         print POSIX standard 1003.2 conformant string:\\n\\\n                              real %%e\\n\\\n                              user %%U\\n\\\n                              sys %%S\\n\\\n\"",
+        "\"\\\n  -q, --quiet               do not print information about abnormal program\\n\\\n                            termination (non-zero exit codes or signals)\\n\\\n\"",
+        "\"\\\n  -v, --verbose             print all resource usage information instead of\\n\\\n                            the default format\\n\\\n\"",
+        "\"\\\n  -h,  --help               display this help and exit\\n\"",
+        "\"\\\n  -V,  --version            output version information and exit\\n\"",
+        "\"\\nCommonly usaged format sequences for -f/--format:\\n\"",
+        "\"(see documentation for full list)\\n\"",
+        "\"  %%   a literal '%'\\n\"",
+        "\"  %C   command line and arguments\\n\"",
+        "\"  %c   involuntary context switches\\n\"",
+        "\"  %E   elapsed real time (wall clock) in [hour:]min:sec\\n\"",
+        "\"  %e   elapsed real time (wall clock) in seconds\\n\"",
+        "\"  %F   major page faults\\n\"",
+        "\"  %M   maximum resident set size in KB\\n\"",
+        "\"  %P   percent of CPU this job got\\n\"",
+        "\"  %R   minor page faults\\n\"",
+        "\"  %S   system (kernel) time in seconds\\n\"",
+        "\"  %U   user time in seconds\\n\"",
+        "\"  %w   voluntary context switches\\n\"",
+        "\"  %x   exit status of command\\n\"",
+        "\"\\nDefault output format:\\n\"",
+        "\"\\n\\\nNOTE: your shell may have its own version of %s, which usually supersedes\\n\\\nthe version described here.  Please refer to your shell's documentation\\n\\\nfor details about the options it supports.\\n\"",
+        "\"\\n%s website: <%s>\\n\"",
+        "\"Full documentation at: <%smanual>\\n\"",
+        "\"E-mail bug reports to: %s\\n\""
+      ]
+    }
+  },
+  "time/time-1.9/tests/time-aux.c": {
+    "errx": {
+      "start_point": [
+        16,
+        0
+      ],
+      "end_point": [
+        25,
+        1
+      ],
+      "strings": []
+    },
+    "get_exit_code": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": [
+        "\"invalid exit code '%s'\""
+      ]
+    },
+    "do_malloc": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": [
+        "\"invalid malloc request '%s'\"",
+        "\"invalid malloc request '%s' \"",
+        "\"(multiplier error)\"",
+        "\"invalid malloc request '%s' \"",
+        "\"(size too large/small)\"",
+        "\"malloc failed (%ld bytes), errno=%d\""
+      ]
+    },
+    "parse_timespec": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        174,
+        1
+      ],
+      "strings": [
+        "\"invalid time '%s'\"",
+        "\"invalid time '%s' \"",
+        "\"(value too high for microseconds/u units\"",
+        "\"missing time unit for value '%s' (ns/us/s/m)\"",
+        "\"invalid time unit '%c' for time '%s' \"",
+        "\"invalid time '%s' (unit error)\"",
+        "\"invalid time '%s' \"",
+        "\"(too large/small)\""
+      ]
+    },
+    "busy_user_sleep": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": [
+        "\"clock_gettime failed, errno=%d\"",
+        "\"clock_gettime failed, errno=%d\""
+      ]
+    },
+    "busy_sys_sleep": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        246,
+        1
+      ],
+      "strings": [
+        "\"clock_gettime failed, errno=%d\"",
+        "\"clock_gettime failed, errno=%d\""
+      ]
+    },
+    "safe_nanosleep": {
+      "start_point": [
+        248,
+        0
+      ],
+      "end_point": [
+        265,
+        1
+      ],
+      "strings": [
+        "\"nanosleep failed, errno=%d\""
+      ]
+    },
+    "do_busy_user_sleep": {
+      "start_point": [
+        268,
+        0
+      ],
+      "end_point": [
+        275,
+        1
+      ],
+      "strings": []
+    },
+    "do_busy_sys_sleep": {
+      "start_point": [
+        277,
+        0
+      ],
+      "end_point": [
+        284,
+        1
+      ],
+      "strings": []
+    },
+    "do_sleep": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        293,
+        1
+      ],
+      "strings": []
+    },
+    "do_half_busy_sleep": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        312,
+        1
+      ],
+      "strings": []
+    },
+    "usage": {
+      "start_point": [
+        315,
+        0
+      ],
+      "end_point": [
+        340,
+        1
+      ],
+      "strings": [
+        "\"Usage: time-aux [OPTIONS]\\n\\\nWastes time and memory to test GNU time\\n\\\n\\n\\\nOPTIONS\\n\\\n -b TIME   waste TIME in a CPU busy loop (consuming 'user' time)\\n\\\n -e N      terminate with exit code N (default: 0)\\n\\\n -h        this help screen\\n\\\n -H TIME   waste/sleep TIME (half in busy loop, half in sleep)\\n\\\n -k TIME   waste TIME in kernel syscalls (approx.)\\n\\\n -m SIZE   allocate SIZE bytes memory (accepts K/M/G suffix)\\n\\\n -s TIME   sleep TIME without wasting CPU time\\n\\\n\\n\\\nTIME must have a suffix:\\n\\\nm (minutes), s (seconds), us (microseconds), ns (nanoseconds)\\n\\\n\\n\\\nExample:\\n\\\nAllocate 200 MBs, sleep for 1 second, then busy-loop for 1 second,\\n\\\nthen terminate with exit code 4:\\n\\\n  time-aux -m 200M -s 1s -b 1s -e 4\\n\\\n\\n\\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        342,
+        0
+      ],
+      "end_point": [
+        385,
+        1
+      ],
+      "strings": [
+        "\"e:m:b:s:H:k:h\"",
+        "\"invalid option\""
+      ]
+    }
+  }
+}

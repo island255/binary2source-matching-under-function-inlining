@@ -1,0 +1,9668 @@
+{
+  "libiconv/libiconv-1.15/build-aux/snippet/arg-nonnull.h": {},
+  "libiconv/libiconv-1.15/build-aux/snippet/c++defs.h": {},
+  "libiconv/libiconv-1.15/build-aux/snippet/warn-on-use.h": {},
+  "libiconv/libiconv-1.15/build-aux/snippet/_Noreturn.h": {},
+  "libiconv/libiconv-1.15/extras/iconv_string.c": {
+    "iconv_string": {
+      "start_point": [
+        12,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": [
+        "\"autodetect_utf8\"",
+        "\"UTF-8\"",
+        "\"ISO-8859-1\"",
+        "\"autodetect_jp\"",
+        "\"ISO-2022-JP-2\"",
+        "\"EUC-JP\"",
+        "\"SHIFT_JIS\"",
+        "\"autodetect_kr\"",
+        "\"ISO-2022-KR\"",
+        "\"EUC-KR\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/extras/iconv_string.h": {},
+  "libiconv/libiconv-1.15/gnulib-local/lib/alloca.in.h": {},
+  "libiconv/libiconv-1.15/gnulib-local/lib/xalloc.h": {
+    "xrealloc": {
+      "start_point": [
+        51,
+        9
+      ],
+      "end_point": [
+        54,
+        3
+      ],
+      "strings": []
+    },
+    "xnboundedmalloc": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        125,
+        9
+      ],
+      "end_point": [
+        128,
+        3
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/gnulib-local/lib/xmalloc.c": {
+    "xalloc_die": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": [
+        "\"memory exhausted\""
+      ]
+    },
+    "fixup_null_alloc": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": []
+    },
+    "xmalloc": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "xnmalloc": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    },
+    "xzalloc": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "xcalloc": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/gnulib-local/lib/xstrdup.c": {
+    "xmemdup": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": []
+    },
+    "xstrdup": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/include/export.h": {},
+  "libiconv/libiconv-1.15/lib/aliases.h": {
+    "aliases_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "aliases_lookup": {
+      "start_point": [
+        1717,
+        0
+      ],
+      "end_point": [
+        1737,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/aliases2.h": {},
+  "libiconv/libiconv-1.15/lib/aliases_aix.h": {},
+  "libiconv/libiconv-1.15/lib/aliases_aix_sysaix.h": {},
+  "libiconv/libiconv-1.15/lib/aliases_dos.h": {},
+  "libiconv/libiconv-1.15/lib/aliases_extra.h": {},
+  "libiconv/libiconv-1.15/lib/aliases_osf1.h": {},
+  "libiconv/libiconv-1.15/lib/aliases_osf1_sysosf1.h": {},
+  "libiconv/libiconv-1.15/lib/aliases_sysaix.h": {
+    "aliases_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "aliases_lookup": {
+      "start_point": [
+        1754,
+        0
+      ],
+      "end_point": [
+        1774,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/aliases_syshpux.h": {
+    "aliases_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "aliases_lookup": {
+      "start_point": [
+        1759,
+        0
+      ],
+      "end_point": [
+        1779,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/aliases_sysosf1.h": {
+    "aliases_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "aliases_lookup": {
+      "start_point": [
+        1729,
+        0
+      ],
+      "end_point": [
+        1749,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/aliases_syssolaris.h": {
+    "aliases_hash": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "aliases_lookup": {
+      "start_point": [
+        1739,
+        0
+      ],
+      "end_point": [
+        1759,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/armscii_8.h": {
+    "armscii_8_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "armscii_8_wctomb": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ascii.h": {
+    "ascii_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    },
+    "ascii_wctomb": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/atarist.h": {
+    "atarist_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "atarist_wctomb": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/big5.h": {
+    "big5_mbtowc": {
+      "start_point": [
+        1871,
+        0
+      ],
+      "end_point": [
+        1898,
+        1
+      ],
+      "strings": []
+    },
+    "big5_wctomb": {
+      "start_point": [
+        4117,
+        0
+      ],
+      "end_point": [
+        4158,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/big5hkscs1999.h": {
+    "big5hkscs1999_mbtowc": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": []
+    },
+    "big5hkscs1999_wctomb": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": []
+    },
+    "big5hkscs1999_reset": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        195,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/big5hkscs2001.h": {
+    "big5hkscs2001_mbtowc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "big5hkscs2001_wctomb": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    },
+    "big5hkscs2001_reset": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/big5hkscs2004.h": {
+    "big5hkscs2004_mbtowc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    },
+    "big5hkscs2004_wctomb": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": []
+    },
+    "big5hkscs2004_reset": {
+      "start_point": [
+        215,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/big5hkscs2008.h": {
+    "big5hkscs2008_mbtowc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": []
+    },
+    "big5hkscs2008_wctomb": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": []
+    },
+    "big5hkscs2008_reset": {
+      "start_point": [
+        231,
+        0
+      ],
+      "end_point": [
+        245,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/big5_2003.h": {
+    "big5_2003_mbtowc": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": []
+    },
+    "big5_2003_wctomb": {
+      "start_point": [
+        268,
+        0
+      ],
+      "end_point": [
+        474,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/c99.h": {
+    "c99_mbtowc": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        92,
+        1
+      ],
+      "strings": []
+    },
+    "c99_wctomb": {
+      "start_point": [
+        94,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/canonical.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_aix.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_aix_sysaix.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_dos.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_extra.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_local.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_local_sysaix.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_local_syshpux.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_local_sysosf1.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_local_syssolaris.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_osf1.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_osf1_sysosf1.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_sysaix.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_syshpux.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_sysosf1.h": {},
+  "libiconv/libiconv-1.15/lib/canonical_syssolaris.h": {},
+  "libiconv/libiconv-1.15/lib/ces_big5.h": {
+    "ces_big5_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "ces_big5_wctomb": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ces_gbk.h": {
+    "ces_gbk_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    },
+    "ces_gbk_wctomb": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cjk_variants.h": {},
+  "libiconv/libiconv-1.15/lib/cns11643.h": {},
+  "libiconv/libiconv-1.15/lib/cns11643_1.h": {
+    "cns11643_1_mbtowc": {
+      "start_point": [
+        854,
+        0
+      ],
+      "end_point": [
+        890,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cns11643_15.h": {
+    "cns11643_15_mbtowc": {
+      "start_point": [
+        1054,
+        0
+      ],
+      "end_point": [
+        1080,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cns11643_2.h": {
+    "cns11643_2_mbtowc": {
+      "start_point": [
+        1085,
+        0
+      ],
+      "end_point": [
+        1109,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cns11643_3.h": {
+    "cns11643_3_mbtowc": {
+      "start_point": [
+        941,
+        0
+      ],
+      "end_point": [
+        971,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cns11643_4.h": {
+    "cns11643_4_mbtowc": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cns11643_4a.h": {},
+  "libiconv/libiconv-1.15/lib/cns11643_4b.h": {},
+  "libiconv/libiconv-1.15/lib/cns11643_5.h": {
+    "cns11643_5_mbtowc": {
+      "start_point": [
+        1249,
+        0
+      ],
+      "end_point": [
+        1275,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cns11643_6.h": {
+    "cns11643_6_mbtowc": {
+      "start_point": [
+        939,
+        0
+      ],
+      "end_point": [
+        965,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cns11643_7.h": {
+    "cns11643_7_mbtowc": {
+      "start_point": [
+        959,
+        0
+      ],
+      "end_point": [
+        985,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cns11643_inv.h": {
+    "cns11643_inv_wctomb": {
+      "start_point": [
+        15366,
+        0
+      ],
+      "end_point": [
+        15410,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/converters.h": {},
+  "libiconv/libiconv-1.15/lib/cp1046.h": {
+    "cp1046_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp1046_wctomb": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        155,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1124.h": {
+    "cp1124_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "cp1124_wctomb": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1125.h": {
+    "cp1125_mbtowc": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "cp1125_wctomb": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1129.h": {
+    "cp1129_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "cp1129_wctomb": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        119,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1131.h": {
+    "cp1131_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp1131_wctomb": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1133.h": {
+    "cp1133_mbtowc": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    },
+    "cp1133_wctomb": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1161.h": {
+    "cp1161_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp1161_wctomb": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1162.h": {
+    "cp1162_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "cp1162_wctomb": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1163.h": {
+    "cp1163_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    },
+    "cp1163_wctomb": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1250.h": {
+    "cp1250_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp1250_wctomb": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1251.h": {
+    "cp1251_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp1251_wctomb": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        129,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1252.h": {
+    "cp1252_mbtowc": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "cp1252_wctomb": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1253.h": {
+    "cp1253_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp1253_wctomb": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        120,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1254.h": {
+    "cp1254_mbtowc": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "cp1254_wctomb": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1255.h": {
+    "cp1255_mbtowc": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        252,
+        1
+      ],
+      "strings": []
+    },
+    "cp1255_wctomb": {
+      "start_point": [
+        296,
+        0
+      ],
+      "end_point": [
+        378,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1256.h": {
+    "cp1256_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp1256_wctomb": {
+      "start_point": [
+        124,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1257.h": {
+    "cp1257_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp1257_wctomb": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp1258.h": {
+    "cp1258_mbtowc": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "cp1258_wctomb": {
+      "start_point": [
+        201,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp437.h": {
+    "cp437_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp437_wctomb": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp50221_0208_ext.h": {
+    "cp50221_0208_ext_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    },
+    "cp50221_0208_ext_wctomb": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp50221_0212_ext.h": {
+    "cp50221_0212_ext_mbtowc": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": []
+    },
+    "cp50221_0212_ext_wctomb": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        211,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp737.h": {
+    "cp737_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp737_wctomb": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        139,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp775.h": {
+    "cp775_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp775_wctomb": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp850.h": {
+    "cp850_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp850_wctomb": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp852.h": {
+    "cp852_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp852_wctomb": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp853.h": {
+    "cp853_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp853_wctomb": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp855.h": {
+    "cp855_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp855_wctomb": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp856.h": {
+    "cp856_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp856_wctomb": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp857.h": {
+    "cp857_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp857_wctomb": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp858.h": {
+    "cp858_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    },
+    "cp858_wctomb": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp860.h": {
+    "cp860_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp860_wctomb": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp861.h": {
+    "cp861_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp861_wctomb": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp862.h": {
+    "cp862_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp862_wctomb": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp863.h": {
+    "cp863_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp863_wctomb": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp864.h": {
+    "cp864_mbtowc": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "cp864_wctomb": {
+      "start_point": [
+        151,
+        0
+      ],
+      "end_point": [
+        186,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp865.h": {
+    "cp865_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "cp865_wctomb": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp866.h": {
+    "cp866_mbtowc": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "cp866_wctomb": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp869.h": {
+    "cp869_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp869_wctomb": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp874.h": {
+    "cp874_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "cp874_wctomb": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp922.h": {
+    "cp922_mbtowc": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    },
+    "cp922_wctomb": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp932.h": {
+    "cp932_mbtowc": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "cp932_wctomb": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        238,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp932ext.h": {
+    "cp932ext_mbtowc": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        176,
+        1
+      ],
+      "strings": []
+    },
+    "cp932ext_wctomb": {
+      "start_point": [
+        654,
+        0
+      ],
+      "end_point": [
+        707,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp936.h": {
+    "cp936_mbtowc": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "strings": []
+    },
+    "cp936_wctomb": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp936ext.h": {
+    "cp936ext_mbtowc": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "cp936ext_wctomb": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp943.h": {},
+  "libiconv/libiconv-1.15/lib/cp949.h": {
+    "cp949_mbtowc": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "cp949_wctomb": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp950.h": {
+    "cp950_mbtowc": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        183,
+        1
+      ],
+      "strings": []
+    },
+    "cp950_wctomb": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/cp950ext.h": {
+    "cp950ext_mbtowc": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    },
+    "cp950ext_wctomb": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/dec_hanyu.h": {
+    "dec_hanyu_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "dec_hanyu_wctomb": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/dec_kanji.h": {
+    "dec_kanji_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "dec_kanji_wctomb": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/euc_cn.h": {
+    "euc_cn_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    },
+    "euc_cn_wctomb": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/euc_jisx0213.h": {
+    "euc_jisx0213_mbtowc": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "strings": []
+    },
+    "euc_jisx0213_wctomb": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        250,
+        1
+      ],
+      "strings": []
+    },
+    "euc_jisx0213_reset": {
+      "start_point": [
+        252,
+        0
+      ],
+      "end_point": [
+        266,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/euc_jp.h": {
+    "euc_jp_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        106,
+        1
+      ],
+      "strings": []
+    },
+    "euc_jp_wctomb": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        189,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/euc_kr.h": {
+    "euc_kr_mbtowc": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    },
+    "euc_kr_wctomb": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/euc_tw.h": {
+    "euc_tw_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "euc_tw_wctomb": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/flags.h": {},
+  "libiconv/libiconv-1.15/lib/flushwc.h": {
+    "normal_flushwc": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gb12345.h": {
+    "gb12345_mbtowc": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": []
+    },
+    "gb12345_wctomb": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gb12345ext.h": {
+    "gb12345ext_mbtowc": {
+      "start_point": [
+        1004,
+        0
+      ],
+      "end_point": [
+        1037,
+        1
+      ],
+      "strings": []
+    },
+    "gb12345ext_wctomb": {
+      "start_point": [
+        1759,
+        0
+      ],
+      "end_point": [
+        1794,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gb18030.h": {
+    "gb18030_mbtowc": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        266,
+        1
+      ],
+      "strings": []
+    },
+    "gb18030_wctomb": {
+      "start_point": [
+        303,
+        0
+      ],
+      "end_point": [
+        379,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gb18030ext.h": {
+    "gb18030ext_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    },
+    "gb18030ext_wctomb": {
+      "start_point": [
+        242,
+        0
+      ],
+      "end_point": [
+        326,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gb18030uni.h": {
+    "gb18030uni_mbtowc": {
+      "start_point": [
+        168,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "gb18030uni_wctomb": {
+      "start_point": [
+        221,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gb2312.h": {
+    "gb2312_mbtowc": {
+      "start_point": [
+        1079,
+        0
+      ],
+      "end_point": [
+        1106,
+        1
+      ],
+      "strings": []
+    },
+    "gb2312_wctomb": {
+      "start_point": [
+        2532,
+        0
+      ],
+      "end_point": [
+        2569,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gbk.h": {
+    "gbk_mbtowc": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "gbk_wctomb": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gbkext1.h": {
+    "gbkext1_mbtowc": {
+      "start_point": [
+        826,
+        0
+      ],
+      "end_point": [
+        850,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gbkext2.h": {
+    "gbkext2_mbtowc": {
+      "start_point": [
+        1147,
+        0
+      ],
+      "end_point": [
+        1171,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gbkext_inv.h": {
+    "gbkext_inv_wctomb": {
+      "start_point": [
+        2300,
+        0
+      ],
+      "end_point": [
+        2341,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/genaliases.c": {
+    "emit_alias": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": [
+        "\", ei_%s\\n\""
+      ]
+    },
+    "emit_encoding": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": [
+        "\"grep 'sizeof(\\\"\"",
+        "\"\\\")' tmp.h | sed -e 's|^.*\\\\(stringpool_str[0-9]*\\\\).*$|  (int)(long)\\\\&((struct stringpool_t *)0)->\\\\1,|'\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": [
+        "\"Usage: genaliases aliases.gperf canonical.sh canonical_local.sh\\n\"",
+        "\"w\"",
+        "\"Could not open '%s' for writing\\n\"",
+        "\"struct alias { int name; unsigned int encoding_index; };\\n\"",
+        "\"%%struct-type\\n\"",
+        "\"%%language=ANSI-C\\n\"",
+        "\"%%define hash-function-name aliases_hash\\n\"",
+        "\"%%define lookup-function-name aliases_lookup\\n\"",
+        "\"%%7bit\\n\"",
+        "\"%%readonly-tables\\n\"",
+        "\"%%global-table\\n\"",
+        "\"%%define word-array-name aliases\\n\"",
+        "\"%%pic\\n\"",
+        "\"%%%%\\n\"",
+        "\"w\"",
+        "\"Could not open '%s' for writing\\n\"",
+        "\"encodings.def\"",
+        "\"w\"",
+        "\"Could not open '%s' for writing\\n\"",
+        "\"encodings_local.def\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/lib/genaliases2.c": {
+    "emit_alias": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": [
+        "\"  S(%s_%u, \\\"\"",
+        "\"\\\", ei_%s )\\n\""
+      ]
+    },
+    "emit_encoding": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": [
+        "\"  (int)(long)&((struct stringpool2_t *)0)->stringpool_%s_%u,\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        106,
+        1
+      ],
+      "strings": [
+        "\"Usage: genaliases2 tag aliases.h canonical.h\\n\"",
+        "\"w\"",
+        "\"Could not open '%s' for writing\\n\"",
+        "\"w\"",
+        "\"Could not open '%s' for writing\\n\"",
+        "\"encodings_aix.def\"",
+        "\"encodings_osf1.def\"",
+        "\"encodings_dos.def\"",
+        "\"encodings_extra.def\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/lib/genflags.c": {
+    "emit_encoding": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": [
+        "\"#define ei_%s_oflags (\"",
+        "\"HAVE_ACCENTS\"",
+        "\" | \"",
+        "\"HAVE_QUOTATION_MARKS\"",
+        "\" | \"",
+        "\"HAVE_HANGUL_JAMO\"",
+        "\"0\"",
+        "\")\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": [
+        "\"/* Generated automatically by genflags. */\\n\"",
+        "\"\\n\"",
+        "\"/* Set if the encoding can encode\\n\"",
+        "\"   the acute and grave accents U+00B4 and U+0060. */\\n\"",
+        "\"#define HAVE_ACCENTS %d\\n\"",
+        "\"\\n\"",
+        "\"/* Set if the encoding can encode\\n\"",
+        "\"   the single quotation marks U+2018 and U+2019. */\\n\"",
+        "\"#define HAVE_QUOTATION_MARKS %d\\n\"",
+        "\"\\n\"",
+        "\"/* Set if the encoding can encode\\n\"",
+        "\"   the double-width Hangul letters (Jamo) U+3131 to U+3163. */\\n\"",
+        "\"#define HAVE_HANGUL_JAMO %d\\n\"",
+        "\"\\n\"",
+        "\"encodings.def\"",
+        "\"encodings_aix.def\"",
+        "\"encodings_osf1.def\"",
+        "\"encodings_dos.def\"",
+        "\"encodings_extra.def\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/lib/gentranslit.c": {
+    "main": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": [
+        "\"out of memory\\n\"",
+        "\"/*\\n\"",
+        "\" * Copyright (C) 1999-2003 Free Software Foundation, Inc.\\n\"",
+        "\" * This file is part of the GNU LIBICONV Library.\\n\"",
+        "\" *\\n\"",
+        "\" * The GNU LIBICONV Library is free software; you can redistribute it\\n\"",
+        "\" * and/or modify it under the terms of the GNU Library General Public\\n\"",
+        "\" * License as published by the Free Software Foundation; either version 2\\n\"",
+        "\" * of the License, or (at your option) any later version.\\n\"",
+        "\" *\\n\"",
+        "\" * The GNU LIBICONV Library is distributed in the hope that it will be\\n\"",
+        "\" * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of\\n\"",
+        "\" * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\\n\"",
+        "\" * Library General Public License for more details.\\n\"",
+        "\" *\\n\"",
+        "\" * You should have received a copy of the GNU Library General Public\\n\"",
+        "\" * License along with the GNU LIBICONV Library; see the file COPYING.LIB.\\n\"",
+        "\" * If not, see <http://www.gnu.org/licenses/>.\\n\"",
+        "\" */\\n\"",
+        "\"\\n\"",
+        "\"/*\\n\"",
+        "\" * Transliteration table\\n\"",
+        "\" */\\n\"",
+        "\"\\n\"",
+        "\"%x\"",
+        "\"static const unsigned int translit_data[%d] = {\"",
+        "\"\\n %3d,\"",
+        "\"'\\\\'',\"",
+        "\"'\\\\\\\\',\"",
+        "\" '%c',\"",
+        "\"0x%02X,\"",
+        "\"0x%04X,\"",
+        "\"\\n};\\n\"",
+        "\"\\n\"",
+        "\"%02x_%d\"",
+        "\"%02x\"",
+        "\"static const short translit_page%s[%d] = {\\n\"",
+        "\"  /* 0x%04x */\\n\"",
+        "\" \"",
+        "\" %4d,\"",
+        "\" /* 0x%02x-0x%02x */\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"#define translit_index(wc) \\\\\\n  (\"",
+        "\"wc == 0x%04x ? %d\"",
+        "\"wc < 0x%04x\"",
+        "\"wc >= 0x%04x && wc < 0x%04x\"",
+        "\" ? translit_page%s[wc\"",
+        "\"-0x%04x\"",
+        "\"]\"",
+        "\" : \\\\\\n   \"",
+        "\"-1)\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/lib/georgian_academy.h": {
+    "georgian_academy_mbtowc": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "georgian_academy_wctomb": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/georgian_ps.h": {
+    "georgian_ps_mbtowc": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "georgian_ps_wctomb": {
+      "start_point": [
+        94,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/hkscs1999.h": {
+    "hkscs1999_mbtowc": {
+      "start_point": [
+        850,
+        0
+      ],
+      "end_point": [
+        888,
+        1
+      ],
+      "strings": []
+    },
+    "hkscs1999_wctomb": {
+      "start_point": [
+        2950,
+        0
+      ],
+      "end_point": [
+        3003,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/hkscs2001.h": {
+    "hkscs2001_mbtowc": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": []
+    },
+    "hkscs2001_wctomb": {
+      "start_point": [
+        551,
+        0
+      ],
+      "end_point": [
+        681,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/hkscs2004.h": {
+    "hkscs2004_mbtowc": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        106,
+        1
+      ],
+      "strings": []
+    },
+    "hkscs2004_wctomb": {
+      "start_point": [
+        543,
+        0
+      ],
+      "end_point": [
+        677,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/hkscs2008.h": {
+    "hkscs2008_mbtowc": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "hkscs2008_wctomb": {
+      "start_point": [
+        364,
+        0
+      ],
+      "end_point": [
+        465,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/hp_roman8.h": {
+    "hp_roman8_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "hp_roman8_wctomb": {
+      "start_point": [
+        92,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/hz.h": {
+    "hz_mbtowc": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    },
+    "hz_wctomb": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "hz_reset": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iconv.c": {
+    "aliases2_lookup": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": []
+    },
+    "strequal": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        218,
+        1
+      ],
+      "strings": []
+    },
+    "iconv_open": {
+      "start_point": [
+        221,
+        0
+      ],
+      "end_point": [
+        247,
+        1
+      ],
+      "strings": [
+        "\"iconv_open1.h\"",
+        "\"iconv_open2.h\""
+      ]
+    },
+    "iconv": {
+      "start_point": [
+        249,
+        0
+      ],
+      "end_point": [
+        260,
+        1
+      ],
+      "strings": []
+    },
+    "iconv_close": {
+      "start_point": [
+        262,
+        0
+      ],
+      "end_point": [
+        267,
+        1
+      ],
+      "strings": []
+    },
+    "iconv_open_into": {
+      "start_point": [
+        282,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "strings": [
+        "\"iconv_open1.h\"",
+        "\"iconv_open2.h\""
+      ]
+    },
+    "iconvctl": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        352,
+        1
+      ],
+      "strings": []
+    },
+    "compare_by_index": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        362,
+        1
+      ],
+      "strings": []
+    },
+    "compare_by_name": {
+      "start_point": [
+        364,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": []
+    },
+    "iconvlist": {
+      "start_point": [
+        377,
+        0
+      ],
+      "end_point": [
+        439,
+        1
+      ],
+      "strings": []
+    },
+    "iconv_canonicalize": {
+      "start_point": [
+        490,
+        0
+      ],
+      "end_point": [
+        595,
+        1
+      ],
+      "strings": [
+        "\"//TRANSLIT\"",
+        "\"//IGNORE\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iconv_open1.h": {},
+  "libiconv/libiconv-1.15/lib/iconv_open2.h": {},
+  "libiconv/libiconv-1.15/lib/iso2022_cn.h": {
+    "iso2022_cn_mbtowc": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_cn_wctomb": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        295,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_cn_reset": {
+      "start_point": [
+        297,
+        0
+      ],
+      "end_point": [
+        312,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso2022_cnext.h": {
+    "iso2022_cn_ext_mbtowc": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        295,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_cn_ext_wctomb": {
+      "start_point": [
+        297,
+        0
+      ],
+      "end_point": [
+        553,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_cn_ext_reset": {
+      "start_point": [
+        555,
+        0
+      ],
+      "end_point": [
+        571,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso2022_jp.h": {
+    "iso2022_jp_mbtowc": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        120,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp_wctomb": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp_reset": {
+      "start_point": [
+        196,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso2022_jp1.h": {
+    "iso2022_jp1_mbtowc": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp1_wctomb": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp1_reset": {
+      "start_point": [
+        243,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso2022_jp2.h": {
+    "iso2022_jp2_mbtowc": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        281,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp2_wctomb": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        651,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp2_reset": {
+      "start_point": [
+        653,
+        0
+      ],
+      "end_point": [
+        670,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso2022_jp3.h": {
+    "iso2022_jp3_mbtowc": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp3_flushwc": {
+      "start_point": [
+        196,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp3_wctomb": {
+      "start_point": [
+        261,
+        0
+      ],
+      "end_point": [
+        493,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jp3_reset": {
+      "start_point": [
+        495,
+        0
+      ],
+      "end_point": [
+        526,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso2022_jpms.h": {
+    "iso2022_jpms_mbtowc": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jpms_wctomb": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        422,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_jpms_reset": {
+      "start_point": [
+        424,
+        0
+      ],
+      "end_point": [
+        438,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso2022_kr.h": {
+    "iso2022_kr_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_kr_wctomb": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    },
+    "iso2022_kr_reset": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso646_cn.h": {
+    "iso646_cn_mbtowc": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    },
+    "iso646_cn_wctomb": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso646_jp.h": {
+    "iso646_jp_mbtowc": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "iso646_jp_wctomb": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_1.h": {
+    "iso8859_1_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_1_wctomb": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_10.h": {
+    "iso8859_10_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_10_wctomb": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_11.h": {
+    "iso8859_11_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_11_wctomb": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_13.h": {
+    "iso8859_13_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_13_wctomb": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_14.h": {
+    "iso8859_14_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_14_wctomb": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_15.h": {
+    "iso8859_15_mbtowc": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_15_wctomb": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_16.h": {
+    "iso8859_16_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_16_wctomb": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_2.h": {
+    "iso8859_2_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_2_wctomb": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_3.h": {
+    "iso8859_3_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_3_wctomb": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_4.h": {
+    "iso8859_4_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_4_wctomb": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_5.h": {
+    "iso8859_5_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_5_wctomb": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_6.h": {
+    "iso8859_6_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_6_wctomb": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_7.h": {
+    "iso8859_7_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_7_wctomb": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_8.h": {
+    "iso8859_8_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_8_wctomb": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/iso8859_9.h": {
+    "iso8859_9_mbtowc": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "iso8859_9_wctomb": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/isoir165.h": {
+    "isoir165_mbtowc": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        120,
+        1
+      ],
+      "strings": []
+    },
+    "isoir165_wctomb": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/isoir165ext.h": {
+    "isoir165ext_mbtowc": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": []
+    },
+    "isoir165ext_wctomb": {
+      "start_point": [
+        753,
+        0
+      ],
+      "end_point": [
+        798,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/java.h": {
+    "java_mbtowc": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "java_wctomb": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/jisx0201.h": {
+    "jisx0201_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "jisx0201_wctomb": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/jisx0208.h": {
+    "jisx0208_mbtowc": {
+      "start_point": [
+        1010,
+        0
+      ],
+      "end_point": [
+        1037,
+        1
+      ],
+      "strings": []
+    },
+    "jisx0208_wctomb": {
+      "start_point": [
+        2374,
+        0
+      ],
+      "end_point": [
+        2413,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/jisx0212.h": {
+    "jisx0212_mbtowc": {
+      "start_point": [
+        911,
+        0
+      ],
+      "end_point": [
+        944,
+        1
+      ],
+      "strings": []
+    },
+    "jisx0212_wctomb": {
+      "start_point": [
+        2154,
+        0
+      ],
+      "end_point": [
+        2187,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/jisx0213.h": {
+    "jisx0213_to_ucs4": {
+      "start_point": [
+        5861,
+        0
+      ],
+      "end_point": [
+        5890,
+        1
+      ],
+      "strings": []
+    },
+    "ucs4_to_jisx0213": {
+      "start_point": [
+        5899,
+        0
+      ],
+      "end_point": [
+        5920,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/johab.h": {
+    "johab_mbtowc": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "johab_wctomb": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/johab_hangul.h": {
+    "johab_hangul_mbtowc": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "johab_hangul_wctomb": {
+      "start_point": [
+        195,
+        0
+      ],
+      "end_point": [
+        222,
+        1
+      ],
+      "strings": []
+    },
+    "johab_hangul_decompose": {
+      "start_point": [
+        231,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/koi8_r.h": {
+    "koi8_r_mbtowc": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    },
+    "koi8_r_wctomb": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/koi8_ru.h": {
+    "koi8_ru_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "koi8_ru_wctomb": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/koi8_t.h": {
+    "koi8_t_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "koi8_t_wctomb": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/koi8_u.h": {
+    "koi8_u_mbtowc": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    },
+    "koi8_u_wctomb": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ksc5601.h": {
+    "ksc5601_mbtowc": {
+      "start_point": [
+        1186,
+        0
+      ],
+      "end_point": [
+        1216,
+        1
+      ],
+      "strings": []
+    },
+    "ksc5601_wctomb": {
+      "start_point": [
+        2981,
+        0
+      ],
+      "end_point": [
+        3020,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/loops.h": {},
+  "libiconv/libiconv-1.15/lib/loop_unicode.h": {
+    "unicode_transliterate": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "uc_to_mb_write_replacement": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": []
+    },
+    "mb_to_uc_write_replacement": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": []
+    },
+    "unicode_loop_convert": {
+      "start_point": [
+        267,
+        0
+      ],
+      "end_point": [
+        428,
+        1
+      ],
+      "strings": []
+    },
+    "unicode_loop_reset": {
+      "start_point": [
+        430,
+        0
+      ],
+      "end_point": [
+        525,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/loop_wchar.h": {
+    "wc_to_mb_write_replacement": [
+      {
+        "start_point": [
+          77,
+          0
+        ],
+        "end_point": [
+          106,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          117,
+          0
+        ],
+        "end_point": [
+          133,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "wchar_from_loop_convert": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        236,
+        3
+      ],
+      "strings": []
+    },
+    "wchar_from_loop_reset": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        284,
+        1
+      ],
+      "strings": []
+    },
+    "mb_to_wc_write_replacement": {
+      "start_point": [
+        301,
+        0
+      ],
+      "end_point": [
+        319,
+        1
+      ],
+      "strings": []
+    },
+    "wchar_to_loop_convert": {
+      "start_point": [
+        323,
+        0
+      ],
+      "end_point": [
+        423,
+        1
+      ],
+      "strings": []
+    },
+    "wchar_to_loop_reset": {
+      "start_point": [
+        425,
+        0
+      ],
+      "end_point": [
+        434,
+        1
+      ],
+      "strings": []
+    },
+    "wchar_id_loop_convert": {
+      "start_point": [
+        441,
+        0
+      ],
+      "end_point": [
+        466,
+        1
+      ],
+      "strings": []
+    },
+    "wchar_id_loop_reset": {
+      "start_point": [
+        468,
+        0
+      ],
+      "end_point": [
+        472,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_arabic.h": {
+    "mac_arabic_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_arabic_wctomb": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_centraleurope.h": {
+    "mac_centraleurope_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "mac_centraleurope_wctomb": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_croatian.h": {
+    "mac_croatian_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_croatian_wctomb": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_cyrillic.h": {
+    "mac_cyrillic_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "mac_cyrillic_wctomb": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_greek.h": {
+    "mac_greek_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_greek_wctomb": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_hebrew.h": {
+    "mac_hebrew_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_hebrew_wctomb": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_iceland.h": {
+    "mac_iceland_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_iceland_wctomb": {
+      "start_point": [
+        131,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_roman.h": {
+    "mac_roman_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_roman_wctomb": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_romania.h": {
+    "mac_romania_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_romania_wctomb": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_thai.h": {
+    "mac_thai_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_thai_wctomb": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_turkish.h": {
+    "mac_turkish_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mac_turkish_wctomb": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        161,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mac_ukraine.h": {
+    "mac_ukraine_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "mac_ukraine_wctomb": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/mulelao.h": {
+    "mulelao_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "mulelao_wctomb": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/nextstep.h": {
+    "nextstep_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "nextstep_wctomb": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        139,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/pt154.h": {
+    "pt154_mbtowc": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    },
+    "pt154_wctomb": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/relocatable.c": {
+    "set_this_relocation_prefix": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "set_relocation_prefix": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        175,
+        1
+      ],
+      "strings": []
+    },
+    "compute_curr_prefix": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "strings": []
+    },
+    "DllMain": {
+      "start_point": [
+        321,
+        0
+      ],
+      "end_point": [
+        343,
+        1
+      ],
+      "strings": []
+    },
+    "_DLL_InitTerm": {
+      "start_point": [
+        352,
+        0
+      ],
+      "end_point": [
+        382,
+        1
+      ],
+      "strings": []
+    },
+    "find_shared_library_fullname": {
+      "start_point": [
+        386,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "strings": [
+        "\"/proc/self/maps\"",
+        "\"r\"",
+        "\"%lx-%lx\""
+      ]
+    },
+    "get_shared_library_fullname": {
+      "start_point": [
+        444,
+        0
+      ],
+      "end_point": [
+        457,
+        1
+      ],
+      "strings": []
+    },
+    "relocate": {
+      "start_point": [
+        465,
+        0
+      ],
+      "end_point": [
+        574,
+        1
+      ],
+      "strings": [
+        "\"/@unixroot\"",
+        "\"UNIXROOT\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/lib/relocatable.h": {},
+  "libiconv/libiconv-1.15/lib/riscos1.h": {
+    "riscos1_mbtowc": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "riscos1_wctomb": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/rk1048.h": {
+    "rk1048_mbtowc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "rk1048_wctomb": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/shift_jisx0213.h": {
+    "shift_jisx0213_mbtowc": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        115,
+        1
+      ],
+      "strings": []
+    },
+    "shift_jisx0213_wctomb": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        292,
+        1
+      ],
+      "strings": []
+    },
+    "shift_jisx0213_reset": {
+      "start_point": [
+        294,
+        0
+      ],
+      "end_point": [
+        308,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/sjis.h": {
+    "sjis_mbtowc": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    },
+    "sjis_wctomb": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/tcvn.h": {
+    "tcvn_mbtowc": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": []
+    },
+    "tcvn_wctomb": {
+      "start_point": [
+        215,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/tds565.h": {
+    "tds565_mbtowc": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "tds565_wctomb": {
+      "start_point": [
+        84,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/tis620.h": {
+    "tis620_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "tis620_wctomb": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/translit.h": {},
+  "libiconv/libiconv-1.15/lib/ucs2.h": {
+    "ucs2_mbtowc": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "ucs2_wctomb": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs2be.h": {
+    "ucs2be_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    },
+    "ucs2be_wctomb": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs2internal.h": {
+    "ucs2internal_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "ucs2internal_wctomb": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs2le.h": {
+    "ucs2le_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    },
+    "ucs2le_wctomb": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs2swapped.h": {
+    "ucs2swapped_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "ucs2swapped_wctomb": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs4.h": {
+    "ucs4_mbtowc": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "ucs4_wctomb": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs4be.h": {
+    "ucs4be_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": []
+    },
+    "ucs4be_wctomb": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs4internal.h": {
+    "ucs4internal_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": []
+    },
+    "ucs4internal_wctomb": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs4le.h": {
+    "ucs4le_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": []
+    },
+    "ucs4le_wctomb": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/ucs4swapped.h": {
+    "ucs4swapped_mbtowc": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "ucs4swapped_wctomb": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/uhc_1.h": {
+    "uhc_1_mbtowc": {
+      "start_point": [
+        804,
+        0
+      ],
+      "end_point": [
+        825,
+        1
+      ],
+      "strings": []
+    },
+    "uhc_1_wctomb": {
+      "start_point": [
+        1697,
+        0
+      ],
+      "end_point": [
+        1723,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/uhc_2.h": {
+    "uhc_2_mbtowc": {
+      "start_point": [
+        486,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": []
+    },
+    "uhc_2_wctomb": {
+      "start_point": [
+        994,
+        0
+      ],
+      "end_point": [
+        1020,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/utf16.h": {
+    "utf16_mbtowc": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "utf16_wctomb": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/utf16be.h": {
+    "utf16be_mbtowc": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "utf16be_wctomb": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/utf16le.h": {
+    "utf16le_mbtowc": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "utf16le_wctomb": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/utf32.h": {
+    "utf32_mbtowc": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    },
+    "utf32_wctomb": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/utf32be.h": {
+    "utf32be_mbtowc": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "utf32be_wctomb": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/utf32le.h": {
+    "utf32le_mbtowc": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "utf32le_wctomb": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/utf7.h": {
+    "utf7_mbtowc": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": []
+    },
+    "utf7_wctomb": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": []
+    },
+    "utf7_reset": {
+      "start_point": [
+        322,
+        0
+      ],
+      "end_point": [
+        353,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/utf8.h": {
+    "utf8_mbtowc": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    },
+    "utf8_wctomb": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/lib/vietcomb.h": {},
+  "libiconv/libiconv-1.15/lib/viscii.h": {
+    "viscii_mbtowc": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    },
+    "viscii_wctomb": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        139,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/libcharset/include/export.h": {},
+  "libiconv/libiconv-1.15/libcharset/lib/localcharset.c": {
+    "get_charset_aliases": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        380,
+        1
+      ],
+      "strings": [
+        "\"charset.alias\"",
+        "\"CHARSETALIASDIR\"",
+        "\"\"",
+        "\"\"",
+        "\"r\"",
+        "\"\"",
+        "\"%50s %50s\"",
+        "\"\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-4\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"ISO8859-13\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"ISO8859-15\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"eucCN\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucKR\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"Big5\"",
+        "\"\\0\"",
+        "\"BIG5\"",
+        "\"\\0\"",
+        "\"Big5HKSCS\"",
+        "\"\\0\"",
+        "\"BIG5-HKSCS\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"*\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-8\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"DECKANJI\"",
+        "\"\\0\"",
+        "\"DEC-KANJI\"",
+        "\"\\0\"",
+        "\"SDECKANJI\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucTW\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"DECHANYU\"",
+        "\"\\0\"",
+        "\"DEC-HANYU\"",
+        "\"\\0\"",
+        "\"DECHANZI\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"DECKOREAN\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP936\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP1361\"",
+        "\"\\0\"",
+        "\"JOHAB\"",
+        "\"\\0\"",
+        "\"CP20127\"",
+        "\"\\0\"",
+        "\"ASCII\"",
+        "\"\\0\"",
+        "\"CP20866\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP20936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP21866\"",
+        "\"\\0\"",
+        "\"KOI8-RU\"",
+        "\"\\0\"",
+        "\"CP28591\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP28592\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP28593\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP28594\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP28595\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP28596\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP28597\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP28598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP28599\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP28605\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP38598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP51932\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP51936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP51949\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP51950\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP54936\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"CP65001\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP813\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP878\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP819\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP912\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP913\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP914\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP915\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP916\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP920\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP921\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"CP923\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP954\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP964\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP970\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP1089\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP1208\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP1381\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP1386\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP3372\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\""
+      ]
+    },
+    "locale_charset": {
+      "start_point": [
+        391,
+        0
+      ],
+      "end_point": [
+        612,
+        1
+      ],
+      "strings": [
+        "\"US-ASCII\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%s\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"C\"",
+        "\"POSIX\"",
+        "\"\"",
+        "\"\"",
+        "\"CP%u\"",
+        "\"\"",
+        "\"ASCII\"",
+        "\"UTF-8\"",
+        "\"ASCII\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/libcharset/lib/relocatable.c": {
+    "set_this_relocation_prefix": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "set_relocation_prefix": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        175,
+        1
+      ],
+      "strings": []
+    },
+    "compute_curr_prefix": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "strings": []
+    },
+    "DllMain": {
+      "start_point": [
+        321,
+        0
+      ],
+      "end_point": [
+        343,
+        1
+      ],
+      "strings": []
+    },
+    "_DLL_InitTerm": {
+      "start_point": [
+        352,
+        0
+      ],
+      "end_point": [
+        382,
+        1
+      ],
+      "strings": []
+    },
+    "find_shared_library_fullname": {
+      "start_point": [
+        386,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "strings": [
+        "\"/proc/self/maps\"",
+        "\"r\"",
+        "\"%lx-%lx\""
+      ]
+    },
+    "get_shared_library_fullname": {
+      "start_point": [
+        444,
+        0
+      ],
+      "end_point": [
+        457,
+        1
+      ],
+      "strings": []
+    },
+    "relocate": {
+      "start_point": [
+        465,
+        0
+      ],
+      "end_point": [
+        574,
+        1
+      ],
+      "strings": [
+        "\"/@unixroot\"",
+        "\"UNIXROOT\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/libcharset/lib/relocatable.h": {},
+  "libiconv/libiconv-1.15/libcharset/tools/locale_charset.c": {
+    "main": {
+      "start_point": [
+        7,
+        0
+      ],
+      "end_point": [
+        12,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"%s\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/libcharset/tools/locale_codeset.c": {
+    "main": {
+      "start_point": [
+        9,
+        0
+      ],
+      "end_point": [
+        14,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"%s\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/libcharset/tools/locale_monthnames.c": {
+    "main": {
+      "start_point": [
+        9,
+        0
+      ],
+      "end_point": [
+        25,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%s\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/libcharset/tools/locale_x11encoding.c": {
+    "main": {
+      "start_point": [
+        9,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"cannot open display\\n\"",
+        "\"\"",
+        "\"XmbTextListToTextProperty failed\\n\"",
+        "\"%s\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/src/iconv.c": {
+    "error": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"Unknown system error\""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "strings": [
+        "\"Usage: iconv [-c] [-s] [-f fromcode] [-t tocode] [file ...]\"",
+        "\"or:    iconv -l\"",
+        "\"%s\\n%s\\n\"",
+        "\"Try '%s --help' for more information.\\n\"",
+        "\"\\\nUsage: %s [OPTION...] [-f ENCODING] [-t ENCODING] [INPUTFILE...]\\n\"",
+        "\"\\\nor:    %s -l\\n\"",
+        "\"\\n\"",
+        "\"\\\nConverts text from one encoding to another encoding.\\n\"",
+        "\"\\n\"",
+        "\"\\\nOptions controlling the input and output format:\\n\"",
+        "\"\\\n  -f ENCODING, --from-code=ENCODING\\n\\\n                              the encoding of the input\\n\"",
+        "\"\\\n  -t ENCODING, --to-code=ENCODING\\n\\\n                              the encoding of the output\\n\"",
+        "\"\\n\"",
+        "\"\\\nOptions controlling conversion problems:\\n\"",
+        "\"\\\n  -c                          discard unconvertible characters\\n\"",
+        "\"\\\n  --unicode-subst=FORMATSTRING\\n\\\n                              substitution for unconvertible Unicode characters\\n\"",
+        "\"\\\n  --byte-subst=FORMATSTRING   substitution for unconvertible bytes\\n\"",
+        "\"\\\n  --widechar-subst=FORMATSTRING\\n\\\n                              substitution for unconvertible wide characters\\n\"",
+        "\"\\n\"",
+        "\"\\\nOptions controlling error output:\\n\"",
+        "\"\\\n  -s, --silent                suppress error messages about conversion problems\\n\"",
+        "\"\\n\"",
+        "\"\\\nInformative output:\\n\"",
+        "\"\\\n  -l, --list                  list the supported encodings\\n\"",
+        "\"\\\n  --help                      display this help and exit\\n\"",
+        "\"\\\n  --version                   output version information and exit\\n\"",
+        "\"\\n\"",
+        "\"Report bugs to <bug-gnu-libiconv@gnu.org>.\\n\""
+      ]
+    },
+    "print_version": {
+      "start_point": [
+        189,
+        0
+      ],
+      "end_point": [
+        203,
+        1
+      ],
+      "strings": [
+        "\"iconv (GNU libiconv %d.%d)\\n\"",
+        "\"Copyright (C) %s Free Software Foundation, Inc.\\n\"",
+        "\"2000-2017\"",
+        "\"\\\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\\n\\\n\"",
+        "\"Written by %s.\\n\"",
+        "\"Bruno Haible\""
+      ]
+    },
+    "print_one": {
+      "start_point": [
+        205,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": []
+    },
+    "update_line_column": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "strings": []
+    },
+    "check_subst_formatstring": {
+      "start_point": [
+        249,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "strings": [
+        "\"%s argument: A format directive with a variable width is not allowed here.\"",
+        "\"%s argument: A format directive with a variable precision is not allowed here.\"",
+        "\"%s argument: A format directive with a size is not allowed here.\"",
+        "\"%s argument: The string ends in the middle of a directive.\"",
+        "\"%s argument: The character '%c' is not a valid conversion specifier.\"",
+        "\"%s argument: The character that terminates the format directive is not a valid conversion specifier.\"",
+        "\"%s argument: The format string consumes more than one argument: %u argument.\"",
+        "\"%s argument: The format string consumes more than one argument: %u arguments.\""
+      ]
+    },
+    "subst_mb_to_uc_fallback": {
+      "start_point": [
+        429,
+        0
+      ],
+      "end_point": [
+        463,
+        1
+      ],
+      "strings": [
+        "\"cannot convert byte substitution to Unicode: %s\""
+      ]
+    },
+    "subst_uc_to_mb_fallback": {
+      "start_point": [
+        471,
+        0
+      ],
+      "end_point": [
+        500,
+        1
+      ],
+      "strings": [
+        "\"cannot convert unicode substitution to target encoding: %s\""
+      ]
+    },
+    "subst_mb_to_wc_fallback": {
+      "start_point": [
+        510,
+        0
+      ],
+      "end_point": [
+        544,
+        1
+      ],
+      "strings": [
+        "\"cannot convert byte substitution to wide string: %s\""
+      ]
+    },
+    "subst_wc_to_mb_fallback": {
+      "start_point": [
+        553,
+        0
+      ],
+      "end_point": [
+        582,
+        1
+      ],
+      "strings": [
+        "\"cannot convert widechar substitution to target encoding: %s\""
+      ]
+    },
+    "subst_mb_to_mb_fallback": {
+      "start_point": [
+        597,
+        0
+      ],
+      "end_point": [
+        623,
+        1
+      ],
+      "strings": [
+        "\"cannot convert byte substitution to target encoding: %s\""
+      ]
+    },
+    "conversion_error_EILSEQ": {
+      "start_point": [
+        629,
+        0
+      ],
+      "end_point": [
+        639,
+        1
+      ],
+      "strings": [
+        "\"%s:%u:%u: cannot convert\""
+      ]
+    },
+    "conversion_error_EINVAL": {
+      "start_point": [
+        641,
+        0
+      ],
+      "end_point": [
+        653,
+        1
+      ],
+      "strings": [
+        "\"%s:%u:%u: incomplete character or shift sequence\""
+      ]
+    },
+    "conversion_error_other": {
+      "start_point": [
+        655,
+        0
+      ],
+      "end_point": [
+        666,
+        1
+      ],
+      "strings": [
+        "\"%s:%u:%u\""
+      ]
+    },
+    "convert": {
+      "start_point": [
+        670,
+        0
+      ],
+      "end_point": [
+        834,
+        1
+      ],
+      "strings": [
+        "\"%s: I/O error\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        838,
+        0
+      ],
+      "end_point": [
+        1118,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\"libiconv\"",
+        "\"libiconv\"",
+        "\"--\"",
+        "\"-f\"",
+        "\"--from-code\"",
+        "\"--from-code=\"",
+        "\"-t\"",
+        "\"--to-code\"",
+        "\"--to-code=\"",
+        "\"-l\"",
+        "\"--list\"",
+        "\"--byte-subst\"",
+        "\"--byte-subst=\"",
+        "\"--byte-subst\"",
+        "\"--widechar-subst\"",
+        "\"--widechar-subst=\"",
+        "\"--widechar-subst\"",
+        "\"--unicode-subst\"",
+        "\"--unicode-subst=\"",
+        "\"--unicode-subst\"",
+        "\"--silent\"",
+        "\"--help\"",
+        "\"--version\"",
+        "\"--binary\"",
+        "\"char\"",
+        "\"char\"",
+        "\"UCS-4\"",
+        "\"conversion from %s unsupported\"",
+        "\"UCS-4\"",
+        "\"conversion to %s unsupported\"",
+        "\"conversion from %s to %s unsupported\"",
+        "\"try '%s -l' to get the list of supported encodings\"",
+        "\"UCS-4-INTERNAL\"",
+        "\"char\"",
+        "\"wchar_t\"",
+        "\"char\"",
+        "\"char\"",
+        "\"char\"",
+        "\"char\"",
+        "\"(stdin)\"",
+        "\"r\"",
+        "\"%s\"",
+        "\"I/O error\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/src/iconv_no_i18n.c": {},
+  "libiconv/libiconv-1.15/srclib/alloca.in.h": {},
+  "libiconv/libiconv-1.15/srclib/allocator.c": {},
+  "libiconv/libiconv-1.15/srclib/allocator.h": {},
+  "libiconv/libiconv-1.15/srclib/areadlink.c": {
+    "careadlinkatcwd": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "areadlink": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/areadlink.h": {},
+  "libiconv/libiconv-1.15/srclib/basename-lgpl.c": {
+    "last_component": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "base_len": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/binary-io.c": {},
+  "libiconv/libiconv-1.15/srclib/binary-io.h": {
+    "set_binary_mode": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/c-ctype.c": {},
+  "libiconv/libiconv-1.15/srclib/c-ctype.h": {
+    "c_isalnum": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": []
+    },
+    "c_isalpha": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        192,
+        1
+      ],
+      "strings": []
+    },
+    "c_isascii": {
+      "start_point": [
+        196,
+        0
+      ],
+      "end_point": [
+        211,
+        1
+      ],
+      "strings": []
+    },
+    "c_isblank": {
+      "start_point": [
+        213,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": []
+    },
+    "c_iscntrl": {
+      "start_point": [
+        219,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": []
+    },
+    "c_isdigit": {
+      "start_point": [
+        231,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": []
+    },
+    "c_isgraph": {
+      "start_point": [
+        243,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": []
+    },
+    "c_islower": {
+      "start_point": [
+        258,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": []
+    },
+    "c_isprint": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        284,
+        1
+      ],
+      "strings": []
+    },
+    "c_ispunct": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        296,
+        1
+      ],
+      "strings": []
+    },
+    "c_isspace": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        308,
+        1
+      ],
+      "strings": []
+    },
+    "c_isupper": {
+      "start_point": [
+        310,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": []
+    },
+    "c_isxdigit": {
+      "start_point": [
+        322,
+        0
+      ],
+      "end_point": [
+        333,
+        1
+      ],
+      "strings": []
+    },
+    "c_tolower": {
+      "start_point": [
+        335,
+        0
+      ],
+      "end_point": [
+        345,
+        1
+      ],
+      "strings": []
+    },
+    "c_toupper": {
+      "start_point": [
+        347,
+        0
+      ],
+      "end_point": [
+        357,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/canonicalize-lgpl.c": {
+    "alloc_failed": {
+      "start_point": [
+        92,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": []
+    },
+    "__realpath": {
+      "start_point": [
+        113,
+        0
+      ],
+      "end_point": [
+        388,
+        1
+      ],
+      "strings": []
+    },
+    "__old_realpath": {
+      "start_point": [
+        394,
+        0
+      ],
+      "end_point": [
+        405,
+        1
+      ],
+      "strings": []
+    },
+    "__canonicalize_file_name": {
+      "start_point": [
+        410,
+        0
+      ],
+      "end_point": [
+        414,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/careadlinkat.c": {
+    "careadlinkat": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/careadlinkat.h": {},
+  "libiconv/libiconv-1.15/srclib/dirname-lgpl.c": {
+    "dir_len": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "mdir_name": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/dirname.h": {},
+  "libiconv/libiconv-1.15/srclib/dosname.h": {},
+  "libiconv/libiconv-1.15/srclib/errno.in.h": {},
+  "libiconv/libiconv-1.15/srclib/error.c": {
+    "is_open": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "flush_stdout": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    },
+    "print_errno_message": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\"",
+        "\": %s\"",
+        "\": %s\""
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        201,
+        42
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": [
+        "L\"out of memory\\n\"",
+        "L\"???\"",
+        "\"\\n\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        327,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"%s: \""
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        333,
+        0
+      ],
+      "end_point": [
+        397,
+        1
+      ],
+      "strings": [
+        "\"%s:\"",
+        "\"%s:\"",
+        "\"%s:%u: \"",
+        "\" \"",
+        "\"%s:%u: \"",
+        "\" \""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/error.h": {},
+  "libiconv/libiconv-1.15/srclib/fcntl.in.h": {},
+  "libiconv/libiconv-1.15/srclib/getprogname.c": {
+    "getprogname": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": [
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/getprogname.h": {},
+  "libiconv/libiconv-1.15/srclib/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        165,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        255,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/gettimeofday.c": {
+    "rpl_localtime": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_gmtime": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_tzset": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "gettimeofday": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/intprops.h": {},
+  "libiconv/libiconv-1.15/srclib/limits.in.h": {},
+  "libiconv/libiconv-1.15/srclib/localcharset.h": {},
+  "libiconv/libiconv-1.15/srclib/lstat.c": {
+    "orig_lstat": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_lstat": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/malloca.c": {
+    "mmalloca": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "freea": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/malloca.h": {},
+  "libiconv/libiconv-1.15/srclib/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/msvc-inval.h": {},
+  "libiconv/libiconv-1.15/srclib/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/msvc-nothrow.h": {},
+  "libiconv/libiconv-1.15/srclib/pathmax.h": {},
+  "libiconv/libiconv-1.15/srclib/progname.c": {
+    "set_program_name": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"A NULL argv[0] was passed through an exec system call.\\n\"",
+        "\"/.libs/\"",
+        "\"lt-\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/progname.h": {},
+  "libiconv/libiconv-1.15/srclib/progreloc.c": {
+    "maybe_executable": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "find_executable": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        298,
+        1
+      ],
+      "strings": [
+        "\"/proc/self/exe\"",
+        "\"/proc/self/exe\"",
+        "\"/proc/%d/exe\"",
+        "\"/proc/self/exe\"",
+        "\"/proc/self/exe\"",
+        "\"PATH\""
+      ]
+    },
+    "prepare_relocate": {
+      "start_point": [
+        303,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": []
+    },
+    "set_program_name_and_installdir": {
+      "start_point": [
+        326,
+        0
+      ],
+      "end_point": [
+        383,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\".bin\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "get_full_program_name": {
+      "start_point": [
+        387,
+        0
+      ],
+      "end_point": [
+        391,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/raise.c": {
+    "raise_nothrow": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        42,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_raise": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/read.c": {
+    "read_nothrow": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        44,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_read": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/readlink.c": {
+    "readlink": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_readlink": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/relocatable.c": {
+    "set_this_relocation_prefix": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "set_relocation_prefix": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        175,
+        1
+      ],
+      "strings": []
+    },
+    "compute_curr_prefix": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "strings": []
+    },
+    "DllMain": {
+      "start_point": [
+        321,
+        0
+      ],
+      "end_point": [
+        343,
+        1
+      ],
+      "strings": []
+    },
+    "_DLL_InitTerm": {
+      "start_point": [
+        352,
+        0
+      ],
+      "end_point": [
+        382,
+        1
+      ],
+      "strings": []
+    },
+    "find_shared_library_fullname": {
+      "start_point": [
+        386,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "strings": [
+        "\"/proc/self/maps\"",
+        "\"r\"",
+        "\"%lx-%lx\""
+      ]
+    },
+    "get_shared_library_fullname": {
+      "start_point": [
+        444,
+        0
+      ],
+      "end_point": [
+        457,
+        1
+      ],
+      "strings": []
+    },
+    "relocate": {
+      "start_point": [
+        465,
+        0
+      ],
+      "end_point": [
+        574,
+        1
+      ],
+      "strings": [
+        "\"/@unixroot\"",
+        "\"UNIXROOT\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/relocatable.h": {},
+  "libiconv/libiconv-1.15/srclib/relocwrapper.c": {
+    "add_dotbin": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\"",
+        "\".bin\"",
+        "\".bin\"",
+        "\"%s: %s\\n\"",
+        "\"memory exhausted\""
+      ]
+    },
+    "relocate_libdirs": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": []
+    },
+    "activate_libdirs": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"%s: %s\\n\"",
+        "\"memory exhausted\"",
+        "\"%s: %s\\n\"",
+        "\"memory exhausted\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        183,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": [
+        "\"%s: could not execute %s: %s\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/safe-read.c": {
+    "safe_rw": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/safe-read.h": {},
+  "libiconv/libiconv-1.15/srclib/setenv.c": {
+    "__add_to_environ": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        287,
+        1
+      ],
+      "strings": [
+        "\"=\"",
+        "\"=\""
+      ]
+    },
+    "setenv": {
+      "start_point": [
+        289,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    },
+    "clearenv": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": []
+    },
+    "free_mem": {
+      "start_point": [
+        325,
+        0
+      ],
+      "end_point": [
+        334,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_setenv": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        387,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/signal.in.h": {},
+  "libiconv/libiconv-1.15/srclib/sigprocmask.c": {
+    "signal_nothrow": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        73,
+        5
+      ],
+      "strings": []
+    },
+    "ext_signal": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "sigismember": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "sigemptyset": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": []
+    },
+    "sigaddset": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "sigdelset": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    },
+    "sigfillset": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": []
+    },
+    "blocked_handler": {
+      "start_point": [
+        190,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": []
+    },
+    "sigpending": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": []
+    },
+    "sigprocmask": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_signal": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_raise_SIGPIPE": {
+      "start_point": [
+        333,
+        0
+      ],
+      "end_point": [
+        347,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/stat.c": {
+    "orig_stat": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_stat": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/stdbool.in.h": {},
+  "libiconv/libiconv-1.15/srclib/stddef.in.h": {},
+  "libiconv/libiconv-1.15/srclib/stdint.in.h": {},
+  "libiconv/libiconv-1.15/srclib/stdio-write.c": {
+    "printf": {
+      "start_point": [
+        115,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "fprintf": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "vprintf": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "putchar": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/stdio.in.h": {},
+  "libiconv/libiconv-1.15/srclib/stdlib.in.h": {},
+  "libiconv/libiconv-1.15/srclib/streq.h": {
+    "streq9": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "streq8": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "streq7": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "streq6": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "streq5": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "streq4": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "streq3": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "streq2": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "streq1": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "streq0": {
+      "start_point": [
+        151,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": [
+        "\"Success\"",
+        "\"Operation now in progress\"",
+        "\"Operation already in progress\"",
+        "\"Socket operation on non-socket\"",
+        "\"Destination address required\"",
+        "\"Message too long\"",
+        "\"Protocol wrong type for socket\"",
+        "\"Protocol not available\"",
+        "\"Protocol not supported\"",
+        "\"Operation not supported\"",
+        "\"Address family not supported by protocol\"",
+        "\"Address already in use\"",
+        "\"Cannot assign requested address\"",
+        "\"Network is down\"",
+        "\"Network is unreachable\"",
+        "\"Connection reset by peer\"",
+        "\"No buffer space available\"",
+        "\"Transport endpoint is already connected\"",
+        "\"Transport endpoint is not connected\"",
+        "\"Connection timed out\"",
+        "\"Connection refused\"",
+        "\"Too many levels of symbolic links\"",
+        "\"No route to host\"",
+        "\"Operation would block\"",
+        "\"Text file busy\"",
+        "\"No data available\"",
+        "\"Out of streams resources\"",
+        "\"Device not a stream\"",
+        "\"Timer expired\"",
+        "\"Other error\"",
+        "\"Socket type not supported\"",
+        "\"Protocol family not supported\"",
+        "\"Cannot send after transport endpoint shutdown\"",
+        "\"Too many references: cannot splice\"",
+        "\"Host is down\"",
+        "\"Too many processes\"",
+        "\"Too many users\"",
+        "\"Disk quota exceeded\"",
+        "\"Stale NFS file handle\"",
+        "\"Object is remote\"",
+        "\"Overlapped operation aborted\"",
+        "\"Overlapped I/O event object not in signaled state\"",
+        "\"Overlapped operations will complete later\"",
+        "\"Network subsystem is unavailable\"",
+        "\"Winsock.dll version out of range\"",
+        "\"Successful WSAStartup not yet performed\"",
+        "\"Graceful shutdown in progress\"",
+        "\"No more results\"",
+        "\"Call was canceled\"",
+        "\"Procedure call table is invalid\"",
+        "\"Service provider is invalid\"",
+        "\"Service provider failed to initialize\"",
+        "\"System call failure\"",
+        "\"Service not found\"",
+        "\"Class type not found\"",
+        "\"Database query was refused\"",
+        "\"Host not found\"",
+        "\"Nonauthoritative host not found\"",
+        "\"Nonrecoverable error\"",
+        "\"Valid name, no data record of requested type\"",
+        "\"No message of desired type\"",
+        "\"Identifier removed\"",
+        "\"Link has been severed\"",
+        "\"Protocol error\"",
+        "\"Multihop attempted\"",
+        "\"Bad message\"",
+        "\"Value too large for defined data type\"",
+        "\"Not supported\"",
+        "\"Network dropped connection on reset\"",
+        "\"Software caused connection abort\"",
+        "\"Stale NFS file handle\"",
+        "\"Disk quota exceeded\"",
+        "\"Operation canceled\"",
+        "\"Owner died\"",
+        "\"State not recoverable\"",
+        "\"Invalid or incomplete multibyte or wide character\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/strerror-override.h": {},
+  "libiconv/libiconv-1.15/srclib/strerror.c": {},
+  "libiconv/libiconv-1.15/srclib/string.in.h": {},
+  "libiconv/libiconv-1.15/srclib/stripslash.c": {
+    "strip_trailing_slashes": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/sys_stat.in.h": {
+    "rpl_mkdir": {
+      "start_point": [
+        503,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/sys_time.in.h": {
+    "GNULIB_NAMESPACE": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/sys_types.in.h": {},
+  "libiconv/libiconv-1.15/srclib/time.in.h": {},
+  "libiconv/libiconv-1.15/srclib/unistd.c": {},
+  "libiconv/libiconv-1.15/srclib/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        427,
+        0
+      ],
+      "end_point": [
+        431,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        894,
+        0
+      ],
+      "end_point": [
+        898,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/unitypes.in.h": {},
+  "libiconv/libiconv-1.15/srclib/uniwidth.in.h": {},
+  "libiconv/libiconv-1.15/srclib/unlocked-io.h": {},
+  "libiconv/libiconv-1.15/srclib/verify.h": {},
+  "libiconv/libiconv-1.15/srclib/xalloc-oversized.h": {},
+  "libiconv/libiconv-1.15/srclib/xalloc.h": {
+    "xrealloc": {
+      "start_point": [
+        51,
+        9
+      ],
+      "end_point": [
+        54,
+        3
+      ],
+      "strings": []
+    },
+    "xnboundedmalloc": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        125,
+        9
+      ],
+      "end_point": [
+        128,
+        3
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/xmalloc.c": {
+    "xalloc_die": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": [
+        "\"memory exhausted\""
+      ]
+    },
+    "fixup_null_alloc": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": []
+    },
+    "xmalloc": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "xnmalloc": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    },
+    "xzalloc": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "xcalloc": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/xreadlink.c": {
+    "xreadlink": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/xreadlink.h": {},
+  "libiconv/libiconv-1.15/srclib/xstrdup.c": {
+    "xmemdup": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": []
+    },
+    "xstrdup": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/uniwidth/cjk.h": {
+    "is_cjk_encoding": {
+      "start_point": [
+        19,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": [
+        "\"EUC-JP\"",
+        "\"GB2312\"",
+        "\"GBK\"",
+        "\"EUC-TW\"",
+        "\"BIG5\"",
+        "\"EUC-KR\"",
+        "\"CP949\"",
+        "\"JOHAB\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/srclib/uniwidth/width.c": {
+    "uc_width": {
+      "start_point": [
+        395,
+        0
+      ],
+      "end_point": [
+        449,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/tests/gengb18030z.c": {
+    "main": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": [
+        "\"0x%02X%02X%02X%02X\\t0x%X\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/tests/genutf8.c": {
+    "main": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": [
+        "\"0x%02X\\t0x%04X\\n\"",
+        "\"0x%02X%02X\\t0x%04X\\n\"",
+        "\"0x%02X%02X%02X\\t0x%04X\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/tests/table-from.c": {
+    "hexbuf": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": [
+        "\"0x%02X\"",
+        "\"0x%02X%02X\"",
+        "\"0x%02X%02X%02X\"",
+        "\"0x%02X%02X%02X%02X\""
+      ]
+    },
+    "try": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": [
+        "\"%s: iconv error: \"",
+        "\"\"",
+        "\"%s: inbytes = %ld, outbytes = %ld\\n\""
+      ]
+    },
+    "ucs4_decode": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": [
+        "\"0x%04X\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": [
+        "\"Usage: table-from charset\\n\"",
+        "\"UCS-4-INTERNAL\"",
+        "\"iconv_open\"",
+        "\"UTF-8\"",
+        "\"UTF-8\"",
+        "\"0x%02X\\t%s\\n\"",
+        "\"0x%02X%02X\\t%s\\n\"",
+        "\"0x%02X%02X%02X\\t%s\\n\"",
+        "\"0x%02X%02X%02X%02X\\t%s\\n\"",
+        "\"%s: incomplete byte sequence\\n\"",
+        "\"iconv_close\"",
+        "\"I/O error\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/tests/table-to.c": {
+    "main": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": [
+        "\"Usage: table-to charset\\n\"",
+        "\"UCS-4-INTERNAL\"",
+        "\"iconv_open\"",
+        "\"UTF-8\"",
+        "\"0x%02X: iconv error: \"",
+        "\"\"",
+        "\"0x\"",
+        "\"%02X\"",
+        "\"\\t0x%04X\\n\"",
+        "\"0x%02X: inbytes = %ld, outbytes = %ld\\n\"",
+        "\"iconv_close\"",
+        "\"I/O error\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/tests/test-shiftseq.c": {
+    "main1": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": [
+        "\"+2D/YQNhB\"",
+        "\"UTF-8\"",
+        "\"UTF-7\""
+      ]
+    },
+    "main2": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": [
+        "\"+2D/YQNhB\"",
+        "\"UTF-8\"",
+        "\"UTF-7\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "libiconv/libiconv-1.15/tests/test-to-wchar.c": {
+    "main": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": [
+        "\"wchar_t\"",
+        "\"UTF-8\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/tests/uniq-u.c": {
+    "xalloc_fail": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": [
+        "\"%s: virtual memory exhausted\\n\""
+      ]
+    },
+    "xmalloc": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    },
+    "initbuffer": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "readline": {
+      "start_point": [
+        84,
+        0
+      ],
+      "end_point": [
+        120,
+        1
+      ],
+      "strings": []
+    },
+    "freebuffer": {
+      "start_point": [
+        124,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": []
+    },
+    "different": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "writeline": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        161,
+        1
+      ],
+      "strings": []
+    },
+    "check_file": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        250,
+        1
+      ],
+      "strings": [
+        "\"-\"",
+        "\"r\"",
+        "\"%s: error opening %s\\n\"",
+        "\"-\"",
+        "\"w\"",
+        "\"%s: error opening %s\\n\"",
+        "\"%s: error reading %s\\n\"",
+        "\"%s: error writing %s\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        252,
+        0
+      ],
+      "end_point": [
+        276,
+        1
+      ],
+      "strings": [
+        "\"-\"",
+        "\"-\"",
+        "\"%s: too many arguments\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/tools/8bit_tab_to_h.c": {
+    "main": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        566,
+        1
+      ],
+      "strings": [
+        "\".h\"",
+        "\".h\"",
+        "\"\"",
+        "\"Creating %s%s\\n\"",
+        "\"0x%x\"",
+        "\"0x%x\"",
+        "\"%x\"",
+        "\"%x\"",
+        "\"w\"",
+        "\"/*\\n\"",
+        "\" * Copyright (C) 1999-2002 Free Software Foundation, Inc.\\n\"",
+        "\" * This file is part of the GNU LIBICONV Library.\\n\"",
+        "\" *\\n\"",
+        "\" * The GNU LIBICONV Library is free software; you can redistribute it\\n\"",
+        "\" * and/or modify it under the terms of the GNU Library General Public\\n\"",
+        "\" * License as published by the Free Software Foundation; either version 2\\n\"",
+        "\" * of the License, or (at your option) any later version.\\n\"",
+        "\" *\\n\"",
+        "\" * The GNU LIBICONV Library is distributed in the hope that it will be\\n\"",
+        "\" * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of\\n\"",
+        "\" * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\\n\"",
+        "\" * Library General Public License for more details.\\n\"",
+        "\" *\\n\"",
+        "\" * You should have received a copy of the GNU Library General Public\\n\"",
+        "\" * License along with the GNU LIBICONV Library; see the file COPYING.LIB.\\n\"",
+        "\" * If not, see <http://www.gnu.org/licenses/>.\\n\"",
+        "\" */\\n\"",
+        "\"\\n\"",
+        "\"/*\\n\"",
+        "\" * %s\\n\"",
+        "\" */\\n\"",
+        "\"\\n\"",
+        "\"static const unsigned short %s_2uni\"",
+        "\"_%d\"",
+        "\"[%d] = {\\n\"",
+        "\"  /* 0x%02x */\\n\"",
+        "\" \"",
+        "\" 0x%04x,\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static int\\n%s_mbtowc (conv_t conv, ucs4_t *pwc, const unsigned char *s, size_t n)\\n\"",
+        "\"{\\n\"",
+        "\"  unsigned char c = *s;\\n\"",
+        "\"  \"",
+        "\"    \"",
+        "\"  if (c < 0x%02x) {\\n\"",
+        "\"  else {\\n\"",
+        "\"  else if (c < 0x%02x) {\\n\"",
+        "\"%s*pwc = (ucs4_t) c;\\n\"",
+        "\"%sreturn 1;\\n\"",
+        "\"%s\"",
+        "\"unsigned short wc = \"",
+        "\"*pwc = (ucs4_t) \"",
+        "\"%s_2uni\"",
+        "\"_%d\"",
+        "\"[c\"",
+        "\"-0x%02x\"",
+        "\"];\\n\"",
+        "\"%sif (wc != 0xfffd) {\\n\"",
+        "\"%s  *pwc = (ucs4_t) wc;\\n\"",
+        "\"%s  return 1;\\n\"",
+        "\"%s}\\n\"",
+        "\"%sreturn 1;\\n\"",
+        "\"  }\\n\"",
+        "\"  return RET_ILSEQ;\\n\"",
+        "\"  \"",
+        "\"  if (c < 0x%02x)\\n    \"",
+        "\"  else\\n    \"",
+        "\"  else if (c < 0x%02x)\\n    \"",
+        "\"*pwc = (ucs4_t) c;\\n\"",
+        "\"*pwc = (ucs4_t) %s_2uni\"",
+        "\"_%d\"",
+        "\"[c\"",
+        "\"-0x%02x\"",
+        "\"];\\n\"",
+        "\"  return 1;\\n\"",
+        "\"}\\n\"",
+        "\"\\n\"",
+        "\"%02x_%d\"",
+        "\"%02x\"",
+        "\"static const unsigned char %s_page%s[%d] = {\\n\"",
+        "\"  /* 0x%04x */\\n\"",
+        "\" \"",
+        "\" 0x%02x,\"",
+        "\" /* 0x%02x-0x%02x */\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static int\\n%s_wctomb (conv_t conv, unsigned char *r, ucs4_t wc, size_t n)\\n\"",
+        "\"{\\n\"",
+        "\"  unsigned char c = 0;\\n\"",
+        "\"  \"",
+        "\"  else \"",
+        "\"if (wc == 0x%04x)\\n    c = 0x%02x;\\n\"",
+        "\"if (wc < 0x%04x)\"",
+        "\"if (wc >= 0x%04x && wc < 0x%04x)\"",
+        "\" {\\n    *r = wc;\\n    return 1;\\n  }\\n\"",
+        "\"\\n    c = wc;\\n\"",
+        "\"\\n    c = %s_page%s[wc\"",
+        "\"-0x%04x\"",
+        "\"];\\n\"",
+        "\"  if (c != 0 || wc == 0) {\\n\"",
+        "\"  if (c != 0) {\\n\"",
+        "\"    *r = c;\\n\"",
+        "\"    return 1;\\n\"",
+        "\"  }\\n\"",
+        "\"  return RET_ILUNI;\\n\"",
+        "\"}\\n\"",
+        "\"static const unsigned short %s_2uni[%d] = {\\n\"",
+        "\"  /\"",
+        "\"* 0x%02x *\"",
+        "\"/\\n\"",
+        "\"  \"",
+        "\" \"",
+        "\"0x%04x,\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const unsigned char %s_page%02x[%d] = {\\n\"",
+        "\"  \"",
+        "\"0x%02x, \"",
+        "\"/\"",
+        "\"* 0x%02x-0x%02x *\"",
+        "\"/\\n\"",
+        "\"};\\n\"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/tools/cjk_tab_to_h.c": {
+    "output_title": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        99,
+        1
+      ],
+      "strings": [
+        "\"/*\\n\"",
+        "\" * Copyright (C) 1999-2016 Free Software Foundation, Inc.\\n\"",
+        "\" * This file is part of the GNU LIBICONV Library.\\n\"",
+        "\" *\\n\"",
+        "\" * The GNU LIBICONV Library is free software; you can redistribute it\\n\"",
+        "\" * and/or modify it under the terms of the GNU Library General Public\\n\"",
+        "\" * License as published by the Free Software Foundation; either version 2\\n\"",
+        "\" * of the License, or (at your option) any later version.\\n\"",
+        "\" *\\n\"",
+        "\" * The GNU LIBICONV Library is distributed in the hope that it will be\\n\"",
+        "\" * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of\\n\"",
+        "\" * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\\n\"",
+        "\" * Library General Public License for more details.\\n\"",
+        "\" *\\n\"",
+        "\" * You should have received a copy of the GNU Library General Public\\n\"",
+        "\" * License along with the GNU LIBICONV Library; see the file COPYING.LIB.\\n\"",
+        "\" * If not, see <http://www.gnu.org/licenses/>.\\n\"",
+        "\" */\\n\"",
+        "\"\\n\"",
+        "\"/*\\n\"",
+        "\" * %s\\n\"",
+        "\" */\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "read_table": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": [
+        "\"0x%x\"",
+        "\"lost entry for %02x %02x\\n\"",
+        "\" 0x%x\"",
+        "\"%x\"",
+        "\"lost entry at %02x %02x\\n\""
+      ]
+    },
+    "is_charset2uni_large": {
+      "start_point": [
+        170,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": []
+    },
+    "compact_large_charset2uni": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        237,
+        1
+      ],
+      "strings": []
+    },
+    "find_charset2uni_pages": {
+      "start_point": [
+        242,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": []
+    },
+    "find_charset2uni_blocks": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        278,
+        1
+      ],
+      "strings": []
+    },
+    "output_charset2uni": {
+      "start_point": [
+        283,
+        0
+      ],
+      "end_point": [
+        396,
+        1
+      ],
+      "strings": [
+        "\"static const unsigned short %s_2uni_page%02x[%d] = {\\n\"",
+        "\"  /\"",
+        "\"* 0x%02x *\"",
+        "\"/\\n \"",
+        "\" 0x%04x,\"",
+        "\"\\n \"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const ucs4_t %s_2uni_upages[%d] = {\\n \"",
+        "\" 0x%05x,\"",
+        "\"\\n \"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static int\\n\"",
+        "\"%s_mbtowc (conv_t conv, ucs4_t *pwc, const unsigned char *s, size_t n)\\n\"",
+        "\"{\\n\"",
+        "\"  unsigned char c1 = s[0];\\n\"",
+        "\"  if (\"",
+        "\" || \"",
+        "\"(c1 == 0x%02x)\"",
+        "\"(c1 >= 0x%02x && c1 <= 0x%02x)\"",
+        "\") {\\n\"",
+        "\"    if (n >= 2) {\\n\"",
+        "\"      unsigned char c2 = s[1];\\n\"",
+        "\"      if (\"",
+        "\"c2\"",
+        "\") {\\n\"",
+        "\"        unsigned int i = %d * (\"",
+        "\"c1\"",
+        "\") + (\"",
+        "\"c2\"",
+        "\");\\n\"",
+        "\"        %s wc = 0xfffd;\\n\"",
+        "\"ucs4_t\"",
+        "\"unsigned short\"",
+        "\"        unsigned short swc;\\n\"",
+        "\"        \"",
+        "\"} else \"",
+        "\"if (i < %d) \"",
+        "\"{\\n\"",
+        "\"          if (i < %d)\\n\"",
+        "\"            %s = \"",
+        "\"swc\"",
+        "\"wc\"",
+        "\"%s_2uni_page%02x[i\"",
+        "\"-%d\"",
+        "\"]\"",
+        "\",\\n            wc = %s_2uni_upages[swc>>%d] | (swc & 0x%x)\"",
+        "\";\\n\"",
+        "\"        }\\n\"",
+        "\"        if (wc != 0xfffd) {\\n\"",
+        "\"          *pwc = %swc;\\n\"",
+        "\"\"",
+        "\"(ucs4_t) \"",
+        "\"          return 2;\\n\"",
+        "\"        }\\n\"",
+        "\"      }\\n\"",
+        "\"      return RET_ILSEQ;\\n\"",
+        "\"    }\\n\"",
+        "\"    return RET_TOOFEW(0);\\n\"",
+        "\"  }\\n\"",
+        "\"  return RET_ILSEQ;\\n\"",
+        "\"}\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "output_charset2uni_noholes_monotonic": {
+      "start_point": [
+        403,
+        0
+      ],
+      "end_point": [
+        515,
+        1
+      ],
+      "strings": [
+        "\"static const unsigned short %s_2uni_main_page%02x[%d] = {\\n \"",
+        "\" 0x%04x,\"",
+        "\"\\n \"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"static const unsigned char %s_2uni_page%02x[%d] = {\\n\"",
+        "\"  /\"",
+        "\"* 0x%02x *\"",
+        "\"/\\n \"",
+        "\" 0x%02x,\"",
+        "\"\\n \"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static int\\n\"",
+        "\"%s_mbtowc (conv_t conv, ucs4_t *pwc, const unsigned char *s, size_t n)\\n\"",
+        "\"{\\n\"",
+        "\"  unsigned char c1 = s[0];\\n\"",
+        "\"  if (\"",
+        "\" || \"",
+        "\"(c1 == 0x%02x)\"",
+        "\"(c1 >= 0x%02x && c1 <= 0x%02x)\"",
+        "\") {\\n\"",
+        "\"    if (n >= 2) {\\n\"",
+        "\"      unsigned char c2 = s[1];\\n\"",
+        "\"      if (\"",
+        "\"c2\"",
+        "\") {\\n\"",
+        "\"        unsigned int row = \"",
+        "\"c1\"",
+        "\";\\n\"",
+        "\"        unsigned int col = \"",
+        "\"c2\"",
+        "\";\\n\"",
+        "\"        unsigned int i = %d * row + col;\\n\"",
+        "\"        unsigned short wc = 0xfffd;\\n\"",
+        "\"        \"",
+        "\"} else \"",
+        "\"if (i < %d) \"",
+        "\"{\\n\"",
+        "\"          if (i < %d)\\n\"",
+        "\"            wc = %s_2uni_main_page%02x[%d*\"",
+        "\"(row-%d)\"",
+        "\"row\"",
+        "\"+\"",
+        "\"(col>=%d?1:0)\"",
+        "\"col/%d\"",
+        "\"] + %s_2uni_page%02x[i\"",
+        "\"-%d\"",
+        "\"];\\n\"",
+        "\"        }\\n\"",
+        "\"        if (wc != 0xfffd) {\\n\"",
+        "\"          *pwc = (ucs4_t) wc;\\n\"",
+        "\"          return 2;\\n\"",
+        "\"        }\\n\"",
+        "\"      }\\n\"",
+        "\"      return RET_ILSEQ;\\n\"",
+        "\"    }\\n\"",
+        "\"    return RET_TOOFEW(0);\\n\"",
+        "\"  }\\n\"",
+        "\"  return RET_ILSEQ;\\n\"",
+        "\"}\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "invert": {
+      "start_point": [
+        520,
+        0
+      ],
+      "end_point": [
+        535,
+        1
+      ],
+      "strings": []
+    },
+    "output_uni2charset_dense": {
+      "start_point": [
+        541,
+        0
+      ],
+      "end_point": [
+        663,
+        1
+      ],
+      "strings": [
+        "\"static const unsigned short %s_page%02x[%d] = {\\n\"",
+        "\"  /* 0x%04x */\\n\"",
+        "\" \"",
+        "\" 0x%04x,\"",
+        "\" /*0x%02x-0x%02x*/\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static int\\n%s_wctomb (conv_t conv, unsigned char *r, ucs4_t wc, size_t n)\\n\"",
+        "\"{\\n\"",
+        "\"  if (n >= 2) {\\n\"",
+        "\"    unsigned short c = 0;\\n\"",
+        "\"    \"",
+        "\"    else \"",
+        "\"if (wc == 0x%04x)\\n      c = 0x%02x;\\n\"",
+        "\"if (wc < 0x%04x)\"",
+        "\"if (wc >= 0x%04x && wc < 0x%04x)\"",
+        "\"\\n      c = %s_page%02x[wc\"",
+        "\"-0x%04x\"",
+        "\"];\\n\"",
+        "\"    if (c != 0) {\\n\"",
+        "\"      r[0] = (c >> 8); r[1] = (c & 0xff);\\n\"",
+        "\"      return 2;\\n\"",
+        "\"    }\\n\"",
+        "\"    return RET_ILUNI;\\n\"",
+        "\"  }\\n\"",
+        "\"  return RET_TOOSMALL;\\n\"",
+        "\"}\\n\""
+      ]
+    },
+    "output_uni2charset_sparse": {
+      "start_point": [
+        671,
+        0
+      ],
+      "end_point": [
+        853,
+        1
+      ],
+      "strings": [
+        "\"uhc_2\"",
+        "\"static const unsigned short %s_page%02x[256] = {\\n\"",
+        "\"  \"",
+        "\"0x%04x, \"",
+        "\"/\"",
+        "\"*0x%02x-0x%02x*\"",
+        "\"/\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const unsigned short %s_2charset_main[%d] = {\\n\"",
+        "\" \"",
+        "\" 0x%04x,\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"static const unsigned char %s_2charset[%d] = {\\n\"",
+        "\" \"",
+        "\" 0x%02x,\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"static const unsigned char %s_2charset[3*%d] = {\\n\"",
+        "\" \"",
+        "\" 0x%1x,0x%02x,0x%02x,\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"static const unsigned short %s_2charset[%d] = {\\n\"",
+        "\" \"",
+        "\" 0x%04x,\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const Summary16 %s_uni2indx_page%02x[%d] = {\\n\"",
+        "\"  /\"",
+        "\"* 0x%04x *\"",
+        "\"/\\n\"",
+        "\" \"",
+        "\" { %4d, 0x%04x },\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static int\\n\"",
+        "\"%s_wctomb (conv_t conv, unsigned char *r, ucs4_t wc, size_t n)\\n\"",
+        "\"{\\n\"",
+        "\"  if (n >= 2) {\\n\"",
+        "\"    const Summary16 *summary = NULL;\\n\"",
+        "\"    \"",
+        "\"else \"",
+        "\"if (wc >= 0x%04x && wc < 0x%04x)\\n\"",
+        "\"      summary = &%s_uni2indx_page%02x[(wc>>4)\"",
+        "\"-0x%03x\"",
+        "\"];\\n\"",
+        "\"    if (summary) {\\n\"",
+        "\"      unsigned short used = summary->used;\\n\"",
+        "\"      unsigned int i = wc & 0x0f;\\n\"",
+        "\"      if (used & ((unsigned short) 1 << i)) {\\n\"",
+        "\"        unsigned short c;\\n\"",
+        "\"        /* Keep in 'used' only the bits 0..i-1. */\\n\"",
+        "\"        used &= ((unsigned short) 1 << i) - 1;\\n\"",
+        "\"        /* Add 'summary->indx' and the number of bits set in 'used'. */\\n\"",
+        "\"        used = (used & 0x5555) + ((used & 0xaaaa) >> 1);\\n\"",
+        "\"        used = (used & 0x3333) + ((used & 0xcccc) >> 2);\\n\"",
+        "\"        used = (used & 0x0f0f) + ((used & 0xf0f0) >> 4);\\n\"",
+        "\"        used = (used & 0x00ff) + (used >> 8);\\n\"",
+        "\"        used += summary->indx;\\n\"",
+        "\"        c = %s_2charset_main[used>>%d] + %s_2charset[used];\\n\"",
+        "\"        r[0] = (c >> 8); r[1] = (c & 0xff);\\n\"",
+        "\"        return 2;\\n\"",
+        "\"        used += summary->indx;\\n\"",
+        "\"        r[0] = %s_2charset[3*used];\\n\"",
+        "\"        r[1] = %s_2charset[3*used+1];\\n\"",
+        "\"        r[2] = %s_2charset[3*used+2];\\n\"",
+        "\"        return 3;\\n\"",
+        "\"        c = %s_2charset[summary->indx + used];\\n\"",
+        "\"        r[0] = (c >> 8); r[1] = (c & 0xff);\\n\"",
+        "\"        return 2;\\n\"",
+        "\"      }\\n\"",
+        "\"    }\\n\"",
+        "\"    return RET_ILUNI;\\n\"",
+        "\"  }\\n\"",
+        "\"  return RET_TOOSMALL;\\n\"",
+        "\"}\\n\""
+      ]
+    },
+    "row_byte_normal": {
+      "start_point": [
+        857,
+        0
+      ],
+      "end_point": [
+        857,
+        57
+      ],
+      "strings": []
+    },
+    "col_byte_normal": {
+      "start_point": [
+        858,
+        0
+      ],
+      "end_point": [
+        858,
+        57
+      ],
+      "strings": []
+    },
+    "byte_row_normal": {
+      "start_point": [
+        859,
+        0
+      ],
+      "end_point": [
+        859,
+        59
+      ],
+      "strings": []
+    },
+    "byte_col_normal": {
+      "start_point": [
+        860,
+        0
+      ],
+      "end_point": [
+        860,
+        59
+      ],
+      "strings": []
+    },
+    "do_normal": {
+      "start_point": [
+        862,
+        0
+      ],
+      "end_point": [
+        880,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x21 && %1$s < 0x7f\"",
+        "\"%1$s >= 0x21 && %1$s < 0x7f\"",
+        "\"%1$s - 0x21\"",
+        "\"%1$s - 0x21\""
+      ]
+    },
+    "do_normal_only_charset2uni": {
+      "start_point": [
+        887,
+        0
+      ],
+      "end_point": [
+        904,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x21 && %1$s < 0x7f\"",
+        "\"%1$s >= 0x21 && %1$s < 0x7f\"",
+        "\"%1$s - 0x21\"",
+        "\"%1$s - 0x21\""
+      ]
+    },
+    "row_byte_cns11643": {
+      "start_point": [
+        908,
+        0
+      ],
+      "end_point": [
+        910,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_cns11643": {
+      "start_point": [
+        911,
+        0
+      ],
+      "end_point": [
+        913,
+        1
+      ],
+      "strings": []
+    },
+    "do_cns11643_only_uni2charset": {
+      "start_point": [
+        915,
+        0
+      ],
+      "end_point": [
+        933,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x21 && %1$s < 0x7f\"",
+        "\"%1$s >= 0x21 && %1$s < 0x7f\"",
+        "\"%1$s - 0x21\"",
+        "\"%1$s - 0x21\""
+      ]
+    },
+    "row_byte_gbk1": {
+      "start_point": [
+        937,
+        0
+      ],
+      "end_point": [
+        939,
+        1
+      ],
+      "strings": []
+    },
+    "col_byte_gbk1": {
+      "start_point": [
+        940,
+        0
+      ],
+      "end_point": [
+        942,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_gbk1": {
+      "start_point": [
+        943,
+        0
+      ],
+      "end_point": [
+        948,
+        1
+      ],
+      "strings": []
+    },
+    "byte_col_gbk1": {
+      "start_point": [
+        949,
+        0
+      ],
+      "end_point": [
+        956,
+        1
+      ],
+      "strings": []
+    },
+    "do_gbk1": {
+      "start_point": [
+        958,
+        0
+      ],
+      "end_point": [
+        976,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x81 && %1$s < 0xff\"",
+        "\"(%1$s >= 0x40 && %1$s < 0x7f) || (%1$s >= 0x80 && %1$s < 0xff)\"",
+        "\"%1$s - 0x81\"",
+        "\"%1$s - (%1$s >= 0x80 ? 0x41 : 0x40)\""
+      ]
+    },
+    "do_gbk1_only_charset2uni": {
+      "start_point": [
+        978,
+        0
+      ],
+      "end_point": [
+        995,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x81 && %1$s < 0xff\"",
+        "\"(%1$s >= 0x40 && %1$s < 0x7f) || (%1$s >= 0x80 && %1$s < 0xff)\"",
+        "\"%1$s - 0x81\"",
+        "\"%1$s - (%1$s >= 0x80 ? 0x41 : 0x40)\""
+      ]
+    },
+    "row_byte_gbk2": {
+      "start_point": [
+        997,
+        0
+      ],
+      "end_point": [
+        999,
+        1
+      ],
+      "strings": []
+    },
+    "col_byte_gbk2": {
+      "start_point": [
+        1000,
+        0
+      ],
+      "end_point": [
+        1002,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_gbk2": {
+      "start_point": [
+        1003,
+        0
+      ],
+      "end_point": [
+        1008,
+        1
+      ],
+      "strings": []
+    },
+    "byte_col_gbk2": {
+      "start_point": [
+        1009,
+        0
+      ],
+      "end_point": [
+        1016,
+        1
+      ],
+      "strings": []
+    },
+    "do_gbk2_only_charset2uni": {
+      "start_point": [
+        1018,
+        0
+      ],
+      "end_point": [
+        1035,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x81 && %1$s < 0xff\"",
+        "\"(%1$s >= 0x40 && %1$s < 0x7f) || (%1$s >= 0x80 && %1$s < 0xa1)\"",
+        "\"%1$s - 0x81\"",
+        "\"%1$s - (%1$s >= 0x80 ? 0x41 : 0x40)\""
+      ]
+    },
+    "do_gbk1_only_uni2charset": {
+      "start_point": [
+        1037,
+        0
+      ],
+      "end_point": [
+        1054,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x81 && %1$s < 0xff\"",
+        "\"(%1$s >= 0x40 && %1$s < 0x7f) || (%1$s >= 0x80 && %1$s < 0xff)\"",
+        "\"%1$s - 0x81\"",
+        "\"%1$s - (%1$s >= 0x80 ? 0x41 : 0x40)\""
+      ]
+    },
+    "read_table_ksc5601": {
+      "start_point": [
+        1061,
+        0
+      ],
+      "end_point": [
+        1129,
+        1
+      ],
+      "strings": [
+        "\"0x%x\"",
+        "\" 0x%x\"",
+        "\"lost entry for %02x %02x\\n\"",
+        "\"%x\"",
+        "\"lost entry at %02x %02x\\n\""
+      ]
+    },
+    "do_ksc5601": {
+      "start_point": [
+        1131,
+        0
+      ],
+      "end_point": [
+        1149,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x21 && %1$s < 0x7f\"",
+        "\"%1$s >= 0x21 && %1$s < 0x7f\"",
+        "\"%1$s - 0x21\"",
+        "\"%1$s - 0x21\""
+      ]
+    },
+    "row_byte_uhc_1": {
+      "start_point": [
+        1155,
+        0
+      ],
+      "end_point": [
+        1157,
+        1
+      ],
+      "strings": []
+    },
+    "col_byte_uhc_1": {
+      "start_point": [
+        1158,
+        0
+      ],
+      "end_point": [
+        1160,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_uhc_1": {
+      "start_point": [
+        1161,
+        0
+      ],
+      "end_point": [
+        1166,
+        1
+      ],
+      "strings": []
+    },
+    "byte_col_uhc_1": {
+      "start_point": [
+        1167,
+        0
+      ],
+      "end_point": [
+        1176,
+        1
+      ],
+      "strings": []
+    },
+    "do_uhc_1": {
+      "start_point": [
+        1178,
+        0
+      ],
+      "end_point": [
+        1196,
+        1
+      ],
+      "strings": [
+        "\"(%1$s >= 0x81 && %1$s < 0xa1)\"",
+        "\"(%1$s >= 0x41 && %1$s < 0x5b) || (%1$s >= 0x61 && %1$s < 0x7b) || (%1$s >= 0x81 && %1$s < 0xff)\"",
+        "\"%1$s - 0x81\"",
+        "\"%1$s - (%1$s >= 0x81 ? 0x4d : %1$s >= 0x61 ? 0x47 : 0x41)\""
+      ]
+    },
+    "row_byte_uhc_2": {
+      "start_point": [
+        1200,
+        0
+      ],
+      "end_point": [
+        1202,
+        1
+      ],
+      "strings": []
+    },
+    "col_byte_uhc_2": {
+      "start_point": [
+        1203,
+        0
+      ],
+      "end_point": [
+        1205,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_uhc_2": {
+      "start_point": [
+        1206,
+        0
+      ],
+      "end_point": [
+        1211,
+        1
+      ],
+      "strings": []
+    },
+    "byte_col_uhc_2": {
+      "start_point": [
+        1212,
+        0
+      ],
+      "end_point": [
+        1221,
+        1
+      ],
+      "strings": []
+    },
+    "do_uhc_2": {
+      "start_point": [
+        1223,
+        0
+      ],
+      "end_point": [
+        1241,
+        1
+      ],
+      "strings": [
+        "\"(%1$s >= 0xa1 && %1$s < 0xff)\"",
+        "\"(%1$s >= 0x41 && %1$s < 0x5b) || (%1$s >= 0x61 && %1$s < 0x7b) || (%1$s >= 0x81 && %1$s < 0xa1)\"",
+        "\"%1$s - 0xa1\"",
+        "\"%1$s - (%1$s >= 0x81 ? 0x4d : %1$s >= 0x61 ? 0x47 : 0x41)\""
+      ]
+    },
+    "row_byte_big5": {
+      "start_point": [
+        1245,
+        0
+      ],
+      "end_point": [
+        1247,
+        1
+      ],
+      "strings": []
+    },
+    "col_byte_big5": {
+      "start_point": [
+        1248,
+        0
+      ],
+      "end_point": [
+        1250,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_big5": {
+      "start_point": [
+        1251,
+        0
+      ],
+      "end_point": [
+        1256,
+        1
+      ],
+      "strings": []
+    },
+    "byte_col_big5": {
+      "start_point": [
+        1257,
+        0
+      ],
+      "end_point": [
+        1264,
+        1
+      ],
+      "strings": []
+    },
+    "do_big5": {
+      "start_point": [
+        1266,
+        0
+      ],
+      "end_point": [
+        1284,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0xa1 && %1$s < 0xff\"",
+        "\"(%1$s >= 0x40 && %1$s < 0x7f) || (%1$s >= 0xa1 && %1$s < 0xff)\"",
+        "\"%1$s - 0xa1\"",
+        "\"%1$s - (%1$s >= 0xa1 ? 0x62 : 0x40)\""
+      ]
+    },
+    "row_byte_hkscs": {
+      "start_point": [
+        1288,
+        0
+      ],
+      "end_point": [
+        1290,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_hkscs": {
+      "start_point": [
+        1291,
+        0
+      ],
+      "end_point": [
+        1296,
+        1
+      ],
+      "strings": []
+    },
+    "do_hkscs": {
+      "start_point": [
+        1298,
+        0
+      ],
+      "end_point": [
+        1316,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x80 && %1$s < 0xff\"",
+        "\"(%1$s >= 0x40 && %1$s < 0x7f) || (%1$s >= 0xa1 && %1$s < 0xff)\"",
+        "\"%1$s - 0x80\"",
+        "\"%1$s - (%1$s >= 0xa1 ? 0x62 : 0x40)\""
+      ]
+    },
+    "row_byte_johab_hangul": {
+      "start_point": [
+        1320,
+        0
+      ],
+      "end_point": [
+        1322,
+        1
+      ],
+      "strings": []
+    },
+    "col_byte_johab_hangul": {
+      "start_point": [
+        1323,
+        0
+      ],
+      "end_point": [
+        1325,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_johab_hangul": {
+      "start_point": [
+        1326,
+        0
+      ],
+      "end_point": [
+        1331,
+        1
+      ],
+      "strings": []
+    },
+    "byte_col_johab_hangul": {
+      "start_point": [
+        1332,
+        0
+      ],
+      "end_point": [
+        1339,
+        1
+      ],
+      "strings": []
+    },
+    "do_johab_hangul": {
+      "start_point": [
+        1341,
+        0
+      ],
+      "end_point": [
+        1359,
+        1
+      ],
+      "strings": [
+        "\"%1$s >= 0x84 && %1$s < 0xd4\"",
+        "\"(%1$s >= 0x41 && %1$s < 0x7f) || (%1$s >= 0x81 && %1$s < 0xff)\"",
+        "\"%1$s - 0x84\"",
+        "\"%1$s - (%1$s >= 0x81 ? 0x43 : 0x41)\""
+      ]
+    },
+    "row_byte_sjis": {
+      "start_point": [
+        1363,
+        0
+      ],
+      "end_point": [
+        1365,
+        1
+      ],
+      "strings": []
+    },
+    "col_byte_sjis": {
+      "start_point": [
+        1366,
+        0
+      ],
+      "end_point": [
+        1368,
+        1
+      ],
+      "strings": []
+    },
+    "byte_row_sjis": {
+      "start_point": [
+        1369,
+        0
+      ],
+      "end_point": [
+        1376,
+        1
+      ],
+      "strings": []
+    },
+    "byte_col_sjis": {
+      "start_point": [
+        1377,
+        0
+      ],
+      "end_point": [
+        1384,
+        1
+      ],
+      "strings": []
+    },
+    "do_sjis": {
+      "start_point": [
+        1386,
+        0
+      ],
+      "end_point": [
+        1404,
+        1
+      ],
+      "strings": [
+        "\"(%1$s >= 0x81 && %1$s < 0xa0) || (%1$s >= 0xe0)\"",
+        "\"(%1$s >= 0x40 && %1$s < 0x7f) || (%1$s >= 0x80 && %1$s < 0xfd)\"",
+        "\"%1$s - (%1$s >= 0xe0 ? 0xc1 : 0x81)\"",
+        "\"%1$s - (%1$s >= 0x80 ? 0x41 : 0x40)\""
+      ]
+    },
+    "do_gb18030uni": {
+      "start_point": [
+        1408,
+        0
+      ],
+      "end_point": [
+        1642,
+        1
+      ],
+      "strings": [
+        "\"0x%x\"",
+        "\"lost entry for %02x %02x %02x %02x\\n\"",
+        "\" 0x%x\"",
+        "\"static const unsigned short %s_charset2uni_ranges[%d] = {\\n\"",
+        "\"  0x%04x, 0x%04x\"",
+        "\",\"",
+        "\"\\n\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const unsigned short %s_uni2charset_ranges[%d] = {\\n\"",
+        "\"  0x%04x, 0x%04x\"",
+        "\",\"",
+        "\"\\n\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const struct { unsigned short diff; unsigned short bitmap_offset; } %s_ranges[%d] = {\\n \"",
+        "\" { %5d, 0x%04x }\"",
+        "\",\"",
+        "\"\\n \"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const unsigned char %s_bitmap[%d] = {\\n \"",
+        "\" 0x%02x\"",
+        "\",\"",
+        "\"\\n \"",
+        "\" 0x%02x\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static int\\n\"",
+        "\"%s_mbtowc (conv_t conv, ucs4_t *pwc, const unsigned char *s, size_t n)\\n\"",
+        "\"{\\n\"",
+        "\"  unsigned char c1 = s[0];\\n\"",
+        "\"  if (c1 >= 0x81 && c1 <= 0x84) {\\n\"",
+        "\"    if (n >= 2) {\\n\"",
+        "\"      unsigned char c2 = s[1];\\n\"",
+        "\"      if (c2 >= 0x30 && c2 <= 0x39) {\\n\"",
+        "\"        if (n >= 3) {\\n\"",
+        "\"          unsigned char c3 = s[2];\\n\"",
+        "\"          if (c3 >= 0x81 && c3 <= 0xfe) {\\n\"",
+        "\"            if (n >= 4) {\\n\"",
+        "\"              unsigned char c4 = s[3];\\n\"",
+        "\"              if (c4 >= 0x30 && c4 <= 0x39) {\\n\"",
+        "\"                unsigned int i = (((c1 - 0x81) * 10 + (c2 - 0x30)) * 126 + (c3 - 0x81)) * 10 + (c4 - 0x30);\\n\"",
+        "\"                if (i >= %d && i <= %d) {\\n\"",
+        "\"                  unsigned int k1 = 0;\\n\"",
+        "\"                  unsigned int k2 = %d;\\n\"",
+        "\"                  while (k1 < k2) {\\n\"",
+        "\"                    unsigned int k = (k1 + k2) / 2;\\n\"",
+        "\"                    if (i <= %s_charset2uni_ranges[2*k+1])\\n\"",
+        "\"                      k2 = k;\\n\"",
+        "\"                    else if (i >= %s_charset2uni_ranges[2*k+2])\\n\"",
+        "\"                      k1 = k + 1;\\n\"",
+        "\"                    else\\n\"",
+        "\"                      return RET_ILSEQ;\\n\"",
+        "\"                  }\\n\"",
+        "\"                  {\\n\"",
+        "\"                    unsigned int bitmap_index = i - %s_charset2uni_ranges[2*k1] + %s_ranges[k1].bitmap_offset;\\n\"",
+        "\"                    if ((%s_bitmap[bitmap_index >> 3] >> (bitmap_index & 7)) & 1) {\\n\"",
+        "\"                      unsigned int diff = %s_ranges[k1].diff;\\n\"",
+        "\"                      *pwc = (ucs4_t) (i + diff);\\n\"",
+        "\"                      return 4;\\n\"",
+        "\"                    }\\n\"",
+        "\"                  }\\n\"",
+        "\"                }\\n\"",
+        "\"              }\\n\"",
+        "\"              return RET_ILSEQ;\\n\"",
+        "\"            }\\n\"",
+        "\"            return RET_TOOFEW(0);\\n\"",
+        "\"          }\\n\"",
+        "\"          return RET_ILSEQ;\\n\"",
+        "\"        }\\n\"",
+        "\"        return RET_TOOFEW(0);\\n\"",
+        "\"      }\\n\"",
+        "\"      return RET_ILSEQ;\\n\"",
+        "\"    }\\n\"",
+        "\"    return RET_TOOFEW(0);\\n\"",
+        "\"  }\\n\"",
+        "\"  return RET_ILSEQ;\\n\"",
+        "\"}\\n\"",
+        "\"\\n\"",
+        "\"static int\\n\"",
+        "\"%s_wctomb (conv_t conv, unsigned char *r, ucs4_t wc, size_t n)\\n\"",
+        "\"{\\n\"",
+        "\"  if (n >= 4) {\\n\"",
+        "\"    unsigned int i = wc;\\n\"",
+        "\"    if (i >= 0x%04x && i <= 0x%04x) {\\n\"",
+        "\"      unsigned int k1 = 0;\\n\"",
+        "\"      unsigned int k2 = %d;\\n\"",
+        "\"      while (k1 < k2) {\\n\"",
+        "\"        unsigned int k = (k1 + k2) / 2;\\n\"",
+        "\"        if (i <= %s_uni2charset_ranges[2*k+1])\\n\"",
+        "\"          k2 = k;\\n\"",
+        "\"        else if (i >= %s_uni2charset_ranges[2*k+2])\\n\"",
+        "\"          k1 = k + 1;\\n\"",
+        "\"        else\\n\"",
+        "\"          return RET_ILUNI;\\n\"",
+        "\"      }\\n\"",
+        "\"      {\\n\"",
+        "\"        unsigned int bitmap_index = i - %s_uni2charset_ranges[2*k1] + %s_ranges[k1].bitmap_offset;\\n\"",
+        "\"        if ((%s_bitmap[bitmap_index >> 3] >> (bitmap_index & 7)) & 1) {\\n\"",
+        "\"          unsigned int diff = %s_ranges[k1].diff;\\n\"",
+        "\"          i -= diff;\\n\"",
+        "\"          r[3] = (i %% 10) + 0x30; i = i / 10;\\n\"",
+        "\"          r[2] = (i %% 126) + 0x81; i = i / 126;\\n\"",
+        "\"          r[1] = (i %% 10) + 0x30; i = i / 10;\\n\"",
+        "\"          r[0] = i + 0x81;\\n\"",
+        "\"          return 4;\\n\"",
+        "\"        }\\n\"",
+        "\"      }\\n\"",
+        "\"    }\\n\"",
+        "\"    return RET_ILUNI;\\n\"",
+        "\"  }\\n\"",
+        "\"  return RET_TOOSMALL;\\n\"",
+        "\"}\\n\""
+      ]
+    },
+    "do_jisx0213": {
+      "start_point": [
+        1646,
+        0
+      ],
+      "end_point": [
+        2086,
+        1
+      ],
+      "strings": [
+        "\"#ifndef _JISX0213_H\\n\"",
+        "\"#define _JISX0213_H\\n\"",
+        "\"\\n\"",
+        "\"/* JISX0213 plane 1 (= ISO-IR-233) characters are in the range\\n\"",
+        "\"   0x{21..7E}{21..7E}.\\n\"",
+        "\"   JISX0213 plane 2 (= ISO-IR-229) characters are in the range\\n\"",
+        "\"   0x{21,23..25,28,2C..2F,6E..7E}{21..7E}.\\n\"",
+        "\"   Together this makes 120 rows of 94 characters.\\n\"",
+        "\"*/\\n\"",
+        "\"\\n\"",
+        "\"static const unsigned short jisx0213_to_ucs_combining[][2] = {\\n\"",
+        "\"%[^\\n]\\n\"",
+        "\"  { 0x%04x, 0x%04x },\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const unsigned short jisx0213_to_ucs_main[120 * 94] = {\\n\"",
+        "\"  /* 0x%X21..0x%X7E */\\n\"",
+        "\" \"",
+        "\" 0x%04x,\"",
+        "\"\\n\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const ucs4_t jisx0213_to_ucs_pagestart[] = {\\n\"",
+        "\" \"",
+        "\" \"",
+        "\"0x%04x\"",
+        "\"%*s\"",
+        "\"\"",
+        "\"%s,\"",
+        "\"\\n\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"%[^\\n]\\n\"",
+        "\"static const short jisx0213_from_ucs_level1[%d] = {\\n\"",
+        "\" \"",
+        "\" %3u,\"",
+        "\" %3d,\"",
+        "\"\\n\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const unsigned short jisx0213_from_ucs_level2[] = {\\n\"",
+        "\"  /* 0x%04X */\\n\"",
+        "\" \"",
+        "\" 0x%04x,\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"static const unsigned short jisx0213_from_ucs_level2_data[] = {\\n\"",
+        "\"  /* 0x%04X */\\n\"",
+        "\" \"",
+        "\" 0x%04x,\"",
+        "\"\\n\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"static const Summary16 jisx0213_from_ucs_level2_2indx[] = {\\n\"",
+        "\"  /* 0x%04X */\\n\"",
+        "\" \"",
+        "\" { %4d, 0x%04x },\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\"",
+        "\"#ifdef __GNUC__\\n\"",
+        "\"__inline\\n\"",
+        "\"#else\\n\"",
+        "\"#ifdef __cplusplus\\n\"",
+        "\"inline\\n\"",
+        "\"#endif\\n\"",
+        "\"#endif\\n\"",
+        "\"static ucs4_t jisx0213_to_ucs4 (unsigned int row, unsigned int col)\\n\"",
+        "\"{\\n\"",
+        "\"  ucs4_t val;\\n\"",
+        "\"\\n\"",
+        "\"  if (row >= 0x121 && row <= 0x17e)\\n\"",
+        "\"    row -= 289;\\n\"",
+        "\"  else if (row == 0x221)\\n\"",
+        "\"    row -= 451;\\n\"",
+        "\"  else if (row >= 0x223 && row <= 0x225)\\n\"",
+        "\"    row -= 452;\\n\"",
+        "\"  else if (row == 0x228)\\n\"",
+        "\"    row -= 454;\\n\"",
+        "\"  else if (row >= 0x22c && row <= 0x22f)\\n\"",
+        "\"    row -= 457;\\n\"",
+        "\"  else if (row >= 0x26e && row <= 0x27e)\\n\"",
+        "\"    row -= 519;\\n\"",
+        "\"  else\\n\"",
+        "\"    return 0x0000;\\n\"",
+        "\"\\n\"",
+        "\"  if (col >= 0x21 && col <= 0x7e)\\n\"",
+        "\"    col -= 0x21;\\n\"",
+        "\"  else\\n\"",
+        "\"    return 0x0000;\\n\"",
+        "\"\\n\"",
+        "\"  val = jisx0213_to_ucs_main[row * 94 + col];\\n\"",
+        "\"  val = jisx0213_to_ucs_pagestart[val >> 8] + (val & 0xff);\\n\"",
+        "\"  if (val == 0xfffd)\\n\"",
+        "\"    val = 0x0000;\\n\"",
+        "\"  return val;\\n\"",
+        "\"}\\n\"",
+        "\"\\n\"",
+        "\"#ifdef __GNUC__\\n\"",
+        "\"__inline\\n\"",
+        "\"#else\\n\"",
+        "\"#ifdef __cplusplus\\n\"",
+        "\"inline\\n\"",
+        "\"#endif\\n\"",
+        "\"#endif\\n\"",
+        "\"static unsigned short ucs4_to_jisx0213 (ucs4_t ucs)\\n\"",
+        "\"{\\n\"",
+        "\"  if (ucs < (sizeof(jisx0213_from_ucs_level1)/sizeof(jisx0213_from_ucs_level1[0])) << 6) {\\n\"",
+        "\"    int index1 = jisx0213_from_ucs_level1[ucs >> 6];\\n\"",
+        "\"    if (index1 >= 0)\"",
+        "\"\\n\"",
+        "\"      return jisx0213_from_ucs_level2[(index1 << 6) + (ucs & 0x3f)];\\n\"",
+        "\" {\\n\"",
+        "\"      const Summary16 *summary = &jisx0213_from_ucs_level2_2indx[((index1 << 6) + (ucs & 0x3f)) >> 4];\\n\"",
+        "\"      unsigned short used = summary->used;\\n\"",
+        "\"      unsigned int i = ucs & 0x0f;\\n\"",
+        "\"      if (used & ((unsigned short) 1 << i)) {\\n\"",
+        "\"        /* Keep in 'used' only the bits 0..i-1. */\\n\"",
+        "\"        used &= ((unsigned short) 1 << i) - 1;\\n\"",
+        "\"        /* Add 'summary->indx' and the number of bits set in 'used'. */\\n\"",
+        "\"        used = (used & 0x5555) + ((used & 0xaaaa) >> 1);\\n\"",
+        "\"        used = (used & 0x3333) + ((used & 0xcccc) >> 2);\\n\"",
+        "\"        used = (used & 0x0f0f) + ((used & 0xf0f0) >> 4);\\n\"",
+        "\"        used = (used & 0x00ff) + (used >> 8);\\n\"",
+        "\"        return jisx0213_from_ucs_level2_data[summary->indx + used];\\n\"",
+        "\"      };\\n\"",
+        "\"    };\\n\"",
+        "\"  }\\n\"",
+        "\"  return 0x0000;\\n\"",
+        "\"}\\n\"",
+        "\"\\n\"",
+        "\"#endif /* _JISX0213_H */\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        2090,
+        0
+      ],
+      "end_point": [
+        2145,
+        1
+      ],
+      "strings": [
+        "\"gb2312\"",
+        "\"isoir165ext\"",
+        "\"gb12345ext\"",
+        "\"jisx0208\"",
+        "\"jisx0212\"",
+        "\"cns11643_1\"",
+        "\"cns11643_2\"",
+        "\"cns11643_3\"",
+        "\"cns11643_4a\"",
+        "\"cns11643_4b\"",
+        "\"cns11643_5\"",
+        "\"cns11643_6\"",
+        "\"cns11643_7\"",
+        "\"cns11643_15\"",
+        "\"cns11643_inv\"",
+        "\"gbkext1\"",
+        "\"gbkext2\"",
+        "\"gbkext_inv\"",
+        "\"cp936ext\"",
+        "\"gb18030ext\"",
+        "\"ksc5601\"",
+        "\"uhc_1\"",
+        "\"uhc_2\"",
+        "\"big5\"",
+        "\"cp950ext\"",
+        "\"hkscs1999\"",
+        "\"hkscs2001\"",
+        "\"hkscs2004\"",
+        "\"hkscs2008\"",
+        "\"johab_hangul\"",
+        "\"cp932ext\"",
+        "\"gb18030uni\"",
+        "\"jisx0213\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/tools/cjk_variants.c": {
+    "main": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": [
+        "\"/*\\n\"",
+        "\" * Copyright (C) 1999-2002 Free Software Foundation, Inc.\\n\"",
+        "\" * This file is part of the GNU LIBICONV Library.\\n\"",
+        "\" *\\n\"",
+        "\" * The GNU LIBICONV Library is free software; you can redistribute it\\n\"",
+        "\" * and/or modify it under the terms of the GNU Library General Public\\n\"",
+        "\" * License as published by the Free Software Foundation; either version 2\\n\"",
+        "\" * of the License, or (at your option) any later version.\\n\"",
+        "\" *\\n\"",
+        "\" * The GNU LIBICONV Library is distributed in the hope that it will be\\n\"",
+        "\" * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of\\n\"",
+        "\" * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\\n\"",
+        "\" * Library General Public License for more details.\\n\"",
+        "\" *\\n\"",
+        "\" * You should have received a copy of the GNU Library General Public\\n\"",
+        "\" * License along with the GNU LIBICONV Library; see the file COPYING.LIB.\\n\"",
+        "\" * If not, see <http://www.gnu.org/licenses/>.\\n\"",
+        "\" */\\n\"",
+        "\"\\n\"",
+        "\"/*\\n\"",
+        "\" * CJK variants table\\n\"",
+        "\" */\\n\"",
+        "\"\\n\"",
+        "\"%x\"",
+        "\"%x\"",
+        "\"static const unsigned short cjk_variants[%d] = {\"",
+        "\"\\n \"",
+        "\" 0x%04x,\"",
+        "\"\\n};\\n\"",
+        "\"\\n\"",
+        "\"static const short cjk_variants_indx[0x5200] = {\\n\"",
+        "\"  /* 0x%04x */\\n\"",
+        "\" \"",
+        "\" %5d,\"",
+        "\"\\n\"",
+        "\"};\\n\"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "libiconv/libiconv-1.15/woe32dll/export.h": {},
+  "libiconv/libiconv-1.15/woe32dll/iconv-exports.c": {}
+}

@@ -1,0 +1,1371 @@
+{
+  "bool/bool-0.2.2/build-aux/snippet/arg-nonnull.h": {},
+  "bool/bool-0.2.2/build-aux/snippet/c++defs.h": {},
+  "bool/bool-0.2.2/build-aux/snippet/warn-on-use.h": {},
+  "bool/bool-0.2.2/lib/getopt.c": {
+    "exchange": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "content": "static void\nexchange (char **argv, struct _getopt_data *d)\n{\n  int bottom = d->__first_nonopt;\n  int middle = d->__last_nonopt;\n  int top = d->optind;\n  char *tem;\n\n  /* Exchange the shorter segment with the far end of the longer segment.\n     That puts the shorter segment into the right place.\n     It leaves the longer segment in the right place overall,\n     but it consists of two parts that need to be swapped next.  */\n\n#if defined _LIBC && defined USE_NONOPTION_FLAGS\n  /* First make sure the handling of the '__getopt_nonoption_flags'\n     string can work normally.  Our top argument must be in the range\n     of the string.  */\n  if (d->__nonoption_flags_len > 0 && top >= d->__nonoption_flags_max_len)\n    {\n      /* We must extend the array.  The user plays games with us and\n         presents new arguments.  */\n      char *new_str = malloc (top + 1);\n      if (new_str == NULL)\n        d->__nonoption_flags_len = d->__nonoption_flags_max_len = 0;\n      else\n        {\n          memset (__mempcpy (new_str, __getopt_nonoption_flags,\n                             d->__nonoption_flags_max_len),\n                  '\\0', top + 1 - d->__nonoption_flags_max_len);\n          d->__nonoption_flags_max_len = top + 1;\n          __getopt_nonoption_flags = new_str;\n        }\n    }\n#endif\n\n  while (top > middle && middle > bottom)\n    {\n      if (top - middle > middle - bottom)\n        {\n          /* Bottom segment is the short one.  */\n          int len = middle - bottom;\n          register int i;\n\n          /* Swap it with the top part of the top segment.  */\n          for (i = 0; i < len; i++)\n            {\n              tem = argv[bottom + i];\n              argv[bottom + i] = argv[top - (middle - bottom) + i];\n              argv[top - (middle - bottom) + i] = tem;\n              SWAP_FLAGS (bottom + i, top - (middle - bottom) + i);\n            }\n          /* Exclude the moved bottom segment from further swapping.  */\n          top -= len;\n        }\n      else\n        {\n          /* Top segment is the short one.  */\n          int len = top - middle;\n          register int i;\n\n          /* Swap it with the bottom part of the bottom segment.  */\n          for (i = 0; i < len; i++)\n            {\n              tem = argv[bottom + i];\n              argv[bottom + i] = argv[middle + i];\n              argv[middle + i] = tem;\n              SWAP_FLAGS (bottom + i, middle + i);\n            }\n          /* Exclude the moved top segment from further swapping.  */\n          bottom += len;\n        }\n    }\n\n  /* Update records for the slots the non-options now occupy.  */\n\n  d->__first_nonopt += (d->optind - d->__last_nonopt);\n  d->__last_nonopt = d->optind;\n}",
+      "lines": 78,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "content": "static const char *\n_getopt_initialize (int argc _GL_UNUSED,\n                    char **argv _GL_UNUSED, const char *optstring,\n                    struct _getopt_data *d, int posixly_correct)\n{\n  /* Start processing options with ARGV-element 1 (since ARGV-element 0\n     is the program name); the sequence of previously skipped\n     non-option ARGV-elements is empty.  */\n\n  d->__first_nonopt = d->__last_nonopt = d->optind;\n\n  d->__nextchar = NULL;\n\n  d->__posixly_correct = posixly_correct || !!getenv (\"POSIXLY_CORRECT\");\n\n  /* Determine how to handle the ordering of options and nonoptions.  */\n\n  if (optstring[0] == '-')\n    {\n      d->__ordering = RETURN_IN_ORDER;\n      ++optstring;\n    }\n  else if (optstring[0] == '+')\n    {\n      d->__ordering = REQUIRE_ORDER;\n      ++optstring;\n    }\n  else if (d->__posixly_correct)\n    d->__ordering = REQUIRE_ORDER;\n  else\n    d->__ordering = PERMUTE;\n\n#if defined _LIBC && defined USE_NONOPTION_FLAGS\n  if (!d->__posixly_correct\n      && argc == __libc_argc && argv == __libc_argv)\n    {\n      if (d->__nonoption_flags_max_len == 0)\n        {\n          if (__getopt_nonoption_flags == NULL\n              || __getopt_nonoption_flags[0] == '\\0')\n            d->__nonoption_flags_max_len = -1;\n          else\n            {\n              const char *orig_str = __getopt_nonoption_flags;\n              int len = d->__nonoption_flags_max_len = strlen (orig_str);\n              if (d->__nonoption_flags_max_len < argc)\n                d->__nonoption_flags_max_len = argc;\n              __getopt_nonoption_flags =\n                (char *) malloc (d->__nonoption_flags_max_len);\n              if (__getopt_nonoption_flags == NULL)\n                d->__nonoption_flags_max_len = -1;\n              else\n                memset (__mempcpy (__getopt_nonoption_flags, orig_str, len),\n                        '\\0', d->__nonoption_flags_max_len - len);\n            }\n        }\n      d->__nonoption_flags_len = d->__nonoption_flags_max_len;\n    }\n  else\n    d->__nonoption_flags_len = 0;\n#endif\n\n  return optstring;\n}",
+      "lines": 64,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\n_getopt_initialize (int argc _GL_UNUSED,\n                    char **argv _GL_UNUSED, const char *optstring,\n                    struct _getopt_data *d, int posixly_correct)",
+        "*"
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        1124,
+        1
+      ],
+      "content": "int\n_getopt_internal_r (int argc, char **argv, const char *optstring,\n                    const struct option *longopts, int *longind,\n                    int long_only, struct _getopt_data *d, int posixly_correct)\n{\n  int print_errors = d->opterr;\n\n  if (argc < 1)\n    return -1;\n\n  d->optarg = NULL;\n\n  if (d->optind == 0 || !d->__initialized)\n    {\n      if (d->optind == 0)\n        d->optind = 1;  /* Don't scan ARGV[0], the program name.  */\n      optstring = _getopt_initialize (argc, argv, optstring, d,\n                                      posixly_correct);\n      d->__initialized = 1;\n    }\n  else if (optstring[0] == '-' || optstring[0] == '+')\n    optstring++;\n  if (optstring[0] == ':')\n    print_errors = 0;\n\n  /* Test whether ARGV[optind] points to a non-option argument.\n     Either it does not have option syntax, or there is an environment flag\n     from the shell indicating it is not an option.  The later information\n     is only used when the used in the GNU libc.  */\n#if defined _LIBC && defined USE_NONOPTION_FLAGS\n# define NONOPTION_P (argv[d->optind][0] != '-' || argv[d->optind][1] == '\\0' \\\n                      || (d->optind < d->__nonoption_flags_len                \\\n                          && __getopt_nonoption_flags[d->optind] == '1'))\n#else\n# define NONOPTION_P (argv[d->optind][0] != '-' || argv[d->optind][1] == '\\0')\n#endif\n\n  if (d->__nextchar == NULL || *d->__nextchar == '\\0')\n    {\n      /* Advance to the next ARGV-element.  */\n\n      /* Give FIRST_NONOPT & LAST_NONOPT rational values if OPTIND has been\n         moved back by the user (who may also have changed the arguments).  */\n      if (d->__last_nonopt > d->optind)\n        d->__last_nonopt = d->optind;\n      if (d->__first_nonopt > d->optind)\n        d->__first_nonopt = d->optind;\n\n      if (d->__ordering == PERMUTE)\n        {\n          /* If we have just processed some options following some non-options,\n             exchange them so that the options come first.  */\n\n          if (d->__first_nonopt != d->__last_nonopt\n              && d->__last_nonopt != d->optind)\n            exchange ((char **) argv, d);\n          else if (d->__last_nonopt != d->optind)\n            d->__first_nonopt = d->optind;\n\n          /* Skip any additional non-options\n             and extend the range of non-options previously skipped.  */\n\n          while (d->optind < argc && NONOPTION_P)\n            d->optind++;\n          d->__last_nonopt = d->optind;\n        }\n\n      /* The special ARGV-element '--' means premature end of options.\n         Skip it like a null option,\n         then exchange with previous non-options as if it were an option,\n         then skip everything else like a non-option.  */\n\n      if (d->optind != argc && !strcmp (argv[d->optind], \"--\"))\n        {\n          d->optind++;\n\n          if (d->__first_nonopt != d->__last_nonopt\n              && d->__last_nonopt != d->optind)\n            exchange ((char **) argv, d);\n          else if (d->__first_nonopt == d->__last_nonopt)\n            d->__first_nonopt = d->optind;\n          d->__last_nonopt = argc;\n\n          d->optind = argc;\n        }\n\n      /* If we have done all the ARGV-elements, stop the scan\n         and back over any non-options that we skipped and permuted.  */\n\n      if (d->optind == argc)\n        {\n          /* Set the next-arg-index to point at the non-options\n             that we previously skipped, so the caller will digest them.  */\n          if (d->__first_nonopt != d->__last_nonopt)\n            d->optind = d->__first_nonopt;\n          return -1;\n        }\n\n      /* If we have come to a non-option and did not permute it,\n         either stop the scan or describe it to the caller and pass it by.  */\n\n      if (NONOPTION_P)\n        {\n          if (d->__ordering == REQUIRE_ORDER)\n            return -1;\n          d->optarg = argv[d->optind++];\n          return 1;\n        }\n\n      /* We have found another option-ARGV-element.\n         Skip the initial punctuation.  */\n\n      d->__nextchar = (argv[d->optind] + 1\n                  + (longopts != NULL && argv[d->optind][1] == '-'));\n    }\n\n  /* Decode the current option-ARGV-element.  */\n\n  /* Check whether the ARGV-element is a long option.\n\n     If long_only and the ARGV-element has the form \"-f\", where f is\n     a valid short option, don't consider it an abbreviated form of\n     a long option that starts with f.  Otherwise there would be no\n     way to give the -f short option.\n\n     On the other hand, if there's a long option \"fubar\" and\n     the ARGV-element is \"-fu\", do consider that an abbreviation of\n     the long option, just like \"--fu\", and not \"-f\" with arg \"u\".\n\n     This distinction seems to be the most useful approach.  */\n\n  if (longopts != NULL\n      && (argv[d->optind][1] == '-'\n          || (long_only && (argv[d->optind][2]\n                            || !strchr (optstring, argv[d->optind][1])))))\n    {\n      char *nameend;\n      unsigned int namelen;\n      const struct option *p;\n      const struct option *pfound = NULL;\n      struct option_list\n      {\n        const struct option *p;\n        struct option_list *next;\n      } *ambig_list = NULL;\n      int exact = 0;\n      int indfound = -1;\n      int option_index;\n\n      for (nameend = d->__nextchar; *nameend && *nameend != '='; nameend++)\n        /* Do nothing.  */ ;\n      namelen = nameend - d->__nextchar;\n\n      /* Test all long options for either exact match\n         or abbreviated matches.  */\n      for (p = longopts, option_index = 0; p->name; p++, option_index++)\n        if (!strncmp (p->name, d->__nextchar, namelen))\n          {\n            if (namelen == (unsigned int) strlen (p->name))\n              {\n                /* Exact match found.  */\n                pfound = p;\n                indfound = option_index;\n                exact = 1;\n                break;\n              }\n            else if (pfound == NULL)\n              {\n                /* First nonexact match found.  */\n                pfound = p;\n                indfound = option_index;\n              }\n            else if (long_only\n                     || pfound->has_arg != p->has_arg\n                     || pfound->flag != p->flag\n                     || pfound->val != p->val)\n              {\n                /* Second or later nonexact match found.  */\n                struct option_list *newp = malloc (sizeof (*newp));\n                newp->p = p;\n                newp->next = ambig_list;\n                ambig_list = newp;\n              }\n          }\n\n      if (ambig_list != NULL && !exact)\n        {\n          if (print_errors)\n            {\n              struct option_list first;\n              first.p = pfound;\n              first.next = ambig_list;\n              ambig_list = &first;\n\n#if defined _LIBC && defined USE_IN_LIBIO\n              char *buf = NULL;\n              size_t buflen = 0;\n\n              FILE *fp = open_memstream (&buf, &buflen);\n              if (fp != NULL)\n                {\n                  fprintf (fp,\n                           _(\"%s: option '%s' is ambiguous; possibilities:\"),\n                           argv[0], argv[d->optind]);\n\n                  do\n                    {\n                      fprintf (fp, \" '--%s'\", ambig_list->p->name);\n                      ambig_list = ambig_list->next;\n                    }\n                  while (ambig_list != NULL);\n\n                  fputc_unlocked ('\\n', fp);\n\n                  if (__builtin_expect (fclose (fp) != EOF, 1))\n                    {\n                      _IO_flockfile (stderr);\n\n                      int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                      ((_IO_FILE *) stderr)->_flags2 |= _IO_FLAGS2_NOTCANCEL;\n\n                      __fxprintf (NULL, \"%s\", buf);\n\n                      ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                      _IO_funlockfile (stderr);\n\n                      free (buf);\n                    }\n                }\n#else\n              fprintf (stderr,\n                       _(\"%s: option '%s' is ambiguous; possibilities:\"),\n                       argv[0], argv[d->optind]);\n              do\n                {\n                  fprintf (stderr, \" '--%s'\", ambig_list->p->name);\n                  ambig_list = ambig_list->next;\n                }\n              while (ambig_list != NULL);\n\n              fputc ('\\n', stderr);\n#endif\n            }\n          d->__nextchar += strlen (d->__nextchar);\n          d->optind++;\n          d->optopt = 0;\n          return '?';\n        }\n\n      while (ambig_list != NULL)\n        {\n          struct option_list *pn = ambig_list->next;\n          free (ambig_list);\n          ambig_list = pn;\n        }\n\n      if (pfound != NULL)\n        {\n          option_index = indfound;\n          d->optind++;\n          if (*nameend)\n            {\n              /* Don't test has_arg with >, because some C compilers don't\n                 allow it to be used on enums.  */\n              if (pfound->has_arg)\n                d->optarg = nameend + 1;\n              else\n                {\n                  if (print_errors)\n                    {\n#if defined _LIBC && defined USE_IN_LIBIO\n                      char *buf;\n                      int n;\n#endif\n\n                      if (argv[d->optind - 1][1] == '-')\n                        {\n                          /* --option */\n#if defined _LIBC && defined USE_IN_LIBIO\n                          n = __asprintf (&buf, _(\"\\\n%s: option '--%s' doesn't allow an argument\\n\"),\n                                          argv[0], pfound->name);\n#else\n                          fprintf (stderr, _(\"\\\n%s: option '--%s' doesn't allow an argument\\n\"),\n                                   argv[0], pfound->name);\n#endif\n                        }\n                      else\n                        {\n                          /* +option or -option */\n#if defined _LIBC && defined USE_IN_LIBIO\n                          n = __asprintf (&buf, _(\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"),\n                                          argv[0], argv[d->optind - 1][0],\n                                          pfound->name);\n#else\n                          fprintf (stderr, _(\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"),\n                                   argv[0], argv[d->optind - 1][0],\n                                   pfound->name);\n#endif\n                        }\n\n#if defined _LIBC && defined USE_IN_LIBIO\n                      if (n >= 0)\n                        {\n                          _IO_flockfile (stderr);\n\n                          int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                          ((_IO_FILE *) stderr)->_flags2\n                            |= _IO_FLAGS2_NOTCANCEL;\n\n                          __fxprintf (NULL, \"%s\", buf);\n\n                          ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                          _IO_funlockfile (stderr);\n\n                          free (buf);\n                        }\n#endif\n                    }\n\n                  d->__nextchar += strlen (d->__nextchar);\n\n                  d->optopt = pfound->val;\n                  return '?';\n                }\n            }\n          else if (pfound->has_arg == 1)\n            {\n              if (d->optind < argc)\n                d->optarg = argv[d->optind++];\n              else\n                {\n                  if (print_errors)\n                    {\n#if defined _LIBC && defined USE_IN_LIBIO\n                      char *buf;\n\n                      if (__asprintf (&buf, _(\"\\\n%s: option '--%s' requires an argument\\n\"),\n                                      argv[0], pfound->name) >= 0)\n                        {\n                          _IO_flockfile (stderr);\n\n                          int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                          ((_IO_FILE *) stderr)->_flags2\n                            |= _IO_FLAGS2_NOTCANCEL;\n\n                          __fxprintf (NULL, \"%s\", buf);\n\n                          ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                          _IO_funlockfile (stderr);\n\n                          free (buf);\n                        }\n#else\n                      fprintf (stderr,\n                               _(\"%s: option '--%s' requires an argument\\n\"),\n                               argv[0], pfound->name);\n#endif\n                    }\n                  d->__nextchar += strlen (d->__nextchar);\n                  d->optopt = pfound->val;\n                  return optstring[0] == ':' ? ':' : '?';\n                }\n            }\n          d->__nextchar += strlen (d->__nextchar);\n          if (longind != NULL)\n            *longind = option_index;\n          if (pfound->flag)\n            {\n              *(pfound->flag) = pfound->val;\n              return 0;\n            }\n          return pfound->val;\n        }\n\n      /* Can't find it as a long option.  If this is not getopt_long_only,\n         or the option starts with '--' or is not a valid short\n         option, then it's an error.\n         Otherwise interpret it as a short option.  */\n      if (!long_only || argv[d->optind][1] == '-'\n          || strchr (optstring, *d->__nextchar) == NULL)\n        {\n          if (print_errors)\n            {\n#if defined _LIBC && defined USE_IN_LIBIO\n              char *buf;\n              int n;\n#endif\n\n              if (argv[d->optind][1] == '-')\n                {\n                  /* --option */\n#if defined _LIBC && defined USE_IN_LIBIO\n                  n = __asprintf (&buf, _(\"%s: unrecognized option '--%s'\\n\"),\n                                  argv[0], d->__nextchar);\n#else\n                  fprintf (stderr, _(\"%s: unrecognized option '--%s'\\n\"),\n                           argv[0], d->__nextchar);\n#endif\n                }\n              else\n                {\n                  /* +option or -option */\n#if defined _LIBC && defined USE_IN_LIBIO\n                  n = __asprintf (&buf, _(\"%s: unrecognized option '%c%s'\\n\"),\n                                  argv[0], argv[d->optind][0], d->__nextchar);\n#else\n                  fprintf (stderr, _(\"%s: unrecognized option '%c%s'\\n\"),\n                           argv[0], argv[d->optind][0], d->__nextchar);\n#endif\n                }\n\n#if defined _LIBC && defined USE_IN_LIBIO\n              if (n >= 0)\n                {\n                  _IO_flockfile (stderr);\n\n                  int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                  ((_IO_FILE *) stderr)->_flags2 |= _IO_FLAGS2_NOTCANCEL;\n\n                  __fxprintf (NULL, \"%s\", buf);\n\n                  ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                  _IO_funlockfile (stderr);\n\n                  free (buf);\n                }\n#endif\n            }\n          d->__nextchar = (char *) \"\";\n          d->optind++;\n          d->optopt = 0;\n          return '?';\n        }\n    }\n\n  /* Look at and handle the next short option-character.  */\n\n  {\n    char c = *d->__nextchar++;\n    const char *temp = strchr (optstring, c);\n\n    /* Increment 'optind' when we start to process its last character.  */\n    if (*d->__nextchar == '\\0')\n      ++d->optind;\n\n    if (temp == NULL || c == ':' || c == ';')\n      {\n        if (print_errors)\n          {\n#if defined _LIBC && defined USE_IN_LIBIO\n              char *buf;\n              int n;\n#endif\n\n#if defined _LIBC && defined USE_IN_LIBIO\n              n = __asprintf (&buf, _(\"%s: invalid option -- '%c'\\n\"),\n                              argv[0], c);\n#else\n              fprintf (stderr, _(\"%s: invalid option -- '%c'\\n\"), argv[0], c);\n#endif\n\n#if defined _LIBC && defined USE_IN_LIBIO\n            if (n >= 0)\n              {\n                _IO_flockfile (stderr);\n\n                int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                ((_IO_FILE *) stderr)->_flags2 |= _IO_FLAGS2_NOTCANCEL;\n\n                __fxprintf (NULL, \"%s\", buf);\n\n                ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                _IO_funlockfile (stderr);\n\n                free (buf);\n              }\n#endif\n          }\n        d->optopt = c;\n        return '?';\n      }\n    /* Convenience. Treat POSIX -W foo same as long option --foo */\n    if (temp[0] == 'W' && temp[1] == ';')\n      {\n        char *nameend;\n        const struct option *p;\n        const struct option *pfound = NULL;\n        int exact = 0;\n        int ambig = 0;\n        int indfound = 0;\n        int option_index;\n\n        if (longopts == NULL)\n          goto no_longs;\n\n        /* This is an option that requires an argument.  */\n        if (*d->__nextchar != '\\0')\n          {\n            d->optarg = d->__nextchar;\n            /* If we end this ARGV-element by taking the rest as an arg,\n               we must advance to the next element now.  */\n            d->optind++;\n          }\n        else if (d->optind == argc)\n          {\n            if (print_errors)\n              {\n#if defined _LIBC && defined USE_IN_LIBIO\n                char *buf;\n\n                if (__asprintf (&buf,\n                                _(\"%s: option requires an argument -- '%c'\\n\"),\n                                argv[0], c) >= 0)\n                  {\n                    _IO_flockfile (stderr);\n\n                    int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                    ((_IO_FILE *) stderr)->_flags2 |= _IO_FLAGS2_NOTCANCEL;\n\n                    __fxprintf (NULL, \"%s\", buf);\n\n                    ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                    _IO_funlockfile (stderr);\n\n                    free (buf);\n                  }\n#else\n                fprintf (stderr,\n                         _(\"%s: option requires an argument -- '%c'\\n\"),\n                         argv[0], c);\n#endif\n              }\n            d->optopt = c;\n            if (optstring[0] == ':')\n              c = ':';\n            else\n              c = '?';\n            return c;\n          }\n        else\n          /* We already incremented 'd->optind' once;\n             increment it again when taking next ARGV-elt as argument.  */\n          d->optarg = argv[d->optind++];\n\n        /* optarg is now the argument, see if it's in the\n           table of longopts.  */\n\n        for (d->__nextchar = nameend = d->optarg; *nameend && *nameend != '=';\n             nameend++)\n          /* Do nothing.  */ ;\n\n        /* Test all long options for either exact match\n           or abbreviated matches.  */\n        for (p = longopts, option_index = 0; p->name; p++, option_index++)\n          if (!strncmp (p->name, d->__nextchar, nameend - d->__nextchar))\n            {\n              if ((unsigned int) (nameend - d->__nextchar) == strlen (p->name))\n                {\n                  /* Exact match found.  */\n                  pfound = p;\n                  indfound = option_index;\n                  exact = 1;\n                  break;\n                }\n              else if (pfound == NULL)\n                {\n                  /* First nonexact match found.  */\n                  pfound = p;\n                  indfound = option_index;\n                }\n              else if (long_only\n                       || pfound->has_arg != p->has_arg\n                       || pfound->flag != p->flag\n                       || pfound->val != p->val)\n                /* Second or later nonexact match found.  */\n                ambig = 1;\n            }\n        if (ambig && !exact)\n          {\n            if (print_errors)\n              {\n#if defined _LIBC && defined USE_IN_LIBIO\n                char *buf;\n\n                if (__asprintf (&buf, _(\"%s: option '-W %s' is ambiguous\\n\"),\n                                argv[0], d->optarg) >= 0)\n                  {\n                    _IO_flockfile (stderr);\n\n                    int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                    ((_IO_FILE *) stderr)->_flags2 |= _IO_FLAGS2_NOTCANCEL;\n\n                    __fxprintf (NULL, \"%s\", buf);\n\n                    ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                    _IO_funlockfile (stderr);\n\n                    free (buf);\n                  }\n#else\n                fprintf (stderr, _(\"%s: option '-W %s' is ambiguous\\n\"),\n                         argv[0], d->optarg);\n#endif\n              }\n            d->__nextchar += strlen (d->__nextchar);\n            d->optind++;\n            return '?';\n          }\n        if (pfound != NULL)\n          {\n            option_index = indfound;\n            if (*nameend)\n              {\n                /* Don't test has_arg with >, because some C compilers don't\n                   allow it to be used on enums.  */\n                if (pfound->has_arg)\n                  d->optarg = nameend + 1;\n                else\n                  {\n                    if (print_errors)\n                      {\n#if defined _LIBC && defined USE_IN_LIBIO\n                        char *buf;\n\n                        if (__asprintf (&buf, _(\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"),\n                                        argv[0], pfound->name) >= 0)\n                          {\n                            _IO_flockfile (stderr);\n\n                            int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                            ((_IO_FILE *) stderr)->_flags2\n                              |= _IO_FLAGS2_NOTCANCEL;\n\n                            __fxprintf (NULL, \"%s\", buf);\n\n                            ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                            _IO_funlockfile (stderr);\n\n                            free (buf);\n                          }\n#else\n                        fprintf (stderr, _(\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"),\n                                 argv[0], pfound->name);\n#endif\n                      }\n\n                    d->__nextchar += strlen (d->__nextchar);\n                    return '?';\n                  }\n              }\n            else if (pfound->has_arg == 1)\n              {\n                if (d->optind < argc)\n                  d->optarg = argv[d->optind++];\n                else\n                  {\n                    if (print_errors)\n                      {\n#if defined _LIBC && defined USE_IN_LIBIO\n                        char *buf;\n\n                        if (__asprintf (&buf, _(\"\\\n%s: option '-W %s' requires an argument\\n\"),\n                                        argv[0], pfound->name) >= 0)\n                          {\n                            _IO_flockfile (stderr);\n\n                            int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                            ((_IO_FILE *) stderr)->_flags2\n                              |= _IO_FLAGS2_NOTCANCEL;\n\n                            __fxprintf (NULL, \"%s\", buf);\n\n                            ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                            _IO_funlockfile (stderr);\n\n                            free (buf);\n                          }\n#else\n                        fprintf (stderr, _(\"\\\n%s: option '-W %s' requires an argument\\n\"),\n                                 argv[0], pfound->name);\n#endif\n                      }\n                    d->__nextchar += strlen (d->__nextchar);\n                    return optstring[0] == ':' ? ':' : '?';\n                  }\n              }\n            else\n              d->optarg = NULL;\n            d->__nextchar += strlen (d->__nextchar);\n            if (longind != NULL)\n              *longind = option_index;\n            if (pfound->flag)\n              {\n                *(pfound->flag) = pfound->val;\n                return 0;\n              }\n            return pfound->val;\n          }\n\n      no_longs:\n        d->__nextchar = NULL;\n        return 'W';   /* Let the application handle it.   */\n      }\n    if (temp[1] == ':')\n      {\n        if (temp[2] == ':')\n          {\n            /* This is an option that accepts an argument optionally.  */\n            if (*d->__nextchar != '\\0')\n              {\n                d->optarg = d->__nextchar;\n                d->optind++;\n              }\n            else\n              d->optarg = NULL;\n            d->__nextchar = NULL;\n          }\n        else\n          {\n            /* This is an option that requires an argument.  */\n            if (*d->__nextchar != '\\0')\n              {\n                d->optarg = d->__nextchar;\n                /* If we end this ARGV-element by taking the rest as an arg,\n                   we must advance to the next element now.  */\n                d->optind++;\n              }\n            else if (d->optind == argc)\n              {\n                if (print_errors)\n                  {\n#if defined _LIBC && defined USE_IN_LIBIO\n                    char *buf;\n\n                    if (__asprintf (&buf, _(\"\\\n%s: option requires an argument -- '%c'\\n\"),\n                                    argv[0], c) >= 0)\n                      {\n                        _IO_flockfile (stderr);\n\n                        int old_flags2 = ((_IO_FILE *) stderr)->_flags2;\n                        ((_IO_FILE *) stderr)->_flags2 |= _IO_FLAGS2_NOTCANCEL;\n\n                        __fxprintf (NULL, \"%s\", buf);\n\n                        ((_IO_FILE *) stderr)->_flags2 = old_flags2;\n                        _IO_funlockfile (stderr);\n\n                        free (buf);\n                      }\n#else\n                    fprintf (stderr,\n                             _(\"%s: option requires an argument -- '%c'\\n\"),\n                             argv[0], c);\n#endif\n                  }\n                d->optopt = c;\n                if (optstring[0] == ':')\n                  c = ':';\n                else\n                  c = '?';\n              }\n            else\n              /* We already incremented 'optind' once;\n                 increment it again when taking next ARGV-elt as argument.  */\n              d->optarg = argv[d->optind++];\n            d->__nextchar = NULL;\n          }\n      }\n    return c;\n  }\n}",
+      "lines": 781,
+      "depth": 25,
+      "decorators": [
+        "int"
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        1126,
+        0
+      ],
+      "end_point": [
+        1145,
+        1
+      ],
+      "content": "int\n_getopt_internal (int argc, char **argv, const char *optstring,\n                  const struct option *longopts, int *longind, int long_only,\n                  int posixly_correct)\n{\n  int result;\n\n  getopt_data.optind = optind;\n  getopt_data.opterr = opterr;\n\n  result = _getopt_internal_r (argc, argv, optstring, longopts,\n                               longind, long_only, &getopt_data,\n                               posixly_correct);\n\n  optind = getopt_data.optind;\n  optarg = getopt_data.optarg;\n  optopt = getopt_data.optopt;\n\n  return result;\n}",
+      "lines": 20,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "getopt": {
+      "start_point": [
+        1155,
+        0
+      ],
+      "end_point": [
+        1162,
+        1
+      ],
+      "content": "int\ngetopt (int argc, char *const *argv, const char *optstring)\n{\n  return _getopt_internal (argc, (char **) argv, optstring,\n                           (const struct option *) 0,\n                           (int *) 0,\n                           0, POSIXLY_CORRECT);\n}",
+      "lines": 8,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "__posix_getopt": {
+      "start_point": [
+        1165,
+        0
+      ],
+      "end_point": [
+        1172,
+        1
+      ],
+      "content": "int\n__posix_getopt (int argc, char *const *argv, const char *optstring)\n{\n  return _getopt_internal (argc, argv, optstring,\n                           (const struct option *) 0,\n                           (int *) 0,\n                           0, 1);\n}",
+      "lines": 8,
+      "depth": 9,
+      "decorators": [
+        "int"
+      ]
+    },
+    "main": {
+      "start_point": [
+        1181,
+        0
+      ],
+      "end_point": [
+        1242,
+        1
+      ],
+      "content": "int\nmain (int argc, char **argv)\n{\n  int c;\n  int digit_optind = 0;\n\n  while (1)\n    {\n      int this_option_optind = optind ? optind : 1;\n\n      c = getopt (argc, argv, \"abc:d:0123456789\");\n      if (c == -1)\n        break;\n\n      switch (c)\n        {\n        case '0':\n        case '1':\n        case '2':\n        case '3':\n        case '4':\n        case '5':\n        case '6':\n        case '7':\n        case '8':\n        case '9':\n          if (digit_optind != 0 && digit_optind != this_option_optind)\n            printf (\"digits occur in two different argv-elements.\\n\");\n          digit_optind = this_option_optind;\n          printf (\"option %c\\n\", c);\n          break;\n\n        case 'a':\n          printf (\"option a\\n\");\n          break;\n\n        case 'b':\n          printf (\"option b\\n\");\n          break;\n\n        case 'c':\n          printf (\"option c with value '%s'\\n\", optarg);\n          break;\n\n        case '?':\n          break;\n\n        default:\n          printf (\"?? getopt returned character code 0%o ??\\n\", c);\n        }\n    }\n\n  if (optind < argc)\n    {\n      printf (\"non-option ARGV-elements: \");\n      while (optind < argc)\n        printf (\"%s \", argv[optind++]);\n      printf (\"\\n\");\n    }\n\n  exit (0);\n}",
+      "lines": 62,
+      "depth": 13,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/lib/getopt.in.h": {},
+  "bool/bool-0.2.2/lib/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "content": "int\ngetopt_long (int argc, char *__getopt_argv_const *argv, const char *options,\n             const struct option *long_options, int *opt_index)\n{\n  return _getopt_internal (argc, (char **) argv, options, long_options,\n                           opt_index, 0, 0);\n}",
+      "lines": 7,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "content": "int\n_getopt_long_r (int argc, char **argv, const char *options,\n                const struct option *long_options, int *opt_index,\n                struct _getopt_data *d)\n{\n  return _getopt_internal_r (argc, argv, options, long_options, opt_index,\n                             0, d, 0);\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    },
+    "getopt_long_only": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "content": "int\ngetopt_long_only (int argc, char *__getopt_argv_const *argv,\n                  const char *options,\n                  const struct option *long_options, int *opt_index)\n{\n  return _getopt_internal (argc, (char **) argv, options, long_options,\n                           opt_index, 1, 0);\n}",
+      "lines": 8,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "content": "int\n_getopt_long_only_r (int argc, char **argv, const char *options,\n                     const struct option *long_options, int *opt_index,\n                     struct _getopt_data *d)\n{\n  return _getopt_internal_r (argc, argv, options, long_options, opt_index,\n                             1, d, 0);\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    },
+    "main": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "content": "int\nmain (int argc, char **argv)\n{\n  int c;\n  int digit_optind = 0;\n\n  while (1)\n    {\n      int this_option_optind = optind ? optind : 1;\n      int option_index = 0;\n      static const struct option long_options[] =\n      {\n        {\"add\", 1, 0, 0},\n        {\"append\", 0, 0, 0},\n        {\"delete\", 1, 0, 0},\n        {\"verbose\", 0, 0, 0},\n        {\"create\", 0, 0, 0},\n        {\"file\", 1, 0, 0},\n        {0, 0, 0, 0}\n      };\n\n      c = getopt_long (argc, argv, \"abc:d:0123456789\",\n                       long_options, &option_index);\n      if (c == -1)\n        break;\n\n      switch (c)\n        {\n        case 0:\n          printf (\"option %s\", long_options[option_index].name);\n          if (optarg)\n            printf (\" with arg %s\", optarg);\n          printf (\"\\n\");\n          break;\n\n        case '0':\n        case '1':\n        case '2':\n        case '3':\n        case '4':\n        case '5':\n        case '6':\n        case '7':\n        case '8':\n        case '9':\n          if (digit_optind != 0 && digit_optind != this_option_optind)\n            printf (\"digits occur in two different argv-elements.\\n\");\n          digit_optind = this_option_optind;\n          printf (\"option %c\\n\", c);\n          break;\n\n        case 'a':\n          printf (\"option a\\n\");\n          break;\n\n        case 'b':\n          printf (\"option b\\n\");\n          break;\n\n        case 'c':\n          printf (\"option c with value '%s'\\n\", optarg);\n          break;\n\n        case 'd':\n          printf (\"option d with value '%s'\\n\", optarg);\n          break;\n\n        case '?':\n          break;\n\n        default:\n          printf (\"?? getopt returned character code 0%o ??\\n\", c);\n        }\n    }\n\n  if (optind < argc)\n    {\n      printf (\"non-option ARGV-elements: \");\n      while (optind < argc)\n        printf (\"%s \", argv[optind++]);\n      printf (\"\\n\");\n    }\n\n  exit (0);\n}",
+      "lines": 85,
+      "depth": 13,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/lib/getopt_int.h": {},
+  "bool/bool-0.2.2/lib/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "content": "static const char *\npgettext_aux (const char *domain,\n              const char *msg_ctxt_id, const char *msgid,\n              int category)\n{\n  const char *translation = dcgettext (domain, msg_ctxt_id, category);\n  if (translation == msg_ctxt_id)\n    return msgid;\n  else\n    return translation;\n}",
+      "lines": 11,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\npgettext_aux (const char *domain,\n              const char *msg_ctxt_id, const char *msgid,\n              int category)",
+        "*"
+      ]
+    },
+    "npgettext_aux": {
+      "start_point": [
+        165,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "content": "static const char *\nnpgettext_aux (const char *domain,\n               const char *msg_ctxt_id, const char *msgid,\n               const char *msgid_plural, unsigned long int n,\n               int category)\n{\n  const char *translation =\n    dcngettext (domain, msg_ctxt_id, msgid_plural, n, category);\n  if (translation == msg_ctxt_id || translation == msgid_plural)\n    return (n == 1 ? msgid : msgid_plural);\n  else\n    return translation;\n}",
+      "lines": 13,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\nnpgettext_aux (const char *domain,\n               const char *msg_ctxt_id, const char *msgid,\n               const char *msgid_plural, unsigned long int n,\n               int category)",
+        "*"
+      ]
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "content": "static const char *\ndcpgettext_expr (const char *domain,\n                 const char *msgctxt, const char *msgid,\n                 int category)\n{\n  size_t msgctxt_len = strlen (msgctxt) + 1;\n  size_t msgid_len = strlen (msgid) + 1;\n  const char *translation;\n#if _LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS\n  char msg_ctxt_id[msgctxt_len + msgid_len];\n#else\n  char buf[1024];\n  char *msg_ctxt_id =\n    (msgctxt_len + msgid_len <= sizeof (buf)\n     ? buf\n     : (char *) malloc (msgctxt_len + msgid_len));\n  if (msg_ctxt_id != NULL)\n#endif\n    {\n      memcpy (msg_ctxt_id, msgctxt, msgctxt_len - 1);\n      msg_ctxt_id[msgctxt_len - 1] = '\\004';\n      memcpy (msg_ctxt_id + msgctxt_len, msgid, msgid_len);\n      translation = dcgettext (domain, msg_ctxt_id, category);\n#if !_LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS\n      if (msg_ctxt_id != buf)\n        free (msg_ctxt_id);\n#endif\n      if (translation != msg_ctxt_id)\n        return translation;\n    }\n  return msgid;\n}",
+      "lines": 32,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\ndcpgettext_expr (const char *domain,\n                 const char *msgctxt, const char *msgid,\n                 int category)",
+        "*"
+      ]
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        253,
+        0
+      ],
+      "end_point": [
+        285,
+        1
+      ],
+      "content": "static const char *\ndcnpgettext_expr (const char *domain,\n                  const char *msgctxt, const char *msgid,\n                  const char *msgid_plural, unsigned long int n,\n                  int category)\n{\n  size_t msgctxt_len = strlen (msgctxt) + 1;\n  size_t msgid_len = strlen (msgid) + 1;\n  const char *translation;\n#if _LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS\n  char msg_ctxt_id[msgctxt_len + msgid_len];\n#else\n  char buf[1024];\n  char *msg_ctxt_id =\n    (msgctxt_len + msgid_len <= sizeof (buf)\n     ? buf\n     : (char *) malloc (msgctxt_len + msgid_len));\n  if (msg_ctxt_id != NULL)\n#endif\n    {\n      memcpy (msg_ctxt_id, msgctxt, msgctxt_len - 1);\n      msg_ctxt_id[msgctxt_len - 1] = '\\004';\n      memcpy (msg_ctxt_id + msgctxt_len, msgid, msgid_len);\n      translation = dcngettext (domain, msg_ctxt_id, msgid_plural, n, category);\n#if !_LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS\n      if (msg_ctxt_id != buf)\n        free (msg_ctxt_id);\n#endif\n      if (!(translation == msg_ctxt_id || translation == msgid_plural))\n        return translation;\n    }\n  return (n == 1 ? msgid : msgid_plural);\n}",
+      "lines": 33,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\ndcnpgettext_expr (const char *domain,\n                  const char *msgctxt, const char *msgid,\n                  const char *msgid_plural, unsigned long int n,\n                  int category)",
+        "*"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/lib/stddef.in.h": {},
+  "bool/bool-0.2.2/lib/sys_types.in.h": {},
+  "bool/bool-0.2.2/lib/unistd.c": {},
+  "bool/bool-0.2.2/lib/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        403,
+        0
+      ],
+      "end_point": [
+        407,
+        1
+      ],
+      "content": "_GL_UNISTD_INLINE char ***\nrpl_environ (void)\n{\n  return &environ;\n}",
+      "lines": 5,
+      "depth": 8,
+      "decorators": [
+        "_GL_UNISTD_INLINE",
+        "char",
+        "char",
+        "***\nrpl_environ (void)",
+        "*",
+        "**\nrpl_environ (void)",
+        "*",
+        "*\nrpl_environ (void)",
+        "*"
+      ]
+    },
+    "getpagesize": {
+      "start_point": [
+        870,
+        0
+      ],
+      "end_point": [
+        874,
+        1
+      ],
+      "content": "_GL_UNISTD_INLINE int\ngetpagesize ()\n{\n  return _gl_getpagesize ();\n}",
+      "lines": 5,
+      "depth": 6,
+      "decorators": [
+        "_GL_UNISTD_INLINE",
+        "int",
+        "int"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/bool.c": {
+    "ck_atoi": {
+      "start_point": [
+        127,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "content": "static int\nck_atoi (char const *str, int *out)\n{\n  char const *p;\n\n  for (p = str; *p; p++)\n    if (*p < '0' || *p > '9')\n      return -1;\n\n  *out = atoi (optarg);\n  return 0;\n}",
+      "lines": 12,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "init": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "content": "static void\ninit (char *str)\n{\n  buffer = malloc (BUFFER + SAVE + 1);\n  if (!buffer)\n    err_fatal (\"memory exhausted\");\n\n  switch (context_init (str))\n    {\n    case 0:\n      err_fatal (\"invalid query\");\n    case 1:\n      break;\n    default:\n      if (!opt.no_pattern)\n\topt.with_pattern = 1;\n      break;\n    }\n\n  bufsalloc = SAVE;\n}",
+      "lines": 21,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "get_extension": {
+      "start_point": [
+        162,
+        0
+      ],
+      "end_point": [
+        200,
+        1
+      ],
+      "content": "static enum extension\nget_extension (char *file)\n{\n  register char *end;\n  struct { char *str; int val; } ext[] =\n    {\n      { \"c\",    SOURCE },\n      { \"cpp\",  SOURCE },\n      { \"h\",    SOURCE },\n      { \"pl\",   SOURCE },\n      { \"pm\",   SOURCE },\n      { \"html\", HTML   },\n      { \"htm\",  HTML   },\n      { NULL,   TEXT   }\n    };\n\n  file += 1;\n  for (end = NULL; *file; file++)\n    if (*file == '.')\n      end = file;\n\n  if (end)\n    {\n      register char *left, *right;\n      int i;\n\n      end += 1;\n      for (i=0; ext[i].str; i++)\n\t{\n\t  left = end;\n\t  right = ext[i].str;\n\t  while (tolower (*left) == *right++)\n\t    if (*left++ == '\\0')\n\t      return ext[i].val;\n\t}\n    }\n\n  return TEXT;\n}",
+      "lines": 39,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "enum extension",
+        "enum",
+        "extension"
+      ]
+    },
+    "file_read": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "content": "static int\nfile_read (int fd)\n{\n  ssize_t bytesread;\n  size_t residue, save;\n  char *buf, *lim, *pos;\n\n  residue = 0;\n  buf = pos = buffer + bufsalloc;\n  *(buf - 1) = '\\0';\n\n  for (;;)\n    {\n      size_t residue_offset, save_offset;\n\n      while ((bytesread = read (fd, buf, BUFFER)) < 0\n\t  && errno == EINTR)\n\tcontinue;\n\n      if (bytesread <= 0)\n\tbreak;\n\n      lim = buf + bytesread;\n      *lim = '\\0';\n      save = context_find (&pos, &buf, lim);\n      residue = lim - buf;\n\n      residue_offset = buf - buffer;\n      save_offset = pos - save - buffer;\n      if (bufsalloc < residue + save)\n\t{\n\t  while (bufsalloc < residue + save)\n\t    bufsalloc *= 2;\n\n\t  buffer = realloc (buffer, bufsalloc + BUFFER + 1);\n\t  if (!buffer)\n\t    err_fatal (\"memory exhausted\");\n\t}\n\n      buf = buffer + bufsalloc;\n      pos = buf - residue;\n      lim = pos - save;\n      *(lim - 1) = '\\0';\n      memmove (lim, buffer + save_offset, save);\n      memmove (pos, buffer + residue_offset, residue);\n    }\n\n  if (bytesread < 0)\n    {\n      err_message (\"read\");\n      return 0;\n    }\n\n  lim = buf;\n  *lim = '\\0';\n  do {\n    buf = lim;\n    context_find (&pos, &buf, lim);\n  } while (buf < lim);\n\n  return context_print ();\n}",
+      "lines": 62,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "file_open": {
+      "start_point": [
+        265,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "content": "static int\nfile_open (char *file)\n{\n  enum extension type;\n  int desc, status;\n\n  if (!file)\n    {\n      desc = 0;\n      type = TEXT;\n      opt.filename = \"(standard input)\";\n    }\n  else\n    {\n      while ((desc = open (file, O_RDONLY)) < 0 && errno == EINTR)\n\tcontinue;\n\n      if (desc < 0)\n\t{\n\t  err_message (\"open\");\n\t  return 0;\n\t}\n\n      type = get_extension (file);\n      opt.filename = file;\n    }\n\n  context_prep (type);\n  status = file_read (desc);\n\n  while (close (desc) != 0)\n    if (errno != EINTR)\n      {\n\terr_message (\"close\");\n\tbreak;\n      }\n\n  return status;\n}",
+      "lines": 39,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "usage": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        346,
+        1
+      ],
+      "content": "static void\nusage (int status)\n{\n  if (status != 0)\n    fprintf (stderr, \"\\\nUsage: bool [options] PATTERN [FILE]...\\n\\\nTry `bool --help' for more information.\\n\\\n\");\n  else\n    printf (\"\\\nUsage: bool [OPTION]... PATTERN [FILE] ...\\n\\\nSearch for PATTERN in each FILE or standard input.\\n\\\n\\n\\\nInterpretation:\\n\\\n  -F, --fixed-string        PATTERN is a string, not an expression\\n\\\n  -i, --ignore-case         ignore case distinctions\\n\\\n\\n\\\nOutput control:\\n\\\n  -b, --byte-offset         print the byte offset with output lines\\n\\\n  -n, --line-number         print line number with output lines\\n\\\n  -H, --with-filename       print the filename for each match\\n\\\n  -h, --no-filename         suppress the prefixing filename on output\\n\\\n  -P, --with-pattern        print the pattern for each match\\n\\\n  -p, --no-pattern          suppress the prefixing pattern on outptut\\n\\\n  -q, --quiet, --silent     suppress all normal output\\n\\\n  -L, --files-without-match only print FILE names containing no match\\n\\\n  -l, --files-with-matches  only print FILE names containing matches\\n\\\n  -c, --count               only print a count of matches per FILE\\n\\\n\\n\\\nContext control:\\n\\\n  -C, --context=NUM         print NUM characters of output context\\n\\\n  -D, --distance=NUM        NEAR matches are at most NUM words apart\\n\\\n  -O, --occurrences=NUM     print NUM lines of context for each pattern\\n\\\n\\n\\\nMiscellaneous:\\n\\\n  -s, --no-messages         suppress error messages\\n\\\n  -V, --version             print version information and exit\\n\\\n      --help                display this help and exit\\n\\\n\");\n\n  exit (status);\n}",
+      "lines": 42,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "main": {
+      "start_point": [
+        348,
+        0
+      ],
+      "end_point": [
+        469,
+        1
+      ],
+      "content": "int\nmain (int argc, char *argv[])\n{\n  extern char *optarg;\n  extern int optind;\n  int c, state;\n\n  state = 0;\n  opt.context = DEFAULT_CONTEXT;\n  opt.distance = DEFAULT_DISTANCE;\n  opt.occurrences = DEFAULT_OCCURRENCES;\n\n  setlocale (LC_CTYPE, \"\");\n\n  while ((c = getopt_long (argc, argv, short_options, long_options, NULL))\n\t != -1)\n    switch (c)\n      {\n      case 'b':\n\topt.out_byte = 1;\n\tbreak;\n      case 'C':\n\tif (optarg)\n\t  {\n\t    if (ck_atoi (optarg, &opt.context))\n\t      err_fatal (\"invalid context argument\");\n\t  }\n\tbreak;\n      case 'c':\n\topt.out_quiet = 1;\n\topt.count_matches = 1;\n\tbreak;\n      case 'D':\n\tif (optarg)\n\t  {\n\t    if (ck_atoi (optarg, &opt.distance))\n\t      err_fatal (\"invalid distance argument\");\n\t  }\n\tbreak;\n      case 'F':\n\topt.fixed_string = 1;\n\tbreak;\n      case 'H':\n\topt.with_filename = 1;\n\tbreak;\n      case 'h':\n\topt.no_filename = 1;\n\tbreak;\n      case 'i':\n\topt.ignore_case = 1;\n\tbreak;\n      case 'L':\n\topt.out_quiet = 1;\n\topt.list_files = 1;\n\tbreak;\n      case 'l':\n\topt.out_quiet = 1;\n\topt.list_files = 2;\n\tbreak;\n      case 'n':\n\topt.out_line = 1;\n\tbreak;\n      case 'O':\n\tif (optarg)\n\t  {\n\t    if (ck_atoi (optarg, &opt.occurrences))\n\t      err_fatal (\"invalid occurrence argument\");\n\t  }\n\tbreak;\n      case 'P':\n\topt.with_pattern = 1;\n\tbreak;\n      case 'p':\n\topt.no_pattern = 1;\n\tbreak;\n      case 'q':\n\topt.out_quiet = 1;\n\tbreak;\n      case 's':\n\topt.suppress_errors = 1;\n\tbreak;\n      case 'V':\n\tprintf (\"bool (GNU) %s\\n\", VERSION);\n\texit (0);\n      case 0:\n\t/* long options */\n\tbreak;\n      default:\n\tusage (1);\n\tbreak;\n      }\n\n  if (opt.show_help)\n    usage (0);\n\n  if (optind == argc)\n    usage (1);\n\n  init (argv[optind++]);\n\n  if (argc - optind > 1 && !opt.no_filename)\n    opt.with_filename = 1;\n\n  if (optind < argc)\n    {\n      state = 0;\n      do\n\t{\n\t  char *file = argv[optind];\n\t  state += file_open (strcmp (file, \"-\") == 0\n\t    ? (char *) NULL\n\t    : file);\n\t}\n      while (++optind < argc);\n    }\n  else\n    state = file_open ((char *) NULL);\n\n  context_free ();\n  free (buffer);\n  return !state;\n}",
+      "lines": 122,
+      "depth": 16,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/context.c": {
+    "context_init": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "content": "int\ncontext_init (char *str)\n{\n  mem_init ();\n  context = mem_alloc (sizeof (struct context));\n  context->num_pat = expr_init (str);\n  if (!context->num_pat)\n    return 0;\n\n  context->tmp = mem_alloc (sizeof (struct line) - sizeof (char[4])\n      + opt.context + 1);\n\n  if (!opt.out_quiet)\n    {\n      register int i, j, occurrences;\n      struct line **line;\n\n      context->lines = mem_alloc (context->num_pat\n\t  * sizeof (struct line **));\n      occurrences = opt.occurrences ? opt.occurrences : 1;\n\n      for (i = 0; i < context->num_pat; i++)\n\t{\n\t  line = mem_alloc (occurrences * sizeof (struct line *));\n\t  for (j = 0; j < occurrences; j++)\n\t    line[j] = mem_alloc (sizeof (struct line) - sizeof (char[4])\n\t\t+ opt.context + 1);\n\n\t  context->lines[i] = line;\n\t}\n    }\n\n  return context->num_pat;\n}",
+      "lines": 34,
+      "depth": 20,
+      "decorators": [
+        "int"
+      ]
+    },
+    "context_prep": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "content": "void\ncontext_prep (enum extension type)\n{\n  context->num_bytes = 0;\n  context->num_words = 0;\n  context->num_lines = 1;\n  context->num_paragraphs = 1;\n\n  context->pattern_table = context->pstack;\n  context->forward_table = context->fstack;\n  *context->forward_table = NULL;\n  context->state = context->sstack;\n  PUSH (SRCH);\n\n  if (type == HTML)\n    {\n      *context->pattern_table = html_first;\n      go_forward = html_forward;\n      go_find = html_find;\n    }\n  else\n    {\n      if (type == SOURCE)\n\tevent['\\n'] = NP;\n      else\n\tevent['\\n'] = NL;\n\n      *context->pattern_table = text_first;\n      go_forward = text_forward;\n      go_find = text_find;\n    }\n\n  expr_prep ();\n}",
+      "lines": 34,
+      "depth": 10,
+      "decorators": [
+        "void"
+      ]
+    },
+    "line_merge": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "content": "static void\nline_merge (struct line *dest, struct line *src, int distance)\n{\n  register int dest_len, src_len;\n\n  dest_len = dest->bpos + distance + src->fpos;\n  if (dest_len > opt.context)\n    {\n      if (distance > opt.context - 5)\n\t{\n\t  register int half;\n\n\t  half = (opt.context - sizeof sep_context + 1) / 2;\n\t  src_len = dest->bpos - MIN (half / 2, dest->bpos);\n\t  if (src_len)\n\t    memmove (dest->str, dest->str + src_len, half);\n\t  dest_len = half;\n\n\t  memcpy (dest->str + dest_len,\n\t      sep_context, sizeof sep_context - 1);\n\t  dest_len += sizeof sep_context - 1;\n\n\t  src_len = half - MIN (half / 2, src->fpos);\n\t  memcpy (dest->str + dest_len,\n\t      src->str + opt.context + 1 - src_len, src_len);\n\t  dest_len += src_len;\n\n\t  if (src->fpos)\n\t    {\n\t      memcpy (dest->str + dest_len, src->str,\n\t\t  half - src_len);\n\t      dest_len += half - src_len;\n\t    }\n\t}\n      else\n\t{\n\t  dest_len = (opt.context - distance + 1) / 2;\n\t  if (dest_len > src->fpos)\n\t    dest_len += dest_len - src->fpos;\n\t  if (dest_len < dest->bpos)\n\t    memmove (dest->str, dest->str + dest->bpos - dest_len,\n\t\tdest_len + dest->fpos);\n\t  else\n\t    dest_len = dest->bpos;\n\n\t  dest_len += dest->fpos;\n\t  if (dest->fpos < distance)\n\t    {\n\t      src_len = (distance & ~1) - dest->fpos;\n\t      memcpy (dest->str + dest_len,\n\t\t  src->str + opt.context + 1 - src_len, src_len);\n\t      dest_len += src_len;\n\n\t      src_len = MIN (opt.context - dest_len, src->fpos);\n\t      if (src_len > 0)\n\t\t{\n\t\t  memcpy (dest->str + dest_len, src->str, src_len);\n\t\t  dest_len += src_len;\n\t\t}\n\t    }\n\t  else\n\t    {\n\t      src_len = MIN (opt.context - dest_len,\n\t\t  (distance & ~1) + src->fpos - dest->fpos);\n\t      if (src_len > 0)\n\t\t{\n\t\t  memcpy (dest->str + dest_len,\n\t\t      src->str + dest->fpos - distance, src_len);\n\t\t  dest_len += src_len;\n\t\t}\n\t    }\n\t}\n    }\n  if (dest->str[dest_len - 1] == ' ')\n    dest_len--;\n  dest->str[dest_len] = '\\0';\n}",
+      "lines": 77,
+      "depth": 18,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "line_copy": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "content": "static void\nline_copy (struct line *dest, struct line *src)\n{\n  register int src_bpos;\n\n  src_bpos = opt.context + 1 - src->bpos;\n  memcpy (dest->str, src->str + src->bpos, src_bpos);\n  memcpy (dest->str + src_bpos, src->str, src->fpos);\n  dest->bpos = src_bpos;\n  dest->fpos = src->fpos;\n  dest->str[src_bpos + src->fpos] = '\\0';\n}",
+      "lines": 12,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "line_print": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        285,
+        1
+      ],
+      "content": "static void\nline_print (struct line *line, int pat)\n{\n  if (opt.with_filename)\n    printf (\"%s%s\", opt.filename, sep_field);\n  if (opt.with_pattern)\n    {\n      expr_print (pat);\n      printf (\"%s\", sep_field);\n    }\n  if (opt.out_line)\n    printf (\"%d%s\", line->line, sep_field);\n  if (opt.out_byte)\n    printf (\"%d%s\", line->byte, sep_field);\n  printf (\"%s\\n\", line->str);\n}",
+      "lines": 16,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "line_get": {
+      "start_point": [
+        287,
+        0
+      ],
+      "end_point": [
+        362,
+        1
+      ],
+      "content": "static char *\nline_get (int kw, char *pos, char *buf, char *lim)\n{\n  struct line *tmp;\n  int count, near, pat;\n\n  tmp = context->tmp;\n  if (*context->forward_table)\n    {\n      go_forward (buf, lim);\n      near = POP ();\n      pat = POP ();\n      count = expr_count (pat);\n      if (near >= 0)\n\tcount--;\n\n      goto mid;\n    }\n\n  tmp->bpos = tmp->fpos = 0;\n  while ((pat = expr_next (kw, context->num_bytes, context->num_words,\n      context->num_paragraphs)) >= 0)\n    {\n    /* try to find way to merge two and avoid pushing near */\n      near = expr_near (kw, pat);\n      count = expr_count (pat);\n      if (near >= 0)\n\tcount--;\n\n      if (!opt.out_quiet\n\t  && (!opt.occurrences || count < (int)opt.occurrences))\n\t{\n\t  struct line *line;\n\n\t  if (!tmp->bpos)\n\t    {\n\t      char *beg;\n\n\t      beg = text_backward (pos);\n\t      if (go_forward (buf, lim))\n\t\t{\n\t\t  PUSH (pat);\n\t\t  PUSH (near);\n\t\t  return beg;\n\t\t}\n mid:\n\t      if (tmp->bpos < tmp->fpos)\n\t\ttmp->bpos = tmp->fpos;\n\t      if (tmp->str[tmp->fpos - 1] == ' ')\n\t\ttmp->fpos--;\n\t      if (tmp->str[tmp->bpos] == ' ' || tmp->bpos == tmp->fpos)\n\t\ttmp->bpos++;\n\t    }\n\n\t  if (!opt.occurrences)\n\t    count = 0;\n\n\t  line = context->lines[pat][count];\n\n\t  if (near > 0)\n\t    line_merge (line, tmp, context->num_bytes - line->byte);\n\t  else\n\t    line_copy (line, tmp);\n\n\t  line->byte = context->num_bytes;\n\t  line->line = context->num_lines;\n\n\t  if (!opt.occurrences && near >= 0)\n\t    line_print (line, pat);\n\t}\n      near = context->num_words;\n    }\n\n  *context->forward_table = NULL;\n  return NULL;\n}",
+      "lines": 76,
+      "depth": 15,
+      "decorators": [
+        "static",
+        "static",
+        "char",
+        "*\nline_get (int kw, char *pos, char *buf, char *lim)",
+        "*"
+      ]
+    },
+    "context_find": {
+      "start_point": [
+        364,
+        0
+      ],
+      "end_point": [
+        403,
+        1
+      ],
+      "content": "int\ncontext_find (char **pos, char **buf, char *lim)\n{\n  register int state;\n  char *beg;\n\n  state = POP ();\n  if (state != SRCH) {\n    line_get (state, *pos, *buf, lim);\n    state = SRCH;\n  }\n\n  *buf = *pos;\n  for (;;)\n    {\n      switch (state)\n\t{\n\tcase SRCH:\n\t  state = go_find (pos, buf, lim);\n\t  break;\n\tcase SAVE:\n\t  if (!opt.out_quiet)\n\t    beg = text_backward (*pos);\n\t  else\n\t    beg = *pos;\n\t  state = SRCH;\n\t  goto fin;\n\tdefault:\n\t  beg = line_get (state, *pos, *buf, lim);\n\t  if (beg)\n\t    goto fin;\n\t  state = SRCH;\n\t  break;\n\t}\n    }\n\n fin:\n  PUSH (state);\n  return *pos - beg;\n}",
+      "lines": 40,
+      "depth": 14,
+      "decorators": [
+        "int"
+      ]
+    },
+    "context_print": {
+      "start_point": [
+        405,
+        0
+      ],
+      "end_point": [
+        444,
+        1
+      ],
+      "content": "int\ncontext_print (void)\n{\n  register int i, j;\n  int count;\n\n  if (!expr_eval ())\n    {\n      if (opt.list_files == 1)\n\tprintf (\"%s\\n\", opt.filename);\n      return 0;\n    }\n\n  if (opt.out_quiet)\n    {\n      if (opt.count_matches)\n\tfor (i = 0; i < context->num_pat; i++)\n\t  {\n\t    if (opt.with_filename)\n\t      printf (\"%s%s\", opt.filename, sep_field);\n\t    if (opt.with_pattern)\n\t      {\n\t\texpr_print (i);\n\t\tprintf (\"%s\", sep_field);\n\t      }\n\t    printf (\"%d\\n\", expr_count (i));\n\t  }\n      else if (opt.list_files == 2)\n\tprintf (\"%s\\n\", opt.filename);\n    }\n  else if (opt.occurrences)\n    for (i = 0; i < context->num_pat; i++)\n      {\n\tcount = expr_count (i);\n\tfor (j = 0; j < opt.occurrences && count--; j++)\n\t  line_print (context->lines[i][j], i);\n      }\n\n  return 1;\n}",
+      "lines": 40,
+      "depth": 14,
+      "decorators": [
+        "int"
+      ]
+    },
+    "context_free": {
+      "start_point": [
+        446,
+        0
+      ],
+      "end_point": [
+        450,
+        1
+      ],
+      "content": "void\ncontext_free (void)\n{\n  mem_free ();\n}",
+      "lines": 5,
+      "depth": 6,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/context.h": {},
+  "bool/bool-0.2.2/src/err.c": {
+    "err_message": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "content": "void\nerr_message (const char *msg)\n{\n  if (opt.suppress_errors)\n    return;\n\n  if (errno)\n    fprintf (stderr, \"bool: %s: %s\\n\", msg, strerror (errno));\n  else\n    fprintf (stderr, \"bool: %s\\n\", msg);\n}",
+      "lines": 11,
+      "depth": 9,
+      "decorators": [
+        "void"
+      ]
+    },
+    "err_fatal": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "content": "void\nerr_fatal (const char *msg)\n{\n  fprintf (stderr, \"bool: %s\\n\", msg);\n  exit (2);\n}",
+      "lines": 6,
+      "depth": 7,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/err.h": {},
+  "bool/bool-0.2.2/src/event.c": {},
+  "bool/bool-0.2.2/src/event.h": {},
+  "bool/bool-0.2.2/src/expr.c": {
+    "get_token": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        193,
+        1
+      ],
+      "content": "static struct tree *\nget_token (char **str)\n{\n  register unsigned char c;\n  register char *beg, *end;\n  struct tree *tree;\n  int val;\n\n  beg = *str;\n  while (is_space (*beg))\n    beg++;\n\n  end = beg;\n  switch (*end)\n    {\n    case '\\0':\n      return NULL;\n    case '\\\"':\n      end = ++beg;\n      while ((c = *end++) != '\\0')\n\tif (*end == '\\\"' && c != '\\\\')\n\t  break;\n      if (*end != '\\\"')\n\treturn NULL;\n      *str = end + 1;\n      break;\n    case '\\'':\n      end = ++beg;\n      while ((c = *end++) != '\\0')\n\tif (*end == '\\'' && c != '\\\\')\n\t  break;\n      if (*end != '\\'')\n\treturn NULL;\n      *str = end + 1;\n      break;\n    default:\n      do\n\tc = *end++;\n      while ((c == '\\\\' || !is_space (*end))\n\t     && *end != ')' && *end != '\\0');\n      *str = end;\n      break;\n    }\n\n  val = match_incr (beg, end, expr->num_kw);\n  if (val == expr->num_kw)\n    expr->num_kw++;\n\n  expr->num_pat++;\n  tree = mem_alloc (sizeof (struct tree));\n  tree->left = beg;\n  tree->right = end;\n  tree->value = val;\n\n  return tree;\n}",
+      "lines": 56,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "struct tree",
+        "struct",
+        "tree",
+        "*\nget_token (char **str)",
+        "*"
+      ]
+    },
+    "lookahead": {
+      "start_point": [
+        195,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "content": "static enum token\nlookahead (char **str)\n{\n  while (is_space (**str))\n    (*str)++;\n  switch (**str)\n    {\n    case '\\0':\n      return END;\n    case '(':\n      (*str)++;\n      return OPEN;\n    case ')':\n      (*str)++;\n      return CLOSE;\n    case 'a':\n    case 'A':\n      if (((*str)[1]=='n' || (*str)[1]=='N')\n\t  && ((*str)[2]=='d' || (*str)[2]=='D')\n\t  && (is_space ((*str)[3]) || (*str)[3]=='(' || (*str)[3]=='\\0'))\n\t{\n\t  *str += 3;\n\t  return AND;\n\t}\n      break;\n    case 'n':\n    case 'N':\n      switch ((*str)[1]) {\n      case 'o':\n      case 'O':\n\tif (((*str)[2]=='t' || (*str)[2]=='T')\n\t    && (is_space ((*str)[3]) || (*str)[3]=='(' || (*str)[3]=='\\0'))\n\t  {\n\t    *str += 3;\n\t    return NOT;\n\t  }\n\tbreak;\n      case 'e':\n      case 'E':\n\tif (((*str)[2]=='a' || (*str)[2]=='A')\n\t    && ((*str)[3]=='r' || (*str)[3]=='R')\n\t    && (is_space ((*str)[4]) || (*str)[4]=='(' || (*str)[4]=='\\0'))\n\t  {\n\t    *str += 4;\n\t    return NEAR;\n\t  }\n\tbreak;\n      }\n      break;\n    case 'o':\n    case 'O':\n      if (((*str)[1]=='r' || (*str)[1]=='R')\n\t  && (is_space ((*str)[2]) || (*str)[2]=='(' || (*str)[2]=='\\0'))\n\t{\n\t  *str += 2;\n\t  return OR;\n\t}\n      break;\n    }\n\n  return TERM;\n}",
+      "lines": 62,
+      "depth": 20,
+      "decorators": [
+        "static",
+        "static",
+        "enum token",
+        "enum",
+        "token"
+      ]
+    },
+    "tree_dup": {
+      "start_point": [
+        258,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "content": "static struct tree *\ntree_dup (struct tree *tree)\n{\n  if (tree->value < 0)\n    {\n      struct tree *p;\n\n      p = mem_alloc (sizeof (struct tree));\n      p->left = tree_dup (tree->left);\n      p->right = tree_dup (tree->right);\n      p->value = tree->value;\n\n      return p;\n    }\n  else\n    return tree;\n}",
+      "lines": 17,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "struct tree",
+        "struct",
+        "tree",
+        "*\ntree_dup (struct tree *tree)",
+        "*"
+      ]
+    },
+    "tree_norm": {
+      "start_point": [
+        276,
+        0
+      ],
+      "end_point": [
+        309,
+        1
+      ],
+      "content": "static struct tree *\ntree_norm (struct tree *l, struct tree *r)\n{\n  struct tree *tree;\n\n  if (r->value < NEAR)\n    {\n      expr->num_pat++;\n      tree = tree_dup (l);\n      r->left = tree_norm (l, r->left);\n      r->right = tree_norm (tree, r->right);\n\n      return r;\n    }\n  else if (l->value < NEAR)\n    {\n      expr->num_pat++;\n      tree = l;\n      tree->left = tree_norm (l->left, r);\n      tree->right = tree_norm (l->right, r);\n\n      return tree;\n    }\n  else\n    {\n      expr->num_pat--;\n      tree = mem_alloc (sizeof (struct tree));\n      tree->left = l;\n      tree->right = r;\n      tree->value = NEAR;\n\n      return tree;\n    }\n}",
+      "lines": 34,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "struct tree",
+        "struct",
+        "tree",
+        "*\ntree_norm (struct tree *l, struct tree *r)",
+        "*"
+      ]
+    },
+    "term": {
+      "start_point": [
+        311,
+        0
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "content": "static struct tree *\nterm (char **str, enum token *tok)\n{\n  struct tree *tree;\n\n  if (*tok == OPEN)\n    {\n      tree = parse (str, tok);\n      if (*tok == END)\n\treturn NULL;\n    }\n  else if (*tok == TERM)\n    tree = get_token (str);\n  else\n    return NULL;\n\n  *tok = lookahead (str);\n  return tree;\n}",
+      "lines": 19,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "struct tree",
+        "struct",
+        "tree",
+        "*\nterm (char **str, enum token *tok)",
+        "*"
+      ]
+    },
+    "parse": {
+      "start_point": [
+        331,
+        0
+      ],
+      "end_point": [
+        378,
+        1
+      ],
+      "content": "static struct tree *\nparse (char **str, enum token *tok)\n{\n  struct tree *left, *tree;\n\n  *tok = lookahead (str);\n  left = term (str, tok);\n  if (!left)\n    return NULL;\n\n  for (;;)\n    switch (*tok)\n      {\n      case AND:\n      case NOT:\n      case OR:\n\ttree = mem_alloc (sizeof (struct tree));\n\ttree->value = *tok;\n\t*tok = lookahead (str);\n\n\ttree->left = left;\n\ttree->right = term (str, tok);\n\tif (!tree->right)\n\t  return NULL;\n\n\tleft = tree;\n\tbreak;\n      case NEAR:\n\t*tok = lookahead (str);\n\ttree = term (str, tok);\n\tif (!tree)\n\t  return NULL;\n\n\tleft = tree_norm (left, tree);\n\tbreak;\n      case TERM:\n      case OPEN:\n\treturn NULL;\n      case END:\n      case CLOSE:\n\treturn left;\n\n      default:\n\tabort ();\n      }\n\n  return NULL;\n}",
+      "lines": 48,
+      "depth": 14,
+      "decorators": [
+        "static",
+        "static",
+        "struct tree",
+        "struct",
+        "tree",
+        "*\nparse (char **str, enum token *tok)",
+        "*"
+      ]
+    },
+    "list_kw": {
+      "start_point": [
+        380,
+        0
+      ],
+      "end_point": [
+        399,
+        1
+      ],
+      "content": "static void\nlist_kw (struct tree *tree, int num_pat)\n{\n  if (tree->value < 0)\n    {\n      list_kw (tree->left, num_pat);\n      list_kw (tree->right, num_pat);\n    }\n  else\n    {\n      struct list *list;\n      struct kw *kw;\n\n      kw = expr->kw + tree->value;\n      list = kw->list;\n      kw->list = mem_alloc (sizeof (struct list));\n      kw->list->next = list;\n      kw->list->pat = num_pat;\n    }\n}",
+      "lines": 20,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "list_pat": {
+      "start_point": [
+        401,
+        0
+      ],
+      "end_point": [
+        426,
+        1
+      ],
+      "content": "static void\nlist_pat (struct tree *tree, int *num_pat)\n{\n  if (tree->value < NEAR)\n    {\n      list_pat (tree->left, num_pat);\n      list_pat (tree->right, num_pat);\n    }\n  else\n    {\n      struct pat *pat;\n    \n      list_kw (tree, *num_pat);\n      pat = expr->pat + *num_pat;\n      if (tree->value == NEAR)\n\t{\n\t  pat->tree = mem_alloc (sizeof (struct tree));\n\t  *pat->tree = *tree;\n\t}\n      else\n\tpat->tree = tree;\n\n      tree->value = *num_pat;\n      *num_pat += 1;\n    }\n}",
+      "lines": 26,
+      "depth": 14,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "expr_init": {
+      "start_point": [
+        428,
+        0
+      ],
+      "end_point": [
+        468,
+        1
+      ],
+      "content": "int\nexpr_init (char *str)\n{\n  register int i;\n  int pat;\n\n  expr = mem_alloc (sizeof (struct expr));\n  match_init (opt.ignore_case);\n\n  if (opt.fixed_string)\n    {\n      expr->tree = mem_alloc (sizeof (struct tree));\n      expr->tree->value = 0;\n      expr->tree->left = str;\n      expr->tree->right = str + strlen (str);\n      expr->num_kw = expr->num_pat = 1;\n      match_incr (expr->tree->left, expr->tree->right, 0);\n    }\n  else\n    {\n      enum token tok;\n\n      expr->num_kw = expr->num_pat = 0;\n      expr->tree = parse (&str, &tok);\n      if (!expr->tree)\n\treturn 0;\n    }\n\n  expr->state = NULL;\n  expr->pat = mem_alloc (expr->num_pat * sizeof (struct pat));\n  expr->kw  = mem_alloc (expr->num_kw * sizeof (struct kw));\n\n  for (i = 0; i < expr->num_kw; i++)\n    expr->kw[i].list = NULL;\n\n  pat = 0;\n  list_pat (expr->tree, &pat);\n  match_prep ();\n\n  return expr->num_pat;\n}",
+      "lines": 41,
+      "depth": 12,
+      "decorators": [
+        "int"
+      ]
+    },
+    "expr_prep": {
+      "start_point": [
+        470,
+        0
+      ],
+      "end_point": [
+        480,
+        1
+      ],
+      "content": "void\nexpr_prep ()\n{\n  register int i;\n\n  for (i = 0; i < expr->num_pat; i++)\n    expr->pat[i].count = 0;\n\n  for (i = 0; i < expr->num_kw; i++)\n    expr->kw[i].byte = expr->kw[i].word = 0;\n}",
+      "lines": 11,
+      "depth": 10,
+      "decorators": [
+        "void"
+      ]
+    },
+    "tree_eval": {
+      "start_point": [
+        482,
+        0
+      ],
+      "end_point": [
+        498,
+        1
+      ],
+      "content": "static int\ntree_eval (struct tree *tree)\n{\n  switch (tree->value)\n    {\n    case AND:\n      return tree_eval (tree->left) && tree_eval (tree->right);\n    case NEAR:\n      abort ();\n    case NOT:\n      return tree_eval (tree->left) && !tree_eval (tree->right);\n    case OR:\n      return tree_eval (tree->left) || tree_eval (tree->right);\n    default:\n      return expr->pat[tree->value].count;\n    }\n}",
+      "lines": 17,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "expr_eval": {
+      "start_point": [
+        500,
+        0
+      ],
+      "end_point": [
+        504,
+        1
+      ],
+      "content": "int\nexpr_eval (void)\n{\n  return tree_eval (expr->tree);\n}",
+      "lines": 5,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    },
+    "tree_print": {
+      "start_point": [
+        506,
+        0
+      ],
+      "end_point": [
+        520,
+        1
+      ],
+      "content": "static void\ntree_print (struct tree *tree, int *num)\n{\n  if (tree->value < 0)\n    {\n      tree_print (tree->left, num);\n      tree_print (tree->right, num);\n    }\n  else\n    {\n      if ((*num)++)\n\tprintf (\"%s\", sep_keyword);\n      printf (\"%.*s\", tree->right - tree->left, (char *)tree->left);\n    }\n}",
+      "lines": 15,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "expr_print": {
+      "start_point": [
+        522,
+        0
+      ],
+      "end_point": [
+        529,
+        1
+      ],
+      "content": "void\nexpr_print (int pattern)\n{\n  int num;\n\n  num = 0;\n  tree_print (expr->pat[pattern].tree, &num);\n}",
+      "lines": 8,
+      "depth": 9,
+      "decorators": [
+        "void"
+      ]
+    },
+    "expr_count": {
+      "start_point": [
+        531,
+        0
+      ],
+      "end_point": [
+        535,
+        1
+      ],
+      "content": "int\nexpr_count (int pattern)\n{\n  return expr->pat[pattern].count;\n}",
+      "lines": 5,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    },
+    "tree_distance": {
+      "start_point": [
+        537,
+        0
+      ],
+      "end_point": [
+        553,
+        1
+      ],
+      "content": "static int\ntree_distance (struct tree *tree)\n{\n  if (tree->value < 0)\n    {\n      int d, l, r;\n\n      l = tree_distance (tree->left);\n      r = tree_distance (tree->right);\n      if (!l || !r)\n\treturn 0;\n\n      d = l - r < 0 ? r - l : l - r;\n      return d - 1 <= opt.distance ? r : 0;\n    }\n  return expr->kw[tree->value].word;\n}",
+      "lines": 17,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "expr_near": {
+      "start_point": [
+        555,
+        0
+      ],
+      "end_point": [
+        577,
+        1
+      ],
+      "content": "int\nexpr_near (int keyword, int pattern)\n{\n  struct pat *pat;\n  struct kw *kw;\n  int near;\n\n  kw = expr->kw + keyword;\n  pat = expr->pat + pattern;\n  if (pat->tree->value < 0)\n    {\n      near = tree_distance (pat->tree);\n      if (!near)\n\tnear = -1;\n    }\n  else\n    near = 0;\n\n  if (near >= 0)\n    pat->count++;\n\n  return near;\n}",
+      "lines": 23,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "expr_next": {
+      "start_point": [
+        579,
+        0
+      ],
+      "end_point": [
+        601,
+        1
+      ],
+      "content": "int\nexpr_next (int keyword, int byte, int word, int paragraph)\n{\n  struct list *list;\n  struct pat *pat;\n  struct kw *kw;\n\n  kw = expr->kw + keyword;\n  if (!expr->state)\n    {\n      if (kw->byte == byte)\n\treturn -1;\n      list = kw->list;\n    }\n  else\n    list = expr->state;\n\n  kw->byte = byte;\n  kw->word = word + paragraph * (opt.distance + 1);\n\n  expr->state = list->next;\n  return list->pat;\n}",
+      "lines": 23,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/expr.h": {},
+  "bool/bool-0.2.2/src/html.c": {
+    "html_find": {
+      "start_point": [
+        328,
+        0
+      ],
+      "end_point": [
+        449,
+        1
+      ],
+      "content": "int\nhtml_find (char **pos, char **buf, char *lim)\n{\n  register unsigned char c;\n  register char *fpos;\n  unsigned char *table;\n  int ret, num_paragraphs, num_lines, num_words;\n  char *end;\n\n  table = *context->pattern_table;\n  num_paragraphs = context->num_paragraphs;\n  num_lines = context->num_lines;\n  num_words = context->num_words;\n  fpos = *pos;\n  end = *buf;\n\n  for (;;)\n    {\n      c = *end++;\n      switch (table[event[c]])\n\t{\n\tcase S2N:\n\tcase W2N:\n\t  if (end > lim)\n\t    {\n\t      end--;\n\t      find_last ();\n\t    }\n\tcase NOP:\n\t  break;\n\n\tcase LINE:\n\t  num_lines++;\n\t  break;\n\n\tcase C2T:\n\t  if (*end == '-')\n\t    end++, POP (table);\n\t  break;\n\tcase T2C:\n\t  if (*end == '-')\n\t    end++, PUSH (table, comment);\n\t  break;\n\n\tcase W2C:  case S2C:\n\tcase W2PC: case S2PC:\n\tcase PW2C: case PS2C: case PL2C:\n\t  find_character (num_words++);\n\t  break;\n\n\tcase S2T:  case W2T:\n\tcase S2PT: case W2PT:\n\tcase PS2T: case PW2T:\n\t  find_tag (num_words++);\n\t  break;\n\n\tcase T2D:\n\t  PUSH (table, dquote);\n\t  break;\n\tcase T2S:\n\t  PUSH (table, squote);\n\t  break;\n\n\tcase POP:\n\t  POP (table);\n\t  break;\n\n\tcase S2P:\n\t  num_words++;\n\tcase W2P:\n\t  table = pword;\n\t  *fpos++ = c;\n\t  find_first ();\n\t  break;\n\n\tcase PL2P:\n\tcase PS2P:\n\t  num_words++;\n\t  table = pword;\n\tcase PAT:\n\t  *fpos++ = c;\n\t  find_next ();\n\t  break;\n\n\tcase S2W:\n\t  num_words++;\n\t  table = word;\n\tcase WRD:\n\t  *fpos++ = c;\n\t  break;\n\n\tcase PW2L:\n\t  num_lines++;\n\tcase PW2S:\n\t  table = pspace;\n\t  *fpos++ = ' ';\n\t  find_space ();\n\t  break;\n\n\tcase W2L:\n\t  num_lines++;\n\tcase W2S:\n\t  table = space;\n\t  *fpos++ = ' ';\n\t  break;\n\n\tdefault:\n\t  abort ();\n\t}\n    }\n\n fin:\n  context->num_bytes += end - *pos;\n  context->num_words = num_words;\n  context->num_lines = num_lines;\n  context->num_paragraphs = num_paragraphs;\n  *context->pattern_table = table;\n  *pos = fpos;\n  *buf = end;\n\n  return ret - 1;\n}",
+      "lines": 122,
+      "depth": 13,
+      "decorators": [
+        "int"
+      ]
+    },
+    "html_forward": {
+      "start_point": [
+        465,
+        0
+      ],
+      "end_point": [
+        562,
+        1
+      ],
+      "content": "unsigned char *\nhtml_forward (char *pos, char *lim)\n{\n  register unsigned char c;\n  register char *fpos;\n  unsigned char *table;\n  char *end, *max;\n  int num_paragraphs, num_lines;\n\n  table = *context->forward_table ? *context->forward_table : pword;\n  max = context->tmp->str + MAX (opt.context/2, context->tmp->bpos - 1);\n  fpos = context->tmp->str + context->tmp->fpos;\n  num_paragraphs = num_lines = 0;\n  end = pos;\n\n  while (fpos < max)\n    {\n      c = *end++;\n      switch (table[event[c]])\n\t{\n\tcase S2N:\n\t  if (end <= lim)\n\t    table = NULL;\n\t  find_last ();\n\t  break;\n\tcase W2N:\n\t  if (end <= lim)\n\t    table = NULL;\n\t  find_last ();\n\tcase LINE:\n\tcase NOP:\n\t  break;\n\n\tcase C2T:\n\t  if (*end == '-')\n\t    end++, POP (table);\n\t  break;\n\tcase T2C:\n\t  if (*end == '-')\n\t    end++, PUSH (table, comment);\n\t  break;\n\n\tcase PL2C:\n\tcase PS2C:\n\tcase PW2C:\n\t  find_character (nop);\n\t  break;\n\n\tcase PL2T:\n\tcase PS2T:\n\tcase PW2T:\n\t  find_tag (nop);\n\t  if (*(fpos - 1) == '\\f')\n\t    {\n\t      POP (table);\n\t      table = NULL;\n\t      fpos--;\n\t      goto fin;\n\t    }\n\t  break;\n\n\tcase T2D:\n\t  PUSH (table, dquote);\n\t  break;\n\tcase T2S:\n\t  PUSH (table, squote);\n\t  break;\n\n\tcase POP:\n\t  POP (table);\n\t  break;\n\n\tcase PW2L:\n\tcase PW2S:\n\t  table = pspace;\n\t  c = ' ';\n\tcase PAT:\n\t  *fpos++ = c;\n\t  break;\n\n\tcase PL2P:\n\tcase PS2P:\n\t  table = pword;\n\t  *fpos++ = c;\n\t  break;\n\n\tdefault:\n\t  abort ();\n\t}\n    }\n\n  table = NULL;\n\n fin:\n  *context->forward_table = table;\n  context->tmp->fpos = fpos - context->tmp->str;\n  return table;\n}",
+      "lines": 98,
+      "depth": 14,
+      "decorators": [
+        "unsigned char",
+        "unsigned",
+        "char",
+        "*\nhtml_forward (char *pos, char *lim)",
+        "*"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/html.h": {},
+  "bool/bool-0.2.2/src/match.c": {
+    "match_init": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "content": "void\nmatch_init (int icase)\n{\n  ac = mem_alloc (sizeof (struct ac));\n  ac->trie = mem_alloc (sizeof (struct trie));\n\n  ac->trie->accepting = 0;\n  ac->trie->links = 0;\n  ac->trie->next = 0;\n  ac->trie->fail = 0;\n\n  if (icase)\n    {\n      register int i;\n\n      ac->trans = trans;\n      for (i = 0; i < 256; ++i)\n\ttrans[i] = tolower (i);\n    }\n  else\n    ac->trans = NULL;\n}",
+      "lines": 22,
+      "depth": 10,
+      "decorators": [
+        "void"
+      ]
+    },
+    "get_label": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "content": "static unsigned char\nget_label (char **text, char *lim)\n{\n  register unsigned char c;\n\n  c = *(*text)++;\n  if (c == '\\\\' && (lim - *text))\n    c = *(*text)++;\n  else if (c == '&')\n    c = get_character (text, lim);\n\n  return ac->trans ? trans[c] : c;\n}",
+      "lines": 13,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "unsigned char",
+        "unsigned",
+        "char"
+      ]
+    },
+    "match_incr": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "content": "int\nmatch_incr (char *text, char *lim, int index)\n{\n  register struct trie *trie;\n  register struct tree *link;\n  register unsigned char label;\n  register int depth;\n\n  struct tree *links[MAXDEPTH];\n  enum { L, R } dirs[MAXDEPTH];\n\n  label = get_label (&text, lim);\n  event[label] += event[label] % 2;\n  if (ac->trans)\n    event[toupper(label)] = event[label];\n\n  trie = ac->trie;\n  while (text <= lim)\n    {\n      link = trie->links;\n      links[0] = (struct tree *) &trie->links;\n      dirs[0] = L;\n      depth = 1;\n\n      while (link && label != link->label)\n\t{\n\t  links[depth] = link;\n\t  if (label < link->label)\n\t    dirs[depth++] = L, link = link->left;\n\t  else\n\t    dirs[depth++] = R, link = link->right;\n\t}\n\n      if (!link)\n\t{\n\t  struct tree *r, *l, *rl, *lr, *t = NULL;\n\n\t  link = mem_alloc (sizeof (struct tree));\n\t  link->label = label;\n\t  link->balance = 0;\n\t  link->left = 0;\n\t  link->right = 0;\n\n\t  link->trie = mem_alloc (sizeof (struct trie));\n\t  link->trie->accepting = 0;\n\t  link->trie->links = 0;\n\t  link->trie->next = 0;\n\t  link->trie->fail = 0;\n\n\t  if (dirs[--depth] == L)\n\t    links[depth]->left = link;\n\t  else\n\t    links[depth]->right = link;\n\n\t  while (depth && !links[depth]->balance)\n\t    {\n\t      if (dirs[depth] == L)\n\t\t--links[depth]->balance;\n\t      else\n\t\t++links[depth]->balance;\n\t      --depth;\n\t    }\n\n\t  if (depth && ((dirs[depth] == L && --links[depth]->balance)\n\t      || (dirs[depth] == R && ++links[depth]->balance)))\n\t    {\n\t      switch (links[depth]->balance)\n\t\t{\n\t\tcase (char) -2:\n\t\t  switch (dirs[depth + 1])\n\t\t    {\n\t\t    case L:\n\t\t      r = links[depth], t = r->left, rl = t->right;\n\t\t      t->right = r, r->left = rl;\n\t\t      t->balance = r->balance = 0;\n\t\t      break;\n\t\t    case R:\n\t\t      r = links[depth], l = r->left, t = l->right;\n\t\t      rl = t->right, lr = t->left;\n\t\t      t->left = l, l->right = lr;\n\t\t      t->right = r, r->left = rl;\n\t\t      l->balance = t->balance != 1 ? 0 : -1;\n\t\t      r->balance = t->balance != (char) -1 ? 0 : 1;\n\t\t      t->balance = 0;\n\t\t      break;\n\t\t    default:\n\t\t      abort ();\n\t\t    }\n\t\t  break;\n\t\tcase 2:\n\t\t  switch (dirs[depth + 1])\n\t\t    {\n\t\t    case R:\n\t\t      l = links[depth], t = l->right, lr = t->left;\n\t\t      t->left = l, l->right = lr;\n\t\t      t->balance = l->balance = 0;\n\t\t      break;\n\t\t    case L:\n\t\t      l = links[depth], r = l->right, t = r->left;\n\t\t      lr = t->left, rl = t->right;\n\t\t      t->left = l, l->right = lr;\n\t\t      t->right = r, r->left = rl;\n\t\t      l->balance = t->balance != 1 ? 0 : -1;\n\t\t      r->balance = t->balance != (char) -1 ? 0 : 1;\n\t\t      t->balance = 0;\n\t\t      break;\n\t\t    default:\n\t\t      abort ();\n\t\t    }\n\t\t  break;\n\t\tdefault:\n\t\t  abort ();\n\t\t}\n\n\t      if (dirs[depth - 1] == L)\n\t\tlinks[depth - 1]->left = t;\n\t      else\n\t\tlinks[depth - 1]->right = t;\n\t    }\n\t}\n\n      label = get_label (&text, lim);\n      label = trans[label];\n      trie = link->trie;\n    }\n\n  if (!trie->accepting)\n    trie->accepting = index + 1;\n\n  return trie->accepting - 1;\n}",
+      "lines": 131,
+      "depth": 21,
+      "decorators": [
+        "int"
+      ]
+    },
+    "enqueue": {
+      "start_point": [
+        288,
+        0
+      ],
+      "end_point": [
+        296,
+        1
+      ],
+      "content": "static void\nenqueue (struct tree *tree, struct trie **last)\n{\n  if (!tree)\n    return;\n  enqueue (tree->left, last);\n  enqueue (tree->right, last);\n  (*last) = (*last)->next = tree->trie;\n}",
+      "lines": 9,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "tree_fails": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        327,
+        1
+      ],
+      "content": "static void\ntree_fails (register struct tree *tree, struct trie *fail,\n\t   struct trie *recourse)\n{\n  register struct tree *link;\n\n  if (!tree)\n    return;\n\n  tree_fails (tree->left, fail, recourse);\n  tree_fails (tree->right, fail, recourse);\n\n  while (fail)\n    {\n      link = fail->links;\n      while (link && tree->label != link->label)\n\tif (tree->label < link->label)\n\t  link = link->left;\n\telse\n\t  link = link->right;\n      if (link)\n\t{\n\t  tree->trie->fail = link->trie;\n\t  return;\n\t}\n      fail = fail->fail;\n    }\n\n  tree->trie->fail = recourse;\n}",
+      "lines": 30,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "match_prep": {
+      "start_point": [
+        329,
+        0
+      ],
+      "end_point": [
+        340,
+        1
+      ],
+      "content": "void\nmatch_prep ()\n{\n  register struct trie *curr;\n  struct trie *last;\n\n  for (curr = last = ac->trie; curr; curr = curr->next)\n    {\n      enqueue (curr->links, &last);\n      tree_fails (curr->links, curr->fail, ac->trie);\n    }\n}",
+      "lines": 12,
+      "depth": 9,
+      "decorators": [
+        "void"
+      ]
+    },
+    "match_first": {
+      "start_point": [
+        354,
+        0
+      ],
+      "end_point": [
+        363,
+        1
+      ],
+      "content": "int\nmatch_first (unsigned char c)\n{\n  struct tree *tree;\n\n  c = ac->trans ? trans[c] : c;\n  match_edge (ac->trie);\n  ac->cur = tree->trie;\n  return ac->cur->accepting;\n}",
+      "lines": 10,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    },
+    "match_next": {
+      "start_point": [
+        365,
+        0
+      ],
+      "end_point": [
+        384,
+        1
+      ],
+      "content": "int\nmatch_next (unsigned char c)\n{\n  struct tree *tree;\n  struct trie *trie;\n\n  c = ac->trans ? trans[c] : c;\n  trie = ac->cur;\n  for (;;)\n    {\n      match_edge (trie);\n      if (tree)\n\t{\n\t  ac->cur = tree->trie;\n\t  return ac->cur->accepting;\n\t}\n      else if ((trie = trie->fail) == NULL)\n\treturn -1;\n    }\n}",
+      "lines": 20,
+      "depth": 12,
+      "decorators": [
+        "int"
+      ]
+    },
+    "match_maybe": {
+      "start_point": [
+        386,
+        0
+      ],
+      "end_point": [
+        396,
+        1
+      ],
+      "content": "int\nmatch_maybe (unsigned char c)\n{\n  struct tree *tree;\n\n  match_edge (ac->cur);\n  if (tree)\n    ac->cur = tree->trie;\n\n  return ac->cur->accepting;\n}",
+      "lines": 11,
+      "depth": 7,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/match.h": {},
+  "bool/bool-0.2.2/src/mem.c": {
+    "mem_init": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "content": "void\nmem_init (void)\n{\n  register struct block *block;\n  size_t page_size;\n\n  page_size = getpagesize ();\n  mem = malloc (page_size);\n  if (!mem)\n    err_fatal (\"memory exhausted\");\n\n  block = mem->block = (struct block *)\n      ((char *)mem + ALIGN (sizeof (struct mem)));\n  mem->next = block->contents;\n  mem->lim = (char *) mem + page_size;\n  mem->size = page_size;\n  block->prev = NULL;\n}",
+      "lines": 18,
+      "depth": 14,
+      "decorators": [
+        "void"
+      ]
+    },
+    "mem_alloc": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "content": "void *\nmem_alloc (int length)\n{\n  register void *ptr;\n\n  if (mem->next + length > mem->lim)\n    {\n      register struct block *block;\n      register long new_size;\n\n      mem->size *= 2;\n      new_size = length + sizeof (struct block *);\n      new_size += mem->size - (new_size % mem->size);\n\n      block = malloc (new_size);\n      if (!block)\n\terr_fatal (\"memory exhausted\");\n\n      block->prev = mem->block;\n      mem->block = block;\n      mem->next = block->contents;\n      mem->lim = (char *) block + new_size;\n    }\n  ptr = mem->next;\n  mem->next = (char *)ALIGN (mem->next + length);\n  return ptr;\n}",
+      "lines": 27,
+      "depth": 11,
+      "decorators": [
+        "void",
+        "*\nmem_alloc (int length)",
+        "*"
+      ]
+    },
+    "mem_free": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        129,
+        1
+      ],
+      "content": "void\nmem_free (void)\n{\n  register struct block *lp, *plp;\n\n  lp = mem->block;\n  while (lp->prev != 0)\n    {\n      plp = lp->prev;\n      free(lp);\n      lp = plp;\n    }\n  free(mem);\n}",
+      "lines": 14,
+      "depth": 8,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/mem.h": {},
+  "bool/bool-0.2.2/src/options.h": {},
+  "bool/bool-0.2.2/src/sgml.c": {
+    "get_entity": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "content": "static unsigned char\nget_entity (char **str, char *lim)\n{\n  static unsigned char entityhash[] = {\n       16,  1, 70,  0,  4, 70, 61,123,  0, 70, 25,  0,123,  0, 76, 26,\n\t0, 61,  0,  1, 51,  1, 76,  0,  4,  0,  4, 85, 47,  0, 51, 87,\n       16,  0,101,106, 76, 76, 70,  0, 17,119,119,  5,  0, 47, 17,  0,\n\t1, 76,  0, 16, 76, 70,123, 83,  0, 16,104,112, 66,101,  0, 76,\n  };\n\n  static struct entitylist {\n    char name[MAX_ENTITY_LEN];\n    unsigned char val;\n  } entitylist[ENTITY_NUM] = {\n    {\"gt\", 62},\n    {\"raquo\", 187},\n    {\"thorn\", 254},\n    {\"uml\", 168},\n    {\"ordf\", 170},\n    {\"cedil\", 184},\n    {\"micro\", 181},\n    {\"Auml\", 196},\n    {\"Eacute\", 201},\n    {\"aelig\", 230},\n    {\"Iacute\", 205},\n    {\"Ccedil\", 199},\n    {\"ugrave\", 249},\n    {\"ntilde\", 241},\n    {\"atilde\", 227},\n    {\"ordm\", 186},\n    {\"Yacute\", 221},\n    {\"Uacute\", 218},\n    {\"AElig\", 198},\n    {\"curren\", 164},\n    {\"acute\", 180},\n    {\"Ograve\", 210},\n    {\"Iuml\", 207},\n    {\"frac12\", 189},\n    {\"Ecirc\", 202},\n    {\"frac14\", 188},\n    {\"aring\", 229},\n    {\"Acirc\", 194},\n    {\"para\", 182},\n    {\"yen\", 165},\n    {\"icirc\", 238},\n    {\"brvbar\", 166},\n    {\"divide\", 247},\n    {\"szlig\", 223},\n    {\"THORN\", 222},\n    {\"middot\", 183},\n    {\"plusmn\", 177},\n    {\"egrave\", 232},\n    {\"eth\", 240},\n    {\"yuml\", 255},\n    {\"ouml\", 246},\n    {\"uacute\", 250},\n    {\"Agrave\", 192},\n    {\"ccedil\", 231},\n    {\"cent\", 162},\n    {\"yacute\", 253},\n    {\"macr\", 175},\n    {\"not\", 172},\n    {\"Aring\", 197},\n    {\"frac34\", 190},\n    {\"lt\", 60},\n    {\"Oacute\", 211},\n    {\"ecirc\", 234},\n    {\"Otilde\", 213},\n    {\"aacute\", 225},\n    {\"Euml\", 203},\n    {\"sup3\", 179},\n    {\"sup2\", 178},\n    {\"sup1\", 185},\n    {\"times\", 215},\n    {\"Ouml\", 214},\n    {\"pound\", 163},\n    {\"reg\", 174},\n    {\"oacute\", 243},\n    {\"oslash\", 248},\n    {\"Aacute\", 193},\n    {\"quot\", 34},\n    {\"Oslash\", 216},\n    {\"iexcl\", 161},\n    {\"iuml\", 239},\n    {\"Ocirc\", 212},\n    {\"laquo\", 171},\n    {\"amp\", 38},\n    {\"Egrave\", 200},\n    {\"agrave\", 224},\n    {\"iacute\", 237},\n    {\"acirc\", 226},\n    {\"ograve\", 242},\n    {\"uuml\", 252},\n    {\"ocirc\", 244},\n    {\"otilde\", 245},\n    {\"euml\", 235},\n    {\"ETH\", 208},\n    {\"eacute\", 233},\n    {\"shy\", 173},\n    {\"Atilde\", 195},\n    {\"nbsp\", 160},\n    {\"auml\", 228},\n    {\"copy\", 169},\n    {\"sect\", 167},\n    {\"Ugrave\", 217},\n    {\"Icirc\", 206},\n    {\"iquest\", 191},\n    {\"Igrave\", 204},\n    {\"deg\", 176},\n    {\"Ntilde\", 209},\n    {\"ucirc\", 251},\n    {\"Uuml\", 220},\n    {\"igrave\", 236},\n    {\"Ucirc\", 219}\n  };\n\n  register unsigned long hash = 0xf1bbcdc8;\n  register unsigned char c;\n  register char *s = *str;\n\n  while ((c = *s++) && (is_digit (c) || is_alpha (c)))\n    if (s - *str > 8)\n      return '&';\n    else\n      hash = (c ^ hash) + ((hash<<26) + (hash>>6));\n\n  if (c == 0 && s > lim)\n    return 0;\n  else if (c != ';')\n    return '&';\n\n  *str = s;\n  return entitylist[((hash & 0x3F) ^ entityhash[hash >> 26])\n    % ENTITY_NUM].val;\n}",
+      "lines": 135,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "unsigned char",
+        "unsigned",
+        "char"
+      ]
+    },
+    "get_character": {
+      "start_point": [
+        189,
+        0
+      ],
+      "end_point": [
+        224,
+        1
+      ],
+      "content": "unsigned char\nget_character (char **str, char *lim)\n{\n  register unsigned int base, acc = 0;\n  register unsigned char c;\n  register char *s = *str;\n\n  if (*s++ != '#')\n    return get_entity (str, lim);\n\n  if (*s=='x' || *s=='X')\n    base = 16, s++;\n  else\n    base = 10;\n\n  while ((c = *s++) != ';')\n    {\n      if (is_digit (c))\n\tc -= '0';\n      else if (is_alpha (c))\n\tc -= (c > 'Z') ? 'a' - 10 : 'A' - 10;\n      else if (c == '\\0' && s > lim)\n\treturn 0;\n      else\n\treturn '&';\n      if (c >= base)\n\treturn '&';\n      acc *= base;\n      acc += c;\n      if (acc > 256)\n\treturn '&';\n    }\n\n  *str = s;\n  return (unsigned char)acc;\n}",
+      "lines": 36,
+      "depth": 13,
+      "decorators": [
+        "unsigned char",
+        "unsigned",
+        "char"
+      ]
+    },
+    "get_tag": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        562,
+        1
+      ],
+      "content": "enum tag\nget_tag (char **str, char *lim)\n{\n  register int state = T_IG;\n  register unsigned char c;\n  register char *s = *str;\n\n  if (*s=='/')\n    s++;\n\n  switch (*s)\n    {\n    case '!':\n      /* comment */\n      *str = s + 1;\n      return T_IG;\n    case 'a':\n    case 'A':\n      /* address */\n      if ((*(++s)=='d' || *s=='D')\n\t  && (*(++s)=='d' || *s=='D')\n\t  && (*(++s)=='r' || *s=='R')\n\t  && (*(++s)=='e' || *s=='E')\n\t  && (*(++s)=='s' || *s=='S')\n\t  && (*(++s)=='s' || *s=='S'))\n\tstate = T_NP;\n      break;\n    case 'b':\n    case 'B':\n      switch (*(++s))\n\t{\n\tcase 'l':\n\tcase 'L':\n\t  /* blockquote */\n\t  if ((*(++s)=='o' || *s=='O')\n\t      && (*(++s)=='c' || *s=='C')\n\t      && (*(++s)=='k' || *s=='K')\n\t      && (*(++s)=='q' || *s=='Q')\n\t      && (*(++s)=='u' || *s=='U')\n\t      && (*(++s)=='o' || *s=='O')\n\t      && (*(++s)=='t' || *s=='T')\n\t      && (*(++s)=='e' || *s=='E'))\n\t    state = T_NP;\n\t  break;\n\tcase 'r':\n\tcase 'R':\n\t  /* br */\n\t  state = T_NL;\n\t  break;\n\t}\n      break;\n    case 'c':\n    case 'C':\n      switch (*(++s))\n\t{\n\tcase 'a':\n\tcase 'A':\n\t  /* caption */\n\t  if ((*(++s)=='p' || *s=='P')\n\t      && (*(++s)=='t' || *s=='T')\n\t      && (*(++s)=='i' || *s=='I')\n\t      && (*(++s)=='o' || *s=='O')\n\t      && (*(++s)=='n' || *s=='N'))\n\t    state = T_NP;\n\t  break;\n\tcase 'e':\n\tcase 'E':\n\t  /* center */\n\t  if ((*(++s)=='n' || *s=='N')\n\t      && (*(++s)=='t' || *s=='T')\n\t      && (*(++s)=='e' || *s=='E')\n\t      && (*(++s)=='r' || *s=='R'))\n\t    state = T_NP;\n\t  break;\n\t}\n      break;\n    case 'd':\n    case 'D':\n      switch (*(++s))\n\t{\n\tcase 'i':\n\tcase 'I':\n\t  switch (*(++s))\n\t    {\n\t    case 'r':\n\t    case 'R':\n\t      /* dir */\n\t    case 'v':\n\t    case 'V':\n\t      /* div */\n\t      state = T_NP;\n\t      break;\n\t    }\n\t  break;\n\tcase 'l':\n\tcase 'L':\n\t  /* dl */\n\t  state = T_NP;\n\t  break;\n\tcase 't':\n\tcase 'T':\n\t  /* dt */\n\t  state = T_NL;\n\t  break;\n\t}\n      break;\n    case 'e':\n    case 'E':\n      break;\n    case 'f':\n    case 'F':\n      switch (*(++s))\n\t{\n\tcase 'o':\n\tcase 'O':\n\t  /* form */\n\t  if ((*(++s)=='r' || *s=='R')\n\t      && (*(++s)=='m' || *s=='M'))\n\t    state = T_NP;\n\t  break;\n\tcase 'r':\n\tcase 'R':\n\t  /* frame */\n\t  if ((*(++s)=='a' || *s=='A')\n\t      && (*(++s)=='m' || *s=='M')\n\t      && (*(++s)=='e' || *s=='E'))\n\t    state = T_NP;\n\t  break;\n\t}\n      break;\n    case 'g':\n    case 'G':\n      break;\n    case 'h':\n    case 'H':\n      switch (*(++s))\n\t{\n\tcase '1':\n\tcase '2':\n\tcase '3':\n\tcase '4':\n\tcase '5':\n\tcase '6':\n\t  /* h# */\n\tcase 'r':\n\t  /* hr */\n\t  state = T_NP;\n\t  break;\n\t}\n      break;\n    case 'i':\n    case 'I':\n      switch (*(++s))\n\t{\n\tcase 'f':\n\tcase 'F':\n\t  /* iframe */\n\t  if ((*(++s)=='r' || *s=='R')\n\t      && (*(++s)=='a' || *s=='A')\n\t      && (*(++s)=='m' || *s=='M')\n\t      && (*(++s)=='e' || *s=='E'))\n\t    state = T_NP;\n\t  break;\n\tcase 'm':\n\tcase 'M':\n\t  /* img */\n\t  if (*(++s)=='g' || *s=='G')\n\t    state = T_SP;\n\t  break;\n\t}\n      break;\n    case 'j':\n    case 'J':\n    case 'k':\n    case 'K':\n      break;\n    case 'l':\n    case 'L':\n      /* li */\n      if (*(++s)=='i' || *s=='I')\n\tstate = T_NL;\n      break;\n    case 'm':\n    case 'M':\n      /* menu */\n      if ((*(++s)=='e' || *s=='E')\n\t  && (*(++s)=='n' || *s=='N')\n\t  && (*(++s)=='u' || *s=='U'))\n\tstate = T_NP;\n      break;\n    case 'n':\n    case 'N':\n      break;\n    case 'o':\n    case 'O':\n      /* option */\n      if ((*(++s)=='p' || *s=='P')\n\t  && (*(++s)=='t' || *s=='T')\n\t  && (*(++s)=='i' || *s=='I')\n\t  && (*(++s)=='o' || *s=='O')\n\t  && (*(++s)=='n' || *s=='N'))\n\tstate = T_SP;\n      break;\n    case 'p':\n    case 'P':\n      switch (*(++s))\n\t{\n\tcase 'r':\n\tcase 'R':\n\t  /* pre */\n\t  if (*(++s)=='e' || *s=='E')\n\t    state = T_NL;\n\t  break;\n\tcase '>':\n\tcase ' ':\n\tcase '\\f':\n\tcase '\\n':\n\tcase '\\r':\n\tcase '\\t':\n\tcase '\\v':\n\t  /* p */\n\t  *str = s;\n\t  return T_NP;\n\t}\n      break;\n    case 'q':\n    case 'Q':\n    case 'r':\n    case 'R':\n      break;\n    case 's':\n    case 'S':\n      switch (*(++s))\n\t{\n\tcase 'c':\n\tcase 'C':\n\t  /* script */\n\t  if ((*(++s)=='r' || *s=='R')\n\t      && (*(++s)=='i' || *s=='R')\n\t      && (*(++s)=='p' || *s=='R')\n\t      && (*(++s)=='t' || *s=='R'))\n\t    state = T_NP;\n\t  break;\n\tcase 'u':\n\tcase 'U':\n\t  switch (*(++s))\n\t    {\n\t    case 'b':\n\t    case 'B':\n\t      /* sub */\n\t    case 'p':\n\t    case 'P':\n\t      /* sup */\n\t      state = T_SP;\n\t      break;\n\t    }\n\t  break;\n\t}\n      break;\n    case 't':\n    case 'T':\n      switch (*(++s))\n\t{\n\tcase 'a':\n\tcase 'A':\n\t  /* table */\n\t  if ((*(++s)=='b' || *s=='B')\n\t      && (*(++s)=='l' || *s=='L')\n\t      && (*(++s)=='e' || *s=='E'))\n\t    state = T_NP;\n\t  break;\n\tcase 'i':\n\tcase 'I':\n\t  /* title */\n\t  if ((*(++s)=='t' || *s=='T')\n\t      && (*(++s)=='l' || *s=='L')\n\t      && (*(++s)=='e' || *s=='E'))\n\t    state = T_NP;\n\t  break;\n\tcase 'd':\n\tcase 'D':\n\t  /* td */\n\tcase 'h':\n\tcase 'H':\n\t  /* th */\n\t  state = T_SP;\n\t  break;\n\tcase 'r':\n\tcase 'R':\n\t  /* tr */\n\t  state = T_NL;\n\t  break;\n\t}\n      break;\n    case 'u':\n    case 'U':\n      /* ul */\n      if (*(++s)=='l' || *s=='L')\n\tstate = T_NP;\n      break;\n    case 'v':\n    case 'V':\n    case 'w':\n    case 'W':\n    case 'x':\n    case 'X':\n    case 'y':\n    case 'Y':\n    case 'z':\n    case 'Z':\n    case '\\0':\n      break;\n    default:\n      return T_NA;\n    }\n\n  if (state != T_IG)\n    {\n      s++;\n      if (is_space (*s))\n\t{\n\t  *str = s;\n\t  return state;\n\t}\n    }\n\n  while ((c = *s++) && !is_space (c))\n    if (s - *str > 8 || (!is_digit (c) && !is_alpha (c)))\n      return T_NA;\n\n  if (c == '\\0' && s > lim)\n    return T_NU;\n\n  *str = s - 1;\n  return T_IG;\n}",
+      "lines": 336,
+      "depth": 24,
+      "decorators": [
+        "enum tag",
+        "enum",
+        "tag"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/sgml.h": {},
+  "bool/bool-0.2.2/src/text.c": {
+    "text_find": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "content": "int\ntext_find (char **pos, char **buf, char *lim)\n{\n  register unsigned char c;\n  register char *end;\n  unsigned char *table;\n  int ret, num_paragraphs, num_lines, num_words;\n\n  table = *context->pattern_table;\n  num_paragraphs = context->num_paragraphs;\n  num_lines = context->num_lines;\n  num_words = context->num_words;\n  end = *pos;\n\n  for (;;)\n    {\n      c = *end++;\n      switch (table[event[c]])\n\t{\n\tcase S2N:\n\tcase W2N:\n\t  if (end > lim)\n\t    {\n\t      end--;\n\t      ret = 0;\n\t      goto fin;\n\t    }\n\tcase WRD:\n\tcase NOP:\n\t  break;\n\n\tcase PL2L:\n\t  num_paragraphs++;\n\tcase S2L:\n\tcase W2L:\n\t  num_lines++;\n\t  table = line;\n\t  break;\n\n\tcase L2L:\n\t  num_lines++;\n\tcase L2F:\n\tcase S2F:\n\t  num_paragraphs++;\n\t  break;\n\n\tcase PL2F:\n\tcase PS2F:\n\tcase PW2F:\n\t  num_paragraphs++;\n\tcase W2S:\n\t  table = space;\n\t  break;\n\n\tcase S2W:\n\t  num_words++;\n\t  table = word;\n\t  break;\n\n\tcase S2P:\n\t  num_words++;\n\tcase W2P:\n\t  table = pword;\n\t  find_first ();\n\t  break;\n\n\tcase PS2D: case PL2D:\n\tcase PS2P: case PL2P:\n\t  num_words++;\n\t  table = pword;\n\tcase PAT:\n\t  find_next ();\n\t  break;\n\n\tcase PW2S:\n\t  table = pspace;\n\t  find_space ();\n\t  break;\n\tcase PW2L:\n\t  num_lines++;\n\t  table = pline;\n\t  find_line ();\n\t  break;\n\n\tcase PW2D:\n\t  table = pspace;\n\t  find_maybe ();\n\t  break;\n\n\tcase PS2L:\n\t  num_lines++;\n\t  table = pline;\n\t  break;\n\n\tdefault:\n\t  abort ();\n\t}\n    }\n\n fin:\n  context->num_bytes += end - *pos;\n  context->num_words = num_words;\n  context->num_lines = num_lines;\n  context->num_paragraphs = num_paragraphs;\n  *context->pattern_table = table;\n  *buf = *pos = end;\n\n  return ret - 1;\n}",
+      "lines": 109,
+      "depth": 12,
+      "decorators": [
+        "int"
+      ]
+    },
+    "text_forward": {
+      "start_point": [
+        222,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "content": "unsigned char *\ntext_forward (char *pos, char *lim)\n{\n  register unsigned char c;\n  register char *end, *fpos;\n  unsigned char *table;\n  char *max;\n\n  table = *context->forward_table ? *context->forward_table : pword;\n  max = context->tmp->str + MAX (opt.context / 2, context->tmp->bpos - 1);\n  fpos = context->tmp->str + context->tmp->fpos;\n  end = pos;\n\n  while (fpos < max)\n    {\n      c = *end++;\n      switch (table[event[c]])\n\t{\n\tcase S2N:\n\t  if (end <= lim)\n\t    table = NULL;\n\t  goto fin;\n\tcase W2N:\n\t  if (end <= lim)\n\t    table = NULL;\n\t  goto fin;\n\n\tcase PAT:\n\tcase PW2D:\n\tcase WRD:\n\t  *fpos++ = c;\n\tcase NOP:\n\t  break;\n\n\tcase PS2D: case PL2D:\n\tcase PS2P: case PL2P:\n\t  *fpos++ = c;\n\t  table = pword;\n\t  break;\n\tcase PW2S:\n\t  *fpos++ = ' ';\n\t  table = pspace;\n\t  break;\n\tcase PW2L:\n\t  *fpos++ = ' ';\n\tcase PS2L:\n\t  table = pline;\n\t  break;\n\n\tcase PL2L:\n\tcase PL2F:\n\tcase PS2F:\n\tcase PW2F:\n\t  table = NULL;\n\t  goto fin;\n\n\tdefault:\n\t  abort ();\n\t}\n    }\n\n  table = NULL;\n\n fin:\n  *context->forward_table = table;\n  context->tmp->fpos = fpos - context->tmp->str;\n  return table;\n}",
+      "lines": 68,
+      "depth": 12,
+      "decorators": [
+        "unsigned char",
+        "unsigned",
+        "char",
+        "*\ntext_forward (char *pos, char *lim)",
+        "*"
+      ]
+    },
+    "text_backward": {
+      "start_point": [
+        291,
+        0
+      ],
+      "end_point": [
+        351,
+        1
+      ],
+      "content": "unsigned char *\ntext_backward (char *pos)\n{\n  register unsigned char c;\n  register char *beg, *bpos;\n  unsigned char *table;\n\n  bpos = context->tmp->str + opt.context;\n  table = pspace;\n  beg = pos;\n\n  while (bpos > context->tmp->str)\n    {\n      c = *(--beg);\n      switch (table[event[c]])\n\t{\n\tcase PAT:\n\tcase PW2D:\n\tcase WRD:\n\t  *bpos-- = c;\n\tcase NOP:\n\t  break;\n\n\tcase PL2D: case PS2D:\n\tcase PL2P: case PS2P:\n\t  *bpos-- = c;\n\t  table = pword;\n\t  break;\n\tcase PW2S:\n\t  *bpos-- = ' ';\n\t  pos = beg + 1;\n\t  table = pspace;\n\t  break;\n\tcase PW2L:\n\t  *bpos-- = ' ';\n\t  pos = beg + 1;\n\tcase PS2L:\n\t  table = pline;\n\t  break;\n\n\tcase PW2F:\n\tcase W2N:\n\t  pos = beg + 1;\n\t  goto fin;\n\n\tcase PL2L:\n\tcase PL2F:\n\tcase PS2F:\n\tcase S2N:\n\t  bpos++;\n\t  goto fin;\n\n\tdefault:\n\t  abort ();\n\t}\n    }\n\n fin:\n  context->tmp->bpos = bpos - context->tmp->str + 1;\n  return pos;\n}",
+      "lines": 61,
+      "depth": 12,
+      "decorators": [
+        "unsigned char",
+        "unsigned",
+        "char",
+        "*\ntext_backward (char *pos)",
+        "*"
+      ]
+    }
+  },
+  "bool/bool-0.2.2/src/text.h": {}
+}

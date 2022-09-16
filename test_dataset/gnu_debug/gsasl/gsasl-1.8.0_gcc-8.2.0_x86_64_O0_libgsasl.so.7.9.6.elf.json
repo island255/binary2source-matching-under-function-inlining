@@ -1,0 +1,1766 @@
+{
+  "gsasl_server_callback_gssapi_set": {
+    "start_address": 30773, 
+    "end_address": 30803
+  }, 
+  "gsasl_nonce": {
+    "start_address": 25972, 
+    "end_address": 26009
+  }, 
+  "gsasl_server_callback_qop_set": {
+    "start_address": 30513, 
+    "end_address": 30543
+  }, 
+  "fclose": {
+    "start_address": 2236880, 
+    "end_address": 2236888
+  }, 
+  "gsasl_client_listmech": {
+    "start_address": 27944, 
+    "end_address": 28098
+  }, 
+  "gsasl_server_step": {
+    "start_address": 28480, 
+    "end_address": 28541
+  }, 
+  ".gsasl_hmac_sha1": {
+    "start_address": 18576, 
+    "end_address": 18582
+  }, 
+  ".term_proc": {
+    "start_address": 111012, 
+    "end_address": 111026
+  }, 
+  ".gsasl_client_callback_password_get": {
+    "start_address": 18224, 
+    "end_address": 18230
+  }, 
+  "gsasl_stringprep_trace": {
+    "start_address": 30955, 
+    "end_address": 30981
+  }, 
+  ".realloc": {
+    "start_address": 18928, 
+    "end_address": 18934
+  }, 
+  "gc_hash_read": {
+    "start_address": 52508, 
+    "end_address": 52651
+  }, 
+  ".memcpy": {
+    "start_address": 18784, 
+    "end_address": 18790
+  }, 
+  "_gsasl_parse_gs2_header": {
+    "start_address": 27005, 
+    "end_address": 27280
+  }, 
+  "md5_init_ctx": {
+    "start_address": 38576, 
+    "end_address": 38666
+  }, 
+  "c_iscntrl": {
+    "start_address": 36522, 
+    "end_address": 36562
+  }, 
+  "gsasl_client_callback_realm_get": {
+    "start_address": 30040, 
+    "end_address": 30072
+  }, 
+  "_gsasl_scram_sha1_plus_server_start": {
+    "start_address": 102919, 
+    "end_address": 102961
+  }, 
+  ".gsasl_decode": {
+    "start_address": 18000, 
+    "end_address": 18006
+  }, 
+  "gc_random": {
+    "start_address": 51648, 
+    "end_address": 51687
+  }, 
+  "gc_cipher_open": {
+    "start_address": 51714, 
+    "end_address": 51834
+  }, 
+  "c_isdigit": {
+    "start_address": 36562, 
+    "end_address": 36598
+  }, 
+  "asnprintf": {
+    "start_address": 51093, 
+    "end_address": 51279
+  }, 
+  ".gsasl_server_mechlist": {
+    "start_address": 18288, 
+    "end_address": 18294
+  }, 
+  "gsasl_client_mechlist": {
+    "start_address": 23097, 
+    "end_address": 23152
+  }, 
+  "_gsasl_obsolete_property_map": {
+    "start_address": 32740, 
+    "end_address": 32829
+  }, 
+  "utf8tolatin1ifpossible": {
+    "start_address": 87193, 
+    "end_address": 87705
+  }, 
+  "gc_hash_buffer": {
+    "start_address": 52686, 
+    "end_address": 52787
+  }, 
+  "gsasl_callback_hook_set": {
+    "start_address": 21148, 
+    "end_address": 21175
+  }, 
+  "gsasl_base64_from": {
+    "start_address": 25378, 
+    "end_address": 25479
+  }, 
+  ".strcmp": {
+    "start_address": 18704, 
+    "end_address": 18710
+  }, 
+  "digest_md5_encode": {
+    "start_address": 74263, 
+    "end_address": 75037
+  }, 
+  "snprintf": {
+    "start_address": 2236920, 
+    "end_address": 2236928
+  }, 
+  "md5_buffer": {
+    "start_address": 39430, 
+    "end_address": 39536
+  }, 
+  "memset": {
+    "start_address": 2236928, 
+    "end_address": 2236936
+  }, 
+  ".gsasl_property_set_raw": {
+    "start_address": 19008, 
+    "end_address": 19014
+  }, 
+  "md5_process_bytes": {
+    "start_address": 39536, 
+    "end_address": 40096
+  }, 
+  "_gsasl_scram_sha1_client_step": {
+    "start_address": 99584, 
+    "end_address": 102281
+  }, 
+  "sha1_process_bytes": {
+    "start_address": 44822, 
+    "end_address": 45382
+  }, 
+  "_gsasl_digest_md5_client_step": {
+    "start_address": 88196, 
+    "end_address": 89978
+  }, 
+  ".gsasl_client_callback_qop_get": {
+    "start_address": 19232, 
+    "end_address": 19238
+  }, 
+  "digest_md5_getsubopt": {
+    "start_address": 75722, 
+    "end_address": 76557
+  }, 
+  "set_uint32": {
+    "start_address": 38666, 
+    "end_address": 38689
+  }, 
+  "_gsasl_login_client_finish": {
+    "start_address": 71505, 
+    "end_address": 71553
+  }, 
+  "ferror": {
+    "start_address": 2236864, 
+    "end_address": 2236872
+  }, 
+  "_gsasl_support_p": {
+    "start_address": 22113, 
+    "end_address": 22229
+  }, 
+  "gsasl_simple_getpass": {
+    "start_address": 25479, 
+    "end_address": 25972
+  }, 
+  "gsasl_decode": {
+    "start_address": 25122, 
+    "end_address": 25235
+  }, 
+  "gsasl_server_step_base64": {
+    "start_address": 28733, 
+    "end_address": 28783
+  }, 
+  "gc_done": {
+    "start_address": 51290, 
+    "end_address": 51297
+  }, 
+  "_gsasl_login_server_step": {
+    "start_address": 71620, 
+    "end_address": 72402
+  }, 
+  "gsasl_client_start": {
+    "start_address": 23818, 
+    "end_address": 23884
+  }, 
+  "scram_parse_server_final": {
+    "start_address": 97647, 
+    "end_address": 97918
+  }, 
+  ".read": {
+    "start_address": 18608, 
+    "end_address": 18614
+  }, 
+  ".gsasl_register": {
+    "start_address": 19168, 
+    "end_address": 19174
+  }, 
+  "md5_stream": {
+    "start_address": 39102, 
+    "end_address": 39430
+  }, 
+  "scram_parse_client_first": {
+    "start_address": 94477, 
+    "end_address": 95682
+  }, 
+  "gsasl_session_hook_get": {
+    "start_address": 21220, 
+    "end_address": 21238
+  }, 
+  "c_ispunct": {
+    "start_address": 36706, 
+    "end_address": 36776
+  }, 
+  "gsasl_server_callback_cipher_set": {
+    "start_address": 30643, 
+    "end_address": 30673
+  }, 
+  "parse_challenge": {
+    "start_address": 80177, 
+    "end_address": 81411
+  }, 
+  "_gsasl_saml20_client_finish": {
+    "start_address": 106812, 
+    "end_address": 106860
+  }, 
+  "base64_encode": {
+    "start_address": 33819, 
+    "end_address": 34338
+  }, 
+  ".gsasl_callback": {
+    "start_address": 18016, 
+    "end_address": 18022
+  }, 
+  "gsasl_stringprep_nfkc": {
+    "start_address": 30903, 
+    "end_address": 30929
+  }, 
+  "base64_decode_ctx_init": {
+    "start_address": 34549, 
+    "end_address": 34570
+  }, 
+  "strdup": {
+    "start_address": 2237096, 
+    "end_address": 2237104
+  }, 
+  "_gsasl_digest_md5_server_decode": {
+    "start_address": 92899, 
+    "end_address": 93093
+  }, 
+  "_gsasl_securid_client_start": {
+    "start_address": 109093, 
+    "end_address": 109165
+  }, 
+  ".strtoul": {
+    "start_address": 19056, 
+    "end_address": 19062
+  }, 
+  "_gsasl_saml20_server_start": {
+    "start_address": 106860, 
+    "end_address": 106927
+  }, 
+  ".gsasl_property_fast": {
+    "start_address": 18976, 
+    "end_address": 18982
+  }, 
+  "_gsasl_external_server_step": {
+    "start_address": 69434, 
+    "end_address": 69615
+  }, 
+  "parse_finish": {
+    "start_address": 82758, 
+    "end_address": 82959
+  }, 
+  "setup": {
+    "start_address": 23354, 
+    "end_address": 23671
+  }, 
+  "__errno_location": {
+    "start_address": 2236840, 
+    "end_address": 2236848
+  }, 
+  "gsasl_client_callback_anonymous_get": {
+    "start_address": 29863, 
+    "end_address": 29895
+  }, 
+  "getline": {
+    "start_address": 2237072, 
+    "end_address": 2237080
+  }, 
+  ".gsasl_client_start": {
+    "start_address": 18960, 
+    "end_address": 18966
+  }, 
+  "gsasl_random": {
+    "start_address": 26009, 
+    "end_address": 26046
+  }, 
+  "gsasl_decode_inline": {
+    "start_address": 29225, 
+    "end_address": 29367
+  }, 
+  ".calloc": {
+    "start_address": 18688, 
+    "end_address": 18694
+  }, 
+  "gc_hmac_sha1": {
+    "start_address": 52953, 
+    "end_address": 53019
+  }, 
+  ".gsasl_property_set": {
+    "start_address": 18720, 
+    "end_address": 18726
+  }, 
+  "gsasl_client_suggest_mechanism": {
+    "start_address": 22326, 
+    "end_address": 22739
+  }, 
+  "gc_set_allocators": {
+    "start_address": 51687, 
+    "end_address": 51714
+  }, 
+  ".gsasl_client_callback_anonymous_get": {
+    "start_address": 18368, 
+    "end_address": 18374
+  }, 
+  "_gsasl_openid20_client_start": {
+    "start_address": 107491, 
+    "end_address": 107558
+  }, 
+  "base64_encode_alloc": {
+    "start_address": 34338, 
+    "end_address": 34502
+  }, 
+  "scram_print_client_final": {
+    "start_address": 98626, 
+    "end_address": 98753
+  }, 
+  "abort": {
+    "start_address": 2236832, 
+    "end_address": 2236840
+  }, 
+  "escape_authzid": {
+    "start_address": 27280, 
+    "end_address": 27488
+  }, 
+  "md5_finish_ctx": {
+    "start_address": 38814, 
+    "end_address": 39102
+  }, 
+  "strlen": {
+    "start_address": 2236896, 
+    "end_address": 2236904
+  }, 
+  "gsasl_callback_hook_get": {
+    "start_address": 21175, 
+    "end_address": 21193
+  }, 
+  "c_isgraph": {
+    "start_address": 36634, 
+    "end_address": 36670
+  }, 
+  "_gsasl_securid_server_step": {
+    "start_address": 110196, 
+    "end_address": 110978
+  }, 
+  "feof": {
+    "start_address": 2237000, 
+    "end_address": 2237008
+  }, 
+  "gsasl_client_callback_service_set": {
+    "start_address": 29777, 
+    "end_address": 29804
+  }, 
+  ".gsasl_property_get": {
+    "start_address": 18208, 
+    "end_address": 18214
+  }, 
+  "gsasl_client_callback_service_get": {
+    "start_address": 29804, 
+    "end_address": 29836
+  }, 
+  "printf_fetchargs": {
+    "start_address": 53294, 
+    "end_address": 55270
+  }, 
+  "map": {
+    "start_address": 21238, 
+    "end_address": 21696
+  }, 
+  ".strverscmp": {
+    "start_address": 18080, 
+    "end_address": 18086
+  }, 
+  "digest_md5_validate_challenge": {
+    "start_address": 79519, 
+    "end_address": 79618
+  }, 
+  ".fopen": {
+    "start_address": 19024, 
+    "end_address": 19030
+  }, 
+  "gc_init": {
+    "start_address": 51279, 
+    "end_address": 51290
+  }, 
+  "gc_pseudo_random": {
+    "start_address": 51609, 
+    "end_address": 51648
+  }, 
+  "digest_md5_free_finish": {
+    "start_address": 86800, 
+    "end_address": 86837
+  }, 
+  "_gsasl_external_client_step": {
+    "start_address": 69293, 
+    "end_address": 69434
+  }, 
+  "hmac_md5": {
+    "start_address": 37642, 
+    "end_address": 38109
+  }, 
+  "c_islower": {
+    "start_address": 36598, 
+    "end_address": 36634
+  }, 
+  "gsasl_client_callback_anonymous_set": {
+    "start_address": 29836, 
+    "end_address": 29863
+  }, 
+  "cram_md5_digest": {
+    "start_address": 72769, 
+    "end_address": 73087
+  }, 
+  "c_isblank": {
+    "start_address": 36486, 
+    "end_address": 36522
+  }, 
+  "gsasl_server_callback_qop_get": {
+    "start_address": 30543, 
+    "end_address": 30578
+  }, 
+  ".open": {
+    "start_address": 18992, 
+    "end_address": 18998
+  }, 
+  ".strndup": {
+    "start_address": 18624, 
+    "end_address": 18630
+  }, 
+  "sha1_read_ctx": {
+    "start_address": 43536, 
+    "end_address": 43938
+  }, 
+  "strtoul": {
+    "start_address": 2237064, 
+    "end_address": 2237072
+  }, 
+  ".gsasl_server_callback_anonymous_get": {
+    "start_address": 18656, 
+    "end_address": 18662
+  }, 
+  "gsasl_check_version": {
+    "start_address": 20942, 
+    "end_address": 21000
+  }, 
+  "gc_cipher_decrypt_inline": {
+    "start_address": 51927, 
+    "end_address": 51958
+  }, 
+  "gc_cipher_setiv": {
+    "start_address": 51865, 
+    "end_address": 51896
+  }, 
+  "_gsasl_openid20_server_finish": {
+    "start_address": 109045, 
+    "end_address": 109093
+  }, 
+  "scram_print_server_final": {
+    "start_address": 98753, 
+    "end_address": 98861
+  }, 
+  "gsasl_server_application_data_set": {
+    "start_address": 28935, 
+    "end_address": 28973
+  }, 
+  "find_mechanism": {
+    "start_address": 23208, 
+    "end_address": 23354
+  }, 
+  "gc_hash_write": {
+    "start_address": 52399, 
+    "end_address": 52508
+  }, 
+  "gsasl_server_callback_cram_md5_get": {
+    "start_address": 30232, 
+    "end_address": 30267
+  }, 
+  "gsasl_application_data_get": {
+    "start_address": 29394, 
+    "end_address": 29412
+  }, 
+  "gsasl_server_callback_validate_get": {
+    "start_address": 30102, 
+    "end_address": 30137
+  }, 
+  "sub_4630": {
+    "start_address": 17968, 
+    "end_address": 17980
+  }, 
+  "strnlen": {
+    "start_address": 2236936, 
+    "end_address": 2236944
+  }, 
+  "_gsasl_digest_md5_client_start": {
+    "start_address": 88013, 
+    "end_address": 88196
+  }, 
+  "gsasl_property_set": {
+    "start_address": 21696, 
+    "end_address": 21766
+  }, 
+  ".gsasl_sha1": {
+    "start_address": 18176, 
+    "end_address": 18182
+  }, 
+  "_gsasl_digest_md5_server_finish": {
+    "start_address": 92605, 
+    "end_address": 92705
+  }, 
+  ".abort": {
+    "start_address": 18096, 
+    "end_address": 18102
+  }, 
+  "latin1toutf8": {
+    "start_address": 86852, 
+    "end_address": 87193
+  }, 
+  "vasnprintf": {
+    "start_address": 60360, 
+    "end_address": 69293
+  }, 
+  "_gsasl_anonymous_server_step": {
+    "start_address": 69752, 
+    "end_address": 69893
+  }, 
+  "scram_print_client_first": {
+    "start_address": 98126, 
+    "end_address": 98499
+  }, 
+  "_gsasl_digest_md5_hex_to_char": {
+    "start_address": 90731, 
+    "end_address": 90788
+  }, 
+  ".strcat": {
+    "start_address": 19088, 
+    "end_address": 19094
+  }, 
+  "gsasl_server_start": {
+    "start_address": 23884, 
+    "end_address": 23951
+  }, 
+  ".gsasl_client_callback_authorization_id_get": {
+    "start_address": 18272, 
+    "end_address": 18278
+  }, 
+  ".gsasl_server_start": {
+    "start_address": 19136, 
+    "end_address": 19142
+  }, 
+  "strverscmp": {
+    "start_address": 2236824, 
+    "end_address": 2236832
+  }, 
+  "dgettext": {
+    "start_address": 2236912, 
+    "end_address": 2236920
+  }, 
+  "digest_md5_validate_response": {
+    "start_address": 79618, 
+    "end_address": 79856
+  }, 
+  "_gsasl_cram_md5_server_step": {
+    "start_address": 73694, 
+    "end_address": 74224
+  }, 
+  "digest_md5_print_challenge": {
+    "start_address": 83662, 
+    "end_address": 85140
+  }, 
+  "_gsasl_digest_md5_client_decode": {
+    "start_address": 90272, 
+    "end_address": 90466
+  }, 
+  ".gsasl_server_callback_gssapi_get": {
+    "start_address": 18560, 
+    "end_address": 18566
+  }, 
+  "_gsasl_scram_sha1_server_step": {
+    "start_address": 102961, 
+    "end_address": 106075
+  }, 
+  "scram_print_server_first": {
+    "start_address": 98499, 
+    "end_address": 98626
+  }, 
+  ".memset": {
+    "start_address": 18496, 
+    "end_address": 18502
+  }, 
+  "gc_hmac_md5": {
+    "start_address": 52887, 
+    "end_address": 52953
+  }, 
+  ".gsasl_saslprep": {
+    "start_address": 18064, 
+    "end_address": 18070
+  }, 
+  "sprintf": {
+    "start_address": 2237088, 
+    "end_address": 2237096
+  }, 
+  "gsasl_server_callback_retrieve_set": {
+    "start_address": 30137, 
+    "end_address": 30167
+  }, 
+  "asprintf": {
+    "start_address": 2237040, 
+    "end_address": 2237048
+  }, 
+  "gsasl_base64_decode": {
+    "start_address": 31331, 
+    "end_address": 31460
+  }, 
+  "free": {
+    "start_address": 2236816, 
+    "end_address": 2236824
+  }, 
+  "gsasl_client_callback_authorization_id_get": {
+    "start_address": 29568, 
+    "end_address": 29600
+  }, 
+  "hmac_sha1": {
+    "start_address": 38109, 
+    "end_address": 38576
+  }, 
+  "_gsasl_step": {
+    "start_address": 28252, 
+    "end_address": 28419
+  }, 
+  ".strnlen": {
+    "start_address": 18512, 
+    "end_address": 18518
+  }, 
+  "digest_md5_free_challenge": {
+    "start_address": 86541, 
+    "end_address": 86668
+  }, 
+  "__cxa_finalize": {
+    "start_address": 19264, 
+    "end_address": 19270
+  }, 
+  "gc_hash_digest_length": {
+    "start_address": 52288, 
+    "end_address": 52399
+  }, 
+  ".gsasl_server_callback_external_get": {
+    "start_address": 18800, 
+    "end_address": 18806
+  }, 
+  "gsasl_client_application_data_get": {
+    "start_address": 28892, 
+    "end_address": 28918
+  }, 
+  "gsasl_base64_encode": {
+    "start_address": 31209, 
+    "end_address": 31331
+  }, 
+  ".gsasl_finish": {
+    "start_address": 17984, 
+    "end_address": 17990
+  }, 
+  "unescape": {
+    "start_address": 94196, 
+    "end_address": 94477
+  }, 
+  "_gsasl_openid20_server_step": {
+    "start_address": 108247, 
+    "end_address": 109045
+  }, 
+  "gsasl_server_listmech": {
+    "start_address": 28098, 
+    "end_address": 28252
+  }, 
+  "gsasl_server_callback_service_get": {
+    "start_address": 30868, 
+    "end_address": 30903
+  }, 
+  "digest_md5_qopstr2qops": {
+    "start_address": 87705, 
+    "end_address": 87903
+  }, 
+  ".bindtextdomain": {
+    "start_address": 18336, 
+    "end_address": 18342
+  }, 
+  "_gsasl_digest_md5_server_encode": {
+    "start_address": 92705, 
+    "end_address": 92899
+  }, 
+  "gsasl_register": {
+    "start_address": 20335, 
+    "end_address": 20735
+  }, 
+  "_gsasl_gs2_generate_header": {
+    "start_address": 27488, 
+    "end_address": 27944
+  }, 
+  ".gsasl_server_callback_qop_get": {
+    "start_address": 18048, 
+    "end_address": 18054
+  }, 
+  "cram_md5_challenge": {
+    "start_address": 72482, 
+    "end_address": 72769
+  }, 
+  "open": {
+    "start_address": 2237048, 
+    "end_address": 2237056
+  }, 
+  "gsasl_server_callback_gssapi_get": {
+    "start_address": 30803, 
+    "end_address": 30838
+  }, 
+  "gsasl_property_get": {
+    "start_address": 21995, 
+    "end_address": 22113
+  }, 
+  "pmap": {
+    "start_address": 31460, 
+    "end_address": 32740
+  }, 
+  ".strspn": {
+    "start_address": 18592, 
+    "end_address": 18598
+  }, 
+  "get_4": {
+    "start_address": 34570, 
+    "end_address": 34847
+  }, 
+  "memcmp": {
+    "start_address": 2236976, 
+    "end_address": 2236984
+  }, 
+  "strcat": {
+    "start_address": 2237080, 
+    "end_address": 2237088
+  }, 
+  "base64_decode_ctx": {
+    "start_address": 35671, 
+    "end_address": 36153
+  }, 
+  "base64_decode_alloc_ctx": {
+    "start_address": 36153, 
+    "end_address": 36346
+  }, 
+  "gsasl_client_callback_pin_get": {
+    "start_address": 29745, 
+    "end_address": 29777
+  }, 
+  "sha1_process_block": {
+    "start_address": 45382, 
+    "end_address": 51007
+  }, 
+  "_gsasl_step64": {
+    "start_address": 28541, 
+    "end_address": 28683
+  }, 
+  "sha1_stream": {
+    "start_address": 44388, 
+    "end_address": 44716
+  }, 
+  "to_uchar": {
+    "start_address": 33804, 
+    "end_address": 33819
+  }, 
+  ".gsasl_server_callback_retrieve_get": {
+    "start_address": 18896, 
+    "end_address": 18902
+  }, 
+  "gc_cipher_close": {
+    "start_address": 51958, 
+    "end_address": 51997
+  }, 
+  ".fclose": {
+    "start_address": 18320, 
+    "end_address": 18326
+  }, 
+  "_gsasl_digest_md5_client_encode": {
+    "start_address": 90078, 
+    "end_address": 90272
+  }, 
+  "scram_start": {
+    "start_address": 98861, 
+    "end_address": 99229
+  }, 
+  "gsasl_client_step_base64": {
+    "start_address": 28683, 
+    "end_address": 28733
+  }, 
+  ".asprintf": {
+    "start_address": 18944, 
+    "end_address": 18950
+  }, 
+  ".strcpy": {
+    "start_address": 18160, 
+    "end_address": 18166
+  }, 
+  "gsasl_step64": {
+    "start_address": 24060, 
+    "end_address": 24284
+  }, 
+  "bindtextdomain": {
+    "start_address": 2236888, 
+    "end_address": 2236896
+  }, 
+  "gsasl_client_callback_authentication_id_set": {
+    "start_address": 29482, 
+    "end_address": 29509
+  }, 
+  "gsasl_client_callback_passcode_set": {
+    "start_address": 29659, 
+    "end_address": 29686
+  }, 
+  "scram_valid_server_first": {
+    "start_address": 93714, 
+    "end_address": 93886
+  }, 
+  "gsasl_server_mechlist": {
+    "start_address": 23152, 
+    "end_address": 23208
+  }, 
+  "gsasl_client_callback_qop_get": {
+    "start_address": 29922, 
+    "end_address": 29954
+  }, 
+  "_gsasl_digest_md5_client_finish": {
+    "start_address": 89978, 
+    "end_address": 90078
+  }, 
+  "gsasl_server_finish": {
+    "start_address": 28810, 
+    "end_address": 28837
+  }, 
+  "unescape_authzid": {
+    "start_address": 26627, 
+    "end_address": 27005
+  }, 
+  ".gsasl_appinfo_get": {
+    "start_address": 18544, 
+    "end_address": 18550
+  }, 
+  "gsasl_callback_set": {
+    "start_address": 21000, 
+    "end_address": 21027
+  }, 
+  "_gsasl_saml20_server_finish": {
+    "start_address": 107443, 
+    "end_address": 107491
+  }, 
+  "c_isprint": {
+    "start_address": 36670, 
+    "end_address": 36706
+  }, 
+  ".memcmp": {
+    "start_address": 18640, 
+    "end_address": 18646
+  }, 
+  "gsasl_client_step": {
+    "start_address": 28419, 
+    "end_address": 28480
+  }, 
+  "gc_hash_clone": {
+    "start_address": 52189, 
+    "end_address": 52288
+  }, 
+  "md5_process_block": {
+    "start_address": 40096, 
+    "end_address": 43412
+  }, 
+  ".feof": {
+    "start_address": 18752, 
+    "end_address": 18758
+  }, 
+  "scram_parse_server_first": {
+    "start_address": 95682, 
+    "end_address": 96587
+  }, 
+  "gsasl_client_callback_realm_set": {
+    "start_address": 30013, 
+    "end_address": 30040
+  }, 
+  "randomize": {
+    "start_address": 51297, 
+    "end_address": 51570
+  }, 
+  ".gsasl_random": {
+    "start_address": 19248, 
+    "end_address": 19254
+  }, 
+  ".ferror": {
+    "start_address": 18192, 
+    "end_address": 18198
+  }, 
+  "_gsasl_cram_md5_client_step": {
+    "start_address": 73087, 
+    "end_address": 73604
+  }, 
+  "_gsasl_scram_sha1_plus_client_start": {
+    "start_address": 99271, 
+    "end_address": 99313
+  }, 
+  "rpl_memchr": {
+    "start_address": 53019, 
+    "end_address": 53294
+  }, 
+  "_gsasl_digest_md5_server_step": {
+    "start_address": 90905, 
+    "end_address": 92605
+  }, 
+  "_gsasl_code": {
+    "start_address": 24846, 
+    "end_address": 25009
+  }, 
+  "xsum": {
+    "start_address": 55270, 
+    "end_address": 55322
+  }, 
+  ".gsasl_base64_to": {
+    "start_address": 18912, 
+    "end_address": 18918
+  }, 
+  "gsasl_appinfo_get": {
+    "start_address": 29442, 
+    "end_address": 29463
+  }, 
+  "gsasl_server_callback_retrieve_get": {
+    "start_address": 30167, 
+    "end_address": 30202
+  }, 
+  "memcpy": {
+    "start_address": 2237016, 
+    "end_address": 2237024
+  }, 
+  "__imp___cxa_finalize": {
+    "start_address": 2237104, 
+    "end_address": 2237112
+  }, 
+  "gsasl_client_callback_password_set": {
+    "start_address": 29600, 
+    "end_address": 29627
+  }, 
+  "gsasl_server_callback_securid_get": {
+    "start_address": 30738, 
+    "end_address": 30773
+  }, 
+  "gsasl_application_data_set": {
+    "start_address": 29367, 
+    "end_address": 29394
+  }, 
+  "gsasl_md5pwd_get_password": {
+    "start_address": 30981, 
+    "end_address": 31209
+  }, 
+  "xmax": {
+    "start_address": 60333, 
+    "end_address": 60360
+  }, 
+  "parse_response": {
+    "start_address": 81411, 
+    "end_address": 82758
+  }, 
+  "strncmp": {
+    "start_address": 2236848, 
+    "end_address": 2236856
+  }, 
+  "gsasl_client_callback_authorization_id_set": {
+    "start_address": 29541, 
+    "end_address": 29568
+  }, 
+  ".gsasl_step": {
+    "start_address": 18832, 
+    "end_address": 18838
+  }, 
+  "_gsasl_plain_server_step": {
+    "start_address": 70307, 
+    "end_address": 71148
+  }, 
+  "scram_free_server_first": {
+    "start_address": 93194, 
+    "end_address": 93262
+  }, 
+  "gsasl_ctx_get": {
+    "start_address": 29066, 
+    "end_address": 29083
+  }, 
+  "gsasl_client_callback_maxbuf_get": {
+    "start_address": 29981, 
+    "end_address": 30013
+  }, 
+  "gsasl_strerror": {
+    "start_address": 20735, 
+    "end_address": 20879
+  }, 
+  "close": {
+    "start_address": 2236944, 
+    "end_address": 2236952
+  }, 
+  "gsasl_server_callback_external_get": {
+    "start_address": 30348, 
+    "end_address": 30383
+  }, 
+  "_gsasl_plain_client_step": {
+    "start_address": 69893, 
+    "end_address": 70307
+  }, 
+  "gsasl_encode": {
+    "start_address": 25009, 
+    "end_address": 25122
+  }, 
+  "strchr": {
+    "start_address": 2236904, 
+    "end_address": 2236912
+  }, 
+  "gc_nonce": {
+    "start_address": 51570, 
+    "end_address": 51609
+  }, 
+  "gsasl_hmac_md5": {
+    "start_address": 26133, 
+    "end_address": 26236
+  }, 
+  "_gsasl_scram_sha1_client_finish": {
+    "start_address": 102281, 
+    "end_address": 102463
+  }, 
+  ".fread": {
+    "start_address": 18240, 
+    "end_address": 18246
+  }, 
+  "frame_dummy": {
+    "start_address": 19474, 
+    "end_address": 19479
+  }, 
+  ".gsasl_server_callback_securid_get": {
+    "start_address": 19184, 
+    "end_address": 19190
+  }, 
+  ".snprintf": {
+    "start_address": 18448, 
+    "end_address": 18454
+  }, 
+  "c_isalnum": {
+    "start_address": 36382, 
+    "end_address": 36440
+  }, 
+  ".gsasl_done": {
+    "start_address": 19040, 
+    "end_address": 19046
+  }, 
+  "__do_global_dtors_aux": {
+    "start_address": 19363, 
+    "end_address": 19474
+  }, 
+  "digest_md5_hmac": {
+    "start_address": 76557, 
+    "end_address": 79519
+  }, 
+  "digest_md5_validate": {
+    "start_address": 79916, 
+    "end_address": 80177
+  }, 
+  "gsasl_server_callback_service_set": {
+    "start_address": 30838, 
+    "end_address": 30868
+  }, 
+  "scram_start_0": {
+    "start_address": 102463, 
+    "end_address": 102877
+  }, 
+  "register_tm_clones": {
+    "start_address": 19306, 
+    "end_address": 19363
+  }, 
+  ".gsasl_client_callback_passcode_get": {
+    "start_address": 19104, 
+    "end_address": 19110
+  }, 
+  "scram_parse_client_final": {
+    "start_address": 96587, 
+    "end_address": 97647
+  }, 
+  "gsasl_client_support_p": {
+    "start_address": 22229, 
+    "end_address": 22277
+  }, 
+  "gsasl_client_callback_maxbuf_set": {
+    "start_address": 29954, 
+    "end_address": 29981
+  }, 
+  "digest_md5_parse_finish": {
+    "start_address": 83193, 
+    "end_address": 83310
+  }, 
+  "c_isxdigit": {
+    "start_address": 36872, 
+    "end_address": 36930
+  }, 
+  "gc_pbkdf2_sha1": {
+    "start_address": 36994, 
+    "end_address": 37642
+  }, 
+  "comma_append": {
+    "start_address": 83310, 
+    "end_address": 83662
+  }, 
+  "xsum_0": {
+    "start_address": 60200, 
+    "end_address": 60252
+  }, 
+  "gsasl_sha1": {
+    "start_address": 26236, 
+    "end_address": 26323
+  }, 
+  "gsasl_appinfo_set": {
+    "start_address": 29412, 
+    "end_address": 29442
+  }, 
+  "gc_hash_open": {
+    "start_address": 51997, 
+    "end_address": 52189
+  }, 
+  "gsasl_free": {
+    "start_address": 26600, 
+    "end_address": 26627
+  }, 
+  "c_isalpha": {
+    "start_address": 36440, 
+    "end_address": 36486
+  }, 
+  "gsasl_property_fast": {
+    "start_address": 21936, 
+    "end_address": 21995
+  }, 
+  "digest_md5_parse_challenge": {
+    "start_address": 82959, 
+    "end_address": 83076
+  }, 
+  "gsasl_finish": {
+    "start_address": 24284, 
+    "end_address": 24846
+  }, 
+  "fread": {
+    "start_address": 2236872, 
+    "end_address": 2236880
+  }, 
+  "to_uchar_0": {
+    "start_address": 86837, 
+    "end_address": 86852
+  }, 
+  ".dgettext": {
+    "start_address": 18432, 
+    "end_address": 18438
+  }, 
+  "_gsasl_digest_md5_set_hashed_secret": {
+    "start_address": 90788, 
+    "end_address": 90905
+  }, 
+  "gsasl_encode_inline": {
+    "start_address": 29083, 
+    "end_address": 29225
+  }, 
+  ".gsasl_nonce": {
+    "start_address": 18864, 
+    "end_address": 18870
+  }, 
+  "_gsasl_scram_sha1_server_start": {
+    "start_address": 102877, 
+    "end_address": 102919
+  }, 
+  "gsasl_client_callback_passcode_get": {
+    "start_address": 29686, 
+    "end_address": 29718
+  }, 
+  "scram_valid_client_first": {
+    "start_address": 93398, 
+    "end_address": 93714
+  }, 
+  "scram_free_server_final": {
+    "start_address": 93346, 
+    "end_address": 93398
+  }, 
+  "gsasl_client_callback_pin_set": {
+    "start_address": 29718, 
+    "end_address": 29745
+  }, 
+  "malloc": {
+    "start_address": 2237024, 
+    "end_address": 2237032
+  }, 
+  "gsasl_property_set_raw": {
+    "start_address": 21766, 
+    "end_address": 21936
+  }, 
+  "gsasl_step": {
+    "start_address": 23951, 
+    "end_address": 24060
+  }, 
+  "gsasl_server_ctx_get": {
+    "start_address": 28918, 
+    "end_address": 28935
+  }, 
+  ".strdup": {
+    "start_address": 19200, 
+    "end_address": 19206
+  }, 
+  "c_isascii": {
+    "start_address": 36346, 
+    "end_address": 36382
+  }, 
+  "sha1_buffer": {
+    "start_address": 44716, 
+    "end_address": 44822
+  }, 
+  "gsasl_mechanism_name": {
+    "start_address": 25235, 
+    "end_address": 25283
+  }, 
+  "__do_global_ctors_aux": {
+    "start_address": 110978, 
+    "end_address": 111012
+  }, 
+  ".strlen": {
+    "start_address": 18352, 
+    "end_address": 18358
+  }, 
+  "hex_p": {
+    "start_address": 99511, 
+    "end_address": 99584
+  }, 
+  "gsasl_server_callback_anonymous_set": {
+    "start_address": 30383, 
+    "end_address": 30413
+  }, 
+  "digest_md5_parse_response": {
+    "start_address": 83076, 
+    "end_address": 83193
+  }, 
+  ".strchr": {
+    "start_address": 18400, 
+    "end_address": 18406
+  }, 
+  "deregister_tm_clones": {
+    "start_address": 19272, 
+    "end_address": 19306
+  }, 
+  "gc_cipher_encrypt_inline": {
+    "start_address": 51896, 
+    "end_address": 51927
+  }, 
+  "calloc": {
+    "start_address": 2236984, 
+    "end_address": 2236992
+  }, 
+  "_gsasl_digest_md5_hexdigit_to_char": {
+    "start_address": 90673, 
+    "end_address": 90731
+  }, 
+  "_gsasl_cram_md5_server_finish": {
+    "start_address": 74224, 
+    "end_address": 74263
+  }, 
+  "digest_md5_print_finish": {
+    "start_address": 86461, 
+    "end_address": 86541
+  }, 
+  "scram_escape": {
+    "start_address": 97918, 
+    "end_address": 98126
+  }, 
+  "c_isupper": {
+    "start_address": 36836, 
+    "end_address": 36872
+  }, 
+  "gsasl_strerror_name": {
+    "start_address": 20879, 
+    "end_address": 20942
+  }, 
+  "_gsasl_openid20_client_finish": {
+    "start_address": 108132, 
+    "end_address": 108180
+  }, 
+  "gsasl_done": {
+    "start_address": 20045, 
+    "end_address": 20335
+  }, 
+  ".gsasl_free": {
+    "start_address": 18672, 
+    "end_address": 18678
+  }, 
+  ".gsasl_base64_from": {
+    "start_address": 19152, 
+    "end_address": 19158
+  }, 
+  "_gsasl_login_client_start": {
+    "start_address": 71148, 
+    "end_address": 71220
+  }, 
+  "c_toupper": {
+    "start_address": 36962, 
+    "end_address": 36994
+  }, 
+  ".gsasl_appinfo_set": {
+    "start_address": 18144, 
+    "end_address": 18150
+  }, 
+  ".gsasl_client_callback_authentication_id_get": {
+    "start_address": 18464, 
+    "end_address": 18470
+  }, 
+  "gsasl_server_callback_maxbuf_set": {
+    "start_address": 30578, 
+    "end_address": 30608
+  }, 
+  "_gsasl_obsolete_callback": {
+    "start_address": 32829, 
+    "end_address": 33804
+  }, 
+  "gsasl_server_callback_cram_md5_set": {
+    "start_address": 30202, 
+    "end_address": 30232
+  }, 
+  ".gsasl_simple_getpass": {
+    "start_address": 18736, 
+    "end_address": 18742
+  }, 
+  ".__errno_location": {
+    "start_address": 18112, 
+    "end_address": 18118
+  }, 
+  "register_builtin_mechs": {
+    "start_address": 19479, 
+    "end_address": 19922
+  }, 
+  "hex_to_char": {
+    "start_address": 99371, 
+    "end_address": 99428
+  }, 
+  "_gsasl_listmech": {
+    "start_address": 22739, 
+    "end_address": 23097
+  }, 
+  "realloc": {
+    "start_address": 2237032, 
+    "end_address": 2237040
+  }, 
+  "_gsasl_openid20_server_start": {
+    "start_address": 108180, 
+    "end_address": 108247
+  }, 
+  "gsasl_server_callback_securid_set": {
+    "start_address": 30708, 
+    "end_address": 30738
+  }, 
+  "read": {
+    "start_address": 2236960, 
+    "end_address": 2236968
+  }, 
+  ".memmem": {
+    "start_address": 18768, 
+    "end_address": 18774
+  }, 
+  "gc_hash_close": {
+    "start_address": 52651, 
+    "end_address": 52686
+  }, 
+  "sha1_hex_to_byte": {
+    "start_address": 99428, 
+    "end_address": 99511
+  }, 
+  "gsasl_client_finish": {
+    "start_address": 28783, 
+    "end_address": 28810
+  }, 
+  ".gsasl_client_callback_service_get": {
+    "start_address": 18880, 
+    "end_address": 18886
+  }, 
+  "scram_free_client_final": {
+    "start_address": 93262, 
+    "end_address": 93346
+  }, 
+  "gc_sha1": {
+    "start_address": 52837, 
+    "end_address": 52887
+  }, 
+  "gsasl_randomize": {
+    "start_address": 28999, 
+    "end_address": 29066
+  }, 
+  "gsasl_saslprep": {
+    "start_address": 26426, 
+    "end_address": 26600
+  }, 
+  "strcmp": {
+    "start_address": 2236992, 
+    "end_address": 2237000
+  }, 
+  ".gsasl_md5": {
+    "start_address": 18480, 
+    "end_address": 18486
+  }, 
+  "_gsasl_saml20_server_step": {
+    "start_address": 106927, 
+    "end_address": 107443
+  }, 
+  "gsasl_client_application_data_set": {
+    "start_address": 28854, 
+    "end_address": 28892
+  }, 
+  "c_isspace": {
+    "start_address": 36776, 
+    "end_address": 36836
+  }, 
+  ".gsasl_step64": {
+    "start_address": 18304, 
+    "end_address": 18310
+  }, 
+  "gsasl_md5": {
+    "start_address": 26046, 
+    "end_address": 26133
+  }, 
+  "hexdigit_to_char": {
+    "start_address": 99313, 
+    "end_address": 99371
+  }, 
+  "isbase64": {
+    "start_address": 34502, 
+    "end_address": 34549
+  }, 
+  "gsasl_base64_to": {
+    "start_address": 25283, 
+    "end_address": 25378
+  }, 
+  "gsasl_server_support_p": {
+    "start_address": 22277, 
+    "end_address": 22326
+  }, 
+  ".gsasl_encode": {
+    "start_address": 18384, 
+    "end_address": 18390
+  }, 
+  "digest_md5_validate_finish": {
+    "start_address": 79856, 
+    "end_address": 79916
+  }, 
+  "gsasl_client_ctx_get": {
+    "start_address": 28837, 
+    "end_address": 28854
+  }, 
+  "gsasl_server_callback_realm_get": {
+    "start_address": 30478, 
+    "end_address": 30513
+  }, 
+  ".close": {
+    "start_address": 18528, 
+    "end_address": 18534
+  }, 
+  ".gsasl_server_callback_validate_get": {
+    "start_address": 18816, 
+    "end_address": 18822
+  }, 
+  "digest_md5_qops2qopstr": {
+    "start_address": 87903, 
+    "end_address": 88013
+  }, 
+  "c_tolower": {
+    "start_address": 36930, 
+    "end_address": 36962
+  }, 
+  "md5_read_ctx": {
+    "start_address": 38689, 
+    "end_address": 38814
+  }, 
+  "_gsasl_login_client_step": {
+    "start_address": 71220, 
+    "end_address": 71505
+  }, 
+  "printf_parse": {
+    "start_address": 55322, 
+    "end_address": 60200
+  }, 
+  "gsasl_hmac_sha1": {
+    "start_address": 26323, 
+    "end_address": 26426
+  }, 
+  ".gsasl_client_mechlist": {
+    "start_address": 18416, 
+    "end_address": 18422
+  }, 
+  "_gsasl_saml20_client_step": {
+    "start_address": 106424, 
+    "end_address": 106812
+  }, 
+  "gsasl_server_application_data_get": {
+    "start_address": 28973, 
+    "end_address": 28999
+  }, 
+  "gsasl_server_callback_validate_set": {
+    "start_address": 30072, 
+    "end_address": 30102
+  }, 
+  "strcpy": {
+    "start_address": 2236856, 
+    "end_address": 2236864
+  }, 
+  "_gsasl_scram_sha1_client_start": {
+    "start_address": 99229, 
+    "end_address": 99271
+  }, 
+  "gsasl_server_callback_maxbuf_get": {
+    "start_address": 30608, 
+    "end_address": 30643
+  }, 
+  "gsasl_session_hook_set": {
+    "start_address": 21193, 
+    "end_address": 21220
+  }, 
+  "gsasl_client_callback_password_get": {
+    "start_address": 29627, 
+    "end_address": 29659
+  }, 
+  "scram_valid_client_final": {
+    "start_address": 93886, 
+    "end_address": 94112
+  }, 
+  "scram_valid_server_final": {
+    "start_address": 94112, 
+    "end_address": 94196
+  }, 
+  "_gsasl_cram_md5_server_start": {
+    "start_address": 73604, 
+    "end_address": 73694
+  }, 
+  ".sprintf": {
+    "start_address": 19120, 
+    "end_address": 19126
+  }, 
+  ".malloc": {
+    "start_address": 18848, 
+    "end_address": 18854
+  }, 
+  "memxor": {
+    "start_address": 51007, 
+    "end_address": 51093
+  }, 
+  "fopen": {
+    "start_address": 2237056, 
+    "end_address": 2237064
+  }, 
+  ".strncmp": {
+    "start_address": 18128, 
+    "end_address": 18134
+  }, 
+  "_gsasl_saml20_client_start": {
+    "start_address": 106357, 
+    "end_address": 106424
+  }, 
+  "gc_md5": {
+    "start_address": 52787, 
+    "end_address": 52837
+  }, 
+  "start": {
+    "start_address": 23671, 
+    "end_address": 23818
+  }, 
+  "xsum4": {
+    "start_address": 60252, 
+    "end_address": 60333
+  }, 
+  ".init_proc": {
+    "start_address": 17920, 
+    "end_address": 17953
+  }, 
+  "gc_cipher_setkey": {
+    "start_address": 51834, 
+    "end_address": 51865
+  }, 
+  ".getline": {
+    "start_address": 19072, 
+    "end_address": 19078
+  }, 
+  "gsasl_server_callback_cipher_get": {
+    "start_address": 30673, 
+    "end_address": 30708
+  }, 
+  "_gsasl_anonymous_client_step": {
+    "start_address": 69615, 
+    "end_address": 69752
+  }, 
+  ".gsasl_client_callback_pin_get": {
+    "start_address": 18256, 
+    "end_address": 18262
+  }, 
+  "gsasl_server_callback_digest_md5_set": {
+    "start_address": 30267, 
+    "end_address": 30297
+  }, 
+  "sha1_finish_ctx": {
+    "start_address": 43938, 
+    "end_address": 44388
+  }, 
+  "gsasl_init": {
+    "start_address": 19922, 
+    "end_address": 20045
+  }, 
+  "_gsasl_digest_md5_server_start": {
+    "start_address": 90466, 
+    "end_address": 90673
+  }, 
+  "set_uint32_0": {
+    "start_address": 43513, 
+    "end_address": 43536
+  }, 
+  "strspn": {
+    "start_address": 2236952, 
+    "end_address": 2236960
+  }, 
+  ".gsasl_client_callback_realm_get": {
+    "start_address": 19216, 
+    "end_address": 19222
+  }, 
+  "gsasl_server_callback_digest_md5_get": {
+    "start_address": 30297, 
+    "end_address": 30318
+  }, 
+  "strndup": {
+    "start_address": 2236968, 
+    "end_address": 2236976
+  }, 
+  "gsasl_server_callback_anonymous_get": {
+    "start_address": 30413, 
+    "end_address": 30448
+  }, 
+  "decode_4": {
+    "start_address": 34847, 
+    "end_address": 35671
+  }, 
+  "gsasl_client_callback_qop_set": {
+    "start_address": 29895, 
+    "end_address": 29922
+  }, 
+  "_gsasl_securid_client_step": {
+    "start_address": 109165, 
+    "end_address": 110157
+  }, 
+  "gsasl_client_callback_authentication_id_get": {
+    "start_address": 29509, 
+    "end_address": 29541
+  }, 
+  "gsasl_server_callback_realm_set": {
+    "start_address": 30448, 
+    "end_address": 30478
+  }, 
+  "gsasl_stringprep_saslprep": {
+    "start_address": 30929, 
+    "end_address": 30955
+  }, 
+  "memmem": {
+    "start_address": 2237008, 
+    "end_address": 2237016
+  }, 
+  "gsasl_callback": {
+    "start_address": 21027, 
+    "end_address": 21148
+  }, 
+  "sha1_init_ctx": {
+    "start_address": 43412, 
+    "end_address": 43513
+  }, 
+  "_gsasl_securid_client_finish": {
+    "start_address": 110157, 
+    "end_address": 110196
+  }, 
+  "digest_md5_decode": {
+    "start_address": 75037, 
+    "end_address": 75722
+  }, 
+  "digest_md5_free_response": {
+    "start_address": 86668, 
+    "end_address": 86800
+  }, 
+  "gsasl_server_suggest_mechanism": {
+    "start_address": 29463, 
+    "end_address": 29482
+  }, 
+  "_gsasl_login_server_start": {
+    "start_address": 71553, 
+    "end_address": 71620
+  }, 
+  "_gsasl_openid20_client_step": {
+    "start_address": 107558, 
+    "end_address": 108132
+  }, 
+  "_gsasl_scram_sha1_server_finish": {
+    "start_address": 106075, 
+    "end_address": 106357
+  }, 
+  "__gmon_start__": {
+    "start_address": 2237120, 
+    "end_address": 2237128
+  }, 
+  "gsasl_server_callback_external_set": {
+    "start_address": 30318, 
+    "end_address": 30348
+  }, 
+  ".free": {
+    "start_address": 18032, 
+    "end_address": 18038
+  }, 
+  "_gsasl_login_server_finish": {
+    "start_address": 72402, 
+    "end_address": 72482
+  }, 
+  "digest_md5_print_response": {
+    "start_address": 85140, 
+    "end_address": 86461
+  }, 
+  "scram_free_client_first": {
+    "start_address": 93093, 
+    "end_address": 93194
+  }
+}

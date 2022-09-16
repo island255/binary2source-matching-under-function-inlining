@@ -1,0 +1,2485 @@
+{
+  "gss/gss-1.0.3/build-aux/snippet/arg-nonnull.h": {},
+  "gss/gss-1.0.3/build-aux/snippet/c++defs.h": {},
+  "gss/gss-1.0.3/build-aux/snippet/warn-on-use.h": {},
+  "gss/gss-1.0.3/gl/dummy.c": {},
+  "gss/gss-1.0.3/lib/asn1.c": {
+    "_gss_asn1_length_der": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_asn1_get_length_der": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_encapsulate_token_prefix": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": []
+    },
+    "gss_encapsulate_token": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        192,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_decapsulate_token": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        246,
+        1
+      ],
+      "strings": []
+    },
+    "gss_decapsulate_token": {
+      "start_point": [
+        272,
+        0
+      ],
+      "end_point": [
+        307,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/context.c": {
+    "gss_init_sec_context": {
+      "start_point": [
+        342,
+        0
+      ],
+      "end_point": [
+        429,
+        1
+      ],
+      "strings": []
+    },
+    "gss_accept_sec_context": {
+      "start_point": [
+        683,
+        0
+      ],
+      "end_point": [
+        749,
+        1
+      ],
+      "strings": []
+    },
+    "gss_delete_sec_context": {
+      "start_point": [
+        798,
+        0
+      ],
+      "end_point": [
+        840,
+        1
+      ],
+      "strings": []
+    },
+    "gss_process_context_token": {
+      "start_point": [
+        875,
+        0
+      ],
+      "end_point": [
+        881,
+        1
+      ],
+      "strings": []
+    },
+    "gss_context_time": {
+      "start_point": [
+        905,
+        0
+      ],
+      "end_point": [
+        927,
+        1
+      ],
+      "strings": []
+    },
+    "gss_inquire_context": {
+      "start_point": [
+        1033,
+        0
+      ],
+      "end_point": [
+        1043,
+        1
+      ],
+      "strings": []
+    },
+    "gss_wrap_size_limit": {
+      "start_point": [
+        1097,
+        0
+      ],
+      "end_point": [
+        1105,
+        1
+      ],
+      "strings": []
+    },
+    "gss_export_sec_context": {
+      "start_point": [
+        1168,
+        0
+      ],
+      "end_point": [
+        1174,
+        1
+      ],
+      "strings": []
+    },
+    "gss_import_sec_context": {
+      "start_point": [
+        1204,
+        0
+      ],
+      "end_point": [
+        1210,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/cred.c": {
+    "gss_acquire_cred": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": []
+    },
+    "gss_add_cred": {
+      "start_point": [
+        321,
+        0
+      ],
+      "end_point": [
+        334,
+        1
+      ],
+      "strings": []
+    },
+    "gss_inquire_cred": {
+      "start_point": [
+        373,
+        0
+      ],
+      "end_point": [
+        408,
+        1
+      ],
+      "strings": []
+    },
+    "gss_inquire_cred_by_mech": {
+      "start_point": [
+        457,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": []
+    },
+    "gss_release_cred": {
+      "start_point": [
+        528,
+        0
+      ],
+      "end_point": [
+        563,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/error.c": {
+    "gss_display_status": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        337,
+        1
+      ],
+      "strings": [
+        "\"No error\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/lib/ext.c": {
+    "gss_userok": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/internal.h": {},
+  "gss/gss-1.0.3/lib/meta.c": {
+    "_gss_find_mech_no_default": {
+      "start_point": [
+        84,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_find_mech": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_find_mech_by_saslname": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_indicate_mechs1": {
+      "start_point": [
+        127,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/meta.h": {},
+  "gss/gss-1.0.3/lib/misc.c": {
+    "gss_create_empty_oid_set": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_copy_oid": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "gss_add_oid_set_member": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        189,
+        1
+      ],
+      "strings": []
+    },
+    "gss_test_oid_set_member": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        237,
+        1
+      ],
+      "strings": []
+    },
+    "gss_release_oid_set": {
+      "start_point": [
+        258,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": []
+    },
+    "gss_indicate_mechs": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        314,
+        1
+      ],
+      "strings": []
+    },
+    "gss_release_buffer": {
+      "start_point": [
+        336,
+        0
+      ],
+      "end_point": [
+        350,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/msg.c": {
+    "gss_get_mic": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "gss_verify_mic": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": []
+    },
+    "gss_wrap": {
+      "start_point": [
+        212,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "strings": []
+    },
+    "gss_unwrap": {
+      "start_point": [
+        294,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/name.c": {
+    "gss_import_name": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    },
+    "gss_display_name": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    },
+    "gss_compare_name": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    },
+    "gss_release_name": {
+      "start_point": [
+        224,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    },
+    "gss_inquire_names_for_mech": {
+      "start_point": [
+        259,
+        0
+      ],
+      "end_point": [
+        287,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_inquire_mechs_for_name3": {
+      "start_point": [
+        291,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_inquire_mechs_for_name2": {
+      "start_point": [
+        325,
+        0
+      ],
+      "end_point": [
+        346,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_inquire_mechs_for_name1": {
+      "start_point": [
+        351,
+        0
+      ],
+      "end_point": [
+        372,
+        1
+      ],
+      "strings": []
+    },
+    "gss_inquire_mechs_for_name": {
+      "start_point": [
+        408,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "strings": []
+    },
+    "gss_export_name": {
+      "start_point": [
+        467,
+        0
+      ],
+      "end_point": [
+        499,
+        1
+      ],
+      "strings": []
+    },
+    "gss_canonicalize_name": {
+      "start_point": [
+        525,
+        0
+      ],
+      "end_point": [
+        542,
+        1
+      ],
+      "strings": []
+    },
+    "gss_duplicate_name": {
+      "start_point": [
+        563,
+        0
+      ],
+      "end_point": [
+        604,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/obsolete.c": {
+    "gss_sign": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    },
+    "gss_verify": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "gss_seal": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    },
+    "gss_unseal": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/oid.c": {
+    "gss_oid_equal": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/saslname.c": {
+    "dup_data": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    },
+    "gss_inquire_saslname_for_mech": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": []
+    },
+    "gss_inquire_mech_for_saslname": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        170,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/version.c": {
+    "gss_check_version": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/gl/dummy.c": {},
+  "gss/gss-1.0.3/lib/gl/gettext.h": {},
+  "gss/gss-1.0.3/lib/gl/stddef.in.h": {},
+  "gss/gss-1.0.3/lib/gl/string.in.h": {},
+  "gss/gss-1.0.3/lib/gl/strverscmp.c": {
+    "__strverscmp": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/headers/gss.h": {},
+  "gss/gss-1.0.3/lib/headers/gss/api.h": {},
+  "gss/gss-1.0.3/lib/headers/gss/ext.h": {},
+  "gss/gss-1.0.3/lib/headers/gss/krb5-ext.h": {},
+  "gss/gss-1.0.3/lib/headers/gss/krb5.h": {},
+  "gss/gss-1.0.3/lib/krb5/checksum.c": {
+    "pack_uint32": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    },
+    "hash_cb": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    },
+    "_gss_krb5_checksum_pack": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        223,
+        1
+      ],
+      "strings": [
+        "\"\\x10\\x00\\x00\\x00\""
+      ]
+    },
+    "_gss_krb5_checksum_parse": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        296,
+        1
+      ],
+      "strings": [
+        "\"\\x10\\x00\\x00\\x00\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/lib/krb5/checksum.h": {},
+  "gss/gss-1.0.3/lib/krb5/context.c": {
+    "init_request": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        115,
+        1
+      ],
+      "strings": []
+    },
+    "init_reply": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_init_sec_context": {
+      "start_point": [
+        182,
+        0
+      ],
+      "end_point": [
+        293,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_accept_sec_context": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        487,
+        1
+      ],
+      "strings": [
+        "\"Error creating AP-REP: %s\\n\"",
+        "\"Error der encoding aprep: %s\\n\""
+      ]
+    },
+    "gss_krb5_delete_sec_context": {
+      "start_point": [
+        491,
+        0
+      ],
+      "end_point": [
+        511,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_context_time": {
+      "start_point": [
+        515,
+        0
+      ],
+      "end_point": [
+        537,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/krb5/cred.c": {
+    "acquire_cred1": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": [
+        "\"host\""
+      ]
+    },
+    "gss_krb5_acquire_cred": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "inquire_cred": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_inquire_cred": {
+      "start_point": [
+        190,
+        0
+      ],
+      "end_point": [
+        200,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_inquire_cred_by_mech": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_release_cred": {
+      "start_point": [
+        222,
+        0
+      ],
+      "end_point": [
+        237,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/lib/krb5/error.c": {
+    "gss_krb5_display_status": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": [
+        "\"No krb5 error\"",
+        "\"Unknown krb5 error\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/lib/krb5/k5internal.h": {},
+  "gss/gss-1.0.3/lib/krb5/msg.c": {
+    "gss_krb5_get_mic": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_verify_mic": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_wrap": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        264,
+        1
+      ],
+      "strings": [
+        "\"\\x00\\x00\"",
+        "\"\\xFF\\xFF\"",
+        "\"\\xFF\\xFF\"",
+        "\"\\x04\\x00\"",
+        "\"\\xFF\\xFF\"",
+        "\"\\xFF\\xFF\""
+      ]
+    },
+    "gss_krb5_unwrap": {
+      "start_point": [
+        266,
+        0
+      ],
+      "end_point": [
+        492,
+        1
+      ],
+      "strings": [
+        "\"\\xFF\\xFF\"",
+        "\"\\x00\\x00\\x00\\x00\"",
+        "\"\\xFF\\xFF\\xFF\\xFF\"",
+        "\"\\x00\\x00\\x00\\x00\"",
+        "\"\\xFF\\xFF\\xFF\\xFF\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/lib/krb5/name.c": {
+    "gss_krb5_canonicalize_name": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "gss_krb5_export_name": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": [
+        "\"\\x04\\x01\\x01\\x0B\\x06\\x09%s\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/lib/krb5/oid.c": {},
+  "gss/gss-1.0.3/lib/krb5/protos.h": {},
+  "gss/gss-1.0.3/lib/krb5/utils.c": {
+    "gss_krb5_tktlifetime": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/src/gss.c": {
+    "usage": {
+      "start_point": [
+        63,
+        5
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": [
+        "\"Try `%s --help' for more information.\\n\"",
+        "\"\\\nUsage: %s OPTIONS...\\n\\\n\"",
+        "\"\\\nCommand line interface to GSS, used to explain error codes.\\n\\\n\\n\\\n\"",
+        "\"\\\nMandatory arguments to long options are mandatory for short options too.\\n\\\n\"",
+        "\"\\\n  -h, --help        Print help and exit.\\n\\\n  -V, --version     Print version and exit.\\n\\\n  -l, --list-mechanisms\\n\\\n                    List information about supported mechanisms\\n\\\n                    in a human readable format.\\n\\\n  -m, --major=LONG  Describe a `major status' error code value.\\n\\\n\"",
+        "\"\\\n  -a, --accept-sec-context[=MECH]\\n\\\n                    Accept a security context as server.\\n\\\n                    If MECH is not specified, no credentials\\n\\\n                    will be acquired.  Use \\\"*\\\" to use library\\n\\\n                    default mechanism.\\n\\\n  -i, --init-sec-context=MECH\\n\\\n                    Initialize a security context as client.\\n\\\n                    MECH is the SASL name of mechanism, use -l\\n\\\n                    to list supported mechanisms.\\n\\\n  -n, --server-name=SERVICE@HOSTNAME\\n\\\n                    For -i and -a, set the name of the remote host.\\n\\\n                    For example, \\\"imap@mail.example.com\\\".\\n\\\n\"",
+        "\"\\\n  -q, --quiet       Silent operation (default=off).\\n\\\n\""
+      ]
+    },
+    "describe_major": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        253,
+        1
+      ],
+      "strings": [
+        "\"GSS-API major status code %ld (0x%lx).\\n\\n\"",
+        "\"   MSB                               \"",
+        "\"                                  LSB\\n\"",
+        "\"   +-----------------+---------------\"",
+        "\"--+---------------------------------+\\n\"",
+        "\"   |  Calling Error  |  Routine Error\"",
+        "\"  |       Supplementary Info        |\\n   | \"",
+        "\"%ld \"",
+        "\"| \"",
+        "\"%ld \"",
+        "\"| \"",
+        "\"%ld \"",
+        "\"|\\n\"",
+        "\"   +-----------------+---------------\"",
+        "\"--+---------------------------------+\\n\"",
+        "\"Bit 31            24  23            1\"",
+        "\"6  15                             0\\n\\n\"",
+        "\"Masked routine error %ld (0x%lx) shifted \"",
+        "\"into %ld (0x%lx):\\n\"",
+        "\"displaying status code failed (%d)\"",
+        "\"%.*s\\n\"",
+        "\"\\n\"",
+        "\"Masked calling error %ld (0x%lx) shifted into %ld (0x%lx):\\n\"",
+        "\"displaying status code failed (%d)\"",
+        "\"%.*s\\n\"",
+        "\"\\n\"",
+        "\"Masked supplementary info %ld (0x%lx) shifted \"",
+        "\"into %ld (0x%lx):\\n\"",
+        "\"displaying status code failed (%d)\"",
+        "\"%.*s\\n\"",
+        "\"\\n\"",
+        "\"No error\\n\""
+      ]
+    },
+    "list_mechanisms": {
+      "start_point": [
+        255,
+        0
+      ],
+      "end_point": [
+        298,
+        1
+      ],
+      "strings": [
+        "\"indicating mechanisms failed (%d)\"",
+        "\"Found %lu supported mechanisms.\\n\"",
+        "\"\\nMechanism %lu:\\n\"",
+        "\"inquiring information about mechanism failed (%d)\"",
+        "\"\\tMechanism name: %.*s\\n\"",
+        "\"\\tMechanism description: %.*s\\n\"",
+        "\"\\tSASL Mechanism name: %.*s\\n\""
+      ]
+    },
+    "gettrimline": {
+      "start_point": [
+        300,
+        0
+      ],
+      "end_point": [
+        314,
+        1
+      ],
+      "strings": []
+    },
+    "init_sec_context": {
+      "start_point": [
+        316,
+        0
+      ],
+      "end_point": [
+        423,
+        1
+      ],
+      "strings": [
+        "\"inquiring mechanism for SASL name (%d/%d)\"",
+        "\"could not import server name \\\"%s\\\" (%d/%d)\"",
+        "\"initializing security context failed (%d/%d)\"",
+        "\"base64 input too long\"",
+        "\"malloc\"",
+        "\"Context has been initialized.\\n\"",
+        "\"Context has been initialized.  Final context token:\\n\"",
+        "\"Context token (protection is available):\\n\"",
+        "\"Context token:\\n\"",
+        "\"%s\\n\"",
+        "\"Input context token:\\n\"",
+        "\"getline\"",
+        "\"end of file\"",
+        "\"base64 fail\"",
+        "\"malloc\""
+      ]
+    },
+    "accept_sec_context": {
+      "start_point": [
+        425,
+        0
+      ],
+      "end_point": [
+        587,
+        1
+      ],
+      "strings": [
+        "\"*\"",
+        "\"Inquiring mechanism OID for SASL name \\\"%s\\\"...\\n\"",
+        "\"inquiring mechanism for SASL name (%d/%d)\"",
+        "\"Importing name \\\"%s\\\"...\\n\"",
+        "\"could not import server name \\\"%s\\\" (%d/%d)\"",
+        "\"gss_create_empty_oid_set (%d/%d)\"",
+        "\"gss_add_oid_set_member (%d/%d)\"",
+        "\"Acquiring credentials...\\n\"",
+        "\"could not acquire server credentials (%d/%d)\"",
+        "\"gss_release_oid_set (%d/%d)\"",
+        "\"Input context token:\\n\"",
+        "\"getline\"",
+        "\"end of file\"",
+        "\"base64 fail\"",
+        "\"malloc\"",
+        "\"accepting security context failed (%d/%d)\"",
+        "\"base64 input too long\"",
+        "\"malloc\"",
+        "\"Context has been accepted.\\n\"",
+        "\"Context has been accepted.  Final context token:\\n\"",
+        "\"Context token (protection is available):\\n\"",
+        "\"Context token:\\n\"",
+        "\"%s\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        589,
+        0
+      ],
+      "end_point": [
+        626,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"gss\"",
+        "\"Simon Josefsson\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/src/gss_cmd.c": {
+    "clear_given": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "clear_args": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        92,
+        1
+      ],
+      "strings": []
+    },
+    "init_args_info": {
+      "start_point": [
+        94,
+        0
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_print_version": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        119,
+        1
+      ],
+      "strings": [
+        "\"%s %s\\n\"",
+        "\"\\n%s\\n\""
+      ]
+    },
+    "print_help_common": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": [
+        "\"\\n%s\\n\"",
+        "\"\\n%s\\n\"",
+        "\"\\n\"",
+        "\"%s\\n\\n\""
+      ]
+    },
+    "cmdline_parser_print_help": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "cmdline_parser_init": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_params_init": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        164,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_params_create": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    },
+    "free_string_field": {
+      "start_point": [
+        175,
+        0
+      ],
+      "end_point": [
+        183,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_release": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": []
+    },
+    "write_into_file": {
+      "start_point": [
+        204,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": [
+        "\"%s=\\\"%s\\\"\\n\"",
+        "\"%s\\n\""
+      ]
+    },
+    "cmdline_parser_dump": {
+      "start_point": [
+        216,
+        0
+      ],
+      "end_point": [
+        247,
+        1
+      ],
+      "strings": [
+        "\"%s: cannot dump options to stream\\n\"",
+        "\"help\"",
+        "\"version\"",
+        "\"major\"",
+        "\"list-mechanisms\"",
+        "\"accept-sec-context\"",
+        "\"init-sec-context\"",
+        "\"server-name\"",
+        "\"quiet\""
+      ]
+    },
+    "cmdline_parser_file_save": {
+      "start_point": [
+        249,
+        0
+      ],
+      "end_point": [
+        267,
+        1
+      ],
+      "strings": [
+        "\"w\"",
+        "\"%s: cannot open file for writing: %s\\n\""
+      ]
+    },
+    "cmdline_parser_free": {
+      "start_point": [
+        269,
+        0
+      ],
+      "end_point": [
+        273,
+        1
+      ],
+      "strings": []
+    },
+    "gengetopt_strdup": {
+      "start_point": [
+        276,
+        0
+      ],
+      "end_point": [
+        288,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        294,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_ext": {
+      "start_point": [
+        296,
+        0
+      ],
+      "end_point": [
+        310,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser2": {
+      "start_point": [
+        312,
+        0
+      ],
+      "end_point": [
+        333,
+        1
+      ],
+      "strings": []
+    },
+    "cmdline_parser_required": {
+      "start_point": [
+        335,
+        0
+      ],
+      "end_point": [
+        341,
+        1
+      ],
+      "strings": []
+    },
+    "update_arg": {
+      "start_point": [
+        364,
+        0
+      ],
+      "end_point": [
+        457,
+        1
+      ],
+      "strings": [
+        "\"%s: `--%s' (`-%c') option given more than once%s\\n\"",
+        "\"\"",
+        "\"%s: `--%s' option given more than once%s\\n\"",
+        "\"\"",
+        "\"%s: invalid numeric value: %s\\n\""
+      ]
+    },
+    "cmdline_parser_internal": {
+      "start_point": [
+        460,
+        0
+      ],
+      "end_point": [
+        638,
+        1
+      ],
+      "strings": [
+        "\"help\"",
+        "\"version\"",
+        "\"major\"",
+        "\"list-mechanisms\"",
+        "\"accept-sec-context\"",
+        "\"init-sec-context\"",
+        "\"server-name\"",
+        "\"quiet\"",
+        "\"hVm:la::i:n:q\"",
+        "\"help\"",
+        "\"version\"",
+        "\"major\"",
+        "\"list-mechanisms\"",
+        "\"accept-sec-context\"",
+        "\"init-sec-context\"",
+        "\"server-name\"",
+        "\"quiet\"",
+        "\"%s: option unknown: %c%s\\n\"",
+        "\"\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/src/gss_cmd.h": {},
+  "gss/gss-1.0.3/src/gl/base64.c": {
+    "to_uchar": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "base64_encode_fast": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": []
+    },
+    "base64_encode": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    },
+    "base64_encode_alloc": {
+      "start_point": [
+        143,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    },
+    "isbase64": {
+      "start_point": [
+        327,
+        0
+      ],
+      "end_point": [
+        331,
+        1
+      ],
+      "strings": []
+    },
+    "base64_decode_ctx_init": {
+      "start_point": [
+        334,
+        0
+      ],
+      "end_point": [
+        338,
+        1
+      ],
+      "strings": []
+    },
+    "get_4": {
+      "start_point": [
+        347,
+        0
+      ],
+      "end_point": [
+        385,
+        1
+      ],
+      "strings": []
+    },
+    "decode_4": {
+      "start_point": [
+        401,
+        0
+      ],
+      "end_point": [
+        466,
+        1
+      ],
+      "strings": []
+    },
+    "base64_decode_ctx": {
+      "start_point": [
+        486,
+        0
+      ],
+      "end_point": [
+        564,
+        1
+      ],
+      "strings": []
+    },
+    "base64_decode_alloc_ctx": {
+      "start_point": [
+        577,
+        0
+      ],
+      "end_point": [
+        604,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/src/gl/base64.h": {},
+  "gss/gss-1.0.3/src/gl/errno.in.h": {},
+  "gss/gss-1.0.3/src/gl/error.c": {
+    "is_open": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "flush_stdout": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    },
+    "print_errno_message": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\"",
+        "\": %s\"",
+        "\": %s\""
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        201,
+        42
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": [
+        "L\"out of memory\\n\"",
+        "L\"???\"",
+        "\"\\n\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        327,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"%s: \""
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        333,
+        0
+      ],
+      "end_point": [
+        397,
+        1
+      ],
+      "strings": [
+        "\"%s:\"",
+        "\"%s:\"",
+        "\"%s:%d: \"",
+        "\" \"",
+        "\"%s:%d: \"",
+        "\" \""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/src/gl/error.h": {},
+  "gss/gss-1.0.3/src/gl/getopt.c": {
+    "exchange": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": [
+        "\"POSIXLY_CORRECT\""
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        1124,
+        1
+      ],
+      "strings": [
+        "\"--\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"%s\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '--%s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"%s: option '--%s' requires an argument\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s\"",
+        "\"\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"%s\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"\\\n%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\""
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        1126,
+        0
+      ],
+      "end_point": [
+        1145,
+        1
+      ],
+      "strings": []
+    },
+    "getopt": {
+      "start_point": [
+        1155,
+        0
+      ],
+      "end_point": [
+        1162,
+        1
+      ],
+      "strings": []
+    },
+    "__posix_getopt": {
+      "start_point": [
+        1165,
+        0
+      ],
+      "end_point": [
+        1172,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        1181,
+        0
+      ],
+      "end_point": [
+        1242,
+        1
+      ],
+      "strings": [
+        "\"abc:d:0123456789\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/src/gl/getopt.in.h": {},
+  "gss/gss-1.0.3/src/gl/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "getopt_long_only": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"add\"",
+        "\"append\"",
+        "\"delete\"",
+        "\"verbose\"",
+        "\"create\"",
+        "\"file\"",
+        "\"abc:d:0123456789\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"\\n\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"option d with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/src/gl/getopt_int.h": {},
+  "gss/gss-1.0.3/src/gl/gettext.h": {},
+  "gss/gss-1.0.3/src/gl/intprops.h": {},
+  "gss/gss-1.0.3/src/gl/memchr.c": {
+    "__memchr": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/src/gl/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/src/gl/msvc-inval.h": {},
+  "gss/gss-1.0.3/src/gl/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/src/gl/msvc-nothrow.h": {},
+  "gss/gss-1.0.3/src/gl/progname.c": {
+    "set_program_name": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"A NULL argv[0] was passed through an exec system call.\\n\"",
+        "\"/.libs/\"",
+        "\"lt-\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/src/gl/progname.h": {},
+  "gss/gss-1.0.3/src/gl/stdarg.in.h": {},
+  "gss/gss-1.0.3/src/gl/stdbool.in.h": {},
+  "gss/gss-1.0.3/src/gl/stddef.in.h": {},
+  "gss/gss-1.0.3/src/gl/stdio.in.h": {},
+  "gss/gss-1.0.3/src/gl/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": [
+        "\"Success\"",
+        "\"Operation now in progress\"",
+        "\"Operation already in progress\"",
+        "\"Socket operation on non-socket\"",
+        "\"Destination address required\"",
+        "\"Message too long\"",
+        "\"Protocol wrong type for socket\"",
+        "\"Protocol not available\"",
+        "\"Protocol not supported\"",
+        "\"Operation not supported\"",
+        "\"Address family not supported by protocol\"",
+        "\"Address already in use\"",
+        "\"Cannot assign requested address\"",
+        "\"Network is down\"",
+        "\"Network is unreachable\"",
+        "\"Connection reset by peer\"",
+        "\"No buffer space available\"",
+        "\"Transport endpoint is already connected\"",
+        "\"Transport endpoint is not connected\"",
+        "\"Connection timed out\"",
+        "\"Connection refused\"",
+        "\"Too many levels of symbolic links\"",
+        "\"No route to host\"",
+        "\"Operation would block\"",
+        "\"Text file busy\"",
+        "\"No data available\"",
+        "\"Out of streams resources\"",
+        "\"Device not a stream\"",
+        "\"Timer expired\"",
+        "\"Other error\"",
+        "\"Socket type not supported\"",
+        "\"Protocol family not supported\"",
+        "\"Cannot send after transport endpoint shutdown\"",
+        "\"Too many references: cannot splice\"",
+        "\"Host is down\"",
+        "\"Too many processes\"",
+        "\"Too many users\"",
+        "\"Disk quota exceeded\"",
+        "\"Stale NFS file handle\"",
+        "\"Object is remote\"",
+        "\"Overlapped operation aborted\"",
+        "\"Overlapped I/O event object not in signaled state\"",
+        "\"Overlapped operations will complete later\"",
+        "\"Network subsystem is unavailable\"",
+        "\"Winsock.dll version out of range\"",
+        "\"Successful WSAStartup not yet performed\"",
+        "\"Graceful shutdown in progress\"",
+        "\"No more results\"",
+        "\"Call was canceled\"",
+        "\"Procedure call table is invalid\"",
+        "\"Service provider is invalid\"",
+        "\"Service provider failed to initialize\"",
+        "\"System call failure\"",
+        "\"Service not found\"",
+        "\"Class type not found\"",
+        "\"Database query was refused\"",
+        "\"Host not found\"",
+        "\"Nonauthoritative host not found\"",
+        "\"Nonrecoverable error\"",
+        "\"Valid name, no data record of requested type\"",
+        "\"No message of desired type\"",
+        "\"Identifier removed\"",
+        "\"Link has been severed\"",
+        "\"Protocol error\"",
+        "\"Multihop attempted\"",
+        "\"Bad message\"",
+        "\"Value too large for defined data type\"",
+        "\"Not supported\"",
+        "\"Network dropped connection on reset\"",
+        "\"Software caused connection abort\"",
+        "\"Stale NFS file handle\"",
+        "\"Disk quota exceeded\"",
+        "\"Operation canceled\"",
+        "\"Owner died\"",
+        "\"State not recoverable\"",
+        "\"Invalid or incomplete multibyte or wide character\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/src/gl/strerror-override.h": {},
+  "gss/gss-1.0.3/src/gl/strerror.c": {},
+  "gss/gss-1.0.3/src/gl/string.in.h": {},
+  "gss/gss-1.0.3/src/gl/sys_types.in.h": {},
+  "gss/gss-1.0.3/src/gl/unistd.c": {},
+  "gss/gss-1.0.3/src/gl/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        417,
+        0
+      ],
+      "end_point": [
+        421,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        884,
+        0
+      ],
+      "end_point": [
+        888,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "gss/gss-1.0.3/src/gl/verify.h": {},
+  "gss/gss-1.0.3/src/gl/version-etc.c": {
+    "version_etc_arn": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": [
+        "\"%s (%s) %s\\n\"",
+        "\"%s %s\\n\"",
+        "\"Packaged by %s (%s)\\n\"",
+        "\"Packaged by %s\\n\"",
+        "\"(C)\"",
+        "\"\\\n\\n\\\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\\n\\\n\\n\\\n\"",
+        "\"Written by %s.\\n\"",
+        "\"Written by %s and %s.\\n\"",
+        "\"Written by %s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\nand %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, %s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\nand %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, %s, and others.\\n\""
+      ]
+    },
+    "version_etc_ar": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc_va": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "emit_bug_reporting_address": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": [
+        "\"\\nReport bugs to: %s\\n\"",
+        "\"Report %s bugs to: %s\\n\"",
+        "\"%s home page: <%s>\\n\"",
+        "\"%s home page: <http://www.gnu.org/software/%s/>\\n\"",
+        "\"General help using GNU software: <http://www.gnu.org/gethelp/>\\n\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/src/gl/version-etc.h": {},
+  "gss/gss-1.0.3/tests/basic.c": {
+    "main": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        409,
+        1
+      ],
+      "strings": [
+        "\"-v\"",
+        "\"--verbose\"",
+        "\"-b\"",
+        "\"--break-on-error\"",
+        "\"-h\"",
+        "\"-?\"",
+        "\"--help\"",
+        "\"Usage: %s [-vbh?] [--verbose] [--break-on-error] [--help]\\n\"",
+        "\"gss_create_empty_oid_set() OK\\n\"",
+        "\"gss_create_empty_oid_set() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    OID present in empty set => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_add_oid_set_member() OK\\n\"",
+        "\"gss_add_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    OID present in set with the OID added to it => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    Another OID present in set without the OID => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_add_oid_set_member() OK\\n\"",
+        "\"gss_add_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    Another OID present in set with it added => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    First OID present in set => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_release_oid_set() OK\\n\"",
+        "\"gss_release_oid_set() failed (%d,%d)\\n\"",
+        "\"gss_indicate_mechs() OK\\n\"",
+        "\"gss_indicate_mechs() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    kerberos5 supported => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_release_oid_set() OK\\n\"",
+        "\"gss_release_oid_set() failed (%d,%d)\\n\"",
+        "\"gss_inquire_names_for_mech() OK\\n\"",
+        "\"gss_inquire_names_for_mech() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    kerberos5 supports PRINCIPAL_NAME name type => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    kerberos5 supports HOSTBASED_SERVICE name type => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    kerberos5 supports ANONYMOUS name type => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_release_oid_set() OK\\n\"",
+        "\"gss_release_oid_set() failed (%d,%d)\\n\"",
+        "\"imap@server.example.org@FOO\"",
+        "\"gss_import_name() OK\\n\"",
+        "\"gss_import_name() failed (%d,%d)\\n\"",
+        "\"gss_display_name() OK\\n\"",
+        "\"gss_display_name() failed (%d,%d)\\n\"",
+        "\"    display_name() => %d: %.*s\\n\"",
+        "\"gss_release_buffer() OK\\n\"",
+        "\"gss_release_buffer() failed (%d,%d)\\n\"",
+        "\"gss_inquire_mechs_for_name() OK\\n\"",
+        "\"gss_inquire_mechs_for_name() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    HOSTBASED_SERVICE supported by kerberos5 => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"    Dummy oid supported by kerberos5 => %d\\n\"",
+        "\"gss_test_oid_set_member() OK\\n\"",
+        "\"gss_test_oid_set_member() failed (%d,%d)\\n\"",
+        "\"gss_release_oid_set() OK\\n\"",
+        "\"gss_release_oid_set() failed (%d,%d)\\n\"",
+        "\"gss_release_name() OK\\n\"",
+        "\"gss_release_name() failed (%d,%d)\\n\"",
+        "\"gss_display_status() OK\\n\"",
+        "\"gss_display_status() failed (%d,%d)\\n\"",
+        "\"    Display status for GSS_S_COMPLETE => %*s\\n\"",
+        "\"gss_release_buffer() OK\\n\"",
+        "\"gss_release_buffer() failed (%d,%d)\\n\"",
+        "\"context token\"",
+        "\"gss_encapsulate_token() OK\\n\"",
+        "\"gss_encapsulate_token() failed (%d)\\n\"",
+        "\"gss_decapsulate_token(bad oid) OK\\n\"",
+        "\"gss_decapsulate_token() failed (%d)\\n\"",
+        "\"gss_decapsulate_token(bad length) OK\\n\"",
+        "\"gss_decapsulate_token() failed (%d)\\n\"",
+        "\"gss_decapsulate_token() OK\\n\"",
+        "\"gss_decapsulate_token() failed (%d)\\n\"",
+        "\"gss_release_buffer() OK\\n\"",
+        "\"gss_release_buffer() failed (%d,%d)\\n\"",
+        "\"gss_release_buffer() OK\\n\"",
+        "\"gss_release_buffer() failed (%d,%d)\\n\"",
+        "\"Basic self tests done with %d errors\\n\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/tests/krb5context.c": {
+    "display_status_1": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": [
+        "\"GSS-API display_status failed on code %d type %d\\n\"",
+        "\"GSS-API error %s (%s): %.*s\\n\"",
+        "\"major\"",
+        "\"minor\""
+      ]
+    },
+    "display_status": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        397,
+        1
+      ],
+      "strings": [
+        "\"hej\"",
+        "\"-v\"",
+        "\"--verbose\"",
+        "\"-b\"",
+        "\"--break-on-error\"",
+        "\"-h\"",
+        "\"-?\"",
+        "\"--help\"",
+        "\"Usage: %s [-vbh?] [--verbose] [--break-on-error] [--help]\\n\"",
+        "\"host@latte.josefsson.org\"",
+        "\"gss_import_name (host/server)\\n\"",
+        "\"gss_acquire_cred\"",
+        "\"acquire credentials\"",
+        "\"loop 0 init failure\\n\"",
+        "\"loop 0 init failure\\n\"",
+        "\"loop 2 ret_flags failure (%d)\\n\"",
+        "\"loop 1 init failure\\n\"",
+        "\"default?!\\n\"",
+        "\"gss_accept_sec_context failure\\n\"",
+        "\"accept_sec_context\"",
+        "\"\\nClient AP-REQ:\\n\\n\"",
+        "\"loop 0 accept flag failure (%d)\\n\"",
+        "\"default?!\\n\"",
+        "\"gss_accept_sec_context failure\\n\"",
+        "\"accept_sec_context\"",
+        "\"\\nServer AP-REP:\\n\\n\"",
+        "\"loop 1 ret_flags failure (%d)\\n\"",
+        "\"gss_init_sec_context failure (2)\\n\"",
+        "\"init_sec_context\"",
+        "\"foo\"",
+        "\"client gss_wrap failure\\n\"",
+        "\"client wrap\"",
+        "\"server gss_unwrap failure\\n\"",
+        "\"client wrap\"",
+        "\"wrap+unwrap failed (%d, %d, %.*s)\\n\"",
+        "\"client gss_delete_sec_context failure\\n\"",
+        "\"client delete_sec_context\"",
+        "\"server gss_delete_sec_context failure\\n\"",
+        "\"server delete_sec_context\"",
+        "\"loop %d ok\\n\"",
+        "\"gss_release_cred\"",
+        "\"release credentials\"",
+        "\"gss_release_name failure\\n\"",
+        "\"gss_release_name\"",
+        "\"Kerberos 5 security context self tests done with %d errors\\n\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/tests/saslname.c": {
+    "main": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": [
+        "\"-v\"",
+        "\"--verbose\"",
+        "\"-b\"",
+        "\"--break-on-error\"",
+        "\"-h\"",
+        "\"-?\"",
+        "\"--help\"",
+        "\"Usage: %s [-vbh?] [--verbose] [--break-on-error] [--help]\\n\"",
+        "\"gss_inquire_mech_for_saslname (NULL, NULL) success\\n\"",
+        "\"gss_inquire_mech_for_saslname (NULL, NULL) failed (%d,%d)\\n\"",
+        "\"gss_inquire_mech_for_saslname (EMPTY, NULL) success\\n\"",
+        "\"gss_inquire_mech_for_saslname (EMPTY, NULL) failed (%d,%d)\\n\"",
+        "\"GS2-KRB5\"",
+        "\"gss_inquire_mech_for_saslname (GS2-KRB5, NULL) success\\n\"",
+        "\"gss_inquire_mech_for_saslname (GS2-KRB5, NULL) failed (%d,%d)\\n\"",
+        "\"gss_inquire_mech_for_saslname (GS2-KRB5, OID) success\\n\"",
+        "\"gss_inquire_mech_for_saslname (GS2-KRB5, OID) failed (%d,%d)\\n\"",
+        "\"GS2-OID not Krb5?!\\n\"",
+        "\"gss_inquire_saslname_for_mech (NULL) success\\n\"",
+        "\"gss_inquire_saslname_for_mech (NULL) failed (%d,%d)\\n\"",
+        "\"gss_inquire_saslname_for_mech (NT_USER_NAME) success\\n\"",
+        "\"gss_inquire_saslname_for_mech (NT_USER_NAME) failed (%d,%d)\\n\"",
+        "\"gss_inquire_saslname_for_mech (GSS-KRB5) success\\n\"",
+        "\"gss_inquire_saslname_for_mech (GSS-KRB5) failed (%d,%d)\\n\"",
+        "\"gss_inquire_saslname_for_mech (GSS-KRB5) success: %.*s\\n\"",
+        "\"gss_inquire_saslname_for_mech (GSS-KRB5) failed (%d,%d)\\n\"",
+        "\"gss_release_buffer() OK\\n\"",
+        "\"gss_release_buffer() failed (%d,%d)\\n\"",
+        "\"gss_inquire_saslname_for_mech (GSS-KRB5-2) success: %.*s\\n\"",
+        "\"gss_inquire_saslname_for_mech (GSS-KRB5-2) failed (%d,%d)\\n\"",
+        "\"gss_release_buffer() OK\\n\"",
+        "\"gss_release_buffer() failed (%d,%d)\\n\"",
+        "\"gss_inquire_saslname_for_mech (GSS-KRB5-3) success: %.*s\\n\"",
+        "\"gss_inquire_saslname_for_mech (GSS-KRB5-3) failed (%d,%d)\\n\"",
+        "\"gss_release_buffer() OK\\n\"",
+        "\"gss_release_buffer() failed (%d,%d)\\n\"",
+        "\"Basic self tests done with %d errors\\n\""
+      ]
+    }
+  },
+  "gss/gss-1.0.3/tests/utils.c": {
+    "fail": {
+      "start_point": [
+        16,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    },
+    "success": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    }
+  }
+}

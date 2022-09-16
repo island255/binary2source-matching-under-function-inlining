@@ -1,0 +1,2665 @@
+{
+  "readline/readline-7.0/ansi_stdlib.h": {},
+  "readline/readline-7.0/bind.c": {
+    "rl_get_keymap": {
+      "start_point": [
+        2102,
+        0
+      ],
+      "end_point": [
+        2106,
+        1
+      ],
+      "strings": []
+    },
+    "rl_set_keymap_from_edit_mode": {
+      "start_point": [
+        2108,
+        0
+      ],
+      "end_point": [
+        2117,
+        1
+      ],
+      "strings": []
+    },
+    "rl_get_keymap_name_from_edit_mode": {
+      "start_point": [
+        2119,
+        0
+      ],
+      "end_point": [
+        2130,
+        1
+      ],
+      "strings": [
+        "\"emacs\"",
+        "\"vi\"",
+        "\"none\""
+      ]
+    },
+    "rl_list_funmap_names": {
+      "start_point": [
+        2144,
+        0
+      ],
+      "end_point": [
+        2159,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/callback.c": {
+    "_rl_callback_newline": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "strings": []
+    },
+    "rl_callback_read_char": {
+      "start_point": [
+        127,
+        0
+      ],
+      "end_point": [
+        297,
+        1
+      ],
+      "strings": [
+        "\"readline_callback_read_char() called with no handler!\""
+      ]
+    },
+    "rl_callback_handler_remove": {
+      "start_point": [
+        300,
+        0
+      ],
+      "end_point": [
+        315,
+        1
+      ],
+      "strings": []
+    },
+    "rl_callback_sigcleanup": {
+      "start_point": [
+        339,
+        0
+      ],
+      "end_point": [
+        362,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/chardefs.h": {},
+  "readline/readline-7.0/colors.c": {
+    "_rl_put_indicator": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "is_colored": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": [
+        "\"0\"",
+        "\"00\""
+      ]
+    },
+    "restore_default_color": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_set_normal_color": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_print_prefix_color": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_print_color_indicator": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        264,
+        1
+      ],
+      "strings": [
+        "\"target\""
+      ]
+    },
+    "_rl_prep_non_filename_text": {
+      "start_point": [
+        266,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/colors.h": {},
+  "readline/readline-7.0/compat.c": {
+    "free_undo_list": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "maybe_replace_line": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    },
+    "maybe_save_line": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": []
+    },
+    "maybe_unsave_line": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    },
+    "ding": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "crlf": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        81,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/complete.c": {
+    "_rl_reset_completion_state": {
+      "start_point": [
+        484,
+        0
+      ],
+      "end_point": [
+        489,
+        1
+      ],
+      "strings": []
+    },
+    "colored_stat_end": {
+      "start_point": [
+        684,
+        0
+      ],
+      "end_point": [
+        689,
+        1
+      ],
+      "strings": []
+    },
+    "colored_prefix_start": {
+      "start_point": [
+        691,
+        0
+      ],
+      "end_point": [
+        696,
+        1
+      ],
+      "strings": []
+    },
+    "colored_prefix_end": {
+      "start_point": [
+        698,
+        0
+      ],
+      "end_point": [
+        702,
+        1
+      ],
+      "strings": []
+    },
+    "complete_get_screenwidth": {
+      "start_point": [
+        1538,
+        0
+      ],
+      "end_point": [
+        1553,
+        1
+      ],
+      "strings": [
+        "\"COLUMNS\""
+      ]
+    }
+  },
+  "readline/readline-7.0/display.c": {
+    "_rl_reset_prompt": {
+      "start_point": [
+        446,
+        0
+      ],
+      "end_point": [
+        450,
+        1
+      ],
+      "strings": []
+    },
+    "rl_redisplay": {
+      "start_point": [
+        578,
+        0
+      ],
+      "end_point": [
+        1365,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"\\\\%o\"",
+        "\"*\""
+      ]
+    },
+    "rl_on_new_line": {
+      "start_point": [
+        2018,
+        0
+      ],
+      "end_point": [
+        2030,
+        1
+      ],
+      "strings": []
+    },
+    "rl_clear_visible_line": {
+      "start_point": [
+        2034,
+        0
+      ],
+      "end_point": [
+        2058,
+        1
+      ],
+      "strings": []
+    },
+    "rl_on_new_line_with_prompt": {
+      "start_point": [
+        2064,
+        0
+      ],
+      "end_point": [
+        2117,
+        1
+      ],
+      "strings": [
+        "\"\\n\""
+      ]
+    },
+    "rl_forced_update_display": {
+      "start_point": [
+        2120,
+        0
+      ],
+      "end_point": [
+        2135,
+        1
+      ],
+      "strings": []
+    },
+    "rl_redraw_prompt_last_line": {
+      "start_point": [
+        2138,
+        0
+      ],
+      "end_point": [
+        2148,
+        1
+      ],
+      "strings": []
+    },
+    "rl_clear_message": {
+      "start_point": [
+        2520,
+        0
+      ],
+      "end_point": [
+        2531,
+        1
+      ],
+      "strings": []
+    },
+    "rl_reset_line_state": {
+      "start_point": [
+        2533,
+        0
+      ],
+      "end_point": [
+        2541,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    },
+    "rl_save_prompt": {
+      "start_point": [
+        2543,
+        0
+      ],
+      "end_point": [
+        2559,
+        1
+      ],
+      "strings": []
+    },
+    "rl_restore_prompt": {
+      "start_point": [
+        2561,
+        0
+      ],
+      "end_point": [
+        2581,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_clear_screen": {
+      "start_point": [
+        2666,
+        0
+      ],
+      "end_point": [
+        2678,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_update_final": {
+      "start_point": [
+        2753,
+        0
+      ],
+      "end_point": [
+        2783,
+        1
+      ],
+      "strings": []
+    },
+    "cr": {
+      "start_point": [
+        2786,
+        0
+      ],
+      "end_point": [
+        2798,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_redisplay_after_sigwinch": {
+      "start_point": [
+        2828,
+        0
+      ],
+      "end_point": [
+        2871,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_clean_up_for_exit": {
+      "start_point": [
+        2873,
+        0
+      ],
+      "end_point": [
+        2884,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_erase_entire_line": {
+      "start_point": [
+        2886,
+        0
+      ],
+      "end_point": [
+        2893,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_ttyflush": {
+      "start_point": [
+        2895,
+        0
+      ],
+      "end_point": [
+        2899,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_current_display_line": {
+      "start_point": [
+        2903,
+        0
+      ],
+      "end_point": [
+        2921,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/emacs_keymap.c": {},
+  "readline/readline-7.0/funmap.c": {
+    "rl_initialize_funmap": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        240,
+        1
+      ],
+      "strings": []
+    },
+    "rl_funmap_names": {
+      "start_point": [
+        245,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/histexpand.c": {
+    "postproc_subst_rhs": {
+      "start_point": [
+        491,
+        0
+      ],
+      "end_point": [
+        521,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/histfile.c": {},
+  "readline/readline-7.0/histlib.h": {},
+  "readline/readline-7.0/history.c": {
+    "history_get_history_state": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "using_history": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    },
+    "history_total_bytes": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "where_history": {
+      "start_point": [
+        150,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": []
+    },
+    "history_list": {
+      "start_point": [
+        171,
+        0
+      ],
+      "end_point": [
+        175,
+        1
+      ],
+      "strings": []
+    },
+    "current_history": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": []
+    },
+    "previous_history": {
+      "start_point": [
+        190,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": []
+    },
+    "next_history": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        203,
+        1
+      ],
+      "strings": []
+    },
+    "hist_inittime": {
+      "start_point": [
+        254,
+        0
+      ],
+      "end_point": [
+        270,
+        1
+      ],
+      "strings": [
+        "\"X%lu\"",
+        "\"X%lu\""
+      ]
+    },
+    "unstifle_history": {
+      "start_point": [
+        531,
+        0
+      ],
+      "end_point": [
+        541,
+        1
+      ],
+      "strings": []
+    },
+    "history_is_stifled": {
+      "start_point": [
+        543,
+        0
+      ],
+      "end_point": [
+        547,
+        1
+      ],
+      "strings": []
+    },
+    "clear_history": {
+      "start_point": [
+        549,
+        0
+      ],
+      "end_point": [
+        562,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/history.h": {},
+  "readline/readline-7.0/histsearch.c": {},
+  "readline/readline-7.0/input.c": {
+    "win32_isatty": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_any_typein": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        129,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_pushed_input_available": {
+      "start_point": [
+        131,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "ibuffer_space": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "rl_gather_tyi": {
+      "start_point": [
+        190,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_input_available": {
+      "start_point": [
+        311,
+        0
+      ],
+      "end_point": [
+        351,
+        1
+      ],
+      "strings": []
+    },
+    "rl_clear_pending_input": {
+      "start_point": [
+        426,
+        0
+      ],
+      "end_point": [
+        432,
+        1
+      ],
+      "strings": []
+    },
+    "rl_read_key": {
+      "start_point": [
+        441,
+        0
+      ],
+      "end_point": [
+        489,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/isearch.c": {},
+  "readline/readline-7.0/keymaps.c": {
+    "rl_make_bare_keymap": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "rl_make_keymap": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/keymaps.h": {},
+  "readline/readline-7.0/kill.c": {},
+  "readline/readline-7.0/macro.c": {
+    "_rl_next_macro_key": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_prev_macro_key": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_push_executing_macro": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_pop_executing_macro": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_kill_kbd_macro": {
+      "start_point": [
+        191,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/mbutil.c": {},
+  "readline/readline-7.0/misc.c": {
+    "_rl_arg_overflow": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_arg_init": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        99,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_arg_getchar": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": [
+        "\"(arg: %d) \""
+      ]
+    },
+    "rl_digit_loop": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        218,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_reset_argument": {
+      "start_point": [
+        221,
+        0
+      ],
+      "end_point": [
+        227,
+        1
+      ],
+      "strings": []
+    },
+    "rl_discard_argument": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        294,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_start_using_history": {
+      "start_point": [
+        311,
+        0
+      ],
+      "end_point": [
+        319,
+        1
+      ],
+      "strings": []
+    },
+    "rl_maybe_replace_line": {
+      "start_point": [
+        336,
+        0
+      ],
+      "end_point": [
+        351,
+        1
+      ],
+      "strings": []
+    },
+    "rl_maybe_unsave_line": {
+      "start_point": [
+        354,
+        0
+      ],
+      "end_point": [
+        370,
+        1
+      ],
+      "strings": []
+    },
+    "rl_maybe_save_line": {
+      "start_point": [
+        373,
+        0
+      ],
+      "end_point": [
+        385,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_free_saved_history_line": {
+      "start_point": [
+        387,
+        0
+      ],
+      "end_point": [
+        396,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_history_set_point": {
+      "start_point": [
+        398,
+        0
+      ],
+      "end_point": [
+        414,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_revert_all_lines": {
+      "start_point": [
+        442,
+        0
+      ],
+      "end_point": [
+        485,
+        1
+      ],
+      "strings": []
+    },
+    "rl_clear_history": {
+      "start_point": [
+        491,
+        0
+      ],
+      "end_point": [
+        516,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/nls.c": {
+    "_rl_init_eightbit": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": [
+        "\"LC_CTYPE\"",
+        "\"\"",
+        "\"POSIX\"",
+        "\"LC_CTYPE\""
+      ]
+    }
+  },
+  "readline/readline-7.0/parens.c": {},
+  "readline/readline-7.0/parse-colors.c": {
+    "get_funky_string": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        296,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_parse_colors": {
+      "start_point": [
+        299,
+        0
+      ],
+      "end_point": [
+        439,
+        1
+      ],
+      "strings": [
+        "\"LS_COLORS\"",
+        "\"??\"",
+        "\"LS_COLORS: unrecognized prefix: %s\"",
+        "\"LS_COLORS: syntax error: %s\"",
+        "\"unparsable value for LS_COLORS environment variable\""
+      ]
+    }
+  },
+  "readline/readline-7.0/parse-colors.h": {},
+  "readline/readline-7.0/posixdir.h": {},
+  "readline/readline-7.0/posixjmp.h": {},
+  "readline/readline-7.0/posixselect.h": {},
+  "readline/readline-7.0/posixstat.h": {},
+  "readline/readline-7.0/readline.c": {
+    "readline_internal_setup": {
+      "start_point": [
+        402,
+        0
+      ],
+      "end_point": [
+        449,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "_rl_internal_char_cleanup": {
+      "start_point": [
+        494,
+        0
+      ],
+      "end_point": [
+        522,
+        1
+      ],
+      "strings": []
+    },
+    "readline_internal_charloop": {
+      "start_point": [
+        649,
+        0
+      ],
+      "end_point": [
+        657,
+        1
+      ],
+      "strings": []
+    },
+    "readline_internal": {
+      "start_point": [
+        663,
+        0
+      ],
+      "end_point": [
+        671,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_init_line_state": {
+      "start_point": [
+        673,
+        0
+      ],
+      "end_point": [
+        679,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_set_the_line": {
+      "start_point": [
+        681,
+        0
+      ],
+      "end_point": [
+        685,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_keyseq_cxt_alloc": {
+      "start_point": [
+        688,
+        0
+      ],
+      "end_point": [
+        702,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_keyseq_chain_dispose": {
+      "start_point": [
+        711,
+        0
+      ],
+      "end_point": [
+        722,
+        1
+      ],
+      "strings": []
+    },
+    "rl_initialize": {
+      "start_point": [
+        1092,
+        0
+      ],
+      "end_point": [
+        1134,
+        1
+      ],
+      "strings": []
+    },
+    "_emx_build_environ": {
+      "start_point": [
+        1138,
+        0
+      ],
+      "end_point": [
+        1158,
+        1
+      ],
+      "strings": []
+    },
+    "readline_initialize_everything": {
+      "start_point": [
+        1163,
+        0
+      ],
+      "end_point": [
+        1243,
+        1
+      ],
+      "strings": [
+        "\"EMACS\"",
+        "\"TERM\""
+      ]
+    },
+    "readline_default_bindings": {
+      "start_point": [
+        1248,
+        0
+      ],
+      "end_point": [
+        1253,
+        1
+      ],
+      "strings": []
+    },
+    "reset_default_bindings": {
+      "start_point": [
+        1257,
+        0
+      ],
+      "end_point": [
+        1265,
+        1
+      ],
+      "strings": []
+    },
+    "bind_arrow_keys": {
+      "start_point": [
+        1325,
+        0
+      ],
+      "end_point": [
+        1338,
+        1
+      ],
+      "strings": [
+        "\"\\033\""
+      ]
+    },
+    "bind_bracketed_paste_prefix": {
+      "start_point": [
+        1340,
+        0
+      ],
+      "end_point": [
+        1354,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/readline.h": {},
+  "readline/readline-7.0/rlconf.h": {},
+  "readline/readline-7.0/rldefs.h": {},
+  "readline/readline-7.0/rlmbutil.h": {},
+  "readline/readline-7.0/rlprivate.h": {},
+  "readline/readline-7.0/rlshell.h": {},
+  "readline/readline-7.0/rlstdc.h": {},
+  "readline/readline-7.0/rltty.c": {
+    "rl_deprep_terminal": [
+      {
+        "start_point": [
+          593,
+          0
+        ],
+        "end_point": [
+          596,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          683,
+          0
+        ],
+        "end_point": [
+          714,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "_rl_disable_tty_signals": [
+      {
+        "start_point": [
+          955,
+          0
+        ],
+        "end_point": [
+          959,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          971,
+          0
+        ],
+        "end_point": [
+          990,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "_rl_restore_tty_signals": [
+      {
+        "start_point": [
+          961,
+          0
+        ],
+        "end_point": [
+          965,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          992,
+          0
+        ],
+        "end_point": [
+          1006,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "readline/readline-7.0/rltty.h": {},
+  "readline/readline-7.0/rltypedefs.h": {},
+  "readline/readline-7.0/rlwinsize.h": {},
+  "readline/readline-7.0/savestring.c": {},
+  "readline/readline-7.0/search.c": {},
+  "readline/readline-7.0/shell.c": {
+    "sh_get_home_dir": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/signals.c": {
+    "rl_set_signals": {
+      "start_point": [
+        402,
+        0
+      ],
+      "end_point": [
+        499,
+        1
+      ],
+      "strings": []
+    },
+    "rl_clear_signals": {
+      "start_point": [
+        501,
+        0
+      ],
+      "end_point": [
+        552,
+        1
+      ],
+      "strings": []
+    },
+    "rl_cleanup_after_signal": {
+      "start_point": [
+        556,
+        0
+      ],
+      "end_point": [
+        564,
+        1
+      ],
+      "strings": []
+    },
+    "rl_reset_after_signal": {
+      "start_point": [
+        567,
+        0
+      ],
+      "end_point": [
+        573,
+        1
+      ],
+      "strings": []
+    },
+    "rl_free_line_state": {
+      "start_point": [
+        579,
+        0
+      ],
+      "end_point": [
+        593,
+        1
+      ],
+      "strings": []
+    },
+    "rl_pending_signal": {
+      "start_point": [
+        595,
+        0
+      ],
+      "end_point": [
+        599,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_block_sigint": {
+      "start_point": [
+        623,
+        0
+      ],
+      "end_point": [
+        630,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_release_sigint": {
+      "start_point": [
+        633,
+        0
+      ],
+      "end_point": [
+        641,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_block_sigwinch": {
+      "start_point": [
+        645,
+        0
+      ],
+      "end_point": [
+        671,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_release_sigwinch": {
+      "start_point": [
+        674,
+        0
+      ],
+      "end_point": [
+        697,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/tcap.h": {},
+  "readline/readline-7.0/terminal.c": {
+    "rl_reset_screen_size": {
+      "start_point": [
+        356,
+        0
+      ],
+      "end_point": [
+        360,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_sigwinch_resize_terminal": {
+      "start_point": [
+        362,
+        0
+      ],
+      "end_point": [
+        366,
+        1
+      ],
+      "strings": []
+    },
+    "rl_resize_terminal": {
+      "start_point": [
+        368,
+        0
+      ],
+      "end_point": [
+        379,
+        1
+      ],
+      "strings": []
+    },
+    "rl_crlf": {
+      "start_point": [
+        679,
+        0
+      ],
+      "end_point": [
+        688,
+        1
+      ],
+      "strings": []
+    },
+    "rl_ding": {
+      "start_point": [
+        691,
+        0
+      ],
+      "end_point": [
+        720,
+        1
+      ],
+      "strings": [
+        "\"\\007\""
+      ]
+    },
+    "_rl_enable_meta_key": {
+      "start_point": [
+        730,
+        0
+      ],
+      "end_point": [
+        740,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_disable_meta_key": {
+      "start_point": [
+        742,
+        0
+      ],
+      "end_point": [
+        752,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/text.c": {},
+  "readline/readline-7.0/tilde.c": {
+    "memory_error_and_abort": {
+      "start_point": [
+        497,
+        0
+      ],
+      "end_point": [
+        502,
+        1
+      ],
+      "strings": [
+        "\"readline: out of virtual memory\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/tilde.h": {},
+  "readline/readline-7.0/undo.c": {
+    "rl_free_undo_list": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": []
+    },
+    "rl_do_undo": {
+      "start_point": [
+        174,
+        0
+      ],
+      "end_point": [
+        253,
+        1
+      ],
+      "strings": []
+    },
+    "rl_begin_undo_group": {
+      "start_point": [
+        275,
+        0
+      ],
+      "end_point": [
+        281,
+        1
+      ],
+      "strings": []
+    },
+    "rl_end_undo_group": {
+      "start_point": [
+        284,
+        0
+      ],
+      "end_point": [
+        290,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/util.c": {
+    "_rl_walphabetic": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_abort_internal": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_tropen": {
+      "start_point": [
+        513,
+        0
+      ],
+      "end_point": [
+        531,
+        1
+      ],
+      "strings": [
+        "\"TEMP\"",
+        "\".\"",
+        "\"/var/tmp\"",
+        "\"%s/rltrace.%ld\"",
+        "\"w+\""
+      ]
+    },
+    "_rl_trclose": {
+      "start_point": [
+        533,
+        0
+      ],
+      "end_point": [
+        541,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/vi_keymap.c": {},
+  "readline/readline-7.0/vi_mode.c": {
+    "_rl_vi_initialize_line": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_vi_reset_last": {
+      "start_point": [
+        159,
+        0
+      ],
+      "end_point": [
+        166,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_vi_save_replace": {
+      "start_point": [
+        744,
+        0
+      ],
+      "end_point": [
+        765,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_vi_done_inserting": {
+      "start_point": [
+        787,
+        0
+      ],
+      "end_point": [
+        820,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_vi_backup": {
+      "start_point": [
+        971,
+        0
+      ],
+      "end_point": [
+        978,
+        1
+      ],
+      "strings": []
+    },
+    "rl_vi_check": {
+      "start_point": [
+        980,
+        0
+      ],
+      "end_point": [
+        991,
+        1
+      ],
+      "strings": []
+    },
+    "rl_digit_loop1": {
+      "start_point": [
+        1042,
+        0
+      ],
+      "end_point": [
+        1061,
+        1
+      ],
+      "strings": []
+    },
+    "rl_vi_possible_completions": {
+      "start_point": [
+        2146,
+        0
+      ],
+      "end_point": [
+        2167,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_vi_set_mark": {
+      "start_point": [
+        2171,
+        0
+      ],
+      "end_point": [
+        2188,
+        1
+      ],
+      "strings": []
+    },
+    "_rl_vi_goto_mark": {
+      "start_point": [
+        2218,
+        0
+      ],
+      "end_point": [
+        2246,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/xfree.c": {},
+  "readline/readline-7.0/xmalloc.c": {},
+  "readline/readline-7.0/xmalloc.h": {},
+  "readline/readline-7.0/examples/excallback.c": {
+    "main": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": [
+        "\"tcgetattr\"",
+        "\"tcsetattr\"",
+        "\"change-prompt\"",
+        "\"select\""
+      ]
+    },
+    "process_line": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": [
+        "\"\\n\"",
+        "\"tcsetattr\"",
+        "\"sleep\"",
+        "\"|%s|\\n\""
+      ]
+    },
+    "change_prompt": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        186,
+        1
+      ],
+      "strings": []
+    },
+    "get_prompt": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        195,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"Hit ctrl-t to toggle prompt> \"",
+        "\"Pretty cool huh?> \""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/fileman.c": {
+    "initialize_readline": {
+      "start_point": [
+        250,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": [
+        "\"FileMan\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/histexamp.c": {},
+  "readline/readline-7.0/examples/hist_erasedups.c": {
+    "usage": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": [
+        "\"hist_erasedups: usage: hist_erasedups [-t] [filename]\\n\""
+      ]
+    },
+    "hist_erasedups": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/examples/hist_purgecmd.c": {
+    "usage": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": [
+        "\"hist_purgecmd: usage: hist_purgecmd [-r] [-t] [-f filename] command-spec\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/manexamp.c": {
+    "rl_gets": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/readlinebuf.h": {
+    "showmanyc": [
+      {
+        "start_point": [
+          45,
+          0
+        ],
+        "end_point": [
+          136,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          65,
+          9
+        ],
+        "end_point": [
+          65,
+          60
+        ],
+        "strings": []
+      }
+    ],
+    "xsgetn": {
+      "start_point": [
+        67,
+        1
+      ],
+      "end_point": [
+        84,
+        2
+      ],
+      "strings": []
+    },
+    "underflow": {
+      "start_point": [
+        86,
+        1
+      ],
+      "end_point": [
+        99,
+        2
+      ],
+      "strings": []
+    },
+    "uflow": {
+      "start_point": [
+        101,
+        1
+      ],
+      "end_point": [
+        105,
+        2
+      ],
+      "strings": []
+    },
+    "pbackfail": {
+      "start_point": [
+        107,
+        1
+      ],
+      "end_point": [
+        126,
+        2
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/examples/rl-callbacktest.c": {
+    "sighandler": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    },
+    "cb_linehandler": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": [
+        "\"exit\"",
+        "\"\\n\"",
+        "\"exit\\n\"",
+        "\"input line: %s\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"rltest: select\"",
+        "\"rltest: Event loop has exited\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/rl-fgets.c": {
+    "my_fgets_reset": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": [
+        "\"libfgets:  removing command list\\n\""
+      ]
+    },
+    "my_fgets_dump": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": [
+        "\"\\n\"",
+        "\"FGETS_PROMPT\"",
+        "\"FGETS_PROMPT       = %s\\n\"",
+        "\"\"",
+        "\"FGETS_COMMAND_FILE\"",
+        "\"FGETS_COMMAND_FILE = %s\\n\"",
+        "\"\"",
+        "\"debug flag         = %d\\n\"",
+        "\"#commands          = %d\\n\"",
+        "\"%s\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "my_fgets_debug_toggle": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": [
+        "\"libfgets:  debug flag = %d\\n\""
+      ]
+    },
+    "my_fgets_lookup": {
+      "start_point": [
+        215,
+        0
+      ],
+      "end_point": [
+        269,
+        1
+      ],
+      "strings": [
+        "\"FGETS_COMMAND_FILE\"",
+        "\"libfgets:  empty or unset FGETS_COMMAND_FILE\\n\"",
+        "\"r\"",
+        "\"libfgets:  cannot open '%s' for reading\\n\"",
+        "\"fgets\"",
+        "\"libfgets:  failed to dynamically link to native fgets()\\n\"",
+        "\"%s\"",
+        "\"libfgets:  successfully read %d commands\\n\""
+      ]
+    },
+    "my_fgets_generator": {
+      "start_point": [
+        274,
+        0
+      ],
+      "end_point": [
+        293,
+        1
+      ],
+      "strings": []
+    },
+    "my_fgets_completion": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        311,
+        1
+      ],
+      "strings": []
+    },
+    "fgets": {
+      "start_point": [
+        316,
+        0
+      ],
+      "end_point": [
+        373,
+        1
+      ],
+      "strings": [
+        "\"FGETS_PROMPT\"",
+        "\"_fgets_reset_\"",
+        "\"\\n\"",
+        "\"_fgets_dump_\"",
+        "\"\\n\"",
+        "\"_fgets_debug_\"",
+        "\"\\n\"",
+        "\"\\n\"",
+        "\"fgets\"",
+        "\"libfgets:  failed to dynamically link to native fgets()\\n\"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/rl.c": {
+    "set_deftext": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "usage": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": [
+        "\"%s: usage: %s [-p prompt] [-u unit] [-d default] [-n nchars]\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/rlbasic.c": {
+    "main": {
+      "start_point": [
+        13,
+        0
+      ],
+      "end_point": [
+        28,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\"",
+        "\"exit\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/rlcat.c": {
+    "usage": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": [
+        "\"%s: usage: %s [-vEVN] [filename]\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/rlevent.c": {
+    "event_hook": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": [
+        "\"ding!\\n\""
+      ]
+    },
+    "set_deftext": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "usage": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": [
+        "\"%s: usage: %s [-p prompt] [-u unit] [-d default] [-n nchars]\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/rlptytest.c": {
+    "user_input": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": []
+    },
+    "readline_input": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        99,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "rlctx_send_user_command": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        119,
+        1
+      ],
+      "strings": [
+        "\"exit\"",
+        "\"\\n\""
+      ]
+    },
+    "custom_deprep_term_function": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    },
+    "init_readline": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"w\"",
+        "\"(rltest):  \"",
+        "\"dumb\"",
+        "\".history\""
+      ]
+    },
+    "main_loop": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        208,
+        1
+      ],
+      "strings": []
+    },
+    "tty_cbreak": {
+      "start_point": [
+        224,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": [
+        "\"%d rows and %d cols\\n\""
+      ]
+    },
+    "tty_off_xon_xoff": {
+      "start_point": [
+        276,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": []
+    },
+    "tty_reset": {
+      "start_point": [
+        300,
+        0
+      ],
+      "end_point": [
+        311,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        313,
+        0
+      ],
+      "end_point": [
+        344,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "readline/readline-7.0/examples/rltest.c": {},
+  "readline/readline-7.0/examples/rlversion.c": {
+    "main": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\"",
+        "\"unknown\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/rlfe/extern.h": {},
+  "readline/readline-7.0/examples/rlfe/os.h": {},
+  "readline/readline-7.0/examples/rlfe/pty.c": {},
+  "readline/readline-7.0/examples/rlfe/rlfe.c": {
+    "sig_child": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        169,
+        1
+      ],
+      "strings": [
+        "\"(Child process died.)\\n\""
+      ]
+    },
+    "sigwinch_handler": {
+      "start_point": [
+        177,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": []
+    },
+    "get_slave_pty": {
+      "start_point": [
+        187,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": [
+        "\"tty\""
+      ]
+    },
+    "add_special_char": {
+      "start_point": [
+        228,
+        0
+      ],
+      "end_point": [
+        233,
+        1
+      ],
+      "strings": []
+    },
+    "is_special_char": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        249,
+        1
+      ],
+      "strings": []
+    },
+    "maybe_emphasize_input": {
+      "start_point": [
+        264,
+        0
+      ],
+      "end_point": [
+        272,
+        1
+      ],
+      "strings": []
+    },
+    "null_prep_terminal": {
+      "start_point": [
+        274,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": []
+    },
+    "null_deprep_terminal": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": []
+    },
+    "pre_input_change_mode": {
+      "start_point": [
+        285,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    },
+    "line_handler": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        355,
+        1
+      ],
+      "strings": [
+        "\"saw eof!\\n\"",
+        "\"\\r\""
+      ]
+    },
+    "my_rl_getc": {
+      "start_point": [
+        361,
+        0
+      ],
+      "end_point": [
+        371,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        373,
+        0
+      ],
+      "end_point": [
+        756,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"/tmp/rlfe.log\"",
+        "\"w\"",
+        "\"ptypair: could not open master pty\"",
+        "\"pty name: '%s'\\n\"",
+        "\"ptypair: could not handle SIGWINCH \"",
+        "\"ptypair: could not get window size\"",
+        "\"cannot fork\"",
+        "\"ptypair: could not open slave pty\"",
+        "\"could not set session leader\"",
+        "\"could not set new controlling tty\"",
+        "\"ptypair: could not open slave pty\"",
+        "\"could not restore window size\"",
+        "\"r\"",
+        "\"select\"",
+        "\"[tty avail num_keys:%d]\\n\"",
+        "\"echo,canon,crnl:%03d\\n\"",
+        "\"tcgetattr on master fd failed: errno = %d\\n\"",
+        "\"[read %d chars from stdin: \"",
+        "\" \\\"%.*s\\\"]\\n\"",
+        "\"New empty prompt\\n\"",
+        "\"\\001%s\\002%.*s\\001%s\\002\"",
+        "\"New prompt '%s'\\n\"",
+        "\"\\r\"",
+        "\"read %d from inferior, buf_count=%d\"",
+        "\": \\\"%.*s\\\"\"",
+        "\"(Connection closed by foreign host.)\\n\"",
+        "\"suppressed %d characters of echo.\\n\"",
+        "\"-> i: %d, buf_count: %d\\n\""
+      ]
+    },
+    "set_edit_mode": {
+      "start_point": [
+        758,
+        0
+      ],
+      "end_point": [
+        784,
+        1
+      ],
+      "strings": [
+        "\"SHELLOPTS\"",
+        "\"vi\"",
+        "\"EDITOR\"",
+        "\"EDITOR\"",
+        "\"vi\"",
+        "\"editing-mode\"",
+        "\"vi\"",
+        "\"editing-mode\"",
+        "\"emacs\""
+      ]
+    },
+    "usage_exit": {
+      "start_point": [
+        787,
+        0
+      ],
+      "end_point": [
+        791,
+        1
+      ],
+      "strings": [
+        "\"Usage: rlfe [-h histfile] [-s size] cmd [arg1] [arg2] ...\\n\\n\""
+      ]
+    }
+  },
+  "readline/readline-7.0/examples/rlfe/screen.h": {},
+  "readline/readline-7.0/support/wcwidth.c": {
+    "bisearch": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "mk_wcwidth": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    },
+    "mk_wcswidth": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "strings": []
+    },
+    "mk_wcwidth_cjk": {
+      "start_point": [
+        233,
+        0
+      ],
+      "end_point": [
+        298,
+        1
+      ],
+      "strings": []
+    },
+    "mk_wcswidth_cjk": {
+      "start_point": [
+        301,
+        0
+      ],
+      "end_point": [
+        312,
+        1
+      ],
+      "strings": []
+    }
+  }
+}

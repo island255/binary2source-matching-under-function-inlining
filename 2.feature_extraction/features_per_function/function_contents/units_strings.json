@@ -1,0 +1,2476 @@
+{
+  "units/units-2.16/getopt.c": {},
+  "units/units-2.16/getopt.h": {},
+  "units/units-2.16/getopt1.c": {},
+  "units/units-2.16/parse.tab.c": {
+    "getnewunit": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": [
+        "\"(getnewunit)\""
+      ]
+    },
+    "destroyunit": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    },
+    "makenumunit": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "logb2": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "funcunit": {
+      "start_point": [
+        159,
+        0
+      ],
+      "end_point": [
+        192,
+        1
+      ],
+      "strings": [
+        "\"radian\"",
+        "\"radian\""
+      ]
+    },
+    "yy_symbol_value_print": {
+      "start_point": [
+        815,
+        0
+      ],
+      "end_point": [
+        828,
+        1
+      ],
+      "strings": []
+    },
+    "yy_symbol_print": {
+      "start_point": [
+        835,
+        0
+      ],
+      "end_point": [
+        843,
+        1
+      ],
+      "strings": [
+        "\"%s %s (\"",
+        "\"token\"",
+        "\"nterm\"",
+        "\")\""
+      ]
+    },
+    "yy_stack_print": {
+      "start_point": [
+        850,
+        0
+      ],
+      "end_point": [
+        860,
+        1
+      ],
+      "strings": [
+        "\"Stack now\"",
+        "\" %d\"",
+        "\"\\n\""
+      ]
+    },
+    "yy_reduce_print": {
+      "start_point": [
+        873,
+        0
+      ],
+      "end_point": [
+        891,
+        1
+      ],
+      "strings": [
+        "\"Reducing stack by rule %d (line %lu):\\n\"",
+        "\"   $%d = \"",
+        "\"\\n\""
+      ]
+    },
+    "yystrlen": {
+      "start_point": [
+        934,
+        0
+      ],
+      "end_point": [
+        941,
+        1
+      ],
+      "strings": []
+    },
+    "yystpcpy": {
+      "start_point": [
+        951,
+        0
+      ],
+      "end_point": [
+        961,
+        1
+      ],
+      "strings": []
+    },
+    "yytnamerr": {
+      "start_point": [
+        973,
+        0
+      ],
+      "end_point": [
+        1010,
+        1
+      ],
+      "strings": []
+    },
+    "yysyntax_error": {
+      "start_point": [
+        1021,
+        0
+      ],
+      "end_point": [
+        1146,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "yydestruct": {
+      "start_point": [
+        1153,
+        0
+      ],
+      "end_point": [
+        1200,
+        1
+      ],
+      "strings": [
+        "\"Deleting\""
+      ]
+    },
+    "yyparse": {
+      "start_point": [
+        1209,
+        0
+      ],
+      "end_point": [
+        1901,
+        1
+      ],
+      "strings": [
+        "\"Starting parse\\n\"",
+        "\"memory exhausted\"",
+        "\"Stack size increased to %lu\\n\"",
+        "\"Entering state %d\\n\"",
+        "\"Reading a token: \"",
+        "\"Now at end of input.\\n\"",
+        "\"Next token is\"",
+        "\"Shifting\"",
+        "\"-> $$ =\"",
+        "\"syntax error\"",
+        "\"syntax error\"",
+        "\"Error: discarding\"",
+        "\"Error: popping\"",
+        "\"memory exhausted\"",
+        "\"Cleanup: discarding lookahead\"",
+        "\"Cleanup: popping\""
+      ]
+    },
+    "yylex": {
+      "start_point": [
+        1942,
+        0
+      ],
+      "end_point": [
+        2111,
+        1
+      ],
+      "strings": [
+        "\"~;+-*/|\\t\\n^ ()\"",
+        "\".,_\"",
+        "\".,0123456789\"",
+        "\"**\"",
+        "\"23456789\""
+      ]
+    },
+    "yyerror": {
+      "start_point": [
+        2114,
+        0
+      ],
+      "end_point": [
+        2114,
+        46
+      ],
+      "strings": []
+    },
+    "parseunit": {
+      "start_point": [
+        2117,
+        0
+      ],
+      "end_point": [
+        2155,
+        1
+      ],
+      "strings": [
+        "\"units: Parser leaked memory with error: %d in %d out\\n\"",
+        "\"units: Parser leaked memory without error: %d in %d out\\n\""
+      ]
+    }
+  },
+  "units/units-2.16/parse.y": {
+    "getnewunit": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": [
+        "\"(getnewunit)\""
+      ]
+    },
+    "destroyunit": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    },
+    "makenumunit": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": []
+    },
+    "logb2": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "funcunit": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": [
+        "\"radian\"",
+        "\"radian\""
+      ]
+    },
+    "comm": [
+      {
+        "start_point": [
+          148,
+          14
+        ],
+        "end_point": [
+          201,
+          33
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          200,
+          8
+        ],
+        "end_point": [
+          200,
+          74
+        ],
+        "strings": []
+      }
+    ],
+    "list": [
+      {
+        "start_point": [
+          205,
+          12
+        ],
+        "end_point": [
+          205,
+          61
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          209,
+          7
+        ],
+        "end_point": [
+          209,
+          66
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          210,
+          7
+        ],
+        "end_point": [
+          210,
+          66
+        ],
+        "strings": []
+      }
+    ],
+    "ADD": {
+      "start_point": [
+        211,
+        7
+      ],
+      "end_point": [
+        212,
+        55
+      ],
+      "strings": []
+    },
+    "MINUS": {
+      "start_point": [
+        213,
+        7
+      ],
+      "end_point": [
+        215,
+        55
+      ],
+      "strings": []
+    },
+    "MULTSTAR": {
+      "start_point": [
+        225,
+        11
+      ],
+      "end_point": [
+        225,
+        56
+      ],
+      "strings": []
+    },
+    "MULTMINUS": [
+      {
+        "start_point": [
+          240,
+          8
+        ],
+        "end_point": [
+          241,
+          54
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          243,
+          8
+        ],
+        "end_point": [
+          243,
+          77
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          244,
+          8
+        ],
+        "end_point": [
+          244,
+          77
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          245,
+          8
+        ],
+        "end_point": [
+          245,
+          77
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          246,
+          8
+        ],
+        "end_point": [
+          246,
+          81
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          247,
+          8
+        ],
+        "end_point": [
+          247,
+          81
+        ],
+        "strings": []
+      }
+    ],
+    "EXPONENT": [
+      {
+        "start_point": [
+          248,
+          22
+        ],
+        "end_point": [
+          250,
+          70
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          251,
+          22
+        ],
+        "end_point": [
+          253,
+          70
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          258,
+          8
+        ],
+        "end_point": [
+          258,
+          66
+        ],
+        "strings": []
+      }
+    ],
+    "yylex": {
+      "start_point": [
+        300,
+        0
+      ],
+      "end_point": [
+        469,
+        1
+      ],
+      "strings": [
+        "\"~;+-*/|\\t\\n^ ()\"",
+        "\".,_\"",
+        "\".,0123456789\"",
+        "\"**\"",
+        "\"23456789\""
+      ]
+    },
+    "yyerror": {
+      "start_point": [
+        472,
+        0
+      ],
+      "end_point": [
+        472,
+        46
+      ],
+      "strings": []
+    },
+    "parseunit": {
+      "start_point": [
+        475,
+        0
+      ],
+      "end_point": [
+        513,
+        1
+      ],
+      "strings": [
+        "\"units: Parser leaked memory with error: %d in %d out\\n\"",
+        "\"units: Parser leaked memory without error: %d in %d out\\n\""
+      ]
+    }
+  },
+  "units/units-2.16/strfunc.c": {
+    "strpbrk": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "strtok": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    },
+    "strspn": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        106,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "units/units-2.16/units.c": {
+    "save_history": {
+      "start_point": [
+        320,
+        0
+      ],
+      "end_point": [
+        343,
+        1
+      ],
+      "strings": [
+        "\"Unable to write history to '%s': %s\\n\""
+      ]
+    },
+    "growbuffer": {
+      "start_point": [
+        352,
+        0
+      ],
+      "end_point": [
+        367,
+        1
+      ],
+      "strings": [
+        "\"%s: memory allocation error (growbuffer)\\n\""
+      ]
+    },
+    "hassubscript": {
+      "start_point": [
+        376,
+        0
+      ],
+      "end_point": [
+        388,
+        1
+      ],
+      "strings": []
+    },
+    "replace_minus": {
+      "start_point": [
+        392,
+        0
+      ],
+      "end_point": [
+        421,
+        1
+      ],
+      "strings": [
+        "\"\\xE2\\x80\\x92\"",
+        "\"\\xE2\\x80\\x93\"",
+        "\"\\xE2\\x88\\x92\""
+      ]
+    },
+    "replacectrlchars": {
+      "start_point": [
+        426,
+        0
+      ],
+      "end_point": [
+        432,
+        1
+      ],
+      "strings": []
+    },
+    "fgetscont": {
+      "start_point": [
+        440,
+        0
+      ],
+      "end_point": [
+        459,
+        1
+      ],
+      "strings": [
+        "\"\\\\\\n\""
+      ]
+    },
+    "fgetslong": {
+      "start_point": [
+        470,
+        0
+      ],
+      "end_point": [
+        488,
+        1
+      ],
+      "strings": []
+    },
+    "mymalloc": {
+      "start_point": [
+        492,
+        0
+      ],
+      "end_point": [
+        503,
+        1
+      ],
+      "strings": [
+        "\"%s: memory allocation error %s\\n\""
+      ]
+    },
+    "dupstr": {
+      "start_point": [
+        508,
+        0
+      ],
+      "end_point": [
+        516,
+        1
+      ],
+      "strings": [
+        "\"(dupstr)\""
+      ]
+    },
+    "dupnstr": {
+      "start_point": [
+        521,
+        0
+      ],
+      "end_point": [
+        529,
+        1
+      ],
+      "strings": [
+        "\"(dupnstr)\""
+      ]
+    },
+    "strwidth": {
+      "start_point": [
+        541,
+        0
+      ],
+      "end_point": [
+        561,
+        1
+      ],
+      "strings": [
+        "\"(strwidth)\""
+      ]
+    },
+    "uhash": {
+      "start_point": [
+        570,
+        0
+      ],
+      "end_point": [
+        578,
+        1
+      ],
+      "strings": []
+    },
+    "ulookup": {
+      "start_point": [
+        584,
+        0
+      ],
+      "end_point": [
+        593,
+        1
+      ],
+      "strings": []
+    },
+    "plookup": {
+      "start_point": [
+        599,
+        0
+      ],
+      "end_point": [
+        613,
+        1
+      ],
+      "strings": []
+    },
+    "fnlookup": {
+      "start_point": [
+        617,
+        0
+      ],
+      "end_point": [
+        626,
+        1
+      ],
+      "strings": []
+    },
+    "aliaslookup": {
+      "start_point": [
+        628,
+        0
+      ],
+      "end_point": [
+        636,
+        1
+      ],
+      "strings": []
+    },
+    "addfunction": {
+      "start_point": [
+        641,
+        0
+      ],
+      "end_point": [
+        649,
+        1
+      ],
+      "strings": []
+    },
+    "freefunction": {
+      "start_point": [
+        654,
+        0
+      ],
+      "end_point": [
+        672,
+        1
+      ],
+      "strings": []
+    },
+    "removespaces": {
+      "start_point": [
+        676,
+        0
+      ],
+      "end_point": [
+        688,
+        1
+      ],
+      "strings": [
+        "\" \""
+      ]
+    },
+    "invfnlookup": {
+      "start_point": [
+        698,
+        0
+      ],
+      "end_point": [
+        705,
+        1
+      ],
+      "strings": []
+    },
+    "strip_comment": {
+      "start_point": [
+        708,
+        0
+      ],
+      "end_point": [
+        718,
+        1
+      ],
+      "strings": []
+    },
+    "tightprint": {
+      "start_point": [
+        723,
+        0
+      ],
+      "end_point": [
+        731,
+        1
+      ],
+      "strings": []
+    },
+    "splitline": {
+      "start_point": [
+        748,
+        0
+      ],
+      "end_point": [
+        761,
+        1
+      ],
+      "strings": [
+        "\" \"",
+        "\"\\n\""
+      ]
+    },
+    "isdecimal": {
+      "start_point": [
+        766,
+        0
+      ],
+      "end_point": [
+        770,
+        1
+      ],
+      "strings": []
+    },
+    "checkunitname": {
+      "start_point": [
+        777,
+        0
+      ],
+      "end_point": [
+        796,
+        1
+      ],
+      "strings": [
+        "\"%s: unit '%s' in units file '%s' on line %d ignored.  It starts with a digit\\n\"",
+        "\"%s: redefinition of built-in function '%s' in file '%s' on line %d ignored.\\n\""
+      ]
+    },
+    "newunit": {
+      "start_point": [
+        799,
+        0
+      ],
+      "end_point": [
+        850,
+        1
+      ],
+      "strings": [
+        "\"%s: unit '%s' on line %d of '%s' ignored.  It starts or ends with '_'\\n\"",
+        "\".,23456789\"",
+        "\"%s: unit '%s' on line %d of '%s' ignored.  %s\\n\"",
+        "\"%s: unit '%s' defined on line %d of '%s' is redefined on line %d of '%s'.\\n\"",
+        "\"(newunit)\""
+      ]
+    },
+    "newprefix": {
+      "start_point": [
+        853,
+        0
+      ],
+      "end_point": [
+        884,
+        1
+      ],
+      "strings": [
+        "\"%s: prefix '%s-' defined on line %d of '%s' is redefined on line %d of '%s'.\\n\"",
+        "\"(newprefix)\""
+      ]
+    },
+    "parsepair": {
+      "start_point": [
+        895,
+        0
+      ],
+      "end_point": [
+        942,
+        1
+      ],
+      "strings": [
+        "\"[(\"",
+        "\"[\"",
+        "\"%s: expecting '[' %s in definition of '%s' in '%s' line %d\\n\"",
+        "\"or '('\"",
+        "\"\"",
+        "\"%s: unexpected characters before '%c' in definition of '%s' in '%s' line %d\\n\"",
+        "\"])\"",
+        "\"]\"",
+        "\"%s: expecting ']' %s in definition of '%s' in '%s' line %d\\n\"",
+        "\"or ')'\"",
+        "\"\""
+      ]
+    },
+    "extract_interval": {
+      "start_point": [
+        954,
+        0
+      ],
+      "end_point": [
+        982,
+        1
+      ],
+      "strings": [
+        "\"(extract_interval)\"",
+        "\"(extract_interval)\""
+      ]
+    },
+    "copyfunctype": {
+      "start_point": [
+        986,
+        0
+      ],
+      "end_point": [
+        1004,
+        1
+      ],
+      "strings": [
+        "\"(copyfunctype)\"",
+        "\"(copyfunctype)\""
+      ]
+    },
+    "copyfunction": {
+      "start_point": [
+        1007,
+        0
+      ],
+      "end_point": [
+        1062,
+        1
+      ],
+      "strings": [
+        "\"()\"",
+        "\" ;][()+*/-^\"",
+        "\"%s: bad definition for '%s' in '%s' line %d, function '%s' not defined\\n\"",
+        "\"%s: bad function definition of '%s' in '%s' line %d\\n\"",
+        "\"%s: function '%s' defined on line %d of '%s' is redefined on line %d of '%s'.\\n\"",
+        "\"(newfunction)\"",
+        "\"(copyfunction)\""
+      ]
+    },
+    "newfunction": {
+      "start_point": [
+        1077,
+        0
+      ],
+      "end_point": [
+        1280,
+        1
+      ],
+      "strings": [
+        "\"%s: unit '%s' on line %d of '%s' ignored.  It starts with a '('\\n\"",
+        "\"%s: bad function definition of '%s' in '%s' line %d\\n\"",
+        "\"%s: second endpoint for domain must be greater than the first\\n       in definition of '%s' in '%s' line %d\\n\"",
+        "\"%s: malformed domain in definition of '%s' in '%s' line %d\\n\"",
+        "\"%s: second endpoint for range must be greater than the first\\n       in definition of '%s' in '%s' line %d\\n\"",
+        "\"%s: malformed range in definition of '%s' in '%s' line %d\\n\"",
+        "\"%s: function '%s' lacks a definition at line %d of '%s'\\n\"",
+        "\"%s: function '%s' missing keyword before '[' on line %d of '%s'\\n\"",
+        "\"%s: function '%s' defined on line %d of '%s' has domain with no units.\\n\"",
+        "\"%s: function '%s' defined on line %d of '%s' has range with no units.\\n\"",
+        "\"%s: function '%s' defined on line %d of '%s' is redefined on line %d of '%s'.\\n\"",
+        "\"(newfunction)\""
+      ]
+    },
+    "newtable": {
+      "start_point": [
+        1283,
+        0
+      ],
+      "end_point": [
+        1383,
+        1
+      ],
+      "strings": [
+        "\"%s: missing ']' in units file '%s' line %d\\n\"",
+        "\"%s: unexpected characters after ']' in units file '%s' line %d\\n\"",
+        "\"(newtable)\"",
+        "\"%s: memory allocation error (newtable)\\n\"",
+        "\"%s: cannot parse table definition %s at '%s' on line %d of '%s'\\n\"",
+        "\"%s: points don't increase (%.8g to %.8g) in units file '%s' line %d\\n\"",
+        "\" \"",
+        "\"%s: missing value after %.8g in units file '%s' line %d\\n\"",
+        "\" ,\"",
+        "\"%s: unit '%s' defined on line %d of '%s' is redefined on line %d of '%s'.\\n\"",
+        "\"(newtable)\""
+      ]
+    },
+    "newalias": {
+      "start_point": [
+        1386,
+        0
+      ],
+      "end_point": [
+        1416,
+        1
+      ],
+      "strings": [
+        "\"%s: unit list missing '%c' on line %d of '%s'\\n\"",
+        "\"%s: unit list '%s' defined on line %d of '%s' is redefined on line %d of '%s'.\\n\"",
+        "\"(newalias)\""
+      ]
+    },
+    "checkvar": {
+      "start_point": [
+        1426,
+        0
+      ],
+      "end_point": [
+        1440,
+        1
+      ],
+      "strings": [
+        "\" \"",
+        "\" \""
+      ]
+    },
+    "setenv": {
+      "start_point": [
+        1444,
+        0
+      ],
+      "end_point": [
+        1465,
+        1
+      ],
+      "strings": [
+        "\"=\""
+      ]
+    },
+    "pathend": {
+      "start_point": [
+        1481,
+        0
+      ],
+      "end_point": [
+        1493,
+        1
+      ],
+      "strings": []
+    },
+    "isfullpath": {
+      "start_point": [
+        1495,
+        0
+      ],
+      "end_point": [
+        1504,
+        1
+      ],
+      "strings": []
+    },
+    "readunits": {
+      "start_point": [
+        1519,
+        0
+      ],
+      "end_point": [
+        1786,
+        1
+      ],
+      "strings": [
+        "\"rt\"",
+        "\"%s: %s on line %d of '%s'\\n\"",
+        "\" \"",
+        "\"var\"",
+        "\"varnot\"",
+        "\" \"",
+        "\"\"",
+        "\"%s: no variable name specified on line %d of '%s'\\n\"",
+        "\"%s: no value specified on line %d of '%s'\\n\"",
+        "\"%s: nested var statements not allowed, line %d of '%s'\\n\"",
+        "\"%s: environment variable %s not set at line %d of '%s'\\n\"",
+        "\"endvar\"",
+        "\"%s: unmatched !endvar on line %d of '%s'\\n\"",
+        "\"locale\"",
+        "\" \"",
+        "\"%s: no locale specified on line %d of '%s'\\n\"",
+        "\"%s: nested locales not allowed, line %d of '%s'\\n\"",
+        "\"endlocale\"",
+        "\"%s: unmatched !endlocale on line %d of '%s'\\n\"",
+        "\"utf8\"",
+        "\"%s: nested utf8 not allowed, line %d of '%s'\\n\"",
+        "\"endutf8\"",
+        "\"%s: unmatched !endutf8 on line %d of '%s'\\n\"",
+        "\"message\"",
+        "\"\"",
+        "\"set\"",
+        "\" \"",
+        "\" \"",
+        "\"%s: no variable name specified on line %d of '%s'\\n\"",
+        "\"%s: no value specified on line %d of '%s'\\n\"",
+        "\"unitlist\"",
+        "\"include\"",
+        "\"%s: max include depth of %d exceeded in file '%s' line %d\\n\"",
+        "\" \"",
+        "\"%s: missing include filename on line %d of '%s'\\n\"",
+        "\"(readunits)\"",
+        "\"%s: cannot open included file '%s' at line %d of file '%s\\n\"",
+        "\"%s: unit '%s' lacks a definition at line %d of '%s'\\n\""
+      ]
+    },
+    "initializeunit": {
+      "start_point": [
+        1790,
+        0
+      ],
+      "end_point": [
+        1795,
+        1
+      ],
+      "strings": []
+    },
+    "freeunit": {
+      "start_point": [
+        1801,
+        0
+      ],
+      "end_point": [
+        1815,
+        1
+      ],
+      "strings": []
+    },
+    "logprintf": {
+      "start_point": [
+        1818,
+        0
+      ],
+      "end_point": [
+        1831,
+        1
+      ],
+      "strings": []
+    },
+    "logputchar": {
+      "start_point": [
+        1833,
+        0
+      ],
+      "end_point": [
+        1838,
+        1
+      ],
+      "strings": []
+    },
+    "logputs": {
+      "start_point": [
+        1840,
+        0
+      ],
+      "end_point": [
+        1845,
+        1
+      ],
+      "strings": []
+    },
+    "showunit": {
+      "start_point": [
+        1850,
+        0
+      ],
+      "end_point": [
+        1893,
+        1
+      ],
+      "strings": [
+        "\"%s%d\"",
+        "\" %s\"",
+        "\"%s%d\"",
+        "\"%s%d\"",
+        "\" /\"",
+        "\" %s\"",
+        "\"%s%d\""
+      ]
+    },
+    "compare": {
+      "start_point": [
+        1898,
+        0
+      ],
+      "end_point": [
+        1902,
+        1
+      ],
+      "strings": []
+    },
+    "sortunit": {
+      "start_point": [
+        1907,
+        0
+      ],
+      "end_point": [
+        1917,
+        1
+      ],
+      "strings": []
+    },
+    "cancelunit": {
+      "start_point": [
+        1923,
+        0
+      ],
+      "end_point": [
+        1944,
+        1
+      ],
+      "strings": []
+    },
+    "lookupunit": {
+      "start_point": [
+        1974,
+        0
+      ],
+      "end_point": [
+        2035,
+        1
+      ],
+      "strings": [
+        "\" \""
+      ]
+    },
+    "moveproduct": {
+      "start_point": [
+        2041,
+        0
+      ],
+      "end_point": [
+        2059,
+        1
+      ],
+      "strings": []
+    },
+    "copyproduct": {
+      "start_point": [
+        2069,
+        0
+      ],
+      "end_point": [
+        2079,
+        1
+      ],
+      "strings": []
+    },
+    "unitcopy": {
+      "start_point": [
+        2083,
+        0
+      ],
+      "end_point": [
+        2089,
+        1
+      ],
+      "strings": []
+    },
+    "multunit": {
+      "start_point": [
+        2095,
+        0
+      ],
+      "end_point": [
+        2104,
+        1
+      ],
+      "strings": []
+    },
+    "divunit": {
+      "start_point": [
+        2106,
+        0
+      ],
+      "end_point": [
+        2115,
+        1
+      ],
+      "strings": []
+    },
+    "reduceproduct": {
+      "start_point": [
+        2133,
+        0
+      ],
+      "end_point": [
+        2175,
+        1
+      ],
+      "strings": []
+    },
+    "reduceunit": {
+      "start_point": [
+        2183,
+        0
+      ],
+      "end_point": [
+        2207,
+        1
+      ],
+      "strings": []
+    },
+    "ignore_dimless": {
+      "start_point": [
+        2215,
+        0
+      ],
+      "end_point": [
+        2225,
+        1
+      ],
+      "strings": []
+    },
+    "ignore_nothing": {
+      "start_point": [
+        2227,
+        0
+      ],
+      "end_point": [
+        2231,
+        1
+      ],
+      "strings": []
+    },
+    "ignore_primitive": {
+      "start_point": [
+        2234,
+        0
+      ],
+      "end_point": [
+        2244,
+        1
+      ],
+      "strings": []
+    },
+    "compareproducts": {
+      "start_point": [
+        2254,
+        0
+      ],
+      "end_point": [
+        2275,
+        1
+      ],
+      "strings": []
+    },
+    "compareunits": {
+      "start_point": [
+        2281,
+        0
+      ],
+      "end_point": [
+        2288,
+        1
+      ],
+      "strings": []
+    },
+    "completereduce": {
+      "start_point": [
+        2293,
+        0
+      ],
+      "end_point": [
+        2303,
+        1
+      ],
+      "strings": []
+    },
+    "expunit": {
+      "start_point": [
+        2309,
+        0
+      ],
+      "end_point": [
+        2350,
+        1
+      ],
+      "strings": []
+    },
+    "unit2num": {
+      "start_point": [
+        2353,
+        0
+      ],
+      "end_point": [
+        2366,
+        1
+      ],
+      "strings": []
+    },
+    "unitdimless": {
+      "start_point": [
+        2369,
+        0
+      ],
+      "end_point": [
+        2378,
+        1
+      ],
+      "strings": []
+    },
+    "showunitdetail": {
+      "start_point": [
+        2382,
+        0
+      ],
+      "end_point": [
+        2396,
+        1
+      ],
+      "strings": [
+        "\"%.17g \"",
+        "\"NULL \"",
+        "\"`%s' \"",
+        "\" / \"",
+        "\"NULL \"",
+        "\"`%s' \""
+      ]
+    },
+    "subunitroot": {
+      "start_point": [
+        2406,
+        0
+      ],
+      "end_point": [
+        2432,
+        1
+      ],
+      "strings": []
+    },
+    "rootunit": {
+      "start_point": [
+        2435,
+        0
+      ],
+      "end_point": [
+        2455,
+        1
+      ],
+      "strings": []
+    },
+    "invertunit": {
+      "start_point": [
+        2460,
+        0
+      ],
+      "end_point": [
+        2477,
+        1
+      ],
+      "strings": []
+    },
+    "float2rat": {
+      "start_point": [
+        2480,
+        0
+      ],
+      "end_point": [
+        2510,
+        1
+      ],
+      "strings": []
+    },
+    "unitpower": {
+      "start_point": [
+        2515,
+        0
+      ],
+      "end_point": [
+        2557,
+        1
+      ],
+      "strings": []
+    },
+    "addunit": {
+      "start_point": [
+        2564,
+        0
+      ],
+      "end_point": [
+        2578,
+        1
+      ],
+      "strings": []
+    },
+    "linearinterp": {
+      "start_point": [
+        2581,
+        0
+      ],
+      "end_point": [
+        2588,
+        1
+      ],
+      "strings": []
+    },
+    "evalfunc": {
+      "start_point": [
+        2598,
+        0
+      ],
+      "end_point": [
+        2713,
+        1
+      ],
+      "strings": []
+    },
+    "showdefinition": {
+      "start_point": [
+        2722,
+        0
+      ],
+      "end_point": [
+        2735,
+        1
+      ],
+      "strings": [
+        "\" = \""
+      ]
+    },
+    "showfunction": {
+      "start_point": [
+        2738,
+        0
+      ],
+      "end_point": [
+        2792,
+        1
+      ],
+      "strings": [
+        "\" is undefined\"",
+        "\"(%s) = %s\"",
+        "\"defined for \"",
+        "\" *\"",
+        "\" %s\"",
+        "\" < \"",
+        "\" <= \"",
+        "\" < \"",
+        "\" <= \"",
+        "\" > \"",
+        "\" >= \"",
+        "\" *\"",
+        "\" %s\"",
+        "\" (any units)\"",
+        "\"%s has units %s\"",
+        "\"%s is dimensionless\""
+      ]
+    },
+    "showtable": {
+      "start_point": [
+        2794,
+        0
+      ],
+      "end_point": [
+        2830,
+        1
+      ],
+      "strings": [
+        "\"%sinterpolated table with points\\n\"",
+        "\"\\t\\t    \"",
+        "\"~%s(\"",
+        "\" *\"",
+        "\" %s\"",
+        "\") = \"",
+        "\"\\t\\t    \"",
+        "\"%s(\"",
+        "\") = \"",
+        "\" *\"",
+        "\" %s\\n\""
+      ]
+    },
+    "showfuncdefinition": {
+      "start_point": [
+        2833,
+        0
+      ],
+      "end_point": [
+        2845,
+        1
+      ],
+      "strings": [
+        "\"%s%s%s\"",
+        "\"~\"",
+        "\"\""
+      ]
+    },
+    "showunitlistdef": {
+      "start_point": [
+        2848,
+        0
+      ],
+      "end_point": [
+        2855,
+        1
+      ],
+      "strings": [
+        "\"%sunit list, \""
+      ]
+    },
+    "showfunc": {
+      "start_point": [
+        2861,
+        0
+      ],
+      "end_point": [
+        2913,
+        1
+      ],
+      "strings": [
+        "\"conformability error\"",
+        "\"1\"",
+        "\": conversion requires dimensions of '%s'\\n\"",
+        "\"\\t%s = \"",
+        "\"\\n\\t%s = \"",
+        "\"\\n\\t\"",
+        "\"Value '%s' is not in the function's range\\n\"",
+        "\"Function evaluation error (bad function definition)\\n\"",
+        "\"\\t%s = %s(\""
+      ]
+    },
+    "showconformabilityerr": {
+      "start_point": [
+        2917,
+        0
+      ],
+      "end_point": [
+        2935,
+        1
+      ],
+      "strings": [
+        "\"conformability error\\n\"",
+        "\"\\t%s = \"",
+        "\"\\n\\t%s = \"",
+        "\"\\n\\t\""
+      ]
+    },
+    "isfract": {
+      "start_point": [
+        2943,
+        0
+      ],
+      "end_point": [
+        2957,
+        1
+      ],
+      "strings": []
+    },
+    "checksigdigits": {
+      "start_point": [
+        2959,
+        0
+      ],
+      "end_point": [
+        2995,
+        1
+      ],
+      "strings": [
+        "\"max\"",
+        "\"%s: invalid significant digits (%s)--integer value or 'max' required\\n\"",
+        "\"%s: number of significant digits must be positive\\n\"",
+        "\"%s: too many significant digits (%d)--using maximum value (%d)\\n\""
+      ]
+    },
+    "setnumformat": {
+      "start_point": [
+        2999,
+        0
+      ],
+      "end_point": [
+        3013,
+        1
+      ],
+      "strings": [
+        "\"Ee\"",
+        "\"(setnumformat)\"",
+        "\"%%.%d%c\""
+      ]
+    },
+    "parsenumformat": {
+      "start_point": [
+        3021,
+        0
+      ],
+      "end_point": [
+        3166,
+        1
+      ],
+      "strings": [
+        "\"+-# 0'\"",
+        "\"0x1p+1\"",
+        "\"ABCDEFGHIJKLMNOPQRSTUVWXYXabcdefghijklmnopqrstuvwxyx.01234567890\"",
+        "\"(parsenumformat)\"",
+        "\"%.1F\"",
+        "\"F\"",
+        "\"%.0a\"",
+        "\"aA\"",
+        "\"%'.0f\"",
+        "\"%s: number format specification must start with '%%'\\n\"",
+        "\"%s: only one '%%' allowed in number format specification\\n\"",
+        "\"%s: only one '.' allowed in number format specification\\n\"",
+        "\"%s: digit-grouping flag (') not supported\\n\"",
+        "\"hh\"",
+        "\"ll\"",
+        "\"%s: type length modifier (%.2s) not supported\\n\"",
+        "\"hjLltz\"",
+        "\"%s: type length modifier (%c) not supported\\n\"",
+        "\"%s: invalid character (%c) in width, precision, or type\\n\"",
+        "\"%s: invalid number format specification (%s)\\n\"",
+        "\"%s: valid specification is %%[flags][width][.precision]type\\n\"",
+        "\"%s: missing format type\\n\"",
+        "\"%s: invalid character(s) (%s) after format type\\n\"",
+        "\"%s: invalid format type (%c)--valid types are [%s]\\n\"",
+        "\"%s: invalid number format specification (%s)\\n\"",
+        "\"%s: valid specification is %%[flags][width][.precision]type\\n\""
+      ]
+    },
+    "round_to_displayed": {
+      "start_point": [
+        3172,
+        0
+      ],
+      "end_point": [
+        3217,
+        1
+      ],
+      "strings": [
+        "\"Ff\"",
+        "\"FfGg\"",
+        "\"(round_to_displayed)\"",
+        "\"1234567890\""
+      ]
+    },
+    "showunitname": {
+      "start_point": [
+        3229,
+        0
+      ],
+      "end_point": [
+        3258,
+        1
+      ],
+      "strings": [
+        "\"+-\"",
+        "\" (%s)\"",
+        "\"1|\"",
+        "\" * %s\"",
+        "\" %s\""
+      ]
+    },
+    "showanswer": {
+      "start_point": [
+        3263,
+        0
+      ],
+      "end_point": [
+        3332,
+        1
+      ],
+      "strings": [
+        "\"reciprocal conversion\\n\"",
+        "\"\"",
+        "\"1 / (\"",
+        "\")\"",
+        "\"1 / \"",
+        "\"\"",
+        "\"\\t%s%s%s = \"",
+        "\"\\t* \"",
+        "\"\\n\\t%s%s%s = (1 / \"",
+        "\"\\n\\t/ \""
+      ]
+    },
+    "checkfunc": {
+      "start_point": [
+        3344,
+        0
+      ],
+      "end_point": [
+        3493,
+        1
+      ],
+      "strings": [
+        "\"skipped function '%s'\\n\"",
+        "\"doing function '%s'\\n\"",
+        "\"Warning: '%s' defined as prefix and function\\n\"",
+        "\"Table '%s' has invalid units '%s'\\n\"",
+        "\"Table '%s' has only one data point\\n\"",
+        "\"Table '%s' lacks unique inverse around entry %.8g\\n\"",
+        "\"Function '%s' has invalid units '%s'\\n\"",
+        "\"Error in definition %s(%s) as '%s':\\n\"",
+        "\"      %s\\n\"",
+        "\"(kg K)^ \"",
+        "\"Warning: function '%s(%s)' defined as '%s'\\n\"",
+        "\"         appears to require a dimensionless argument, 'units' keyword not given\\n\"",
+        "\"         \"",
+        "\"Error or missing 'units' keyword in definion %s(%s) as '%s'\\n\"",
+        "\"      \"",
+        "\"Warning: function '%s(%s)' defined as '%s'\\n\"",
+        "\"         failed for some test inputs:\\n\"",
+        "\"         \"",
+        "\"%s%s(\"",
+        "\"%s): %s\\n\"",
+        "\"Definition %s(%s) as '%s' is irreducible\\n\"",
+        "\"Warning: no inverse for function '%s'\\n\"",
+        "\"Error in inverse ~%s(%s) as '%s':\\n\"",
+        "\"      %s\\n\"",
+        "\"Inverse is not the inverse for function '%s'\\n\""
+      ]
+    },
+    "addtolist": {
+      "start_point": [
+        3504,
+        0
+      ],
+      "end_point": [
+        3545,
+        1
+      ],
+      "strings": [
+        "\"%s: memory allocation error (addtolist)\\n\"",
+        "\"<primitive unit>\""
+      ]
+    },
+    "compnd": {
+      "start_point": [
+        3548,
+        0
+      ],
+      "end_point": [
+        3552,
+        1
+      ],
+      "strings": []
+    },
+    "screensize": {
+      "start_point": [
+        3559,
+        0
+      ],
+      "end_point": [
+        3563,
+        1
+      ],
+      "strings": []
+    },
+    "tryallunits": {
+      "start_point": [
+        3572,
+        0
+      ],
+      "end_point": [
+        3648,
+        1
+      ],
+      "strings": [
+        "\"(tryallunits)\"",
+        "\"\"",
+        "\"<piecewise linear>\"",
+        "\"<nonlinear>\"",
+        "\"No matching units found.\"",
+        "\"w\""
+      ]
+    },
+    "getuser_noreadline": {
+      "start_point": [
+        3663,
+        0
+      ],
+      "end_point": [
+        3687,
+        1
+      ],
+      "strings": [
+        "\"Error: %s\\n\""
+      ]
+    },
+    "getuser_readline": {
+      "start_point": [
+        3694,
+        0
+      ],
+      "end_point": [
+        3716,
+        1
+      ],
+      "strings": [
+        "\"Error: %s\\n\""
+      ]
+    },
+    "getuser": {
+      "start_point": [
+        3719,
+        0
+      ],
+      "end_point": [
+        3726,
+        1
+      ],
+      "strings": []
+    },
+    "completeunits": {
+      "start_point": [
+        3746,
+        0
+      ],
+      "end_point": [
+        3850,
+        1
+      ],
+      "strings": [
+        "\"(completeunits)\""
+      ]
+    },
+    "checkcwd": {
+      "start_point": [
+        3857,
+        0
+      ],
+      "end_point": [
+        3886,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"(checkcwd)\"",
+        "\"r\""
+      ]
+    },
+    "getprogramname": {
+      "start_point": [
+        3893,
+        0
+      ],
+      "end_point": [
+        3907,
+        1
+      ],
+      "strings": []
+    },
+    "getprogdir": {
+      "start_point": [
+        3913,
+        0
+      ],
+      "end_point": [
+        4009,
+        1
+      ],
+      "strings": [
+        "\"PATH\"",
+        "\"(getprogdir)\"",
+        "\"r\"",
+        "\"r\"",
+        "\"%s: cannot find program directory\\n\""
+      ]
+    },
+    "getdatadir": {
+      "start_point": [
+        4016,
+        0
+      ],
+      "end_point": [
+        4042,
+        1
+      ],
+      "strings": [
+        "\"(getdatadir)\""
+      ]
+    },
+    "findlocalemap": {
+      "start_point": [
+        4044,
+        0
+      ],
+      "end_point": [
+        4139,
+        1
+      ],
+      "strings": [
+        "\"UNITSLOCALEMAP\"",
+        "\"rt\"",
+        "\"%s: cannot open locale map '%s'\\n  specified in UNITSLOCALEMAP environment variable. \"",
+        "\"rt\"",
+        "\"%s: cannot find locale map--program directory not set\\n\"",
+        "\"(findlocalemap)\"",
+        "\"rt\"",
+        "\"(findlocalemap)\"",
+        "\"/\"",
+        "\"rt\"",
+        "\"(findlocalemap)\"",
+        "\"rt\""
+      ]
+    },
+    "findunitsfile": {
+      "start_point": [
+        4143,
+        0
+      ],
+      "end_point": [
+        4223,
+        1
+      ],
+      "strings": [
+        "\"UNITSFILE\"",
+        "\"rt\"",
+        "\"%s: cannot open units file '%s' in environment variable UNITSFILE.  \"",
+        "\"rt\"",
+        "\"%s: cannot open units data file '%s'.  \"",
+        "\"%s: cannot open units file '%s' and cannot find program directory.\\n\"",
+        "\"(findunitsfile)\"",
+        "\"rt\"",
+        "\"(findunitsfile)\"",
+        "\"/\"",
+        "\"rt\"",
+        "\"%s: cannot find units file '%s'\\n\""
+      ]
+    },
+    "personalfile": {
+      "start_point": [
+        4236,
+        0
+      ],
+      "end_point": [
+        4319,
+        1
+      ],
+      "strings": [
+        "\"rt\"",
+        "\"%s: cannot open file '%s' specified in %s environment variable. \"",
+        "\"HOME\"",
+        "\"(personalfile)\"",
+        "\"HOMEDRIVE\"",
+        "\"HOMEPATH\"",
+        "\"(personalfile)\"",
+        "\"USERPROFILE\"",
+        "\"(personalfile)\"",
+        "\"/\"",
+        "\"rt\"",
+        "\"%s: cannot read file '%s'.  \""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        4325,
+        0
+      ],
+      "end_point": [
+        4376,
+        1
+      ],
+      "strings": [
+        "\"\\nUsage: %s [options] ['from-unit' 'to-unit']\\n\"",
+        "\"\\n\\\nOptions:\\n\\\n    -h, --help           show this help and exit\\n\\\n    -c, --check          check that all units reduce to primitive units\\n\\\n        --check-verbose  like --check, but lists units as they are checked\\n\\\n        --verbose-check    so you can find units that cause endless loops\\n\\\n    -d, --digits         show output to specified number of digits (default: %d)\\n\\\n    -e, --exponential    exponential format output\\n\\\n    -f, --file           specify a units data file (-f '' loads default file)\\n\"",
+        "\"\\\n    -H, --history        specify readline history file (-H '' disables history)\\n\"",
+        "\"\\\n    -L, --log            specify a file to log conversions\\n\\\n    -l, --locale         specify a desired locale\\n\\\n    -m, --minus          make - into a subtraction operator (default)\\n\\\n        --oldstar        use old '*' precedence, higher than '/'\\n\\\n        --newstar        use new '*' precedence, equal to '/'\\n\\\n    -n, --nolists        disable conversion to unit lists\\n\\\n    -S, --show-factor    show non-unity factor before 1|x in multi-unit output\\n\\\n    -o, --output-format  specify printf numeric output format (default: %%.%d%c)\\n\\\n    -p, --product        make '-' into a product operator\\n\\\n    -q, --quiet          suppress prompting\\n\\\n        --silent         same as --quiet\\n\\\n    -s, --strict         suppress reciprocal unit conversion (e.g. Hz<->s)\\n\\\n    -v, --verbose        show slightly more verbose output\\n\\\n        --compact        suppress printing of tab, '*', and '/' character\\n\\\n    -1, --one-line       suppress the second line of output\\n\\\n    -t, --terse          terse output (--strict --compact --quiet --one-line)\\n\\\n    -r, --round          round last element of unit list output to an integer\\n\\\n    -U, --unitsfile      show units data filename and exit\\n\\\n    -V, --version        show version, data filenames (with -t: version only)\\n\\\n    -I, --info           show version, files, and program properties\\n\"",
+        "\"Units data file '%s' not found.\\n\\n\"",
+        "\"To learn about the available units look in '%s'\\n\\n\"",
+        "\"Report bugs to adrianm@gnu.org.\\n\\n\""
+      ]
+    },
+    "helpmsg": {
+      "start_point": [
+        4380,
+        0
+      ],
+      "end_point": [
+        4385,
+        1
+      ],
+      "strings": [
+        "\"\\nTry '%s --help' for more information.\\n\""
+      ]
+    },
+    "printversion": {
+      "start_point": [
+        4389,
+        0
+      ],
+      "end_point": [
+        4495,
+        1
+      ],
+      "strings": [
+        "\"GNU Units version %s\\n\"",
+        "\"GNU Units version %s\\n%s, %s, locale %s\\n\"",
+        "\"With MKS Toolkit\"",
+        "\"\\n%s program is %s\\n\"",
+        "\"UNITSFILE\"",
+        "\"Environment variable UNITSFILE set to '%s'\\n\"",
+        "\"Environment variable UNITSFILE not set\"",
+        "\"Default units data file is '%s'\\n\"",
+        "\"Default units data file is '%s';\\n  %s will search for this file\\n\"",
+        "\"Found data file '%s'\\n\"",
+        "\"Units data file is '%s'\\n\"",
+        "\"*** Units data file not found ***\"",
+        "\"Environment variable %s set to '%s'\\n\"",
+        "\"Environment variable %s not set\\n\"",
+        "\"Personal units data file is '%s'\"",
+        "\"\\n  (file does not exist)\"",
+        "\"Personal units data file not found: no home directory\"",
+        "\"\\nDefault readline history file is '%s'\\n\"",
+        "\"\\nReadline history file unusable: no home directory\"",
+        "\"UNITSLOCALEMAP\"",
+        "\"Environment variable UNITSLOCALEMAP set to '%s'\\n\"",
+        "\"Environment variable UNITSLOCALEMAP not set\"",
+        "\"Default locale map is '%s'\\n\"",
+        "\"Default locale map is '%s';\\n  %s will search for this file\\n\"",
+        "\"Found locale map '%s'\\n\"",
+        "\"Locale map is '%s'\\n\"",
+        "\"*** Locale map not found ***\"",
+        "\"\\n\\n%s\\n\\n\""
+      ]
+    },
+    "showunitsfile": {
+      "start_point": [
+        4497,
+        0
+      ],
+      "end_point": [
+        4506,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\"",
+        "\"Units data file not found\""
+      ]
+    },
+    "processargs": {
+      "start_point": [
+        4552,
+        0
+      ],
+      "end_point": [
+        4699,
+        1
+      ],
+      "strings": [
+        "\"At most %d -f specifications are allowed\\n\"",
+        "\"Too many arguments (arguments are not allowed with -c).\\n\"",
+        "\"Too many arguments (maybe you need quotes).\\n\""
+      ]
+    },
+    "showpointer": {
+      "start_point": [
+        4707,
+        0
+      ],
+      "end_point": [
+        4714,
+        1
+      ],
+      "strings": [
+        "\"^\""
+      ]
+    },
+    "processunit": {
+      "start_point": [
+        4727,
+        0
+      ],
+      "end_point": [
+        4766,
+        1
+      ],
+      "strings": [
+        "\"Unit list not allowed\"",
+        "\"Error in '%s': \"",
+        "\" '%s'\"",
+        "\" '%s'\""
+      ]
+    },
+    "checkunitlist": {
+      "start_point": [
+        4786,
+        0
+      ],
+      "end_point": [
+        4870,
+        1
+      ],
+      "strings": [
+        "\" \"",
+        "\"Error: blank unit not allowed\"",
+        "\"Error in unit list entry: %s\\n\""
+      ]
+    },
+    "processwant": {
+      "start_point": [
+        4884,
+        0
+      ],
+      "end_point": [
+        4891,
+        1
+      ],
+      "strings": []
+    },
+    "checkallaliases": {
+      "start_point": [
+        4894,
+        0
+      ],
+      "end_point": [
+        4909,
+        1
+      ],
+      "strings": [
+        "\"doing unit list '%s'\\n\"",
+        "\"Unit list '%s' contains errors\\n\"",
+        "\"Unit list '%s' hides a unit definition.\\n\"",
+        "\"Unit list '%s' hides a function definition.\\n\""
+      ]
+    },
+    "checkunits": {
+      "start_point": [
+        4921,
+        0
+      ],
+      "end_point": [
+        5001,
+        1
+      ],
+      "strings": [
+        "\"doing '%s'\\n\"",
+        "\"Unit '%s' hidden by function '%s'\\n\"",
+        "\"'%s' defined as '%s' irreducible\\n\"",
+        "\"'%s': replace '-' with '+-' for subtraction or '*' to multiply\\n\"",
+        "\"meter\"",
+        "\"doing '%s-'\\n\"",
+        "\"(checkunits)\"",
+        "\"'%s-' defined as '%s' irreducible\\n\"",
+        "\"'%s-' defined as '%s' contains a bad '/'. (Add parentheses.)\\n\""
+      ]
+    },
+    "showunitlist": {
+      "start_point": [
+        5012,
+        0
+      ],
+      "end_point": [
+        5141,
+        1
+      ],
+      "strings": [
+        "\"\\t%s = \"",
+        "\" + \"",
+        "\"0 \"",
+        "\"* \"",
+        "\" (rounded up to nearest %s) \"",
+        "\" (rounded down to nearest %s) \"",
+        "\"%c%c\""
+      ]
+    },
+    "ismksmore": {
+      "start_point": [
+        5145,
+        0
+      ],
+      "end_point": [
+        5226,
+        1
+      ],
+      "strings": [
+        "\"more\"",
+        "\"less\"",
+        "\"%s: cannot invoke pager--value '%s' in PAGER too long\\n\"",
+        "\"(ishelpquery)\"",
+        "\"PATH\"",
+        "\"ROOTDIR\"",
+        "\"more\"",
+        "\"more.exe\"",
+        "\"less.exe\"",
+        "\"/mksnt/\"",
+        "\"(ishelpquery)\"",
+        "\"/mksnt/\"",
+        "\"%s: cannot stat file '%s'. \"",
+        "\"%s: cannot stat file '%s'. \""
+      ]
+    },
+    "ishelpquery": {
+      "start_point": [
+        5235,
+        0
+      ],
+      "end_point": [
+        5350,
+        1
+      ],
+      "strings": [
+        "\"\\n\\\nType 'search text' to see a list of all unit names \\n\\\ncontaining 'text' as a substring\\n\\n\"",
+        "\"\\n\\\nUnits converts between different measuring systems and    %s6 inches\\n\\\nacts as a units-aware calculator.  At the '%s'    %scm\\n\\\nprompt, type in the units you want to convert from or             * 15.24\\n\\\nan expression to evaluate.  At the '%s' prompt,           / 0.065\\n\\\nenter the units to convert to or press return to see\\n\\\nthe reduced form or definition.                           %stempF(75)\\n\\\n                                                          %stempC\\n\\\nThe first example shows that 6 inches is about 15 cm              23.889\\n\\\nor (1/0.065) cm.  The second example shows how to\\n\\\nconvert 75 degrees Fahrenheit to Celsius.  The third      %sbu^(1/3)\\n\\\nexample converts the cube root of a bushel to a list      %sft;in\\n\\\nof semicolon-separated units.                                     1 ft + 0.9 in\\n\\\n\\n\\\nTo quit from units type Ctrl-%s or Ctrl-C.       %s2 btu + 450 ft lbf\\n\\\n                                                %s(kg^2/s)/(day lb/m^2)\\n\\\nAt the '%s' prompt type '%s' to get a            * 1.0660684e+08\\n\\\nlist of conformable units.  At either prompt you        / 9.3802611e-09\\n\\\ntype 'help myunit' to browse the units database\\n\\\nand read the comments relating to myunit or see         %s6 tbsp sugar\\n\\\nother units related to myunit.  Typing 'search          %sg\\n\\\ntext' will show units whose names contain 'text'.               * 75\\n\\\n                                                                / 0.013333333\\n\"",
+        "\"Unknown unit '%s'\\n\"",
+        "\"\\\"\\\"%s\\\" +%dg \\\"%s\\\"\\\"\"",
+        "\"\\\"\\\"%s\\\"  +%d \\\"%s\\\"\\\"\"",
+        "\"\\\"\\\"%s\\\" +%d \\\"%s\\\"\\\"\"",
+        "\"%s +%d %s\"",
+        "\"%s: cannot invoke pager '%s' to display help\\n\""
+      ]
+    },
+    "checklocale": [
+      {
+        "start_point": [
+          5353,
+          0
+        ],
+        "end_point": [
+          5366,
+          1
+        ],
+        "strings": [
+          "\"\"",
+          "\"UTF-8\""
+        ]
+      },
+      {
+        "start_point": [
+          5370,
+          0
+        ],
+        "end_point": [
+          5389,
+          1
+        ],
+        "strings": [
+          "\"\"",
+          "\"LC_CTYPE\"",
+          "\"LANG\""
+        ]
+      }
+    ],
+    "replacealias": {
+      "start_point": [
+        5398,
+        0
+      ],
+      "end_point": [
+        5427,
+        1
+      ],
+      "strings": [
+        "\"Unit list definition contains errors.\""
+      ]
+    },
+    "remaplocale": {
+      "start_point": [
+        5435,
+        0
+      ],
+      "end_point": [
+        5463,
+        1
+      ],
+      "strings": [
+        "\"rt\"",
+        "\"%s: cannot open locale map '%s'. \""
+      ]
+    },
+    "close_logfile": {
+      "start_point": [
+        5466,
+        0
+      ],
+      "end_point": [
+        5473,
+        1
+      ],
+      "strings": []
+    },
+    "open_logfile": {
+      "start_point": [
+        5476,
+        0
+      ],
+      "end_point": [
+        5493,
+        1
+      ],
+      "strings": [
+        "\"at\"",
+        "\"%s: cannot write to log file '%s'.  \"",
+        "\"### Log started %s \\n\""
+      ]
+    },
+    "write_files_sig": {
+      "start_point": [
+        5496,
+        0
+      ],
+      "end_point": [
+        5506,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        5509,
+        0
+      ],
+      "end_point": [
+        5803,
+        1
+      ],
+      "strings": [
+        "\" \\t+-*/()|^;\"",
+        "\".units\"",
+        "\"unitdef.units\"",
+        "\"Log file '%s' ignored in non-interactive mode.\\n\"",
+        "\"\"",
+        "\"%s: cannot open units file '%s'.  \"",
+        "\"\"",
+        "\"%d units, %d prefixes, %d nonlinear units\\n\\n\"",
+        "\"Error: %s on input\\n\"",
+        "\"Error: %s on input\\n\"",
+        "\"PAGER\"",
+        "\"#%s\\n\"",
+        "\"%s%s\\t#%s\\n\"",
+        "\"%s%s\\n\"",
+        "\"#%s\\n\"",
+        "\"%s%s\\n\"",
+        "\"%s\"",
+        "\"\\t#%s\""
+      ]
+    }
+  },
+  "units/units-2.16/units.h": {}
+}

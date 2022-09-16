@@ -1,0 +1,543 @@
+{
+  "ccd2cue/ccd2cue-0.5/src/array.c": {
+    "concat": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "content": "char *\nconcat (const char *str, ...)\n{\n  va_list ap, ap2;\n  size_t total = 1;\t\t/* We have one fixed argument. */\n  const char *s;\n  char *result, *result_end;\n\n  va_start (ap, str);\n\n  /* You will need to scroll through the arguments twice: to determine\n     the space needed and to copy each string.  So, backup the\n     argument pointer. */\n  __va_copy (ap2, ap);\n\n  /* Determine how much space we need.  */\n  for (s = str; s != NULL; s = va_arg (ap, const char *))\n    total += strlen (s);\n\n  /* We are done with the first argument pointer. */\n  va_end (ap);\n\n  /* Allocate the room needed and push an error, returning NULL, if it\n     isn't possible. */\n  result = malloc (total);\n  if (result == NULL)\n    error_push_lib (malloc, NULL, _(\"cannot concatenate strings\"));\n\n  /* Copy the strings.  */\n  result_end = result;\n  for (s = str; s != NULL; s = va_arg (ap2, const char *))\n    result_end = stpcpy (result_end, s);\n\n  /* We are done with the second and last argument pointer. */\n  va_end (ap2);\n\n  /* Return the intended string concatenation */\n  return result;\n}",
+      "lines": 39,
+      "depth": 10,
+      "decorators": [
+        "char",
+        "*\nconcat (const char *str, ...)",
+        "*"
+      ]
+    },
+    "xstrdup": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "content": "char *\nxstrdup (const char *s)\n{\n  /* Assert the supplied string is valid. */\n  assert (s != NULL);\n\n  /* Try to copy the string to a new allocated space. */\n  register char *str = strdup (s);\n\n  /* If it is not possible exit with failure. */\n  if (str == NULL)\n    error (EX_OSERR, errno, _(\"%s: error copying string\"), __func__);\n\n  /* If allocation succeeded return the address to it. */\n  return str;\n}",
+      "lines": 16,
+      "depth": 10,
+      "decorators": [
+        "char",
+        "*\nxstrdup (const char *s)",
+        "*"
+      ]
+    },
+    "array_remove_trailing_whitespace": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "content": "char *\narray_remove_trailing_whitespace (char *str)\n{\n  /* This pointer will be place in the strings' end and will be\n     decremented until there is no more whitespace.  */\n  char *j;\n\n  /* Assert that the string is valid. */\n  assert (str != NULL);\n\n  /* If the string is empty there is nothing to do, so just return. */\n  if (str[0] == '\\0') return str;\n\n  /* Find the last non-null character of the string. */\n  j = strchr (str, '\\0') - 1;\n\n  /* Find the first non-white space character backwards. */\n  while (isspace (*j)) j--;\n\n  /* Mark the strings' new end */\n  *(j + 1) = '\\0';\n\n  /* Reallocate the string to the new size. */\n  return realloc (str, j - str + 2);\n}",
+      "lines": 25,
+      "depth": 9,
+      "decorators": [
+        "char",
+        "*\narray_remove_trailing_whitespace (char *str)",
+        "*"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/array.h": {},
+  "ccd2cue/ccd2cue-0.5/src/ccd.c": {
+    "stream2ccd": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        434,
+        1
+      ],
+      "content": "int\nstream2ccd (FILE *stream, struct ccd *ccd)\n{\n  /* Entries counters; these are used for numbering the entries\n     successively in the resulting cue structure regardless of order\n     or gaps that could have in the input CCD stream. */\n  int Session = 0;\t\t/* Session; starts from 1;*/\n  int TocEntry = -1;\t\t/* Toc; starts from 0; */\n  int CDTextEntry = -1;\t\t/* CDText; starts from 0; */\n  int TRACK = 0;\t\t/* Track; starts from 1; */\n\n  /* Assert the stream is valid. */\n  assert (stream != NULL);\n\n  /* Assert the CCD structure is valid. */\n  assert (ccd != NULL);\n\n  /* Initialize the CCD structure. */\n  ccd_init (ccd);\n\n  /* Parse the whole stream. */\n  while (!feof (stream))\n    {\n      /* Last line read from stream; */\n      char *line = NULL;\n      /* Size of LINE buffer; */\n      size_t line_size = 0;\n\n      /* CCD entries counters; these are the entries counters\n\t explicitly specified by actual CCD sheet entries from the\n\t input stream. */\n      int Sessions;\t\t/* \"Sessions\" inside \"Disc\"\n\t\t\t\t   section; */\n      int TocEntries;\t\t/* \"TocEntries\" inside \"Disc\"\n\t\t\t\t   section; */\n      int CDTextEntries;\t/* \"Entries\" inside \"CDText\"\n\t\t\t\t   section;*/\n\n      /* Temporary entry values; these are used as place holders to\n\t detect 'scanf' assignments and, except INDEX_tmp, are not\n\t used in any other fashion.  It works that way because this\n\t function disregards the CCD sheet original numbering to avoid\n\t invalid input from resulting unpredictable behavior.\n\t Nevertheless, a valid CCD sheet will be always parsed the\n\t right way, because it is consistent between number of entries\n\t declaration fields and the actual number of entries and has\n\t consecutive numbering, starting at 0 or 1 --- depending on\n\t the case, as well. */\n      int Session_tmp, TocEntry_tmp, CDTextEntry_tmp, TRACK_tmp, INDEX_tmp;\n\n      /* Read the current stream's line.  If it is not possible push\n\t an error. */\n      errno = 0;\n      if (getline (&line, &line_size, stream) == -1 && errno != 0)\n\terror_push_lib (getline, -1, _(\"cannot parse CCD sheet stream\"));\n\n      /* Simple data --- these are data that do not need dynamic\n\t allocation; insert the value of each entry on the respective\n\t fields on ccd structure.  It is not enforced that entries be\n\t inside their respective, usual and correct sections, as they\n\t are uniquely named in the CCD sheet, and thus uniquely\n\t identified without verifying section belonging correctness.\n\t With a correct CCD sheet all should work fine. */\n\n      /* \"Version\" entry inside \"CloneCD\" section; */\n      sscanf (line, \" Version = %d \", &ccd->CloneCD.Version);\n      /* \"DataTracksScrambled\" entry inside \"Disc\" section; */\n      sscanf (line, \" DataTracksScrambled = %d \", &ccd->Disc.DataTracksScrambled);\n      /* \"CDTextLength\" entry inside \"Disc\" section ; */\n      sscanf (line, \" CDTextLength = %d \", &ccd->Disc.CDTextLength);\n      /* \"CATALOG\" entry inside \"Disc\" section;*/\n      sscanf (line, \" CATALOG = %13[a-zA-Z0-9] \", ccd->Disc.CATALOG);\n\n      /* Predetermined size composite data --- these are data that\n\t needs dynamic allocation but we know the whole size of the\n\t structure beforehand.  There are 3 entities of this type:\n\t \"Session\" and \"Toc\" sections, this last being simple named as\n\t \"Entry\" on the CUE sheet stream, and \"CDText\" data entries.\n\n\t The number of \"Session\" sections is given by the \"Sessions\"\n\t entry inside the \"Disc\" section.  The number of \"Toc\"\n\t sections is given by the \"TocEntries\" entry inside the \"Disc\"\n\t section.  The number of \"CDText\" data entries is given in the\n\t \"Entries\" entry inside the \"CDText\" section.\n\n\t If any of \"Sessions\", \"TocEntries\" or \"Entries\" entries are\n\t not found it is assumed none section or entry of that type.\n\t If there is more than one of them, just the first is\n\t considered and it is taken as the authoritative reference.\n\t For each of them that are found an appropriate sized\n\t structure is allocated with the read size.  If there is less\n\t sections or entries than informed by them, the allocated\n\t structure is reduced to the exact size that accommodate the\n\t found sections and the number of records is updated as if it\n\t were correctly supplied.  If there is more sections or\n\t entries than informed by them, the additional sections and\n\t entries are just ignored.\n\n\t With a correct CCD sheet all should work just fine.\n      */\n\n      /* \"Sessions\" entry; check whether the current line is a\n\t \"Sessions\" entry, it is the first found and it has a positive\n\t index.*/\n      if (sscanf (line, \" Sessions = %d \", &Sessions) == 1\n\t  && Sessions > 0\n\t  && ccd->Disc.Sessions == 0)\n\t{\n\t  /* Consider the indicated number of \"Session\" sections as an\n\t     authoritative reference. */\n\t  ccd->Disc.Sessions = Sessions;\n\t  /* Allocate the necessary space to accommodate all \"Session\"\n\t     sections. */\n\t  ccd->Session = xmalloc (sizeof (*ccd->Session) * (ccd->Disc.Sessions + 1));\n\t}\n\n      /* Check if you have already found a \"Sessions\" entry indicating\n\t how many \"Session\" sections supposedly there are. */\n      if (ccd->Disc.Sessions > 0)\n\t{\n\t  /* If the current line is declaring a new \"Session\" section,\n\t     and you did not found all sections announced, count up\n\t     this section. */\n\t  if (sscanf (line, \" [ Session %d ] \", &Session_tmp) == 1\n\t      && Session <= ccd->Disc.Sessions)\n\t    Session++;\n\n\t  /* If you found a \"Session\" section header declaration,\n\t     check if the current line is one of its contents.  And\n\t     add its value to the structure in affirmative case. */\n\t  if (Session >= 1)\n\t    {\n\t      sscanf (line, \" PreGapMode = %d \", &ccd->Session[Session].PreGapMode);\n\t      sscanf (line, \" PreGapSubC = %d \", &ccd->Session[Session].PreGapSubC);\n\t    }\n\t}\n\n      /* \"TocEntries\" (Entry) entry; check whether the current line is\n\t a \"TocEntries\" entry, it is the first found and it has a\n\t positive index. */\n      if (sscanf (line, \" TocEntries = %d \", &TocEntries) == 1\n\t  && TocEntries > 0\n\t  && ccd->Disc.TocEntries == 0)\n\t{\n\t  /* Consider the indicated number of \"Toc\" sections as an\n\t     authoritative reference. */\n\t  ccd->Disc.TocEntries = TocEntries;\n\t  /* Allocate the necessary space to accommodate all \"Toc\"\n\t     sections. */\n\t  ccd->Entry = xmalloc (sizeof (*ccd->Entry) * (ccd->Disc.TocEntries + 1));\n\t}\n\n      /* Check if you have already found a \"TocEntries\" entry indicating\n\t how many \"Toc\" sections supposedly there are. */\n      if (ccd->Disc.TocEntries > 0)\n\t{\n\t  /* If the current line is declaring a new \"Toc\" section, and\n\t     you did not found all sections announced, count up this\n\t     section. */\n\t  if (sscanf (line, \" [ Entry %d ] \", &TocEntry_tmp) == 1\n\t      && (TocEntry + 1) <= ccd->Disc.TocEntries)\n\t    TocEntry++;\n\n\t  /* If you found a \"Toc\" section header declaration, check if\n\t     the current line is one of its contents.  And add its\n\t     value to the structure in affirmative case. */\n\t  if (TocEntry >= 0)\n\t    {\n\t      sscanf (line, \" Session = %d \", &ccd->Entry[TocEntry].Session);\n\t      sscanf (line, \" Point = %x \", &ccd->Entry[TocEntry].Point);\n\t      sscanf (line, \" ADR = %x \", &ccd->Entry[TocEntry].ADR);\n\t      sscanf (line, \" Control = %x \", &ccd->Entry[TocEntry].Control);\n\t      sscanf (line, \" TrackNo = %d \", &ccd->Entry[TocEntry].TrackNo);\n\t      sscanf (line, \" AMin = %d \", &ccd->Entry[TocEntry].AMin);\n\t      sscanf (line, \" ASec = %d \", &ccd->Entry[TocEntry].ASec);\n\t      sscanf (line, \" AFrame = %d \", &ccd->Entry[TocEntry].AFrame);\n\t      sscanf (line, \" ALBA = %d \", &ccd->Entry[TocEntry].ALBA);\n\t      sscanf (line, \" Zero = %d \", &ccd->Entry[TocEntry].Zero);\n\t      sscanf (line, \" PMin = %d \", &ccd->Entry[TocEntry].PMin);\n\t      sscanf (line, \" PSec = %d \", &ccd->Entry[TocEntry].PSec);\n\t      sscanf (line, \" PFrame = %d \", &ccd->Entry[TocEntry].PFrame);\n\t      sscanf (line, \" PLBA = %d \", &ccd->Entry[TocEntry].PLBA);\n\t    }\n\t}\n\n      /* \"Entries\" (CDText) entries; check whether the current line is a \"Entries\"\n\t entry, it is the first found and it has a positive index. */\n      if (sscanf (line, \" Entries = %d \", &CDTextEntries) == 1\n\t  && CDTextEntries > 0\n\t  && ccd->CDText.Entries == 0)\n      \t{\n\t  /* Consider the indicated number of \"Entry\" (CDText) entries\n\t     as an authoritative reference. */\n\t  ccd->CDText.Entries = CDTextEntries;\n\t  /* Allocate the necessary space to accommodate all \"Entry\"\n\t     (CDText) entries. */\n      \t  ccd->CDText.Entry = xmalloc (sizeof (*ccd->CDText.Entry)\n\t\t\t\t       * ccd->CDText.Entries);\n      \t}\n\n      /* Check if you have already found a \"Entries\" (CDText) entry\n\t indicating how many \"Entry\" (CDText) entries supposedly there\n\t are. */\n      if (ccd->CDText.Entries > 0)\n\t{\n\t  /* If the current line is declaring a new \"Entry\" (CDText)\n\t     entry, and you did not found all sections announced,\n\t     count up this section. */\n\t  if ((sscanf (line, \" Entry %d = \", &CDTextEntry_tmp) == 1)\n\t      && (CDTextEntry + 1) <= ccd->CDText.Entries)\n\t    CDTextEntry++;\n\n\t  /* If you found a \"Entry\" (CDText) entry declaration, check\n\t     if the current line is one of its contents.  And add its\n\t     value to the structure in affirmative case.*/\n\t  if (CDTextEntry >= 0)\n\t    {\n\t      sscanf (line, \" Entry %*d = %hhx %hhx %hhx %hhx %hhx %hhx %hhx \\\n%hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx \",\n\t\t      &ccd->CDText.Entry[CDTextEntry].type,\n\t\t      &ccd->CDText.Entry[CDTextEntry].track,\n\t\t      &ccd->CDText.Entry[CDTextEntry].sequence,\n\t\t      &ccd->CDText.Entry[CDTextEntry].block,\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[0],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[1],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[2],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[3],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[4],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[5],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[6],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[7],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[8],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[9],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[10],\n\t\t      &ccd->CDText.Entry[CDTextEntry].text[11]);\n\t    }\n\t}\n\n      /* Unknown size composite data --- these are data that needs\n\t dynamic allocation and we do not know the whole size of the\n\t structure beforehand.  These are \"Track\" sections and they\n\t are allocated as they are found.  In the end of the process\n\t the field ccd->TrackEntries holds the number of \"Tracks\"\n\t sections that have been found.  So, the ccd structure\n\t processing could be done more efficiently.  */\n\n      /* \"TRACK\" section; If the current line is a \"TRACK\" section\n\t declaration header, allocate room for more one \"Track\"\n\t section in the ccd structure. */\n      if (sscanf (line, \" [ TRACK %d ] \", &TRACK_tmp) == 1)\n\t{\n\t  /* Count up this section on the track counter.  */\n\t  ccd->TrackEntries = ++TRACK;\n\t  /* Reallocate the track array to accommodate more one track\n\t     in the structure.  */\n\t  ccd->TRACK = xrealloc (ccd->TRACK, sizeof (*ccd->TRACK) * (TRACK + 1));\n\t  /* Initialize the newly allocated track structure. */\n\t  ccd_TRACK_init (&ccd->TRACK[TRACK]);\n\t}\n\n      /* If you have already found a \"Track\" section header verify if\n\t the current line is one of its contents. */\n      if (ccd->TrackEntries > 0)\n\t{\n\t  /* If the current line holds the mode for the track, place\n\t     that value into the track structure. */\n\t  sscanf (line, \" MODE = %d \", &ccd->TRACK[TRACK].MODE);\n\n\t  /* If the current line holds the flags for the track, place\n\t     that value into the track structure. */\n\t  if (sscanf (line, \" FLAGS = %a[a-zA-Z0-9 ] \", &ccd->TRACK[TRACK].FLAGS) == 1)\n\t    /* Remove trailing white space if any */\n\t    ccd->TRACK[TRACK].FLAGS =\n\t      array_remove_trailing_whitespace (ccd->TRACK[TRACK].FLAGS);\n\n\t  /* If the current line holds the ISRC for the track, place\n\t     that value into the track structure. */\n\t  sscanf (line, \" ISRC = %12[a-zA-Z0-9] \", ccd->TRACK[TRACK].ISRC);\n\n\t  /* If the current line holds an \"INDEX\" entry add it into\n\t     the track structure. */\n\t  if (sscanf (line, \" INDEX %d = \", &INDEX_tmp) == 1)\n\t    {\n\t      /* If the \"INDEX\" entry's index is 0 or 1, just place\n\t\t its value into the INDEX field already allocated to\n\t\t the track structure. */\n\t      if (INDEX_tmp == 0 || INDEX_tmp == 1)\n\t\tsscanf (line, \" INDEX %*d = %d \", &ccd->TRACK[TRACK].INDEX[INDEX_tmp]);\n\t      /* If different from 0 or 1, allocate a new entry and\n\t\t update the index record counter. */\n\t      else\n\t\t{\n\t\t  /* Update the index counter. */\n\t\t  ccd->TRACK[TRACK].IndexEntries++;\n\t\t  /* Allocate a new entry for this index on the track\n\t\t     structure. */\n\t\t  ccd->TRACK[TRACK].INDEX = xrealloc (ccd->TRACK[TRACK].INDEX,\n\t\t\t\t\t\t      sizeof (*ccd->TRACK[TRACK].INDEX)\n\t\t\t\t\t\t      * ccd->TRACK[TRACK].IndexEntries);\n\t\t  /* Save the entry's value on the newly allocated\n\t\t     field. */\n\t\t  sscanf (line, \" INDEX %*d = %d \",\n\t\t\t  &ccd->TRACK[TRACK].INDEX[ccd->TRACK[TRACK].IndexEntries - 1]);\n\t\t}\n\t    }\n\t}\n    }\n\n  /* If you have found less \"Session\" sections than informed on the\n     \"Sessions\" entry, reduce the allocated structure to the exact\n     size that accommodate the found sections and update the number of\n     records. */\n  if (Session < ccd->Disc.Sessions)\n    {\n      ccd->Session = xrealloc (ccd->Session,\n\t\t\t       sizeof (*ccd->Session) * Session);\n      ccd->Disc.Sessions = Session;\n    }\n\n  /* If you have found less \"Toc\" sections than informed on the\n     \"TocEntries\" entry, reduce the allocated structure to the exact\n     size that accommodate the found sections and update the number of\n     records. */\n  if (TocEntry + 1 < ccd->Disc.TocEntries)\n    {\n      ccd->Entry = xrealloc (ccd->Entry,\n\t\t\t     sizeof (*ccd->Entry) * (TocEntry + 1));\n      ccd->Disc.TocEntries = TocEntry + 1;\n    }\n\n  /* If you have found less \"Entry\" (CDText) entries than informed on\n     the \"Entries\" (CDText) entry, reduce the allocated structure to\n     the exact size that accommodate the found sections and update the\n     number of records. */\n  if (CDTextEntry + 1 < ccd->CDText.Entries)\n    {\n      ccd->CDText.Entry = xrealloc (ccd->CDText.Entry,\n\t\t\t\t    sizeof (*ccd->CDText.Entry) * (CDTextEntry + 1));\n      ccd->CDText.Entries = CDTextEntry + 1;\n    }\n\n  /* Return success. */\n  return 0;\n}",
+      "lines": 344,
+      "depth": 22,
+      "decorators": [
+        "int"
+      ]
+    },
+    "ccd_init": {
+      "start_point": [
+        436,
+        0
+      ],
+      "end_point": [
+        461,
+        1
+      ],
+      "content": "static void\nccd_init (struct ccd *ccd)\n{\n  assert (ccd != NULL);\n\n  /* Assume CloneCD version 3 by default.  It is the most common\n     version.*/\n  ccd->CloneCD.Version = 3;\n\n  /* Fill the \"Disc\" section structure with initial values. */\n  ccd->Disc.TocEntries = 0;\n  ccd->Disc.Sessions = 0;\n  ccd->Disc.DataTracksScrambled = 0;\n  ccd->Disc.CDTextLength = 0;\n  ccd->Disc.CATALOG[0] = '\\0';\n\n  /* Fill the \"CDText\" section structure with initial values. */\n  ccd->CDText.Entries = 0;\n  ccd->CDText.Entry = NULL;\n\n  /* Initialize the remainder fields. */\n  ccd->Session = NULL;\n  ccd->Entry = NULL;\n  ccd->TRACK = NULL;\n  ccd->TrackEntries = 0;\n}",
+      "lines": 26,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "ccd_TRACK_init": {
+      "start_point": [
+        463,
+        0
+      ],
+      "end_point": [
+        478,
+        1
+      ],
+      "content": "static void\nccd_TRACK_init (struct ccd_TRACK *TRACK)\n{\n  assert (TRACK != NULL);\n\n  /* Initialize some fields; */\n  TRACK->MODE = 0;\n  TRACK->FLAGS = NULL;\n  TRACK->ISRC[0] = '\\0';\n\n  /* Allocate the two base indexes for this track structure. */\n  TRACK->INDEX = xmalloc (sizeof (*TRACK->INDEX) * 2);\n  TRACK->INDEX[0] = -1;\n  TRACK->INDEX[1] = -1;\n  TRACK->IndexEntries = 2;\n}",
+      "lines": 16,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/ccd.h": {},
+  "ccd2cue/ccd2cue-0.5/src/ccd2cue.c": {
+    "main": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        269,
+        1
+      ],
+      "content": "int\nmain (int argc, char *argv[])\n{\n  struct arguments arguments;  /* Structure passed to ::argp to\n\t\t\t\t  contain the processed command line\n\t\t\t\t  and some helper data; */\n\n  FILE *cdt_stream;   /* CDT stream that will be opened if there are\n\t\t\t CDText information on the input CUE sheet */\n\n  struct ccd ccd;   /* CCD structure filled by stream2ccd; */\n  struct cue *cue;  /* Pointer to CUE structure filled by ccd2cue; */\n  struct cdt cdt;   /* CDT structure filled by ccd2cdt; */\n\n  /* TRANSLATORS: This is the Unix manual page 'NAME' description. */\n  _(\"CCD sheet to CUE sheet converter\");\n\n  /* Set locale via LC_ALL.  */\n  setlocale (LC_ALL, \"\");\n\n  /* Set the text message domain.  */\n  bindtextdomain (PACKAGE, LOCALEDIR);\n  textdomain (PACKAGE);\n\n  /* Parse command line arguments */\n  error_t argp_retval = argp_parse (&argp, argc, argv, 0, 0, &arguments);\n  assert (argp_retval == 0);\n\n  /* Try to optimize CCD input and CUE output streams. */\n  io_optimize_stream_buffer (arguments.ccd_stream, _IOLBF);\n  io_optimize_stream_buffer (arguments.cue_stream, _IOLBF);\n\n  /* Parse the CCD sheet input into a CCD structure. */\n  if (stream2ccd (arguments.ccd_stream, &ccd) < 0)\n    error_pop (EX_DATAERR, _(\"cannot parse CCD sheet stream from '%s'\"), arguments.ccd_name);\n\n  /* Convert the CCD structure into a CUE structure. */\n  cue = ccd2cue (&ccd, arguments.img_name, arguments.cdt_name);\n  if (cue == NULL)\n    error_pop (EX_SOFTWARE, _(\"cannot convert '%s' to '%s'\"),\n\t       arguments.ccd_name, arguments.cue_name);\n\n  /* Convert the CD-Text data in the CCD structure into a CDT\n     structure.  */\n  if (ccd2cdt (&ccd, &cdt) > 0)\n    {\n      /* Convert the CDT structure into a CD-Text binary file. */\n      cdt_stream = fopen (arguments.cdt_name, \"w\");\n      cdt2stream (&cdt, cdt_stream);\n      if (fclose (cdt_stream) == EOF)\n\terror (EX_IOERR, errno, _(\"cannot close '%s'\"), arguments.cdt_name);\n    }\n\n  /* Convert the CUE structure into the CUE sheet output. */\n  if (cue2stream (cue, arguments.cue_stream) < 0)\n    error_pop (EX_SOFTWARE, _(\"cannot convert '%s' to '%s'\"),\n\t       arguments.ccd_name, arguments.cue_name);\n\n  /* Close the CCD sheet input and the CUE sheet output streams. */\n  if (fclose (arguments.ccd_stream) == EOF) error (EX_IOERR, errno,\n\t\t\t\t\t _(\"cannot close '%s'\"), arguments.ccd_name);\n  if (fclose (arguments.cue_stream) == EOF) error (EX_IOERR, errno,\n\t\t\t\t\t _(\"cannot close '%s'\"), arguments.cue_name);\n\n  /* Exit with success. */\n  return 0;\n}",
+      "lines": 67,
+      "depth": 12,
+      "decorators": [
+        "int"
+      ]
+    },
+    "parse_opt": {
+      "start_point": [
+        381,
+        0
+      ],
+      "end_point": [
+        538,
+        1
+      ],
+      "content": "static error_t\nparse_opt (int key, char *arg, struct argp_state *state)\n{\n  struct arguments *arguments = state->input;\n  assert (arguments != NULL);\n\n  switch (key)\n    {\n      case ARGP_KEY_INIT:\t/* Prepare to parse the command line arguments. */\n\t/* Initialize arguments structure.  */\n        arguments->img_name = NULL;\n\targuments->cdt_name = NULL;\n\targuments->ccd_name = NULL;\n\targuments->cue_name = NULL;\n\targuments->abs_fname_flag = 0;\n\targuments->reference_name = NULL;\n\targuments->cue_stream = NULL;\n\targuments->ccd_stream = NULL;\n\tbreak;\n      case 'i': \t\t/* '--image' option supplied. */\n\t/* If it was already supplied raise an error. */\n\tif (arguments->img_name != NULL)\n\t   argp_error\n\t     (state, _(\"more than one disc image file name provided ('--image'): '%s' and '%s'\"),\n\t       arguments->img_name, arg);\n\t/* Save the argument supplied. */\n\targuments->img_name = arg;\n        break;\n      case 'c':\t\t\t/* '--cd-text' option supplied. */\n\t/* If it was already supplied raise an error. */\n\tif (arguments->cdt_name != NULL)\n\t  argp_error\n\t    (state, _(\"more than one CD-Text file name provided ('--cd-text'): '%s' and '%s'\"),\n\t     arguments->cdt_name, arg);\n\t/* Save the argument supplied. */\n\targuments->cdt_name = arg;\n        break;\n      case 'o':\t\t\t/* '--output' option supplied. */\n\t/* If it was already supplied raise an error. */\n\tif (arguments->cue_name != NULL)\n\t  argp_error\n\t    (state, _(\"more than one output CUE sheet provided ('--output'): '%s' and '%s'\"),\n\t     arguments->cue_name, arg);\n\t/* Save the argument supplied. */\n\targuments->cue_name = arg;\n        break;\n      case 'a': \t\t/* '--absolute-file-name' option supplied. */\n        arguments->abs_fname_flag = 1;\n\tbreak;\n      case ARGP_KEY_ARG: \t/* A non-option argument supplied. */\n\t/* If more than one argument was supplied raise an error. */\n\tif (state->arg_num > 0)\n\t  argp_error (state, _(\"%s: more than one input CCD sheet provided: '%s' and '%s'\"),\n\t  \t      __func__, arguments->ccd_name, arg);\n\t/* Save the argument supplied. */\n\targuments->ccd_name = arg;\n\tbreak;\n      case ARGP_KEY_NO_ARGS:\t/* No non-option arguments supplied. */\n\t/* Assume that CCD sheet yield from standard input. */\n        break;\n      case ARGP_KEY_END:\t/* There is no more arguments to parse. */\n\t/* If no arguments were supplied outputs an usage message. */\n        if (state->argc == 1) argp_usage (state);\n\tbreak;\n      case ARGP_KEY_SUCCESS:\t/* All supplied command line arguments\n\t\t\t\t   were successfully processed. */\n\n\t/* Make the reference name: */\n\n\t/* If CCD sheet file name was supplied use it to make the\n\t   reference name. */\n\tif (arguments->ccd_name != NULL && strcmp (arguments->ccd_name, \"-\"))\n\t  arguments->reference_name =\n\t    make_reference_name (arguments->ccd_name, arguments->abs_fname_flag);\n\t/* Else, if CUE sheet file name was supplied use it to make the\n\t   reference name. */\n\telse if (arguments->cue_name != NULL && strcmp (arguments->cue_name, \"-\"))\n\t  arguments->reference_name =\n\t    make_reference_name (arguments->cue_name, arguments->abs_fname_flag);\n\t/* Else, if disc image file name was supplied use it to make the\n\t   reference name. */\n\telse if (arguments->img_name != NULL)\n\t  arguments->reference_name =\n\t    make_reference_name (arguments->img_name, arguments->abs_fname_flag);\n\t/* Else, if CD-Text info file name was supplied use it to make the\n\t   reference name. */\n\telse if (arguments->cdt_name != NULL)\n\t  arguments->reference_name =\n\t    make_reference_name (arguments->cdt_name, arguments->abs_fname_flag);\n\t/* If none of the above file names were supplied raise an error. */\n\telse\n\t  argp_error (state, _(\"%s: no image name provided ('--image')\"), __func__);\n\n\t/* If occurred any failure determining the reference name\n\t   raise an error. */\n\tif (arguments->reference_name == NULL) error_fatal_pop\n       \t  (EX_OSERR, _(\"cannot process command line arguments\"));\n\n\t/* Deduce the disc image name if it was not supplied. */\n\tif (arguments->img_name == NULL)\n\t  arguments->img_name = concat (arguments->reference_name, \".img\", NULL);\n\t/* If occurred any failure deducing the disc image name\n\t   raise an error. */\n\tif (arguments->img_name == NULL)\n\t  error_fatal_pop (EX_OSERR, _(\"cannot deduce image file name\"));\n\n\t/* Deduce the CD-Text info file name if it was not supplied. */\n\tif (arguments->cdt_name == NULL)\n\t  arguments->cdt_name = concat (arguments->reference_name, \".cdt\", NULL);\n\t/* If occurred any failure deducing the CD-Text info file name\n\t   raise an error. */\n\tif (arguments->cdt_name == NULL)\n\t  error_fatal_pop (EX_OSERR, _(\"cannot deduce CD-Text file name\"));\n\n\t/* If the user specified '-' as CCD sheet's name, mark it to\n\t   read from standard input. */\n\tif (arguments->ccd_name == NULL || ! strcmp (arguments->ccd_name, \"-\"))\n\t  {\n\t    arguments->ccd_stream = stdin;\n\t    arguments->ccd_name = \"stdin\";\n\t  }\n\t/* If not, open the CCD sheet file specified for reading.\n\t   Raise an error if it is not possible to do so.*/\n\telse\n\t  {\n\t    arguments->ccd_stream = fopen (arguments->ccd_name, \"r\");\n\t    if (arguments->ccd_stream == NULL)\n\t      error_fatal_pop_lib (fopen, EX_NOINPUT,\n\t      \t\t            _(\"cannot open CCD sheet '%s'\"),\n\t\t\t\t   arguments->ccd_name);\n\t  }\n\n\t/* If the user specified '-' as CUE sheet's name or not\n\t   specified its name at all, mark it to write to standard\n\t   output. */\n\tif (arguments->cue_name == NULL || ! strcmp (arguments->cue_name, \"-\"))\n\t  {\n\t    arguments->cue_stream = stdout;\n\t    arguments->cue_name = \"stdout\";\n\t  }\n\t/* If not, open the CUE sheet file specified for writing.\n\t   Raise an error if it is not possible to do so.*/\n\telse\n\t  {\n\t    arguments->cue_stream = fopen (arguments->cue_name, \"w\");\n\t    if (arguments->cue_stream == NULL)\n\t      error_fatal_pop_lib (fopen, EX_CANTCREAT,\n\t      \t\t            _(\"cannot open CUE sheet '%s'\"),\n\t\t\t\t   arguments->cue_name);\n\t  }\n\n        break;\n      default:\t\t\t/* KEY value not recognized. */\n        return ARGP_ERR_UNKNOWN;\n    }\n\n  return 0;\n}",
+      "lines": 158,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "error_t"
+      ]
+    },
+    "print_version": {
+      "start_point": [
+        562,
+        0
+      ],
+      "end_point": [
+        584,
+        1
+      ],
+      "content": "static void\nprint_version (FILE *stream, struct argp_state *state)\n{\n  xfprintf (stream,\n\t    \"%s (%s) %s\\n\\n\"\t/* ccd2cue (GNU ccd2cue) a.b */\n\n\t    /* TRANSLATORS: Use \"F\u00c3\u00a9lix\" in place of \"F'elix\" */\n\t    \"Copyright (C) %s \" PACKAGE_COPYRIGHT_HOLDER \" <%s>\\n\\n\"\n\n\t    \"%s\\n\\n\"\t\t/* License GPLv3+... */\n\t    \"%s\\n\",\t\t/* Written by... */\n\t    PACKAGE, PACKAGE_NAME, VERSION,\n\t    \"2010, 2013, 2014, 2015\", \"oitofelix@gnu.org\",\n\t    _(\"\\\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\"),\n\n\t    /* TRANSLATORS: Use \"F\u00c3\u00a9lix\" in place of \"F'elix\" */\n\t    _(\"Written by Bruno Fe'lix Rezende Ribeiro.\"));\n\n  exit (EXIT_SUCCESS);\n}",
+      "lines": 23,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "help_filter": {
+      "start_point": [
+        606,
+        0
+      ],
+      "end_point": [
+        673,
+        1
+      ],
+      "content": "static char *\nhelp_filter (int key, const char *text, void *input)\n{\n  int alloc_status = 0;\n  char *newtext;\n\n  switch (key)\n    {\n      case ARGP_KEY_HELP_PRE_DOC:\n\talloc_status = asprintf(&newtext, \"%s\\n\\n%s\\n\\n%s\",\n\t\t _(\"Convert CCD sheet to CUE sheet.\"),\n\t\t _(\"\\\nThe input file, referred as 'ccd-file', must exist.  If 'ccd-file' is \\\n'-', or omitted, standard input is used.  It is necessary to supply at \\\nleast one file name, in an option or non-option argument, in order to \\\ndeduce the remaining file names needed, and only one file name of each \\\ntype can be supplied.\"),\n\t\t_(\"Options:\"));\n\tbreak;\n      case ARGP_KEY_HELP_EXTRA:\n        alloc_status = asprintf(&newtext,\n\t\t\t\t\"%s\\n\\n\"\t/* Examples: */\n\t\t\t\t\"%s\\n\\n\"\t/* The most... */\n\t\t\t\t\"  %s\\n\\n\"\t/* ccd2cue -o... */\n\t\t\t\t\"%s\\n\\n\"\t/* If you have... */\n\t\t\t\t\"%s\\n\\n\"\t/* Supposing you want... */\n\t\t\t\t\"  %s\\n\\n\"\t/* cdrdao write... */\n\t\t\t\t\"%s\\n\\n\"\t/* That way 'cdrdao'... */\n\t\t\t\t\"%s <%s>\\n\"\t/* Report bugs to: <%s>*/\n\t\t\t\t\"%s <%s>\\n\",\t/* Report translation bugs to: <%s> */\n\t\t\t\t_(\"Examples:\"),\n\t\t\t\t_(\"\\\nThe most ordinary use case is when you have a CCD set of files and \\\njust want to generate a CUE sheet file in order to burn or otherwise \\\naccess the data inside the image file.  Supposing your CCD sheet file \\\nis called gnu.ccd, you are done with the command:\"),\n\t\t\t\t_(\"ccd2cue -o gnu.cue gnu.ccd\"),\n\t\t\t\t_(\"\\\nIf you have burned a CD from a CUE sheet produced by this program and \\\nall audio tracks became only senseless static noise, you may need to \\\ntell your burning software to swap the byte order of all samples sent \\\nto the CD-recorder.  This can be accomplished with (for example) the \\\n'--swap' option when using the 'cdrdao' program.  Experience has shown \\\nthat at least for mixed-mode discs it is necessary to use that option \\\nwhen burning, otherwise you will almost certainly waste a CD.\"),\n\t\t\t\t_(\"\\\nSupposing you want to burn a CD using the 'cdrdao' program and a CUE \\\nsheet file named 'gnu.cue', and wisely want to ensure the correct \\\nbehavior of your burnt disc, use the command:\"),\n\t\t\t\t_(\"cdrdao write --swap --speed 1 --eject gnu.cue\"),\n\t\t\t\t_(\"\\\nThat way 'cdrdao' will swap the byte order of audio samples, cautiously \\\nburning in the smallest possible speed and will eject your CD when it \\\nis done.\"),\n\t\t\t\t_(\"Report bugs to:\"),\n\t\t\t\tPACKAGE_BUGREPORT,\n\t\t\t\t_(\"Report translation bugs to:\"),\n\t\t\t\tPACKAGE_TRANSLATION_BUGREPORT);\n\tbreak;\n    default:\n      newtext = (char *) text;\n      break;\n    }\n\n  if (alloc_status < 0) error (EX_OSERR, errno, _(\"%s: error allocating memory\"), __func__);\n\n  return newtext;\n}",
+      "lines": 68,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "char",
+        "*\nhelp_filter (int key, const char *text, void *input)",
+        "*"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/cdt.c": {
+    "cdt2stream": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "content": "void\ncdt2stream (const struct cdt *cdt, FILE *stream)\n{\n  /* Assert the CDT structure is valid. */\n  assert (cdt != NULL);\n\n  /* Assert the stream is valid. */\n  assert (stream != NULL);\n\n  /* Write the _CD-Text_ structure to the stream. */\n  xfwrite (cdt->entry, sizeof (*cdt->entry), cdt->entries, stream);\n\n  /* Put the terminating NULL character. */\n  xputc (0, stream);\n}",
+      "lines": 15,
+      "depth": 10,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/cdt.h": {},
+  "ccd2cue/ccd2cue-0.5/src/convert.c": {
+    "frames2msf": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "content": "static void\nframes2msf (int frames, struct cue_time *msf)\n{\n  /* Assert frames time is positive.  */\n  assert(frames >= 0);\n\n  /* Assert MSF is pointing to a valid structure. */\n  assert(msf != NULL);\n\n  /* Do the conversion according to the definition above. */\n  msf->minutes = frames / FRAMES_PER_MINUTE;\n  msf->seconds = (frames % FRAMES_PER_MINUTE) / FRAMES_PER_SECOND;\n  msf->frames = (frames % FRAMES_PER_MINUTE) % FRAMES_PER_SECOND;\n\n  /* Mark the MSF structure as initialized. */\n  msf->initialized = 1;\n}",
+      "lines": 17,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "ccd2cue": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        183,
+        1
+      ],
+      "content": "struct cue *\nccd2cue (const struct ccd *ccd, const char *img_name, const char *cdt_name)\n{\n  struct cue *cue;\t\t/* Pointer to the resulting CUE structure. */\n\n  /* Assert the CCD structure is valid. */\n  assert(ccd != NULL);\n\n  /* Assert the image file name is valid. */\n  assert(img_name != NULL);\n\n  /* Assert the CDT file name is valid. */\n  assert(cdt_name != NULL);\n\n  /* Initialize the CUE structure. */\n  cue = cue_init (1);\n\n  /* If there is MCN add a CATALOG entry.  */\n  if (ccd->Disc.CATALOG[0] != '\\0') strncpy (cue->CATALOG, ccd->Disc.CATALOG, 13 + 1);\n\n  /* If there is CDText data add a CDTEXTFILE entry. */\n  if (ccd->CDText.Entries != 0)\n    cue->CDTEXTFILE = xstrdup (cdt_name);\n\n  /* Add FILE entry. */\n  cue->FileEntries = 1;\n  cue->FILE = cue_FILE_init (cue->FileEntries);\n  cue->FILE[0].filename = xstrdup (img_name);\n  cue->FILE[0].filetype = BINARY;\n\n  /* If there is any TRACK section, process it. */\n  if (ccd->TrackEntries > 0)\n    {\n      size_t i;\t\t\t/* TRACK index; */\n\n      /* Allocate the CUE structure's TRACK array.  */\n      cue->FILE[0].TrackEntries = ccd->TrackEntries;\n      cue->FILE[0].FirstTrack = 1;\n      cue->FILE[0].TRACK = cue_TRACK_init (cue->FILE[0].TrackEntries + 1);\n\n      /* Add each TRACK section. */\n      for (i = cue->FILE[0].FirstTrack; i <= ccd->TrackEntries; i++)\n\t{\n\t  size_t j;\t\t/* INDEX index; */\n\n\t  /* Add datatype entry */\n\t  switch (ccd->TRACK[i].MODE)\n\t    {\n\t    case 0:\t\t/* 0 means AUDIO */\n\t      cue->FILE[0].TRACK[i].datatype = AUDIO_2352;\n\t      break;\n\t    case 1:\t\t/* 1 means MODE1/2352 */\n\t      cue->FILE[0].TRACK[i].datatype = MODE1_2352;\n\t      break;\n\t    case 2:\t\t/* 2 means MODE2/2352 */\n\t      cue->FILE[0].TRACK[i].datatype = MODE2_2352;\n\t      break;\n\t    default:\t\t/* If you got here, the program\n\t\t\t\t   certainly has a bug. */\n\t      error (1, 0, _(\"unknown track data type %d; please report a bug\"),\n\t\t     ccd->TRACK[i].MODE);\n\t    }\n\n\t  /* If there is a FLAGS entry for this track, add it. */\n\t  if (ccd->TRACK[i].FLAGS != NULL)\n\t    cue->FILE[0].TRACK[i].FLAGS = xstrdup (ccd->TRACK[i].FLAGS);\n\n\t  /* If there is ISRC entry for this track, add it. */\n\t  if (ccd->TRACK[i].ISRC[0] != '\\0')\n\t    strncpy (cue->FILE[0].TRACK[i].ISRC, ccd->TRACK[i].ISRC, 12 + 1);\n\n\t  /* Allocate TRACK structure's INDEX array. */\n\t  cue->FILE[0].TRACK[i].INDEX = xmalloc (sizeof (*cue->FILE[0].TRACK[i].INDEX)\n\t\t\t\t\t * ccd->TRACK[i].IndexEntries);\n\t  cue->FILE[0].TRACK[i].IndexEntries = ccd->TRACK[i].IndexEntries;\n\n\t  /* Add each INDEX entry. */\n\t  for (j = 0; j < ccd->TRACK[i].IndexEntries; j++)\n\t    if (ccd->TRACK[i].INDEX[j] != -1)\n\t      frames2msf (ccd->TRACK[i].INDEX[j], &cue->FILE[0].TRACK[i].INDEX[j]);\n\t    else cue->FILE[0].TRACK[i].INDEX[j].initialized = 0;\n\t}\n\n    }\n\n  /* Return success. */\n  return cue;\n}",
+      "lines": 88,
+      "depth": 20,
+      "decorators": [
+        "struct cue",
+        "struct",
+        "cue",
+        "*\nccd2cue (const struct ccd *ccd, const char *img_name, const char *cdt_name)",
+        "*"
+      ]
+    },
+    "ccd2cdt": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        216,
+        1
+      ],
+      "content": "int\nccd2cdt (const struct ccd *ccd, struct cdt *cdt)\n{\n  size_t i;\t\t\t/* CDT entry index; */\n\n  /* Assert the CCD structure is valid. */\n  assert(ccd != NULL);\n\n  /* Assert the CDT structure is valid. */\n  assert(cdt != NULL);\n\n  /* Allocate the CDT structure's entries. */\n  cdt->entries = ccd->CDText.Entries;\n  cdt->entry = xmalloc (sizeof (*cdt->entry) * cdt->entries);\n\n  /* Fill each CDT entry. */\n  for (i = 0; i < ccd->CDText.Entries; i++)\n    {\n      uint16_t crc;\t\t/* Negated CRC-16 (CCITT) */\n\n      /* Copy the CDT data itself. */\n      memcpy (&cdt->entry[i].data, &ccd->CDText.Entry[i], sizeof (ccd->CDText.Entry[i]));\n\n      /* Calculate the negated CRC-16 (CCITT). */\n      crc = crc16 (&cdt->entry[i].data, sizeof (cdt->entry[i].data));\n      cdt->entry[i].crc[0] = (crc >> 8) & 0xff;\n      cdt->entry[i].crc[1] = crc & 0xff;\n    }\n\n  /* Return the number of CDT entries. */\n  return cdt->entries;\n}",
+      "lines": 32,
+      "depth": 14,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/convert.h": {},
+  "ccd2cue/ccd2cue-0.5/src/crc.c": {
+    "crc16": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "content": "uint16_t\ncrc16 (const void *message, size_t length)\n{\n  /* Assert the message pointer is valid. */\n  assert (message != NULL);\n\n  size_t i;\t\t\t/* Offset inside the message;  */\n  int j;\t\t\t/* Bit offset inside current message's\n\t\t\t\t   byte; */\n  uint16_t crc = 0;\t\t/* CRC accumulator; */\n  uint16_t polynomial = P16CCITT_N; /* CRC polynomial; */\n\n  /* Process all bytes from message. */\n  for (i = 0; i < length; i++)\n    {\n      crc ^= (uint16_t) *((uint8_t *) message + i) << 8;\n      /* Process all bits from the current byte. */\n      for (j = 0; j < 8; j++)\n\tcrc = crc & (1 << 15) ? (crc << 1) ^ polynomial : crc << 1;\n    }\n\n  /* Return the negated CRC. */\n  return ~crc;\n}",
+      "lines": 24,
+      "depth": 15,
+      "decorators": [
+        "uint16_t"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/crc.h": {},
+  "ccd2cue/ccd2cue-0.5/src/cue.c": {
+    "cue_init": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "content": "struct cue *\ncue_init (size_t entries)\n{\n  struct cue *cue;\t/* Pointer to the newly allocated\n\t\t\t   array of structures. */\n  size_t entry;\t\t/* Index of entry.  For iteration. */\n\n  /* Allocate CUE structures. */\n  cue = xmalloc (sizeof (*cue) * entries);\n\n  /* Initialize CUE structures. */\n  for (entry = 0; entry < entries; entry++)\n    {\n      cue[entry].CATALOG[0] = '\\0';\n      cue[entry].CDTEXTFILE = NULL;\n      cue[entry].PERFORMER = NULL;\n      cue[entry].SONGWRITER = NULL;\n      cue[entry].TITLE = NULL;\n      cue[entry].FILE = NULL;\n      cue[entry].FileEntries = 0;\n    }\n\n  /* Return the newly allocated array of CUE structures. */\n  return cue;\n}",
+      "lines": 25,
+      "depth": 11,
+      "decorators": [
+        "struct cue",
+        "struct",
+        "cue",
+        "*\ncue_init (size_t entries)",
+        "*"
+      ]
+    },
+    "cue_FILE_init": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "content": "struct cue_FILE *\ncue_FILE_init (size_t entries)\n{\n  struct cue_FILE *file;\t/* Pointer to the newly allocated\n\t\t\t\t   array of structures. */\n  size_t entry;\t\t\t/* Index of entry.  For iteration. */\n\n  /* Allocate FILE structures. */\n  file = xmalloc (sizeof (*file) * entries);\n\n  /* Initialize FILE structures. */\n  for (entry = 0; entry < entries; entry++)\n    {\n      file[entry].filename = NULL;\n      file[entry].filetype = MOTOROLA;\n      file[entry].TRACK = NULL;\n      file[entry].TrackEntries = 0;\n      file[entry].FirstTrack = 1;\n    }\n\n  /* Return the newly allocated array of FILE structures. */\n  return file;\n}",
+      "lines": 23,
+      "depth": 11,
+      "decorators": [
+        "struct cue_FILE",
+        "struct",
+        "cue_FILE",
+        "*\ncue_FILE_init (size_t entries)",
+        "*"
+      ]
+    },
+    "cue_TRACK_init": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        150,
+        1
+      ],
+      "content": "struct cue_TRACK *\ncue_TRACK_init (size_t entries)\n{\n  struct cue_TRACK *track;\t/* Pointer to the newly allocated\n\t\t\t\t   array of structures. */\n  size_t entry;\t\t\t/* Index of entry.  For iteration. */\n\n  /* Allocate TRACK structures. */\n  track = xmalloc (sizeof (*track) * entries);\n\n  /* Initialize TRACK structures. */\n  for (entry = 0; entry < entries; entry++)\n    {\n      track[entry].datatype = 0;\n      track[entry].FLAGS = NULL;\n      track[entry].ISRC[0] = '\\0';\n      track[entry].PERFORMER = NULL;\n      track[entry].SONGWRITER = NULL;\n      track[entry].TITLE = NULL;\n      track[entry].PREGAP.initialized = 0;\n      track[entry].INDEX = NULL;\n      track[entry].IndexEntries = 0;\n      track[entry].POSTGAP.initialized = 0;\n    }\n\n  /* Return the newly allocated array of TRACK structures. */\n  return track;\n}",
+      "lines": 28,
+      "depth": 11,
+      "decorators": [
+        "struct cue_TRACK",
+        "struct",
+        "cue_TRACK",
+        "*\ncue_TRACK_init (size_t entries)",
+        "*"
+      ]
+    },
+    "cue2stream": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        254,
+        1
+      ],
+      "content": "int\ncue2stream (const struct cue *cue, FILE *stream)\n{\n  int file; \t\t\t/* File number (zero based); */\n\n  /* Assert the cue structure is valid. */\n  assert(cue != NULL);\n\n  /* Assert the stream is valid. */\n  assert(stream != NULL);\n\n  /* If there is a CATALOG entry output it. */\n  if (cue->CATALOG[0] != '\\0')\n    xfprintf (stream, \"CATALOG %.13s\\n\", &cue->CATALOG);\n\n  /* If there is a CDTEXTFILE entry output it. */\n  if (cue->CDTEXTFILE != NULL)\n    xfprintf (stream, \"CDTEXTFILE \\\"%s\\\"\\n\", cue->CDTEXTFILE);\n\n  /* If there is a PERFORMER entry output it. */\n  if (cue->PERFORMER != NULL)\n    xfprintf (stream, \"PERFORMER \\\"%.80s\\\"\\n\", cue->PERFORMER);\n\n  /* If there is a SONGWRITER entry output it. */\n  if (cue->SONGWRITER != NULL)\n    xfprintf (stream, \"SONGWRITER \\\"%.80s\\\"\\n\", cue->SONGWRITER);\n\n  /* If there is a TITLE entry output it. */\n  if (cue->TITLE != NULL)\n    xfprintf (stream, \"TITLE \\\"%.80s\\\"\\n\", cue->TITLE);\n\n  /* Process FILE entries. */\n  for (file = 0; file < cue->FileEntries; file++)\n    {\n      int track;\t\t\t/* Track number (at least one\n\t\t\t\t\t   based); */\n\n      /* If there is a FILE entry, output it. */\n      if (cue->FILE[file].filename != NULL)\n\txfprintf (stream, \"FILE \\\"%s\\\" %s\\n\",\n\t\t  cue->FILE[file].filename, filetype[cue->FILE[file].filetype]);\n\n      /* Process TRACK entries. */\n      for (track = cue->FILE[file].FirstTrack;\n\t   track <= cue->FILE[file].TrackEntries;\n\t   track++)\n\t{\n\t  int index;\t\t\t/* Index number (zero based); */\n\n\t  /* Print TRACK entry. */\n\t  xfprintf (stream, \"  TRACK %i %s\\n\", track,\n\t\t    datatype[cue->FILE[file].TRACK[track].datatype]);\n\n\t  /* If there is a FLAGS entry, output it. */\n\t  if (cue->FILE[file].TRACK[track].FLAGS != NULL)\n\t    xfprintf (stream, \"    FLAGS %s\\n\", cue->FILE[file].TRACK[track].FLAGS);\n\n\t  /* If there is a ISRC entry, output it. */\n\t  if (cue->FILE[file].TRACK[track].ISRC[0] != '\\0')\n\t    xfprintf (stream, \"    ISRC %s\\n\", cue->FILE[file].TRACK[track].ISRC);\n\n\t  /* If there is a PERFORMER entry output it. */\n\t  if (cue->FILE[file].TRACK[track].PERFORMER != NULL)\n\t    xfprintf (stream, \"    PERFORMER \\\"%.80s\\\"\\n\",\n\t\t      cue->FILE[file].TRACK[track].PERFORMER);\n\n\t  /* If there is a SONGWRITER entry output it. */\n\t  if (cue->FILE[file].TRACK[track].SONGWRITER != NULL)\n\t    xfprintf (stream, \"    SONGWRITER \\\"%.80s\\\"\\n\",\n\t\t      cue->FILE[file].TRACK[track].SONGWRITER);\n\n\t  /* If there is a TITLE entry output it. */\n\t  if (cue->FILE[file].TRACK[track].TITLE != NULL)\n\t    xfprintf (stream, \"    TITLE \\\"%.80s\\\"\\n\",\n\t\t      cue->FILE[file].TRACK[track].TITLE);\n\n\t  /* If there is pre-gap, output it. */\n\t  if (cue->FILE[file].TRACK[track].PREGAP.initialized)\n\t    xfprintf (stream, \"    PREGAP %02u:%02u:%02u\\n\",\n\t\t      cue->FILE[file].TRACK[track].PREGAP.minutes,\n\t\t      cue->FILE[file].TRACK[track].PREGAP.seconds,\n\t\t      cue->FILE[file].TRACK[track].PREGAP.frames);\n\n\t  /* Process INDEX entries */\n\t  for (index = 0; index < cue->FILE[file].TRACK[track].IndexEntries; index++)\n\t    if (cue->FILE[file].TRACK[track].INDEX[index].initialized)\n\t      xfprintf (stream, \"    INDEX %02u %02u:%02u:%02u\\n\", index,\n\t\t\tcue->FILE[file].TRACK[track].INDEX[index].minutes,\n\t\t\tcue->FILE[file].TRACK[track].INDEX[index].seconds,\n\t\t\tcue->FILE[file].TRACK[track].INDEX[index].frames);\n\n\t  /* If there is post-gap, output it. */\n\t  if (cue->FILE[file].TRACK[track].POSTGAP.initialized)\n\t    xfprintf (stream, \"    POSTGAP %02u:%02u:%02u\\n\",\n\t\t      cue->FILE[file].TRACK[track].POSTGAP.minutes,\n\t\t      cue->FILE[file].TRACK[track].POSTGAP.seconds,\n\t\t      cue->FILE[file].TRACK[track].POSTGAP.frames);\n\t}\n    }\n\n  /* Return with success. */\n  return 0;\n}",
+      "lines": 103,
+      "depth": 19,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/cue.h": {},
+  "ccd2cue/ccd2cue-0.5/src/errors.c": {
+    "error_push_f": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "content": "void\nerror_push_f (const char function_name[], const char *template, ...)\n{\n  va_list ap;\n  char *str;\n\n  va_start (ap, template);\n\n  /* Allocate space on the error stack for the new error message. */\n  error_stack = xrealloc (error_stack, sizeof (*error_stack) * ++error_entries);\n\n  /* Store error message, with the supplied function name, on top of error\n     stack. */\n  if (vasprintf (&str, template, ap) < 0)\n    error (EX_OSERR, errno, _(\"%s: cannot push error into stack\"), __func__);\n  if (asprintf (&error_stack[error_entries - 1], \"%s: %s\", function_name, str) < 0)\n    error (EX_OSERR, errno, _(\"%s: cannot push error into stack\"), __func__);\n  free (str);\n\n  va_end (ap);\n}",
+      "lines": 21,
+      "depth": 11,
+      "decorators": [
+        "void"
+      ]
+    },
+    "error_pop_f": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "content": "void\nerror_pop_f (void)\n{\n  size_t i;\n\n  /* Print every error message from error stack in a bottom-top\n     fashion.  Empty error stack. */\n\n  for (i = 0; i < error_entries; i++)\n    {\n      error (0, 0, \"%s\", error_stack[i]);\n      free (error_stack[i]);\n    }\n\n  free (error_stack);\n  error_stack = NULL;\n  error_entries = 0;\n}",
+      "lines": 18,
+      "depth": 9,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/errors.h": {},
+  "ccd2cue/ccd2cue-0.5/src/file.c": {
+    "make_reference_name": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "content": "char *\nmake_reference_name (const char *filename, const int dirname_flag)\n{\n  char *str, *str_end;\n\n  /* Don't modify the original string 'FILENAME', generate your own\n     copy of it in 'str'.  If 'dirname_flag' is true, conserve the\n     components names, otherwise only take the base name. */\n  if (dirname_flag) str = xstrdup (filename);\n  else str = xstrdup (basename (filename));\n\n  /* To make a reference name it's necessary to discard any possible\n     extension from the file name.  If 'STR' has an extension,\n     it's all trailing the last dot.  Try to find that last dot.*/\n  str_end = strrchr (str, '.');\n\n  /* If you have found the referred dot, 'STR' has an extension, thus\n     free the space occupied by it and mark the new end of 'STR': the\n     location of that last dot. */\n  if (str_end != NULL)\n    {\n      str = realloc (str, str_end - str + 1);\n      *str_end = '\\0';\n    }\n\n  /* Return to the caller the wanted reference name */\n  return str;\n}",
+      "lines": 28,
+      "depth": 11,
+      "decorators": [
+        "char",
+        "*\nmake_reference_name (const char *filename, const int dirname_flag)",
+        "*"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/file.h": {},
+  "ccd2cue/ccd2cue-0.5/src/i18n.h": {},
+  "ccd2cue/ccd2cue-0.5/src/io.c": {
+    "io_optimize_stream_buffer": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "content": "int\nio_optimize_stream_buffer (FILE *stream, int mode)\n{\n  /* Information about STREAM's attributes; */\n  struct stat stat;\n  /* STREAM's file descriptor number; */\n  int fd;\n\n  /* Assert that STREAM is not NULL. */\n  assert (stream != NULL);\n\n  /* Assert that MODE is valid. */\n  assert (mode == _IOFBF || mode == _IOLBF || mode == _IONBF);\n\n  /* Get the file descriptor associated with STREAM.  Return with\n     failure if you cannot. */\n  fd = fileno (stream);\n  if (fd == -1) return -1;\n\n  /* Get the information about STREAM's attributes. */\n  if (fstat (fd, &stat) == -1) return -1;\n\n  /* Adjust buffer to the optimal block size for reading from and\n     writing to STREAM with MODE. */\n  if (setvbuf (stream, NULL, mode, stat.st_blksize) != 0) return -1;\n\n  /* Return success. */\n  return 0;\n}",
+      "lines": 29,
+      "depth": 9,
+      "decorators": [
+        "int"
+      ]
+    },
+    "xfwrite": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "content": "size_t\nxfwrite (const void *data, size_t size, size_t count, FILE *stream)\n{\n  /* Assert DATA is a valid pointer. */\n  assert (data != NULL);\n\n  /* Assert STREAM is a valid pointer. */\n  assert (stream != NULL);\n\n  /* Write to stream, and if occurs an error exit with failure. */\n  if (fwrite (data, size, count, stream) != count)\n    error (EX_OSERR, errno, _(\"%s: error writing to stream\"), __func__);\n\n  /* Return the number of objects actually written. */\n  return count;\n}",
+      "lines": 16,
+      "depth": 10,
+      "decorators": [
+        "size_t"
+      ]
+    },
+    "xputc": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "content": "int\nxputc (int c, FILE *stream)\n{\n  /* Assert STREAM is a valid pointer. */\n  assert (stream != NULL);\n\n  /* Write to stream, and if occurs an error exit with failure. */\n  if (putc (c, stream) == EOF)\n    error (EX_OSERR, errno, _(\"%s: error writing to stream\"), __func__);\n\n  /* Return the character just written. */\n  return c;\n}",
+      "lines": 13,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "xfprintf": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "content": "int\nxfprintf (FILE *stream, const char *template, ...)\n{\n  va_list ap;\t\t\t/* Argument pointer; */\n  int retval;\t\t\t/* Return value; */\n\n  /* Assert STREAM is a valid pointer. */\n  assert (stream != NULL);\n\n  /* Assert template is a valid string. */\n  assert (template != NULL);\n\n  /* Initialize argument pointer. */\n  va_start (ap, template);\n\n  /* Print to stream. */\n  retval = vfprintf (stream, template, ap);\n\n  /* If occurred an output error exit with failure. */\n  if (retval < 0)\n    error (EX_OSERR, errno, _(\"%s: error writing to stream\"), __func__);\n\n  /* Return the number of characters just written. */\n  return retval;\n}",
+      "lines": 25,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/io.h": {},
+  "ccd2cue/ccd2cue-0.5/src/memory.c": {
+    "xmalloc": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "content": "void *\nxmalloc (size_t size)\n{\n  /* Try to allocate SIZE memory bytes. */\n  register void *value = malloc (size);\n\n  /* If it is not possible exit with failure. */\n  if (value == NULL)\n    error (EX_OSERR, errno, _(\"%s: error allocating memory\"), __func__);\n\n  /* If allocation succeeded return the address to it. */\n  return value;\n}",
+      "lines": 13,
+      "depth": 10,
+      "decorators": [
+        "void",
+        "*\nxmalloc (size_t size)",
+        "*"
+      ]
+    },
+    "xrealloc": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "content": "void *\nxrealloc (void *ptr, size_t newsize)\n{\n  /* Try to reallocate data in PTR to a chunk SIZE bytes long. */\n  register void *value = realloc (ptr, newsize);\n\n  /* If it is not possible exit with failure. */\n  if (value == NULL)\n    error (EX_OSERR, errno, _(\"%s: error reallocating memory\"), __func__);\n\n  /* If reallocation succeeded return the address to it. */\n  return value;\n}",
+      "lines": 13,
+      "depth": 10,
+      "decorators": [
+        "void",
+        "*\nxrealloc (void *ptr, size_t newsize)",
+        "*"
+      ]
+    },
+    "memory_obstack_alloc_failed": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "content": "static void\nmemory_obstack_alloc_failed (void)\n{\n  /* Print an error message and exit with failure. */\n\n  /* TRANSLATORS: See\n     http://www.gnu.org/software/libc/manual/html_node/Obstacks.html\n     for context. */\n  error (EX_OSERR, errno, _(\"%s: error allocating chunk for obstack\"), __func__);\n}",
+      "lines": 10,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/memory.h": {}
+}

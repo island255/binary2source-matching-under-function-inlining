@@ -1,0 +1,5955 @@
+{
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt__alloc.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt_system.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt__private.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt__dirent.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt__strl.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt__glibc.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\loadlibrary.c": [
+    {
+      "vl_exit": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "123",
+        "total_line": "7",
+        "end_line": "130",
+        "call": [
+          {
+            "file": null,
+            "entity": "LocalFree",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 126,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "vm_open": {
+        "kind": "C Function Static",
+        "type": "lt_module",
+        "begin_line": "134",
+        "total_line": "110",
+        "end_line": "244",
+        "call": [
+          {
+            "file": null,
+            "entity": "GetModuleFileName",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 146,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 151,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 155,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 155,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 170,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strrchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 173,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 179,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 183,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 183,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "LoadLibrary",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 199,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "GetLastError",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 202,
+            "column": 17
+          },
+          {
+            "file": null,
+            "entity": "SetLastError",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 204,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlhandle_iterate",
+            "type": "lt_dlhandle",
+            "kind": "C Function",
+            "line_number": 218,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 233,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\loadlibrary.c",
+            "entity": "loadlibraryerror",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 233,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 233,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 236,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 236,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "vm_close": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "248",
+        "total_line": "13",
+        "end_line": "261",
+        "call": [
+          {
+            "file": null,
+            "entity": "FreeLibrary",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 252,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 254,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\loadlibrary.c",
+            "entity": "loadlibraryerror",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 254,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 254,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_sym": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "265",
+        "total_line": "12",
+        "end_line": "277",
+        "call": [
+          {
+            "file": null,
+            "entity": "GetProcAddress",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 267,
+            "column": 27
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 271,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\loadlibrary.c",
+            "entity": "loadlibraryerror",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 271,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 271,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "loadlibraryerror": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "285",
+        "total_line": "24",
+        "end_line": "309",
+        "call": [
+          {
+            "file": null,
+            "entity": "LocalFree",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 288,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "FormatMessageA",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 290,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "GetLastError",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 294,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 300,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "wrap_getthreaderrormode": {
+        "kind": "C Function Static",
+        "type": "DWORD WINAPI",
+        "begin_line": "314",
+        "total_line": "15",
+        "end_line": "329",
+        "call": [
+          {
+            "file": null,
+            "entity": "GetModuleHandleA",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 316,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "GetProcAddress",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 318,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "GetProcAddress",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 322,
+            "column": 36
+          }
+        ]
+      }
+    },
+    {
+      "fallback_getthreaderrormode": {
+        "kind": "C Function Static",
+        "type": "DWORD WINAPI",
+        "begin_line": "332",
+        "total_line": "10",
+        "end_line": "342",
+        "call": [
+          {
+            "file": null,
+            "entity": "SetErrorMode",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 339,
+            "column": 17
+          }
+        ]
+      }
+    },
+    {
+      "wrap_setthreaderrormode": {
+        "kind": "C Function Static",
+        "type": "BOOL WINAPI",
+        "begin_line": "347",
+        "total_line": "11",
+        "end_line": "358",
+        "call": [
+          {
+            "file": null,
+            "entity": "GetModuleHandleA",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 349,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "GetProcAddress",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 351,
+            "column": 34
+          }
+        ]
+      }
+    },
+    {
+      "fallback_setthreaderrormode": {
+        "kind": "C Function Static",
+        "type": "BOOL WINAPI",
+        "begin_line": "361",
+        "total_line": "10",
+        "end_line": "371",
+        "call": [
+          {
+            "file": null,
+            "entity": "SetErrorMode",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 365,
+            "column": 22
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt_dlloader.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\slist.c": [
+    {
+      "slist_delete": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "54",
+        "total_line": "14",
+        "end_line": "68",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 56,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "slist_remove": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "78",
+        "total_line": "36",
+        "end_line": "114",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 83,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "slist_find": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "118",
+        "total_line": "16",
+        "end_line": "134",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 122,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "slist_concat": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "142",
+        "total_line": "18",
+        "end_line": "160",
+        "call": []
+      }
+    },
+    {
+      "slist_cons": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "168",
+        "total_line": "13",
+        "end_line": "181",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 175,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "slist_tail": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "183",
+        "total_line": "5",
+        "end_line": "188",
+        "call": []
+      }
+    },
+    {
+      "slist_nth": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "194",
+        "total_line": "8",
+        "end_line": "202",
+        "call": []
+      }
+    },
+    {
+      "slist_length": {
+        "kind": "C Function",
+        "type": "size_t",
+        "begin_line": "205",
+        "total_line": "10",
+        "end_line": "215",
+        "call": []
+      }
+    },
+    {
+      "slist_reverse": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "223",
+        "total_line": "16",
+        "end_line": "239",
+        "call": []
+      }
+    },
+    {
+      "slist_foreach": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "242",
+        "total_line": "20",
+        "end_line": "262",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 246,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "slist_sort_merge": {
+        "kind": "C Function Static",
+        "type": "SList *",
+        "begin_line": "273",
+        "total_line": "26",
+        "end_line": "299",
+        "call": []
+      }
+    },
+    {
+      "slist_sort": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "307",
+        "total_line": "31",
+        "end_line": "338",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\slist.c",
+            "entity": "slist_sort_merge",
+            "type": "SList *",
+            "kind": "C Function Static",
+            "line_number": 333,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\slist.c",
+            "entity": "slist_sort",
+            "type": "SList *",
+            "kind": "C Function",
+            "line_number": 333,
+            "column": 27
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\slist.c",
+            "entity": "slist_sort",
+            "type": "SList *",
+            "kind": "C Function",
+            "line_number": 334,
+            "column": 27
+          }
+        ]
+      }
+    },
+    {
+      "slist_box": {
+        "kind": "C Function",
+        "type": "SList *",
+        "begin_line": "351",
+        "total_line": "13",
+        "end_line": "364",
+        "call": [
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 353,
+            "column": 26
+          }
+        ]
+      }
+    },
+    {
+      "slist_unbox": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "366",
+        "total_line": "15",
+        "end_line": "381",
+        "call": [
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 375,
+            "column": 6
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\slist.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt__argz_.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dld_link.c": [
+    {
+      "vl_exit": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "100",
+        "total_line": "6",
+        "end_line": "106",
+        "call": []
+      }
+    },
+    {
+      "vm_open": {
+        "kind": "C Function Static",
+        "type": "lt_module",
+        "begin_line": "110",
+        "total_line": "14",
+        "end_line": "124",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__strdup",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 113,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "dld_link",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 115,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 117,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 117,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 118,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_close": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "127",
+        "total_line": "17",
+        "end_line": "144",
+        "call": [
+          {
+            "file": null,
+            "entity": "dld_unlink_by_file",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 131,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 133,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 133,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 138,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_sym": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "147",
+        "total_line": "13",
+        "end_line": "160",
+        "call": [
+          {
+            "file": null,
+            "entity": "dld_get_func",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 150,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 154,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 154,
+            "column": 6
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__dirent.c": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__strl.c": [
+    {
+      "lt_strlcat": {
+        "kind": "C Function",
+        "type": "size_t",
+        "begin_line": "51",
+        "total_line": "32",
+        "end_line": "83",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 57,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 58,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 59,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 61,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "lt_strlcpy": {
+        "kind": "C Function",
+        "type": "size_t",
+        "begin_line": "99",
+        "total_line": "29",
+        "end_line": "128",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 105,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 106,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 107,
+            "column": 2
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c": [
+    {
+      "vl_exit": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "188",
+        "total_line": "6",
+        "end_line": "194",
+        "call": []
+      }
+    },
+    {
+      "vl_init": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "196",
+        "total_line": "27",
+        "end_line": "223",
+        "call": [
+          {
+            "file": null,
+            "entity": "_dyld_present",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 202,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "_dyld_func_lookup",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 208,
+            "column": 17
+          },
+          {
+            "file": null,
+            "entity": "_dyld_func_lookup",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 210,
+            "column": 17
+          },
+          {
+            "file": null,
+            "entity": "_dyld_func_lookup",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 212,
+            "column": 17
+          },
+          {
+            "file": null,
+            "entity": "_dyld_func_lookup",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 214,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt_dladderror",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 216,
+            "column": 30
+          }
+        ]
+      }
+    },
+    {
+      "vm_open": {
+        "kind": "C Function Static",
+        "type": "lt_module",
+        "begin_line": "228",
+        "total_line": "49",
+        "end_line": "277",
+        "call": [
+          {
+            "file": null,
+            "entity": "NSCreateObjectFileImageFromFile",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 239,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "NSLinkModule",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 242,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "NSDestroyObjectFileImage",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 245,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 271,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c",
+            "entity": "dylderror",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 271,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 271,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_close": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "281",
+        "total_line": "38",
+        "end_line": "319",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt_dlseterror",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 291,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "getsectbynamefromheader",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 300,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c",
+            "entity": "lt__nsmodule_get_header",
+            "type": "const mach_header *",
+            "kind": "C Function Static",
+            "line_number": 300,
+            "column": 39
+          },
+          {
+            "file": null,
+            "entity": "NSUnLinkModule",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 308,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 310,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c",
+            "entity": "dylderror",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 310,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 310,
+            "column": 14
+          }
+        ]
+      }
+    },
+    {
+      "vm_sym": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "322",
+        "total_line": "48",
+        "end_line": "370",
+        "call": [
+          {
+            "file": null,
+            "entity": "_dyld_lookup_and_bind",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 331,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "NSLookupSymbolInModule",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 348,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__strl.c",
+            "entity": "lt_strlcpy",
+            "type": "size_t",
+            "kind": "C Function",
+            "line_number": 353,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c",
+            "entity": "dylderror",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 353,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 353,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c",
+            "entity": "lt__nsmodule_get_header",
+            "type": "const mach_header *",
+            "kind": "C Function Static",
+            "line_number": 357,
+            "column": 30
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c",
+            "entity": "lt__linkedlib_symbol",
+            "type": "NSSymbol",
+            "kind": "C Function Static",
+            "line_number": 359,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 364,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "NSAddressOfSymbol",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 367,
+            "column": 17
+          }
+        ]
+      }
+    },
+    {
+      "dylderror": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "378",
+        "total_line": "17",
+        "end_line": "395",
+        "call": [
+          {
+            "file": null,
+            "entity": "NSLinkEditError",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 385,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt__nsmodule_get_header": {
+        "kind": "C Function Static",
+        "type": "const mach_header *",
+        "begin_line": "397",
+        "total_line": "22",
+        "end_line": "419",
+        "call": [
+          {
+            "file": null,
+            "entity": "_dyld_image_count",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 399,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "NSNameOfModule",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 400,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "strneq",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 409,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "_dyld_get_image_name",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 409,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "_dyld_get_image_header",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 411,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "lt__header_get_instnam": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "424",
+        "total_line": "22",
+        "end_line": "446",
+        "call": []
+      }
+    },
+    {
+      "lt__match_loadedlib": {
+        "kind": "C Function Static",
+        "type": "const mach_header *",
+        "begin_line": "447",
+        "total_line": "21",
+        "end_line": "468",
+        "call": [
+          {
+            "file": null,
+            "entity": "_dyld_image_count",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 450,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c",
+            "entity": "lt__header_get_instnam",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 457,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "_dyld_get_image_header",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 457,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "strneq",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 458,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "_dyld_get_image_header",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 460,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "lt__linkedlib_symbol": {
+        "kind": "C Function Static",
+        "type": "NSSymbol",
+        "begin_line": "470",
+        "total_line": "43",
+        "end_line": "513",
+        "call": [
+          {
+            "file": null,
+            "entity": "NSIsSymbolNameDefined",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 474,
+            "column": 26
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dyld.c",
+            "entity": "lt__match_loadedlib",
+            "type": "const mach_header *",
+            "kind": "C Function Static",
+            "line_number": 487,
+            "column": 39
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c": [
+    {
+      "loader_callback": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "49",
+        "total_line": "10",
+        "end_line": "59",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 54,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 56,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlloader_add": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "63",
+        "total_line": "38",
+        "end_line": "101",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 74,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 74,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "lt__slist_box",
+            "type": "SList *",
+            "kind": "C Unresolved Function",
+            "line_number": 78,
+            "column": 9
+          },
+          {
+            "file": null,
+            "entity": "lt__slist_cons",
+            "type": "SList *",
+            "kind": "C Unresolved Function",
+            "line_number": 90,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 94,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "lt__slist_concat",
+            "type": "SList *",
+            "kind": "C Unresolved Function",
+            "line_number": 95,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlloader_next": {
+        "kind": "C Function",
+        "type": "lt_dlloader",
+        "begin_line": "132",
+        "total_line": "6",
+        "end_line": "138",
+        "call": []
+      }
+    },
+    {
+      "lt_dlloader_get": {
+        "kind": "C Function",
+        "type": "const lt_dlvtable *",
+        "begin_line": "141",
+        "total_line": "5",
+        "end_line": "146",
+        "call": []
+      }
+    },
+    {
+      "lt_dlloader_remove": {
+        "kind": "C Function",
+        "type": "lt_dlvtable *",
+        "begin_line": "154",
+        "total_line": "52",
+        "end_line": "206",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_find",
+            "type": "const lt_dlvtable *",
+            "kind": "C Function",
+            "line_number": 156,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 165,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 165,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlinterface_register",
+            "type": "lt_dlinterface_id",
+            "kind": "C Function",
+            "line_number": 170,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlhandle_iterate",
+            "type": "lt_dlhandle",
+            "kind": "C Function",
+            "line_number": 171,
+            "column": 19
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlisresident",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 177,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlinterface_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 181,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 185,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 185,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "lt__slist_unbox",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 203,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "lt__slist_remove",
+            "type": "SList *",
+            "kind": "C Unresolved Function",
+            "line_number": 203,
+            "column": 29
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlloader_find": {
+        "kind": "C Function",
+        "type": "const lt_dlvtable *",
+        "begin_line": "208",
+        "total_line": "5",
+        "end_line": "213",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_get",
+            "type": "const lt_dlvtable *",
+            "kind": "C Function",
+            "line_number": 210,
+            "column": 9
+          },
+          {
+            "file": null,
+            "entity": "lt__slist_find",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 210,
+            "column": 26
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c": [
+    {
+      "lt__alloc_die_callback": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "168",
+        "total_line": "5",
+        "end_line": "173",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 170,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 170,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "loader_init": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "186",
+        "total_line": "27",
+        "end_line": "213",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_add",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 197,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 199,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 205,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 205,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlinit": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "226",
+        "total_line": "38",
+        "end_line": "264",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "loader_init",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 240,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlexit": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "265",
+        "total_line": "98",
+        "end_line": "363",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 274,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 274,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlclose",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 304,
+            "column": 26
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 332,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_next",
+            "type": "lt_dlloader",
+            "kind": "C Function",
+            "line_number": 335,
+            "column": 36
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_next",
+            "type": "lt_dlloader",
+            "kind": "C Function",
+            "line_number": 337,
+            "column": 48
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_get",
+            "type": "const lt_dlvtable *",
+            "kind": "C Function",
+            "line_number": 338,
+            "column": 48
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_remove",
+            "type": "lt_dlvtable *",
+            "kind": "C Function",
+            "line_number": 340,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 342,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__get_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 348,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 356,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "tryall_dlopen": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "368",
+        "total_line": "123",
+        "end_line": "491",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__get_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 381,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 388,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__strdup",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 416,
+            "column": 30
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_next",
+            "type": "lt_dlloader",
+            "kind": "C Function",
+            "line_number": 429,
+            "column": 25
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_get",
+            "type": "const lt_dlvtable *",
+            "kind": "C Function",
+            "line_number": 437,
+            "column": 26
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_next",
+            "type": "lt_dlloader",
+            "kind": "C Function",
+            "line_number": 469,
+            "column": 32
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 477,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 485,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "tryall_dlopen_module": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "493",
+        "total_line": "48",
+        "end_line": "541",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 500,
+            "column": 26
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 502,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 503,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 504,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 508,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 508,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 514,
+            "column": 35
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 518,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "sprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 522,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen_module",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 529,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 532,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 537,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "find_module": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "542",
+        "total_line": "43",
+        "end_line": "585",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 549,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_find",
+            "type": "const lt_dlvtable *",
+            "kind": "C Function",
+            "line_number": 550,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen_module",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 561,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen_module",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 569,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen_module",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 576,
+            "column": 22
+          }
+        ]
+      }
+    },
+    {
+      "canonicalize_path": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "587",
+        "total_line": "60",
+        "end_line": "647",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 591,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 592,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 594,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 594,
+            "column": 14
+          }
+        ]
+      }
+    },
+    {
+      "argzize_path": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "648",
+        "total_line": "26",
+        "end_line": "674",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 652,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 653,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 654,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "lt__argz_create_sep",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 656,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 661,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 661,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 664,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 664,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "foreach_dirinpath": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "679",
+        "total_line": "63",
+        "end_line": "742",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 684,
+            "column": 26
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 692,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 692,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "canonicalize_path",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 696,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "argzize_path",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 699,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "lt__argz_next",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 704,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 706,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 710,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 712,
+            "column": 26
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 717,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 718,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 724,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 735,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 736,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 737,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "find_file_callback": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "746",
+        "total_line": "25",
+        "end_line": "771",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 752,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 753,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 754,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fopen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 756,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strrchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 758,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 763,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__strdup",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 764,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "find_file": {
+        "kind": "C Function Static",
+        "type": "FILE *",
+        "begin_line": "772",
+        "total_line": "9",
+        "end_line": "781",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "foreach_dirinpath",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 776,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "find_handle_callback": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "782",
+        "total_line": "18",
+        "end_line": "800",
+        "call": [
+          {
+            "file": null,
+            "entity": "access",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 785,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 794,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "find_handle": {
+        "kind": "C Function Static",
+        "type": "lt_dlhandle *",
+        "begin_line": "803",
+        "total_line": "13",
+        "end_line": "816",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "foreach_dirinpath",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 809,
+            "column": 7
+          }
+        ]
+      }
+    },
+    {
+      "load_deplibs": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "818",
+        "total_line": "6",
+        "end_line": "824",
+        "call": []
+      }
+    },
+    {
+      "unload_deplibs": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "982",
+        "total_line": "21",
+        "end_line": "1003",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlclose",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 994,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 997,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "trim": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1004",
+        "total_line": "31",
+        "end_line": "1035",
+        "call": [
+          {
+            "file": null,
+            "entity": "strrchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1008,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1009,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1012,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1019,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1023,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "parse_dotla_file": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1037",
+        "total_line": "119",
+        "end_line": "1156",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1042,
+            "column": 23
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1046,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1046,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "feof",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1050,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "fgets",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1053,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "feof",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1061,
+            "column": 70
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__realloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1063,
+            "column": 17
+          },
+          {
+            "file": null,
+            "entity": "fgets",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1070,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1084,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "trim",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1086,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1091,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "trim",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1094,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1101,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "trim",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1103,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1113,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "trim",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1116,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1118,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1122,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1129,
+            "column": 27
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "trim",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1133,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "strrchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1136,
+            "column": 33
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__strdup",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 1138,
+            "column": 29
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1144,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1152,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "try_dlopen": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1159",
+        "total_line": "362",
+        "end_line": "1521",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1172,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1173,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__get_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1181,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__zalloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1186,
+            "column": 31
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1195,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1197,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1204,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1208,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1208,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "sprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1212,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__strdup",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 1216,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "canonicalize_path",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1223,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strrchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1231,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1236,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__strl.c",
+            "entity": "lt_strlcpy",
+            "type": "size_t",
+            "kind": "C Function",
+            "line_number": 1243,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1249,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1251,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strrchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1253,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1256,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1260,
+            "column": 9
+          },
+          {
+            "file": null,
+            "entity": "isalnum",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1272,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_dlloader.c",
+            "entity": "lt_dlloader_find",
+            "type": "const lt_dlvtable *",
+            "kind": "C Function",
+            "line_number": 1288,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1293,
+            "column": 25
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1293,
+            "column": 25
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__zalloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1294,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1305,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "sprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1307,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "sprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1311,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1314,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1321,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1334,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "find_file",
+            "type": "FILE *",
+            "kind": "C Function Static",
+            "line_number": 1357,
+            "column": 19
+          },
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1361,
+            "column": 28
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "find_file",
+            "type": "FILE *",
+            "kind": "C Function Static",
+            "line_number": 1363,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "fopen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1383,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1390,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1390,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "parse_dotla_file",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1396,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "fclose",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1400,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__zalloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1403,
+            "column": 31
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1409,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1410,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1411,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1412,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1413,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1417,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "load_deplibs",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1419,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "find_module",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1423,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "unload_deplibs",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1426,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1435,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1436,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1437,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1438,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1442,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "unload_deplibs",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1448,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__zalloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1454,
+            "column": 31
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "find_handle",
+            "type": "lt_dlhandle *",
+            "kind": "C Function Static",
+            "line_number": 1467,
+            "column": 20
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "find_handle",
+            "type": "lt_dlhandle *",
+            "kind": "C Function Static",
+            "line_number": 1469,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1469,
+            "column": 36
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "tryall_dlopen",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1481,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1489,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1496,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1501,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1507,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1510,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1511,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1512,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1514,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1515,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1516,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "file_not_found": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1525",
+        "total_line": "11",
+        "end_line": "1536",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__get_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1529,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1530,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "has_library_ext": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1540",
+        "total_line": "23",
+        "end_line": "1563",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1544,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strrchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1546,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1548,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "lt_dladvise_init": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1567",
+        "total_line": "7",
+        "end_line": "1574",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__zalloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1569,
+            "column": 37
+          }
+        ]
+      }
+    },
+    {
+      "lt_dladvise_destroy": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1575",
+        "total_line": "7",
+        "end_line": "1582",
+        "call": [
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1578,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "lt_dladvise_ext": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1583",
+        "total_line": "7",
+        "end_line": "1590",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1585,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dladvise_resident": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1591",
+        "total_line": "7",
+        "end_line": "1598",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1593,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dladvise_local": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1599",
+        "total_line": "7",
+        "end_line": "1606",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1601,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dladvise_global": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1607",
+        "total_line": "7",
+        "end_line": "1614",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1609,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dladvise_preload": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1615",
+        "total_line": "7",
+        "end_line": "1622",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1617,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlopen": {
+        "kind": "C Function",
+        "type": "lt_dlhandle",
+        "begin_line": "1624",
+        "total_line": "5",
+        "end_line": "1629",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlopenadvise",
+            "type": "lt_dlhandle",
+            "kind": "C Function",
+            "line_number": 1626,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlopenext": {
+        "kind": "C Function",
+        "type": "lt_dlhandle",
+        "begin_line": "1635",
+        "total_line": "12",
+        "end_line": "1647",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dladvise_init",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 1640,
+            "column": 7
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dladvise_ext",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 1640,
+            "column": 38
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlopenadvise",
+            "type": "lt_dlhandle",
+            "kind": "C Function",
+            "line_number": 1641,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dladvise_destroy",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 1643,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlopenadvise": {
+        "kind": "C Function",
+        "type": "lt_dlhandle",
+        "begin_line": "1649",
+        "total_line": "70",
+        "end_line": "1719",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__get_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1655,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1660,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1660,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "has_library_ext",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1667,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "try_dlopen",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1671,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "try_dlopen",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1680,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "file_not_found",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1687,
+            "column": 38
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1715,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1715,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_argz_insert": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1721",
+        "total_line": "29",
+        "end_line": "1750",
+        "call": [
+          {
+            "file": null,
+            "entity": "lt__argz_insert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1729,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "lt__argz_append",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1731,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1731,
+            "column": 54
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1738,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1738,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1741,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1741,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "lt_argz_insertinorder": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1751",
+        "total_line": "20",
+        "end_line": "1771",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1755,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1756,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1757,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "lt__argz_next",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1760,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1762,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_argz_insert",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1768,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "lt_argz_insertdir": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1772",
+        "total_line": "62",
+        "end_line": "1834",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1782,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1783,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1784,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1786,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1787,
+            "column": 25
+          },
+          {
+            "file": null,
+            "entity": "strchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1793,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 1814,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1818,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1820,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strcat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1821,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strncat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1822,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_argz_insertinorder",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1826,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1829,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "list_files_by_dir": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1835",
+        "total_line": "31",
+        "end_line": "1866",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1840,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1841,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1842,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1843,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1843,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__dirent.c",
+            "entity": "lt__opendir",
+            "type": "lt__DIR *",
+            "kind": "C Function",
+            "line_number": 1845,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__dirent.c",
+            "entity": "lt__readdir",
+            "type": "struct lt__dirent *",
+            "kind": "C Function",
+            "line_number": 1850,
+            "column": 19
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_argz_insertdir",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1852,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__dirent.c",
+            "entity": "lt__closedir",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 1858,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "foreachfile_callback": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "1870",
+        "total_line": "26",
+        "end_line": "1896",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "list_files_by_dir",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1878,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "lt__argz_next",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1885,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1891,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlforeachfile": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1904",
+        "total_line": "44",
+        "end_line": "1948",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "foreach_dirinpath",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1915,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "foreach_dirinpath",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1921,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "foreach_dirinpath",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1925,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1925,
+            "column": 39
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlclose": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1949",
+        "total_line": "63",
+        "end_line": "2012",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1964,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 1964,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "unload_deplibs",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 1990,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1993,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1995,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1996,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1997,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2004,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2004,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlsym": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "2013",
+        "total_line": "94",
+        "end_line": "2107",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2024,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2024,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2032,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2032,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2036,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2036,
+            "column": 32
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2037,
+            "column": 42
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 2045,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2048,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2048,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__get_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2058,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2063,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "strcat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2064,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2068,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "strcat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2071,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2072,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2080,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2084,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2090,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2091,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2095,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2101,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlerror": {
+        "kind": "C Function",
+        "type": "const char *",
+        "begin_line": "2108",
+        "total_line": "10",
+        "end_line": "2118",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__get_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2112,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2113,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlpath_insertdir": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "2119",
+        "total_line": "68",
+        "end_line": "2187",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2126,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2127,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "canonicalize_path",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 2129,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2135,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2140,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2141,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__strdup",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 2143,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2150,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "argzize_path",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 2152,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2165,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2166,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2166,
+            "column": 47
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_argz_insert",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 2171,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "lt__argz_stringify",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2177,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2178,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2181,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2182,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dladdsearchdir": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "2188",
+        "total_line": "13",
+        "end_line": "2201",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlpath_insertdir",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 2194,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlinsertsearchdir": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "2202",
+        "total_line": "26",
+        "end_line": "2228",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2209,
+            "column": 43
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2211,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2211,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlpath_insertdir",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 2218,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlsetsearchpath": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "2229",
+        "total_line": "17",
+        "end_line": "2246",
+        "call": [
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2233,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2235,
+            "column": 23
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "canonicalize_path",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 2240,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlgetsearchpath": {
+        "kind": "C Function",
+        "type": "const char *",
+        "begin_line": "2247",
+        "total_line": "9",
+        "end_line": "2256",
+        "call": []
+      }
+    },
+    {
+      "lt_dlmakeresident": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "2257",
+        "total_line": "17",
+        "end_line": "2274",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2263,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2263,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlisresident": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "2275",
+        "total_line": "11",
+        "end_line": "2286",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2279,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2279,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlinterface_register": {
+        "kind": "C Function",
+        "type": "lt_dlinterface_id",
+        "begin_line": "2296",
+        "total_line": "18",
+        "end_line": "2314",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 2298,
+            "column": 56
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__strdup",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 2304,
+            "column": 32
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2306,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlinterface_free": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "2314",
+        "total_line": "6",
+        "end_line": "2320",
+        "call": [
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2317,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2318,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlcaller_set_data": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "2322",
+        "total_line": "46",
+        "end_line": "2368",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__realloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 2347,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlcaller_get_data": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "2369",
+        "total_line": "22",
+        "end_line": "2391",
+        "call": []
+      }
+    },
+    {
+      "lt_dlgetinfo": {
+        "kind": "C Function",
+        "type": "const lt_dlinfo *",
+        "begin_line": "2392",
+        "total_line": "11",
+        "end_line": "2403",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2396,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 2396,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlhandle_iterate": {
+        "kind": "C Function",
+        "type": "lt_dlhandle",
+        "begin_line": "2405",
+        "total_line": "22",
+        "end_line": "2427",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2410,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlhandle_fetch": {
+        "kind": "C Function",
+        "type": "lt_dlhandle",
+        "begin_line": "2429",
+        "total_line": "16",
+        "end_line": "2445",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2433,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlhandle_iterate",
+            "type": "lt_dlhandle",
+            "kind": "C Function",
+            "line_number": 2435,
+            "column": 19
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2438,
+            "column": 35
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlhandle_map": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "2447",
+        "total_line": "26",
+        "end_line": "2473",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 2453,
+            "column": 2
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__argz.c": [
+    {
+      "argz_append": {
+        "kind": "C Function",
+        "type": "error_t",
+        "begin_line": "49",
+        "total_line": "29",
+        "end_line": "78",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 54,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 55,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 56,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "realloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 64,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 69,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "argz_create_sep": {
+        "kind": "C Function",
+        "type": "error_t",
+        "begin_line": "80",
+        "total_line": "50",
+        "end_line": "130",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 85,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 86,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 87,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 91,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 97,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 121,
+            "column": 12
+          }
+        ]
+      }
+    },
+    {
+      "argz_insert": {
+        "kind": "C Function",
+        "type": "error_t",
+        "begin_line": "132",
+        "total_line": "44",
+        "end_line": "176",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 134,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 135,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 136,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__argz.c",
+            "entity": "argz_append",
+            "type": "error_t",
+            "kind": "C Function",
+            "line_number": 141,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 141,
+            "column": 52
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 150,
+            "column": 29
+          },
+          {
+            "file": null,
+            "entity": "realloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 153,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "memmove",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 165,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 166,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "argz_next": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "178",
+        "total_line": "32",
+        "end_line": "210",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 180,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 186,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 191,
+            "column": 17
+          }
+        ]
+      }
+    },
+    {
+      "argz_stringify": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "212",
+        "total_line": "15",
+        "end_line": "227",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 214,
+            "column": 2
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\libltdl\\lt_error.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\load_add_on.c": [
+    {
+      "vl_exit": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "98",
+        "total_line": "6",
+        "end_line": "104",
+        "call": []
+      }
+    },
+    {
+      "vm_open": {
+        "kind": "C Function Static",
+        "type": "lt_module",
+        "begin_line": "108",
+        "total_line": "26",
+        "end_line": "134",
+        "call": [
+          {
+            "file": null,
+            "entity": "load_add_on",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 115,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "get_next_image_info",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 121,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "load_add_on",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 122,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 127,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 127,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_close": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "138",
+        "total_line": "13",
+        "end_line": "151",
+        "call": [
+          {
+            "file": null,
+            "entity": "unload_add_on",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 142,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 144,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 144,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_sym": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "155",
+        "total_line": "14",
+        "end_line": "169",
+        "call": [
+          {
+            "file": null,
+            "entity": "get_image_symbol",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 160,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 162,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 162,
+            "column": 6
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\shl_load.c": [
+    {
+      "vl_exit": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "141",
+        "total_line": "6",
+        "end_line": "147",
+        "call": []
+      }
+    },
+    {
+      "vm_open": {
+        "kind": "C Function Static",
+        "type": "lt_module",
+        "begin_line": "151",
+        "total_line": "33",
+        "end_line": "184",
+        "call": [
+          {
+            "file": null,
+            "entity": "shl_load",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 155,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "shl_findsym",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 164,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "shl_load",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 173,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 177,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 177,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "vm_close": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "187",
+        "total_line": "13",
+        "end_line": "200",
+        "call": [
+          {
+            "file": null,
+            "entity": "shl_unload",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 191,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 193,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 193,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_sym": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "204",
+        "total_line": "20",
+        "end_line": "224",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 211,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 211,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "shl_findsym",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 213,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 217,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 217,
+            "column": 10
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c": [
+    {
+      "alloc_die_default": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "44",
+        "total_line": "6",
+        "end_line": "50",
+        "call": [
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 46,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 47,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt__malloc": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "51",
+        "total_line": "10",
+        "end_line": "61",
+        "call": [
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 55,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "lt__zalloc": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "62",
+        "total_line": "10",
+        "end_line": "72",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 66,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "memset",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 67,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "lt__realloc": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "73",
+        "total_line": "8",
+        "end_line": "81",
+        "call": [
+          {
+            "file": null,
+            "entity": "realloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 75,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "lt__memdup": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "82",
+        "total_line": "10",
+        "end_line": "92",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__malloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 86,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 87,
+            "column": 11
+          }
+        ]
+      }
+    },
+    {
+      "lt__strdup": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "93",
+        "total_line": "5",
+        "end_line": "98",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__memdup",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 95,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 95,
+            "column": 38
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c": [
+    {
+      "lt_dladderror": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "47",
+        "total_line": "20",
+        "end_line": "67",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 53,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__realloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 56,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlseterror": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "68",
+        "total_line": "24",
+        "end_line": "92",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 75,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 75,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 81,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 86,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "lt__error_string": {
+        "kind": "C Function",
+        "type": "const char *",
+        "begin_line": "93",
+        "total_line": "8",
+        "end_line": "101",
+        "call": [
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 95,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "assert",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 96,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "lt__get_last_error": {
+        "kind": "C Function",
+        "type": "const char *",
+        "begin_line": "102",
+        "total_line": "5",
+        "end_line": "107",
+        "call": []
+      }
+    },
+    {
+      "lt__set_last_error": {
+        "kind": "C Function",
+        "type": "const char *",
+        "begin_line": "108",
+        "total_line": "5",
+        "end_line": "113",
+        "call": []
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\dlopen.c": [
+    {
+      "vl_exit": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "155",
+        "total_line": "6",
+        "end_line": "161",
+        "call": []
+      }
+    },
+    {
+      "vm_open": {
+        "kind": "C Function Static",
+        "type": "lt_module",
+        "begin_line": "166",
+        "total_line": "78",
+        "end_line": "244",
+        "call": [
+          {
+            "file": null,
+            "entity": "dlopen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 211,
+            "column": 11
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 238,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 238,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_close": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "248",
+        "total_line": "13",
+        "end_line": "261",
+        "call": [
+          {
+            "file": null,
+            "entity": "dlclose",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 252,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 254,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 254,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "vm_sym": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "265",
+        "total_line": "12",
+        "end_line": "277",
+        "call": [
+          {
+            "file": null,
+            "entity": "dlsym",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 267,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 271,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 271,
+            "column": 6
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\preopen.c": [
+    {
+      "vl_init": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "116",
+        "total_line": "13",
+        "end_line": "129",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\preopen.c",
+            "entity": "lt_dlpreload",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 123,
+            "column": 15
+          }
+        ]
+      }
+    },
+    {
+      "vl_exit": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "133",
+        "total_line": "7",
+        "end_line": "140",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\preopen.c",
+            "entity": "free_symlists",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 136,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "vm_open": {
+        "kind": "C Function Static",
+        "type": "lt_module",
+        "begin_line": "145",
+        "total_line": "49",
+        "end_line": "194",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 153,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 153,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 171,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 188,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 188,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "vm_close": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "198",
+        "total_line": "7",
+        "end_line": "205",
+        "call": []
+      }
+    },
+    {
+      "vm_sym": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "209",
+        "total_line": "26",
+        "end_line": "235",
+        "call": [
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 213,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 222,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 230,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 230,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "free_symlists": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "243",
+        "total_line": "16",
+        "end_line": "259",
+        "call": [
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 251,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "add_symlist": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "261",
+        "total_line": "37",
+        "end_line": "298",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt__alloc.c",
+            "entity": "lt__zalloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 274,
+            "column": 45
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 282,
+            "column": 33
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlpreload_default": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "305",
+        "total_line": "6",
+        "end_line": "311",
+        "call": []
+      }
+    },
+    {
+      "lt_dlpreload": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "315",
+        "total_line": "21",
+        "end_line": "336",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\preopen.c",
+            "entity": "add_symlist",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 321,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\preopen.c",
+            "entity": "free_symlists",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 325,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\loaders\\preopen.c",
+            "entity": "lt_dlpreload",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 329,
+            "column": 19
+          }
+        ]
+      }
+    },
+    {
+      "lt_dlpreload_open": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "341",
+        "total_line": "48",
+        "end_line": "389",
+        "call": [
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 351,
+            "column": 25
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 352,
+            "column": 29
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 364,
+            "column": 22
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\ltdl.c",
+            "entity": "lt_dlopen",
+            "type": "lt_dlhandle",
+            "kind": "C Function",
+            "line_number": 366,
+            "column": 39
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__set_last_error",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 382,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\libtool\\libtool-2.4.6\\libltdl\\lt_error.c",
+            "entity": "lt__error_string",
+            "type": "const char *",
+            "kind": "C Function",
+            "line_number": 382,
+            "column": 6
+          }
+        ]
+      }
+    }
+  ]
+}

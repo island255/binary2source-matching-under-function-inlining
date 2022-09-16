@@ -1,0 +1,10830 @@
+{
+  "cpio/cpio-2.12/build-aux/snippet/arg-nonnull.h": {},
+  "cpio/cpio-2.12/build-aux/snippet/c++defs.h": {},
+  "cpio/cpio-2.12/build-aux/snippet/warn-on-use.h": {},
+  "cpio/cpio-2.12/build-aux/snippet/_Noreturn.h": {},
+  "cpio/cpio-2.12/gnu/alignof.h": {},
+  "cpio/cpio-2.12/gnu/alloca.c": {
+    "find_stack_direction": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "alloca": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": []
+    },
+    "i00afunc": [
+      {
+        "start_point": [
+          328,
+          0
+        ],
+        "end_point": [
+          393,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          402,
+          0
+        ],
+        "end_point": [
+          471,
+          1
+        ],
+        "strings": [
+          "\"%011o %011o %011o\\n\"",
+          "\"%011o %011o\\n\""
+        ]
+      }
+    ]
+  },
+  "cpio/cpio-2.12/gnu/alloca.in.h": {},
+  "cpio/cpio-2.12/gnu/anytostr.c": {
+    "__attribute_warn_unused_result__": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/argmatch.c": {
+    "__argmatch_die": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": []
+    },
+    "argmatch": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "argmatch_invalid": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": [
+        "\"invalid argument %s for %s\"",
+        "\"ambiguous argument %s for %s\""
+      ]
+    },
+    "argmatch_valid": {
+      "start_point": [
+        143,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": [
+        "\"Valid arguments are:\"",
+        "\"\\n  - %s\"",
+        "\", %s\""
+      ]
+    },
+    "__xargmatch_internal": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        190,
+        1
+      ],
+      "strings": []
+    },
+    "argmatch_to_argument": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        249,
+        0
+      ],
+      "end_point": [
+        275,
+        1
+      ],
+      "strings": [
+        "\"Usage: %s [VERSION_CONTROL]\\n\"",
+        "\"VERSION_CONTROL\"",
+        "\"$VERSION_CONTROL\"",
+        "\"The version control is '%s'\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/argmatch.h": {},
+  "cpio/cpio-2.12/gnu/argp-ba.c": {},
+  "cpio/cpio-2.12/gnu/argp-eexst.c": {},
+  "cpio/cpio-2.12/gnu/argp-fmtstream.c": {
+    "__argp_make_fmtstream": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_fmtstream_free": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": [
+        "\"%.*s\""
+      ]
+    },
+    "__argp_fmtstream_update": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        345,
+        1
+      ],
+      "strings": [
+        "\"%.*s\\n\""
+      ]
+    },
+    "__argp_fmtstream_ensure": {
+      "start_point": [
+        349,
+        0
+      ],
+      "end_point": [
+        398,
+        1
+      ],
+      "strings": [
+        "\"%.*s\""
+      ]
+    },
+    "__argp_fmtstream_printf": {
+      "start_point": [
+        400,
+        0
+      ],
+      "end_point": [
+        426,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/argp-fmtstream.h": {
+    "__argp_fmtstream_write": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        275,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_fmtstream_puts": {
+      "start_point": [
+        277,
+        0
+      ],
+      "end_point": [
+        288,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_fmtstream_putc": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        297,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_fmtstream_set_lmargin": {
+      "start_point": [
+        300,
+        0
+      ],
+      "end_point": [
+        309,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_fmtstream_set_rmargin": {
+      "start_point": [
+        312,
+        0
+      ],
+      "end_point": [
+        321,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_fmtstream_set_wmargin": {
+      "start_point": [
+        324,
+        0
+      ],
+      "end_point": [
+        333,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_fmtstream_point": {
+      "start_point": [
+        336,
+        0
+      ],
+      "end_point": [
+        342,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/argp-fs-xinl.c": {},
+  "cpio/cpio-2.12/gnu/argp-help.c": {
+    "validate_uparams": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        155,
+        1
+      ],
+      "strings": [
+        "\"\\\nARGP_HELP_FMT: %s value is less than or equal to %s\"",
+        "\"rmargin\""
+      ]
+    },
+    "fill_in_uparams": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        253,
+        1
+      ],
+      "strings": [
+        "\"ARGP_HELP_FMT\"",
+        "\"\\\n%.*s: ARGP_HELP_FMT parameter requires a value\"",
+        "\"\\\n%.*s: ARGP_HELP_FMT parameter must be positive\"",
+        "\"\\\n%.*s: Unknown ARGP_HELP_FMT parameter\"",
+        "\"Garbage in ARGP_HELP_FMT: %s\""
+      ]
+    },
+    "find_char": {
+      "start_point": [
+        339,
+        0
+      ],
+      "end_point": [
+        348,
+        1
+      ],
+      "strings": []
+    },
+    "make_hol": {
+      "start_point": [
+        431,
+        0
+      ],
+      "end_point": [
+        499,
+        1
+      ],
+      "strings": []
+    },
+    "hol_add_cluster": {
+      "start_point": [
+        504,
+        0
+      ],
+      "end_point": [
+        523,
+        1
+      ],
+      "strings": []
+    },
+    "hol_free": {
+      "start_point": [
+        526,
+        0
+      ],
+      "end_point": [
+        545,
+        1
+      ],
+      "strings": []
+    },
+    "hol_entry_short_iterate": {
+      "start_point": [
+        547,
+        0
+      ],
+      "end_point": [
+        570,
+        1
+      ],
+      "strings": []
+    },
+    "always_inline": {
+      "start_point": [
+        580,
+        30
+      ],
+      "end_point": [
+        596,
+        1
+      ],
+      "strings": []
+    },
+    "until_short": {
+      "start_point": [
+        599,
+        0
+      ],
+      "end_point": [
+        604,
+        1
+      ],
+      "strings": []
+    },
+    "hol_entry_first_short": {
+      "start_point": [
+        607,
+        0
+      ],
+      "end_point": [
+        612,
+        1
+      ],
+      "strings": []
+    },
+    "hol_entry_first_long": {
+      "start_point": [
+        615,
+        0
+      ],
+      "end_point": [
+        624,
+        1
+      ],
+      "strings": []
+    },
+    "hol_find_entry": {
+      "start_point": [
+        628,
+        0
+      ],
+      "end_point": [
+        649,
+        1
+      ],
+      "strings": []
+    },
+    "hol_set_group": {
+      "start_point": [
+        653,
+        0
+      ],
+      "end_point": [
+        659,
+        1
+      ],
+      "strings": []
+    },
+    "group_cmp": {
+      "start_point": [
+        663,
+        0
+      ],
+      "end_point": [
+        672,
+        1
+      ],
+      "strings": []
+    },
+    "hol_cluster_cmp": {
+      "start_point": [
+        676,
+        0
+      ],
+      "end_point": [
+        694,
+        1
+      ],
+      "strings": []
+    },
+    "hol_cluster_base": {
+      "start_point": [
+        698,
+        0
+      ],
+      "end_point": [
+        704,
+        1
+      ],
+      "strings": []
+    },
+    "hol_cluster_is_child": {
+      "start_point": [
+        707,
+        0
+      ],
+      "end_point": [
+        714,
+        1
+      ],
+      "strings": []
+    },
+    "canon_doc_option": {
+      "start_point": [
+        719,
+        0
+      ],
+      "end_point": [
+        738,
+        1
+      ],
+      "strings": []
+    },
+    "hol_entry_cmp": {
+      "start_point": [
+        744,
+        0
+      ],
+      "end_point": [
+        818,
+        1
+      ],
+      "strings": []
+    },
+    "hol_entry_qcmp": {
+      "start_point": [
+        821,
+        0
+      ],
+      "end_point": [
+        825,
+        1
+      ],
+      "strings": []
+    },
+    "hol_sort": {
+      "start_point": [
+        830,
+        0
+      ],
+      "end_point": [
+        842,
+        1
+      ],
+      "strings": []
+    },
+    "hol_append": {
+      "start_point": [
+        846,
+        0
+      ],
+      "end_point": [
+        936,
+        1
+      ],
+      "strings": []
+    },
+    "indent_to": {
+      "start_point": [
+        939,
+        0
+      ],
+      "end_point": [
+        945,
+        1
+      ],
+      "strings": []
+    },
+    "space": {
+      "start_point": [
+        949,
+        0
+      ],
+      "end_point": [
+        957,
+        1
+      ],
+      "strings": []
+    },
+    "arg": {
+      "start_point": [
+        962,
+        0
+      ],
+      "end_point": [
+        975,
+        1
+      ],
+      "strings": []
+    },
+    "filter_doc": {
+      "start_point": [
+        1011,
+        0
+      ],
+      "end_point": [
+        1024,
+        1
+      ],
+      "strings": []
+    },
+    "print_header": {
+      "start_point": [
+        1031,
+        0
+      ],
+      "end_point": [
+        1058,
+        1
+      ],
+      "strings": []
+    },
+    "comma": {
+      "start_point": [
+        1064,
+        0
+      ],
+      "end_point": [
+        1095,
+        1
+      ],
+      "strings": [
+        "\", \""
+      ]
+    },
+    "hol_entry_help": {
+      "start_point": [
+        1098,
+        0
+      ],
+      "end_point": [
+        1231,
+        1
+      ],
+      "strings": [
+        "\" %s\"",
+        "\"[%s]\"",
+        "\"--%s\"",
+        "\"=%s\"",
+        "\"[=%s]\"",
+        "\"   \""
+      ]
+    },
+    "hol_help": {
+      "start_point": [
+        1234,
+        0
+      ],
+      "end_point": [
+        1261,
+        1
+      ],
+      "strings": [
+        "\"\\\nMandatory or optional arguments to long options are also mandatory or \\\noptional for any corresponding short options.\""
+      ]
+    },
+    "add_argless_short_opt": {
+      "start_point": [
+        1267,
+        0
+      ],
+      "end_point": [
+        1277,
+        1
+      ],
+      "strings": []
+    },
+    "usage_argful_short_opt": {
+      "start_point": [
+        1281,
+        0
+      ],
+      "end_point": [
+        1309,
+        1
+      ],
+      "strings": [
+        "\" [-%c[%s]]\"",
+        "\"[-%c %s]\""
+      ]
+    },
+    "usage_long_opt": {
+      "start_point": [
+        1313,
+        0
+      ],
+      "end_point": [
+        1340,
+        1
+      ],
+      "strings": [
+        "\" [--%s[=%s]]\"",
+        "\" [--%s=%s]\"",
+        "\" [--%s]\""
+      ]
+    },
+    "hol_usage": {
+      "start_point": [
+        1343,
+        0
+      ],
+      "end_point": [
+        1379,
+        1
+      ],
+      "strings": [
+        "\" [-%s]\""
+      ]
+    },
+    "argp_hol": {
+      "start_point": [
+        1383,
+        0
+      ],
+      "end_point": [
+        1402,
+        1
+      ],
+      "strings": []
+    },
+    "argp_args_levels": {
+      "start_point": [
+        1406,
+        0
+      ],
+      "end_point": [
+        1420,
+        1
+      ],
+      "strings": []
+    },
+    "argp_args_usage": {
+      "start_point": [
+        1427,
+        0
+      ],
+      "end_point": [
+        1480,
+        1
+      ],
+      "strings": []
+    },
+    "argp_doc": {
+      "start_point": [
+        1489,
+        0
+      ],
+      "end_point": [
+        1583,
+        1
+      ],
+      "strings": []
+    },
+    "_help": {
+      "start_point": [
+        1589,
+        0
+      ],
+      "end_point": [
+        1728,
+        1
+      ],
+      "strings": [
+        "\"help\"",
+        "\"version\"",
+        "\"%s %s\"",
+        "\"Usage:\"",
+        "\"%s %s\"",
+        "\"  or: \"",
+        "\" [OPTION...]\"",
+        "\"\\\nTry '%s --help' or '%s --usage' for more information.\\n\"",
+        "\"Report bugs to %s.\\n\""
+      ]
+    },
+    "__argp_help": {
+      "start_point": [
+        1732,
+        0
+      ],
+      "end_point": [
+        1739,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_short_program_name": {
+      "start_point": [
+        1745,
+        0
+      ],
+      "end_point": [
+        1759,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    },
+    "__argp_state_help": {
+      "start_point": [
+        1764,
+        0
+      ],
+      "end_point": [
+        1783,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_error": {
+      "start_point": [
+        1791,
+        0
+      ],
+      "end_point": [
+        1845,
+        1
+      ],
+      "strings": [
+        "L\"%s: %s\\n\""
+      ]
+    },
+    "__argp_failure": {
+      "start_point": [
+        1858,
+        0
+      ],
+      "end_point": [
+        1955,
+        1
+      ],
+      "strings": [
+        "L\"%s\"",
+        "L\": %s\"",
+        "L\": %s\"",
+        "\"Unknown system error\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/argp-namefrob.h": {},
+  "cpio/cpio-2.12/gnu/argp-parse.c": {
+    "argp_default_parser": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": [
+        "\"3600\""
+      ]
+    },
+    "argp_version_parser": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        166,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\"",
+        "\"%s\"",
+        "\"(PROGRAM ERROR) No version known!?\""
+      ]
+    },
+    "find_long_option": {
+      "start_point": [
+        174,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "strings": []
+    },
+    "group_parse": {
+      "start_point": [
+        222,
+        0
+      ],
+      "end_point": [
+        238,
+        1
+      ],
+      "strings": []
+    },
+    "convert_options": {
+      "start_point": [
+        287,
+        0
+      ],
+      "end_point": [
+        386,
+        1
+      ],
+      "strings": []
+    },
+    "parser_convert": {
+      "start_point": [
+        389,
+        0
+      ],
+      "end_point": [
+        413,
+        1
+      ],
+      "strings": []
+    },
+    "calc_sizes": {
+      "start_point": [
+        428,
+        0
+      ],
+      "end_point": [
+        453,
+        1
+      ],
+      "strings": []
+    },
+    "parser_init": {
+      "start_point": [
+        456,
+        0
+      ],
+      "end_point": [
+        565,
+        1
+      ],
+      "strings": []
+    },
+    "parser_finalize": {
+      "start_point": [
+        568,
+        0
+      ],
+      "end_point": [
+        657,
+        1
+      ],
+      "strings": [
+        "\"%s: Too many arguments\\n\""
+      ]
+    },
+    "parser_parse_arg": {
+      "start_point": [
+        664,
+        0
+      ],
+      "end_point": [
+        711,
+        1
+      ],
+      "strings": []
+    },
+    "parser_parse_opt": {
+      "start_point": [
+        715,
+        0
+      ],
+      "end_point": [
+        770,
+        1
+      ],
+      "strings": [
+        "\"(PROGRAM ERROR) Option should have been recognized!?\"",
+        "\"-%c: %s\"",
+        "\"--%s: %s\"",
+        "\"???\""
+      ]
+    },
+    "parser_parse_next": {
+      "start_point": [
+        776,
+        0
+      ],
+      "end_point": [
+        861,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_parse": {
+      "start_point": [
+        868,
+        0
+      ],
+      "end_point": [
+        928,
+        1
+      ],
+      "strings": []
+    },
+    "__argp_input": {
+      "start_point": [
+        935,
+        0
+      ],
+      "end_point": [
+        949,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/argp-pin.c": {},
+  "cpio/cpio-2.12/gnu/argp-pv.c": {},
+  "cpio/cpio-2.12/gnu/argp-pvh.c": {},
+  "cpio/cpio-2.12/gnu/argp-version-etc.c": {
+    "version_etc_hook": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    },
+    "argp_version_setup": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/argp-version-etc.h": {},
+  "cpio/cpio-2.12/gnu/argp-xinl.c": {},
+  "cpio/cpio-2.12/gnu/argp.h": {
+    "__argp_usage": {
+      "start_point": [
+        615,
+        0
+      ],
+      "end_point": [
+        619,
+        1
+      ],
+      "strings": []
+    },
+    "__NTH": [
+      {
+        "start_point": [
+          621,
+          0
+        ],
+        "end_point": [
+          631,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          633,
+          0
+        ],
+        "end_point": [
+          637,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "cpio/cpio-2.12/gnu/asnprintf.c": {
+    "asnprintf": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/assure.h": {},
+  "cpio/cpio-2.12/gnu/at-func.c": {
+    "AT_FUNC_NAME": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/basename-lgpl.c": {
+    "last_component": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "base_len": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/basename.c": {
+    "base_name": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/bitrotate.c": {},
+  "cpio/cpio-2.12/gnu/bitrotate.h": {
+    "uint64_t": [
+      {
+        "start_point": [
+          37,
+          0
+        ],
+        "end_point": [
+          41,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          46,
+          0
+        ],
+        "end_point": [
+          50,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "uint32_t": [
+      {
+        "start_point": [
+          56,
+          0
+        ],
+        "end_point": [
+          60,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          65,
+          0
+        ],
+        "end_point": [
+          69,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "rotl_sz": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    },
+    "rotr_sz": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    },
+    "uint16_t": [
+      {
+        "start_point": [
+          94,
+          0
+        ],
+        "end_point": [
+          98,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          105,
+          0
+        ],
+        "end_point": [
+          109,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "uint8_t": [
+      {
+        "start_point": [
+          116,
+          0
+        ],
+        "end_point": [
+          120,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          127,
+          0
+        ],
+        "end_point": [
+          131,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "cpio/cpio-2.12/gnu/c-ctype.c": {
+    "c_isascii": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    },
+    "c_isalnum": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "c_isalpha": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "c_isblank": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        99,
+        1
+      ],
+      "strings": []
+    },
+    "c_iscntrl": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": []
+    },
+    "c_isdigit": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        150,
+        1
+      ],
+      "strings": []
+    },
+    "c_islower": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        170,
+        1
+      ],
+      "strings": []
+    },
+    "c_isgraph": {
+      "start_point": [
+        172,
+        0
+      ],
+      "end_point": [
+        204,
+        1
+      ],
+      "strings": []
+    },
+    "c_isprint": {
+      "start_point": [
+        206,
+        0
+      ],
+      "end_point": [
+        238,
+        1
+      ],
+      "strings": []
+    },
+    "c_ispunct": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        262,
+        1
+      ],
+      "strings": []
+    },
+    "c_isspace": {
+      "start_point": [
+        264,
+        0
+      ],
+      "end_point": [
+        269,
+        1
+      ],
+      "strings": []
+    },
+    "c_isupper": {
+      "start_point": [
+        271,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    },
+    "c_isxdigit": {
+      "start_point": [
+        291,
+        0
+      ],
+      "end_point": [
+        316,
+        1
+      ],
+      "strings": []
+    },
+    "c_tolower": {
+      "start_point": [
+        318,
+        0
+      ],
+      "end_point": [
+        355,
+        1
+      ],
+      "strings": []
+    },
+    "c_toupper": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        394,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/c-ctype.h": {},
+  "cpio/cpio-2.12/gnu/c-strcase.h": {},
+  "cpio/cpio-2.12/gnu/c-strcasecmp.c": {
+    "c_strcasecmp": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/c-strcaseeq.h": {
+    "strcaseeq9": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq8": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq7": {
+      "start_point": [
+        63,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq6": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq5": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq4": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq3": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq2": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq1": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        159,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq0": {
+      "start_point": [
+        161,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/c-strncasecmp.c": {
+    "c_strncasecmp": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/chdir-long.c": {
+    "cdb_init": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    },
+    "cdb_fchdir": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    },
+    "cdb_free": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "cdb_advance_fd": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": []
+    },
+    "find_non_slash": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    },
+    "chdir_long": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": [
+        "\"/\"",
+        "\"/\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        216,
+        0
+      ],
+      "end_point": [
+        259,
+        1
+      ],
+      "strings": [
+        "\"reading standard input\"",
+        "\"chdir_long failed: %s\"",
+        "\"pwd\"",
+        "\"%s\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/chdir-long.h": {},
+  "cpio/cpio-2.12/gnu/chown.c": {
+    "chown": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_chown": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/cloexec.c": {
+    "set_cloexec_flag": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    },
+    "dup_cloexec": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/cloexec.h": {},
+  "cpio/cpio-2.12/gnu/close-stream.c": {
+    "close_stream": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/close-stream.h": {},
+  "cpio/cpio-2.12/gnu/close.c": {
+    "close_nothrow": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        37,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_close": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/closedir.c": {
+    "closedir": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/closeout.c": {
+    "close_stdout_set_file_name": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "close_stdout_set_ignore_EPIPE": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": []
+    },
+    "close_stdout": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": [
+        "\"write error\"",
+        "\"%s: %s\"",
+        "\"%s\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/closeout.h": {},
+  "cpio/cpio-2.12/gnu/dirent--.h": {},
+  "cpio/cpio-2.12/gnu/dirent-private.h": {},
+  "cpio/cpio-2.12/gnu/dirent-safer.h": {},
+  "cpio/cpio-2.12/gnu/dirent.in.h": {
+    "dirfd": {
+      "start_point": [
+        164,
+        0
+      ],
+      "end_point": [
+        164,
+        58
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/dirfd.c": {
+    "dirfd": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/dirname-lgpl.c": {
+    "dir_len": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "mdir_name": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/dirname.c": {
+    "dir_name": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/dirname.h": {},
+  "cpio/cpio-2.12/gnu/dosname.h": {},
+  "cpio/cpio-2.12/gnu/dup-safer.c": {
+    "dup_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/dup.c": {
+    "dup_nothrow": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        37,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_dup": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/dup2.c": {
+    "ms_windows_dup2": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        71,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_dup2": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        119,
+        1
+      ],
+      "strings": []
+    },
+    "dupfd": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": []
+    },
+    "dup2": {
+      "start_point": [
+        143,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/errno.in.h": {},
+  "cpio/cpio-2.12/gnu/error.c": {
+    "is_open": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "flush_stdout": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    },
+    "print_errno_message": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\"",
+        "\": %s\"",
+        "\": %s\""
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        201,
+        42
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": [
+        "L\"out of memory\\n\"",
+        "L\"???\"",
+        "\"\\n\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        327,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"%s: \""
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        333,
+        0
+      ],
+      "end_point": [
+        397,
+        1
+      ],
+      "strings": [
+        "\"%s:\"",
+        "\"%s:\"",
+        "\"%s:%u: \"",
+        "\" \"",
+        "\"%s:%u: \"",
+        "\" \""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/error.h": {},
+  "cpio/cpio-2.12/gnu/exitfail.c": {},
+  "cpio/cpio-2.12/gnu/exitfail.h": {},
+  "cpio/cpio-2.12/gnu/fchdir.c": {
+    "ensure_dirs_slot": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "get_name": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_unregister_fd": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_register_fd": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_register_dup": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_directory_name": {
+      "start_point": [
+        182,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    },
+    "fchdir": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fchown-stub.c": {
+    "fchown": {
+      "start_point": [
+        10,
+        0
+      ],
+      "end_point": [
+        15,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fcntl.c": {
+    "dupfd": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        161,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_fcntl": {
+      "start_point": [
+        183,
+        0
+      ],
+      "end_point": [
+        326,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fcntl.in.h": {},
+  "cpio/cpio-2.12/gnu/fd-hook.c": {
+    "execute_close_hooks": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "execute_all_close_hooks": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "execute_ioctl_hooks": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "execute_all_ioctl_hooks": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "register_fd_hook": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "unregister_fd_hook": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fd-hook.h": {},
+  "cpio/cpio-2.12/gnu/fd-safer.c": {
+    "fd_safer": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fdopendir.c": {
+    "fdopendir": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    },
+    "fdopendir_with_dup": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": []
+    },
+    "fd_clone_opendir": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\".\""
+      ]
+    },
+    "rpl_fdopendir": {
+      "start_point": [
+        198,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fileblocks.c": {
+    "st_blocks": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/filename.h": {},
+  "cpio/cpio-2.12/gnu/filenamecat-lgpl.c": {
+    "longest_relative_suffix": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "mfile_name_concat": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/filenamecat.h": {},
+  "cpio/cpio-2.12/gnu/float+.h": {},
+  "cpio/cpio-2.12/gnu/float.c": {},
+  "cpio/cpio-2.12/gnu/float.in.h": {},
+  "cpio/cpio-2.12/gnu/fnmatch.c": {
+    "is_char_class": {
+      "start_point": [
+        205,
+        0
+      ],
+      "end_point": [
+        262,
+        1
+      ],
+      "strings": []
+    },
+    "fnmatch": {
+      "start_point": [
+        269,
+        0
+      ],
+      "end_point": [
+        337,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fnmatch.in.h": {},
+  "cpio/cpio-2.12/gnu/fnmatch_loop.c": {
+    "internal_function": [
+      {
+        "start_point": [
+          23,
+          0
+        ],
+        "end_point": [
+          981,
+          1
+        ],
+        "strings": [
+          "\"POSIXLY_CORRECT\"",
+          "\"alnum\"",
+          "\"alpha\"",
+          "\"blank\"",
+          "\"cntrl\"",
+          "\"digit\"",
+          "\"graph\"",
+          "\"lower\"",
+          "\"print\"",
+          "\"punct\"",
+          "\"space\"",
+          "\"upper\"",
+          "\"xdigit\""
+        ]
+      },
+      {
+        "start_point": [
+          984,
+          0
+        ],
+        "end_point": [
+          1020,
+          1
+        ],
+        "strings": [
+          "\"POSIXLY_CORRECT\""
+        ]
+      },
+      {
+        "start_point": [
+          1023,
+          0
+        ],
+        "end_point": [
+          1203,
+          1
+        ],
+        "strings": [
+          "\"POSIXLY_CORRECT\"",
+          "\"Invalid extended matching operator\""
+        ]
+      }
+    ]
+  },
+  "cpio/cpio-2.12/gnu/fpending.c": {
+    "__fpending": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fpending.h": {},
+  "cpio/cpio-2.12/gnu/fseek.c": {
+    "fseek": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fseeko.c": {},
+  "cpio/cpio-2.12/gnu/fstat.c": {
+    "orig_fstat": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "fstat_nothrow": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        61,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_fstat": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/fstatat.c": {
+    "orig_fstatat": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_fstatat": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "stat_func": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/full-write.c": {
+    "full_rw": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/full-write.h": {},
+  "cpio/cpio-2.12/gnu/getcwd-lgpl.c": {
+    "rpl_getcwd": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/getcwd.c": {
+    "__getcwd": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        441,
+        1
+      ],
+      "strings": [
+        "\"..\"",
+        "\".\"",
+        "\"/\"",
+        "\"..\"",
+        "\"..\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/getdelim.c": {
+    "getdelim": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/getdtablesize.c": {
+    "_setmaxstdio_nothrow": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        37,
+        5
+      ],
+      "strings": []
+    },
+    "getdtablesize": [
+      {
+        "start_point": [
+          53,
+          0
+        ],
+        "end_point": [
+          84,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          105,
+          0
+        ],
+        "end_point": [
+          118,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "cpio/cpio-2.12/gnu/getline.c": {
+    "getline": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        26,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/getopt.c": {
+    "exchange": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": [
+        "\"POSIXLY_CORRECT\""
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        1154,
+        1
+      ],
+      "strings": [
+        "\"--\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"%s\"",
+        "\"%s: option '%s' is ambiguous; possibilities:\"",
+        "\" '--%s'\"",
+        "\"%s: option '%s' is ambiguous\\n\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '--%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '%c%s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '--%s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"%s: option '--%s' requires an argument\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '--%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s: unrecognized option '%c%s'\\n\"",
+        "\"%s\"",
+        "\"\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"%s\"",
+        "\"%s: option '-W %s' is ambiguous\\n\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' doesn't allow an argument\\n\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"%s\"",
+        "\"\\\n%s: option '-W %s' requires an argument\\n\"",
+        "\"\\\n%s: option requires an argument -- '%c'\\n\"",
+        "\"%s\"",
+        "\"%s: option requires an argument -- '%c'\\n\""
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        1156,
+        0
+      ],
+      "end_point": [
+        1175,
+        1
+      ],
+      "strings": []
+    },
+    "getopt": {
+      "start_point": [
+        1185,
+        0
+      ],
+      "end_point": [
+        1192,
+        1
+      ],
+      "strings": []
+    },
+    "__posix_getopt": {
+      "start_point": [
+        1195,
+        0
+      ],
+      "end_point": [
+        1202,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        1211,
+        0
+      ],
+      "end_point": [
+        1272,
+        1
+      ],
+      "strings": [
+        "\"abc:d:0123456789\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/getopt.in.h": {},
+  "cpio/cpio-2.12/gnu/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "getopt_long_only": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"add\"",
+        "\"append\"",
+        "\"delete\"",
+        "\"verbose\"",
+        "\"create\"",
+        "\"file\"",
+        "\"abc:d:0123456789\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"\\n\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"option d with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/getopt_int.h": {},
+  "cpio/cpio-2.12/gnu/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        146,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        165,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        253,
+        0
+      ],
+      "end_point": [
+        285,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/gettime.c": {
+    "gettime": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/gettimeofday.c": {
+    "rpl_localtime": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_gmtime": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_tzset": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "gettimeofday": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/hash.c": {
+    "hash_get_n_buckets": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_n_buckets_used": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_n_entries": {
+      "start_point": [
+        164,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_max_bucket_length": {
+      "start_point": [
+        172,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": []
+    },
+    "hash_table_ok": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "strings": []
+    },
+    "hash_print_statistics": {
+      "start_point": [
+        228,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": [
+        "\"# entries:         %lu\\n\"",
+        "\"# buckets:         %lu\\n\"",
+        "\"# buckets used:    %lu (%.2f%%)\\n\"",
+        "\"max bucket length: %lu\\n\""
+      ]
+    },
+    "safe_hasher": {
+      "start_point": [
+        247,
+        0
+      ],
+      "end_point": [
+        254,
+        1
+      ],
+      "strings": []
+    },
+    "hash_lookup": {
+      "start_point": [
+        259,
+        0
+      ],
+      "end_point": [
+        273,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_first": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_next": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        328,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_entries": {
+      "start_point": [
+        334,
+        0
+      ],
+      "end_point": [
+        356,
+        1
+      ],
+      "strings": []
+    },
+    "hash_do_for_each": {
+      "start_point": [
+        366,
+        0
+      ],
+      "end_point": [
+        388,
+        1
+      ],
+      "strings": []
+    },
+    "hash_string": [
+      {
+        "start_point": [
+          403,
+          0
+        ],
+        "end_point": [
+          417,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          426,
+          0
+        ],
+        "end_point": [
+          435,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "_GL_ATTRIBUTE_CONST": [
+      {
+        "start_point": [
+          442,
+          0
+        ],
+        "end_point": [
+          456,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          461,
+          0
+        ],
+        "end_point": [
+          475,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "hash_reset_tuning": {
+      "start_point": [
+        477,
+        0
+      ],
+      "end_point": [
+        481,
+        1
+      ],
+      "strings": []
+    },
+    "raw_hasher": {
+      "start_point": [
+        484,
+        0
+      ],
+      "end_point": [
+        494,
+        1
+      ],
+      "strings": []
+    },
+    "raw_comparator": {
+      "start_point": [
+        497,
+        0
+      ],
+      "end_point": [
+        501,
+        1
+      ],
+      "strings": []
+    },
+    "check_tuning": {
+      "start_point": [
+        510,
+        0
+      ],
+      "end_point": [
+        536,
+        1
+      ],
+      "strings": []
+    },
+    "compute_bucket_size": {
+      "start_point": [
+        542,
+        0
+      ],
+      "end_point": [
+        556,
+        1
+      ],
+      "strings": []
+    },
+    "hash_initialize": {
+      "start_point": [
+        592,
+        0
+      ],
+      "end_point": [
+        645,
+        1
+      ],
+      "strings": []
+    },
+    "hash_clear": {
+      "start_point": [
+        651,
+        0
+      ],
+      "end_point": [
+        687,
+        1
+      ],
+      "strings": []
+    },
+    "hash_free": {
+      "start_point": [
+        694,
+        0
+      ],
+      "end_point": [
+        742,
+        1
+      ],
+      "strings": []
+    },
+    "allocate_entry": {
+      "start_point": [
+        749,
+        0
+      ],
+      "end_point": [
+        769,
+        1
+      ],
+      "strings": []
+    },
+    "free_entry": {
+      "start_point": [
+        774,
+        0
+      ],
+      "end_point": [
+        780,
+        1
+      ],
+      "strings": []
+    },
+    "hash_find_entry": {
+      "start_point": [
+        788,
+        0
+      ],
+      "end_point": [
+        850,
+        1
+      ],
+      "strings": []
+    },
+    "transfer_entries": {
+      "start_point": [
+        858,
+        0
+      ],
+      "end_point": [
+        931,
+        1
+      ],
+      "strings": []
+    },
+    "hash_rehash": {
+      "start_point": [
+        941,
+        0
+      ],
+      "end_point": [
+        1018,
+        1
+      ],
+      "strings": []
+    },
+    "hash_insert_if_absent": {
+      "start_point": [
+        1036,
+        0
+      ],
+      "end_point": [
+        1116,
+        1
+      ],
+      "strings": []
+    },
+    "hash_insert": {
+      "start_point": [
+        1124,
+        0
+      ],
+      "end_point": [
+        1132,
+        1
+      ],
+      "strings": []
+    },
+    "hash_delete": {
+      "start_point": [
+        1138,
+        0
+      ],
+      "end_point": [
+        1196,
+        1
+      ],
+      "strings": []
+    },
+    "hash_print": {
+      "start_point": [
+        1202,
+        0
+      ],
+      "end_point": [
+        1222,
+        1
+      ],
+      "strings": [
+        "\"%lu:\\n\"",
+        "\"  %s\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/hash.h": {},
+  "cpio/cpio-2.12/gnu/imaxtostr.c": {},
+  "cpio/cpio-2.12/gnu/intprops.h": {},
+  "cpio/cpio-2.12/gnu/inttostr.c": {},
+  "cpio/cpio-2.12/gnu/inttostr.h": {},
+  "cpio/cpio-2.12/gnu/inttypes.in.h": {},
+  "cpio/cpio-2.12/gnu/itold.c": {
+    "_Qp_itoq": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/lchown.c": {
+    "lchown": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_lchown": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/localcharset.c": {
+    "get_charset_aliases": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        380,
+        1
+      ],
+      "strings": [
+        "\"charset.alias\"",
+        "\"CHARSETALIASDIR\"",
+        "\"\"",
+        "\"\"",
+        "\"r\"",
+        "\"\"",
+        "\"%50s %50s\"",
+        "\"\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-4\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"ISO8859-13\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"ISO8859-15\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"eucCN\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucKR\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"Big5\"",
+        "\"\\0\"",
+        "\"BIG5\"",
+        "\"\\0\"",
+        "\"Big5HKSCS\"",
+        "\"\\0\"",
+        "\"BIG5-HKSCS\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"*\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-8\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"DECKANJI\"",
+        "\"\\0\"",
+        "\"DEC-KANJI\"",
+        "\"\\0\"",
+        "\"SDECKANJI\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucTW\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"DECHANYU\"",
+        "\"\\0\"",
+        "\"DEC-HANYU\"",
+        "\"\\0\"",
+        "\"DECHANZI\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"DECKOREAN\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP936\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP1361\"",
+        "\"\\0\"",
+        "\"JOHAB\"",
+        "\"\\0\"",
+        "\"CP20127\"",
+        "\"\\0\"",
+        "\"ASCII\"",
+        "\"\\0\"",
+        "\"CP20866\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP20936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP21866\"",
+        "\"\\0\"",
+        "\"KOI8-RU\"",
+        "\"\\0\"",
+        "\"CP28591\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP28592\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP28593\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP28594\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP28595\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP28596\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP28597\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP28598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP28599\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP28605\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP38598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP51932\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP51936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP51949\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP51950\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP54936\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"CP65001\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP813\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP878\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP819\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP912\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP913\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP914\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP915\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP916\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP920\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP921\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"CP923\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP954\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP964\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP970\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP1089\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP1208\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP1381\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP1386\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP3372\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\""
+      ]
+    },
+    "locale_charset": {
+      "start_point": [
+        391,
+        0
+      ],
+      "end_point": [
+        612,
+        1
+      ],
+      "strings": [
+        "\"US-ASCII\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%s\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"C\"",
+        "\"POSIX\"",
+        "\"\"",
+        "\"\"",
+        "\"CP%u\"",
+        "\"\"",
+        "\"ASCII\"",
+        "\"UTF-8\"",
+        "\"ASCII\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/localcharset.h": {},
+  "cpio/cpio-2.12/gnu/lseek.c": {
+    "rpl_lseek": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/lstat.c": {
+    "orig_lstat": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_lstat": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/malloca.c": {
+    "mmalloca": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "freea": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/malloca.h": {},
+  "cpio/cpio-2.12/gnu/mbrtowc.c": {
+    "mbrtowc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"UTF-8\"",
+        "\"EUC-JP\"",
+        "\"EUC-KR\"",
+        "\"GB2312\"",
+        "\"BIG5\"",
+        "\"EUC-TW\"",
+        "\"GB18030\"",
+        "\"SJIS\""
+      ]
+    },
+    "rpl_mbrtowc": {
+      "start_point": [
+        327,
+        0
+      ],
+      "end_point": [
+        404,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/mbsinit.c": {
+    "mbsinit": [
+      {
+        "start_point": [
+          28,
+          0
+        ],
+        "end_point": [
+          32,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          52,
+          0
+        ],
+        "end_point": [
+          58,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "cpio/cpio-2.12/gnu/mbsrtowcs-impl.h": {
+    "mbsrtowcs": {
+      "start_point": [
+        17,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/mbsrtowcs-state.c": {},
+  "cpio/cpio-2.12/gnu/mbsrtowcs.c": {},
+  "cpio/cpio-2.12/gnu/memchr.c": {
+    "__memchr": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/mempcpy.c": {
+    "mempcpy": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/memrchr.c": {
+    "__memrchr": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/mktime-internal.h": {},
+  "cpio/cpio-2.12/gnu/mktime.c": {
+    "leapyear": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "isdst_differ": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": []
+    },
+    "ydhms_diff": {
+      "start_point": [
+        198,
+        0
+      ],
+      "end_point": [
+        223,
+        1
+      ],
+      "strings": []
+    },
+    "time_t_avg": {
+      "start_point": [
+        226,
+        0
+      ],
+      "end_point": [
+        230,
+        1
+      ],
+      "strings": []
+    },
+    "time_t_add_ok": {
+      "start_point": [
+        235,
+        0
+      ],
+      "end_point": [
+        253,
+        1
+      ],
+      "strings": []
+    },
+    "time_t_int_add_ok": {
+      "start_point": [
+        256,
+        0
+      ],
+      "end_point": [
+        271,
+        1
+      ],
+      "strings": []
+    },
+    "guess_time_tm": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        300,
+        1
+      ],
+      "strings": []
+    },
+    "ranged_convert": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        339,
+        1
+      ],
+      "strings": []
+    },
+    "__mktime_internal": {
+      "start_point": [
+        348,
+        0
+      ],
+      "end_point": [
+        570,
+        1
+      ],
+      "strings": []
+    },
+    "mktime": {
+      "start_point": [
+        580,
+        0
+      ],
+      "end_point": [
+        591,
+        1
+      ],
+      "strings": []
+    },
+    "not_equal_tm": {
+      "start_point": [
+        604,
+        0
+      ],
+      "end_point": [
+        615,
+        1
+      ],
+      "strings": []
+    },
+    "print_tm": {
+      "start_point": [
+        617,
+        0
+      ],
+      "end_point": [
+        627,
+        1
+      ],
+      "strings": [
+        "\"%04d-%02d-%02d %02d:%02d:%02d yday %03d wday %d isdst %d\"",
+        "\"0\""
+      ]
+    },
+    "check_result": {
+      "start_point": [
+        629,
+        0
+      ],
+      "end_point": [
+        643,
+        1
+      ],
+      "strings": [
+        "\"mktime (\"",
+        "\")\\nyields (\"",
+        "\") == %ld, should be %ld\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        645,
+        0
+      ],
+      "end_point": [
+        732,
+        1
+      ],
+      "strings": [
+        "\"%d-%d-%d%c\"",
+        "\"%d:%d:%d%c\"",
+        "\"mktime returns %ld == \"",
+        "\"\\n\"",
+        "\"-\"",
+        "\"localtime (%ld) yields 0\\n\"",
+        "\"localtime (%ld) yields 0\\n\"",
+        "\"Usage:\\\n\\t%s YYYY-MM-DD HH:MM:SS [ISDST] # Test given time.\\n\\\n\\t%s FROM BY TO # Test values FROM, FROM+BY, ..., TO.\\n\\\n\\t%s FROM BY TO - # Do not test those values (for benchmark).\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/msvc-inval.h": {},
+  "cpio/cpio-2.12/gnu/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/msvc-nothrow.h": {},
+  "cpio/cpio-2.12/gnu/obstack.c": {
+    "call_chunkfun": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "call_freefun": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "_obstack_begin_worker": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "_obstack_begin": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "strings": []
+    },
+    "_obstack_begin_1": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": []
+    },
+    "_obstack_newchunk": {
+      "start_point": [
+        180,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": []
+    },
+    "_obstack_allocated_p": {
+      "start_point": [
+        239,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "strings": []
+    },
+    "_obstack_free": {
+      "start_point": [
+        260,
+        0
+      ],
+      "end_point": [
+        288,
+        1
+      ],
+      "strings": []
+    },
+    "_obstack_memory_used": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": []
+    },
+    "print_and_abort": {
+      "start_point": [
+        328,
+        0
+      ],
+      "end_point": [
+        342,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\"",
+        "\"memory exhausted\"",
+        "\"%s\\n\"",
+        "\"memory exhausted\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/obstack.h": {},
+  "cpio/cpio-2.12/gnu/offtostr.c": {},
+  "cpio/cpio-2.12/gnu/open.c": {
+    "orig_open": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    },
+    "open": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": [
+        "\"/dev/null\"",
+        "\"NUL\"",
+        "\"/dev/null\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/openat-die.c": {
+    "openat_save_fail": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": [
+        "\"unable to record current working directory\""
+      ]
+    },
+    "openat_restore_fail": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": [
+        "\"failed to return to initial working directory\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/openat-priv.h": {},
+  "cpio/cpio-2.12/gnu/openat-proc.c": {
+    "openat_proc_name": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "strings": [
+        "\"/proc/self/fd\"",
+        "\"../fd\"",
+        "\"../fd\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/openat.c": {
+    "orig_openat": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_openat": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        139,
+        1
+      ],
+      "strings": []
+    },
+    "openat": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    },
+    "openat_permissive": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        259,
+        1
+      ],
+      "strings": []
+    },
+    "openat_needs_fchdir": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": [
+        "\"/\"",
+        "\".\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/openat.h": {
+    "chownat": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "lchownat": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "chmodat": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "lchmodat": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "statat": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "lstatat": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/opendir-safer.c": {
+    "opendir_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/opendir.c": {
+    "opendir": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/parse-datetime.c": {
+    "to_uchar": {
+      "start_point": [
+        187,
+        0
+      ],
+      "end_point": [
+        187,
+        54
+      ],
+      "strings": []
+    },
+    "digits_to_date_time": {
+      "start_point": [
+        292,
+        0
+      ],
+      "end_point": [
+        326,
+        1
+      ],
+      "strings": []
+    },
+    "apply_relative_time": {
+      "start_point": [
+        329,
+        0
+      ],
+      "end_point": [
+        340,
+        1
+      ],
+      "strings": []
+    },
+    "set_hhmmss": {
+      "start_point": [
+        343,
+        0
+      ],
+      "end_point": [
+        351,
+        1
+      ],
+      "strings": []
+    },
+    "yytnamerr": {
+      "start_point": [
+        1311,
+        0
+      ],
+      "end_point": [
+        1348,
+        1
+      ],
+      "strings": []
+    },
+    "yysyntax_error": {
+      "start_point": [
+        1359,
+        0
+      ],
+      "end_point": [
+        1485,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "time_zone_hhmm": {
+      "start_point": [
+        2850,
+        0
+      ],
+      "end_point": [
+        2872,
+        1
+      ],
+      "strings": []
+    },
+    "to_hour": {
+      "start_point": [
+        2874,
+        0
+      ],
+      "end_point": [
+        2887,
+        1
+      ],
+      "strings": []
+    },
+    "to_year": {
+      "start_point": [
+        2889,
+        0
+      ],
+      "end_point": [
+        2903,
+        1
+      ],
+      "strings": []
+    },
+    "lookup_zone": {
+      "start_point": [
+        2905,
+        0
+      ],
+      "end_point": [
+        2925,
+        1
+      ],
+      "strings": []
+    },
+    "tm_diff": {
+      "start_point": [
+        2932,
+        0
+      ],
+      "end_point": [
+        2951,
+        1
+      ],
+      "strings": []
+    },
+    "lookup_word": {
+      "start_point": [
+        2954,
+        0
+      ],
+      "end_point": [
+        3023,
+        1
+      ],
+      "strings": []
+    },
+    "yylex": {
+      "start_point": [
+        3025,
+        0
+      ],
+      "end_point": [
+        3186,
+        1
+      ],
+      "strings": []
+    },
+    "yyerror": {
+      "start_point": [
+        3189,
+        0
+      ],
+      "end_point": [
+        3194,
+        1
+      ],
+      "strings": []
+    },
+    "mktime_ok": {
+      "start_point": [
+        3200,
+        0
+      ],
+      "end_point": [
+        3219,
+        1
+      ],
+      "strings": []
+    },
+    "get_tz": {
+      "start_point": [
+        3227,
+        0
+      ],
+      "end_point": [
+        3239,
+        1
+      ],
+      "strings": [
+        "\"TZ\""
+      ]
+    },
+    "parse_datetime": {
+      "start_point": [
+        3245,
+        0
+      ],
+      "end_point": [
+        3582,
+        1
+      ],
+      "strings": [
+        "\"TZ=\\\"\"",
+        "\"TZ\"",
+        "\"0\"",
+        "\"XXX+0:00\"",
+        "\"XXX%s%ld:%02d\"",
+        "\"-\"",
+        "\"TZ\"",
+        "\"TZ\"",
+        "\"TZ\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        3586,
+        0
+      ],
+      "end_point": [
+        3617,
+        1
+      ],
+      "strings": [
+        "\"Enter date, or blank line to exit.\\n\\t> \"",
+        "\"Bad format - couldn't convert.\\n\"",
+        "\"localtime (%ld) failed\\n\"",
+        "\"%04ld-%02d-%02d %02d:%02d:%02d.%09d\\n\"",
+        "\"\\t> \""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/parse-datetime.h": {},
+  "cpio/cpio-2.12/gnu/parse-datetime.y": {
+    "to_uchar": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        118,
+        54
+      ],
+      "strings": []
+    },
+    "digits_to_date_time": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": []
+    },
+    "apply_relative_time": {
+      "start_point": [
+        260,
+        0
+      ],
+      "end_point": [
+        271,
+        1
+      ],
+      "strings": []
+    },
+    "set_hhmmss": {
+      "start_point": [
+        274,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": []
+    },
+    "tZONE": [
+      {
+        "start_point": [
+          377,
+          30
+        ],
+        "end_point": [
+          381,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          396,
+          30
+        ],
+        "end_point": [
+          400,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          422,
+          4
+        ],
+        "end_point": [
+          426,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          436,
+          4
+        ],
+        "end_point": [
+          438,
+          42
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          442,
+          4
+        ],
+        "end_point": [
+          443,
+          59
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          446,
+          4
+        ],
+        "end_point": [
+          447,
+          34
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          461,
+          4
+        ],
+        "end_point": [
+          465,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          466,
+          4
+        ],
+        "end_point": [
+          470,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          499,
+          4
+        ],
+        "end_point": [
+          506,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          507,
+          4
+        ],
+        "end_point": [
+          514,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          515,
+          4
+        ],
+        "end_point": [
+          519,
+          7
+        ],
+        "strings": []
+      }
+    ],
+    "tUNUMBER": [
+      {
+        "start_point": [
+          526,
+          4
+        ],
+        "end_point": [
+          530,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          531,
+          4
+        ],
+        "end_point": [
+          536,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          541,
+          13
+        ],
+        "end_point": [
+          547,
+          7
+        ],
+        "strings": []
+      }
+    ],
+    "time_zone_hhmm": {
+      "start_point": [
+        857,
+        0
+      ],
+      "end_point": [
+        879,
+        1
+      ],
+      "strings": []
+    },
+    "to_hour": {
+      "start_point": [
+        881,
+        0
+      ],
+      "end_point": [
+        894,
+        1
+      ],
+      "strings": []
+    },
+    "to_year": {
+      "start_point": [
+        896,
+        0
+      ],
+      "end_point": [
+        910,
+        1
+      ],
+      "strings": []
+    },
+    "lookup_zone": {
+      "start_point": [
+        912,
+        0
+      ],
+      "end_point": [
+        932,
+        1
+      ],
+      "strings": []
+    },
+    "tm_diff": {
+      "start_point": [
+        939,
+        0
+      ],
+      "end_point": [
+        958,
+        1
+      ],
+      "strings": []
+    },
+    "lookup_word": {
+      "start_point": [
+        961,
+        0
+      ],
+      "end_point": [
+        1030,
+        1
+      ],
+      "strings": []
+    },
+    "yylex": {
+      "start_point": [
+        1032,
+        0
+      ],
+      "end_point": [
+        1193,
+        1
+      ],
+      "strings": []
+    },
+    "yyerror": {
+      "start_point": [
+        1196,
+        0
+      ],
+      "end_point": [
+        1201,
+        1
+      ],
+      "strings": []
+    },
+    "mktime_ok": {
+      "start_point": [
+        1207,
+        0
+      ],
+      "end_point": [
+        1226,
+        1
+      ],
+      "strings": []
+    },
+    "get_tz": {
+      "start_point": [
+        1234,
+        0
+      ],
+      "end_point": [
+        1246,
+        1
+      ],
+      "strings": [
+        "\"TZ\""
+      ]
+    },
+    "parse_datetime": {
+      "start_point": [
+        1252,
+        0
+      ],
+      "end_point": [
+        1589,
+        1
+      ],
+      "strings": [
+        "\"TZ=\\\"\"",
+        "\"TZ\"",
+        "\"0\"",
+        "\"XXX+0:00\"",
+        "\"XXX%s%ld:%02d\"",
+        "\"-\"",
+        "\"TZ\"",
+        "\"TZ\"",
+        "\"TZ\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        1593,
+        0
+      ],
+      "end_point": [
+        1624,
+        1
+      ],
+      "strings": [
+        "\"Enter date, or blank line to exit.\\n\\t> \"",
+        "\"Bad format - couldn't convert.\\n\"",
+        "\"localtime (%ld) failed\\n\"",
+        "\"%04ld-%02d-%02d %02d:%02d:%02d.%09d\\n\"",
+        "\"\\t> \""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/pathmax.h": {},
+  "cpio/cpio-2.12/gnu/pipe-safer.c": {
+    "pipe_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/printf-args.c": {
+    "PRINTF_FETCHARGS": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        186,
+        1
+      ],
+      "strings": [
+        "\"(NULL)\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/printf-args.h": {},
+  "cpio/cpio-2.12/gnu/printf-parse.c": {
+    "PRINTF_PARSE": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        631,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/printf-parse.h": {},
+  "cpio/cpio-2.12/gnu/progname.c": {
+    "set_program_name": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"A NULL argv[0] was passed through an exec system call.\\n\"",
+        "\"/.libs/\"",
+        "\"lt-\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/progname.h": {},
+  "cpio/cpio-2.12/gnu/quote.h": {},
+  "cpio/cpio-2.12/gnu/quotearg.c": {
+    "clone_quoting_options": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    },
+    "get_quoting_style": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "set_quoting_style": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        129,
+        1
+      ],
+      "strings": []
+    },
+    "set_char_quoting": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "set_quoting_flags": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        161,
+        1
+      ],
+      "strings": []
+    },
+    "set_custom_quoting": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        174,
+        1
+      ],
+      "strings": []
+    },
+    "quoting_options_from_style": {
+      "start_point": [
+        177,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": []
+    },
+    "gettext_quote": {
+      "start_point": [
+        191,
+        0
+      ],
+      "end_point": [
+        225,
+        1
+      ],
+      "strings": [
+        "\"UTF-8\"",
+        "\"\\xe2\\x80\\x98\"",
+        "\"\\xe2\\x80\\x99\"",
+        "\"GB18030\"",
+        "\"\\xa1\\ae\"",
+        "\"\\xa1\\xaf\"",
+        "\"\\\"\"",
+        "\"'\""
+      ]
+    },
+    "quotearg_buffer_restyled": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        660,
+        1
+      ],
+      "strings": [
+        "\"\\\"\"",
+        "\"`\"",
+        "\"'\"",
+        "\"'\""
+      ]
+    },
+    "quotearg_buffer": {
+      "start_point": [
+        671,
+        0
+      ],
+      "end_point": [
+        683,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_alloc": {
+      "start_point": [
+        686,
+        0
+      ],
+      "end_point": [
+        691,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_alloc_mem": {
+      "start_point": [
+        699,
+        0
+      ],
+      "end_point": [
+        719,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_free": {
+      "start_point": [
+        735,
+        0
+      ],
+      "end_point": [
+        754,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_options": {
+      "start_point": [
+        764,
+        0
+      ],
+      "end_point": [
+        822,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n": {
+      "start_point": [
+        824,
+        0
+      ],
+      "end_point": [
+        828,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_mem": {
+      "start_point": [
+        830,
+        0
+      ],
+      "end_point": [
+        834,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg": {
+      "start_point": [
+        836,
+        0
+      ],
+      "end_point": [
+        840,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_mem": {
+      "start_point": [
+        842,
+        0
+      ],
+      "end_point": [
+        846,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_style": {
+      "start_point": [
+        848,
+        0
+      ],
+      "end_point": [
+        853,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_style_mem": {
+      "start_point": [
+        855,
+        0
+      ],
+      "end_point": [
+        861,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_style": {
+      "start_point": [
+        863,
+        0
+      ],
+      "end_point": [
+        867,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_style_mem": {
+      "start_point": [
+        869,
+        0
+      ],
+      "end_point": [
+        873,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_char_mem": {
+      "start_point": [
+        875,
+        0
+      ],
+      "end_point": [
+        882,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_char": {
+      "start_point": [
+        884,
+        0
+      ],
+      "end_point": [
+        888,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_colon": {
+      "start_point": [
+        890,
+        0
+      ],
+      "end_point": [
+        894,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_colon_mem": {
+      "start_point": [
+        896,
+        0
+      ],
+      "end_point": [
+        900,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_custom": {
+      "start_point": [
+        902,
+        0
+      ],
+      "end_point": [
+        908,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_custom_mem": {
+      "start_point": [
+        910,
+        0
+      ],
+      "end_point": [
+        918,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_custom": {
+      "start_point": [
+        920,
+        0
+      ],
+      "end_point": [
+        925,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_custom_mem": {
+      "start_point": [
+        927,
+        0
+      ],
+      "end_point": [
+        933,
+        1
+      ],
+      "strings": []
+    },
+    "quote_n_mem": {
+      "start_point": [
+        945,
+        0
+      ],
+      "end_point": [
+        949,
+        1
+      ],
+      "strings": []
+    },
+    "quote_mem": {
+      "start_point": [
+        951,
+        0
+      ],
+      "end_point": [
+        955,
+        1
+      ],
+      "strings": []
+    },
+    "quote_n": {
+      "start_point": [
+        957,
+        0
+      ],
+      "end_point": [
+        961,
+        1
+      ],
+      "strings": []
+    },
+    "quote": {
+      "start_point": [
+        963,
+        0
+      ],
+      "end_point": [
+        967,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/quotearg.h": {},
+  "cpio/cpio-2.12/gnu/raise.c": {
+    "raise_nothrow": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        42,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_raise": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/rawmemchr.c": {
+    "rawmemchr": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/read.c": {
+    "read_nothrow": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        44,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_read": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/readdir.c": {
+    "readdir": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/realloc.c": {
+    "rpl_realloc": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/rewinddir.c": {
+    "rewinddir": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/safe-read.c": {
+    "safe_rw": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/safe-read.h": {},
+  "cpio/cpio-2.12/gnu/safe-write.c": {},
+  "cpio/cpio-2.12/gnu/safe-write.h": {},
+  "cpio/cpio-2.12/gnu/save-cwd.c": {
+    "save_cwd": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": [
+        "\".\""
+      ]
+    },
+    "restore_cwd": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "free_cwd": {
+      "start_point": [
+        92,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/save-cwd.h": {},
+  "cpio/cpio-2.12/gnu/savedir.c": {
+    "direntry_cmp_name": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    },
+    "direntry_cmp_inode": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    },
+    "streamsavedir": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": []
+    },
+    "savedir": {
+      "start_point": [
+        187,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/savedir.h": {},
+  "cpio/cpio-2.12/gnu/setenv.c": {
+    "__add_to_environ": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        287,
+        1
+      ],
+      "strings": [
+        "\"=\"",
+        "\"=\""
+      ]
+    },
+    "setenv": {
+      "start_point": [
+        289,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    },
+    "clearenv": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": []
+    },
+    "free_mem": {
+      "start_point": [
+        325,
+        0
+      ],
+      "end_point": [
+        334,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_setenv": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        387,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/signal.in.h": {},
+  "cpio/cpio-2.12/gnu/sleep.c": {
+    "sleep": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_sleep": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/stat-time.c": {},
+  "cpio/cpio-2.12/gnu/stat-time.h": {
+    "get_stat_atime_ns": {
+      "start_point": [
+        56,
+        26
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_ctime_ns": {
+      "start_point": [
+        69,
+        26
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_mtime_ns": {
+      "start_point": [
+        82,
+        26
+      ],
+      "end_point": [
+        92,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_birthtime_ns": {
+      "start_point": [
+        95,
+        26
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_atime": {
+      "start_point": [
+        110,
+        28
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_ctime": {
+      "start_point": [
+        124,
+        28
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_mtime": {
+      "start_point": [
+        138,
+        28
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_birthtime": {
+      "start_point": [
+        153,
+        28
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/stat.c": {
+    "orig_stat": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_stat": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/stdalign.in.h": {},
+  "cpio/cpio-2.12/gnu/stdarg.in.h": {},
+  "cpio/cpio-2.12/gnu/stdbool.in.h": {},
+  "cpio/cpio-2.12/gnu/stddef.in.h": {},
+  "cpio/cpio-2.12/gnu/stdint.in.h": {},
+  "cpio/cpio-2.12/gnu/stdio-impl.h": {},
+  "cpio/cpio-2.12/gnu/stdio.in.h": {},
+  "cpio/cpio-2.12/gnu/stdlib.in.h": {},
+  "cpio/cpio-2.12/gnu/stpcpy.c": {
+    "__stpcpy": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strcasecmp.c": {
+    "strcasecmp": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strchrnul.c": {
+    "strchrnul": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strdup.c": {
+    "__strdup": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/streq.h": {
+    "streq9": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "streq8": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "streq7": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "streq6": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "streq5": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "streq4": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "streq3": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "streq2": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "streq1": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "streq0": {
+      "start_point": [
+        151,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": [
+        "\"Success\"",
+        "\"Operation now in progress\"",
+        "\"Operation already in progress\"",
+        "\"Socket operation on non-socket\"",
+        "\"Destination address required\"",
+        "\"Message too long\"",
+        "\"Protocol wrong type for socket\"",
+        "\"Protocol not available\"",
+        "\"Protocol not supported\"",
+        "\"Operation not supported\"",
+        "\"Address family not supported by protocol\"",
+        "\"Address already in use\"",
+        "\"Cannot assign requested address\"",
+        "\"Network is down\"",
+        "\"Network is unreachable\"",
+        "\"Connection reset by peer\"",
+        "\"No buffer space available\"",
+        "\"Transport endpoint is already connected\"",
+        "\"Transport endpoint is not connected\"",
+        "\"Connection timed out\"",
+        "\"Connection refused\"",
+        "\"Too many levels of symbolic links\"",
+        "\"No route to host\"",
+        "\"Operation would block\"",
+        "\"Text file busy\"",
+        "\"No data available\"",
+        "\"Out of streams resources\"",
+        "\"Device not a stream\"",
+        "\"Timer expired\"",
+        "\"Other error\"",
+        "\"Socket type not supported\"",
+        "\"Protocol family not supported\"",
+        "\"Cannot send after transport endpoint shutdown\"",
+        "\"Too many references: cannot splice\"",
+        "\"Host is down\"",
+        "\"Too many processes\"",
+        "\"Too many users\"",
+        "\"Disk quota exceeded\"",
+        "\"Stale NFS file handle\"",
+        "\"Object is remote\"",
+        "\"Overlapped operation aborted\"",
+        "\"Overlapped I/O event object not in signaled state\"",
+        "\"Overlapped operations will complete later\"",
+        "\"Network subsystem is unavailable\"",
+        "\"Winsock.dll version out of range\"",
+        "\"Successful WSAStartup not yet performed\"",
+        "\"Graceful shutdown in progress\"",
+        "\"No more results\"",
+        "\"Call was canceled\"",
+        "\"Procedure call table is invalid\"",
+        "\"Service provider is invalid\"",
+        "\"Service provider failed to initialize\"",
+        "\"System call failure\"",
+        "\"Service not found\"",
+        "\"Class type not found\"",
+        "\"Database query was refused\"",
+        "\"Host not found\"",
+        "\"Nonauthoritative host not found\"",
+        "\"Nonrecoverable error\"",
+        "\"Valid name, no data record of requested type\"",
+        "\"No message of desired type\"",
+        "\"Identifier removed\"",
+        "\"Link has been severed\"",
+        "\"Protocol error\"",
+        "\"Multihop attempted\"",
+        "\"Bad message\"",
+        "\"Value too large for defined data type\"",
+        "\"Not supported\"",
+        "\"Network dropped connection on reset\"",
+        "\"Software caused connection abort\"",
+        "\"Stale NFS file handle\"",
+        "\"Disk quota exceeded\"",
+        "\"Operation canceled\"",
+        "\"Owner died\"",
+        "\"State not recoverable\"",
+        "\"Invalid or incomplete multibyte or wide character\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/strerror-override.h": {},
+  "cpio/cpio-2.12/gnu/strerror.c": {},
+  "cpio/cpio-2.12/gnu/string.in.h": {},
+  "cpio/cpio-2.12/gnu/strings.in.h": {},
+  "cpio/cpio-2.12/gnu/stripslash.c": {
+    "strip_trailing_slashes": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strncasecmp.c": {
+    "strncasecmp": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strndup.c": {
+    "strndup": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strnlen.c": {
+    "strnlen": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strnlen1.c": {
+    "strnlen1": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/strnlen1.h": {},
+  "cpio/cpio-2.12/gnu/strtol.c": {
+    "INTERNAL": {
+      "start_point": [
+        236,
+        0
+      ],
+      "end_point": [
+        419,
+        1
+      ],
+      "strings": []
+    },
+    "strtol": {
+      "start_point": [
+        426,
+        0
+      ],
+      "end_point": [
+        432,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/sysexits.in.h": {},
+  "cpio/cpio-2.12/gnu/sys_stat.in.h": {
+    "rpl_mkdir": {
+      "start_point": [
+        503,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/sys_time.in.h": {},
+  "cpio/cpio-2.12/gnu/sys_types.in.h": {},
+  "cpio/cpio-2.12/gnu/time.in.h": {},
+  "cpio/cpio-2.12/gnu/timespec.c": {},
+  "cpio/cpio-2.12/gnu/timespec.h": {
+    "make_timespec": {
+      "start_point": [
+        39,
+        27
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": []
+    },
+    "timespec_cmp": {
+      "start_point": [
+        76,
+        24
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    },
+    "timespec_sign": {
+      "start_point": [
+        86,
+        24
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "timespectod": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/time_r.c": {
+    "copy_tm_result": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        30,
+        1
+      ],
+      "strings": []
+    },
+    "gmtime_r": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "localtime_r": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/uinttostr.c": {},
+  "cpio/cpio-2.12/gnu/umaxtostr.c": {},
+  "cpio/cpio-2.12/gnu/unistd--.h": {},
+  "cpio/cpio-2.12/gnu/unistd-safer.h": {},
+  "cpio/cpio-2.12/gnu/unistd.c": {},
+  "cpio/cpio-2.12/gnu/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        423,
+        0
+      ],
+      "end_point": [
+        427,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        890,
+        0
+      ],
+      "end_point": [
+        894,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/unlocked-io.h": {},
+  "cpio/cpio-2.12/gnu/unsetenv.c": {
+    "unsetenv": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_unsetenv": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/utimens.c": {
+    "validate_timespec": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "update_timespec": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": []
+    },
+    "fdutimens": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        411,
+        1
+      ],
+      "strings": []
+    },
+    "utimens": {
+      "start_point": [
+        415,
+        0
+      ],
+      "end_point": [
+        419,
+        1
+      ],
+      "strings": []
+    },
+    "lutimens": {
+      "start_point": [
+        425,
+        0
+      ],
+      "end_point": [
+        541,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/utimens.h": {
+    "lutimensat": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/utimensat.c": {
+    "rpl_utimensat": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/vasnprintf.c": {
+    "local_strnlen": {
+      "start_point": [
+        216,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "strings": []
+    },
+    "local_wcslen": {
+      "start_point": [
+        236,
+        0
+      ],
+      "end_point": [
+        244,
+        1
+      ],
+      "strings": []
+    },
+    "local_wcsnlen": {
+      "start_point": [
+        255,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": []
+    },
+    "decimal_point_char": {
+      "start_point": [
+        272,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": [
+        "\"%#.0f\""
+      ]
+    },
+    "is_infinite_or_zero": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        302,
+        1
+      ],
+      "strings": []
+    },
+    "is_infinite_or_zerol": {
+      "start_point": [
+        309,
+        0
+      ],
+      "end_point": [
+        313,
+        1
+      ],
+      "strings": []
+    },
+    "multiply": {
+      "start_point": [
+        341,
+        0
+      ],
+      "end_point": [
+        404,
+        1
+      ],
+      "strings": []
+    },
+    "divide": {
+      "start_point": [
+        413,
+        0
+      ],
+      "end_point": [
+        836,
+        1
+      ],
+      "strings": []
+    },
+    "convert_to_decimal": {
+      "start_point": [
+        844,
+        0
+      ],
+      "end_point": [
+        890,
+        1
+      ],
+      "strings": []
+    },
+    "decode_long_double": {
+      "start_point": [
+        898,
+        0
+      ],
+      "end_point": [
+        976,
+        1
+      ],
+      "strings": []
+    },
+    "decode_double": {
+      "start_point": [
+        986,
+        0
+      ],
+      "end_point": [
+        1061,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_decoded": {
+      "start_point": [
+        1070,
+        0
+      ],
+      "end_point": [
+        1283,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_long_double": {
+      "start_point": [
+        1292,
+        0
+      ],
+      "end_point": [
+        1299,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_double": {
+      "start_point": [
+        1310,
+        0
+      ],
+      "end_point": [
+        1317,
+        1
+      ],
+      "strings": []
+    },
+    "floorlog10l": {
+      "start_point": [
+        1326,
+        0
+      ],
+      "end_point": [
+        1408,
+        1
+      ],
+      "strings": []
+    },
+    "floorlog10": {
+      "start_point": [
+        1417,
+        0
+      ],
+      "end_point": [
+        1499,
+        1
+      ],
+      "strings": []
+    },
+    "is_borderline": {
+      "start_point": [
+        1505,
+        0
+      ],
+      "end_point": [
+        1515,
+        1
+      ],
+      "strings": []
+    },
+    "MAX_ROOM_NEEDED": {
+      "start_point": [
+        1532,
+        0
+      ],
+      "end_point": [
+        1767,
+        1
+      ],
+      "strings": []
+    },
+    "xsum": {
+      "start_point": [
+        4614,
+        16
+      ],
+      "end_point": [
+        5533,
+        15
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/vasnprintf.h": {},
+  "cpio/cpio-2.12/gnu/verify.h": {},
+  "cpio/cpio-2.12/gnu/version-etc-fsf.c": {},
+  "cpio/cpio-2.12/gnu/version-etc.c": {
+    "version_etc_arn": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": [
+        "\"%s (%s) %s\\n\"",
+        "\"%s %s\\n\"",
+        "\"Packaged by %s (%s)\\n\"",
+        "\"Packaged by %s\\n\"",
+        "\"(C)\"",
+        "\"\\\n\\n\\\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\\n\\\n\\n\\\n\"",
+        "\"Written by %s.\\n\"",
+        "\"Written by %s and %s.\\n\"",
+        "\"Written by %s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\nand %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, and %s.\\n\"",
+        "\"Written by %s, %s, %s,\\n%s, %s, %s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\nand %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, and %s.\\n\"",
+        "\"\\\nWritten by %s, %s, %s,\\n%s, %s, %s, %s,\\n%s, %s, and others.\\n\""
+      ]
+    },
+    "version_etc_ar": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc_va": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    },
+    "version_etc": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "emit_bug_reporting_address": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": [
+        "\"\\nReport bugs to: %s\\n\"",
+        "\"Report %s bugs to: %s\\n\"",
+        "\"%s home page: <%s>\\n\"",
+        "\"%s home page: <http://www.gnu.org/software/%s/>\\n\"",
+        "\"General help using GNU software: <http://www.gnu.org/gethelp/>\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/version-etc.h": {},
+  "cpio/cpio-2.12/gnu/vsnprintf.c": {
+    "vsnprintf": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/wchar.in.h": {},
+  "cpio/cpio-2.12/gnu/wctype-h.c": {},
+  "cpio/cpio-2.12/gnu/wctype.in.h": {
+    "rpl_towlower": {
+      "start_point": [
+        353,
+        0
+      ],
+      "end_point": [
+        357,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_towupper": {
+      "start_point": [
+        362,
+        0
+      ],
+      "end_point": [
+        366,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/write.c": {
+    "write_nothrow": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        50,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_write": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/xalloc-die.c": {
+    "xalloc_die": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"memory exhausted\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/gnu/xalloc-oversized.h": {},
+  "cpio/cpio-2.12/gnu/xalloc.h": {
+    "xnmalloc": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": []
+    },
+    "xnrealloc": [
+      {
+        "start_point": [
+          115,
+          0
+        ],
+        "end_point": [
+          121,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          235,
+          29
+        ],
+        "end_point": [
+          239,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "x2nrealloc": [
+      {
+        "start_point": [
+          177,
+          0
+        ],
+        "end_point": [
+          209,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          247,
+          29
+        ],
+        "end_point": [
+          251,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "xcharalloc": {
+      "start_point": [
+        216,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        229,
+        29
+      ],
+      "end_point": [
+        233,
+        1
+      ],
+      "strings": []
+    },
+    "x2realloc": {
+      "start_point": [
+        241,
+        29
+      ],
+      "end_point": [
+        245,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        253,
+        29
+      ],
+      "end_point": [
+        257,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/xgetcwd.c": {
+    "xgetcwd": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/xgetcwd.h": {},
+  "cpio/cpio-2.12/gnu/xmalloc.c": {
+    "xmalloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "x2realloc": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "xzalloc": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "xcalloc": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    },
+    "xstrdup": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/xsize.c": {},
+  "cpio/cpio-2.12/gnu/xsize.h": {
+    "size_t": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "__pure__": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/xstrndup.c": {
+    "xstrndup": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/gnu/xstrndup.h": {},
+  "cpio/cpio-2.12/lib/error.c": {
+    "pax_decode_mode": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    },
+    "call_arg_error": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": [
+        "\"%s: Cannot %s\""
+      ]
+    },
+    "call_arg_fatal": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": [
+        "\"%s: Cannot %s\""
+      ]
+    },
+    "call_arg_warn": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": [
+        "\"%s: Warning: Cannot %s\""
+      ]
+    },
+    "chmod_error_details": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": [
+        "\"%s: Cannot change mode to %s\""
+      ]
+    },
+    "chown_error_details": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": [
+        "\"%s: Cannot change ownership to uid %lu, gid %lu\""
+      ]
+    },
+    "close_error": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": [
+        "\"close\""
+      ]
+    },
+    "close_warn": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": [
+        "\"close\""
+      ]
+    },
+    "exec_fatal": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": [
+        "\"exec\""
+      ]
+    },
+    "link_error": {
+      "start_point": [
+        124,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": [
+        "\"%s: Cannot hard link to %s\""
+      ]
+    },
+    "mkdir_error": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": [
+        "\"mkdir\""
+      ]
+    },
+    "mkfifo_error": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": [
+        "\"mkfifo\""
+      ]
+    },
+    "mknod_error": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": [
+        "\"mknod\""
+      ]
+    },
+    "open_error": {
+      "start_point": [
+        150,
+        0
+      ],
+      "end_point": [
+        154,
+        1
+      ],
+      "strings": [
+        "\"open\""
+      ]
+    },
+    "open_fatal": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "strings": [
+        "\"open\""
+      ]
+    },
+    "open_warn": {
+      "start_point": [
+        162,
+        0
+      ],
+      "end_point": [
+        166,
+        1
+      ],
+      "strings": [
+        "\"open\""
+      ]
+    },
+    "read_error": {
+      "start_point": [
+        168,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": [
+        "\"read\""
+      ]
+    },
+    "read_error_details": {
+      "start_point": [
+        174,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": [
+        "\"%s: Read error at byte %s, while reading %lu byte\"",
+        "\"%s: Read error at byte %s, while reading %lu bytes\""
+      ]
+    },
+    "read_warn_details": {
+      "start_point": [
+        187,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": [
+        "\"%s: Warning: Read error at byte %s, while reading %lu byte\"",
+        "\"%s: Warning: Read error at byte %s, while reading %lu bytes\""
+      ]
+    },
+    "read_fatal": {
+      "start_point": [
+        200,
+        0
+      ],
+      "end_point": [
+        204,
+        1
+      ],
+      "strings": [
+        "\"read\""
+      ]
+    },
+    "read_fatal_details": {
+      "start_point": [
+        206,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": [
+        "\"%s: Read error at byte %s, while reading %lu byte\"",
+        "\"%s: Read error at byte %s, while reading %lu bytes\""
+      ]
+    },
+    "readlink_error": {
+      "start_point": [
+        219,
+        0
+      ],
+      "end_point": [
+        223,
+        1
+      ],
+      "strings": [
+        "\"readlink\""
+      ]
+    },
+    "readlink_warn": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": [
+        "\"readlink\""
+      ]
+    },
+    "rmdir_error": {
+      "start_point": [
+        231,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": [
+        "\"rmdir\""
+      ]
+    },
+    "savedir_error": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": [
+        "\"savedir\""
+      ]
+    },
+    "savedir_warn": {
+      "start_point": [
+        243,
+        0
+      ],
+      "end_point": [
+        247,
+        1
+      ],
+      "strings": [
+        "\"savedir\""
+      ]
+    },
+    "seek_error": {
+      "start_point": [
+        249,
+        0
+      ],
+      "end_point": [
+        253,
+        1
+      ],
+      "strings": [
+        "\"seek\""
+      ]
+    },
+    "seek_error_details": {
+      "start_point": [
+        255,
+        0
+      ],
+      "end_point": [
+        263,
+        1
+      ],
+      "strings": [
+        "\"%s: Cannot seek to %s\""
+      ]
+    },
+    "seek_warn": {
+      "start_point": [
+        265,
+        0
+      ],
+      "end_point": [
+        269,
+        1
+      ],
+      "strings": [
+        "\"seek\""
+      ]
+    },
+    "seek_warn_details": {
+      "start_point": [
+        271,
+        0
+      ],
+      "end_point": [
+        279,
+        1
+      ],
+      "strings": [
+        "\"%s: Warning: Cannot seek to %s\""
+      ]
+    },
+    "symlink_error": {
+      "start_point": [
+        281,
+        0
+      ],
+      "end_point": [
+        287,
+        1
+      ],
+      "strings": [
+        "\"%s: Cannot create symlink to %s\""
+      ]
+    },
+    "stat_fatal": {
+      "start_point": [
+        289,
+        0
+      ],
+      "end_point": [
+        293,
+        1
+      ],
+      "strings": [
+        "\"stat\""
+      ]
+    },
+    "stat_error": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": [
+        "\"stat\""
+      ]
+    },
+    "stat_warn": {
+      "start_point": [
+        301,
+        0
+      ],
+      "end_point": [
+        305,
+        1
+      ],
+      "strings": [
+        "\"stat\""
+      ]
+    },
+    "truncate_error": {
+      "start_point": [
+        307,
+        0
+      ],
+      "end_point": [
+        311,
+        1
+      ],
+      "strings": [
+        "\"truncate\""
+      ]
+    },
+    "truncate_warn": {
+      "start_point": [
+        313,
+        0
+      ],
+      "end_point": [
+        317,
+        1
+      ],
+      "strings": [
+        "\"truncate\""
+      ]
+    },
+    "unlink_error": {
+      "start_point": [
+        319,
+        0
+      ],
+      "end_point": [
+        323,
+        1
+      ],
+      "strings": [
+        "\"unlink\""
+      ]
+    },
+    "utime_error": {
+      "start_point": [
+        325,
+        0
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "strings": [
+        "\"utime\""
+      ]
+    },
+    "waitpid_error": {
+      "start_point": [
+        331,
+        0
+      ],
+      "end_point": [
+        335,
+        1
+      ],
+      "strings": [
+        "\"waitpid\""
+      ]
+    },
+    "write_error": {
+      "start_point": [
+        337,
+        0
+      ],
+      "end_point": [
+        341,
+        1
+      ],
+      "strings": [
+        "\"write\""
+      ]
+    },
+    "write_error_details": {
+      "start_point": [
+        343,
+        0
+      ],
+      "end_point": [
+        354,
+        1
+      ],
+      "strings": [
+        "\"%s: Wrote only %lu of %lu byte\"",
+        "\"%s: Wrote only %lu of %lu bytes\""
+      ]
+    },
+    "chdir_fatal": {
+      "start_point": [
+        356,
+        0
+      ],
+      "end_point": [
+        360,
+        1
+      ],
+      "strings": [
+        "\"chdir\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/lib/exit-status.c": {},
+  "cpio/cpio-2.12/lib/exit.c": {
+    "pax_exit": {
+      "start_point": [
+        21,
+        0
+      ],
+      "end_point": [
+        25,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/lib/names.c": {
+    "hash_string_hasher": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    },
+    "hash_string_compare": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "hash_string_insert_prefix": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "removed_prefixes_p": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "safer_name_suffix": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": [
+        "\"Removing leading `%s' from member names\"",
+        "\"Removing leading `%s' from hard link targets\"",
+        "\"Substituting `.' for empty member name\"",
+        "\"Substituting `.' for empty hard link target\"",
+        "\"%s\"",
+        "\".\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/lib/paxlib.h": {},
+  "cpio/cpio-2.12/lib/rmt.h": {},
+  "cpio/cpio-2.12/lib/rtapelib.c": {
+    "_rmt_shutdown": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    },
+    "do_command": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    },
+    "get_status_string": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": []
+    },
+    "get_status": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        223,
+        1
+      ],
+      "strings": []
+    },
+    "get_status_off": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        265,
+        1
+      ],
+      "strings": []
+    },
+    "_rmt_rexec": {
+      "start_point": [
+        278,
+        0
+      ],
+      "end_point": [
+        309,
+        1
+      ],
+      "strings": [
+        "\"/dev/tty\"",
+        "\"r\"",
+        "\"/dev/null\"",
+        "\"r\"",
+        "\"/dev/tty\"",
+        "\"w\"",
+        "\"/dev/null\"",
+        "\"w\"",
+        "\"exec\"",
+        "\"tcp\"",
+        "\"exec/tcp: Service not available\"",
+        "\"stdin\"",
+        "\"r\"",
+        "\"stdout\"",
+        "\"w\""
+      ]
+    },
+    "encode_oflag": {
+      "start_point": [
+        317,
+        0
+      ],
+      "end_point": [
+        352,
+        1
+      ],
+      "strings": [
+        "\"%d \"",
+        "\"O_RDONLY\"",
+        "\"O_RDWR\"",
+        "\"O_WRONLY\"",
+        "\"|O_APPEND\"",
+        "\"|O_CREAT\"",
+        "\"|O_DSYNC\"",
+        "\"|O_EXCL\"",
+        "\"|O_LARGEFILE\"",
+        "\"|O_NOCTTY\"",
+        "\"|O_NONBLOCK\"",
+        "\"|O_RSYNC\"",
+        "\"|O_SYNC\"",
+        "\"|O_TRUNC\""
+      ]
+    },
+    "rmt_open__": {
+      "start_point": [
+        359,
+        0
+      ],
+      "end_point": [
+        547,
+        1
+      ],
+      "strings": [
+        "\"Cannot connect to %s: resolve failed\"",
+        "\"Cannot redirect files for remote shell\"",
+        "\"-l\"",
+        "\"Cannot execute remote shell\"",
+        "\"O%s\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "rmt_close__": {
+      "start_point": [
+        551,
+        0
+      ],
+      "end_point": [
+        562,
+        1
+      ],
+      "strings": [
+        "\"C\\n\""
+      ]
+    },
+    "rmt_read__": {
+      "start_point": [
+        566,
+        0
+      ],
+      "end_point": [
+        591,
+        1
+      ],
+      "strings": [
+        "\"R%lu\\n\""
+      ]
+    },
+    "rmt_write__": {
+      "start_point": [
+        595,
+        0
+      ],
+      "end_point": [
+        623,
+        1
+      ],
+      "strings": [
+        "\"W%lu\\n\""
+      ]
+    },
+    "rmt_lseek__": {
+      "start_point": [
+        627,
+        0
+      ],
+      "end_point": [
+        656,
+        1
+      ],
+      "strings": [
+        "\"L%s\\n%d\\n\""
+      ]
+    },
+    "rmt_ioctl__": {
+      "start_point": [
+        660,
+        0
+      ],
+      "end_point": [
+        750,
+        1
+      ],
+      "strings": [
+        "\"I%d\\n%s\\n\"",
+        "\"S\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/lib/sysdep.c": {
+    "getpwuid": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "getpwnam": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "getgrgid": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "getgrnam": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "pipe": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": []
+    },
+    "fork": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "getuid": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        102,
+        1
+      ],
+      "strings": []
+    },
+    "geteuid": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    },
+    "getgid": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "setuid": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    },
+    "setgid": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "mknod": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "symlink": {
+      "start_point": [
+        162,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    },
+    "link": {
+      "start_point": [
+        172,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "chown": {
+      "start_point": [
+        182,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/lib/sysdep.h": {},
+  "cpio/cpio-2.12/lib/system-ioctl.h": {},
+  "cpio/cpio-2.12/lib/system.h": {},
+  "cpio/cpio-2.12/rmt/rmt.c": {
+    "trimnl": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "rmt_read": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": [
+        "\"C: %s\"",
+        "\"reached EOF\""
+      ]
+    },
+    "rmt_write": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": [
+        "\"S: \""
+      ]
+    },
+    "rmt_reply": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": [
+        "\"A%s\\n\""
+      ]
+    },
+    "rmt_error_message": {
+      "start_point": [
+        113,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": [
+        "\"S: E%d\\n\"",
+        "\"S: %s\\n\"",
+        "\"error: %s\\n\"",
+        "\"E%d\\n%s\\n\""
+      ]
+    },
+    "rmt_error": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    },
+    "prepare_record_buffer": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "xlat_kw": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        184,
+        1
+      ],
+      "strings": []
+    },
+    "skip_ws": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        192,
+        1
+      ],
+      "strings": []
+    },
+    "decode_open_flag": {
+      "start_point": [
+        226,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": [
+        "\"O_\"",
+        "\"invalid open mode\"",
+        "\"invalid open mode\""
+      ]
+    },
+    "open_device": {
+      "start_point": [
+        318,
+        0
+      ],
+      "end_point": [
+        343,
+        1
+      ],
+      "strings": [
+        "\"unexpected EOF\""
+      ]
+    },
+    "close_device": {
+      "start_point": [
+        361,
+        0
+      ],
+      "end_point": [
+        371,
+        1
+      ],
+      "strings": []
+    },
+    "lseek_device": {
+      "start_point": [
+        406,
+        0
+      ],
+      "end_point": [
+        460,
+        1
+      ],
+      "strings": [
+        "\"Seek direction out of range\"",
+        "\"SEEK_\"",
+        "\"Invalid seek direction\"",
+        "\"Invalid seek offset\"",
+        "\"Seek offset out of range\""
+      ]
+    },
+    "read_device": {
+      "start_point": [
+        481,
+        0
+      ],
+      "end_point": [
+        511,
+        1
+      ],
+      "strings": [
+        "\"Invalid byte count\"",
+        "\"Byte count out of range\""
+      ]
+    },
+    "write_device": {
+      "start_point": [
+        532,
+        0
+      ],
+      "end_point": [
+        568,
+        1
+      ],
+      "strings": [
+        "\"Invalid byte count\"",
+        "\"Byte count out of range\"",
+        "\"Premature eof\""
+      ]
+    },
+    "iocop_device": {
+      "start_point": [
+        589,
+        0
+      ],
+      "end_point": [
+        637,
+        1
+      ],
+      "strings": [
+        "\"Invalid operation code\"",
+        "\"Invalid byte count\"",
+        "\"Byte count out of range\"",
+        "\"Byte count out of range\"",
+        "\"Operation not supported\""
+      ]
+    },
+    "status_device": {
+      "start_point": [
+        658,
+        0
+      ],
+      "end_point": [
+        681,
+        1
+      ],
+      "strings": [
+        "\"Unexpected arguments\"",
+        "\"Operation not supported\""
+      ]
+    },
+    "parse_opt": {
+      "start_point": [
+        702,
+        0
+      ],
+      "end_point": [
+        731,
+        1
+      ],
+      "strings": [
+        "\"w\"",
+        "\"cannot open %s\""
+      ]
+    },
+    "xalloc_die": {
+      "start_point": [
+        749,
+        0
+      ],
+      "end_point": [
+        754,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        757,
+        0
+      ],
+      "end_point": [
+        830,
+        1
+      ],
+      "strings": [
+        "\"rmt\"",
+        "\"\"",
+        "\"too many arguments\"",
+        "\"w\"",
+        "\"cannot open %s\"",
+        "\"garbage input %s\\n\"",
+        "\"Garbage command\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/src/copyin.c": {
+    "warn_junk_bytes": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": [
+        "\"warning: skipped %ld byte of junk\"",
+        "\"warning: skipped %ld bytes of junk\""
+      ]
+    },
+    "query_rename": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "strings": [
+        "\"rename %s -> \"",
+        "\"%s: file name too long\""
+      ]
+    },
+    "tape_skip_padding": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    },
+    "get_link_name": {
+      "start_point": [
+        127,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": [
+        "\"%s: stored filename length is out of range\""
+      ]
+    },
+    "list_file": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        199,
+        1
+      ],
+      "strings": [
+        "\"%s%c\"",
+        "\"%s: checksum error (0x%x, should be 0x%x)\""
+      ]
+    },
+    "try_existing_file": {
+      "start_point": [
+        201,
+        0
+      ],
+      "end_point": [
+        240,
+        1
+      ],
+      "strings": [
+        "\"%s not created: newer or same age version exists\"",
+        "\"cannot remove current %s\""
+      ]
+    },
+    "defer_copyin": {
+      "start_point": [
+        256,
+        0
+      ],
+      "end_point": [
+        264,
+        1
+      ],
+      "strings": []
+    },
+    "create_defered_links": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        310,
+        1
+      ],
+      "strings": [
+        "\"cannot link %s to %s\""
+      ]
+    },
+    "create_defered_links_to_skipped": {
+      "start_point": [
+        317,
+        0
+      ],
+      "end_point": [
+        359,
+        1
+      ],
+      "strings": []
+    },
+    "create_final_defers": {
+      "start_point": [
+        367,
+        0
+      ],
+      "end_point": [
+        410,
+        1
+      ],
+      "strings": []
+    },
+    "copyin_regular_file": {
+      "start_point": [
+        412,
+        0
+      ],
+      "end_point": [
+        571,
+        1
+      ],
+      "strings": [
+        "\"cannot link %s to %s\"",
+        "\"cannot swap halfwords of %s: odd number of halfwords\"",
+        "\"cannot swap bytes of %s: odd number of bytes\"",
+        "\"%s: checksum error (0x%x, should be 0x%x)\"",
+        "\"%s: checksum error (0x%x, should be 0x%x)\""
+      ]
+    },
+    "copyin_device": {
+      "start_point": [
+        573,
+        0
+      ],
+      "end_point": [
+        644,
+        1
+      ],
+      "strings": [
+        "\"cannot link %s to %s\""
+      ]
+    },
+    "copyin_link": {
+      "start_point": [
+        646,
+        0
+      ],
+      "end_point": [
+        695,
+        1
+      ],
+      "strings": [
+        "\"%s: Cannot symlink to %s\""
+      ]
+    },
+    "copyin_file": {
+      "start_point": [
+        697,
+        0
+      ],
+      "end_point": [
+        739,
+        1
+      ],
+      "strings": [
+        "\"%s: unknown file type\""
+      ]
+    },
+    "long_format": {
+      "start_point": [
+        750,
+        0
+      ],
+      "end_point": [
+        797,
+        1
+      ],
+      "strings": [
+        "\"%s %3lu \"",
+        "\"%-8u %-8u \"",
+        "\"%-8.8s %-8.8s \"",
+        "\"%3lu, %3lu \"",
+        "\"%8\"",
+        "\" \"",
+        "\"%s \"",
+        "\" -> \""
+      ]
+    },
+    "print_name_with_quoting": {
+      "start_point": [
+        799,
+        0
+      ],
+      "end_point": [
+        847,
+        1
+      ],
+      "strings": [
+        "\"\\\\\\\\\"",
+        "\"\\\\n\"",
+        "\"\\\\b\"",
+        "\"\\\\r\"",
+        "\"\\\\t\"",
+        "\"\\\\f\"",
+        "\"\\\\ \"",
+        "\"\\\\\\\"\"",
+        "\"\\\\%03o\""
+      ]
+    },
+    "read_pattern_file": {
+      "start_point": [
+        853,
+        0
+      ],
+      "end_point": [
+        893,
+        1
+      ],
+      "strings": [
+        "\"r\""
+      ]
+    },
+    "from_ascii": {
+      "start_point": [
+        896,
+        0
+      ],
+      "end_point": [
+        940,
+        1
+      ],
+      "strings": [
+        "\"0123456789ABCDEF\"",
+        "\"Malformed number %.*s\"",
+        "\"Malformed number %.*s\"",
+        "\"Archive value %.*s is out of range\""
+      ]
+    },
+    "read_in_header": {
+      "start_point": [
+        950,
+        0
+      ],
+      "end_point": [
+        1064,
+        1
+      ],
+      "strings": [
+        "\"premature end of archive\"",
+        "\"070701\"",
+        "\"070707\"",
+        "\"070702\"",
+        "\"070701\"",
+        "\"070702\"",
+        "\"070707\""
+      ]
+    },
+    "read_in_old_ascii": {
+      "start_point": [
+        1070,
+        0
+      ],
+      "end_point": [
+        1129,
+        1
+      ],
+      "strings": []
+    },
+    "read_in_new_ascii": {
+      "start_point": [
+        1135,
+        0
+      ],
+      "end_point": [
+        1167,
+        1
+      ],
+      "strings": []
+    },
+    "read_in_binary": {
+      "start_point": [
+        1173,
+        0
+      ],
+      "end_point": [
+        1254,
+        1
+      ],
+      "strings": [
+        "\"warning: archive header has reverse byte-order\""
+      ]
+    },
+    "swab_array": {
+      "start_point": [
+        1259,
+        0
+      ],
+      "end_point": [
+        1272,
+        1
+      ],
+      "strings": []
+    },
+    "process_copy_in": {
+      "start_point": [
+        1277,
+        0
+      ],
+      "end_point": [
+        1511,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"r\"",
+        "\"w\"",
+        "\"standard input is closed\"",
+        "\"magic = 0%o, ino = %ld, mode = 0%o, uid = %d, gid = %d\\n\"",
+        "\"nlink = %d, mtime = %d, filesize = %d, dev_maj = 0x%x\\n\"",
+        "\"dev_min = 0x%x, rdev_maj = 0x%x, rdev_min = 0x%x, namesize = %d\\n\"",
+        "\"chksum = %d, name = \\\"%s\\\", tar_linkname = \\\"%s\\\"\\n\"",
+        "\"(null)\"",
+        "\"%s: checksum error (0x%x, should be 0x%x)\"",
+        "\"%s\\n\"",
+        "\"%s\\n\"",
+        "\"%lu block\\n\"",
+        "\"%lu blocks\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/src/copyout.c": {
+    "read_for_checksum": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": [
+        "\"cannot read checksum for %s\"",
+        "\"cannot read checksum for %s\""
+      ]
+    },
+    "tape_clear_rest_of_block": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": []
+    },
+    "tape_pad_output": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "count_defered_links_to_dev_ino": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    },
+    "last_link": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    },
+    "add_link_defer": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "writeout_other_defers": {
+      "start_point": [
+        154,
+        0
+      ],
+      "end_point": [
+        190,
+        1
+      ],
+      "strings": []
+    },
+    "writeout_defered_file": {
+      "start_point": [
+        196,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "writeout_final_defers": {
+      "start_point": [
+        243,
+        0
+      ],
+      "end_point": [
+        265,
+        1
+      ],
+      "strings": []
+    },
+    "to_ascii": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        284,
+        1
+      ],
+      "strings": [
+        "\"0123456789ABCDEF\""
+      ]
+    },
+    "field_width_error": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": [
+        "\"%s: field width not sufficient for storing %s\""
+      ]
+    },
+    "field_width_warning": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        298,
+        1
+      ],
+      "strings": [
+        "\"%s: truncating %s\""
+      ]
+    },
+    "to_ascii_or_warn": {
+      "start_point": [
+        300,
+        0
+      ],
+      "end_point": [
+        307,
+        1
+      ],
+      "strings": []
+    },
+    "to_ascii_or_error": {
+      "start_point": [
+        309,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": []
+    },
+    "write_out_new_ascii_header": {
+      "start_point": [
+        323,
+        0
+      ],
+      "end_point": [
+        381,
+        1
+      ],
+      "strings": [
+        "\"inode number\"",
+        "\"file mode\"",
+        "\"uid\"",
+        "\"gid\"",
+        "\"number of links\"",
+        "\"modification time\"",
+        "\"file size\"",
+        "\"device major number\"",
+        "\"device minor number\"",
+        "\"rdev major\"",
+        "\"rdev minor\"",
+        "\"name size\""
+      ]
+    },
+    "write_out_old_ascii_header": {
+      "start_point": [
+        383,
+        0
+      ],
+      "end_point": [
+        425,
+        1
+      ],
+      "strings": [
+        "\"device number\"",
+        "\"inode number\"",
+        "\"file mode\"",
+        "\"uid\"",
+        "\"gid\"",
+        "\"number of links\"",
+        "\"rdev\"",
+        "\"modification time\"",
+        "\"name size\"",
+        "\"file size\""
+      ]
+    },
+    "hp_compute_dev": {
+      "start_point": [
+        427,
+        0
+      ],
+      "end_point": [
+        453,
+        1
+      ],
+      "strings": []
+    },
+    "write_out_binary_header": {
+      "start_point": [
+        455,
+        0
+      ],
+      "end_point": [
+        516,
+        1
+      ],
+      "strings": [
+        "\"%s: truncating inode number\"",
+        "\"inode number\"",
+        "\"file mode\"",
+        "\"uid\"",
+        "\"gid\"",
+        "\"number of links\"",
+        "\"name size\"",
+        "\"file size\""
+      ]
+    },
+    "write_out_header": {
+      "start_point": [
+        522,
+        0
+      ],
+      "end_point": [
+        570,
+        1
+      ],
+      "strings": [
+        "\"070701\"",
+        "\"070702\"",
+        "\"%s: file name too long\""
+      ]
+    },
+    "assign_string": {
+      "start_point": [
+        572,
+        0
+      ],
+      "end_point": [
+        578,
+        1
+      ],
+      "strings": []
+    },
+    "process_copy_out": {
+      "start_point": [
+        584,
+        0
+      ],
+      "end_point": [
+        887,
+        1
+      ],
+      "strings": [
+        "\"standard output is closed\"",
+        "\"blank line ignored\"",
+        "\"%s not dumped: not a regular file\"",
+        "\"%s: symbolic link too long\"",
+        "\"%s: unknown file type\"",
+        "\"%s\\n\"",
+        "\"%lu block\\n\"",
+        "\"%lu blocks\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/src/copypass.c": {
+    "set_copypass_perms": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "process_copy_pass": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        346,
+        1
+      ],
+      "strings": [
+        "\"/\"",
+        "\"blank line ignored\"",
+        "\"%s not created: newer or same age version exists\"",
+        "\"cannot remove current %s\"",
+        "\"%s: unknown file type\"",
+        "\"%s\\n\"",
+        "\"%lu block\\n\"",
+        "\"%lu blocks\\n\""
+      ]
+    },
+    "link_to_maj_min_ino": {
+      "start_point": [
+        356,
+        0
+      ],
+      "end_point": [
+        374,
+        1
+      ],
+      "strings": []
+    },
+    "link_to_name": {
+      "start_point": [
+        384,
+        0
+      ],
+      "end_point": [
+        405,
+        1
+      ],
+      "strings": [
+        "\"%s linked to %s\"",
+        "\"cannot link %s to %s\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/src/cpio.h": {},
+  "cpio/cpio-2.12/src/cpiohdr.h": {},
+  "cpio/cpio-2.12/src/defer.c": {
+    "create_deferment": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "free_deferment": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/src/defer.h": {},
+  "cpio/cpio-2.12/src/dstring.c": {
+    "ds_init": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "ds_resize": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "ds_fgetstr": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": []
+    },
+    "ds_fgets": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    },
+    "ds_fgetname": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/src/dstring.h": {},
+  "cpio/cpio-2.12/src/extern.h": {},
+  "cpio/cpio-2.12/src/fatal.c": {
+    "fatal_exit": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        26,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/src/filemode.c": {
+    "ftypelet": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": []
+    },
+    "rwx": {
+      "start_point": [
+        143,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "setst": {
+      "start_point": [
+        154,
+        0
+      ],
+      "end_point": [
+        187,
+        1
+      ],
+      "strings": []
+    },
+    "mode_string": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        200,
+        1
+      ],
+      "strings": []
+    },
+    "filemodestring": {
+      "start_point": [
+        238,
+        0
+      ],
+      "end_point": [
+        242,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/src/filetypes.h": {},
+  "cpio/cpio-2.12/src/global.c": {},
+  "cpio/cpio-2.12/src/idcache.c": {
+    "getuser": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": [
+        "\"%u\""
+      ]
+    },
+    "getuidbyname": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": []
+    },
+    "getgroup": {
+      "start_point": [
+        131,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": [
+        "\"%u\""
+      ]
+    },
+    "getgidbyname": {
+      "start_point": [
+        164,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/src/main.c": {
+    "warn_control": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        293,
+        1
+      ],
+      "strings": [
+        "\"none\"",
+        "\"truncate\"",
+        "\"all\"",
+        "\"interdir\"",
+        "\"none\"",
+        "\"no-\""
+      ]
+    },
+    "parse_opt": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        557,
+        1
+      ],
+      "strings": [
+        "\"invalid block size\"",
+        "\"Archive format multiply defined\"",
+        "\"invalid block size\"",
+        "\"Archive format multiply defined\"",
+        "\"crc\"",
+        "\"newc\"",
+        "\"odc\"",
+        "\"bin\"",
+        "\"ustar\"",
+        "\"tar\"",
+        "\"hpodc\"",
+        "\"hpbin\"",
+        "\"\\\ninvalid archive format `%s'; valid formats are:\\n\\\ncrc newc odc bin ustar tar (all-caps also recognized)\"",
+        "\"Mode already defined\"",
+        "\"--no-preserve-owner cannot be used with --owner\"",
+        "\"Mode already defined\"",
+        "\"Mode already defined\"",
+        "\"--owner cannot be used with --no-preserve-owner\"",
+        "\"%s: %s\"",
+        "\"Invalid value for --warning option: %s\""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        569,
+        0
+      ],
+      "end_point": [
+        575,
+        1
+      ],
+      "strings": []
+    },
+    "process_args": {
+      "start_point": [
+        580,
+        0
+      ],
+      "end_point": [
+        727,
+        1
+      ],
+      "strings": [
+        "\"You must specify one of -oipt options.\\nTry `%s --help' or `%s --usage' for more information.\\n\"",
+        "\"--link\"",
+        "\"--extract\"",
+        "\"--reset\"",
+        "\"--extract\"",
+        "\"--dereference\"",
+        "\"--extract\"",
+        "\"--append\"",
+        "\"--extract\"",
+        "\"-O\"",
+        "\"--extract\"",
+        "\"--renumber-inodes\"",
+        "\"--extract\"",
+        "\"--ignore-devno\"",
+        "\"--extract\"",
+        "\"--make-directories\"",
+        "\"--to-stdout\"",
+        "\"--rename\"",
+        "\"--to-stdout\"",
+        "\"--no-preserve-owner\"",
+        "\"--to-stdout\"",
+        "\"--owner\"",
+        "\"--to-stdout\"",
+        "\"--preserve-modification-time\"",
+        "\"--to-stdout\"",
+        "\"Both -I and -F are used in copy-in mode\"",
+        "\"Too many arguments\"",
+        "\"--make-directories\"",
+        "\"--create\"",
+        "\"--rename\"",
+        "\"--create\"",
+        "\"--list\"",
+        "\"--create\"",
+        "\"--unconditional\"",
+        "\"--create\"",
+        "\"--link\"",
+        "\"--create\"",
+        "\"--sparse\"",
+        "\"--create\"",
+        "\"--preserve-modification-time\"",
+        "\"--create\"",
+        "\"--no-preserve-owner\"",
+        "\"--create\"",
+        "\"--swap-bytes (--swap)\"",
+        "\"--create\"",
+        "\"--swap-halfwords (--swap)\"",
+        "\"--create\"",
+        "\"--to-stdout\"",
+        "\"--create\"",
+        "\"--append is used but no archive file name \"",
+        "\"is given (use -F or -O options)\"",
+        "\"--rename-batch-file\"",
+        "\"--create\"",
+        "\"-I\"",
+        "\"--create\"",
+        "\"Both -O and -F are used in copy-out mode\"",
+        "\"Too many arguments\"",
+        "\"Not enough arguments\"",
+        "\"Archive format is not specified in copy-pass mode \"",
+        "\"(use --format option)\"",
+        "\"--swap-bytes (--swap)\"",
+        "\"--pass-through\"",
+        "\"--swap-halfwords (--swap)\"",
+        "\"--pass-through\"",
+        "\"--list\"",
+        "\"--pass-through\"",
+        "\"--rename\"",
+        "\"--pass-through\"",
+        "\"--append\"",
+        "\"--pass-through\"",
+        "\"--rename-batch-file\"",
+        "\"--pass-through\"",
+        "\"--no-absolute-pathnames\"",
+        "\"--pass-through\"",
+        "\"--absolute-pathnames\"",
+        "\"--pass-through\"",
+        "\"--to-stdout\"",
+        "\"--pass-through\"",
+        "\"--renumber-inodes\"",
+        "\"--pass-through\"",
+        "\"--ignore-devno\"",
+        "\"--pass-through\"",
+        "\"-F can be used only with --create or --extract\"",
+        "\"Cannot open %s\""
+      ]
+    },
+    "initialize_buffers": {
+      "start_point": [
+        733,
+        0
+      ],
+      "end_point": [
+        772,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        774,
+        0
+      ],
+      "end_point": [
+        793,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"cpio\"",
+        "\"error closing archive\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/src/makepath.c": {
+    "make_path": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": [
+        "\"cannot make directory `%s'\"",
+        "\"`%s' exists but is not a directory\"",
+        "\"cannot make directory `%s'\"",
+        "\"`%s' exists but is not a directory\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/src/mt.c": {
+    "parse_opt": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        248,
+        1
+      ],
+      "strings": [
+        "\"operation\"",
+        "\"invalid count value\"",
+        "\"TAPE\"",
+        "\"no tape device specified\""
+      ]
+    },
+    "check_type": {
+      "start_point": [
+        260,
+        0
+      ],
+      "end_point": [
+        271,
+        1
+      ],
+      "strings": [
+        "\"%s is not a character special file\""
+      ]
+    },
+    "perform_operation": {
+      "start_point": [
+        273,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": [
+        "\"%s: rmtioctl failed\""
+      ]
+    },
+    "print_status": {
+      "start_point": [
+        284,
+        0
+      ],
+      "end_point": [
+        305,
+        1
+      ],
+      "strings": [
+        "\"%s: rmtioctl failed\"",
+        "\"drive type = %d\\n\"",
+        "\"drive status (high) = %d\\n\"",
+        "\"drive status (low) = %d\\n\"",
+        "\"drive status = %d\\n\"",
+        "\"sense key error = %d\\n\"",
+        "\"residue count = %d\\n\"",
+        "\"file number = %d\\n\"",
+        "\"block number = %d\\n\""
+      ]
+    },
+    "fatal_exit": {
+      "start_point": [
+        307,
+        0
+      ],
+      "end_point": [
+        311,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        313,
+        0
+      ],
+      "end_point": [
+        359,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"mt\"",
+        "\"%s: rmtopen failed\"",
+        "\"%s: rmtclose failed\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/src/safe-stat.h": {},
+  "cpio/cpio-2.12/src/tar.c": {
+    "stash_tar_linkname": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "split_long_name": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    },
+    "stash_tar_filename": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    },
+    "to_oct": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    },
+    "tar_checksum": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    },
+    "write_out_tar_header": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        236,
+        1
+      ],
+      "strings": []
+    },
+    "null_block": {
+      "start_point": [
+        242,
+        0
+      ],
+      "end_point": [
+        252,
+        1
+      ],
+      "strings": []
+    },
+    "read_in_tar_header": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        410,
+        1
+      ],
+      "strings": [
+        "\"invalid header: checksum error\""
+      ]
+    },
+    "is_tar_header": {
+      "start_point": [
+        418,
+        0
+      ],
+      "end_point": [
+        435,
+        1
+      ],
+      "strings": []
+    },
+    "is_tar_filename_too_long": {
+      "start_point": [
+        451,
+        0
+      ],
+      "end_point": [
+        479,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/src/tar.h": {},
+  "cpio/cpio-2.12/src/tarhdr.h": {},
+  "cpio/cpio-2.12/src/userspec.c": {
+    "isnumber_p": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    },
+    "parse_user_spec": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        211,
+        1
+      ],
+      "strings": [
+        "\"virtual memory exhausted\"",
+        "\"can not omit both user and group\"",
+        "\"invalid user\"",
+        "\"cannot get the login group of a numeric UID\"",
+        "\"%u\"",
+        "\"invalid group\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        217,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": [
+        "\"%s: %u %u %s %s %s\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/src/util.c": {
+    "tape_empty_output_buffer": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": [
+        "\"write error\"",
+        "\"write error\""
+      ]
+    },
+    "disk_empty_output_buffer": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": [
+        "\"write error\"",
+        "\"write error: partial write\""
+      ]
+    },
+    "swahw_array": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        174,
+        1
+      ],
+      "strings": []
+    },
+    "tape_fill_input_buffer": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": [
+        "\"read error\"",
+        "\"premature end of file\""
+      ]
+    },
+    "disk_fill_input_buffer": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "tape_buffered_write": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        262,
+        1
+      ],
+      "strings": []
+    },
+    "disk_buffered_write": {
+      "start_point": [
+        267,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": []
+    },
+    "tape_buffered_read": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        315,
+        1
+      ],
+      "strings": []
+    },
+    "tape_buffered_peek": {
+      "start_point": [
+        325,
+        0
+      ],
+      "end_point": [
+        385,
+        1
+      ],
+      "strings": [
+        "\"read error\""
+      ]
+    },
+    "tape_toss_input": {
+      "start_point": [
+        389,
+        0
+      ],
+      "end_point": [
+        415,
+        1
+      ],
+      "strings": []
+    },
+    "write_nuls_to_file": {
+      "start_point": [
+        417,
+        0
+      ],
+      "end_point": [
+        432,
+        1
+      ],
+      "strings": []
+    },
+    "copy_files_tape_to_disk": {
+      "start_point": [
+        442,
+        0
+      ],
+      "end_point": [
+        463,
+        1
+      ],
+      "strings": []
+    },
+    "copy_files_disk_to_tape": {
+      "start_point": [
+        472,
+        0
+      ],
+      "end_point": [
+        516,
+        1
+      ],
+      "strings": [
+        "\"File %s shrunk by %s byte, padding with zeros\"",
+        "\"File %s shrunk by %s bytes, padding with zeros\"",
+        "\"Read error at byte %lld in file %s, padding with zeros\""
+      ]
+    },
+    "copy_files_disk_to_disk": {
+      "start_point": [
+        525,
+        0
+      ],
+      "end_point": [
+        566,
+        1
+      ],
+      "strings": [
+        "\"File %s shrunk by %s byte, padding with zeros\"",
+        "\"File %s shrunk by %s bytes, padding with zeros\"",
+        "\"Read error at byte %lld in file %s, padding with zeros\""
+      ]
+    },
+    "warn_if_file_changed": {
+      "start_point": [
+        570,
+        0
+      ],
+      "end_point": [
+        592,
+        1
+      ],
+      "strings": [
+        "\"File %s grew, %\"",
+        "\" new byte not copied\"",
+        "\"File %s grew, %\"",
+        "\" new bytes not copied\"",
+        "\"File %s was modified while being copied\""
+      ]
+    },
+    "create_all_directories": {
+      "start_point": [
+        597,
+        0
+      ],
+      "end_point": [
+        632,
+        1
+      ],
+      "strings": [
+        "\"virtual memory exhausted\"",
+        "\"Creating intermediate directory `%s'\""
+      ]
+    },
+    "prepare_append": {
+      "start_point": [
+        648,
+        0
+      ],
+      "end_point": [
+        680,
+        1
+      ],
+      "strings": [
+        "\"cannot seek on output\"",
+        "\"cannot seek on output\""
+      ]
+    },
+    "inode_val_hasher": {
+      "start_point": [
+        698,
+        0
+      ],
+      "end_point": [
+        703,
+        1
+      ],
+      "strings": []
+    },
+    "inode_val_compare": {
+      "start_point": [
+        705,
+        0
+      ],
+      "end_point": [
+        713,
+        1
+      ],
+      "strings": []
+    },
+    "find_inode_val": {
+      "start_point": [
+        715,
+        0
+      ],
+      "end_point": [
+        729,
+        1
+      ],
+      "strings": []
+    },
+    "find_inode_file": {
+      "start_point": [
+        731,
+        0
+      ],
+      "end_point": [
+        737,
+        1
+      ],
+      "strings": []
+    },
+    "add_inode": {
+      "start_point": [
+        743,
+        0
+      ],
+      "end_point": [
+        768,
+        1
+      ],
+      "strings": []
+    },
+    "get_inode_and_dev": {
+      "start_point": [
+        770,
+        0
+      ],
+      "end_point": [
+        800,
+        1
+      ],
+      "strings": []
+    },
+    "open_archive": {
+      "start_point": [
+        807,
+        0
+      ],
+      "end_point": [
+        827,
+        1
+      ],
+      "strings": []
+    },
+    "tape_offline": {
+      "start_point": [
+        832,
+        0
+      ],
+      "end_point": [
+        842,
+        1
+      ],
+      "strings": []
+    },
+    "get_next_reel": {
+      "start_point": [
+        853,
+        0
+      ],
+      "end_point": [
+        943,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"w\"",
+        "\"%s\"",
+        "\"%s%d%s\"",
+        "\"Found end of tape.  Load next tape and press RETURN. \"",
+        "\"Found end of tape.  To continue, type device/file name when ready.\\n\"",
+        "\"To continue, type device/file name when ready.\\n\"",
+        "\"internal error: tape descriptor changed from %d to %d\""
+      ]
+    },
+    "set_new_media_message": {
+      "start_point": [
+        951,
+        0
+      ],
+      "end_point": [
+        981,
+        1
+      ],
+      "strings": []
+    },
+    "umasked_symlink": {
+      "start_point": [
+        993,
+        0
+      ],
+      "end_point": [
+        1003,
+        1
+      ],
+      "strings": []
+    },
+    "add_cdf_double_slashes": {
+      "start_point": [
+        1024,
+        0
+      ],
+      "end_point": [
+        1111,
+        1
+      ],
+      "strings": []
+    },
+    "islastparentcdf": {
+      "start_point": [
+        1118,
+        0
+      ],
+      "end_point": [
+        1143,
+        1
+      ],
+      "strings": []
+    },
+    "buf_all_zeros": {
+      "start_point": [
+        1148,
+        0
+      ],
+      "end_point": [
+        1158,
+        1
+      ],
+      "strings": []
+    },
+    "sparse_write": {
+      "start_point": [
+        1170,
+        0
+      ],
+      "end_point": [
+        1249,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    },
+    "stat_to_cpio": {
+      "start_point": [
+        1254,
+        0
+      ],
+      "end_point": [
+        1301,
+        1
+      ],
+      "strings": []
+    },
+    "cpio_to_stat": {
+      "start_point": [
+        1303,
+        0
+      ],
+      "end_point": [
+        1344,
+        1
+      ],
+      "strings": []
+    },
+    "fchown_or_chown": {
+      "start_point": [
+        1353,
+        0
+      ],
+      "end_point": [
+        1360,
+        1
+      ],
+      "strings": []
+    },
+    "fchmod_or_chmod": {
+      "start_point": [
+        1362,
+        0
+      ],
+      "end_point": [
+        1369,
+        1
+      ],
+      "strings": []
+    },
+    "set_perms": {
+      "start_point": [
+        1371,
+        0
+      ],
+      "end_point": [
+        1393,
+        1
+      ],
+      "strings": []
+    },
+    "set_file_times": {
+      "start_point": [
+        1395,
+        0
+      ],
+      "end_point": [
+        1410,
+        1
+      ],
+      "strings": []
+    },
+    "cpio_safer_name_suffix": {
+      "start_point": [
+        1414,
+        0
+      ],
+      "end_point": [
+        1429,
+        1
+      ],
+      "strings": [
+        "\"./\""
+      ]
+    },
+    "delay_cpio_set_stat": {
+      "start_point": [
+        1453,
+        0
+      ],
+      "end_point": [
+        1466,
+        1
+      ],
+      "strings": []
+    },
+    "delay_set_stat": {
+      "start_point": [
+        1468,
+        0
+      ],
+      "end_point": [
+        1477,
+        1
+      ],
+      "strings": []
+    },
+    "repair_inter_delayed_set_stat": {
+      "start_point": [
+        1483,
+        0
+      ],
+      "end_point": [
+        1507,
+        1
+      ],
+      "strings": []
+    },
+    "repair_delayed_set_stat": {
+      "start_point": [
+        1513,
+        0
+      ],
+      "end_point": [
+        1528,
+        1
+      ],
+      "strings": []
+    },
+    "apply_delayed_set_stat": {
+      "start_point": [
+        1530,
+        0
+      ],
+      "end_point": [
+        1544,
+        1
+      ],
+      "strings": []
+    },
+    "cpio_mkdir": {
+      "start_point": [
+        1547,
+        0
+      ],
+      "end_point": [
+        1568,
+        1
+      ],
+      "strings": []
+    },
+    "cpio_create_dir": {
+      "start_point": [
+        1570,
+        0
+      ],
+      "end_point": [
+        1652,
+        1
+      ],
+      "strings": [
+        "\"%s is not a directory\""
+      ]
+    },
+    "change_dir": {
+      "start_point": [
+        1654,
+        0
+      ],
+      "end_point": [
+        1672,
+        1
+      ],
+      "strings": [
+        "\"Creating directory `%s'\"",
+        "\"cannot change to directory `%s'\""
+      ]
+    },
+    "arf_stores_inode_p": {
+      "start_point": [
+        1675,
+        0
+      ],
+      "end_point": [
+        1688,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "cpio/cpio-2.12/tests/argcv.c": {
+    "argcv_scan": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    },
+    "argcv_unescape_char": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "argcv_escape_char": {
+      "start_point": [
+        113,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "strings": []
+    },
+    "xtonum": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": []
+    },
+    "escaped_length": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    },
+    "unescape_copy": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    },
+    "escape_copy": {
+      "start_point": [
+        245,
+        0
+      ],
+      "end_point": [
+        272,
+        1
+      ],
+      "strings": [
+        "\"%03o\""
+      ]
+    },
+    "argcv_get": {
+      "start_point": [
+        274,
+        0
+      ],
+      "end_point": [
+        315,
+        1
+      ],
+      "strings": []
+    },
+    "argcv_free": {
+      "start_point": [
+        322,
+        0
+      ],
+      "end_point": [
+        330,
+        1
+      ],
+      "strings": []
+    },
+    "argcv_string": {
+      "start_point": [
+        334,
+        0
+      ],
+      "end_point": [
+        380,
+        1
+      ],
+      "strings": []
+    },
+    "command": {
+      "start_point": [
+        385,
+        0
+      ],
+      "end_point": [
+        398,
+        1
+      ],
+      "strings": [
+        "\"=\"",
+        "\"#\"",
+        "\"%d args:\\n\"",
+        "\"%s\\n\"",
+        "\"===\\n\"",
+        "\"%s\\n\""
+      ]
+    }
+  },
+  "cpio/cpio-2.12/tests/argcv.h": {},
+  "cpio/cpio-2.12/tests/genfile.c": {
+    "xlat_suffix": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": []
+    },
+    "get_size": {
+      "start_point": [
+        231,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "strings": [
+        "\"Invalid size: %s\"",
+        "\"Number out of allowed range: %s\"",
+        "\"Negative size: %s\""
+      ]
+    },
+    "verify_file": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": [
+        "\"stat(%s) failed\"",
+        "\"requested file length %lu, actual %lu\"",
+        "\"created file is not sparse\""
+      ]
+    },
+    "reg_action": {
+      "start_point": [
+        289,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": []
+    },
+    "parse_opt": {
+      "start_point": [
+        303,
+        0
+      ],
+      "end_point": [
+        386,
+        1
+      ],
+      "strings": [
+        "\"--pattern\"",
+        "\"\"",
+        "\"--checkpoint\"",
+        "\"Error parsing number near `%s'\"",
+        "\"Unknown date format\""
+      ]
+    },
+    "fill": {
+      "start_point": [
+        399,
+        0
+      ],
+      "end_point": [
+        416,
+        1
+      ],
+      "strings": []
+    },
+    "generate_simple_file": {
+      "start_point": [
+        419,
+        0
+      ],
+      "end_point": [
+        439,
+        1
+      ],
+      "strings": [
+        "\"rb+\"",
+        "\"wb\"",
+        "\"cannot open `%s'\"",
+        "\"%s\"",
+        "\"cannot seek\""
+      ]
+    },
+    "read_name_from_file": {
+      "start_point": [
+        442,
+        0
+      ],
+      "end_point": [
+        459,
+        1
+      ],
+      "strings": [
+        "\"file name contains null character\""
+      ]
+    },
+    "generate_files_from_list": {
+      "start_point": [
+        461,
+        0
+      ],
+      "end_point": [
+        480,
+        1
+      ],
+      "strings": [
+        "\"-\"",
+        "\"rb\"",
+        "\"cannot open `%s'\""
+      ]
+    },
+    "mkhole": {
+      "start_point": [
+        485,
+        0
+      ],
+      "end_point": [
+        493,
+        1
+      ],
+      "strings": [
+        "\"lseek\"",
+        "\"ftruncate\""
+      ]
+    },
+    "mksparse": {
+      "start_point": [
+        495,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": [
+        "\"lseek\"",
+        "\"write\""
+      ]
+    },
+    "make_fragment": {
+      "start_point": [
+        509,
+        0
+      ],
+      "end_point": [
+        554,
+        1
+      ],
+      "strings": [
+        "\"lseek\"",
+        "\"write\""
+      ]
+    },
+    "generate_sparse_file": {
+      "start_point": [
+        556,
+        0
+      ],
+      "end_point": [
+        607,
+        1
+      ],
+      "strings": [
+        "\"cannot generate sparse files on standard output, use --file option\"",
+        "\"cannot open `%s'\"",
+        "\" \\t\""
+      ]
+    },
+    "print_time": {
+      "start_point": [
+        612,
+        0
+      ],
+      "end_point": [
+        618,
+        1
+      ],
+      "strings": [
+        "\"%Y-%m-%d %H:%M:%S\"",
+        "\"%s \""
+      ]
+    },
+    "print_stat": {
+      "start_point": [
+        620,
+        0
+      ],
+      "end_point": [
+        703,
+        1
+      ],
+      "strings": [
+        "\"stat(%s) failed\"",
+        "\",\"",
+        "\"st_\"",
+        "\"name\"",
+        "\"%s\"",
+        "\"dev\"",
+        "\"%lu\"",
+        "\"ino\"",
+        "\"%lu\"",
+        "\"mode\"",
+        "\"\\n\"",
+        "\"incorrect mask (near `%s')\"",
+        "\"\\n\"",
+        "\"Unknown field `%s'\"",
+        "\"%0o\"",
+        "\"nlink\"",
+        "\"%lu\"",
+        "\"uid\"",
+        "\"%ld\"",
+        "\"gid\"",
+        "\"%lu\"",
+        "\"size\"",
+        "\"%s\"",
+        "\"blksize\"",
+        "\"%s\"",
+        "\"blocks\"",
+        "\"%s\"",
+        "\"atime\"",
+        "\"%lu\"",
+        "\"atimeH\"",
+        "\"mtime\"",
+        "\"%lu\"",
+        "\"mtimeH\"",
+        "\"ctime\"",
+        "\"%lu\"",
+        "\"ctimeH\"",
+        "\"sparse\"",
+        "\"%d\"",
+        "\"\\n\"",
+        "\"Unknown field `%s'\"",
+        "\",\"",
+        "\" \"",
+        "\"\\n\""
+      ]
+    },
+    "exec_checkpoint": {
+      "start_point": [
+        708,
+        0
+      ],
+      "end_point": [
+        772,
+        1
+      ],
+      "strings": [
+        "\"processing checkpoint %lu\\n\"",
+        "\"cannot set time on `%s'\"",
+        "\"ab\"",
+        "\"cannot open `%s'\"",
+        "\"cannot open `%s'\"",
+        "\"cannot truncate `%s'\"",
+        "\"command failed: %s\"",
+        "\"cannot unlink `%s'\""
+      ]
+    },
+    "process_checkpoint": {
+      "start_point": [
+        774,
+        0
+      ],
+      "end_point": [
+        798,
+        1
+      ],
+      "strings": []
+    },
+    "exec_command": {
+      "start_point": [
+        802,
+        0
+      ],
+      "end_point": [
+        913,
+        1
+      ],
+      "strings": [
+        "\"pipe\"",
+        "\"fork\"",
+        "\"LC_ALL\"",
+        "\"POSIX\"",
+        "\"execvp %s\"",
+        "\"rb\"",
+        "\"fdopen\"",
+        "\"%s\"",
+        "\"Command exited successfully\\n\"",
+        "\"Command failed with status %d\\n\"",
+        "\"Command terminated on signal %d\\n\"",
+        "\"Command stopped on signal %d\\n\"",
+        "\"Command dumped core\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        915,
+        0
+      ],
+      "end_point": [
+        978,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"now\"",
+        "\"--stat requires file names\"",
+        "\"too many arguments\"",
+        "\"too many arguments\""
+      ]
+    }
+  }
+}

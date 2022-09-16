@@ -1,0 +1,11095 @@
+{
+  "patch/patch-2.7.6/lib/alloca.in.h": {},
+  "patch/patch-2.7.6/lib/arg-nonnull.h": {},
+  "patch/patch-2.7.6/lib/argmatch.c": {
+    "__argmatch_die": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "argmatch": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": []
+    },
+    "argmatch_invalid": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": [
+        "\"invalid argument %s for %s\"",
+        "\"ambiguous argument %s for %s\""
+      ]
+    },
+    "argmatch_valid": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        166,
+        1
+      ],
+      "strings": [
+        "\"Valid arguments are:\"",
+        "\"\\n  - %s\"",
+        "\", %s\""
+      ]
+    },
+    "__xargmatch_internal": {
+      "start_point": [
+        174,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": []
+    },
+    "argmatch_to_argument": {
+      "start_point": [
+        195,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        249,
+        0
+      ],
+      "end_point": [
+        273,
+        1
+      ],
+      "strings": [
+        "\"Usage: %s [VERSION_CONTROL]\\n\"",
+        "\"VERSION_CONTROL\"",
+        "\"$VERSION_CONTROL\"",
+        "\"The version control is '%s'\\n\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/argmatch.h": {},
+  "patch/patch-2.7.6/lib/asnprintf.c": {
+    "asnprintf": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/asprintf.c": {
+    "asprintf": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/assure.h": {},
+  "patch/patch-2.7.6/lib/at-func.c": {
+    "AT_FUNC_NAME": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/at-func2.c": {
+    "at_func2": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        279,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\".\"",
+        "\".\"",
+        "\".\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/backup-find.c": {
+    "find_backup_file_name": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "get_version": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "xget_version": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": [
+        "\"$VERSION_CONTROL\"",
+        "\"VERSION_CONTROL\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/backup-internal.h": {},
+  "patch/patch-2.7.6/lib/backupfile.c": {
+    "set_simple_backup_suffix": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": [
+        "\"SIMPLE_BACKUP_SUFFIX\"",
+        "\"~\""
+      ]
+    },
+    "check_extension": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\".\"",
+        "\".\"",
+        "\".\""
+      ]
+    },
+    "numbered_backup": {
+      "start_point": [
+        184,
+        0
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\".\"",
+        "\".\"",
+        "\".\"",
+        "\".~1~\""
+      ]
+    },
+    "backupfile_internal": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        371,
+        1
+      ],
+      "strings": [
+        "\".~12345~\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/backupfile.h": {},
+  "patch/patch-2.7.6/lib/basename-lgpl.c": {
+    "last_component": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "base_len": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/basename.c": {
+    "base_name": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/bitrotate.c": {},
+  "patch/patch-2.7.6/lib/bitrotate.h": {
+    "uint64_t": [
+      {
+        "start_point": [
+          37,
+          0
+        ],
+        "end_point": [
+          41,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          46,
+          0
+        ],
+        "end_point": [
+          50,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "uint32_t": [
+      {
+        "start_point": [
+          56,
+          0
+        ],
+        "end_point": [
+          60,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          65,
+          0
+        ],
+        "end_point": [
+          69,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "rotl_sz": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    },
+    "rotr_sz": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    },
+    "uint16_t": [
+      {
+        "start_point": [
+          94,
+          0
+        ],
+        "end_point": [
+          98,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          105,
+          0
+        ],
+        "end_point": [
+          109,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "uint8_t": [
+      {
+        "start_point": [
+          116,
+          0
+        ],
+        "end_point": [
+          120,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          127,
+          0
+        ],
+        "end_point": [
+          131,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "patch/patch-2.7.6/lib/c++defs.h": {},
+  "patch/patch-2.7.6/lib/c-ctype.c": {},
+  "patch/patch-2.7.6/lib/c-ctype.h": {
+    "c_isalnum": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        179,
+        1
+      ],
+      "strings": []
+    },
+    "c_isalpha": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        192,
+        1
+      ],
+      "strings": []
+    },
+    "c_isascii": {
+      "start_point": [
+        196,
+        0
+      ],
+      "end_point": [
+        211,
+        1
+      ],
+      "strings": []
+    },
+    "c_isblank": {
+      "start_point": [
+        213,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": []
+    },
+    "c_iscntrl": {
+      "start_point": [
+        219,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": []
+    },
+    "c_isdigit": {
+      "start_point": [
+        231,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": []
+    },
+    "c_isgraph": {
+      "start_point": [
+        243,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": []
+    },
+    "c_islower": {
+      "start_point": [
+        258,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": []
+    },
+    "c_isprint": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        284,
+        1
+      ],
+      "strings": []
+    },
+    "c_ispunct": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        296,
+        1
+      ],
+      "strings": []
+    },
+    "c_isspace": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        308,
+        1
+      ],
+      "strings": []
+    },
+    "c_isupper": {
+      "start_point": [
+        310,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": []
+    },
+    "c_isxdigit": {
+      "start_point": [
+        322,
+        0
+      ],
+      "end_point": [
+        333,
+        1
+      ],
+      "strings": []
+    },
+    "c_tolower": {
+      "start_point": [
+        335,
+        0
+      ],
+      "end_point": [
+        345,
+        1
+      ],
+      "strings": []
+    },
+    "c_toupper": {
+      "start_point": [
+        347,
+        0
+      ],
+      "end_point": [
+        357,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/c-strcase.h": {},
+  "patch/patch-2.7.6/lib/c-strcasecmp.c": {
+    "c_strcasecmp": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/c-strcaseeq.h": {
+    "strcaseeq9": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq8": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq7": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq6": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq5": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq4": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq3": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq2": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq1": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "strcaseeq0": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        170,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/c-strncasecmp.c": {
+    "c_strncasecmp": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/canonicalize-lgpl.c": {
+    "alloc_failed": {
+      "start_point": [
+        94,
+        0
+      ],
+      "end_point": [
+        102,
+        1
+      ],
+      "strings": []
+    },
+    "__realpath": {
+      "start_point": [
+        115,
+        0
+      ],
+      "end_point": [
+        392,
+        1
+      ],
+      "strings": []
+    },
+    "__old_realpath": {
+      "start_point": [
+        398,
+        0
+      ],
+      "end_point": [
+        409,
+        1
+      ],
+      "strings": []
+    },
+    "__canonicalize_file_name": {
+      "start_point": [
+        414,
+        0
+      ],
+      "end_point": [
+        418,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/chdir-long.c": {
+    "cdb_init": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    },
+    "cdb_fchdir": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    },
+    "cdb_free": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "cdb_advance_fd": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": []
+    },
+    "find_non_slash": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    },
+    "chdir_long": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": [
+        "\"/\"",
+        "\"/\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        214,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "strings": [
+        "\"reading standard input\"",
+        "\"chdir_long failed: %s\"",
+        "\"pwd\"",
+        "\"%s\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/chdir-long.h": {},
+  "patch/patch-2.7.6/lib/chmodat.c": {},
+  "patch/patch-2.7.6/lib/chown.c": {
+    "chown": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_chown": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/chownat.c": {},
+  "patch/patch-2.7.6/lib/cloexec.c": {
+    "set_cloexec_flag": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    },
+    "dup_cloexec": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/cloexec.h": {},
+  "patch/patch-2.7.6/lib/close.c": {
+    "close_nothrow": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_close": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/closedir.c": {
+    "closedir": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/diffseq.h": {
+    "diag": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        439,
+        1
+      ],
+      "strings": []
+    },
+    "compareseq": {
+      "start_point": [
+        458,
+        0
+      ],
+      "end_point": [
+        517,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/dirent--.h": {},
+  "patch/patch-2.7.6/lib/dirent-private.h": {},
+  "patch/patch-2.7.6/lib/dirent-safer.h": {},
+  "patch/patch-2.7.6/lib/dirent.in.h": {
+    "dirfd": {
+      "start_point": [
+        171,
+        0
+      ],
+      "end_point": [
+        171,
+        58
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/dirfd.c": {
+    "_gl_register_dirp_fd": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_unregister_dirp_fd": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "dirfd": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/dirname-lgpl.c": {
+    "dir_len": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "mdir_name": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/dirname.c": {
+    "dir_name": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/dirname.h": {},
+  "patch/patch-2.7.6/lib/dosname.h": {},
+  "patch/patch-2.7.6/lib/dup-safer-flag.c": {
+    "dup_safer_flag": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/dup-safer.c": {
+    "dup_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/dup2.c": {
+    "dup2_nothrow": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        57,
+        5
+      ],
+      "strings": []
+    },
+    "ms_windows_dup2": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "klibc_dup2dirfd": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": [
+        "\"NUL\""
+      ]
+    },
+    "klibc_dup2": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        155,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_dup2": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        190,
+        1
+      ],
+      "strings": []
+    },
+    "dupfd": {
+      "start_point": [
+        197,
+        0
+      ],
+      "end_point": [
+        211,
+        1
+      ],
+      "strings": []
+    },
+    "dup2": {
+      "start_point": [
+        214,
+        0
+      ],
+      "end_point": [
+        233,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/errno.in.h": {},
+  "patch/patch-2.7.6/lib/error.c": {
+    "is_open": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    },
+    "flush_stdout": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": []
+    },
+    "print_errno_message": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "strings": [
+        "\"Unknown system error\"",
+        "\": %s\"",
+        "\": %s\""
+      ]
+    },
+    "error_tail": {
+      "start_point": [
+        205,
+        42
+      ],
+      "end_point": [
+        286,
+        1
+      ],
+      "strings": [
+        "L\"out of memory\\n\"",
+        "L\"???\"",
+        "\"\\n\""
+      ]
+    },
+    "error": {
+      "start_point": [
+        293,
+        0
+      ],
+      "end_point": [
+        331,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"%s: \""
+      ]
+    },
+    "error_at_line": {
+      "start_point": [
+        337,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "strings": [
+        "\"%s:\"",
+        "\"%s:\"",
+        "\"%s:%u: \"",
+        "\" \"",
+        "\"%s:%u: \"",
+        "\" \""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/error.h": {},
+  "patch/patch-2.7.6/lib/euidaccess.c": {
+    "euidaccess": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        216,
+        1
+      ],
+      "strings": [
+        "\"%d\\n\"",
+        "\"%s\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/exitfail.c": {},
+  "patch/patch-2.7.6/lib/exitfail.h": {},
+  "patch/patch-2.7.6/lib/faccessat.c": {
+    "orig_faccessat": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_faccessat": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fchdir.c": {
+    "ensure_dirs_slot": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "get_name": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_unregister_fd": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_register_fd": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_register_dup": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_directory_name": {
+      "start_point": [
+        182,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    },
+    "fchdir": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fchmodat.c": {
+    "lchmod": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fchown-stub.c": {
+    "fchown": {
+      "start_point": [
+        10,
+        0
+      ],
+      "end_point": [
+        15,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fchownat.c": {
+    "rpl_fchownat": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fcntl.c": {
+    "dupfd": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": []
+    },
+    "klibc_fcntl": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        250,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_fcntl": {
+      "start_point": [
+        274,
+        0
+      ],
+      "end_point": [
+        417,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fcntl.in.h": {},
+  "patch/patch-2.7.6/lib/fd-hook.c": {
+    "execute_close_hooks": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "execute_all_close_hooks": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "execute_ioctl_hooks": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "execute_all_ioctl_hooks": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "register_fd_hook": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "unregister_fd_hook": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fd-hook.h": {},
+  "patch/patch-2.7.6/lib/fd-safer-flag.c": {
+    "fd_safer_flag": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fd-safer.c": {
+    "fd_safer": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/filename.h": {},
+  "patch/patch-2.7.6/lib/filenamecat-lgpl.c": {
+    "mfile_name_concat": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/filenamecat.h": {},
+  "patch/patch-2.7.6/lib/flexmember.h": {},
+  "patch/patch-2.7.6/lib/float+.h": {},
+  "patch/patch-2.7.6/lib/float.c": {},
+  "patch/patch-2.7.6/lib/float.in.h": {},
+  "patch/patch-2.7.6/lib/fstat.c": {
+    "orig_fstat": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_fstat": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/fstatat.c": {
+    "orig_fstatat": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    },
+    "normal_fstatat": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_fstatat": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "stat_func": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/full-write.c": {
+    "full_rw": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/full-write.h": {},
+  "patch/patch-2.7.6/lib/getcwd-lgpl.c": {
+    "rpl_getcwd": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/getdate.h": {},
+  "patch/patch-2.7.6/lib/getdtablesize.c": {
+    "_setmaxstdio_nothrow": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        39,
+        5
+      ],
+      "strings": []
+    },
+    "getdtablesize": [
+      {
+        "start_point": [
+          56,
+          0
+        ],
+        "end_point": [
+          87,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          108,
+          0
+        ],
+        "end_point": [
+          121,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "patch/patch-2.7.6/lib/getgroups.c": {
+    "getgroups": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_getgroups": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/getopt-cdefs.in.h": {},
+  "patch/patch-2.7.6/lib/getopt-core.h": {},
+  "patch/patch-2.7.6/lib/getopt-ext.h": {
+    "struct": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/getopt-pfx-core.h": {},
+  "patch/patch-2.7.6/lib/getopt-pfx-ext.h": {},
+  "patch/patch-2.7.6/lib/getopt.c": {
+    "exchange": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "strings": []
+    },
+    "process_long_option": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": [
+        "\"%s: option '%s%s' is ambiguous\\n\"",
+        "\"%s: option '%s%s' is ambiguous; possibilities:\"",
+        "\" '%s%s'\"",
+        "\"\\n\"",
+        "\"%s: unrecognized option '%s%s'\\n\"",
+        "\"%s: option '%s%s' doesn't allow an argument\\n\"",
+        "\"%s: option '%s%s' requires an argument\\n\""
+      ]
+    },
+    "_getopt_initialize": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        411,
+        1
+      ],
+      "strings": [
+        "\"POSIXLY_CORRECT\""
+      ]
+    },
+    "_getopt_internal_r": {
+      "start_point": [
+        469,
+        0
+      ],
+      "end_point": [
+        699,
+        1
+      ],
+      "strings": [
+        "\"--\"",
+        "\"--\"",
+        "\"-\"",
+        "\"%s: invalid option -- '%c'\\n\"",
+        "\"%s: option requires an argument -- '%c'\\n\"",
+        "\"-W \"",
+        "\"%s: option requires an argument -- '%c'\\n\""
+      ]
+    },
+    "_getopt_internal": {
+      "start_point": [
+        701,
+        0
+      ],
+      "end_point": [
+        720,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        747,
+        0
+      ],
+      "end_point": [
+        808,
+        1
+      ],
+      "strings": [
+        "\"abc:d:0123456789\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/getopt.in.h": {},
+  "patch/patch-2.7.6/lib/getopt1.c": {
+    "getopt_long": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_r": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "getopt_long_only": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    },
+    "_getopt_long_only_r": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": [
+        "\"add\"",
+        "\"append\"",
+        "\"delete\"",
+        "\"verbose\"",
+        "\"create\"",
+        "\"file\"",
+        "\"abc:d:0123456789\"",
+        "\"option %s\"",
+        "\" with arg %s\"",
+        "\"\\n\"",
+        "\"digits occur in two different argv-elements.\\n\"",
+        "\"option %c\\n\"",
+        "\"option a\\n\"",
+        "\"option b\\n\"",
+        "\"option c with value '%s'\\n\"",
+        "\"option d with value '%s'\\n\"",
+        "\"?? getopt returned character code 0%o ??\\n\"",
+        "\"non-option ARGV-elements: \"",
+        "\"%s \"",
+        "\"\\n\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/getopt_int.h": {},
+  "patch/patch-2.7.6/lib/getprogname.c": {
+    "getprogname": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": [
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"?\"",
+        "\"/proc/pinfo/%d\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/getprogname.h": {},
+  "patch/patch-2.7.6/lib/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        257,
+        0
+      ],
+      "end_point": [
+        291,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/gettime.c": {
+    "gettime": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/gettimeofday.c": {
+    "initialize": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": [
+        "\"kernel32.dll\"",
+        "\"GetSystemTimePreciseAsFileTime\""
+      ]
+    },
+    "gettimeofday": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/gl_anylinked_list1.h": {},
+  "patch/patch-2.7.6/lib/gl_anylinked_list2.h": {
+    "gl_linked_nx_create_empty": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_nx_create": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_size": {
+      "start_point": [
+        165,
+        0
+      ],
+      "end_point": [
+        169,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_node_value": {
+      "start_point": [
+        171,
+        0
+      ],
+      "end_point": [
+        175,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_node_nx_set_value": {
+      "start_point": [
+        177,
+        0
+      ],
+      "end_point": [
+        215,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_next_node": {
+      "start_point": [
+        217,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_previous_node": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        227,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_get_at": {
+      "start_point": [
+        229,
+        0
+      ],
+      "end_point": [
+        253,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_nx_set_at": {
+      "start_point": [
+        255,
+        0
+      ],
+      "end_point": [
+        312,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_search_from_to": {
+      "start_point": [
+        314,
+        0
+      ],
+      "end_point": [
+        465,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_indexof_from_to": {
+      "start_point": [
+        467,
+        0
+      ],
+      "end_point": [
+        592,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_nx_add_first": {
+      "start_point": [
+        594,
+        0
+      ],
+      "end_point": [
+        630,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_nx_add_last": {
+      "start_point": [
+        632,
+        0
+      ],
+      "end_point": [
+        668,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_nx_add_before": {
+      "start_point": [
+        670,
+        0
+      ],
+      "end_point": [
+        706,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_nx_add_after": {
+      "start_point": [
+        708,
+        0
+      ],
+      "end_point": [
+        744,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_nx_add_at": {
+      "start_point": [
+        746,
+        0
+      ],
+      "end_point": [
+        808,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_remove_node": {
+      "start_point": [
+        810,
+        0
+      ],
+      "end_point": [
+        833,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_remove_at": {
+      "start_point": [
+        835,
+        0
+      ],
+      "end_point": [
+        881,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_remove": {
+      "start_point": [
+        883,
+        0
+      ],
+      "end_point": [
+        892,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_list_free": {
+      "start_point": [
+        894,
+        0
+      ],
+      "end_point": [
+        912,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_iterator": {
+      "start_point": [
+        916,
+        0
+      ],
+      "end_point": [
+        932,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_iterator_from_to": {
+      "start_point": [
+        934,
+        0
+      ],
+      "end_point": [
+        1003,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_iterator_next": {
+      "start_point": [
+        1005,
+        0
+      ],
+      "end_point": [
+        1020,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_iterator_free": {
+      "start_point": [
+        1022,
+        0
+      ],
+      "end_point": [
+        1025,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_sortedlist_search": {
+      "start_point": [
+        1029,
+        0
+      ],
+      "end_point": [
+        1045,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_sortedlist_search_from_to": {
+      "start_point": [
+        1047,
+        0
+      ],
+      "end_point": [
+        1093,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_sortedlist_indexof": {
+      "start_point": [
+        1095,
+        0
+      ],
+      "end_point": [
+        1114,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_sortedlist_indexof_from_to": {
+      "start_point": [
+        1116,
+        0
+      ],
+      "end_point": [
+        1164,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_sortedlist_nx_add": {
+      "start_point": [
+        1166,
+        0
+      ],
+      "end_point": [
+        1176,
+        1
+      ],
+      "strings": []
+    },
+    "gl_linked_sortedlist_remove": {
+      "start_point": [
+        1178,
+        0
+      ],
+      "end_point": [
+        1194,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/gl_linked_list.c": {},
+  "patch/patch-2.7.6/lib/gl_linked_list.h": {},
+  "patch/patch-2.7.6/lib/gl_list.c": {},
+  "patch/patch-2.7.6/lib/gl_list.h": {
+    "gl_list_nx_create_empty": {
+      "start_point": [
+        554,
+        0
+      ],
+      "end_point": [
+        564,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_nx_create": {
+      "start_point": [
+        566,
+        0
+      ],
+      "end_point": [
+        577,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_size": {
+      "start_point": [
+        579,
+        0
+      ],
+      "end_point": [
+        584,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_node_value": {
+      "start_point": [
+        586,
+        0
+      ],
+      "end_point": [
+        591,
+        1
+      ],
+      "strings": []
+    },
+    "__warn_unused_result__": [
+      {
+        "start_point": [
+          598,
+          33
+        ],
+        "end_point": [
+          602,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          629,
+          58
+        ],
+        "end_point": [
+          633,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          687,
+          44
+        ],
+        "end_point": [
+          691,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          697,
+          43
+        ],
+        "end_point": [
+          701,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          707,
+          66
+        ],
+        "end_point": [
+          711,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          717,
+          65
+        ],
+        "end_point": [
+          721,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          727,
+          58
+        ],
+        "end_point": [
+          731,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          821,
+          77
+        ],
+        "end_point": [
+          825,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_list_next_node": {
+      "start_point": [
+        604,
+        0
+      ],
+      "end_point": [
+        609,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_previous_node": {
+      "start_point": [
+        611,
+        0
+      ],
+      "end_point": [
+        616,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_get_at": {
+      "start_point": [
+        618,
+        0
+      ],
+      "end_point": [
+        623,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_search": {
+      "start_point": [
+        635,
+        0
+      ],
+      "end_point": [
+        641,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_search_from": {
+      "start_point": [
+        643,
+        0
+      ],
+      "end_point": [
+        649,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_search_from_to": {
+      "start_point": [
+        651,
+        0
+      ],
+      "end_point": [
+        657,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_indexof": {
+      "start_point": [
+        659,
+        0
+      ],
+      "end_point": [
+        665,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_indexof_from": {
+      "start_point": [
+        667,
+        0
+      ],
+      "end_point": [
+        673,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_indexof_from_to": {
+      "start_point": [
+        675,
+        0
+      ],
+      "end_point": [
+        681,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_remove_node": {
+      "start_point": [
+        733,
+        0
+      ],
+      "end_point": [
+        738,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_remove_at": {
+      "start_point": [
+        740,
+        0
+      ],
+      "end_point": [
+        745,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_remove": {
+      "start_point": [
+        747,
+        0
+      ],
+      "end_point": [
+        752,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_free": {
+      "start_point": [
+        754,
+        0
+      ],
+      "end_point": [
+        758,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_iterator": {
+      "start_point": [
+        760,
+        0
+      ],
+      "end_point": [
+        765,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_iterator_from_to": {
+      "start_point": [
+        767,
+        0
+      ],
+      "end_point": [
+        772,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_iterator_next": {
+      "start_point": [
+        774,
+        0
+      ],
+      "end_point": [
+        779,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_iterator_free": {
+      "start_point": [
+        781,
+        0
+      ],
+      "end_point": [
+        785,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_search": {
+      "start_point": [
+        787,
+        0
+      ],
+      "end_point": [
+        792,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_search_from_to": {
+      "start_point": [
+        794,
+        0
+      ],
+      "end_point": [
+        800,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_indexof": {
+      "start_point": [
+        802,
+        0
+      ],
+      "end_point": [
+        807,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_indexof_from_to": {
+      "start_point": [
+        809,
+        0
+      ],
+      "end_point": [
+        815,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_remove": {
+      "start_point": [
+        827,
+        0
+      ],
+      "end_point": [
+        832,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/gl_xlist.c": {},
+  "patch/patch-2.7.6/lib/gl_xlist.h": {
+    "gl_list_create_empty": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_create": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_node_set_value": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_set_at": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_add_first": {
+      "start_point": [
+        115,
+        0
+      ],
+      "end_point": [
+        122,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_add_last": {
+      "start_point": [
+        124,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_add_before": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        140,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_add_after": {
+      "start_point": [
+        142,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_add_at": {
+      "start_point": [
+        151,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "strings": []
+    },
+    "gl_sortedlist_add": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/group-member.c": {
+    "free_group_info": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "get_group_info": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "group_member": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": [
+        "\"%d: %s\\n\"",
+        "\"yes\"",
+        "\"no\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/hard-locale.c": {
+    "hard_locale": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": [
+        "\"C\"",
+        "\"POSIX\"",
+        "\"C\"",
+        "\"POSIX\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/hard-locale.h": {},
+  "patch/patch-2.7.6/lib/hash.c": {
+    "hash_get_n_buckets": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_n_buckets_used": {
+      "start_point": [
+        156,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_n_entries": {
+      "start_point": [
+        164,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_max_bucket_length": {
+      "start_point": [
+        172,
+        0
+      ],
+      "end_point": [
+        194,
+        1
+      ],
+      "strings": []
+    },
+    "hash_table_ok": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "strings": []
+    },
+    "hash_print_statistics": {
+      "start_point": [
+        228,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": [
+        "\"# entries:         %lu\\n\"",
+        "\"# buckets:         %lu\\n\"",
+        "\"# buckets used:    %lu (%.2f%%)\\n\"",
+        "\"max bucket length: %lu\\n\""
+      ]
+    },
+    "safe_hasher": {
+      "start_point": [
+        247,
+        0
+      ],
+      "end_point": [
+        254,
+        1
+      ],
+      "strings": []
+    },
+    "hash_lookup": {
+      "start_point": [
+        259,
+        0
+      ],
+      "end_point": [
+        273,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_first": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_next": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        328,
+        1
+      ],
+      "strings": []
+    },
+    "hash_get_entries": {
+      "start_point": [
+        334,
+        0
+      ],
+      "end_point": [
+        356,
+        1
+      ],
+      "strings": []
+    },
+    "hash_do_for_each": {
+      "start_point": [
+        366,
+        0
+      ],
+      "end_point": [
+        388,
+        1
+      ],
+      "strings": []
+    },
+    "hash_string": [
+      {
+        "start_point": [
+          403,
+          0
+        ],
+        "end_point": [
+          417,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          426,
+          0
+        ],
+        "end_point": [
+          435,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "_GL_ATTRIBUTE_CONST": [
+      {
+        "start_point": [
+          442,
+          0
+        ],
+        "end_point": [
+          456,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          461,
+          0
+        ],
+        "end_point": [
+          475,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "hash_reset_tuning": {
+      "start_point": [
+        477,
+        0
+      ],
+      "end_point": [
+        481,
+        1
+      ],
+      "strings": []
+    },
+    "raw_hasher": {
+      "start_point": [
+        484,
+        0
+      ],
+      "end_point": [
+        494,
+        1
+      ],
+      "strings": []
+    },
+    "raw_comparator": {
+      "start_point": [
+        497,
+        0
+      ],
+      "end_point": [
+        501,
+        1
+      ],
+      "strings": []
+    },
+    "check_tuning": {
+      "start_point": [
+        510,
+        0
+      ],
+      "end_point": [
+        536,
+        1
+      ],
+      "strings": []
+    },
+    "compute_bucket_size": {
+      "start_point": [
+        542,
+        0
+      ],
+      "end_point": [
+        556,
+        1
+      ],
+      "strings": []
+    },
+    "hash_initialize": {
+      "start_point": [
+        592,
+        0
+      ],
+      "end_point": [
+        645,
+        1
+      ],
+      "strings": []
+    },
+    "hash_clear": {
+      "start_point": [
+        651,
+        0
+      ],
+      "end_point": [
+        687,
+        1
+      ],
+      "strings": []
+    },
+    "hash_free": {
+      "start_point": [
+        694,
+        0
+      ],
+      "end_point": [
+        742,
+        1
+      ],
+      "strings": []
+    },
+    "allocate_entry": {
+      "start_point": [
+        749,
+        0
+      ],
+      "end_point": [
+        769,
+        1
+      ],
+      "strings": []
+    },
+    "free_entry": {
+      "start_point": [
+        774,
+        0
+      ],
+      "end_point": [
+        780,
+        1
+      ],
+      "strings": []
+    },
+    "hash_find_entry": {
+      "start_point": [
+        788,
+        0
+      ],
+      "end_point": [
+        850,
+        1
+      ],
+      "strings": []
+    },
+    "transfer_entries": {
+      "start_point": [
+        858,
+        0
+      ],
+      "end_point": [
+        931,
+        1
+      ],
+      "strings": []
+    },
+    "hash_rehash": {
+      "start_point": [
+        941,
+        0
+      ],
+      "end_point": [
+        1018,
+        1
+      ],
+      "strings": []
+    },
+    "hash_insert_if_absent": {
+      "start_point": [
+        1036,
+        0
+      ],
+      "end_point": [
+        1116,
+        1
+      ],
+      "strings": []
+    },
+    "hash_insert": {
+      "start_point": [
+        1124,
+        0
+      ],
+      "end_point": [
+        1132,
+        1
+      ],
+      "strings": []
+    },
+    "hash_delete": {
+      "start_point": [
+        1138,
+        0
+      ],
+      "end_point": [
+        1196,
+        1
+      ],
+      "strings": []
+    },
+    "hash_print": {
+      "start_point": [
+        1202,
+        0
+      ],
+      "end_point": [
+        1222,
+        1
+      ],
+      "strings": [
+        "\"%lu:\\n\"",
+        "\"  %s\\n\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/hash.h": {},
+  "patch/patch-2.7.6/lib/ignore-value.h": {},
+  "patch/patch-2.7.6/lib/intprops.h": {},
+  "patch/patch-2.7.6/lib/inttypes.in.h": {},
+  "patch/patch-2.7.6/lib/itold.c": {
+    "_Qp_itoq": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/lchown.c": {
+    "lchown": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_lchown": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/limits.in.h": {},
+  "patch/patch-2.7.6/lib/localcharset.c": {
+    "get_charset_aliases": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        384,
+        1
+      ],
+      "strings": [
+        "\"charset.alias\"",
+        "\"CHARSETALIASDIR\"",
+        "\"\"",
+        "\"\"",
+        "\"r\"",
+        "\"\"",
+        "\"%50s %50s\"",
+        "\"\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-4\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"ISO8859-13\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"ISO8859-15\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"KOI8-U\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP866\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP949\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1131\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"CP1251\"",
+        "\"\\0\"",
+        "\"eucCN\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucKR\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"Big5\"",
+        "\"\\0\"",
+        "\"BIG5\"",
+        "\"\\0\"",
+        "\"Big5HKSCS\"",
+        "\"\\0\"",
+        "\"BIG5-HKSCS\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"ARMSCII-8\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"PT154\"",
+        "\"\\0\"",
+        "\"*\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"ISO8859-1\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"ISO8859-2\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"ISO8859-5\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"ISO8859-7\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"ISO8859-8\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"ISO8859-9\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"eucJP\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"SJIS\"",
+        "\"\\0\"",
+        "\"SHIFT_JIS\"",
+        "\"\\0\"",
+        "\"DECKANJI\"",
+        "\"\\0\"",
+        "\"DEC-KANJI\"",
+        "\"\\0\"",
+        "\"SDECKANJI\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"eucTW\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"DECHANYU\"",
+        "\"\\0\"",
+        "\"DEC-HANYU\"",
+        "\"\\0\"",
+        "\"DECHANZI\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"DECKOREAN\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP936\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP1361\"",
+        "\"\\0\"",
+        "\"JOHAB\"",
+        "\"\\0\"",
+        "\"CP20127\"",
+        "\"\\0\"",
+        "\"ASCII\"",
+        "\"\\0\"",
+        "\"CP20866\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP20936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP21866\"",
+        "\"\\0\"",
+        "\"KOI8-RU\"",
+        "\"\\0\"",
+        "\"CP28591\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP28592\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP28593\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP28594\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP28595\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP28596\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP28597\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP28598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP28599\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP28605\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP38598\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP51932\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP51936\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP51949\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP51950\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP54936\"",
+        "\"\\0\"",
+        "\"GB18030\"",
+        "\"\\0\"",
+        "\"CP65001\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP813\"",
+        "\"\\0\"",
+        "\"ISO-8859-7\"",
+        "\"\\0\"",
+        "\"CP878\"",
+        "\"\\0\"",
+        "\"KOI8-R\"",
+        "\"\\0\"",
+        "\"CP819\"",
+        "\"\\0\"",
+        "\"ISO-8859-1\"",
+        "\"\\0\"",
+        "\"CP912\"",
+        "\"\\0\"",
+        "\"ISO-8859-2\"",
+        "\"\\0\"",
+        "\"CP913\"",
+        "\"\\0\"",
+        "\"ISO-8859-3\"",
+        "\"\\0\"",
+        "\"CP914\"",
+        "\"\\0\"",
+        "\"ISO-8859-4\"",
+        "\"\\0\"",
+        "\"CP915\"",
+        "\"\\0\"",
+        "\"ISO-8859-5\"",
+        "\"\\0\"",
+        "\"CP916\"",
+        "\"\\0\"",
+        "\"ISO-8859-8\"",
+        "\"\\0\"",
+        "\"CP920\"",
+        "\"\\0\"",
+        "\"ISO-8859-9\"",
+        "\"\\0\"",
+        "\"CP921\"",
+        "\"\\0\"",
+        "\"ISO-8859-13\"",
+        "\"\\0\"",
+        "\"CP923\"",
+        "\"\\0\"",
+        "\"ISO-8859-15\"",
+        "\"\\0\"",
+        "\"CP954\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\"",
+        "\"CP964\"",
+        "\"\\0\"",
+        "\"EUC-TW\"",
+        "\"\\0\"",
+        "\"CP970\"",
+        "\"\\0\"",
+        "\"EUC-KR\"",
+        "\"\\0\"",
+        "\"CP1089\"",
+        "\"\\0\"",
+        "\"ISO-8859-6\"",
+        "\"\\0\"",
+        "\"CP1208\"",
+        "\"\\0\"",
+        "\"UTF-8\"",
+        "\"\\0\"",
+        "\"CP1381\"",
+        "\"\\0\"",
+        "\"GB2312\"",
+        "\"\\0\"",
+        "\"CP1386\"",
+        "\"\\0\"",
+        "\"GBK\"",
+        "\"\\0\"",
+        "\"CP3372\"",
+        "\"\\0\"",
+        "\"EUC-JP\"",
+        "\"\\0\""
+      ]
+    },
+    "locale_charset": {
+      "start_point": [
+        395,
+        0
+      ],
+      "end_point": [
+        616,
+        1
+      ],
+      "strings": [
+        "\"US-ASCII\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"CP%s\"",
+        "\"CP%u\"",
+        "\"LC_ALL\"",
+        "\"LC_CTYPE\"",
+        "\"LANG\"",
+        "\"C\"",
+        "\"POSIX\"",
+        "\"\"",
+        "\"\"",
+        "\"CP%u\"",
+        "\"\"",
+        "\"ASCII\"",
+        "\"UTF-8\"",
+        "\"ASCII\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/localcharset.h": {},
+  "patch/patch-2.7.6/lib/localtime-buffer.c": {
+    "rpl_localtime": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_gmtime": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/localtime-buffer.h": {},
+  "patch/patch-2.7.6/lib/lstat.c": {
+    "orig_lstat": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_lstat": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/malloc.c": {
+    "rpl_malloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/malloca.c": {
+    "mmalloca": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    },
+    "freea": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/malloca.h": {},
+  "patch/patch-2.7.6/lib/mbrtowc.c": {
+    "mbrtowc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        332,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"UTF-8\"",
+        "\"EUC-JP\"",
+        "\"EUC-KR\"",
+        "\"GB2312\"",
+        "\"BIG5\"",
+        "\"EUC-TW\"",
+        "\"GB18030\"",
+        "\"SJIS\""
+      ]
+    },
+    "rpl_mbrtowc": {
+      "start_point": [
+        339,
+        0
+      ],
+      "end_point": [
+        411,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/mbsinit.c": {
+    "mbsinit": [
+      {
+        "start_point": [
+          43,
+          0
+        ],
+        "end_point": [
+          49,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          53,
+          0
+        ],
+        "end_point": [
+          70,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "patch/patch-2.7.6/lib/memchr.c": {
+    "__memchr": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/mempcpy.c": {
+    "mempcpy": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/memrchr.c": {
+    "__memrchr": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/minmax.h": {},
+  "patch/patch-2.7.6/lib/mkdir.c": {
+    "rpl_mkdir": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        92,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/mkdirat.c": {},
+  "patch/patch-2.7.6/lib/mktime-internal.h": {},
+  "patch/patch-2.7.6/lib/mktime.c": {
+    "shr": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": []
+    },
+    "leapyear": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "strings": []
+    },
+    "isdst_differ": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": []
+    },
+    "ydhms_diff": {
+      "start_point": [
+        182,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": []
+    },
+    "long_int_avg": {
+      "start_point": [
+        209,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": []
+    },
+    "guess_time_tm": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        247,
+        1
+      ],
+      "strings": []
+    },
+    "convert_time": {
+      "start_point": [
+        252,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": []
+    },
+    "ranged_convert": {
+      "start_point": [
+        264,
+        0
+      ],
+      "end_point": [
+        304,
+        1
+      ],
+      "strings": []
+    },
+    "__mktime_internal": {
+      "start_point": [
+        312,
+        0
+      ],
+      "end_point": [
+        478,
+        1
+      ],
+      "strings": []
+    },
+    "mktime": {
+      "start_point": [
+        489,
+        0
+      ],
+      "end_point": [
+        535,
+        1
+      ],
+      "strings": [
+        "\"TZ\"",
+        "\"TZ=\""
+      ]
+    },
+    "not_equal_tm": {
+      "start_point": [
+        550,
+        0
+      ],
+      "end_point": [
+        561,
+        1
+      ],
+      "strings": []
+    },
+    "print_tm": {
+      "start_point": [
+        563,
+        0
+      ],
+      "end_point": [
+        573,
+        1
+      ],
+      "strings": [
+        "\"%04d-%02d-%02d %02d:%02d:%02d yday %03d wday %d isdst %d\"",
+        "\"0\""
+      ]
+    },
+    "check_result": {
+      "start_point": [
+        575,
+        0
+      ],
+      "end_point": [
+        589,
+        1
+      ],
+      "strings": [
+        "\"mktime (\"",
+        "\")\\nyields (\"",
+        "\") == %ld, should be %ld\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        591,
+        0
+      ],
+      "end_point": [
+        681,
+        1
+      ],
+      "strings": [
+        "\"localtime (0) fails\\n\"",
+        "\"%d-%d-%d%c\"",
+        "\"%d:%d:%d%c\"",
+        "\"mktime returns %ld == \"",
+        "\"\\n\"",
+        "\"-\"",
+        "\"localtime_r (%ld) yields 0\\n\"",
+        "\"localtime_r (%ld) yields 0\\n\"",
+        "\"Usage:\\\n\\t%s YYYY-MM-DD HH:MM:SS [ISDST] # Test given time.\\n\\\n\\t%s FROM BY TO # Test values FROM, FROM+BY, ..., TO.\\n\\\n\\t%s FROM BY TO - # Do not test those values (for benchmark).\\n\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/msvc-inval.c": {
+    "gl_msvc_invalid_parameter_handler": [
+      {
+        "start_point": [
+          30,
+          0
+        ],
+        "end_point": [
+          37,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          47,
+          0
+        ],
+        "end_point": [
+          55,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          96,
+          0
+        ],
+        "end_point": [
+          110,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "gl_msvc_inval_current": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "gl_msvc_inval_ensure_handler": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/msvc-inval.h": {},
+  "patch/patch-2.7.6/lib/msvc-nothrow.c": {
+    "_gl_nothrow_get_osfhandle": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        5
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/msvc-nothrow.h": {},
+  "patch/patch-2.7.6/lib/nstrftime.c": {
+    "fwrite_lowcase": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "strings": []
+    },
+    "fwrite_uppcase": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        313,
+        1
+      ],
+      "strings": []
+    },
+    "memcpy_lowcase": {
+      "start_point": [
+        318,
+        0
+      ],
+      "end_point": [
+        324,
+        1
+      ],
+      "strings": []
+    },
+    "memcpy_uppcase": {
+      "start_point": [
+        329,
+        0
+      ],
+      "end_point": [
+        335,
+        1
+      ],
+      "strings": []
+    },
+    "tm_diff": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        363,
+        1
+      ],
+      "strings": []
+    },
+    "iso_week_days": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        387,
+        1
+      ],
+      "strings": []
+    },
+    "my_strftime": {
+      "start_point": [
+        429,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "strings": []
+    },
+    "__strftime_internal": {
+      "start_point": [
+        445,
+        0
+      ],
+      "end_point": [
+        1519,
+        1
+      ],
+      "strings": [
+        "\"GMT\"",
+        "\"\"",
+        "\"%m/%d/%y\"",
+        "\"%Y-%m-%d\"",
+        "\"%H:%M\"",
+        "\"%I:%M:%S %p\"",
+        "\"%H:%M:%S\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/open.c": {
+    "orig_open": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    },
+    "open": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": [
+        "\"/dev/null\"",
+        "\"NUL\"",
+        "\"/dev/null\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/openat-die.c": {
+    "openat_save_fail": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": [
+        "\"unable to record current working directory\""
+      ]
+    },
+    "openat_restore_fail": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": [
+        "\"failed to return to initial working directory\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/openat-priv.h": {},
+  "patch/patch-2.7.6/lib/openat-proc.c": {
+    "openat_proc_name": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": [
+        "\"%d\"",
+        "\"/proc/self/fd\"",
+        "\"../fd\"",
+        "\"../fd\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/openat.c": {
+    "orig_openat": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_openat": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": []
+    },
+    "openat": {
+      "start_point": [
+        183,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": []
+    },
+    "openat_permissive": {
+      "start_point": [
+        214,
+        0
+      ],
+      "end_point": [
+        287,
+        1
+      ],
+      "strings": []
+    },
+    "openat_needs_fchdir": {
+      "start_point": [
+        291,
+        0
+      ],
+      "end_point": [
+        311,
+        1
+      ],
+      "strings": [
+        "\"/\"",
+        "\".\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/openat.h": {
+    "chownat": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "lchownat": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "chmodat": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "lchmodat": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "statat": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "lstatat": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/opendir-safer.c": {
+    "opendir_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/opendir.c": {
+    "opendir": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/parse-datetime.c": {
+    "time_overflow": {
+      "start_point": [
+        188,
+        0
+      ],
+      "end_point": [
+        193,
+        1
+      ],
+      "strings": []
+    },
+    "to_uchar": {
+      "start_point": [
+        198,
+        0
+      ],
+      "end_point": [
+        198,
+        54
+      ],
+      "strings": []
+    },
+    "_GL_ATTRIBUTE_FORMAT": {
+      "start_point": [
+        200,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": [
+        "\"date: \""
+      ]
+    },
+    "digits_to_date_time": {
+      "start_point": [
+        326,
+        0
+      ],
+      "end_point": [
+        363,
+        1
+      ],
+      "strings": []
+    },
+    "apply_relative_time": {
+      "start_point": [
+        367,
+        0
+      ],
+      "end_point": [
+        388,
+        1
+      ],
+      "strings": []
+    },
+    "set_hhmmss": {
+      "start_point": [
+        391,
+        0
+      ],
+      "end_point": [
+        399,
+        1
+      ],
+      "strings": []
+    },
+    "str_days": {
+      "start_point": [
+        403,
+        0
+      ],
+      "end_point": [
+        460,
+        1
+      ],
+      "strings": [
+        "\"last\"",
+        "\"this\"",
+        "\"next/first\"",
+        "\"(SECOND)\"",
+        "\"third\"",
+        "\"fourth\"",
+        "\"fifth\"",
+        "\"sixth\"",
+        "\"seventh\"",
+        "\"eight\"",
+        "\"ninth\"",
+        "\"tenth\"",
+        "\"eleventh\"",
+        "\"twelfth\"",
+        "\"Sun\"",
+        "\"Mon\"",
+        "\"Tue\"",
+        "\"Wed\"",
+        "\"Thu\"",
+        "\"Fri\"",
+        "\"Sat\"",
+        "\"%s\"",
+        "\"%\"",
+        "\" %s\""
+      ]
+    },
+    "time_zone_str": {
+      "start_point": [
+        466,
+        0
+      ],
+      "end_point": [
+        490,
+        1
+      ],
+      "strings": [
+        "\"%c%02d\""
+      ]
+    },
+    "debug_print_current_time": {
+      "start_point": [
+        495,
+        0
+      ],
+      "end_point": [
+        582,
+        1
+      ],
+      "strings": [
+        "\"parsed %s part: \"",
+        "\"(Y-M-D) %04\"",
+        "\"-%02\"",
+        "\"-%02\"",
+        "\"year: %04\"",
+        "\" %02\"",
+        "\":%02\"",
+        "\":%02\"",
+        "\".%09d\"",
+        "\"pm\"",
+        "\"%s (day ordinal=%\"",
+        "\" number=%d)\"",
+        "\" isdst=%d%s\"",
+        "\" DST\"",
+        "\"\"",
+        "\" UTC%s\"",
+        "\"number of seconds: %\""
+      ]
+    },
+    "print_rel_part": {
+      "start_point": [
+        586,
+        0
+      ],
+      "end_point": [
+        593,
+        1
+      ],
+      "strings": [
+        "\" %+\"",
+        "\" %s\""
+      ]
+    },
+    "debug_print_relative_time": {
+      "start_point": [
+        595,
+        0
+      ],
+      "end_point": [
+        624,
+        1
+      ],
+      "strings": [
+        "\"parsed %s part: \"",
+        "\"today/this/now\\n\"",
+        "\"year(s)\"",
+        "\"month(s)\"",
+        "\"day(s)\"",
+        "\"hour(s)\"",
+        "\"minutes\"",
+        "\"seconds\"",
+        "\"nanoseconds\""
+      ]
+    },
+    "yy_symbol_value_print": {
+      "start_point": [
+        1292,
+        0
+      ],
+      "end_point": [
+        1305,
+        1
+      ],
+      "strings": []
+    },
+    "yy_symbol_print": {
+      "start_point": [
+        1312,
+        0
+      ],
+      "end_point": [
+        1320,
+        1
+      ],
+      "strings": [
+        "\"%s %s (\"",
+        "\"token\"",
+        "\"nterm\"",
+        "\")\""
+      ]
+    },
+    "yy_stack_print": {
+      "start_point": [
+        1327,
+        0
+      ],
+      "end_point": [
+        1337,
+        1
+      ],
+      "strings": [
+        "\"Stack now\"",
+        "\" %d\"",
+        "\"\\n\""
+      ]
+    },
+    "yy_reduce_print": {
+      "start_point": [
+        1350,
+        0
+      ],
+      "end_point": [
+        1368,
+        1
+      ],
+      "strings": [
+        "\"Reducing stack by rule %d (line %lu):\\n\"",
+        "\"   $%d = \"",
+        "\"\\n\""
+      ]
+    },
+    "yystrlen": {
+      "start_point": [
+        1411,
+        0
+      ],
+      "end_point": [
+        1418,
+        1
+      ],
+      "strings": []
+    },
+    "yystpcpy": {
+      "start_point": [
+        1428,
+        0
+      ],
+      "end_point": [
+        1438,
+        1
+      ],
+      "strings": []
+    },
+    "yytnamerr": {
+      "start_point": [
+        1450,
+        0
+      ],
+      "end_point": [
+        1487,
+        1
+      ],
+      "strings": []
+    },
+    "yysyntax_error": {
+      "start_point": [
+        1498,
+        0
+      ],
+      "end_point": [
+        1623,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "yydestruct": {
+      "start_point": [
+        1630,
+        0
+      ],
+      "end_point": [
+        1642,
+        1
+      ],
+      "strings": [
+        "\"Deleting\""
+      ]
+    },
+    "yyparse": {
+      "start_point": [
+        1651,
+        0
+      ],
+      "end_point": [
+        2725,
+        1
+      ],
+      "strings": [
+        "\"Starting parse\\n\"",
+        "\"memory exhausted\"",
+        "\"Stack size increased to %lu\\n\"",
+        "\"Entering state %d\\n\"",
+        "\"Reading a token: \"",
+        "\"Now at end of input.\\n\"",
+        "\"Next token is\"",
+        "\"Shifting\"",
+        "\"number of seconds\"",
+        "\"datetime\"",
+        "\"time\"",
+        "\"local_zone\"",
+        "\"zone\"",
+        "\"date\"",
+        "\"day\"",
+        "\"relative\"",
+        "\"number\"",
+        "\"hybrid\"",
+        "\"relative\"",
+        "\"relative\"",
+        "\"warning: value %\"",
+        "\" has %\"",
+        "\" digits. \"",
+        "\"Assuming YYYY/MM/DD\\n\"",
+        "\"warning: value %\"",
+        "\" has less than 4 digits. \"",
+        "\"Assuming MM/DD/YY[YY]\\n\"",
+        "\"-> $$ =\"",
+        "\"syntax error\"",
+        "\"syntax error\"",
+        "\"Error: discarding\"",
+        "\"Error: popping\"",
+        "\"memory exhausted\"",
+        "\"Cleanup: discarding lookahead\"",
+        "\"Cleanup: popping\""
+      ]
+    },
+    "time_zone_hhmm": {
+      "start_point": [
+        2925,
+        0
+      ],
+      "end_point": [
+        2950,
+        1
+      ],
+      "strings": []
+    },
+    "to_hour": {
+      "start_point": [
+        2952,
+        0
+      ],
+      "end_point": [
+        2965,
+        1
+      ],
+      "strings": []
+    },
+    "tm_year_str": {
+      "start_point": [
+        2973,
+        0
+      ],
+      "end_point": [
+        2981,
+        1
+      ],
+      "strings": [
+        "\"-%02d%02d\""
+      ]
+    },
+    "to_tm_year": {
+      "start_point": [
+        2986,
+        0
+      ],
+      "end_point": [
+        3012,
+        1
+      ],
+      "strings": [
+        "\"warning: adjusting year value %\"",
+        "\" to %\"",
+        "\"\\n\"",
+        "\"error: out-of-range year %\"",
+        "\"\\n\""
+      ]
+    },
+    "lookup_zone": {
+      "start_point": [
+        3014,
+        0
+      ],
+      "end_point": [
+        3034,
+        1
+      ],
+      "strings": []
+    },
+    "tm_diff": {
+      "start_point": [
+        3041,
+        0
+      ],
+      "end_point": [
+        3060,
+        1
+      ],
+      "strings": []
+    },
+    "lookup_word": {
+      "start_point": [
+        3063,
+        0
+      ],
+      "end_point": [
+        3129,
+        1
+      ],
+      "strings": []
+    },
+    "yylex": {
+      "start_point": [
+        3131,
+        0
+      ],
+      "end_point": [
+        3268,
+        1
+      ],
+      "strings": [
+        "\"error: unknown word '%s'\\n\""
+      ]
+    },
+    "yyerror": {
+      "start_point": [
+        3271,
+        0
+      ],
+      "end_point": [
+        3276,
+        1
+      ],
+      "strings": []
+    },
+    "mktime_ok": {
+      "start_point": [
+        3283,
+        0
+      ],
+      "end_point": [
+        3303,
+        1
+      ],
+      "strings": []
+    },
+    "debug_strfdatetime": {
+      "start_point": [
+        3307,
+        0
+      ],
+      "end_point": [
+        3350,
+        1
+      ],
+      "strings": [
+        "\"(Y-M-D) %Y-%m-%d %H:%M:%S\"",
+        "\" TZ=%s\""
+      ]
+    },
+    "debug_strfdate": {
+      "start_point": [
+        3352,
+        0
+      ],
+      "end_point": [
+        3360,
+        1
+      ],
+      "strings": [
+        "\"(Y-M-D) %s-%02d-%02d\""
+      ]
+    },
+    "debug_strftime": {
+      "start_point": [
+        3362,
+        0
+      ],
+      "end_point": [
+        3367,
+        1
+      ],
+      "strings": [
+        "\"%02d:%02d:%02d\""
+      ]
+    },
+    "debug_mktime_not_ok": {
+      "start_point": [
+        3381,
+        0
+      ],
+      "end_point": [
+        3435,
+        1
+      ],
+      "strings": [
+        "\"error: invalid date/time value:\\n\"",
+        "\"    user provided time: '%s'\\n\"",
+        "\"       normalized time: '%s'\\n\"",
+        "\"                                 %4s %2s %2s %2s %2s %2s\"",
+        "\"\"",
+        "\"----\"",
+        "\"\"",
+        "\"--\"",
+        "\"\"",
+        "\"--\"",
+        "\"\"",
+        "\"--\"",
+        "\"\"",
+        "\"--\"",
+        "\"\"",
+        "\"--\"",
+        "\"%s\\n\"",
+        "\"     possible reasons:\\n\"",
+        "\"       non-existing due to daylight-saving time;\\n\"",
+        "\"       invalid day/month combination;\\n\"",
+        "\"       numeric values overflow;\\n\"",
+        "\"       %s\\n\"",
+        "\"incorrect timezone\"",
+        "\"missing timezone\""
+      ]
+    },
+    "parse_datetime": {
+      "start_point": [
+        3438,
+        0
+      ],
+      "end_point": [
+        3449,
+        1
+      ],
+      "strings": [
+        "\"TZ\""
+      ]
+    },
+    "parse_datetime2": {
+      "start_point": [
+        3456,
+        0
+      ],
+      "end_point": [
+        4111,
+        1
+      ],
+      "strings": [
+        "\"TZ=\\\"\"",
+        "\"0\"",
+        "\"error: initial year out of range\\n\"",
+        "\"error: parsing failed\\n\"",
+        "\"error: parsing failed, stopped at '%s'\\n\"",
+        "\"input timezone: \"",
+        "\"'@timespec' - always UTC\"",
+        "\"parsed date/time string\"",
+        "\"TZ=\\\"%s\\\" in date string\"",
+        "\"UTC0\"",
+        "\"TZ=\\\"UTC0\\\" environment value or -u\"",
+        "\"TZ=\\\"%s\\\" environment value\"",
+        "\"system default\"",
+        "\", dst\"",
+        "\" (%s)\"",
+        "\"error: seen multiple time parts\\n\"",
+        "\"error: seen multiple date parts\\n\"",
+        "\"error: seen multiple days parts\\n\"",
+        "\"error: seen multiple daylight-saving parts\\n\"",
+        "\"error: seen multiple time-zone parts\\n\"",
+        "\"error: year, month, or day overflow\\n\"",
+        "\"am\"",
+        "\"pm\"",
+        "\"\"",
+        "\"error: invalid hour %\"",
+        "\"%s\\n\"",
+        "\"using specified time as starting value: '%s'\\n\"",
+        "\"using current time as starting value: '%s'\\n\"",
+        "\"warning: using midnight as starting time: 00:00:00\\n\"",
+        "\"XXX\"",
+        "\"error: tzalloc (\\\"%s\\\") failed\\n\"",
+        "\"error: day '%s' \"",
+        "\"(day ordinal=%\"",
+        "\" number=%d) \"",
+        "\"resulted in an invalid date: '%s'\\n\"",
+        "\"new start date: '%s' is '%s'\\n\"",
+        "\"using current date as starting value: '%s'\\n\"",
+        "\"warning: day (%s) ignored when explicit dates \"",
+        "\"are given\\n\"",
+        "\"starting date/time: '%s'\\n\"",
+        "\"warning: when adding relative months/years, \"",
+        "\"it is recommended to specify the 15th of the \"",
+        "\"months\\n\"",
+        "\"warning: when adding relative days, \"",
+        "\"it is recommended to specify noon\\n\"",
+        "\"error: %s:%d\\n\"",
+        "\"error: adding relative date resulted \"",
+        "\"in an invalid date: '%s'\\n\"",
+        "\"after date adjustment \"",
+        "\"(%+\"",
+        "\" years, %+\"",
+        "\" months, \"",
+        "\"%+\"",
+        "\" days),\\n\"",
+        "\"    new date/time = '%s'\\n\"",
+        "\"warning: daylight saving time changed after \"",
+        "\"date adjustment\\n\"",
+        "\"warning: month/year adjustment resulted in \"",
+        "\"shifted dates:\\n\"",
+        "\"     adjusted Y M D: %s %02d %02d\\n\"",
+        "\"   normalized Y M D: %s %02d %02d\\n\"",
+        "\"error: timezone %d caused time_t overflow\\n\"",
+        "\"'%s' = %\"",
+        "\" epoch-seconds\\n\"",
+        "\"error: adding relative time caused an \"",
+        "\"overflow\\n\"",
+        "\"after time adjustment (%+\"",
+        "\" hours, \"",
+        "\"%+\"",
+        "\" minutes, \"",
+        "\"%+\"",
+        "\" seconds, %+d ns),\\n\"",
+        "\"    new time = %\"",
+        "\" epoch-seconds\\n\"",
+        "\"warning: daylight saving time changed after \"",
+        "\"time adjustment\\n\"",
+        "\"timezone: system default\\n\"",
+        "\"UTC0\"",
+        "\"timezone: Universal Time\\n\"",
+        "\"timezone: TZ=\\\"%s\\\" environment value\\n\"",
+        "\"final: %\"",
+        "\".%09d (epoch-seconds)\\n\"",
+        "\"final: %s (UTC)\\n\"",
+        "\"final: %s (UTC%s)\\n\"",
+        "\"final: %s (unknown time zone offset)\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        4115,
+        0
+      ],
+      "end_point": [
+        4148,
+        1
+      ],
+      "strings": [
+        "\"Enter date, or blank line to exit.\\n\\t> \"",
+        "\"Bad format - couldn't convert.\\n\"",
+        "\"localtime (%\"",
+        "\") failed\\n\"",
+        "\"%s-%02d-%02d %02d:%02d:%02d.%09d\\n\"",
+        "\"\\t> \""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/parse-datetime.h": {},
+  "patch/patch-2.7.6/lib/parse-datetime.y": {
+    "time_overflow": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": []
+    },
+    "to_uchar": {
+      "start_point": [
+        133,
+        0
+      ],
+      "end_point": [
+        133,
+        54
+      ],
+      "strings": []
+    },
+    "_GL_ATTRIBUTE_FORMAT": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": [
+        "\"date: \""
+      ]
+    },
+    "digits_to_date_time": {
+      "start_point": [
+        261,
+        0
+      ],
+      "end_point": [
+        298,
+        1
+      ],
+      "strings": []
+    },
+    "apply_relative_time": {
+      "start_point": [
+        302,
+        0
+      ],
+      "end_point": [
+        323,
+        1
+      ],
+      "strings": []
+    },
+    "set_hhmmss": {
+      "start_point": [
+        326,
+        0
+      ],
+      "end_point": [
+        334,
+        1
+      ],
+      "strings": []
+    },
+    "str_days": {
+      "start_point": [
+        338,
+        0
+      ],
+      "end_point": [
+        395,
+        1
+      ],
+      "strings": [
+        "\"last\"",
+        "\"this\"",
+        "\"next/first\"",
+        "\"(SECOND)\"",
+        "\"third\"",
+        "\"fourth\"",
+        "\"fifth\"",
+        "\"sixth\"",
+        "\"seventh\"",
+        "\"eight\"",
+        "\"ninth\"",
+        "\"tenth\"",
+        "\"eleventh\"",
+        "\"twelfth\"",
+        "\"Sun\"",
+        "\"Mon\"",
+        "\"Tue\"",
+        "\"Wed\"",
+        "\"Thu\"",
+        "\"Fri\"",
+        "\"Sat\"",
+        "\"%s\"",
+        "\"%\"",
+        "\" %s\""
+      ]
+    },
+    "time_zone_str": {
+      "start_point": [
+        401,
+        0
+      ],
+      "end_point": [
+        425,
+        1
+      ],
+      "strings": [
+        "\"%c%02d\""
+      ]
+    },
+    "debug_print_current_time": {
+      "start_point": [
+        430,
+        0
+      ],
+      "end_point": [
+        517,
+        1
+      ],
+      "strings": [
+        "\"parsed %s part: \"",
+        "\"(Y-M-D) %04\"",
+        "\"-%02\"",
+        "\"-%02\"",
+        "\"year: %04\"",
+        "\" %02\"",
+        "\":%02\"",
+        "\":%02\"",
+        "\".%09d\"",
+        "\"pm\"",
+        "\"%s (day ordinal=%\"",
+        "\" number=%d)\"",
+        "\" isdst=%d%s\"",
+        "\" DST\"",
+        "\"\"",
+        "\" UTC%s\"",
+        "\"number of seconds: %\""
+      ]
+    },
+    "print_rel_part": {
+      "start_point": [
+        521,
+        0
+      ],
+      "end_point": [
+        528,
+        1
+      ],
+      "strings": [
+        "\" %+\"",
+        "\" %s\""
+      ]
+    },
+    "debug_print_relative_time": {
+      "start_point": [
+        530,
+        0
+      ],
+      "end_point": [
+        559,
+        1
+      ],
+      "strings": [
+        "\"parsed %s part: \"",
+        "\"today/this/now\\n\"",
+        "\"year(s)\"",
+        "\"month(s)\"",
+        "\"day(s)\"",
+        "\"hour(s)\"",
+        "\"minutes\"",
+        "\"seconds\"",
+        "\"nanoseconds\""
+      ]
+    },
+    "tZONE": [
+      {
+        "start_point": [
+          684,
+          30
+        ],
+        "end_point": [
+          688,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          703,
+          30
+        ],
+        "end_point": [
+          707,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          743,
+          4
+        ],
+        "end_point": [
+          747,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          757,
+          4
+        ],
+        "end_point": [
+          761,
+          7
+        ],
+        "strings": [
+          "\"relative\""
+        ]
+      },
+      {
+        "start_point": [
+          767,
+          4
+        ],
+        "end_point": [
+          769,
+          73
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          772,
+          4
+        ],
+        "end_point": [
+          773,
+          39
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          787,
+          4
+        ],
+        "end_point": [
+          792,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          793,
+          4
+        ],
+        "end_point": [
+          798,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          840,
+          4
+        ],
+        "end_point": [
+          847,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          848,
+          4
+        ],
+        "end_point": [
+          855,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          856,
+          4
+        ],
+        "end_point": [
+          860,
+          7
+        ],
+        "strings": []
+      }
+    ],
+    "tUNUMBER": [
+      {
+        "start_point": [
+          867,
+          4
+        ],
+        "end_point": [
+          871,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          872,
+          4
+        ],
+        "end_point": [
+          877,
+          7
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          882,
+          13
+        ],
+        "end_point": [
+          888,
+          7
+        ],
+        "strings": []
+      }
+    ],
+    "tMONTH_UNIT": [
+      {
+        "start_point": [
+          913,
+          4
+        ],
+        "end_point": [
+          915,
+          60
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          916,
+          4
+        ],
+        "end_point": [
+          918,
+          66
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          951,
+          4
+        ],
+        "end_point": [
+          953,
+          66
+        ],
+        "strings": []
+      }
+    ],
+    "time_zone_hhmm": {
+      "start_point": [
+        1203,
+        0
+      ],
+      "end_point": [
+        1228,
+        1
+      ],
+      "strings": []
+    },
+    "to_hour": {
+      "start_point": [
+        1230,
+        0
+      ],
+      "end_point": [
+        1243,
+        1
+      ],
+      "strings": []
+    },
+    "tm_year_str": {
+      "start_point": [
+        1251,
+        0
+      ],
+      "end_point": [
+        1259,
+        1
+      ],
+      "strings": [
+        "\"-%02d%02d\""
+      ]
+    },
+    "to_tm_year": {
+      "start_point": [
+        1264,
+        0
+      ],
+      "end_point": [
+        1290,
+        1
+      ],
+      "strings": [
+        "\"warning: adjusting year value %\"",
+        "\" to %\"",
+        "\"\\n\"",
+        "\"error: out-of-range year %\"",
+        "\"\\n\""
+      ]
+    },
+    "lookup_zone": {
+      "start_point": [
+        1292,
+        0
+      ],
+      "end_point": [
+        1312,
+        1
+      ],
+      "strings": []
+    },
+    "tm_diff": {
+      "start_point": [
+        1319,
+        0
+      ],
+      "end_point": [
+        1338,
+        1
+      ],
+      "strings": []
+    },
+    "lookup_word": {
+      "start_point": [
+        1341,
+        0
+      ],
+      "end_point": [
+        1407,
+        1
+      ],
+      "strings": []
+    },
+    "yylex": {
+      "start_point": [
+        1409,
+        0
+      ],
+      "end_point": [
+        1546,
+        1
+      ],
+      "strings": [
+        "\"error: unknown word '%s'\\n\""
+      ]
+    },
+    "yyerror": {
+      "start_point": [
+        1549,
+        0
+      ],
+      "end_point": [
+        1554,
+        1
+      ],
+      "strings": []
+    },
+    "mktime_ok": {
+      "start_point": [
+        1561,
+        0
+      ],
+      "end_point": [
+        1581,
+        1
+      ],
+      "strings": []
+    },
+    "debug_strfdatetime": {
+      "start_point": [
+        1585,
+        0
+      ],
+      "end_point": [
+        1628,
+        1
+      ],
+      "strings": [
+        "\"(Y-M-D) %Y-%m-%d %H:%M:%S\"",
+        "\" TZ=%s\""
+      ]
+    },
+    "debug_strfdate": {
+      "start_point": [
+        1630,
+        0
+      ],
+      "end_point": [
+        1638,
+        1
+      ],
+      "strings": [
+        "\"(Y-M-D) %s-%02d-%02d\""
+      ]
+    },
+    "debug_strftime": {
+      "start_point": [
+        1640,
+        0
+      ],
+      "end_point": [
+        1645,
+        1
+      ],
+      "strings": [
+        "\"%02d:%02d:%02d\""
+      ]
+    },
+    "debug_mktime_not_ok": {
+      "start_point": [
+        1659,
+        0
+      ],
+      "end_point": [
+        1713,
+        1
+      ],
+      "strings": [
+        "\"error: invalid date/time value:\\n\"",
+        "\"    user provided time: '%s'\\n\"",
+        "\"       normalized time: '%s'\\n\"",
+        "\"                                 %4s %2s %2s %2s %2s %2s\"",
+        "\"\"",
+        "\"----\"",
+        "\"\"",
+        "\"--\"",
+        "\"\"",
+        "\"--\"",
+        "\"\"",
+        "\"--\"",
+        "\"\"",
+        "\"--\"",
+        "\"\"",
+        "\"--\"",
+        "\"%s\\n\"",
+        "\"     possible reasons:\\n\"",
+        "\"       non-existing due to daylight-saving time;\\n\"",
+        "\"       invalid day/month combination;\\n\"",
+        "\"       numeric values overflow;\\n\"",
+        "\"       %s\\n\"",
+        "\"incorrect timezone\"",
+        "\"missing timezone\""
+      ]
+    },
+    "parse_datetime": {
+      "start_point": [
+        1716,
+        0
+      ],
+      "end_point": [
+        1727,
+        1
+      ],
+      "strings": [
+        "\"TZ\""
+      ]
+    },
+    "parse_datetime2": {
+      "start_point": [
+        1734,
+        0
+      ],
+      "end_point": [
+        2389,
+        1
+      ],
+      "strings": [
+        "\"TZ=\\\"\"",
+        "\"0\"",
+        "\"error: initial year out of range\\n\"",
+        "\"error: parsing failed\\n\"",
+        "\"error: parsing failed, stopped at '%s'\\n\"",
+        "\"input timezone: \"",
+        "\"'@timespec' - always UTC\"",
+        "\"parsed date/time string\"",
+        "\"TZ=\\\"%s\\\" in date string\"",
+        "\"UTC0\"",
+        "\"TZ=\\\"UTC0\\\" environment value or -u\"",
+        "\"TZ=\\\"%s\\\" environment value\"",
+        "\"system default\"",
+        "\", dst\"",
+        "\" (%s)\"",
+        "\"error: seen multiple time parts\\n\"",
+        "\"error: seen multiple date parts\\n\"",
+        "\"error: seen multiple days parts\\n\"",
+        "\"error: seen multiple daylight-saving parts\\n\"",
+        "\"error: seen multiple time-zone parts\\n\"",
+        "\"error: year, month, or day overflow\\n\"",
+        "\"am\"",
+        "\"pm\"",
+        "\"\"",
+        "\"error: invalid hour %\"",
+        "\"%s\\n\"",
+        "\"using specified time as starting value: '%s'\\n\"",
+        "\"using current time as starting value: '%s'\\n\"",
+        "\"warning: using midnight as starting time: 00:00:00\\n\"",
+        "\"XXX\"",
+        "\"error: tzalloc (\\\"%s\\\") failed\\n\"",
+        "\"error: day '%s' \"",
+        "\"(day ordinal=%\"",
+        "\" number=%d) \"",
+        "\"resulted in an invalid date: '%s'\\n\"",
+        "\"new start date: '%s' is '%s'\\n\"",
+        "\"using current date as starting value: '%s'\\n\"",
+        "\"warning: day (%s) ignored when explicit dates \"",
+        "\"are given\\n\"",
+        "\"starting date/time: '%s'\\n\"",
+        "\"warning: when adding relative months/years, \"",
+        "\"it is recommended to specify the 15th of the \"",
+        "\"months\\n\"",
+        "\"warning: when adding relative days, \"",
+        "\"it is recommended to specify noon\\n\"",
+        "\"error: %s:%d\\n\"",
+        "\"error: adding relative date resulted \"",
+        "\"in an invalid date: '%s'\\n\"",
+        "\"after date adjustment \"",
+        "\"(%+\"",
+        "\" years, %+\"",
+        "\" months, \"",
+        "\"%+\"",
+        "\" days),\\n\"",
+        "\"    new date/time = '%s'\\n\"",
+        "\"warning: daylight saving time changed after \"",
+        "\"date adjustment\\n\"",
+        "\"warning: month/year adjustment resulted in \"",
+        "\"shifted dates:\\n\"",
+        "\"     adjusted Y M D: %s %02d %02d\\n\"",
+        "\"   normalized Y M D: %s %02d %02d\\n\"",
+        "\"error: timezone %d caused time_t overflow\\n\"",
+        "\"'%s' = %\"",
+        "\" epoch-seconds\\n\"",
+        "\"error: adding relative time caused an \"",
+        "\"overflow\\n\"",
+        "\"after time adjustment (%+\"",
+        "\" hours, \"",
+        "\"%+\"",
+        "\" minutes, \"",
+        "\"%+\"",
+        "\" seconds, %+d ns),\\n\"",
+        "\"    new time = %\"",
+        "\" epoch-seconds\\n\"",
+        "\"warning: daylight saving time changed after \"",
+        "\"time adjustment\\n\"",
+        "\"timezone: system default\\n\"",
+        "\"UTC0\"",
+        "\"timezone: Universal Time\\n\"",
+        "\"timezone: TZ=\\\"%s\\\" environment value\\n\"",
+        "\"final: %\"",
+        "\".%09d (epoch-seconds)\\n\"",
+        "\"final: %s (UTC)\\n\"",
+        "\"final: %s (UTC%s)\\n\"",
+        "\"final: %s (unknown time zone offset)\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        2393,
+        0
+      ],
+      "end_point": [
+        2426,
+        1
+      ],
+      "strings": [
+        "\"Enter date, or blank line to exit.\\n\\t> \"",
+        "\"Bad format - couldn't convert.\\n\"",
+        "\"localtime (%\"",
+        "\") failed\\n\"",
+        "\"%s-%02d-%02d %02d:%02d:%02d.%09d\\n\"",
+        "\"\\t> \""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/pathmax.h": {},
+  "patch/patch-2.7.6/lib/pipe-safer.c": {
+    "pipe_safer": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/printf-args.c": {
+    "PRINTF_FETCHARGS": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        186,
+        1
+      ],
+      "strings": [
+        "\"(NULL)\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/printf-args.h": {},
+  "patch/patch-2.7.6/lib/printf-parse.c": {
+    "PRINTF_PARSE": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        631,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/printf-parse.h": {},
+  "patch/patch-2.7.6/lib/progname.c": {
+    "set_program_name": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": [
+        "\"A NULL argv[0] was passed through an exec system call.\\n\"",
+        "\"/.libs/\"",
+        "\"lt-\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/progname.h": {},
+  "patch/patch-2.7.6/lib/quote.h": {},
+  "patch/patch-2.7.6/lib/quotearg.c": {
+    "clone_quoting_options": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": []
+    },
+    "get_quoting_style": {
+      "start_point": [
+        131,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "set_quoting_style": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": []
+    },
+    "set_char_quoting": {
+      "start_point": [
+        150,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "strings": []
+    },
+    "set_quoting_flags": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        175,
+        1
+      ],
+      "strings": []
+    },
+    "set_custom_quoting": {
+      "start_point": [
+        177,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "quoting_options_from_style": {
+      "start_point": [
+        191,
+        0
+      ],
+      "end_point": [
+        199,
+        1
+      ],
+      "strings": []
+    },
+    "gettext_quote": {
+      "start_point": [
+        205,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "strings": [
+        "\"UTF-8\"",
+        "\"\\xe2\\x80\\x98\"",
+        "\"\\xe2\\x80\\x99\"",
+        "\"GB18030\"",
+        "\"\\xa1\\ae\"",
+        "\"\\xa1\\xaf\"",
+        "\"\\\"\"",
+        "\"'\""
+      ]
+    },
+    "quotearg_buffer_restyled": {
+      "start_point": [
+        254,
+        0
+      ],
+      "end_point": [
+        771,
+        1
+      ],
+      "strings": [
+        "\"\\\"\"",
+        "\"`\"",
+        "\"'\"",
+        "\"'\""
+      ]
+    },
+    "quotearg_buffer": {
+      "start_point": [
+        782,
+        0
+      ],
+      "end_point": [
+        794,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_alloc": {
+      "start_point": [
+        797,
+        0
+      ],
+      "end_point": [
+        802,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_alloc_mem": {
+      "start_point": [
+        810,
+        0
+      ],
+      "end_point": [
+        830,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_free": {
+      "start_point": [
+        846,
+        0
+      ],
+      "end_point": [
+        865,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_options": {
+      "start_point": [
+        875,
+        0
+      ],
+      "end_point": [
+        927,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n": {
+      "start_point": [
+        929,
+        0
+      ],
+      "end_point": [
+        933,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_mem": {
+      "start_point": [
+        935,
+        0
+      ],
+      "end_point": [
+        939,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg": {
+      "start_point": [
+        941,
+        0
+      ],
+      "end_point": [
+        945,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_mem": {
+      "start_point": [
+        947,
+        0
+      ],
+      "end_point": [
+        951,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_style": {
+      "start_point": [
+        953,
+        0
+      ],
+      "end_point": [
+        958,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_style_mem": {
+      "start_point": [
+        960,
+        0
+      ],
+      "end_point": [
+        966,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_style": {
+      "start_point": [
+        968,
+        0
+      ],
+      "end_point": [
+        972,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_style_mem": {
+      "start_point": [
+        974,
+        0
+      ],
+      "end_point": [
+        978,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_char_mem": {
+      "start_point": [
+        980,
+        0
+      ],
+      "end_point": [
+        987,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_char": {
+      "start_point": [
+        989,
+        0
+      ],
+      "end_point": [
+        993,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_colon": {
+      "start_point": [
+        995,
+        0
+      ],
+      "end_point": [
+        999,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_colon_mem": {
+      "start_point": [
+        1001,
+        0
+      ],
+      "end_point": [
+        1005,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_style_colon": {
+      "start_point": [
+        1007,
+        0
+      ],
+      "end_point": [
+        1014,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_custom": {
+      "start_point": [
+        1016,
+        0
+      ],
+      "end_point": [
+        1022,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_n_custom_mem": {
+      "start_point": [
+        1024,
+        0
+      ],
+      "end_point": [
+        1032,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_custom": {
+      "start_point": [
+        1034,
+        0
+      ],
+      "end_point": [
+        1039,
+        1
+      ],
+      "strings": []
+    },
+    "quotearg_custom_mem": {
+      "start_point": [
+        1041,
+        0
+      ],
+      "end_point": [
+        1047,
+        1
+      ],
+      "strings": []
+    },
+    "quote_n_mem": {
+      "start_point": [
+        1059,
+        0
+      ],
+      "end_point": [
+        1063,
+        1
+      ],
+      "strings": []
+    },
+    "quote_mem": {
+      "start_point": [
+        1065,
+        0
+      ],
+      "end_point": [
+        1069,
+        1
+      ],
+      "strings": []
+    },
+    "quote_n": {
+      "start_point": [
+        1071,
+        0
+      ],
+      "end_point": [
+        1075,
+        1
+      ],
+      "strings": []
+    },
+    "quote": {
+      "start_point": [
+        1077,
+        0
+      ],
+      "end_point": [
+        1081,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/quotearg.h": {},
+  "patch/patch-2.7.6/lib/raise.c": {
+    "raise_nothrow": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        44,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_raise": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/readdir.c": {
+    "readdir": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/readlink.c": {
+    "readlink": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_readlink": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/readlinkat.c": {
+    "rpl_readlinkat": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/realloc.c": {
+    "rpl_realloc": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/rename.c": {
+    "rpl_rename": [
+      {
+        "start_point": [
+          44,
+          0
+        ],
+        "end_point": [
+          262,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          278,
+          0
+        ],
+        "end_point": [
+          473,
+          1
+        ],
+        "strings": []
+      }
+    ]
+  },
+  "patch/patch-2.7.6/lib/renameat.c": {
+    "renameat": {
+      "start_point": [
+        20,
+        0
+      ],
+      "end_point": [
+        24,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/renameat2.c": {
+    "errno_fail": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "rename_noreplace": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    },
+    "renameat2": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/renameat2.h": {},
+  "patch/patch-2.7.6/lib/rmdir.c": {
+    "rpl_rmdir": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/root-uid.h": {},
+  "patch/patch-2.7.6/lib/safe-read.c": {
+    "safe_rw": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/safe-write.c": {},
+  "patch/patch-2.7.6/lib/safe-write.h": {},
+  "patch/patch-2.7.6/lib/same-inode.h": {},
+  "patch/patch-2.7.6/lib/save-cwd.c": {
+    "save_cwd": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": [
+        "\".\""
+      ]
+    },
+    "restore_cwd": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "strings": []
+    },
+    "free_cwd": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/save-cwd.h": {},
+  "patch/patch-2.7.6/lib/setenv.c": {
+    "__add_to_environ": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        287,
+        1
+      ],
+      "strings": [
+        "\"=\"",
+        "\"=\""
+      ]
+    },
+    "setenv": {
+      "start_point": [
+        289,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    },
+    "clearenv": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": []
+    },
+    "free_mem": {
+      "start_point": [
+        325,
+        0
+      ],
+      "end_point": [
+        334,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_setenv": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        387,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/signal.in.h": {},
+  "patch/patch-2.7.6/lib/size_max.h": {},
+  "patch/patch-2.7.6/lib/stat-time.c": {},
+  "patch/patch-2.7.6/lib/stat-time.h": {
+    "get_stat_atime_ns": {
+      "start_point": [
+        64,
+        26
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_ctime_ns": {
+      "start_point": [
+        77,
+        26
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_mtime_ns": {
+      "start_point": [
+        90,
+        26
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_birthtime_ns": {
+      "start_point": [
+        103,
+        26
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_atime": {
+      "start_point": [
+        116,
+        28
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_ctime": {
+      "start_point": [
+        130,
+        28
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_mtime": {
+      "start_point": [
+        144,
+        28
+      ],
+      "end_point": [
+        155,
+        1
+      ],
+      "strings": []
+    },
+    "get_stat_birthtime": {
+      "start_point": [
+        159,
+        28
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "strings": []
+    },
+    "stat_time_normalize": {
+      "start_point": [
+        209,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/stat-w32.c": {
+    "initialize": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": [
+        "\"kernel32.dll\"",
+        "\"GetFileInformationByHandleEx\"",
+        "\"GetFinalPathNameByHandleA\""
+      ]
+    },
+    "_gl_convert_FILETIME_to_timespec": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_convert_FILETIME_to_POSIX": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    },
+    "_gl_fstat_by_handle": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        412,
+        1
+      ],
+      "strings": [
+        "\"exe\"",
+        "\"bat\"",
+        "\"cmd\"",
+        "\"com\"",
+        "\"_gl_fstat_by_handle error 0x%x\\n\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/stat-w32.h": {},
+  "patch/patch-2.7.6/lib/stat.c": {
+    "orig_stat": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": []
+    },
+    "is_unc_root": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_stat": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        428,
+        1
+      ],
+      "strings": [
+        "\"exe\"",
+        "\"bat\"",
+        "\"cmd\"",
+        "\"com\"",
+        "\"rpl_stat error 0x%x\\n\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/statat.c": {},
+  "patch/patch-2.7.6/lib/stdarg.in.h": {},
+  "patch/patch-2.7.6/lib/stdbool.in.h": {},
+  "patch/patch-2.7.6/lib/stddef.in.h": {},
+  "patch/patch-2.7.6/lib/stdint.in.h": {},
+  "patch/patch-2.7.6/lib/stdio.in.h": {},
+  "patch/patch-2.7.6/lib/stdlib.in.h": {},
+  "patch/patch-2.7.6/lib/strdup.c": {
+    "__strdup": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/streq.h": {
+    "streq9": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "streq8": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "streq7": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "streq6": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "streq5": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": []
+    },
+    "streq4": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "streq3": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "streq2": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "streq1": {
+      "start_point": [
+        137,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "streq0": {
+      "start_point": [
+        151,
+        0
+      ],
+      "end_point": [
+        163,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/strerror-override.c": {
+    "strerror_override": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": [
+        "\"Success\"",
+        "\"Operation now in progress\"",
+        "\"Operation already in progress\"",
+        "\"Socket operation on non-socket\"",
+        "\"Destination address required\"",
+        "\"Message too long\"",
+        "\"Protocol wrong type for socket\"",
+        "\"Protocol not available\"",
+        "\"Protocol not supported\"",
+        "\"Operation not supported\"",
+        "\"Address family not supported by protocol\"",
+        "\"Address already in use\"",
+        "\"Cannot assign requested address\"",
+        "\"Network is down\"",
+        "\"Network is unreachable\"",
+        "\"Connection reset by peer\"",
+        "\"No buffer space available\"",
+        "\"Transport endpoint is already connected\"",
+        "\"Transport endpoint is not connected\"",
+        "\"Connection timed out\"",
+        "\"Connection refused\"",
+        "\"Too many levels of symbolic links\"",
+        "\"No route to host\"",
+        "\"Operation would block\"",
+        "\"Text file busy\"",
+        "\"No data available\"",
+        "\"Out of streams resources\"",
+        "\"Device not a stream\"",
+        "\"Timer expired\"",
+        "\"Other error\"",
+        "\"Socket type not supported\"",
+        "\"Protocol family not supported\"",
+        "\"Cannot send after transport endpoint shutdown\"",
+        "\"Too many references: cannot splice\"",
+        "\"Host is down\"",
+        "\"Too many processes\"",
+        "\"Too many users\"",
+        "\"Disk quota exceeded\"",
+        "\"Stale NFS file handle\"",
+        "\"Object is remote\"",
+        "\"Overlapped operation aborted\"",
+        "\"Overlapped I/O event object not in signaled state\"",
+        "\"Overlapped operations will complete later\"",
+        "\"Network subsystem is unavailable\"",
+        "\"Winsock.dll version out of range\"",
+        "\"Successful WSAStartup not yet performed\"",
+        "\"Graceful shutdown in progress\"",
+        "\"No more results\"",
+        "\"Call was canceled\"",
+        "\"Procedure call table is invalid\"",
+        "\"Service provider is invalid\"",
+        "\"Service provider failed to initialize\"",
+        "\"System call failure\"",
+        "\"Service not found\"",
+        "\"Class type not found\"",
+        "\"Database query was refused\"",
+        "\"Host not found\"",
+        "\"Nonauthoritative host not found\"",
+        "\"Nonrecoverable error\"",
+        "\"Valid name, no data record of requested type\"",
+        "\"No message of desired type\"",
+        "\"Identifier removed\"",
+        "\"Link has been severed\"",
+        "\"Protocol error\"",
+        "\"Multihop attempted\"",
+        "\"Bad message\"",
+        "\"Value too large for defined data type\"",
+        "\"Not supported\"",
+        "\"Network dropped connection on reset\"",
+        "\"Software caused connection abort\"",
+        "\"Stale NFS file handle\"",
+        "\"Disk quota exceeded\"",
+        "\"Operation canceled\"",
+        "\"Owner died\"",
+        "\"State not recoverable\"",
+        "\"Invalid or incomplete multibyte or wide character\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/strerror-override.h": {},
+  "patch/patch-2.7.6/lib/strerror.c": {},
+  "patch/patch-2.7.6/lib/strftime.h": {},
+  "patch/patch-2.7.6/lib/string.in.h": {},
+  "patch/patch-2.7.6/lib/stripslash.c": {
+    "strip_trailing_slashes": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/strndup.c": {
+    "strndup": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/strnlen.c": {
+    "strnlen": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/symlink.c": {
+    "rpl_symlink": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "symlink": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/symlinkat.c": {
+    "rpl_symlinkat": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "symlinkat": [
+      {
+        "start_point": [
+          48,
+          0
+        ],
+        "end_point": [
+          54,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          89,
+          0
+        ],
+        "end_point": [
+          93,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "symlink_reversed": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/sys_stat.in.h": {
+    "rpl_mkdir": {
+      "start_point": [
+        581,
+        0
+      ],
+      "end_point": [
+        585,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/sys_time.in.h": {
+    "GNULIB_NAMESPACE": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/sys_types.in.h": {},
+  "patch/patch-2.7.6/lib/tempname.c": {
+    "direxists": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": []
+    },
+    "__path_search": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": [
+        "\"file\"",
+        "\"TMPDIR\"",
+        "\"/tmp\"",
+        "\"/tmp\"",
+        "\"/tmp\"",
+        "\"%.*s/%.*sXXXXXX\""
+      ]
+    },
+    "__try_tempname": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "strings": [
+        "\"XXXXXX\""
+      ]
+    },
+    "try_file": {
+      "start_point": [
+        260,
+        0
+      ],
+      "end_point": [
+        267,
+        1
+      ],
+      "strings": []
+    },
+    "try_dir": {
+      "start_point": [
+        269,
+        0
+      ],
+      "end_point": [
+        273,
+        1
+      ],
+      "strings": []
+    },
+    "try_nocreate": {
+      "start_point": [
+        275,
+        0
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": []
+    },
+    "__gen_tempname": {
+      "start_point": [
+        298,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": [
+        "\"invalid KIND in __gen_tempname\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/tempname.h": {},
+  "patch/patch-2.7.6/lib/time-internal.h": {},
+  "patch/patch-2.7.6/lib/time.in.h": {},
+  "patch/patch-2.7.6/lib/timegm.c": {
+    "timegm": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/timespec.c": {},
+  "patch/patch-2.7.6/lib/timespec.h": {
+    "make_timespec": {
+      "start_point": [
+        45,
+        27
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "timespec_cmp": {
+      "start_point": [
+        80,
+        24
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "timespec_sign": {
+      "start_point": [
+        98,
+        24
+      ],
+      "end_point": [
+        102,
+        1
+      ],
+      "strings": []
+    },
+    "timespectod": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/time_r.c": {
+    "copy_tm_result": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        30,
+        1
+      ],
+      "strings": []
+    },
+    "gmtime_r": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        37,
+        1
+      ],
+      "strings": []
+    },
+    "localtime_r": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/time_rz.c": {
+    "isdst_differ": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "equal_tm": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "extend_abbrs": {
+      "start_point": [
+        84,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "tzalloc": {
+      "start_point": [
+        93,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "save_abbr": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    },
+    "tzfree": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        204,
+        1
+      ],
+      "strings": []
+    },
+    "getenv_TZ": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": [
+        "\"TZ\""
+      ]
+    },
+    "setenv_TZ": {
+      "start_point": [
+        218,
+        0
+      ],
+      "end_point": [
+        222,
+        1
+      ],
+      "strings": [
+        "\"TZ\"",
+        "\"TZ\""
+      ]
+    },
+    "change_env": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        234,
+        1
+      ],
+      "strings": []
+    },
+    "set_tz": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        262,
+        1
+      ],
+      "strings": []
+    },
+    "revert_tz": {
+      "start_point": [
+        267,
+        0
+      ],
+      "end_point": [
+        282,
+        1
+      ],
+      "strings": []
+    },
+    "localtime_rz": {
+      "start_point": [
+        285,
+        0
+      ],
+      "end_point": [
+        301,
+        1
+      ],
+      "strings": []
+    },
+    "mktime_z": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        328,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/tzset.c": {},
+  "patch/patch-2.7.6/lib/unistd--.h": {},
+  "patch/patch-2.7.6/lib/unistd-safer.h": {},
+  "patch/patch-2.7.6/lib/unistd.c": {},
+  "patch/patch-2.7.6/lib/unistd.in.h": {
+    "rpl_environ": {
+      "start_point": [
+        433,
+        0
+      ],
+      "end_point": [
+        437,
+        1
+      ],
+      "strings": []
+    },
+    "getpagesize": {
+      "start_point": [
+        912,
+        0
+      ],
+      "end_point": [
+        916,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/unlink.c": {
+    "rpl_unlink": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/unlinkat.c": {
+    "rpl_unlinkat": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/unsetenv.c": {
+    "unsetenv": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_unsetenv": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/utime.c": {
+    "_gl_utimens_windows": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        237,
+        1
+      ],
+      "strings": [
+        "\"utimens SetFileTime error 0x%x\\n\"",
+        "\"utimens CreateFile/GetFileAttributes error 0x%x\\n\""
+      ]
+    },
+    "utime": {
+      "start_point": [
+        239,
+        0
+      ],
+      "end_point": [
+        253,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/utime.in.h": {},
+  "patch/patch-2.7.6/lib/utimens.c": {
+    "validate_timespec": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    },
+    "update_timespec": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "fdutimens": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        500,
+        1
+      ],
+      "strings": [
+        "\"fdutimens SetFileTime error 0x%x\\n\""
+      ]
+    },
+    "utimens": {
+      "start_point": [
+        504,
+        0
+      ],
+      "end_point": [
+        508,
+        1
+      ],
+      "strings": []
+    },
+    "lutimens": {
+      "start_point": [
+        514,
+        0
+      ],
+      "end_point": [
+        630,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/utimens.h": {
+    "lutimensat": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/utimensat.c": {
+    "rpl_utimensat": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/vasnprintf.c": {
+    "local_strnlen": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        232,
+        1
+      ],
+      "strings": []
+    },
+    "local_wcslen": {
+      "start_point": [
+        247,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "strings": []
+    },
+    "local_wcsnlen": {
+      "start_point": [
+        266,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": []
+    },
+    "decimal_point_char": {
+      "start_point": [
+        283,
+        0
+      ],
+      "end_point": [
+        302,
+        1
+      ],
+      "strings": [
+        "\"%#.0f\""
+      ]
+    },
+    "is_infinite_or_zero": {
+      "start_point": [
+        309,
+        0
+      ],
+      "end_point": [
+        313,
+        1
+      ],
+      "strings": []
+    },
+    "is_infinite_or_zerol": {
+      "start_point": [
+        320,
+        0
+      ],
+      "end_point": [
+        324,
+        1
+      ],
+      "strings": []
+    },
+    "multiply": {
+      "start_point": [
+        352,
+        0
+      ],
+      "end_point": [
+        415,
+        1
+      ],
+      "strings": []
+    },
+    "divide": {
+      "start_point": [
+        424,
+        0
+      ],
+      "end_point": [
+        847,
+        1
+      ],
+      "strings": []
+    },
+    "convert_to_decimal": {
+      "start_point": [
+        855,
+        0
+      ],
+      "end_point": [
+        901,
+        1
+      ],
+      "strings": []
+    },
+    "decode_long_double": {
+      "start_point": [
+        909,
+        0
+      ],
+      "end_point": [
+        987,
+        1
+      ],
+      "strings": []
+    },
+    "decode_double": {
+      "start_point": [
+        997,
+        0
+      ],
+      "end_point": [
+        1072,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_decoded": {
+      "start_point": [
+        1081,
+        0
+      ],
+      "end_point": [
+        1294,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_long_double": {
+      "start_point": [
+        1303,
+        0
+      ],
+      "end_point": [
+        1310,
+        1
+      ],
+      "strings": []
+    },
+    "scale10_round_decimal_double": {
+      "start_point": [
+        1321,
+        0
+      ],
+      "end_point": [
+        1328,
+        1
+      ],
+      "strings": []
+    },
+    "floorlog10l": {
+      "start_point": [
+        1337,
+        0
+      ],
+      "end_point": [
+        1419,
+        1
+      ],
+      "strings": []
+    },
+    "floorlog10": {
+      "start_point": [
+        1428,
+        0
+      ],
+      "end_point": [
+        1510,
+        1
+      ],
+      "strings": []
+    },
+    "is_borderline": {
+      "start_point": [
+        1516,
+        0
+      ],
+      "end_point": [
+        1526,
+        1
+      ],
+      "strings": []
+    },
+    "MAX_ROOM_NEEDED": {
+      "start_point": [
+        1543,
+        0
+      ],
+      "end_point": [
+        1778,
+        1
+      ],
+      "strings": []
+    },
+    "xsum": {
+      "start_point": [
+        4625,
+        16
+      ],
+      "end_point": [
+        5554,
+        15
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/vasnprintf.h": {},
+  "patch/patch-2.7.6/lib/vasprintf.c": {
+    "vasprintf": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/verify.h": {},
+  "patch/patch-2.7.6/lib/verror.c": {
+    "verror": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    },
+    "verror_at_line": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"%s\"",
+        "\"unable to display error message\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/verror.h": {},
+  "patch/patch-2.7.6/lib/warn-on-use.h": {},
+  "patch/patch-2.7.6/lib/wchar.in.h": {},
+  "patch/patch-2.7.6/lib/wctype-h.c": {},
+  "patch/patch-2.7.6/lib/wctype.in.h": {
+    "rpl_towlower": {
+      "start_point": [
+        371,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": []
+    },
+    "rpl_towupper": {
+      "start_point": [
+        380,
+        0
+      ],
+      "end_point": [
+        384,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/write.c": {
+    "write_nothrow": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        56,
+        5
+      ],
+      "strings": []
+    },
+    "rpl_write": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/xalloc-die.c": {
+    "xalloc_die": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"memory exhausted\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/lib/xalloc-oversized.h": {},
+  "patch/patch-2.7.6/lib/xalloc.h": {
+    "xnmalloc": {
+      "start_point": [
+        103,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    },
+    "xnrealloc": [
+      {
+        "start_point": [
+          116,
+          0
+        ],
+        "end_point": [
+          122,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          239,
+          29
+        ],
+        "end_point": [
+          243,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "x2nrealloc": [
+      {
+        "start_point": [
+          178,
+          0
+        ],
+        "end_point": [
+          213,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          251,
+          29
+        ],
+        "end_point": [
+          255,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "xcharalloc": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        224,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        233,
+        29
+      ],
+      "end_point": [
+        237,
+        1
+      ],
+      "strings": []
+    },
+    "x2realloc": {
+      "start_point": [
+        245,
+        29
+      ],
+      "end_point": [
+        249,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        257,
+        29
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/xasprintf.c": {
+    "xasprintf": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/xmalloc.c": {
+    "xmalloc": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "xrealloc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "x2realloc": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "xzalloc": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "xcalloc": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "xmemdup": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    },
+    "xstrdup": {
+      "start_point": [
+        117,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/xmemdup0.c": {
+    "xmemdup0": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/xmemdup0.h": {},
+  "patch/patch-2.7.6/lib/xsize.c": {},
+  "patch/patch-2.7.6/lib/xsize.h": {
+    "size_t": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "__pure__": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/xstrndup.c": {
+    "xstrndup": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/xstrndup.h": {},
+  "patch/patch-2.7.6/lib/xvasprintf.c": {
+    "xstrcat": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": []
+    },
+    "xvasprintf": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/lib/xvasprintf.h": {},
+  "patch/patch-2.7.6/lib/_Noreturn.h": {},
+  "patch/patch-2.7.6/pc/chdirsaf.c": {
+    "restore_wd": {
+      "start_point": [
+        10,
+        0
+      ],
+      "end_point": [
+        14,
+        1
+      ],
+      "strings": []
+    },
+    "chdir_safer": {
+      "start_point": [
+        16,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/bestmatch.h": {
+    "bestmatch": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/common.h": {
+    "bool": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        110,
+        49
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/inp.c": {
+    "re_input": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "scan_input": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        93,
+        1
+      ],
+      "strings": [
+        "\"Can't handle %s %s\"",
+        "\"symbolic link\""
+      ]
+    },
+    "report_revision": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": [
+        "\"Good.  This file appears to be the %s version.\\n\"",
+        "\"Warning: this file doesn't appear to be the %s version -- patching anyway.\\n\"",
+        "\"This file doesn't appear to be the %s version -- aborting.\"",
+        "\"This file doesn't appear to be the %s version -- patch anyway? [n] \"",
+        "\"aborted\""
+      ]
+    },
+    "too_many_lines": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": [
+        "\"File %s has too many lines\""
+      ]
+    },
+    "lines_too_long": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": [
+        "\"Lines in file %s are too long\""
+      ]
+    },
+    "get_input_file": {
+      "start_point": [
+        138,
+        0
+      ],
+      "end_point": [
+        213,
+        1
+      ],
+      "strings": [
+        "\"File %s seems to be locked by somebody else under %s\"",
+        "\"Comparing file %s to default %s version...\\n\"",
+        "\"warning: Patching file %s, which does not match default %s version\\n\"",
+        "\"File %s is not a %s -- refusing to patch\\n\"",
+        "\"symbolic link\"",
+        "\"regular file\""
+      ]
+    },
+    "plan_a": {
+      "start_point": [
+        218,
+        0
+      ],
+      "end_point": [
+        335,
+        1
+      ],
+      "strings": [
+        "\"can't open file %s\"",
+        "\"can't read %s %s\"",
+        "\"symbolic link\""
+      ]
+    },
+    "plan_b": {
+      "start_point": [
+        339,
+        0
+      ],
+      "end_point": [
+        452,
+        1
+      ],
+      "strings": [
+        "\"rb\"",
+        "\"r\"",
+        "\"Can't open file %s\"",
+        "\"Can't create temporary file %s\""
+      ]
+    },
+    "ifetch": {
+      "start_point": [
+        457,
+        0
+      ],
+      "end_point": [
+        496,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/src/inp.h": {},
+  "patch/patch-2.7.6/src/list.h": {
+    "INIT_LIST_HEAD": {
+      "start_point": [
+        14,
+        0
+      ],
+      "end_point": [
+        18,
+        1
+      ],
+      "strings": []
+    },
+    "list_add": {
+      "start_point": [
+        20,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    },
+    "list_del": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "list_del_init": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "list_empty": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/merge.c": {
+    "locate_merge": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        152,
+        1
+      ],
+      "strings": [
+        "\"locating merge: min=%s max=%s \"",
+        "\"where=%s matched=%s changes=%s\\n\""
+      ]
+    },
+    "print_linerange": {
+      "start_point": [
+        154,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"%s-%s\""
+      ]
+    },
+    "merge_result": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        195,
+        1
+      ],
+      "strings": [
+        "\"Hunk #%d %s at \"",
+        "\".\\n\"",
+        "\",\"",
+        "\", %s at \""
+      ]
+    },
+    "merge_hunk": {
+      "start_point": [
+        197,
+        0
+      ],
+      "end_point": [
+        520,
+        1
+      ],
+      "strings": [
+        "\"%s %c\"",
+        "\" %s,%s\\n\"",
+        "\" |%.*s\"",
+        "\" %s,%s\\n\"",
+        "\" |%.*s\"",
+        "\"merged\"",
+        "\"already applied\"",
+        "\"NOT MERGED\"",
+        "\"\\n<<<<<<<\\n\"",
+        "\"\\n|||||||\\n\"",
+        "\"\\n=======\\n\"",
+        "\"\\n>>>>>>>\\n\""
+      ]
+    },
+    "count_context_lines": {
+      "start_point": [
+        522,
+        0
+      ],
+      "end_point": [
+        533,
+        1
+      ],
+      "strings": []
+    },
+    "context_matches_file": {
+      "start_point": [
+        535,
+        0
+      ],
+      "end_point": [
+        547,
+        1
+      ],
+      "strings": []
+    },
+    "compute_changes": {
+      "start_point": [
+        549,
+        0
+      ],
+      "end_point": [
+        571,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/patch.c": {
+    "main": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        688,
+        1
+      ],
+      "strings": [
+        "\"QUOTING_STYLE\"",
+        "\"POSIXLY_CORRECT\"",
+        "\"PATCH_GET\"",
+        "\"PATCH_GET value\"",
+        "\"SIMPLE_BACKUP_SUFFIX\"",
+        "\".orig\"",
+        "\"PATCH_VERSION_CONTROL\"",
+        "\"$PATCH_VERSION_CONTROL\"",
+        "\"VERSION_CONTROL\"",
+        "\"$VERSION_CONTROL\"",
+        "\"TZ\"",
+        "\"UTC\"",
+        "\"File %s: can't change file type from 0%o to 0%o.\\n\"",
+        "\"File %s is read-only; \"",
+        "\"trying to patch anyway\\n\"",
+        "\"refusing to patch\\n\"",
+        "\"Invalid file name %s -- skipping patch\\n\"",
+        "\"Can't create temporary file %s\"",
+        "\"%s\"",
+        "\"File %s: git binary diffs are not supported.\\n\"",
+        "\"wb\"",
+        "\"w\"",
+        "\"%s\"",
+        "\"%s %s %s%c\"",
+        "\"checking\"",
+        "\"patching\"",
+        "\"symbolic link\"",
+        "\"file\"",
+        "\"(%s%s from %s)\\n\"",
+        "\"already \"",
+        "\"\"",
+        "\"copied\"",
+        "\"renamed\"",
+        "\"read\"",
+        "\"Using Plan %s...\\n\"",
+        "\"A\"",
+        "\"B\"",
+        "\"Not enough memory to try swapped hunk!  Assuming unswapped.\\n\"",
+        "\"%s patch detected!\"",
+        "\"Unreversed\"",
+        "\"Reversed (or previously applied)\"",
+        "\"lost hunk on alloc error!\"",
+        "\"Hunk #%d %s at %s%s.\\n\"",
+        "\"ignored\"",
+        "\"FAILED\"",
+        "\" (different line endings)\"",
+        "\"\"",
+        "\"Hunk #%d succeeded at %s\"",
+        "\" with fuzz %s\"",
+        "\" (offset %s line%s)\"",
+        "\"s\"",
+        "\".\\n\"",
+        "\"out of memory using Plan A\"",
+        "\"\\n\\nRan out of memory using Plan A -- trying again...\\n\\n\"",
+        "\"Skipping patch.\\n\"",
+        "\"Not deleting file %s as content differs from patch\\n\"",
+        "\"Not setting time of file %s \"",
+        "\"(time mismatch)\\n\"",
+        "\"Not setting time of file %s \"",
+        "\"(contents mismatch)\\n\"",
+        "\"%d out of %d hunk%s %s\"",
+        "\"s\"",
+        "\"ignored\"",
+        "\"FAILED\"",
+        "\"-\"",
+        "\".rej\"",
+        "\" -- saving rejects to file %s\\n\"",
+        "\"\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "reinitialize_almost_everything": {
+      "start_point": [
+        692,
+        0
+      ],
+      "end_point": [
+        718,
+        1
+      ],
+      "strings": []
+    },
+    "usage": {
+      "start_point": [
+        846,
+        0
+      ],
+      "end_point": [
+        865,
+        1
+      ],
+      "strings": [
+        "\"%s: Try '%s --help' for more information.\\n\"",
+        "\"Usage: %s [OPTION]... [ORIGFILE [PATCHFILE]]\\n\\n\"",
+        "\"%s\\n\""
+      ]
+    },
+    "get_some_switches": {
+      "start_point": [
+        869,
+        0
+      ],
+      "end_point": [
+        1087,
+        1
+      ],
+      "strings": [
+        "\"-b\"",
+        "\"warning: the '-b %s' option is obsolete; use '-b -z %s' instead\\n\"",
+        "\"backup prefix is empty\"",
+        "\"Can't change to directory %s\"",
+        "\"fuzz factor\"",
+        "\"get option value\"",
+        "\"merge\"",
+        "\"diff3\"",
+        "\"strip count\"",
+        "\"--version-control or -V option\"",
+        "\"debugging option\"",
+        "\"backup basename prefix is empty\"",
+        "\"backup suffix is empty\"",
+        "\"quoting style\"",
+        "\"context\"",
+        "\"unified\"",
+        "\"ignore\"",
+        "\"warn\"",
+        "\"fail\"",
+        "\"%s: %s: extra operand\\n\""
+      ]
+    },
+    "numeric_string": {
+      "start_point": [
+        1092,
+        0
+      ],
+      "end_point": [
+        1124,
+        1
+      ],
+      "strings": [
+        "\"%s %s is not a number\"",
+        "\"%s %s is too large\"",
+        "\"%s %s is negative\""
+      ]
+    },
+    "locate_hunk": {
+      "start_point": [
+        1128,
+        0
+      ],
+      "end_point": [
+        1217,
+        1
+      ],
+      "strings": [
+        "\"Offset changing from %s to %s\\n\"",
+        "\"Offset changing from %s to %s\\n\""
+      ]
+    },
+    "mangled_patch": {
+      "start_point": [
+        1219,
+        0
+      ],
+      "end_point": [
+        1231,
+        1
+      ],
+      "strings": [
+        "\"oldchar = '%c', newchar = '%c'\\n\"",
+        "\"Out-of-sync patch, lines %s,%s -- mangled text or line numbers, \"",
+        "\"maybe?\""
+      ]
+    },
+    "print_unidiff_range": {
+      "start_point": [
+        1235,
+        0
+      ],
+      "end_point": [
+        1257,
+        1
+      ],
+      "strings": [
+        "\"%s,0\"",
+        "\"%s\"",
+        "\"%s,%s\""
+      ]
+    },
+    "print_header_line": {
+      "start_point": [
+        1259,
+        0
+      ],
+      "end_point": [
+        1267,
+        1
+      ],
+      "strings": [
+        "\"%s %s%s\\n\"",
+        "\"/dev/null\"",
+        "\"\""
+      ]
+    },
+    "abort_hunk_unified": {
+      "start_point": [
+        1271,
+        0
+      ],
+      "end_point": [
+        1324,
+        1
+      ],
+      "strings": [
+        "\"Index: %s\\n\"",
+        "\"---\"",
+        "\"+++\"",
+        "\"@@ -\"",
+        "\" +\"",
+        "\" @@%s\\n\"",
+        "\"\""
+      ]
+    },
+    "abort_hunk_context": {
+      "start_point": [
+        1328,
+        0
+      ],
+      "end_point": [
+        1393,
+        1
+      ],
+      "strings": [
+        "\" ****\"",
+        "\"\"",
+        "\" ----\"",
+        "\" -----\"",
+        "\"Index: %s\\n\"",
+        "\"***\"",
+        "\"---\"",
+        "\"***************%s\\n\"",
+        "\"\"",
+        "\"*** 0%s\\n\"",
+        "\"*** %s%s\\n\"",
+        "\"*** %s,%s%s\\n\"",
+        "\"--- 0%s\\n\"",
+        "\"--- %s%s\\n\"",
+        "\"--- %s,%s%s\\n\"",
+        "\"%c \"",
+        "\"fatal internal error in abort_hunk_context\""
+      ]
+    },
+    "abort_hunk": {
+      "start_point": [
+        1397,
+        0
+      ],
+      "end_point": [
+        1407,
+        1
+      ],
+      "strings": []
+    },
+    "apply_hunk": {
+      "start_point": [
+        1411,
+        0
+      ],
+      "end_point": [
+        1560,
+        1
+      ],
+      "strings": []
+    },
+    "create_output_file": {
+      "start_point": [
+        1564,
+        0
+      ],
+      "end_point": [
+        1573,
+        1
+      ],
+      "strings": [
+        "\"wb\"",
+        "\"w\"",
+        "\"Can't create file %s\""
+      ]
+    },
+    "init_output": {
+      "start_point": [
+        1577,
+        0
+      ],
+      "end_point": [
+        1583,
+        1
+      ],
+      "strings": []
+    },
+    "open_outfile": {
+      "start_point": [
+        1585,
+        0
+      ],
+      "end_point": [
+        1604,
+        1
+      ],
+      "strings": [
+        "\"-\"",
+        "\"Failed to duplicate standard output\"",
+        "\"a\"",
+        "\"Failed to duplicate standard output\"",
+        "\"Failed to redirect messages to standard error\""
+      ]
+    },
+    "init_reject": {
+      "start_point": [
+        1608,
+        0
+      ],
+      "end_point": [
+        1620,
+        1
+      ],
+      "strings": [
+        "\"Can't create temporary file %s\"",
+        "\"wb\"",
+        "\"w\"",
+        "\"Can't open stream for file %s\""
+      ]
+    },
+    "copy_till": {
+      "start_point": [
+        1624,
+        0
+      ],
+      "end_point": [
+        1651,
+        1
+      ],
+      "strings": [
+        "\"misordered hunks! output would be garbled\\n\""
+      ]
+    },
+    "spew_output": {
+      "start_point": [
+        1655,
+        0
+      ],
+      "end_point": [
+        1681,
+        1
+      ],
+      "strings": [
+        "\"il=%s lfl=%s\\n\""
+      ]
+    },
+    "patch_match": {
+      "start_point": [
+        1685,
+        0
+      ],
+      "end_point": [
+        1707,
+        1
+      ],
+      "strings": []
+    },
+    "check_line_endings": {
+      "start_point": [
+        1711,
+        0
+      ],
+      "end_point": [
+        1734,
+        1
+      ],
+      "strings": []
+    },
+    "similar": {
+      "start_point": [
+        1738,
+        0
+      ],
+      "end_point": [
+        1766,
+        1
+      ],
+      "strings": []
+    },
+    "init_files_to_delete": {
+      "start_point": [
+        1778,
+        0
+      ],
+      "end_point": [
+        1782,
+        1
+      ],
+      "strings": []
+    },
+    "delete_file_later": {
+      "start_point": [
+        1784,
+        0
+      ],
+      "end_point": [
+        1802,
+        1
+      ],
+      "strings": [
+        "\"Can't get file attributes of %s %s\"",
+        "\"file\""
+      ]
+    },
+    "delete_files": {
+      "start_point": [
+        1804,
+        0
+      ],
+      "end_point": [
+        1829,
+        1
+      ],
+      "strings": [
+        "\"Removing %s %s\\n\"",
+        "\"symbolic link\"",
+        "\"file\""
+      ]
+    },
+    "output_file_later": {
+      "start_point": [
+        1843,
+        0
+      ],
+      "end_point": [
+        1858,
+        1
+      ],
+      "strings": []
+    },
+    "output_file_now": {
+      "start_point": [
+        1860,
+        0
+      ],
+      "end_point": [
+        1875,
+        1
+      ],
+      "strings": []
+    },
+    "output_file": {
+      "start_point": [
+        1877,
+        0
+      ],
+      "end_point": [
+        1910,
+        1
+      ],
+      "strings": []
+    },
+    "dispose_file_to_output": {
+      "start_point": [
+        1912,
+        0
+      ],
+      "end_point": [
+        1919,
+        1
+      ],
+      "strings": []
+    },
+    "init_files_to_output": {
+      "start_point": [
+        1921,
+        0
+      ],
+      "end_point": [
+        1926,
+        1
+      ],
+      "strings": []
+    },
+    "gl_list_clear": {
+      "start_point": [
+        1928,
+        0
+      ],
+      "end_point": [
+        1933,
+        1
+      ],
+      "strings": []
+    },
+    "output_files": {
+      "start_point": [
+        1935,
+        0
+      ],
+      "end_point": [
+        1970,
+        1
+      ],
+      "strings": []
+    },
+    "fatal_exit": {
+      "start_point": [
+        1974,
+        0
+      ],
+      "end_point": [
+        1983,
+        1
+      ],
+      "strings": []
+    },
+    "remove_if_needed": {
+      "start_point": [
+        1985,
+        0
+      ],
+      "end_point": [
+        1993,
+        1
+      ],
+      "strings": []
+    },
+    "cleanup": {
+      "start_point": [
+        1995,
+        0
+      ],
+      "end_point": [
+        2003,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/pch.c": {
+    "re_patch": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        106,
+        1
+      ],
+      "strings": []
+    },
+    "open_patch_file": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        164,
+        1
+      ],
+      "strings": [
+        "\"-\"",
+        "\"rb\"",
+        "\"r\"",
+        "\"Can't open patch file %s\"",
+        "\"cannot read binary data from tty on this platform\"",
+        "\"fstat\"",
+        "\"Can't create temporary file %s\"",
+        "\"w+b\"",
+        "\"Can't open stream for file %s\"",
+        "\"patch file is too long\""
+      ]
+    },
+    "set_hunkmax": {
+      "start_point": [
+        168,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "grow_hunkmax": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    },
+    "maybe_reverse": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        223,
+        1
+      ],
+      "strings": [
+        "\"The next patch%s would %s the file %s,\\nwhich %s!\"",
+        "\", when reversed,\"",
+        "\"\"",
+        "\"delete\"",
+        "\"empty out\"",
+        "\"create\"",
+        "\"does not exist\"",
+        "\"is already empty\"",
+        "\"already exists\""
+      ]
+    },
+    "there_is_another_patch": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        320,
+        1
+      ],
+      "strings": [
+        "\"done\\n\"",
+        "\"Hmm...\"",
+        "\"  Ignoring the trailing garbage.\\ndone\\n\"",
+        "\"  I can't seem to find a patch in there anywhere.\\n\"",
+        "\"Only garbage was found in the patch input.\"",
+        "\"  %sooks like %s to me...\\n\"",
+        "\"L\"",
+        "\"The next patch l\"",
+        "\"a unified diff\"",
+        "\"a context diff\"",
+        "\"a new-style context diff\"",
+        "\"a normal diff\"",
+        "\"a git binary diff\"",
+        "\"an ed script\"",
+        "\"(Patch is indented %lu space%s.)\\n\"",
+        "\"\"",
+        "\"s\"",
+        "\"(Stripping trailing CRs from patch; use --binary to disable.)\\n\"",
+        "\"can't find file to patch at input line %s\\n\"",
+        "\"Perhaps you should have used the -p or --strip option?\\n\"",
+        "\"Perhaps you used the wrong -p or --strip option?\\n\"",
+        "\"No file to patch.  Skipping patch.\\n\"",
+        "\"File to patch: \"",
+        "\"Skip this patch? [y] \"",
+        "\"Skipping patch.\\n\""
+      ]
+    },
+    "_GL_ATTRIBUTE_PURE": {
+      "start_point": [
+        322,
+        0
+      ],
+      "end_point": [
+        351,
+        1
+      ],
+      "strings": []
+    },
+    "get_sha1": {
+      "start_point": [
+        353,
+        0
+      ],
+      "end_point": [
+        360,
+        1
+      ],
+      "strings": []
+    },
+    "sha1_says_nonexistent": {
+      "start_point": [
+        362,
+        0
+      ],
+      "end_point": [
+        380,
+        1
+      ],
+      "strings": [
+        "\"e69de29bb2d1d6434b8b29ae775ad8c2e48c5391\""
+      ]
+    },
+    "skip_hex_digits": {
+      "start_point": [
+        382,
+        0
+      ],
+      "end_point": [
+        390,
+        1
+      ],
+      "strings": []
+    },
+    "name_is_valid": {
+      "start_point": [
+        392,
+        0
+      ],
+      "end_point": [
+        419,
+        1
+      ],
+      "strings": [
+        "\"Ignoring potentially dangerous file name %s\\n\""
+      ]
+    },
+    "intuit_diff_type": {
+      "start_point": [
+        423,
+        0
+      ],
+      "end_point": [
+        1003,
+        1
+      ],
+      "strings": [
+        "\"*** \"",
+        "\"+++ \"",
+        "\"Index:\"",
+        "\"Prereq:\"",
+        "\"Prereq: with multiple words at line %s of patch\\n\"",
+        "\"diff --git \"",
+        "\"index \"",
+        "\"old mode \"",
+        "\"new mode \"",
+        "\"deleted file mode \"",
+        "\"new file mode \"",
+        "\"rename from \"",
+        "\"rename to \"",
+        "\"copy from \"",
+        "\"copy to \"",
+        "\"GIT binary patch\"",
+        "\"--- \"",
+        "\".\\n\"",
+        "\"@@ -\"",
+        "\"missing header for unified diff at line %s of patch\\n\"",
+        "\"********\"",
+        "\"*** \"",
+        "\"missing header for context diff at line %s of patch\\n\"",
+        "\"< \"",
+        "\"> \"",
+        "\"Cannot %s file without two valid file names\\n\"",
+        "\"rename\"",
+        "\"copy\""
+      ]
+    },
+    "prefix_components": {
+      "start_point": [
+        1007,
+        0
+      ],
+      "end_point": [
+        1032,
+        1
+      ],
+      "strings": []
+    },
+    "best_name": {
+      "start_point": [
+        1037,
+        0
+      ],
+      "end_point": [
+        1080,
+        1
+      ],
+      "strings": []
+    },
+    "next_intuit_at": {
+      "start_point": [
+        1084,
+        0
+      ],
+      "end_point": [
+        1089,
+        1
+      ],
+      "strings": []
+    },
+    "skip_to": {
+      "start_point": [
+        1093,
+        0
+      ],
+      "end_point": [
+        1122,
+        1
+      ],
+      "strings": [
+        "\"The text leading up to this was:\\n--------------------------\\n\"",
+        "\"--------------------------\\n\""
+      ]
+    },
+    "malformed": {
+      "start_point": [
+        1125,
+        0
+      ],
+      "end_point": [
+        1132,
+        1
+      ],
+      "strings": [
+        "\"malformed patch at line %s: %s\""
+      ]
+    },
+    "scan_linenum": {
+      "start_point": [
+        1136,
+        0
+      ],
+      "end_point": [
+        1161,
+        1
+      ],
+      "strings": [
+        "\"missing line number at line %s: %s\"",
+        "\"line number %.*s is too large at line %s: %s\""
+      ]
+    },
+    "another_hunk": {
+      "start_point": [
+        1166,
+        0
+      ],
+      "end_point": [
+        1937,
+        1
+      ],
+      "strings": [
+        "\"********\"",
+        "\"  \\n\"",
+        "\"unexpected end of file in patch\"",
+        "\"unterminated hunk starting at line %s; giving up at line %s: %s\"",
+        "\"********\"",
+        "\"unexpected end of hunk at line %s\"",
+        "\"unexpected '***' at line %s: %s\"",
+        "\"0,0\"",
+        "\"%s '---' at line %s; check line numbers at line %s\"",
+        "\"Premature\"",
+        "\"Overdue\"",
+        "\"duplicate '---' at line %s; check line numbers at line %s\"",
+        "\" \\n\"",
+        "\"\\n\"",
+        "\"no '---' found in patch at line %s\"",
+        "\"context mangled in hunk at line %s\"",
+        "\"replacement text or line numbers mangled in hunk at line %s\"",
+        "\"%s\\n%s\\n%s\\n\"",
+        "\"(Fascinating -- this is really a new-style context diff but without\"",
+        "\"the telltale extra asterisks on the *** line that usually indicate\"",
+        "\"the new style...)\"",
+        "\"replacement text or line numbers mangled in hunk at line %s\"",
+        "\"replacement text or line numbers mangled in hunk at line %s\"",
+        "\"fillsrc %s, filldst %s, rb %s, e+1 %s\\n\"",
+        "\"@@ -\"",
+        "\"*** %s,%s ****\\n\"",
+        "\"--- %s,%s ----\\n\"",
+        "\" \\n\"",
+        "\"unexpected end of file in patch\"",
+        "\"*** %s,%s\\n\"",
+        "\"unexpected end of file in patch at line %s\"",
+        "\"'<' followed by space or tab expected at line %s of patch\"",
+        "\"unexpected end of file in patch at line %s\"",
+        "\"'---' expected at line %s of patch\"",
+        "\"--- %s,%s\\n\"",
+        "\"unexpected end of file in patch at line %s\"",
+        "\"'>' followed by space or tab expected at line %s of patch\"",
+        "\"Not enough memory to swap next hunk!\\n\"",
+        "\"%s %c\"",
+        "\" %s,%s\\n\"",
+        "\" %s,%s\\n\"",
+        "\" |\""
+      ]
+    },
+    "get_line": {
+      "start_point": [
+        1939,
+        0
+      ],
+      "end_point": [
+        1944,
+        1
+      ],
+      "strings": []
+    },
+    "pget_line": {
+      "start_point": [
+        1957,
+        0
+      ],
+      "end_point": [
+        2047,
+        1
+      ],
+      "strings": [
+        "\"patch unexpectedly ends in middle of line\\n\""
+      ]
+    },
+    "incomplete_line": {
+      "start_point": [
+        2049,
+        0
+      ],
+      "end_point": [
+        2068,
+        1
+      ],
+      "strings": []
+    },
+    "pch_swap": {
+      "start_point": [
+        2072,
+        0
+      ],
+      "end_point": [
+        2164,
+        1
+      ],
+      "strings": []
+    },
+    "pch_says_nonexistent": {
+      "start_point": [
+        2169,
+        0
+      ],
+      "end_point": [
+        2173,
+        1
+      ],
+      "strings": []
+    },
+    "pch_name": {
+      "start_point": [
+        2175,
+        0
+      ],
+      "end_point": [
+        2179,
+        1
+      ],
+      "strings": []
+    },
+    "pch_copy": {
+      "start_point": [
+        2181,
+        0
+      ],
+      "end_point": [
+        2184,
+        1
+      ],
+      "strings": []
+    },
+    "pch_rename": {
+      "start_point": [
+        2186,
+        0
+      ],
+      "end_point": [
+        2189,
+        1
+      ],
+      "strings": []
+    },
+    "pch_first": {
+      "start_point": [
+        2193,
+        0
+      ],
+      "end_point": [
+        2197,
+        1
+      ],
+      "strings": []
+    },
+    "pch_ptrn_lines": {
+      "start_point": [
+        2201,
+        0
+      ],
+      "end_point": [
+        2205,
+        1
+      ],
+      "strings": []
+    },
+    "pch_newfirst": {
+      "start_point": [
+        2209,
+        0
+      ],
+      "end_point": [
+        2213,
+        1
+      ],
+      "strings": []
+    },
+    "pch_repl_lines": {
+      "start_point": [
+        2217,
+        0
+      ],
+      "end_point": [
+        2221,
+        1
+      ],
+      "strings": []
+    },
+    "pch_end": {
+      "start_point": [
+        2225,
+        0
+      ],
+      "end_point": [
+        2229,
+        1
+      ],
+      "strings": []
+    },
+    "pch_prefix_context": {
+      "start_point": [
+        2233,
+        0
+      ],
+      "end_point": [
+        2237,
+        1
+      ],
+      "strings": []
+    },
+    "pch_suffix_context": {
+      "start_point": [
+        2241,
+        0
+      ],
+      "end_point": [
+        2245,
+        1
+      ],
+      "strings": []
+    },
+    "pch_line_len": {
+      "start_point": [
+        2249,
+        0
+      ],
+      "end_point": [
+        2253,
+        1
+      ],
+      "strings": []
+    },
+    "pch_char": {
+      "start_point": [
+        2259,
+        0
+      ],
+      "end_point": [
+        2263,
+        1
+      ],
+      "strings": []
+    },
+    "pfetch": {
+      "start_point": [
+        2267,
+        0
+      ],
+      "end_point": [
+        2271,
+        1
+      ],
+      "strings": []
+    },
+    "pch_write_line": {
+      "start_point": [
+        2275,
+        0
+      ],
+      "end_point": [
+        2282,
+        1
+      ],
+      "strings": []
+    },
+    "pch_hunk_beg": {
+      "start_point": [
+        2286,
+        0
+      ],
+      "end_point": [
+        2290,
+        1
+      ],
+      "strings": []
+    },
+    "pch_c_function": {
+      "start_point": [
+        2292,
+        0
+      ],
+      "end_point": [
+        2296,
+        1
+      ],
+      "strings": []
+    },
+    "pch_git_diff": {
+      "start_point": [
+        2300,
+        0
+      ],
+      "end_point": [
+        2304,
+        1
+      ],
+      "strings": []
+    },
+    "pch_timestr": {
+      "start_point": [
+        2306,
+        0
+      ],
+      "end_point": [
+        2310,
+        1
+      ],
+      "strings": []
+    },
+    "pch_sha1": {
+      "start_point": [
+        2312,
+        0
+      ],
+      "end_point": [
+        2316,
+        1
+      ],
+      "strings": []
+    },
+    "pch_mode": {
+      "start_point": [
+        2318,
+        0
+      ],
+      "end_point": [
+        2322,
+        1
+      ],
+      "strings": []
+    },
+    "get_ed_command_letter": {
+      "start_point": [
+        2329,
+        0
+      ],
+      "end_point": [
+        2379,
+        1
+      ],
+      "strings": [
+        "\"/.//\""
+      ]
+    },
+    "do_ed_script": {
+      "start_point": [
+        2383,
+        0
+      ],
+      "end_point": [
+        2456,
+        1
+      ],
+      "strings": [
+        "\"%s %s%s\"",
+        "\"\"",
+        "\"- \"",
+        "\"wb\"",
+        "\"w\"",
+        "\"Can't open pipe to %s\"",
+        "\".\\n\"",
+        "\"w\\nq\\n\"",
+        "\"%s FAILED\"",
+        "\"rb\"",
+        "\"r\"",
+        "\"can't open '%s'\""
+      ]
+    },
+    "pch_normalize": {
+      "start_point": [
+        2458,
+        0
+      ],
+      "end_point": [
+        2523,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/pch.h": {
+    "pch_timestamp": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/safe.c": {
+    "hash_cached_dirfd": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "compare_cached_dirfds": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": []
+    },
+    "free_cached_dirfd": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "init_dirfd_cache": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    },
+    "lookup_cached_dirfd": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    },
+    "remove_cached_dirfd": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": []
+    },
+    "insert_cached_dirfd": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        169,
+        1
+      ],
+      "strings": []
+    },
+    "invalidate_cached_dirfd": {
+      "start_point": [
+        171,
+        0
+      ],
+      "end_point": [
+        183,
+        1
+      ],
+      "strings": []
+    },
+    "put_path": {
+      "start_point": [
+        187,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": []
+    },
+    "new_cached_dirfd": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": []
+    },
+    "openat_cached": {
+      "start_point": [
+        216,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    },
+    "count_path_components": {
+      "start_point": [
+        246,
+        16
+      ],
+      "end_point": [
+        262,
+        1
+      ],
+      "strings": []
+    },
+    "push_symlink": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": []
+    },
+    "pop_symlink": {
+      "start_point": [
+        276,
+        0
+      ],
+      "end_point": [
+        281,
+        1
+      ],
+      "strings": []
+    },
+    "read_symlink": {
+      "start_point": [
+        286,
+        0
+      ],
+      "end_point": [
+        353,
+        1
+      ],
+      "strings": [
+        "\".\""
+      ]
+    },
+    "traverse_next": {
+      "start_point": [
+        357,
+        0
+      ],
+      "end_point": [
+        409,
+        1
+      ],
+      "strings": []
+    },
+    "traverse_another_path": {
+      "start_point": [
+        421,
+        0
+      ],
+      "end_point": [
+        538,
+        1
+      ],
+      "strings": [
+        "\"Resolving path \\\"%.*s\\\"\"",
+        "\" (failed)\\n\"",
+        "\" (cached)\\n\"",
+        "\" (%u miss%s)\\n\"",
+        "\"\"",
+        "\"es\""
+      ]
+    },
+    "traverse_path": {
+      "start_point": [
+        541,
+        0
+      ],
+      "end_point": [
+        544,
+        1
+      ],
+      "strings": []
+    },
+    "safe_xstat": {
+      "start_point": [
+        546,
+        0
+      ],
+      "end_point": [
+        557,
+        1
+      ],
+      "strings": []
+    },
+    "safe_stat": {
+      "start_point": [
+        560,
+        0
+      ],
+      "end_point": [
+        563,
+        1
+      ],
+      "strings": []
+    },
+    "safe_lstat": {
+      "start_point": [
+        566,
+        0
+      ],
+      "end_point": [
+        569,
+        1
+      ],
+      "strings": []
+    },
+    "safe_open": {
+      "start_point": [
+        572,
+        0
+      ],
+      "end_point": [
+        583,
+        1
+      ],
+      "strings": []
+    },
+    "safe_rename": {
+      "start_point": [
+        586,
+        0
+      ],
+      "end_point": [
+        609,
+        1
+      ],
+      "strings": []
+    },
+    "safe_mkdir": {
+      "start_point": [
+        612,
+        0
+      ],
+      "end_point": [
+        623,
+        1
+      ],
+      "strings": []
+    },
+    "safe_rmdir": {
+      "start_point": [
+        626,
+        0
+      ],
+      "end_point": [
+        642,
+        1
+      ],
+      "strings": []
+    },
+    "safe_unlink": {
+      "start_point": [
+        645,
+        0
+      ],
+      "end_point": [
+        656,
+        1
+      ],
+      "strings": []
+    },
+    "safe_symlink": {
+      "start_point": [
+        659,
+        0
+      ],
+      "end_point": [
+        670,
+        1
+      ],
+      "strings": []
+    },
+    "safe_chmod": {
+      "start_point": [
+        673,
+        0
+      ],
+      "end_point": [
+        684,
+        1
+      ],
+      "strings": []
+    },
+    "safe_lchown": {
+      "start_point": [
+        687,
+        0
+      ],
+      "end_point": [
+        698,
+        1
+      ],
+      "strings": []
+    },
+    "safe_lutimens": {
+      "start_point": [
+        701,
+        0
+      ],
+      "end_point": [
+        712,
+        1
+      ],
+      "strings": []
+    },
+    "safe_readlink": {
+      "start_point": [
+        715,
+        0
+      ],
+      "end_point": [
+        726,
+        1
+      ],
+      "strings": []
+    },
+    "safe_access": {
+      "start_point": [
+        729,
+        0
+      ],
+      "end_point": [
+        740,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/safe.h": {},
+  "patch/patch-2.7.6/src/util.c": {
+    "file_id_hasher": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "file_id_comparator": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "init_backup_hash_table": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    },
+    "__insert_file_id": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": []
+    },
+    "__lookup_file_id": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    },
+    "insert_file_id": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        136,
+        1
+      ],
+      "strings": []
+    },
+    "lookup_file_id": {
+      "start_point": [
+        141,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "set_queued_output": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "has_queued_output": {
+      "start_point": [
+        159,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": []
+    },
+    "contains_slash": {
+      "start_point": [
+        167,
+        0
+      ],
+      "end_point": [
+        174,
+        1
+      ],
+      "strings": []
+    },
+    "copy_attr_error": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": []
+    },
+    "copy_attr_quote": {
+      "start_point": [
+        193,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    },
+    "copy_attr_free": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "strings": []
+    },
+    "copy_attr_check": {
+      "start_point": [
+        204,
+        0
+      ],
+      "end_point": [
+        209,
+        1
+      ],
+      "strings": []
+    },
+    "copy_attr": [
+      {
+        "start_point": [
+          211,
+          0
+        ],
+        "end_point": [
+          224,
+          1
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          228,
+          0
+        ],
+        "end_point": [
+          232,
+          1
+        ],
+        "strings": []
+      }
+    ],
+    "set_file_attributes": {
+      "start_point": [
+        236,
+        0
+      ],
+      "end_point": [
+        302,
+        1
+      ],
+      "strings": [
+        "\"Failed to set the timestamps of %s %s\"",
+        "\"symbolic link\"",
+        "\"file\"",
+        "\"Failed to set the %s of %s %s\"",
+        "\"owner\"",
+        "\"owning group\"",
+        "\"symbolic link\"",
+        "\"file\"",
+        "\"Failed to set the permissions of %s %s\"",
+        "\"symbolic link\"",
+        "\"file\""
+      ]
+    },
+    "create_backup_copy": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        310,
+        1
+      ],
+      "strings": []
+    },
+    "create_backup": {
+      "start_point": [
+        312,
+        0
+      ],
+      "end_point": [
+        428,
+        1
+      ],
+      "strings": [
+        "\"File %s is not a %s -- refusing to create backup\"",
+        "\"symbolic link\"",
+        "\"regular file\"",
+        "\"File %s already seen\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"Creating empty file %s\\n\"",
+        "\"Can't create file %s\"",
+        "\"Can't close file %s\"",
+        "\"Renaming file %s to %s\\n\"",
+        "\"Can't rename file %s to %s\""
+      ]
+    },
+    "move_file": {
+      "start_point": [
+        440,
+        0
+      ],
+      "end_point": [
+        546,
+        1
+      ],
+      "strings": [
+        "\"Can't reopen file %s\"",
+        "\"Can't create %s %s\"",
+        "\"symbolic link\"",
+        "\"Can't get file attributes of %s %s\"",
+        "\"symbolic link\"",
+        "\"Renaming file %s to %s\\n\"",
+        "\"Can't remove file %s\"",
+        "\"Can't rename file %s to %s\"",
+        "\"Removing file %s\\n\"",
+        "\"Can't remove file %s\""
+      ]
+    },
+    "create_file": {
+      "start_point": [
+        551,
+        0
+      ],
+      "end_point": [
+        576,
+        1
+      ],
+      "strings": [
+        "\"Can't create file %s\""
+      ]
+    },
+    "copy_to_fd": {
+      "start_point": [
+        578,
+        0
+      ],
+      "end_point": [
+        595,
+        1
+      ],
+      "strings": [
+        "\"Can't reopen file %s\""
+      ]
+    },
+    "copy_file": {
+      "start_point": [
+        599,
+        0
+      ],
+      "end_point": [
+        635,
+        1
+      ],
+      "strings": [
+        "\"Copying %s %s to %s\\n\"",
+        "\"symbolic link\"",
+        "\"file\"",
+        "\"Can't read %s %s\"",
+        "\"symbolic link\"",
+        "\"Can't create %s %s\"",
+        "\"symbolic link\"",
+        "\"Can't get file attributes of %s %s\"",
+        "\"symbolic link\"",
+        "\"Can't get file attributes of %s %s\"",
+        "\"file\""
+      ]
+    },
+    "append_to_file": {
+      "start_point": [
+        639,
+        0
+      ],
+      "end_point": [
+        649,
+        1
+      ],
+      "strings": [
+        "\"Can't reopen file %s\""
+      ]
+    },
+    "quote_system_arg": {
+      "start_point": [
+        668,
+        0
+      ],
+      "end_point": [
+        677,
+        1
+      ],
+      "strings": []
+    },
+    "version_controller": {
+      "start_point": [
+        690,
+        0
+      ],
+      "end_point": [
+        811,
+        1
+      ],
+      "strings": [
+        "\"./\"",
+        "\"\"",
+        "\"SCCS/\"",
+        "\"%s/\"",
+        "\"RCS/%s%s\"",
+        "\"RCS/%s\"",
+        "\"%s%s\"",
+        "\"RCS\"",
+        "\"SCCS/%s%s\"",
+        "\"%s%s\"",
+        "\"SCCS\"",
+        "\"%s@@\"",
+        "\"ClearCase\"",
+        "\"P4PORT\"",
+        "\"P4USER\"",
+        "\"P4CONFIG\"",
+        "\"Perforce\""
+      ]
+    },
+    "version_get": {
+      "start_point": [
+        818,
+        0
+      ],
+      "end_point": [
+        848,
+        1
+      ],
+      "strings": [
+        "\"Get file %s from %s%s? [y] \"",
+        "\"\"",
+        "\" with lock\"",
+        "\"can't do dry run on nonexistent version-controlled file %s; invoke '%s' and try again\"",
+        "\"Getting file %s from %s%s...\\n\"",
+        "\"\"",
+        "\" with lock\"",
+        "\"Can't get file %s from %s\"",
+        "\"%s\""
+      ]
+    },
+    "savebuf": {
+      "start_point": [
+        852,
+        0
+      ],
+      "end_point": [
+        871,
+        1
+      ],
+      "strings": []
+    },
+    "savestr": {
+      "start_point": [
+        873,
+        0
+      ],
+      "end_point": [
+        877,
+        1
+      ],
+      "strings": []
+    },
+    "remove_prefix": {
+      "start_point": [
+        879,
+        0
+      ],
+      "end_point": [
+        885,
+        1
+      ],
+      "strings": []
+    },
+    "format_linenum": {
+      "start_point": [
+        887,
+        0
+      ],
+      "end_point": [
+        909,
+        1
+      ],
+      "strings": []
+    },
+    "fatal": {
+      "start_point": [
+        913,
+        0
+      ],
+      "end_point": [
+        924,
+        1
+      ],
+      "strings": [
+        "\"%s: **** \""
+      ]
+    },
+    "xalloc_die": {
+      "start_point": [
+        926,
+        0
+      ],
+      "end_point": [
+        930,
+        1
+      ],
+      "strings": [
+        "\"out of memory\""
+      ]
+    },
+    "read_fatal": {
+      "start_point": [
+        932,
+        0
+      ],
+      "end_point": [
+        936,
+        1
+      ],
+      "strings": [
+        "\"read error\""
+      ]
+    },
+    "write_fatal": {
+      "start_point": [
+        938,
+        0
+      ],
+      "end_point": [
+        942,
+        1
+      ],
+      "strings": [
+        "\"write error\""
+      ]
+    },
+    "pfatal": {
+      "start_point": [
+        946,
+        0
+      ],
+      "end_point": [
+        960,
+        1
+      ],
+      "strings": [
+        "\"%s: **** \"",
+        "\" \""
+      ]
+    },
+    "vsay": {
+      "start_point": [
+        964,
+        0
+      ],
+      "end_point": [
+        969,
+        1
+      ],
+      "strings": []
+    },
+    "say": {
+      "start_point": [
+        971,
+        0
+      ],
+      "end_point": [
+        978,
+        1
+      ],
+      "strings": []
+    },
+    "ask": {
+      "start_point": [
+        982,
+        0
+      ],
+      "end_point": [
+        1037,
+        1
+      ],
+      "strings": [
+        "\"\\n\"",
+        "\"EOF\\n\"",
+        "\"tty read failed\""
+      ]
+    },
+    "ok_to_reverse": {
+      "start_point": [
+        1041,
+        0
+      ],
+      "end_point": [
+        1086,
+        1
+      ],
+      "strings": [
+        "\"  Skipping patch.\\n\"",
+        "\"  Applying it anyway.\\n\"",
+        "\"  Ignoring -R.\\n\"",
+        "\"  Assuming -R.\\n\"",
+        "\"  Ignore -R? [n] \"",
+        "\"  Assume -R? [n] \"",
+        "\"Apply anyway? [n] \"",
+        "\"Skipping patch.\\n\""
+      ]
+    },
+    "fatal_exit_handler": {
+      "start_point": [
+        1135,
+        0
+      ],
+      "end_point": [
+        1140,
+        1
+      ],
+      "strings": []
+    },
+    "set_signals": {
+      "start_point": [
+        1143,
+        0
+      ],
+      "end_point": [
+        1192,
+        1
+      ],
+      "strings": []
+    },
+    "ignore_signals": {
+      "start_point": [
+        1196,
+        0
+      ],
+      "end_point": [
+        1207,
+        1
+      ],
+      "strings": []
+    },
+    "exit_with_signal": {
+      "start_point": [
+        1209,
+        0
+      ],
+      "end_point": [
+        1219,
+        1
+      ],
+      "strings": []
+    },
+    "systemic": {
+      "start_point": [
+        1221,
+        0
+      ],
+      "end_point": [
+        1228,
+        1
+      ],
+      "strings": [
+        "\"+ %s\\n\""
+      ]
+    },
+    "replace_slashes": {
+      "start_point": [
+        1233,
+        0
+      ],
+      "end_point": [
+        1270,
+        1
+      ],
+      "strings": []
+    },
+    "makedirs": {
+      "start_point": [
+        1275,
+        0
+      ],
+      "end_point": [
+        1303,
+        1
+      ],
+      "strings": []
+    },
+    "removedirs": {
+      "start_point": [
+        1308,
+        0
+      ],
+      "end_point": [
+        1330,
+        1
+      ],
+      "strings": [
+        "\"Removed empty directory %s\\n\""
+      ]
+    },
+    "init_time": {
+      "start_point": [
+        1334,
+        0
+      ],
+      "end_point": [
+        1338,
+        1
+      ],
+      "strings": []
+    },
+    "parse_c_string": {
+      "start_point": [
+        1340,
+        0
+      ],
+      "end_point": [
+        1412,
+        1
+      ],
+      "strings": []
+    },
+    "strip_leading_slashes": {
+      "start_point": [
+        1418,
+        0
+      ],
+      "end_point": [
+        1441,
+        1
+      ],
+      "strings": []
+    },
+    "fetchname": {
+      "start_point": [
+        1446,
+        0
+      ],
+      "end_point": [
+        1562,
+        1
+      ],
+      "strings": [
+        "\"fetchname %s %d\\n\"",
+        "\"ignoring malformed filename %s\\n\"",
+        "\"/dev/null\""
+      ]
+    },
+    "parse_name": {
+      "start_point": [
+        1564,
+        0
+      ],
+      "end_point": [
+        1593,
+        1
+      ],
+      "strings": []
+    },
+    "Fseek": {
+      "start_point": [
+        1595,
+        0
+      ],
+      "end_point": [
+        1600,
+        1
+      ],
+      "strings": [
+        "\"fseek\""
+      ]
+    },
+    "try_safe_open": {
+      "start_point": [
+        1612,
+        0
+      ],
+      "end_point": [
+        1627,
+        1
+      ],
+      "strings": []
+    },
+    "make_tempfile": {
+      "start_point": [
+        1629,
+        0
+      ],
+      "end_point": [
+        1670,
+        1
+      ],
+      "strings": [
+        "\"%s/%s.%cXXXXXX\"",
+        "\"TMPDIR\"",
+        "\"TMP\"",
+        "\"TEMP\"",
+        "\"%s/p%cXXXXXX\""
+      ]
+    },
+    "stat_file": {
+      "start_point": [
+        1672,
+        0
+      ],
+      "end_point": [
+        1678,
+        1
+      ],
+      "strings": []
+    },
+    "filename_is_safe": {
+      "start_point": [
+        1684,
+        0
+      ],
+      "end_point": [
+        1700,
+        1
+      ],
+      "strings": []
+    },
+    "cwd_is_root": {
+      "start_point": [
+        1704,
+        0
+      ],
+      "end_point": [
+        1723,
+        1
+      ],
+      "strings": [
+        "\".\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/src/util.h": {
+    "skip_spaces": {
+      "start_point": [
+        83,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "patch/patch-2.7.6/src/version.c": {
+    "version": {
+      "start_point": [
+        18,
+        0
+      ],
+      "end_point": [
+        23,
+        1
+      ],
+      "strings": [
+        "\"%s %s\\n%s\\n\\n%s\\n\\n%s\\n\""
+      ]
+    }
+  },
+  "patch/patch-2.7.6/src/version.h": {}
+}

@@ -1,0 +1,9273 @@
+{
+  "Func_00402710": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "main",
+      [
+        928,
+        1229
+      ]
+    ]
+  ],
+  "Func_00402d50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "usage",
+      [
+        646,
+        827
+      ]
+    ]
+  ],
+  "Func_00403110": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "exit_handler",
+      [
+        189,
+        196
+      ]
+    ]
+  ],
+  "Func_00403140": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "signal_handler",
+      [
+        198,
+        204
+      ]
+    ]
+  ],
+  "Func_00403190": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "handle_a2ps_option",
+      [
+        835,
+        923
+      ]
+    ]
+  ],
+  "Func_00403380": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "spy_user",
+      [
+        546,
+        593
+      ]
+    ]
+  ],
+  "Func_00403590": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "list_options",
+      [
+        319,
+        535
+      ]
+    ]
+  ],
+  "Func_00403dd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "list_features",
+      [
+        600,
+        637
+      ]
+    ]
+  ],
+  "Func_00403eb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "get_highlight_level",
+      [
+        227,
+        233
+      ]
+    ]
+  ],
+  "Func_00403ef0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/main.c",
+      "highlight_level_to_string",
+      [
+        235,
+        253
+      ]
+    ]
+  ],
+  "Func_00403f10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/read.c",
+      "plain_print_postscript",
+      [
+        198,
+        206
+      ]
+    ]
+  ],
+  "Func_00403f70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/read.c",
+      "plain_getc",
+      [
+        38,
+        193
+      ]
+    ]
+  ],
+  "Func_00404280": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sshread.c",
+      "ssh_print_postscript",
+      [
+        407,
+        517
+      ]
+    ]
+  ],
+  "Func_00404780": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sshread.c",
+      "token_new",
+      [
+        78,
+        86
+      ]
+    ]
+  ],
+  "Func_004047d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sshread.c",
+      "rhs_plain_new",
+      [
+        88,
+        92
+      ]
+    ]
+  ],
+  "Func_004047e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sshread.c",
+      "ssh_get_token",
+      [
+        303,
+        395
+      ]
+    ]
+  ],
+  "Func_004049c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sshread.c",
+      "match_operator",
+      [
+        201,
+        246
+      ]
+    ]
+  ],
+  "Func_00404b40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sshread.c",
+      "match_sequence",
+      [
+        257,
+        297
+      ]
+    ]
+  ],
+  "Func_00404cb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sshread.c",
+      "match_keyword",
+      [
+        148,
+        195
+      ]
+    ]
+  ],
+  "Func_00404e60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sshread.c",
+      "match_word",
+      [
+        123,
+        137
+      ]
+    ]
+  ],
+  "Func_00404ed0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "new_pattern",
+      [
+        101,
+        108
+      ]
+    ]
+  ],
+  "Func_00404f00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "faced_string_new",
+      [
+        113,
+        121
+      ]
+    ]
+  ],
+  "Func_00404f30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_set_version",
+      [
+        157,
+        162
+      ]
+    ]
+  ],
+  "Func_00404f40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_set_requirement",
+      [
+        168,
+        181
+      ]
+    ]
+  ],
+  "Func_00404f90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rhs_new",
+      [
+        189,
+        196
+      ]
+    ]
+  ],
+  "Func_00404fc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "faced_string_self_print",
+      [
+        126,
+        135
+      ]
+    ]
+  ],
+  "Func_00405010": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rhs_new_single",
+      [
+        201,
+        209
+      ]
+    ]
+  ],
+  "Func_00405070": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rhs_add",
+      [
+        230,
+        234
+      ]
+    ]
+  ],
+  "Func_00405080": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rhs_self_print",
+      [
+        239,
+        248
+      ]
+    ]
+  ],
+  "Func_004050d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rule_new",
+      [
+        305,
+        318
+      ]
+    ]
+  ],
+  "Func_00405100": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rule_new_internal_regexp",
+      [
+        271,
+        300
+      ]
+    ]
+  ],
+  "Func_004051d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rule_new_internal_word",
+      [
+        256,
+        266
+      ]
+    ]
+  ],
+  "Func_00405200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "keyword_rule_new",
+      [
+        329,
+        350
+      ]
+    ]
+  ],
+  "Func_004052a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_new",
+      [
+        417,
+        442
+      ]
+    ]
+  ],
+  "Func_00405350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rule_self_print",
+      [
+        380,
+        388
+      ]
+    ]
+  ],
+  "Func_00405390": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rule_cmp",
+      [
+        374,
+        378
+      ]
+    ]
+  ],
+  "Func_004053a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_free",
+      [
+        454,
+        460
+      ]
+    ]
+  ],
+  "Func_004053d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "free_rule",
+      [
+        357,
+        368
+      ]
+    ]
+  ],
+  "Func_00405410": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_add_string",
+      [
+        471,
+        475
+      ]
+    ]
+  ],
+  "Func_00405420": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_add_regex",
+      [
+        477,
+        481
+      ]
+    ]
+  ],
+  "Func_00405430": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_set_no_face",
+      [
+        483,
+        488
+      ]
+    ]
+  ],
+  "Func_00405460": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rules_set_no_faces",
+      [
+        400,
+        407
+      ]
+    ]
+  ],
+  "Func_004054a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_merge_rules_unique",
+      [
+        497,
+        511
+      ]
+    ]
+  ],
+  "Func_004054e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_erase",
+      [
+        444,
+        452
+      ]
+    ]
+  ],
+  "Func_00405500": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "sequence_new",
+      [
+        619,
+        641
+      ]
+    ]
+  ],
+  "Func_00405570": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rule_set_no_face",
+      [
+        394,
+        398
+      ]
+    ]
+  ],
+  "Func_00405580": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_finalize",
+      [
+        516,
+        533
+      ]
+    ]
+  ],
+  "Func_004055e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "free_sequence",
+      [
+        646,
+        653
+      ]
+    ]
+  ],
+  "Func_00405610": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "new_C_string_sequence",
+      [
+        680,
+        696
+      ]
+    ]
+  ],
+  "Func_004056e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "new_C_exceptions",
+      [
+        664,
+        678
+      ]
+    ]
+  ],
+  "Func_00405800": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "sequence_self_print",
+      [
+        698,
+        707
+      ]
+    ]
+  ],
+  "Func_00405870": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "words_self_print",
+      [
+        462,
+        469
+      ]
+    ]
+  ],
+  "Func_004058b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "new_style_sheet",
+      [
+        715,
+        741
+      ]
+    ]
+  ],
+  "Func_00405980": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "ancestors_new",
+      [
+        538,
+        544
+      ]
+    ]
+  ],
+  "Func_004059b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_finalize",
+      [
+        797,
+        837
+      ]
+    ]
+  ],
+  "Func_00405b20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "ancestors_finalize",
+      [
+        546,
+        611
+      ]
+    ]
+  ],
+  "Func_00405cc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_self_print",
+      [
+        896,
+        929
+      ]
+    ]
+  ],
+  "Func_00405e70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_check",
+      [
+        1391,
+        1395
+      ]
+    ]
+  ],
+  "Func_00405e90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "alphabet_self_print",
+      [
+        82,
+        97
+      ]
+    ]
+  ],
+  "Func_00405f00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "list_style_sheets_short",
+      [
+        971,
+        977
+      ]
+    ]
+  ],
+  "Func_00405f50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "list_style_sheets_long",
+      [
+        982,
+        1004
+      ]
+    ]
+  ],
+  "Func_00406000": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "sheet_name_cmp",
+      [
+        886,
+        891
+      ]
+    ]
+  ],
+  "Func_00406030": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "get_style_sheet",
+      [
+        1472,
+        1507
+      ]
+    ]
+  ],
+  "Func_004060b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_print_signature",
+      [
+        934,
+        966
+      ]
+    ]
+  ],
+  "Func_004061d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "list_style_sheets_html",
+      [
+        1064,
+        1165
+      ]
+    ]
+  ],
+  "Func_004064e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheets_versions",
+      [
+        1513,
+        1529
+      ]
+    ]
+  ],
+  "Func_00406560": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_html_print_signature",
+      [
+        1013,
+        1057
+      ]
+    ]
+  ],
+  "Func_00406750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "list_style_sheets_texinfo",
+      [
+        1219,
+        1254
+      ]
+    ]
+  ],
+  "Func_00406850": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_texinfo_print_signature",
+      [
+        1174,
+        1214
+      ]
+    ]
+  ],
+  "Func_004069d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "new_style_sheets",
+      [
+        1426,
+        1434
+      ]
+    ]
+  ],
+  "Func_00406a00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "sheet_hash_1",
+      [
+        1404,
+        1408
+      ]
+    ]
+  ],
+  "Func_00406a40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "sheet_hash_2",
+      [
+        1410,
+        1414
+      ]
+    ]
+  ],
+  "Func_00406a80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "sheet_hash_cmp",
+      [
+        1416,
+        1421
+      ]
+    ]
+  ],
+  "Func_00406ab0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "style_sheet_mixed_new",
+      [
+        748,
+        788
+      ]
+    ]
+  ],
+  "Func_00406bf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "require_style_sheet",
+      [
+        1439,
+        1465
+      ]
+    ]
+  ],
+  "Func_00406c60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "faced_string_free",
+      [
+        137,
+        142
+      ]
+    ]
+  ],
+  "Func_00406c80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "rhs_set_no_face",
+      [
+        214,
+        223
+      ]
+    ]
+  ],
+  "Func_00406cd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "check_doubles",
+      [
+        1376,
+        1385
+      ]
+    ]
+  ],
+  "Func_00406d00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "check_sensitivity",
+      [
+        1327,
+        1345
+      ]
+    ]
+  ],
+  "Func_00406d50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "check_words_doubles",
+      [
+        1366,
+        1371
+      ]
+    ]
+  ],
+  "Func_00406d80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "check_rules_doubles",
+      [
+        1348,
+        1363
+      ]
+    ]
+  ],
+  "Func_00406e00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "check_words_lower_case",
+      [
+        1282,
+        1287
+      ]
+    ]
+  ],
+  "Func_00406e30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "check_sequences_lower_case",
+      [
+        1310,
+        1321
+      ]
+    ]
+  ],
+  "Func_00406e80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "check_rules_lower_case",
+      [
+        1263,
+        1277
+      ]
+    ]
+  ],
+  "Func_00406f00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "check_sequence_lower_case",
+      [
+        1292,
+        1308
+      ]
+    ]
+  ],
+  "Func_00406f70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ssheet.c",
+      "load_style_sheet",
+      [
+        843,
+        878
+      ]
+    ]
+  ],
+  "Func_00407070": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "set_requested_style",
+      [
+        49,
+        53
+      ]
+    ]
+  ],
+  "Func_004070b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "pattern_rule_new",
+      [
+        69,
+        81
+      ]
+    ]
+  ],
+  "Func_004070f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "sheets_map_new",
+      [
+        93,
+        99
+      ]
+    ]
+  ],
+  "Func_00407120": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "pattern_rule_self_print",
+      [
+        83,
+        91
+      ]
+    ]
+  ],
+  "Func_00407160": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "sheets_map_add",
+      [
+        101,
+        107
+      ]
+    ]
+  ],
+  "Func_00407180": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "shell_escape",
+      [
+        136,
+        162
+      ]
+    ]
+  ],
+  "Func_00407200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "get_command",
+      [
+        227,
+        283
+      ]
+    ]
+  ],
+  "Func_00407310": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "sheets_map_load_main",
+      [
+        113,
+        132
+      ]
+    ]
+  ],
+  "Func_00407390": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/select.c",
+      "file_verdict_on",
+      [
+        167,
+        220
+      ]
+    ]
+  ],
+  "Func_00407590": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "msg_job_pages_printed",
+      [
+        191,
+        234
+      ]
+    ]
+  ],
+  "Func_00407710": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "msg_nothing_printed",
+      [
+        238,
+        243
+      ]
+    ]
+  ],
+  "Func_00407750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "print_toc",
+      [
+        245,
+        267
+      ]
+    ]
+  ],
+  "Func_00407830": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "print",
+      [
+        274,
+        366
+      ]
+    ]
+  ],
+  "Func_00407a90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "input_new",
+      [
+        57,
+        137
+      ]
+    ]
+  ],
+  "Func_00407cd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "string_to_style_kind",
+      [
+        41,
+        53
+      ]
+    ]
+  ],
+  "Func_00407d40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "msg_file_pages_printed",
+      [
+        156,
+        186
+      ]
+    ]
+  ],
+  "Func_00407eb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "input_end",
+      [
+        139,
+        148
+      ]
+    ]
+  ],
+  "Func_00407ef0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/generate.c",
+      "guess",
+      [
+        373,
+        386
+      ]
+    ]
+  ],
+  "Func_00407f50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegation_table_new",
+      [
+        103,
+        110
+      ]
+    ]
+  ],
+  "Func_00407f80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegate_hash_1",
+      [
+        53,
+        57
+      ]
+    ]
+  ],
+  "Func_00407fc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegate_hash_2",
+      [
+        59,
+        63
+      ]
+    ]
+  ],
+  "Func_00408000": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegate_hash_cmp",
+      [
+        65,
+        70
+      ]
+    ]
+  ],
+  "Func_00408030": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegation_table_free",
+      [
+        115,
+        120
+      ]
+    ]
+  ],
+  "Func_00408050": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegate_free",
+      [
+        91,
+        98
+      ]
+    ]
+  ],
+  "Func_00408080": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "add_delegation",
+      [
+        139,
+        167
+      ]
+    ]
+  ],
+  "Func_00408270": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "get_subcontract",
+      [
+        173,
+        182
+      ]
+    ]
+  ],
+  "Func_004082e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "get_delegate_command",
+      [
+        190,
+        201
+      ]
+    ]
+  ],
+  "Func_00408310": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "subcontract",
+      [
+        214,
+        372
+      ]
+    ]
+  ],
+  "Func_004087f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegations_list_long",
+      [
+        398,
+        416
+      ]
+    ]
+  ],
+  "Func_00408870": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegate_hash_qcmp",
+      [
+        72,
+        77
+      ]
+    ]
+  ],
+  "Func_004088a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "dump_contract",
+      [
+        380,
+        393
+      ]
+    ]
+  ],
+  "Func_00408930": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegations_list_short",
+      [
+        421,
+        438
+      ]
+    ]
+  ],
+  "Func_004089b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegate_name_len",
+      [
+        79,
+        83
+      ]
+    ]
+  ],
+  "Func_004089c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/delegate.c",
+      "delegate_name_fputs",
+      [
+        85,
+        89
+      ]
+    ]
+  ],
+  "Func_004089d0": [],
+  "Func_004089e0": [],
+  "Func_00408ec0": [],
+  "Func_00408ef0": [],
+  "Func_00408f20": [],
+  "Func_00409190": [],
+  "Func_0040b1b0": [],
+  "Func_0040b1e0": [],
+  "Func_0040b1f0": [],
+  "Func_0040b230": [],
+  "Func_0040e220": [],
+  "Func_0040e370": [],
+  "Func_0040e4b0": [],
+  "Func_0040e520": [],
+  "Func_0040e580": [],
+  "Func_0040e6b0": [],
+  "Func_0040e6f0": [],
+  "Func_0040e770": [],
+  "Func_0040e860": [],
+  "Func_0040e8a0": [],
+  "Func_0040e900": [],
+  "Func_0040e910": [],
+  "Func_0040e940": [],
+  "Func_0040e9c0": [],
+  "Func_0040e9f0": [],
+  "Func_0040ea00": [],
+  "Func_0040ea30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "eol_to_string",
+      [
+        48,
+        74
+      ]
+    ]
+  ],
+  "Func_0040ea70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "option_string_to_eol",
+      [
+        99,
+        105
+      ]
+    ]
+  ],
+  "Func_0040eaa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_stream_set",
+      [
+        133,
+        137
+      ]
+    ]
+  ],
+  "Func_0040eab0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_internal_set",
+      [
+        110,
+        131
+      ]
+    ]
+  ],
+  "Func_0040eb10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_pipe_set",
+      [
+        139,
+        143
+      ]
+    ]
+  ],
+  "Func_0040eb30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_string_set",
+      [
+        145,
+        149
+      ]
+    ]
+  ],
+  "Func_0040eb60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_buffer_set",
+      [
+        151,
+        156
+      ]
+    ]
+  ],
+  "Func_0040eb80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_self_print",
+      [
+        174,
+        187
+      ]
+    ]
+  ],
+  "Func_0040ec10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_release",
+      [
+        192,
+        200
+      ]
+    ]
+  ],
+  "Func_0040ec20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_set_lower_case",
+      [
+        202,
+        206
+      ]
+    ]
+  ],
+  "Func_0040ec30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_get",
+      [
+        402,
+        454
+      ]
+    ]
+  ],
+  "Func_0040ed90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_string_get_line",
+      [
+        311,
+        395
+      ]
+    ]
+  ],
+  "Func_0040ef60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_stream_get_line",
+      [
+        214,
+        298
+      ]
+    ]
+  ],
+  "Func_0040f0d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_sample_get",
+      [
+        462,
+        483
+      ]
+    ]
+  ],
+  "Func_0040f150": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/buffer.c",
+      "buffer_save",
+      [
+        494,
+        510
+      ]
+    ]
+  ],
+  "Func_0040f1c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/versions.c",
+      "version_set_to_null",
+      [
+        34,
+        41
+      ]
+    ]
+  ],
+  "Func_0040f1d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/versions.c",
+      "version_null_p",
+      [
+        43,
+        52
+      ]
+    ]
+  ],
+  "Func_0040f200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/versions.c",
+      "version_cmp",
+      [
+        54,
+        66
+      ]
+    ]
+  ],
+  "Func_0040f240": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/versions.c",
+      "version_cpy",
+      [
+        68,
+        72
+      ]
+    ]
+  ],
+  "Func_0040f250": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/versions.c",
+      "version_self_print",
+      [
+        74,
+        83
+      ]
+    ]
+  ],
+  "Func_0040f280": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/versions.c",
+      "version_length",
+      [
+        88,
+        101
+      ]
+    ]
+  ],
+  "Func_0040f2c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/versions.c",
+      "version_add",
+      [
+        103,
+        110
+      ]
+    ]
+  ],
+  "Func_0040f2f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/versions.c",
+      "string_to_version",
+      [
+        117,
+        136
+      ]
+    ]
+  ],
+  "Func_0040f370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ffaces.c",
+      "fflag_self_print",
+      [
+        68,
+        92
+      ]
+    ]
+  ],
+  "Func_0040f410": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/ffaces.c",
+      "fface_self_print",
+      [
+        97,
+        120
+      ]
+    ]
+  ],
+  "Func_0040f4c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/version-etc.c",
+      "version_etc",
+      [
+        51,
+        70
+      ]
+    ]
+  ],
+  "Func_0040f580": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/long-options.c",
+      "parse_long_options",
+      [
+        47,
+        90
+      ]
+    ]
+  ],
+  "Func_0040f610": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tIN",
+      [
+        97,
+        132
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tIS",
+      [
+        136,
+        141
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tKEYWORDS",
+      [
+        157,
+        162
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tOPERATORS",
+      [
+        172,
+        177
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tOPERATORS",
+      [
+        178,
+        185
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tOPERATORS",
+      [
+        186,
+        190
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tOPERATORS",
+      [
+        191,
+        195
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tALPHABETS",
+      [
+        196,
+        203
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tFIRST",
+      [
+        204,
+        210
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tSECOND",
+      [
+        211,
+        217
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tSECOND",
+      [
+        218,
+        220
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tSECOND",
+      [
+        221,
+        223
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tSECOND",
+      [
+        224,
+        226
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tSECOND",
+      [
+        227,
+        229
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tSECOND",
+      [
+        230,
+        238
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "long_string",
+      [
+        252,
+        264
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "ancestors_list",
+      [
+        310,
+        318
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "ancestors_list",
+      [
+        342,
+        345
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "fface",
+      [
+        602,
+        609
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "fface",
+      [
+        610,
+        617
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "fface",
+      [
+        618,
+        625
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tSTRING",
+      [
+        626,
+        633
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "fface",
+      [
+        634,
+        641
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "fface",
+      [
+        642,
+        649
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "fface",
+      [
+        650,
+        657
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "tSTRING",
+      [
+        658,
+        665
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "fface",
+      [
+        666,
+        673
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "rhs_list",
+      [
+        674,
+        680
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "rhs_list",
+      [
+        681,
+        687
+      ]
+    ]
+  ],
+  "Func_00410680": [],
+  "Func_004106d0": [],
+  "Func_00410780": [],
+  "Func_004107e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.c",
+      "yysyntax_error",
+      [
+        1205,
+        1304
+      ]
+    ]
+  ],
+  "Func_00410a00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "yyerror",
+      [
+        740,
+        744
+      ]
+    ]
+  ],
+  "Func_00410a20": [],
+  "Func_00410a80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "parse_style_sheet",
+      [
+        776,
+        804
+      ]
+    ]
+  ],
+  "Func_00410b60": [],
+  "Func_00410b80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.y",
+      "yyprint",
+      [
+        749,
+        774
+      ]
+    ]
+  ],
+  "Func_00410c20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/parsessh.c",
+      "yytnamerr",
+      [
+        1158,
+        1195
+      ]
+    ]
+  ],
+  "Func_00410cb0": [],
+  "Func_00410ce0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.l",
+      "comment",
+      [
+        291,
+        293
+      ]
+    ]
+  ],
+  "Func_00411fe0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshensure_buffer_stack",
+      [
+        3196,
+        3233
+      ]
+    ]
+  ],
+  "Func_00412080": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_create_buffer",
+      [
+        3039,
+        3061
+      ]
+    ]
+  ],
+  "Func_004120e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_load_buffer_state",
+      [
+        3025,
+        3031
+      ]
+    ]
+  ],
+  "Func_00412130": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "yy_get_previous_state",
+      [
+        2797,
+        2822
+      ]
+    ]
+  ],
+  "Func_00412210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "yy_try_NUL_trans",
+      [
+        2829,
+        2850
+      ]
+    ]
+  ],
+  "Func_00412290": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "yy_get_next_buffer",
+      [
+        2671,
+        2793
+      ]
+    ]
+  ],
+  "Func_00412630": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.l",
+      "yywrap",
+      [
+        425,
+        429
+      ]
+    ]
+  ],
+  "Func_00412640": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshrestart",
+      [
+        2977,
+        2988
+      ]
+    ]
+  ],
+  "Func_004126c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "yy_fatal_error",
+      [
+        3325,
+        3329
+      ]
+    ]
+  ],
+  "Func_004126f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_init_buffer",
+      [
+        3090,
+        3112
+      ]
+    ]
+  ],
+  "Func_00412780": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_switch_to_buffer",
+      [
+        2994,
+        3023
+      ]
+    ]
+  ],
+  "Func_00412800": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshalloc",
+      [
+        3505,
+        3508
+      ]
+    ]
+  ],
+  "Func_00412810": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_delete_buffer",
+      [
+        3067,
+        3080
+      ]
+    ]
+  ],
+  "Func_00412870": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshfree",
+      [
+        3522,
+        3525
+      ]
+    ]
+  ],
+  "Func_00412880": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_flush_buffer",
+      [
+        3118,
+        3139
+      ]
+    ]
+  ],
+  "Func_004128e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshpush_buffer_state",
+      [
+        3147,
+        3171
+      ]
+    ]
+  ],
+  "Func_00412960": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshpop_buffer_state",
+      [
+        3177,
+        3191
+      ]
+    ]
+  ],
+  "Func_004129d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_scan_buffer",
+      [
+        3241,
+        3268
+      ]
+    ]
+  ],
+  "Func_00412a60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_scan_string",
+      [
+        3278,
+        3282
+      ]
+    ]
+  ],
+  "Func_00412a80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "ssh_scan_bytes",
+      [
+        3291,
+        3319
+      ]
+    ]
+  ],
+  "Func_00412b00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshget_lineno",
+      [
+        3353,
+        3357
+      ]
+    ]
+  ],
+  "Func_00412b10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshget_in",
+      [
+        3362,
+        3365
+      ]
+    ]
+  ],
+  "Func_00412b20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshget_out",
+      [
+        3370,
+        3373
+      ]
+    ]
+  ],
+  "Func_00412b30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshget_leng",
+      [
+        3378,
+        3381
+      ]
+    ]
+  ],
+  "Func_00412b40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshget_text",
+      [
+        3387,
+        3390
+      ]
+    ]
+  ],
+  "Func_00412b50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshset_lineno",
+      [
+        3396,
+        3400
+      ]
+    ]
+  ],
+  "Func_00412b60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshset_in",
+      [
+        3408,
+        3411
+      ]
+    ]
+  ],
+  "Func_00412b70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshset_out",
+      [
+        3413,
+        3416
+      ]
+    ]
+  ],
+  "Func_00412b80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshget_debug",
+      [
+        3418,
+        3421
+      ]
+    ]
+  ],
+  "Func_00412b90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshset_debug",
+      [
+        3423,
+        3426
+      ]
+    ]
+  ],
+  "Func_00412ba0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshlex_destroy",
+      [
+        3460,
+        3479
+      ]
+    ]
+  ],
+  "Func_00412c20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "yy_init_globals",
+      [
+        3428,
+        3457
+      ]
+    ]
+  ],
+  "Func_00412c80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.c",
+      "sshrealloc",
+      [
+        3510,
+        3520
+      ]
+    ]
+  ],
+  "Func_00412c90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexssh.l",
+      "sshlex_initialize",
+      [
+        434,
+        443
+      ]
+    ]
+  ],
+  "Func_00412cc0": [],
+  "Func_00413160": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psensure_buffer_stack",
+      [
+        1431,
+        1468
+      ]
+    ]
+  ],
+  "Func_00413200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_create_buffer",
+      [
+        1274,
+        1296
+      ]
+    ]
+  ],
+  "Func_00413260": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_load_buffer_state",
+      [
+        1260,
+        1266
+      ]
+    ]
+  ],
+  "Func_004132b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "yy_get_previous_state",
+      [
+        1038,
+        1064
+      ]
+    ]
+  ],
+  "Func_004133a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "yy_try_NUL_trans",
+      [
+        1071,
+        1092
+      ]
+    ]
+  ],
+  "Func_00413420": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "yy_get_next_buffer",
+      [
+        912,
+        1034
+      ]
+    ]
+  ],
+  "Func_004137c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.l",
+      "yywrap",
+      [
+        57,
+        61
+      ]
+    ]
+  ],
+  "Func_004137d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psrestart",
+      [
+        1212,
+        1223
+      ]
+    ]
+  ],
+  "Func_00413850": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "yy_fatal_error",
+      [
+        1560,
+        1564
+      ]
+    ]
+  ],
+  "Func_00413880": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_init_buffer",
+      [
+        1325,
+        1347
+      ]
+    ]
+  ],
+  "Func_00413910": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_switch_to_buffer",
+      [
+        1229,
+        1258
+      ]
+    ]
+  ],
+  "Func_00413990": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psalloc",
+      [
+        1737,
+        1740
+      ]
+    ]
+  ],
+  "Func_004139a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_delete_buffer",
+      [
+        1302,
+        1315
+      ]
+    ]
+  ],
+  "Func_00413a00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psfree",
+      [
+        1754,
+        1757
+      ]
+    ]
+  ],
+  "Func_00413a10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_flush_buffer",
+      [
+        1353,
+        1374
+      ]
+    ]
+  ],
+  "Func_00413a70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "pspush_buffer_state",
+      [
+        1382,
+        1406
+      ]
+    ]
+  ],
+  "Func_00413af0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "pspop_buffer_state",
+      [
+        1412,
+        1426
+      ]
+    ]
+  ],
+  "Func_00413b60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_scan_buffer",
+      [
+        1476,
+        1503
+      ]
+    ]
+  ],
+  "Func_00413bf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_scan_string",
+      [
+        1513,
+        1517
+      ]
+    ]
+  ],
+  "Func_00413c10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "ps_scan_bytes",
+      [
+        1526,
+        1554
+      ]
+    ]
+  ],
+  "Func_00413c90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psget_lineno",
+      [
+        1588,
+        1592
+      ]
+    ]
+  ],
+  "Func_00413ca0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psget_in",
+      [
+        1597,
+        1600
+      ]
+    ]
+  ],
+  "Func_00413cb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psget_out",
+      [
+        1605,
+        1608
+      ]
+    ]
+  ],
+  "Func_00413cc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psget_leng",
+      [
+        1613,
+        1616
+      ]
+    ]
+  ],
+  "Func_00413cd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psget_text",
+      [
+        1622,
+        1625
+      ]
+    ]
+  ],
+  "Func_00413ce0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psset_lineno",
+      [
+        1631,
+        1635
+      ]
+    ]
+  ],
+  "Func_00413cf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psset_in",
+      [
+        1643,
+        1646
+      ]
+    ]
+  ],
+  "Func_00413d00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psset_out",
+      [
+        1648,
+        1651
+      ]
+    ]
+  ],
+  "Func_00413d10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psget_debug",
+      [
+        1653,
+        1656
+      ]
+    ]
+  ],
+  "Func_00413d20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psset_debug",
+      [
+        1658,
+        1661
+      ]
+    ]
+  ],
+  "Func_00413d30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "pslex_destroy",
+      [
+        1692,
+        1711
+      ]
+    ]
+  ],
+  "Func_00413db0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "yy_init_globals",
+      [
+        1663,
+        1689
+      ]
+    ]
+  ],
+  "Func_00413e10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.c",
+      "psrealloc",
+      [
+        1742,
+        1752
+      ]
+    ]
+  ],
+  "Func_00413e20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/lexps.l",
+      "pslex_dump",
+      [
+        66,
+        73
+      ]
+    ]
+  ],
+  "Func_00413e40": [],
+  "Func_004148b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapensure_buffer_stack",
+      [
+        1793,
+        1830
+      ]
+    ]
+  ],
+  "Func_00414950": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_create_buffer",
+      [
+        1636,
+        1658
+      ]
+    ]
+  ],
+  "Func_004149b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_load_buffer_state",
+      [
+        1622,
+        1628
+      ]
+    ]
+  ],
+  "Func_00414a00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.l",
+      "yy_include_push",
+      [
+        207,
+        224
+      ]
+    ]
+  ],
+  "Func_00414ae0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.l",
+      "yy_include_pop",
+      [
+        228,
+        237
+      ]
+    ]
+  ],
+  "Func_00414b70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.l",
+      "obstack_octal_grow",
+      [
+        74,
+        82
+      ]
+    ]
+  ],
+  "Func_00414be0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.l",
+      "obstack_hexa_grow",
+      [
+        58,
+        72
+      ]
+    ]
+  ],
+  "Func_00414c80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "yy_get_previous_state",
+      [
+        1394,
+        1419
+      ]
+    ]
+  ],
+  "Func_00414d60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "yy_try_NUL_trans",
+      [
+        1426,
+        1447
+      ]
+    ]
+  ],
+  "Func_00414de0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "yy_get_next_buffer",
+      [
+        1268,
+        1390
+      ]
+    ]
+  ],
+  "Func_00415180": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.l",
+      "yywrap",
+      [
+        263,
+        267
+      ]
+    ]
+  ],
+  "Func_00415190": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smaprestart",
+      [
+        1574,
+        1585
+      ]
+    ]
+  ],
+  "Func_00415210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "yy_fatal_error",
+      [
+        1922,
+        1926
+      ]
+    ]
+  ],
+  "Func_00415240": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_init_buffer",
+      [
+        1687,
+        1709
+      ]
+    ]
+  ],
+  "Func_004152d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_switch_to_buffer",
+      [
+        1591,
+        1620
+      ]
+    ]
+  ],
+  "Func_00415350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapalloc",
+      [
+        2102,
+        2105
+      ]
+    ]
+  ],
+  "Func_00415360": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_delete_buffer",
+      [
+        1664,
+        1677
+      ]
+    ]
+  ],
+  "Func_004153c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapfree",
+      [
+        2119,
+        2122
+      ]
+    ]
+  ],
+  "Func_004153d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_flush_buffer",
+      [
+        1715,
+        1736
+      ]
+    ]
+  ],
+  "Func_00415430": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smappush_buffer_state",
+      [
+        1744,
+        1768
+      ]
+    ]
+  ],
+  "Func_004154b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smappop_buffer_state",
+      [
+        1774,
+        1788
+      ]
+    ]
+  ],
+  "Func_00415520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_scan_buffer",
+      [
+        1838,
+        1865
+      ]
+    ]
+  ],
+  "Func_004155b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_scan_string",
+      [
+        1875,
+        1879
+      ]
+    ]
+  ],
+  "Func_004155d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smap_scan_bytes",
+      [
+        1888,
+        1916
+      ]
+    ]
+  ],
+  "Func_00415650": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapget_lineno",
+      [
+        1950,
+        1954
+      ]
+    ]
+  ],
+  "Func_00415660": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapget_in",
+      [
+        1959,
+        1962
+      ]
+    ]
+  ],
+  "Func_00415670": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapget_out",
+      [
+        1967,
+        1970
+      ]
+    ]
+  ],
+  "Func_00415680": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapget_leng",
+      [
+        1975,
+        1978
+      ]
+    ]
+  ],
+  "Func_00415690": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapget_text",
+      [
+        1984,
+        1987
+      ]
+    ]
+  ],
+  "Func_004156a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapset_lineno",
+      [
+        1993,
+        1997
+      ]
+    ]
+  ],
+  "Func_004156b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapset_in",
+      [
+        2005,
+        2008
+      ]
+    ]
+  ],
+  "Func_004156c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapset_out",
+      [
+        2010,
+        2013
+      ]
+    ]
+  ],
+  "Func_004156d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapget_debug",
+      [
+        2015,
+        2018
+      ]
+    ]
+  ],
+  "Func_004156e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smapset_debug",
+      [
+        2020,
+        2023
+      ]
+    ]
+  ],
+  "Func_004156f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smaplex_destroy",
+      [
+        2057,
+        2076
+      ]
+    ]
+  ],
+  "Func_00415770": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "yy_init_globals",
+      [
+        2025,
+        2054
+      ]
+    ]
+  ],
+  "Func_004157d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.c",
+      "smaprealloc",
+      [
+        2107,
+        2117
+      ]
+    ]
+  ],
+  "Func_004157e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.l",
+      "sheets_map_load",
+      [
+        270,
+        310
+      ]
+    ]
+  ],
+  "Func_00415920": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.l",
+      "yy_open",
+      [
+        246,
+        252
+      ]
+    ]
+  ],
+  "Func_00415950": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/src/sheets-map.l",
+      "yy_close",
+      [
+        256,
+        261
+      ]
+    ]
+  ],
+  "Func_00415970": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encodings_map_new",
+      [
+        136,
+        140
+      ]
+    ]
+  ],
+  "Func_00415980": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encodings_map_free",
+      [
+        142,
+        146
+      ]
+    ]
+  ],
+  "Func_00415990": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "load_main_encodings_map",
+      [
+        170,
+        185
+      ]
+    ]
+  ],
+  "Func_00415a10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "load_encodings_map",
+      [
+        161,
+        165
+      ]
+    ]
+  ],
+  "Func_00415a20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_resolve_font_substitute",
+      [
+        481,
+        520
+      ]
+    ]
+  ],
+  "Func_00415b30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_self_print",
+      [
+        691,
+        729
+      ]
+    ]
+  ],
+  "Func_00415cc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_print_signature",
+      [
+        649,
+        663
+      ]
+    ]
+  ],
+  "Func_00415d50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_table_self_print",
+      [
+        326,
+        339
+      ]
+    ]
+  ],
+  "Func_00415db0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "wx_self_print",
+      [
+        202,
+        215
+      ]
+    ]
+  ],
+  "Func_00415e60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_get_name",
+      [
+        734,
+        738
+      ]
+    ]
+  ],
+  "Func_00415e70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_get_key",
+      [
+        743,
+        747
+      ]
+    ]
+  ],
+  "Func_00415e80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_char_exists",
+      [
+        749,
+        754
+      ]
+    ]
+  ],
+  "Func_00415ea0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encodings_table_new",
+      [
+        836,
+        847
+      ]
+    ]
+  ],
+  "Func_00415ed0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_hash_1",
+      [
+        808,
+        812
+      ]
+    ]
+  ],
+  "Func_00415f10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_hash_2",
+      [
+        814,
+        818
+      ]
+    ]
+  ],
+  "Func_00415f50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_hash_cmp",
+      [
+        820,
+        824
+      ]
+    ]
+  ],
+  "Func_00415f80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encodings_table_free",
+      [
+        852,
+        857
+      ]
+    ]
+  ],
+  "Func_00415fa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_free",
+      [
+        441,
+        461
+      ]
+    ]
+  ],
+  "Func_00416060": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_add_font_name_used",
+      [
+        906,
+        911
+      ]
+    ]
+  ],
+  "Func_00416080": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_build_faces_wx",
+      [
+        921,
+        943
+      ]
+    ]
+  ],
+  "Func_00416110": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "get_encoding_by_alias",
+      [
+        967,
+        978
+      ]
+    ]
+  ],
+  "Func_00416150": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encodings_map_resolve_alias",
+      [
+        151,
+        156
+      ]
+    ]
+  ],
+  "Func_00416160": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_get",
+      [
+        948,
+        962
+      ]
+    ]
+  ],
+  "Func_004161b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "dump_encodings_setup",
+      [
+        984,
+        1000
+      ]
+    ]
+  ],
+  "Func_00416220": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_hash_qcmp",
+      [
+        826,
+        831
+      ]
+    ]
+  ],
+  "Func_00416250": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "dump_encoding_setup",
+      [
+        763,
+        800
+      ]
+    ]
+  ],
+  "Func_004163a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "char_WX",
+      [
+        1008,
+        1074
+      ]
+    ]
+  ],
+  "Func_00416560": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "string_WX",
+      [
+        1079,
+        1088
+      ]
+    ]
+  ],
+  "Func_004165b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "set_encoding",
+      [
+        1093,
+        1097
+      ]
+    ]
+  ],
+  "Func_004165c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "list_encodings_short",
+      [
+        1111,
+        1117
+      ]
+    ]
+  ],
+  "Func_00416610": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "list_encodings_long",
+      [
+        1122,
+        1146
+      ]
+    ]
+  ],
+  "Func_004166d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "da_encoding_name_cmp",
+      [
+        1101,
+        1106
+      ]
+    ]
+  ],
+  "Func_00416710": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "list_texinfo_encodings_long",
+      [
+        1168,
+        1190
+      ]
+    ]
+  ],
+  "Func_004167b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_texinfo_print_signature",
+      [
+        1154,
+        1163
+      ]
+    ]
+  ],
+  "Func_00416800": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_entry_hash_qcmp",
+      [
+        264,
+        268
+      ]
+    ]
+  ],
+  "Func_00416830": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_entry_self_print",
+      [
+        293,
+        301
+      ]
+    ]
+  ],
+  "Func_00416890": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_table_free",
+      [
+        319,
+        324
+      ]
+    ]
+  ],
+  "Func_004168b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_entry_free",
+      [
+        286,
+        291
+      ]
+    ]
+  ],
+  "Func_004168d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_add",
+      [
+        889,
+        904
+      ]
+    ]
+  ],
+  "Func_00416940": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_new",
+      [
+        415,
+        439
+      ]
+    ]
+  ],
+  "Func_00416a20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_setup",
+      [
+        862,
+        883
+      ]
+    ]
+  ],
+  "Func_00416aa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_table_new",
+      [
+        306,
+        317
+      ]
+    ]
+  ],
+  "Func_00416ad0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "wx_new",
+      [
+        190,
+        200
+      ]
+    ]
+  ],
+  "Func_00416b00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_entry_hash_1",
+      [
+        246,
+        250
+      ]
+    ]
+  ],
+  "Func_00416b40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_entry_hash_2",
+      [
+        252,
+        256
+      ]
+    ]
+  ],
+  "Func_00416b80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "font_entry_hash_cmp",
+      [
+        258,
+        262
+      ]
+    ]
+  ],
+  "Func_00416bb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "load_encoding_description_file",
+      [
+        532,
+        644
+      ]
+    ]
+  ],
+  "Func_004171f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_output_ps_vector",
+      [
+        668,
+        686
+      ]
+    ]
+  ],
+  "Func_004172a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/encoding.c",
+      "encoding_add_font_substitute",
+      [
+        466,
+        471
+      ]
+    ]
+  ],
+  "Func_004172b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "add_medium",
+      [
+        100,
+        117
+      ]
+    ]
+  ],
+  "Func_00417340": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "new_medium_table",
+      [
+        132,
+        142
+      ]
+    ]
+  ],
+  "Func_00417370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "medium_hash_1",
+      [
+        54,
+        58
+      ]
+    ]
+  ],
+  "Func_004173c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "medium_hash_2",
+      [
+        60,
+        64
+      ]
+    ]
+  ],
+  "Func_00417400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "medium_hash_cmp",
+      [
+        66,
+        71
+      ]
+    ]
+  ],
+  "Func_00417460": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "free_medium_table",
+      [
+        147,
+        152
+      ]
+    ]
+  ],
+  "Func_00417480": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "hash_free_medium",
+      [
+        122,
+        127
+      ]
+    ]
+  ],
+  "Func_004174a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "a2ps_get_medium",
+      [
+        157,
+        176
+      ]
+    ]
+  ],
+  "Func_00417500": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "a2ps_get_medium_name",
+      [
+        180,
+        189
+      ]
+    ]
+  ],
+  "Func_00417510": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "a2ps_medium_libpaper_p",
+      [
+        192,
+        196
+      ]
+    ]
+  ],
+  "Func_00417530": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "list_media_long",
+      [
+        201,
+        225
+      ]
+    ]
+  ],
+  "Func_00417650": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "medium_hash_qcmp",
+      [
+        73,
+        78
+      ]
+    ]
+  ],
+  "Func_004176c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "list_media_short",
+      [
+        230,
+        245
+      ]
+    ]
+  ],
+  "Func_00417740": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "medium_name_len",
+      [
+        82,
+        86
+      ]
+    ]
+  ],
+  "Func_00417750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/media.c",
+      "medium_name_fputs",
+      [
+        90,
+        94
+      ]
+    ]
+  ],
+  "Func_00417760": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/jobs.c",
+      "a2ps_job_unlink_tmpfiles",
+      [
+        104,
+        116
+      ]
+    ]
+  ],
+  "Func_004177b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/jobs.c",
+      "a2ps_job_new",
+      [
+        123,
+        282
+      ]
+    ]
+  ],
+  "Func_00417ac0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/jobs.c",
+      "a2ps_job_register_user",
+      [
+        53,
+        75
+      ]
+    ]
+  ],
+  "Func_00417b70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/jobs.c",
+      "tmpfiles_reset",
+      [
+        80,
+        87
+      ]
+    ]
+  ],
+  "Func_00417ba0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/jobs.c",
+      "a2ps_job_finalize",
+      [
+        290,
+        316
+      ]
+    ]
+  ],
+  "Func_00417c60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/jobs.c",
+      "a2ps_job_free",
+      [
+        321,
+        384
+      ]
+    ]
+  ],
+  "Func_00417e20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/jobs.c",
+      "tmpfiles_free",
+      [
+        92,
+        99
+      ]
+    ]
+  ],
+  "Func_00417e60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_new",
+      [
+        122,
+        137
+      ]
+    ]
+  ],
+  "Func_00417ed0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "derivation_self_print",
+      [
+        84,
+        114
+      ]
+    ]
+  ],
+  "Func_00417fb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_free",
+      [
+        142,
+        148
+      ]
+    ]
+  ],
+  "Func_00417fe0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_report",
+      [
+        150,
+        156
+      ]
+    ]
+  ],
+  "Func_00418020": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_to_void",
+      [
+        161,
+        165
+      ]
+    ]
+  ],
+  "Func_00418030": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_is_to_void",
+      [
+        170,
+        174
+      ]
+    ]
+  ],
+  "Func_00418040": [],
+  "Func_004180e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_char",
+      [
+        214,
+        221
+      ]
+    ]
+  ],
+  "Func_00418100": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_delayed_routine",
+      [
+        226,
+        242
+      ]
+    ]
+  ],
+  "Func_00418150": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "new_derivation",
+      [
+        76,
+        82
+      ]
+    ]
+  ],
+  "Func_00418170": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_delayed_chunk",
+      [
+        244,
+        257
+      ]
+    ]
+  ],
+  "Func_004181b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_delayed_int",
+      [
+        262,
+        275
+      ]
+    ]
+  ],
+  "Func_004181f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_delayed_string",
+      [
+        280,
+        293
+      ]
+    ]
+  ],
+  "Func_00418230": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_file",
+      [
+        306,
+        543
+      ]
+    ]
+  ],
+  "Func_00418b00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_self_print",
+      [
+        581,
+        586
+      ]
+    ]
+  ],
+  "Func_00418b40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "output_dump",
+      [
+        591,
+        611
+      ]
+    ]
+  ],
+  "Func_00418bf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "underivation",
+      [
+        548,
+        576
+      ]
+    ]
+  ],
+  "Func_00418c50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/output.c",
+      "undivert",
+      [
+        617,
+        631
+      ]
+    ]
+  ],
+  "Func_00418c80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "string_to_array",
+      [
+        39,
+        48
+      ]
+    ]
+  ],
+  "Func_00418d10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "ustrccat",
+      [
+        53,
+        59
+      ]
+    ]
+  ],
+  "Func_00418d30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "is_strlower",
+      [
+        64,
+        71
+      ]
+    ]
+  ],
+  "Func_00418d80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "strnlower",
+      [
+        86,
+        90
+      ]
+    ]
+  ],
+  "Func_00418d90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "_strncpylc",
+      [
+        76,
+        84
+      ]
+    ]
+  ],
+  "Func_00418de0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "strlower",
+      [
+        92,
+        96
+      ]
+    ]
+  ],
+  "Func_00418e00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "strcpylc",
+      [
+        98,
+        102
+      ]
+    ]
+  ],
+  "Func_00418e30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "strcnt",
+      [
+        107,
+        115
+      ]
+    ]
+  ],
+  "Func_00418e60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "strsub",
+      [
+        121,
+        127
+      ]
+    ]
+  ],
+  "Func_00418e80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "xfopen",
+      [
+        145,
+        149
+      ]
+    ]
+  ],
+  "Func_00418e90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "_xfopen",
+      [
+        132,
+        143
+      ]
+    ]
+  ],
+  "Func_00418f20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "xrfopen",
+      [
+        151,
+        155
+      ]
+    ]
+  ],
+  "Func_00418f50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "xwfopen",
+      [
+        157,
+        161
+      ]
+    ]
+  ],
+  "Func_00418f80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "xpopen",
+      [
+        181,
+        185
+      ]
+    ]
+  ],
+  "Func_00418f90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "_xpopen",
+      [
+        168,
+        179
+      ]
+    ]
+  ],
+  "Func_00419010": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "xrpopen",
+      [
+        187,
+        191
+      ]
+    ]
+  ],
+  "Func_00419040": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "xwpopen",
+      [
+        193,
+        197
+      ]
+    ]
+  ],
+  "Func_00419070": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "streams_copy",
+      [
+        212,
+        216
+      ]
+    ]
+  ],
+  "Func_00419080": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "_streams_copy",
+      [
+        202,
+        210
+      ]
+    ]
+  ],
+  "Func_004190f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "stream_dump",
+      [
+        222,
+        232
+      ]
+    ]
+  ],
+  "Func_00419140": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/routines.c",
+      "unlink2",
+      [
+        237,
+        244
+      ]
+    ]
+  ],
+  "Func_00419170": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_set_encoding",
+      [
+        247,
+        253
+      ]
+    ]
+  ],
+  "Func_004191c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_end_encoding",
+      [
+        255,
+        263
+      ]
+    ]
+  ],
+  "Func_00419220": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_switch_encoding",
+      [
+        302,
+        318
+      ]
+    ]
+  ],
+  "Func_004192c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_internal_switch_encoding",
+      [
+        275,
+        294
+      ]
+    ]
+  ],
+  "Func_00419320": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "page_flush",
+      [
+        595,
+        604
+      ]
+    ]
+  ],
+  "Func_00419350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "page_end",
+      [
+        419,
+        479
+      ]
+    ]
+  ],
+  "Func_00419590": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "require_fresh_page",
+      [
+        635,
+        642
+      ]
+    ]
+  ],
+  "Func_004195a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_print_char",
+      [
+        718,
+        910
+      ]
+    ]
+  ],
+  "Func_00419a40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "virtual_begin",
+      [
+        488,
+        516
+      ]
+    ]
+  ],
+  "Func_00419b90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "end_of_line",
+      [
+        667,
+        678
+      ]
+    ]
+  ],
+  "Func_00419c20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "virtual_end",
+      [
+        522,
+        563
+      ]
+    ]
+  ],
+  "Func_00419de0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "fold_line",
+      [
+        688,
+        713
+      ]
+    ]
+  ],
+  "Func_00419e80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_escape_char",
+      [
+        80,
+        177
+      ]
+    ]
+  ],
+  "Func_0041a130": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_print_string",
+      [
+        915,
+        920
+      ]
+    ]
+  ],
+  "Func_0041a170": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_print_buffer",
+      [
+        925,
+        934
+      ]
+    ]
+  ],
+  "Func_0041a1c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_begin_file",
+      [
+        941,
+        985
+      ]
+    ]
+  ],
+  "Func_0041a270": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "virtual_empty_output",
+      [
+        567,
+        585
+      ]
+    ]
+  ],
+  "Func_0041a2d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "sheet_flush",
+      [
+        619,
+        628
+      ]
+    ]
+  ],
+  "Func_0041a300": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "page_empty_output",
+      [
+        609,
+        617
+      ]
+    ]
+  ],
+  "Func_0041a350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_end_file",
+      [
+        987,
+        1008
+      ]
+    ]
+  ],
+  "Func_0041a3e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "check_binary_file",
+      [
+        655,
+        665
+      ]
+    ]
+  ],
+  "Func_0041a450": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_push_encoding",
+      [
+        320,
+        325
+      ]
+    ]
+  ],
+  "Func_0041a470": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "output_marker",
+      [
+        197,
+        239
+      ]
+    ]
+  ],
+  "Func_0041a5f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "page_begin",
+      [
+        342,
+        414
+      ]
+    ]
+  ],
+  "Func_0041a850": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psgen.c",
+      "ps_pop_encoding",
+      [
+        327,
+        331
+      ]
+    ]
+  ],
+  "Func_0041a860": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "prologues_list_short",
+      [
+        95,
+        101
+      ]
+    ]
+  ],
+  "Func_0041a8b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "prologues_list_long",
+      [
+        178,
+        187
+      ]
+    ]
+  ],
+  "Func_0041a900": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "prologues_list_long_internal",
+      [
+        160,
+        176
+      ]
+    ]
+  ],
+  "Func_0041a980": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "prologues_list_texinfo",
+      [
+        189,
+        196
+      ]
+    ]
+  ],
+  "Func_0041a9e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "ps_begin",
+      [
+        491,
+        596
+      ]
+    ]
+  ],
+  "Func_0041add0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "output_prolog",
+      [
+        269,
+        290
+      ]
+    ]
+  ],
+  "Func_0041ae80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "output_document_setup",
+      [
+        295,
+        470
+      ]
+    ]
+  ],
+  "Func_0041b6c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "ps_end",
+      [
+        601,
+        614
+      ]
+    ]
+  ],
+  "Func_0041b6f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "end_document",
+      [
+        472,
+        484
+      ]
+    ]
+  ],
+  "Func_0041b750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "prologue_print_signature",
+      [
+        106,
+        155
+      ]
+    ]
+  ],
+  "Func_0041b960": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "dump_prolog_comments",
+      [
+        219,
+        264
+      ]
+    ]
+  ],
+  "Func_0041bb40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prolog.c",
+      "dump_encodings",
+      [
+        208,
+        214
+      ]
+    ]
+  ],
+  "Func_0041bb60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "string_to_face",
+      [
+        71,
+        81
+      ]
+    ]
+  ],
+  "Func_0041bba0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "face_to_string",
+      [
+        95,
+        99
+      ]
+    ]
+  ],
+  "Func_0041bbb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "_face_to_string",
+      [
+        83,
+        93
+      ]
+    ]
+  ],
+  "Func_0041bbe0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "face_self_print",
+      [
+        104,
+        108
+      ]
+    ]
+  ],
+  "Func_0041bc00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "face_eo_ps",
+      [
+        111,
+        139
+      ]
+    ]
+  ],
+  "Func_0041bc30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "check_face_eo_font",
+      [
+        142,
+        157
+      ]
+    ]
+  ],
+  "Func_0041bd00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "face_eo_font_is_set",
+      [
+        162,
+        173
+      ]
+    ]
+  ],
+  "Func_0041bd30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "init_face_eo_font",
+      [
+        176,
+        182
+      ]
+    ]
+  ],
+  "Func_0041bd60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "face_eo_font_free",
+      [
+        184,
+        192
+      ]
+    ]
+  ],
+  "Func_0041bd90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/faces.c",
+      "face_set_font",
+      [
+        194,
+        199
+      ]
+    ]
+  ],
+  "Func_0041bdd0": [],
+  "Func_0041be40": [],
+  "Func_0041be50": [],
+  "Func_0041c6a0": [],
+  "Func_0041c710": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/useropt.c",
+      "user_options_table_new",
+      [
+        41,
+        45
+      ]
+    ]
+  ],
+  "Func_0041c720": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/useropt.c",
+      "user_options_table_free",
+      [
+        50,
+        54
+      ]
+    ]
+  ],
+  "Func_0041c730": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/useropt.c",
+      "user_option_add",
+      [
+        59,
+        63
+      ]
+    ]
+  ],
+  "Func_0041c740": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/useropt.c",
+      "user_option_get",
+      [
+        68,
+        78
+      ]
+    ]
+  ],
+  "Func_0041c7a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/useropt.c",
+      "user_options_list_short",
+      [
+        83,
+        89
+      ]
+    ]
+  ],
+  "Func_0041c7f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/useropt.c",
+      "user_options_list_long",
+      [
+        94,
+        100
+      ]
+    ]
+  ],
+  "Func_0041c840": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/gen.c",
+      "a2ps_print_char",
+      [
+        43,
+        55
+      ]
+    ]
+  ],
+  "Func_0041c860": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/gen.c",
+      "a2ps_print_string",
+      [
+        60,
+        73
+      ]
+    ]
+  ],
+  "Func_0041c8b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/gen.c",
+      "a2ps_print_buffer",
+      [
+        78,
+        96
+      ]
+    ]
+  ],
+  "Func_0041c910": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/gen.c",
+      "a2ps_open_output_session",
+      [
+        101,
+        113
+      ]
+    ]
+  ],
+  "Func_0041c930": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/gen.c",
+      "a2ps_open_input_session",
+      [
+        118,
+        145
+      ]
+    ]
+  ],
+  "Func_0041c9b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/gen.c",
+      "a2ps_close_input_session",
+      [
+        150,
+        167
+      ]
+    ]
+  ],
+  "Func_0041c9d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/gen.c",
+      "a2ps_close_output_session",
+      [
+        172,
+        184
+      ]
+    ]
+  ],
+  "Func_0041c9f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/gen.c",
+      "output_format_to_key",
+      [
+        186,
+        199
+      ]
+    ]
+  ],
+  "Func_0041ca10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_new",
+      [
+        299,
+        325
+      ]
+    ]
+  ],
+  "Func_0041cac0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_table_new",
+      [
+        177,
+        188
+      ]
+    ]
+  ],
+  "Func_0041caf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_create",
+      [
+        114,
+        120
+      ]
+    ]
+  ],
+  "Func_0041cb10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_free",
+      [
+        331,
+        350
+      ]
+    ]
+  ],
+  "Func_0041cb80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_table_free",
+      [
+        193,
+        198
+      ]
+    ]
+  ],
+  "Func_0041cba0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_free",
+      [
+        144,
+        151
+      ]
+    ]
+  ],
+  "Func_0041cbd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_flag_destination_to_string",
+      [
+        448,
+        454
+      ]
+    ]
+  ],
+  "Func_0041cbf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "destination_to_string",
+      [
+        421,
+        441
+      ]
+    ]
+  ],
+  "Func_0041cc90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_destination_to_string",
+      [
+        460,
+        467
+      ]
+    ]
+  ],
+  "Func_0041ccb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_finalize",
+      [
+        474,
+        490
+      ]
+    ]
+  ],
+  "Func_0041ccf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_ppdkey_get",
+      [
+        356,
+        376
+      ]
+    ]
+  ],
+  "Func_0041cd30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_add",
+      [
+        496,
+        534
+      ]
+    ]
+  ],
+  "Func_0041ce20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_set",
+      [
+        123,
+        129
+      ]
+    ]
+  ],
+  "Func_0041ce90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_table_add",
+      [
+        216,
+        230
+      ]
+    ]
+  ],
+  "Func_0041cee0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_default_ppdkey_get",
+      [
+        539,
+        543
+      ]
+    ]
+  ],
+  "Func_0041cef0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_default_ppdkey_set",
+      [
+        545,
+        550
+      ]
+    ]
+  ],
+  "Func_0041cf30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_request_ppdkey_get",
+      [
+        552,
+        556
+      ]
+    ]
+  ],
+  "Func_0041cf40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_request_ppdkey_set",
+      [
+        558,
+        563
+      ]
+    ]
+  ],
+  "Func_0041cf80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_flag_output_set",
+      [
+        568,
+        583
+      ]
+    ]
+  ],
+  "Func_0041cff0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_flag_output_name_get",
+      [
+        585,
+        589
+      ]
+    ]
+  ],
+  "Func_0041d000": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_flag_output_is_printer_get",
+      [
+        591,
+        595
+      ]
+    ]
+  ],
+  "Func_0041d010": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_font_known_p",
+      [
+        600,
+        605
+      ]
+    ]
+  ],
+  "Func_0041d020": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_list_short",
+      [
+        610,
+        616
+      ]
+    ]
+  ],
+  "Func_0041d070": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_table_short_self_print",
+      [
+        235,
+        254
+      ]
+    ]
+  ],
+  "Func_0041d0d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_list_long",
+      [
+        618,
+        626
+      ]
+    ]
+  ],
+  "Func_0041d150": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_self_print",
+      [
+        157,
+        168
+      ]
+    ]
+  ],
+  "Func_0041d1d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_table_self_print",
+      [
+        259,
+        264
+      ]
+    ]
+  ],
+  "Func_0041d1f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_ppd_list_short",
+      [
+        628,
+        632
+      ]
+    ]
+  ],
+  "Func_0041d200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_ppd_list_long",
+      [
+        634,
+        638
+      ]
+    ]
+  ],
+  "Func_0041d210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_open_output_stream",
+      [
+        643,
+        689
+      ]
+    ]
+  ],
+  "Func_0041d310": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_printers_command_get",
+      [
+        381,
+        417
+      ]
+    ]
+  ],
+  "Func_0041d3f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "a2ps_close_output_stream",
+      [
+        694,
+        698
+      ]
+    ]
+  ],
+  "Func_0041d400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_hash_1",
+      [
+        72,
+        76
+      ]
+    ]
+  ],
+  "Func_0041d440": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_hash_2",
+      [
+        78,
+        82
+      ]
+    ]
+  ],
+  "Func_0041d480": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_hash_cmp",
+      [
+        84,
+        88
+      ]
+    ]
+  ],
+  "Func_0041d4b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_table_find",
+      [
+        203,
+        210
+      ]
+    ]
+  ],
+  "Func_0041d4d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_new",
+      [
+        133,
+        139
+      ]
+    ]
+  ],
+  "Func_0041d500": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_hash_qcmp",
+      [
+        90,
+        94
+      ]
+    ]
+  ],
+  "Func_0041d520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_key_len",
+      [
+        98,
+        102
+      ]
+    ]
+  ],
+  "Func_0041d530": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printers.c",
+      "printer_key_fputs",
+      [
+        106,
+        110
+      ]
+    ]
+  ],
+  "Func_0041d540": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "new_ps_status",
+      [
+        134,
+        167
+      ]
+    ]
+  ],
+  "Func_0041d5b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "new_dict_entry_table",
+      [
+        70,
+        79
+      ]
+    ]
+  ],
+  "Func_0041d5f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "ps_status_free",
+      [
+        169,
+        182
+      ]
+    ]
+  ],
+  "Func_0041d640": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "free_dict_entry_table",
+      [
+        119,
+        124
+      ]
+    ]
+  ],
+  "Func_0041d660": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "initialize_ps_status",
+      [
+        187,
+        210
+      ]
+    ]
+  ],
+  "Func_0041d690": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "output_pagedevice",
+      [
+        247,
+        290
+      ]
+    ]
+  ],
+  "Func_0041d770": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "pagedevice_dump",
+      [
+        304,
+        348
+      ]
+    ]
+  ],
+  "Func_0041d850": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "dump_requirements",
+      [
+        350,
+        368
+      ]
+    ]
+  ],
+  "Func_0041d8e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "setpagedevice",
+      [
+        370,
+        374
+      ]
+    ]
+  ],
+  "Func_0041d8f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "dict_entry_add",
+      [
+        81,
+        90
+      ]
+    ]
+  ],
+  "Func_0041d940": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "delpagedevice",
+      [
+        376,
+        380
+      ]
+    ]
+  ],
+  "Func_0041d950": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "dict_entry_remove",
+      [
+        108,
+        117
+      ]
+    ]
+  ],
+  "Func_0041d990": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "list_pagedevice",
+      [
+        385,
+        389
+      ]
+    ]
+  ],
+  "Func_0041d9a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "dict_entry_table_dump",
+      [
+        231,
+        244
+      ]
+    ]
+  ],
+  "Func_0041da00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "setstatusdict",
+      [
+        394,
+        398
+      ]
+    ]
+  ],
+  "Func_0041da10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "delstatusdict",
+      [
+        400,
+        404
+      ]
+    ]
+  ],
+  "Func_0041da20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "output_statusdict",
+      [
+        406,
+        426
+      ]
+    ]
+  ],
+  "Func_0041dae0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "list_statusdict",
+      [
+        431,
+        435
+      ]
+    ]
+  ],
+  "Func_0041daf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "key_hash_1",
+      [
+        51,
+        55
+      ]
+    ]
+  ],
+  "Func_0041db30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "key_hash_2",
+      [
+        57,
+        61
+      ]
+    ]
+  ],
+  "Func_0041db70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "key_hash_cmp",
+      [
+        63,
+        68
+      ]
+    ]
+  ],
+  "Func_0041dba0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "free_dict_entry",
+      [
+        100,
+        106
+      ]
+    ]
+  ],
+  "Func_0041dbc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "dict_entry_get",
+      [
+        92,
+        98
+      ]
+    ]
+  ],
+  "Func_0041dbe0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/psstat.c",
+      "dict_entry_print",
+      [
+        218,
+        226
+      ]
+    ]
+  ],
+  "Func_0041dc10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/caret.c",
+      "unprintable_format_to_string",
+      [
+        38,
+        58
+      ]
+    ]
+  ],
+  "Func_0041dca0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/caret.c",
+      "escape_unprintable",
+      [
+        66,
+        130
+      ]
+    ]
+  ],
+  "Func_0041de30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "macro_meta_sequence_table_new",
+      [
+        53,
+        57
+      ]
+    ]
+  ],
+  "Func_0041de40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "macro_meta_sequence_table_free",
+      [
+        62,
+        66
+      ]
+    ]
+  ],
+  "Func_0041de50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "macro_meta_sequence_add",
+      [
+        73,
+        84
+      ]
+    ]
+  ],
+  "Func_0041deb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "macro_meta_sequence_delete",
+      [
+        86,
+        90
+      ]
+    ]
+  ],
+  "Func_0041dec0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "macro_meta_sequence_get",
+      [
+        92,
+        96
+      ]
+    ]
+  ],
+  "Func_0041ded0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "macro_meta_sequences_list_short",
+      [
+        98,
+        107
+      ]
+    ]
+  ],
+  "Func_0041df20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "macro_meta_sequences_list_long",
+      [
+        109,
+        116
+      ]
+    ]
+  ],
+  "Func_0041df80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "expand_user_string",
+      [
+        1308,
+        1343
+      ]
+    ]
+  ],
+  "Func_0041e110": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/metaseq.c",
+      "grow_user_string_obstack",
+      [
+        193,
+        1302
+      ]
+    ]
+  ],
+  "Func_00427000": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/options.c",
+      "a2ps_get_bool",
+      [
+        203,
+        208
+      ]
+    ]
+  ],
+  "Func_00427030": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/options.c",
+      "a2ps_handle_options",
+      [
+        278,
+        772
+      ]
+    ]
+  ],
+  "Func_00427e50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/options.c",
+      "a2ps_handle_string_options",
+      [
+        782,
+        813
+      ]
+    ]
+  ],
+  "Func_00427f20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_table_new",
+      [
+        168,
+        179
+      ]
+    ]
+  ],
+  "Func_00427f60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "mv_key_hash_1",
+      [
+        46,
+        50
+      ]
+    ]
+  ],
+  "Func_00427fa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "mv_key_hash_2",
+      [
+        52,
+        56
+      ]
+    ]
+  ],
+  "Func_00427fe0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "mv_key_hash_cmp",
+      [
+        58,
+        62
+      ]
+    ]
+  ],
+  "Func_00428010": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_table_free",
+      [
+        181,
+        186
+      ]
+    ]
+  ],
+  "Func_00428030": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_entry_free",
+      [
+        79,
+        85
+      ]
+    ]
+  ],
+  "Func_00428050": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "exist_resource",
+      [
+        194,
+        200
+      ]
+    ]
+  ],
+  "Func_00428070": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_entry_get_sub_item",
+      [
+        155,
+        166
+      ]
+    ]
+  ],
+  "Func_00428090": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "add_supplied_resource",
+      [
+        205,
+        209
+      ]
+    ]
+  ],
+  "Func_004280a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_entry_add_couple",
+      [
+        121,
+        134
+      ]
+    ]
+  ],
+  "Func_004280f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "dump_supplied_resources",
+      [
+        252,
+        268
+      ]
+    ]
+  ],
+  "Func_00428160": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_entry_dump",
+      [
+        224,
+        247
+      ]
+    ]
+  ],
+  "Func_004281f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "add_needed_resource",
+      [
+        273,
+        277
+      ]
+    ]
+  ],
+  "Func_00428200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "dump_needed_resources",
+      [
+        293,
+        319
+      ]
+    ]
+  ],
+  "Func_004282a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "add_process_color",
+      [
+        324,
+        329
+      ]
+    ]
+  ],
+  "Func_004282c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "dump_process_color",
+      [
+        334,
+        355
+      ]
+    ]
+  ],
+  "Func_00428360": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_entry_get_sub_table",
+      [
+        140,
+        149
+      ]
+    ]
+  ],
+  "Func_00428380": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "add_required_font",
+      [
+        365,
+        382
+      ]
+    ]
+  ],
+  "Func_00428400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "needed_resource_get",
+      [
+        283,
+        288
+      ]
+    ]
+  ],
+  "Func_00428420": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "required_fonts_get",
+      [
+        388,
+        399
+      ]
+    ]
+  ],
+  "Func_00428450": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "dump_setup",
+      [
+        409,
+        413
+      ]
+    ]
+  ],
+  "Func_00428470": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_entry_get",
+      [
+        91,
+        99
+      ]
+    ]
+  ],
+  "Func_00428490": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_entry_new",
+      [
+        67,
+        74
+      ]
+    ]
+  ],
+  "Func_004284d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dsc.c",
+      "multivalued_entry_add",
+      [
+        104,
+        115
+      ]
+    ]
+  ],
+  "Func_00428510": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "fonts_map_new",
+      [
+        83,
+        87
+      ]
+    ]
+  ],
+  "Func_00428520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "fonts_map_free",
+      [
+        89,
+        93
+      ]
+    ]
+  ],
+  "Func_00428530": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "load_main_fonts_map",
+      [
+        132,
+        142
+      ]
+    ]
+  ],
+  "Func_00428570": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "load_fonts_map",
+      [
+        123,
+        127
+      ]
+    ]
+  ],
+  "Func_00428580": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "yylineno",
+      [
+        223,
+        229
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "yylineno",
+      [
+        231,
+        235
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "integer",
+      [
+        206,
+        212
+      ]
+    ]
+  ],
+  "Func_00428b60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmensure_buffer_stack",
+      [
+        1691,
+        1728
+      ]
+    ]
+  ],
+  "Func_00428c00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_create_buffer",
+      [
+        1534,
+        1556
+      ]
+    ]
+  ],
+  "Func_00428c60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_load_buffer_state",
+      [
+        1520,
+        1526
+      ]
+    ]
+  ],
+  "Func_00428cb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_add",
+      [
+        333,
+        354
+      ]
+    ]
+  ],
+  "Func_00428d20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "yy_get_previous_state",
+      [
+        1292,
+        1317
+      ]
+    ]
+  ],
+  "Func_00428e00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "yy_try_NUL_trans",
+      [
+        1324,
+        1345
+      ]
+    ]
+  ],
+  "Func_00428e80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "yy_get_next_buffer",
+      [
+        1166,
+        1288
+      ]
+    ]
+  ],
+  "Func_00429220": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "yywrap",
+      [
+        242,
+        246
+      ]
+    ]
+  ],
+  "Func_00429230": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmrestart",
+      [
+        1472,
+        1483
+      ]
+    ]
+  ],
+  "Func_004292b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "yy_fatal_error",
+      [
+        1820,
+        1824
+      ]
+    ]
+  ],
+  "Func_004292e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_init_buffer",
+      [
+        1585,
+        1607
+      ]
+    ]
+  ],
+  "Func_00429370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_switch_to_buffer",
+      [
+        1489,
+        1518
+      ]
+    ]
+  ],
+  "Func_004293f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmalloc",
+      [
+        2000,
+        2003
+      ]
+    ]
+  ],
+  "Func_00429400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_delete_buffer",
+      [
+        1562,
+        1575
+      ]
+    ]
+  ],
+  "Func_00429460": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmfree",
+      [
+        2017,
+        2020
+      ]
+    ]
+  ],
+  "Func_00429470": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_flush_buffer",
+      [
+        1613,
+        1634
+      ]
+    ]
+  ],
+  "Func_004294d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmpush_buffer_state",
+      [
+        1642,
+        1666
+      ]
+    ]
+  ],
+  "Func_00429550": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmpop_buffer_state",
+      [
+        1672,
+        1686
+      ]
+    ]
+  ],
+  "Func_004295c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_scan_buffer",
+      [
+        1736,
+        1763
+      ]
+    ]
+  ],
+  "Func_00429650": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_scan_string",
+      [
+        1773,
+        1777
+      ]
+    ]
+  ],
+  "Func_00429670": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afm_scan_bytes",
+      [
+        1786,
+        1814
+      ]
+    ]
+  ],
+  "Func_004296f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmget_lineno",
+      [
+        1848,
+        1852
+      ]
+    ]
+  ],
+  "Func_00429700": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmget_in",
+      [
+        1857,
+        1860
+      ]
+    ]
+  ],
+  "Func_00429710": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmget_out",
+      [
+        1865,
+        1868
+      ]
+    ]
+  ],
+  "Func_00429720": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmget_leng",
+      [
+        1873,
+        1876
+      ]
+    ]
+  ],
+  "Func_00429730": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmget_text",
+      [
+        1882,
+        1885
+      ]
+    ]
+  ],
+  "Func_00429740": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmset_lineno",
+      [
+        1891,
+        1895
+      ]
+    ]
+  ],
+  "Func_00429750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmset_in",
+      [
+        1903,
+        1906
+      ]
+    ]
+  ],
+  "Func_00429760": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmset_out",
+      [
+        1908,
+        1911
+      ]
+    ]
+  ],
+  "Func_00429770": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmget_debug",
+      [
+        1913,
+        1916
+      ]
+    ]
+  ],
+  "Func_00429780": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmset_debug",
+      [
+        1918,
+        1921
+      ]
+    ]
+  ],
+  "Func_00429790": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmlex_destroy",
+      [
+        1955,
+        1974
+      ]
+    ]
+  ],
+  "Func_00429810": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "yy_init_globals",
+      [
+        1923,
+        1952
+      ]
+    ]
+  ],
+  "Func_00429870": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.c",
+      "afmrealloc",
+      [
+        2005,
+        2015
+      ]
+    ]
+  ],
+  "Func_00429880": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_table_new",
+      [
+        470,
+        480
+      ]
+    ]
+  ],
+  "Func_004298b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_hash_1",
+      [
+        438,
+        442
+      ]
+    ]
+  ],
+  "Func_004298f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_hash_2",
+      [
+        444,
+        448
+      ]
+    ]
+  ],
+  "Func_00429930": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_hash_cmp",
+      [
+        450,
+        454
+      ]
+    ]
+  ],
+  "Func_00429960": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_table_free",
+      [
+        496,
+        501
+      ]
+    ]
+  ],
+  "Func_00429980": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "hash_free_font_info",
+      [
+        485,
+        491
+      ]
+    ]
+  ],
+  "Func_004299a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_add",
+      [
+        552,
+        564
+      ]
+    ]
+  ],
+  "Func_004299e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_new",
+      [
+        506,
+        515
+      ]
+    ]
+  ],
+  "Func_00429a20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_finalize",
+      [
+        520,
+        546
+      ]
+    ]
+  ],
+  "Func_00429ac0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_is_to_reencode",
+      [
+        587,
+        591
+      ]
+    ]
+  ],
+  "Func_00429ae0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_get_wx_for_vector",
+      [
+        597,
+        627
+      ]
+    ]
+  ],
+  "Func_00429b90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_get",
+      [
+        569,
+        581
+      ]
+    ]
+  ],
+  "Func_00429be0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_get_wx",
+      [
+        361,
+        374
+      ]
+    ]
+  ],
+  "Func_00429c10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_get_in_index_order",
+      [
+        424,
+        430
+      ]
+    ]
+  ],
+  "Func_00429c20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_exists",
+      [
+        632,
+        639
+      ]
+    ]
+  ],
+  "Func_00429c50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "fonts_map_resolve_alias",
+      [
+        107,
+        118
+      ]
+    ]
+  ],
+  "Func_00429c70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "font_info_table_dump_special_font_setup",
+      [
+        644,
+        658
+      ]
+    ]
+  ],
+  "Func_00429ce0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "dump_fonts",
+      [
+        804,
+        859
+      ]
+    ]
+  ],
+  "Func_00429f30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "internal_font_file_dump",
+      [
+        782,
+        799
+      ]
+    ]
+  ],
+  "Func_00429f80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_table_free",
+      [
+        322,
+        327
+      ]
+    ]
+  ],
+  "Func_00429fa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "hash_free_wx_entry",
+      [
+        312,
+        317
+      ]
+    ]
+  ],
+  "Func_00429fc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_table_new",
+      [
+        296,
+        307
+      ]
+    ]
+  ],
+  "Func_00429ff0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_hash_1",
+      [
+        254,
+        258
+      ]
+    ]
+  ],
+  "Func_0042a030": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_hash_2",
+      [
+        260,
+        264
+      ]
+    ]
+  ],
+  "Func_0042a070": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_hash_cmp",
+      [
+        266,
+        270
+      ]
+    ]
+  ],
+  "Func_0042a0a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "wx_entry_hash_index_qcmp",
+      [
+        287,
+        291
+      ]
+    ]
+  ],
+  "Func_0042a0b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "binary_font_dump",
+      [
+        764,
+        776
+      ]
+    ]
+  ],
+  "Func_0042a0f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fonts.l",
+      "binary_font_dump_segment",
+      [
+        676,
+        758
+      ]
+    ]
+  ],
+  "Func_0042a2c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/ppd.c",
+      "ppd_font_add",
+      [
+        49,
+        53
+      ]
+    ]
+  ],
+  "Func_0042a2d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/ppd.c",
+      "ppd_font_known_p",
+      [
+        55,
+        59
+      ]
+    ]
+  ],
+  "Func_0042a2f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/ppd.c",
+      "ppd_new",
+      [
+        64,
+        73
+      ]
+    ]
+  ],
+  "Func_0042a320": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/ppd.c",
+      "ppd_free",
+      [
+        75,
+        85
+      ]
+    ]
+  ],
+  "Func_0042a370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/ppd.c",
+      "_a2ps_ppd_get",
+      [
+        127,
+        138
+      ]
+    ]
+  ],
+  "Func_0042a3c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/ppd.c",
+      "_a2ps_ppd_list_short",
+      [
+        146,
+        152
+      ]
+    ]
+  ],
+  "Func_0042a410": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/ppd.c",
+      "_a2ps_ppd_list_long",
+      [
+        157,
+        175
+      ]
+    ]
+  ],
+  "Func_0042a4c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/ppd.c",
+      "ppd_self_print",
+      [
+        90,
+        121
+      ]
+    ]
+  ],
+  "Func_0042a590": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "page_range_new",
+      [
+        150,
+        158
+      ]
+    ]
+  ],
+  "Func_0042a5d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "interval_self_print",
+      [
+        60,
+        69
+      ]
+    ]
+  ],
+  "Func_0042a610": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "page_range_free",
+      [
+        163,
+        168
+      ]
+    ]
+  ],
+  "Func_0042a630": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "page_range_to_buffer",
+      [
+        214,
+        230
+      ]
+    ]
+  ],
+  "Func_0042a6b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "interval_applies_above",
+      [
+        125,
+        136
+      ]
+    ]
+  ],
+  "Func_0042a6d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "interval_to_buffer",
+      [
+        87,
+        116
+      ]
+    ]
+  ],
+  "Func_0042a750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "page_range_applies_above",
+      [
+        237,
+        254
+      ]
+    ]
+  ],
+  "Func_0042a7a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "a2ps_page_range_set_string",
+      [
+        263,
+        328
+      ]
+    ]
+  ],
+  "Func_0042a970": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "page_range_reset",
+      [
+        173,
+        178
+      ]
+    ]
+  ],
+  "Func_0042a990": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "add_pages_interval",
+      [
+        195,
+        207
+      ]
+    ]
+  ],
+  "Func_0042a9d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "report_pages_to_print",
+      [
+        330,
+        334
+      ]
+    ]
+  ],
+  "Func_0042a9e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "page_range_self_print",
+      [
+        183,
+        187
+      ]
+    ]
+  ],
+  "Func_0042a9f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "print_page",
+      [
+        339,
+        362
+      ]
+    ]
+  ],
+  "Func_0042aa90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "interval_is_in",
+      [
+        71,
+        80
+      ]
+    ]
+  ],
+  "Func_0042aac0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/prange.c",
+      "interval_new",
+      [
+        51,
+        58
+      ]
+    ]
+  ],
+  "Func_0042aae0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/stream.c",
+      "stream_ropen",
+      [
+        63,
+        67
+      ]
+    ]
+  ],
+  "Func_0042aaf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/stream.c",
+      "_stream_ropen",
+      [
+        42,
+        58
+      ]
+    ]
+  ],
+  "Func_0042ab40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/stream.c",
+      "stream_wopen",
+      [
+        94,
+        98
+      ]
+    ]
+  ],
+  "Func_0042ab50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/stream.c",
+      "_stream_wopen",
+      [
+        72,
+        89
+      ]
+    ]
+  ],
+  "Func_0042abb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/stream.c",
+      "stream_wopen_backup",
+      [
+        100,
+        105
+      ]
+    ]
+  ],
+  "Func_0042abc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/stream.c",
+      "stream_perl_open_backup",
+      [
+        119,
+        157
+      ]
+    ]
+  ],
+  "Func_0042acf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/stream.c",
+      "stream_close",
+      [
+        162,
+        170
+      ]
+    ]
+  ],
+  "Func_0042ad20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/document.c",
+      "authors_print_plain",
+      [
+        156,
+        162
+      ]
+    ]
+  ],
+  "Func_0042ad30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/document.c",
+      "authors_print",
+      [
+        112,
+        151
+      ]
+    ]
+  ],
+  "Func_0042ae80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/document.c",
+      "authors_print_html",
+      [
+        167,
+        175
+      ]
+    ]
+  ],
+  "Func_0042ae90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/document.c",
+      "authors_print_texinfo",
+      [
+        180,
+        193
+      ]
+    ]
+  ],
+  "Func_0042aee0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/document.c",
+      "documentation_print_plain",
+      [
+        198,
+        210
+      ]
+    ]
+  ],
+  "Func_0042afd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/document.c",
+      "documentation_print_html",
+      [
+        213,
+        225
+      ]
+    ]
+  ],
+  "Func_0042b0b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/document.c",
+      "documentation_print_texinfo",
+      [
+        228,
+        240
+      ]
+    ]
+  ],
+  "Func_0042b160": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fjobs.c",
+      "_a2ps_file_job_new",
+      [
+        37,
+        79
+      ]
+    ]
+  ],
+  "Func_0042b1e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fjobs.c",
+      "file_job_free",
+      [
+        84,
+        90
+      ]
+    ]
+  ],
+  "Func_0042b210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fjobs.c",
+      "file_job_self_print",
+      [
+        92,
+        105
+      ]
+    ]
+  ],
+  "Func_0042b290": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fjobs.c",
+      "file_job_synchronize_sheets",
+      [
+        110,
+        122
+      ]
+    ]
+  ],
+  "Func_0042b2c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fjobs.c",
+      "file_job_synchronize_pages",
+      [
+        127,
+        143
+      ]
+    ]
+  ],
+  "Func_0042b320": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fjobs.c",
+      "file_job_unlink_tmpfile",
+      [
+        148,
+        155
+      ]
+    ]
+  ],
+  "Func_0042b350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/fjobs.c",
+      "file_name_cmp",
+      [
+        160,
+        164
+      ]
+    ]
+  ],
+  "Func_0042b360": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/common.c",
+      "a2ps_common_reset",
+      [
+        39,
+        43
+      ]
+    ]
+  ],
+  "Func_0042b370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/common.c",
+      "a2ps_common_new",
+      [
+        48,
+        54
+      ]
+    ]
+  ],
+  "Func_0042b390": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/common.c",
+      "a2ps_common_free",
+      [
+        59,
+        63
+      ]
+    ]
+  ],
+  "Func_0042b3a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/common.c",
+      "a2ps_common_finalize",
+      [
+        69,
+        81
+      ]
+    ]
+  ],
+  "Func_0042b400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/madir.c",
+      "madir_argmatch",
+      [
+        47,
+        51
+      ]
+    ]
+  ],
+  "Func_0042b430": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/madir.c",
+      "madir_to_string",
+      [
+        53,
+        67
+      ]
+    ]
+  ],
+  "Func_0042b460": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/filalign.c",
+      "file_align_argmatch",
+      [
+        59,
+        72
+      ]
+    ]
+  ],
+  "Func_0042b4c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/filalign.c",
+      "file_align_to_string",
+      [
+        76,
+        87
+      ]
+    ]
+  ],
+  "Func_0042b510": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.y",
+      "tFont",
+      [
+        78,
+        96
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.y",
+      "tFont",
+      [
+        104,
+        108
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.y",
+      "tModelName",
+      [
+        109,
+        114
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.y",
+      "tNickName",
+      [
+        115,
+        120
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.y",
+      "STRING",
+      [
+        147,
+        148
+      ]
+    ]
+  ],
+  "Func_0042bc60": [],
+  "Func_0042bcb0": [],
+  "Func_0042bd60": [],
+  "Func_0042bdc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.c",
+      "yysyntax_error",
+      [
+        968,
+        1067
+      ]
+    ]
+  ],
+  "Func_0042bfe0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.y",
+      "yyerror",
+      [
+        154,
+        158
+      ]
+    ]
+  ],
+  "Func_0042c000": [],
+  "Func_0042c060": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.y",
+      "a2ps_ppd_parse",
+      [
+        181,
+        204
+      ]
+    ]
+  ],
+  "Func_0042c0f0": [],
+  "Func_0042c110": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.y",
+      "yyprint",
+      [
+        163,
+        179
+      ]
+    ]
+  ],
+  "Func_0042c150": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/parseppd.c",
+      "yytnamerr",
+      [
+        921,
+        958
+      ]
+    ]
+  ],
+  "Func_0042c1e0": [],
+  "Func_0042c210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argmatch.c",
+      "__argmatch_die",
+      [
+        66,
+        70
+      ]
+    ]
+  ],
+  "Func_0042c220": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argmatch.c",
+      "argmatch",
+      [
+        135,
+        140
+      ]
+    ]
+  ],
+  "Func_0042c230": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argmatch.c",
+      "__argmatch_internal",
+      [
+        89,
+        132
+      ]
+    ]
+  ],
+  "Func_0042c350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argmatch.c",
+      "argcasematch",
+      [
+        143,
+        148
+      ]
+    ]
+  ],
+  "Func_0042c360": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argmatch.c",
+      "argmatch_invalid",
+      [
+        155,
+        163
+      ]
+    ]
+  ],
+  "Func_0042c3c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argmatch.c",
+      "argmatch_valid",
+      [
+        169,
+        191
+      ]
+    ]
+  ],
+  "Func_0042c490": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argmatch.c",
+      "__xargmatch_internal",
+      [
+        199,
+        219
+      ]
+    ]
+  ],
+  "Func_0042c500": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argmatch.c",
+      "argmatch_to_argument",
+      [
+        223,
+        234
+      ]
+    ]
+  ],
+  "Func_0042c580": [],
+  "Func_0042c650": [],
+  "Func_0042c6a0": [],
+  "Func_0042c710": [],
+  "Func_0042c970": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/argv.c",
+      "buildargv",
+      [
+        293,
+        298
+      ]
+    ]
+  ],
+  "Func_0042c990": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/backupfile.c",
+      "find_backup_file_name",
+      [
+        118,
+        158
+      ]
+    ]
+  ],
+  "Func_0042ca70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/backupfile.c",
+      "max_backup_version",
+      [
+        167,
+        195
+      ]
+    ]
+  ],
+  "Func_0042cb10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/backupfile.c",
+      "get_version",
+      [
+        245,
+        252
+      ]
+    ]
+  ],
+  "Func_0042cb60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/backupfile.c",
+      "xget_version",
+      [
+        261,
+        268
+      ]
+    ]
+  ],
+  "Func_0042cb90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/backupfile.c",
+      "version_number",
+      [
+        201,
+        218
+      ]
+    ]
+  ],
+  "Func_0042cc20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dirname.c",
+      "dir_name",
+      [
+        43,
+        71
+      ]
+    ]
+  ],
+  "Func_0042ccb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_init",
+      [
+        46,
+        62
+      ]
+    ]
+  ],
+  "Func_0042cd30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "round_up_2",
+      [
+        335,
+        347
+      ]
+    ]
+  ],
+  "Func_0042cd50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_load",
+      [
+        66,
+        75
+      ]
+    ]
+  ],
+  "Func_0042cd90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_insert",
+      [
+        124,
+        129
+      ]
+    ]
+  ],
+  "Func_0042cdc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_find_slot",
+      [
+        82,
+        115
+      ]
+    ]
+  ],
+  "Func_0042ce80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_find_item",
+      [
+        117,
+        122
+      ]
+    ]
+  ],
+  "Func_0042cea0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_insert_at",
+      [
+        131,
+        144
+      ]
+    ]
+  ],
+  "Func_0042cee0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_rehash",
+      [
+        221,
+        242
+      ]
+    ]
+  ],
+  "Func_0042cf80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_delete",
+      [
+        146,
+        151
+      ]
+    ]
+  ],
+  "Func_0042cfa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_delete_at",
+      [
+        153,
+        165
+      ]
+    ]
+  ],
+  "Func_0042cfd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_free_items",
+      [
+        167,
+        180
+      ]
+    ]
+  ],
+  "Func_0042d030": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_delete_items",
+      [
+        182,
+        193
+      ]
+    ]
+  ],
+  "Func_0042d080": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_free",
+      [
+        195,
+        204
+      ]
+    ]
+  ],
+  "Func_0042d0b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_map",
+      [
+        206,
+        217
+      ]
+    ]
+  ],
+  "Func_0042d100": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_print_stats",
+      [
+        244,
+        255
+      ]
+    ]
+  ],
+  "Func_0042d200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_dump",
+      [
+        260,
+        279
+      ]
+    ]
+  ],
+  "Func_0042d2a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_dump_select",
+      [
+        285,
+        315
+      ]
+    ]
+  ],
+  "Func_0042d3a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/hashtab.c",
+      "hash_maparg",
+      [
+        319,
+        331
+      ]
+    ]
+  ],
+  "Func_0042d400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/path-concat.c",
+      "path_concat",
+      [
+        60,
+        98
+      ]
+    ]
+  ],
+  "Func_0042d4d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/path-concat.c",
+      "xpath_concat",
+      [
+        102,
+        109
+      ]
+    ]
+  ],
+  "Func_0042d4f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "clone_quoting_options",
+      [
+        112,
+        119
+      ]
+    ]
+  ],
+  "Func_0042d520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "get_quoting_style",
+      [
+        122,
+        126
+      ]
+    ]
+  ],
+  "Func_0042d530": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "set_quoting_style",
+      [
+        130,
+        134
+      ]
+    ]
+  ],
+  "Func_0042d540": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "set_char_quoting",
+      [
+        141,
+        150
+      ]
+    ]
+  ],
+  "Func_0042d580": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg_buffer",
+      [
+        446,
+        454
+      ]
+    ]
+  ],
+  "Func_0042d5a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg_buffer_restyled",
+      [
+        165,
+        436
+      ]
+    ]
+  ],
+  "Func_0042dc40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg_n",
+      [
+        500,
+        504
+      ]
+    ]
+  ],
+  "Func_0042dc50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg_n_options",
+      [
+        462,
+        498
+      ]
+    ]
+  ],
+  "Func_0042dd50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg",
+      [
+        506,
+        510
+      ]
+    ]
+  ],
+  "Func_0042dd60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg_n_style",
+      [
+        512,
+        519
+      ]
+    ]
+  ],
+  "Func_0042dd90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg_style",
+      [
+        521,
+        525
+      ]
+    ]
+  ],
+  "Func_0042dda0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg_char",
+      [
+        527,
+        534
+      ]
+    ]
+  ],
+  "Func_0042ddf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/quotearg.c",
+      "quotearg_colon",
+      [
+        536,
+        540
+      ]
+    ]
+  ],
+  "Func_0042de00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/signame.c",
+      "signame_init",
+      [
+        97,
+        239
+      ]
+    ]
+  ],
+  "Func_0042dff0": [],
+  "Func_0042e020": [],
+  "Func_0042e080": [],
+  "Func_0042e120": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/strverscmp.c",
+      "strverscmp",
+      [
+        45,
+        113
+      ]
+    ]
+  ],
+  "Func_0042e230": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xmalloc.c",
+      "xalloc_die",
+      [
+        68,
+        78
+      ]
+    ]
+  ],
+  "Func_0042e280": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xmalloc.c",
+      "xmalloc",
+      [
+        82,
+        91
+      ]
+    ]
+  ],
+  "Func_0042e2a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xmalloc.c",
+      "xrealloc",
+      [
+        97,
+        104
+      ]
+    ]
+  ],
+  "Func_0042e2c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xmalloc.c",
+      "xcalloc",
+      [
+        108,
+        117
+      ]
+    ]
+  ],
+  "Func_0042e2e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/closeout.c",
+      "close_stdout_status",
+      [
+        67,
+        74
+      ]
+    ]
+  ],
+  "Func_0042e360": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/closeout.c",
+      "close_stdout",
+      [
+        77,
+        81
+      ]
+    ]
+  ],
+  "Func_0042e370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/message.c",
+      "msg_verbosity_argmatch",
+      [
+        90,
+        115
+      ]
+    ]
+  ],
+  "Func_0042e410": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrrpl.c",
+      "xstrrpl",
+      [
+        31,
+        69
+      ]
+    ]
+  ],
+  "Func_0042e5a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrrpl.c",
+      "strrpl",
+      [
+        72,
+        79
+      ]
+    ]
+  ],
+  "Func_0042e5d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrrpl.c",
+      "xvstrrpl",
+      [
+        89,
+        114
+      ]
+    ]
+  ],
+  "Func_0042e6e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrrpl.c",
+      "vstrrpl",
+      [
+        121,
+        147
+      ]
+    ]
+  ],
+  "Func_0042e7f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/getshline.c",
+      "getshline_numbered",
+      [
+        141,
+        147
+      ]
+    ]
+  ],
+  "Func_0042e810": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/getshline.c",
+      "getshstr",
+      [
+        47,
+        139
+      ]
+    ]
+  ],
+  "Func_0042ea30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/getshline.c",
+      "getshline",
+      [
+        149,
+        155
+      ]
+    ]
+  ],
+  "Func_0042ea60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/getshline.c",
+      "getshdelim_numbered",
+      [
+        158,
+        166
+      ]
+    ]
+  ],
+  "Func_0042ea90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/getshline.c",
+      "getshdelim",
+      [
+        168,
+        176
+      ]
+    ]
+  ],
+  "Func_0042ead0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_string_to_path",
+      [
+        131,
+        136
+      ]
+    ]
+  ],
+  "Func_0042eae0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_internal_string_to_path",
+      [
+        57,
+        108
+      ]
+    ]
+  ],
+  "Func_0042ec10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_append_string_to_path",
+      [
+        162,
+        172
+      ]
+    ]
+  ],
+  "Func_0042ec50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_path_length",
+      [
+        113,
+        124
+      ]
+    ]
+  ],
+  "Func_0042ec80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_path_concat",
+      [
+        142,
+        156
+      ]
+    ]
+  ],
+  "Func_0042ed00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_prepend_string_to_path",
+      [
+        177,
+        187
+      ]
+    ]
+  ],
+  "Func_0042ed40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_free_path",
+      [
+        192,
+        200
+      ]
+    ]
+  ],
+  "Func_0042ed90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_fprintf_path",
+      [
+        202,
+        210
+      ]
+    ]
+  ],
+  "Func_0042edd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_file_exists_p",
+      [
+        258,
+        263
+      ]
+    ]
+  ],
+  "Func_0042ede0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_find_file_index",
+      [
+        217,
+        252
+      ]
+    ]
+  ],
+  "Func_0042ef70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_find_file",
+      [
+        307,
+        312
+      ]
+    ]
+  ],
+  "Func_0042ef80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "_pw_find_file",
+      [
+        270,
+        302
+      ]
+    ]
+  ],
+  "Func_0042f040": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "xpw_find_file",
+      [
+        317,
+        331
+      ]
+    ]
+  ],
+  "Func_0042f100": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "xpw_find_included_file",
+      [
+        335,
+        363
+      ]
+    ]
+  ],
+  "Func_0042f1e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_paste_file",
+      [
+        368,
+        423
+      ]
+    ]
+  ],
+  "Func_0042f400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_glob",
+      [
+        462,
+        486
+      ]
+    ]
+  ],
+  "Func_0042f4a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_filterdir",
+      [
+        447,
+        454
+      ]
+    ]
+  ],
+  "Func_0042f4f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_filter_fnmatch",
+      [
+        427,
+        432
+      ]
+    ]
+  ],
+  "Func_0042f510": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_filter_da_append",
+      [
+        434,
+        439
+      ]
+    ]
+  ],
+  "Func_0042f530": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_glob_print",
+      [
+        488,
+        494
+      ]
+    ]
+  ],
+  "Func_0042f540": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_filter_print",
+      [
+        441,
+        445
+      ]
+    ]
+  ],
+  "Func_0042f560": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_glob_on_suffix",
+      [
+        511,
+        525
+      ]
+    ]
+  ],
+  "Func_0042f5d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "da_str_cut_suffix",
+      [
+        500,
+        504
+      ]
+    ]
+  ],
+  "Func_0042f5e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pathwalk.c",
+      "pw_lister_on_suffix",
+      [
+        530,
+        541
+      ]
+    ]
+  ],
+  "Func_0042f630": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_new",
+      [
+        40,
+        70
+      ]
+    ]
+  ],
+  "Func_0042f6f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_erase",
+      [
+        81,
+        85
+      ]
+    ]
+  ],
+  "Func_0042f700": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "_da_erase",
+      [
+        72,
+        79
+      ]
+    ]
+  ],
+  "Func_0042f730": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_free_content",
+      [
+        102,
+        106
+      ]
+    ]
+  ],
+  "Func_0042f740": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "_da_free_content",
+      [
+        90,
+        100
+      ]
+    ]
+  ],
+  "Func_0042f790": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_free",
+      [
+        112,
+        117
+      ]
+    ]
+  ],
+  "Func_0042f7b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_print_stats",
+      [
+        122,
+        148
+      ]
+    ]
+  ],
+  "Func_0042f8a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_resize",
+      [
+        153,
+        161
+      ]
+    ]
+  ],
+  "Func_0042f8d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_grow",
+      [
+        166,
+        185
+      ]
+    ]
+  ],
+  "Func_0042f920": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_clone",
+      [
+        190,
+        197
+      ]
+    ]
+  ],
+  "Func_0042f990": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_is_sorted",
+      [
+        203,
+        212
+      ]
+    ]
+  ],
+  "Func_0042f9e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_equal",
+      [
+        217,
+        229
+      ]
+    ]
+  ],
+  "Func_0042fa20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_cmp_equal",
+      [
+        235,
+        247
+      ]
+    ]
+  ],
+  "Func_0042fa90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_where",
+      [
+        253,
+        263
+      ]
+    ]
+  ],
+  "Func_0042fae0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_includes",
+      [
+        268,
+        272
+      ]
+    ]
+  ],
+  "Func_0042fb00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_append",
+      [
+        277,
+        284
+      ]
+    ]
+  ],
+  "Func_0042fb40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_insert_at",
+      [
+        289,
+        306
+      ]
+    ]
+  ],
+  "Func_0042fbd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_remove_at",
+      [
+        311,
+        327
+      ]
+    ]
+  ],
+  "Func_0042fc60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_concat",
+      [
+        332,
+        345
+      ]
+    ]
+  ],
+  "Func_0042fce0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_prefix",
+      [
+        350,
+        370
+      ]
+    ]
+  ],
+  "Func_0042fd90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_qsort",
+      [
+        375,
+        448
+      ]
+    ]
+  ],
+  "Func_00430120": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_qsort_with_arg",
+      [
+        453,
+        527
+      ]
+    ]
+  ],
+  "Func_004304f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_unique",
+      [
+        532,
+        544
+      ]
+    ]
+  ],
+  "Func_00430560": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_merge",
+      [
+        559,
+        601
+      ]
+    ]
+  ],
+  "Func_00430690": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_self_print",
+      [
+        607,
+        620
+      ]
+    ]
+  ],
+  "Func_00430720": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_map",
+      [
+        625,
+        632
+      ]
+    ]
+  ],
+  "Func_00430760": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_maparg",
+      [
+        637,
+        643
+      ]
+    ]
+  ],
+  "Func_004307b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_str_cmp",
+      [
+        651,
+        655
+      ]
+    ]
+  ],
+  "Func_004307c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_str_print",
+      [
+        657,
+        661
+      ]
+    ]
+  ],
+  "Func_004307d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/darray.c",
+      "da_str_printnl",
+      [
+        663,
+        668
+      ]
+    ]
+  ],
+  "Func_004307f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_new",
+      [
+        33,
+        57
+      ]
+    ]
+  ],
+  "Func_00430880": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_erase",
+      [
+        61,
+        66
+      ]
+    ]
+  ],
+  "Func_004308a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_print_stats",
+      [
+        71,
+        94
+      ]
+    ]
+  ],
+  "Func_004309a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_resize",
+      [
+        99,
+        107
+      ]
+    ]
+  ],
+  "Func_004309d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_grow",
+      [
+        112,
+        128
+      ]
+    ]
+  ],
+  "Func_00430a10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_is_full",
+      [
+        136,
+        140
+      ]
+    ]
+  ],
+  "Func_00430a30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_strcat",
+      [
+        148,
+        158
+      ]
+    ]
+  ],
+  "Func_00430a80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_strncat",
+      [
+        160,
+        171
+      ]
+    ]
+  ],
+  "Func_00430ae0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_strccat",
+      [
+        176,
+        184
+      ]
+    ]
+  ],
+  "Func_00430b30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_vsprintf",
+      [
+        192,
+        202
+      ]
+    ]
+  ],
+  "Func_00430b80": [],
+  "Func_00430c10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_cat_vsprintf",
+      [
+        235,
+        245
+      ]
+    ]
+  ],
+  "Func_00430c70": [],
+  "Func_00430d00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_unsafe_vsprintf",
+      [
+        282,
+        287
+      ]
+    ]
+  ],
+  "Func_00430d20": [],
+  "Func_00430db0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_unsafe_cat_vsprintf",
+      [
+        320,
+        328
+      ]
+    ]
+  ],
+  "Func_00430e10": [],
+  "Func_00430ea0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_getdelim",
+      [
+        367,
+        396
+      ]
+    ]
+  ],
+  "Func_00430f40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/dstring.c",
+      "ds_getline",
+      [
+        398,
+        402
+      ]
+    ]
+  ],
+  "Func_00430f50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printlen.c",
+      "vprintflen",
+      [
+        96,
+        109
+      ]
+    ]
+  ],
+  "Func_00430f80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/printlen.c",
+      "int_printflen",
+      [
+        30,
+        94
+      ]
+    ]
+  ],
+  "Func_00431120": [],
+  "Func_004311b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_table_new",
+      [
+        115,
+        126
+      ]
+    ]
+  ],
+  "Func_004311e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_hash_1",
+      [
+        57,
+        61
+      ]
+    ]
+  ],
+  "Func_00431220": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_hash_2",
+      [
+        63,
+        67
+      ]
+    ]
+  ],
+  "Func_00431260": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_hash_cmp",
+      [
+        69,
+        73
+      ]
+    ]
+  ],
+  "Func_00431290": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_table_free",
+      [
+        131,
+        136
+      ]
+    ]
+  ],
+  "Func_004312b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_free",
+      [
+        87,
+        93
+      ]
+    ]
+  ],
+  "Func_004312e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_add",
+      [
+        142,
+        165
+      ]
+    ]
+  ],
+  "Func_00431370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_delete",
+      [
+        171,
+        183
+      ]
+    ]
+  ],
+  "Func_004313b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_get",
+      [
+        190,
+        202
+      ]
+    ]
+  ],
+  "Func_004313e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_table_map",
+      [
+        207,
+        229
+      ]
+    ]
+  ],
+  "Func_00431470": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_hash_qcmp",
+      [
+        78,
+        82
+      ]
+    ]
+  ],
+  "Func_004314a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_table_list_short",
+      [
+        234,
+        247
+      ]
+    ]
+  ],
+  "Func_004314f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_key_len",
+      [
+        97,
+        101
+      ]
+    ]
+  ],
+  "Func_00431500": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_key_fputs",
+      [
+        104,
+        108
+      ]
+    ]
+  ],
+  "Func_00431510": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_table_list_long",
+      [
+        252,
+        268
+      ]
+    ]
+  ],
+  "Func_00431590": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_table_self_print",
+      [
+        273,
+        289
+      ]
+    ]
+  ],
+  "Func_00431610": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/pair_ht.c",
+      "pair_table_load",
+      [
+        301,
+        340
+      ]
+    ]
+  ],
+  "Func_00431840": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/filtdir.c",
+      "filterdir",
+      [
+        93,
+        114
+      ]
+    ]
+  ],
+  "Func_00431930": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_htable_new",
+      [
+        76,
+        87
+      ]
+    ]
+  ],
+  "Func_00431960": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_hash_1",
+      [
+        46,
+        50
+      ]
+    ]
+  ],
+  "Func_00431990": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_hash_2",
+      [
+        52,
+        56
+      ]
+    ]
+  ],
+  "Func_004319c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_hash_cmp",
+      [
+        58,
+        62
+      ]
+    ]
+  ],
+  "Func_004319f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_htable_free",
+      [
+        92,
+        97
+      ]
+    ]
+  ],
+  "Func_00431a10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_htable_add",
+      [
+        102,
+        107
+      ]
+    ]
+  ],
+  "Func_00431a50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_htable_get",
+      [
+        114,
+        118
+      ]
+    ]
+  ],
+  "Func_00431a60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_htable_self_print",
+      [
+        123,
+        137
+      ]
+    ]
+  ],
+  "Func_00431ad0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_hash_qcmp",
+      [
+        67,
+        71
+      ]
+    ]
+  ],
+  "Func_00431b00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/str_ht.c",
+      "string_htable_dump_sorted",
+      [
+        142,
+        146
+      ]
+    ]
+  ],
+  "Func_00431b10": [],
+  "Func_00431cd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xbackupfile.c",
+      "xfind_backup_file_name",
+      [
+        98,
+        108
+      ]
+    ]
+  ],
+  "Func_00431d10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xbackupfile.c",
+      "create_file_for_backup",
+      [
+        146,
+        191
+      ]
+    ]
+  ],
+  "Func_00431df0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xbackupfile.c",
+      "fopen_backup",
+      [
+        208,
+        264
+      ]
+    ]
+  ],
+  "Func_00432000": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/getnum.c",
+      "get_integer_in_range",
+      [
+        55,
+        127
+      ]
+    ]
+  ],
+  "Func_004321f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/getnum.c",
+      "get_length",
+      [
+        251,
+        257
+      ]
+    ]
+  ],
+  "Func_00432200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/getnum.c",
+      "get_float_in_range",
+      [
+        132,
+        228
+      ]
+    ]
+  ],
+  "Func_00432510": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_initialize",
+      [
+        178,
+        184
+      ]
+    ]
+  ],
+  "Func_00432540": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_tterm_set",
+      [
+        246,
+        253
+      ]
+    ]
+  ],
+  "Func_00432560": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_before_set",
+      [
+        258,
+        265
+      ]
+    ]
+  ],
+  "Func_00432580": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_after_set",
+      [
+        270,
+        277
+      ]
+    ]
+  ],
+  "Func_004325a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_fprint_vertical",
+      [
+        335,
+        401
+      ]
+    ]
+  ],
+  "Func_004327a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "init_worlds",
+      [
+        210,
+        242
+      ]
+    ]
+  ],
+  "Func_004328a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_vertical_format",
+      [
+        280,
+        333
+      ]
+    ]
+  ],
+  "Func_00432a20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_print_vertical",
+      [
+        406,
+        414
+      ]
+    ]
+  ],
+  "Func_00432a50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_fprint_horizontal",
+      [
+        485,
+        545
+      ]
+    ]
+  ],
+  "Func_00432c50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_horizontal_format",
+      [
+        428,
+        481
+      ]
+    ]
+  ],
+  "Func_00432dc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_print_horizontal",
+      [
+        551,
+        559
+      ]
+    ]
+  ],
+  "Func_00432df0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_fprint_separated",
+      [
+        579,
+        632
+      ]
+    ]
+  ],
+  "Func_00433100": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lister.c",
+      "lister_print_separated",
+      [
+        637,
+        645
+      ]
+    ]
+  ],
+  "Func_00433130": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/userdata.c",
+      "userdata_free",
+      [
+        41,
+        48
+      ]
+    ]
+  ],
+  "Func_00433170": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/userdata.c",
+      "userdata_get",
+      [
+        50,
+        133
+      ]
+    ]
+  ],
+  "Func_004333c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/addext.c",
+      "addext",
+      [
+        57,
+        105
+      ]
+    ]
+  ],
+  "Func_00433430": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/basename.c",
+      "base_name",
+      [
+        45,
+        65
+      ]
+    ]
+  ],
+  "Func_00433490": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/isdir.c",
+      "isdir",
+      [
+        36,
+        42
+      ]
+    ]
+  ],
+  "Func_004334d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xgetcwd.c",
+      "xgetcwd",
+      [
+        50,
+        79
+      ]
+    ]
+  ],
+  "Func_00433570": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xgethostname.c",
+      "xgethostname",
+      [
+        44,
+        74
+      ]
+    ]
+  ],
+  "Func_00433620": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrdup.c",
+      "xstrdup",
+      [
+        42,
+        46
+      ]
+    ]
+  ],
+  "Func_00433640": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrdup.c",
+      "xstrndup",
+      [
+        52,
+        64
+      ]
+    ]
+  ],
+  "Func_00433690": [],
+  "Func_00434350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdensure_buffer_stack",
+      [
+        1892,
+        1929
+      ]
+    ]
+  ],
+  "Func_004343f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_create_buffer",
+      [
+        1735,
+        1757
+      ]
+    ]
+  ],
+  "Func_00434450": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_load_buffer_state",
+      [
+        1721,
+        1727
+      ]
+    ]
+  ],
+  "Func_004344a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_switch_to_buffer",
+      [
+        1690,
+        1719
+      ]
+    ]
+  ],
+  "Func_00434520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_delete_buffer",
+      [
+        1763,
+        1776
+      ]
+    ]
+  ],
+  "Func_00434580": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "yy_get_previous_state",
+      [
+        1493,
+        1518
+      ]
+    ]
+  ],
+  "Func_00434660": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "yy_try_NUL_trans",
+      [
+        1525,
+        1546
+      ]
+    ]
+  ],
+  "Func_004346e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "yy_get_next_buffer",
+      [
+        1367,
+        1489
+      ]
+    ]
+  ],
+  "Func_00434a80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.l",
+      "yywrap",
+      [
+        252,
+        256
+      ]
+    ]
+  ],
+  "Func_00434a90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdrestart",
+      [
+        1673,
+        1684
+      ]
+    ]
+  ],
+  "Func_00434b10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "yy_fatal_error",
+      [
+        2021,
+        2025
+      ]
+    ]
+  ],
+  "Func_00434b40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_init_buffer",
+      [
+        1786,
+        1808
+      ]
+    ]
+  ],
+  "Func_00434bd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdalloc",
+      [
+        2201,
+        2204
+      ]
+    ]
+  ],
+  "Func_00434be0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdfree",
+      [
+        2218,
+        2221
+      ]
+    ]
+  ],
+  "Func_00434bf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_flush_buffer",
+      [
+        1814,
+        1835
+      ]
+    ]
+  ],
+  "Func_00434c50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdpush_buffer_state",
+      [
+        1843,
+        1867
+      ]
+    ]
+  ],
+  "Func_00434cd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdpop_buffer_state",
+      [
+        1873,
+        1887
+      ]
+    ]
+  ],
+  "Func_00434d40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_scan_buffer",
+      [
+        1937,
+        1964
+      ]
+    ]
+  ],
+  "Func_00434dd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_scan_string",
+      [
+        1974,
+        1978
+      ]
+    ]
+  ],
+  "Func_00434df0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppd_scan_bytes",
+      [
+        1987,
+        2015
+      ]
+    ]
+  ],
+  "Func_00434e70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdget_lineno",
+      [
+        2049,
+        2053
+      ]
+    ]
+  ],
+  "Func_00434e80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdget_in",
+      [
+        2058,
+        2061
+      ]
+    ]
+  ],
+  "Func_00434e90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdget_out",
+      [
+        2066,
+        2069
+      ]
+    ]
+  ],
+  "Func_00434ea0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdget_leng",
+      [
+        2074,
+        2077
+      ]
+    ]
+  ],
+  "Func_00434eb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdget_text",
+      [
+        2083,
+        2086
+      ]
+    ]
+  ],
+  "Func_00434ec0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdset_lineno",
+      [
+        2092,
+        2096
+      ]
+    ]
+  ],
+  "Func_00434ed0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdset_in",
+      [
+        2104,
+        2107
+      ]
+    ]
+  ],
+  "Func_00434ee0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdset_out",
+      [
+        2109,
+        2112
+      ]
+    ]
+  ],
+  "Func_00434ef0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdget_debug",
+      [
+        2114,
+        2117
+      ]
+    ]
+  ],
+  "Func_00434f00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdset_debug",
+      [
+        2119,
+        2122
+      ]
+    ]
+  ],
+  "Func_00434f10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdlex_destroy",
+      [
+        2156,
+        2175
+      ]
+    ]
+  ],
+  "Func_00434f90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "yy_init_globals",
+      [
+        2124,
+        2153
+      ]
+    ]
+  ],
+  "Func_00434ff0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.c",
+      "ppdrealloc",
+      [
+        2206,
+        2216
+      ]
+    ]
+  ],
+  "Func_00435000": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/lexppd.l",
+      "ppdlex_initialize",
+      [
+        261,
+        272
+      ]
+    ]
+  ],
+  "Func_00435040": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/tterm.c",
+      "tterm_width_set",
+      [
+        102,
+        109
+      ]
+    ]
+  ],
+  "Func_00435060": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/tterm.c",
+      "tterm_width",
+      [
+        114,
+        119
+      ]
+    ]
+  ],
+  "Func_00435080": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/tterm.c",
+      "tterm_tabsize_set",
+      [
+        123,
+        130
+      ]
+    ]
+  ],
+  "Func_004350a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/tterm.c",
+      "tterm_tabsize",
+      [
+        135,
+        140
+      ]
+    ]
+  ],
+  "Func_004350b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/tterm.c",
+      "tterm_initialize",
+      [
+        145,
+        194
+      ]
+    ]
+  ],
+  "Func_004351a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrtol.c",
+      "__xstrtol",
+      [
+        115,
+        248
+      ]
+    ]
+  ],
+  "Func_00435370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrtol.c",
+      "bkm_scale",
+      [
+        93,
+        101
+      ]
+    ]
+  ],
+  "Func_00435380": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/a2ps/a2ps-4.14/lib/xstrtol.c",
+      "bkm_scale_by_power",
+      [
+        103,
+        111
+      ]
+    ]
+  ]
+}

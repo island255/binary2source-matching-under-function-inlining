@@ -1,0 +1,829 @@
+{
+  "Func_004014a0": [],
+  "Func_00401168": [],
+  "Func_004055e8": [],
+  "Func_0040157d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/src/hello.c",
+      "main",
+      [
+        39,
+        109
+      ]
+    ]
+  ],
+  "Func_0040177b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/src/hello.c",
+      "print_help",
+      [
+        116,
+        163
+      ]
+    ]
+  ],
+  "Func_00401878": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/src/hello.c",
+      "print_version",
+      [
+        169,
+        184
+      ]
+    ]
+  ],
+  "Func_004018c3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/closeout.c",
+      "close_stdout_set_file_name",
+      [
+        40,
+        44
+      ]
+    ]
+  ],
+  "Func_004018d9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/closeout.c",
+      "close_stdout_set_ignore_EPIPE",
+      [
+        77,
+        81
+      ]
+    ]
+  ],
+  "Func_004018ef": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/closeout.c",
+      "close_stdout",
+      [
+        106,
+        124
+      ]
+    ]
+  ],
+  "Func_004019db": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/progname.c",
+      "set_program_name",
+      [
+        38,
+        92
+      ]
+    ]
+  ],
+  "Func_00401abd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "clone_quoting_options",
+      [
+        107,
+        115
+      ]
+    ]
+  ],
+  "Func_00401b09": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "get_quoting_style",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_00401b27": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "set_quoting_style",
+      [
+        126,
+        130
+      ]
+    ]
+  ],
+  "Func_00401b4c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "set_char_quoting",
+      [
+        137,
+        147
+      ]
+    ]
+  ],
+  "Func_00401bd4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "set_quoting_flags",
+      [
+        153,
+        162
+      ]
+    ]
+  ],
+  "Func_00401c07": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "set_custom_quoting",
+      [
+        164,
+        175
+      ]
+    ]
+  ],
+  "Func_00401c62": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quoting_options_from_style",
+      [
+        178,
+        186
+      ]
+    ]
+  ],
+  "Func_00401cfb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "gettext_quote",
+      [
+        192,
+        226
+      ]
+    ]
+  ],
+  "Func_00401da3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_buffer_restyled",
+      [
+        241,
+        661
+      ]
+    ]
+  ],
+  "Func_004028fd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_buffer",
+      [
+        672,
+        684
+      ]
+    ]
+  ],
+  "Func_0040299f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_alloc",
+      [
+        687,
+        692
+      ]
+    ]
+  ],
+  "Func_004029d1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_alloc_mem",
+      [
+        700,
+        720
+      ]
+    ]
+  ],
+  "Func_00402afd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_free",
+      [
+        736,
+        755
+      ]
+    ]
+  ],
+  "Func_00402ba9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_n_options",
+      [
+        765,
+        823
+      ]
+    ]
+  ],
+  "Func_00402e20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_n",
+      [
+        825,
+        829
+      ]
+    ]
+  ],
+  "Func_00402e4b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_n_mem",
+      [
+        831,
+        835
+      ]
+    ]
+  ],
+  "Func_00402e77": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg",
+      [
+        837,
+        841
+      ]
+    ]
+  ],
+  "Func_00402e96": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_mem",
+      [
+        843,
+        847
+      ]
+    ]
+  ],
+  "Func_00402ebd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_n_style",
+      [
+        849,
+        854
+      ]
+    ]
+  ],
+  "Func_00402efe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_n_style_mem",
+      [
+        856,
+        862
+      ]
+    ]
+  ],
+  "Func_00402f3d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_style",
+      [
+        864,
+        868
+      ]
+    ]
+  ],
+  "Func_00402f61": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_style_mem",
+      [
+        870,
+        874
+      ]
+    ]
+  ],
+  "Func_00402f8d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_char_mem",
+      [
+        876,
+        883
+      ]
+    ]
+  ],
+  "Func_00403021": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_char",
+      [
+        885,
+        889
+      ]
+    ]
+  ],
+  "Func_0040304b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_colon",
+      [
+        891,
+        895
+      ]
+    ]
+  ],
+  "Func_0040306a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_colon_mem",
+      [
+        897,
+        901
+      ]
+    ]
+  ],
+  "Func_00403094": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_n_custom",
+      [
+        903,
+        909
+      ]
+    ]
+  ],
+  "Func_004030ca": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_n_custom_mem",
+      [
+        911,
+        919
+      ]
+    ]
+  ],
+  "Func_00403161": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_custom",
+      [
+        921,
+        926
+      ]
+    ]
+  ],
+  "Func_00403190": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quotearg_custom_mem",
+      [
+        928,
+        934
+      ]
+    ]
+  ],
+  "Func_004031ca": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quote_n_mem",
+      [
+        946,
+        950
+      ]
+    ]
+  ],
+  "Func_004031f6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quote_mem",
+      [
+        952,
+        956
+      ]
+    ]
+  ],
+  "Func_0040321d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quote_n",
+      [
+        958,
+        962
+      ]
+    ]
+  ],
+  "Func_00403246": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/quotearg.c",
+      "quote",
+      [
+        964,
+        968
+      ]
+    ]
+  ],
+  "Func_00403265": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xalloc.h",
+      "xnmalloc",
+      [
+        102,
+        108
+      ]
+    ]
+  ],
+  "Func_004032a9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xalloc.h",
+      "xnrealloc",
+      [
+        115,
+        121
+      ]
+    ]
+  ],
+  "Func_004032fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xalloc.h",
+      "x2nrealloc",
+      [
+        177,
+        209
+      ]
+    ]
+  ],
+  "Func_004033aa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xalloc.h",
+      "xcharalloc",
+      [
+        216,
+        220
+      ]
+    ]
+  ],
+  "Func_004033c4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xmalloc.c",
+      "xmalloc",
+      [
+        38,
+        45
+      ]
+    ]
+  ],
+  "Func_004033f9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xmalloc.c",
+      "xrealloc",
+      [
+        50,
+        65
+      ]
+    ]
+  ],
+  "Func_0040345a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xmalloc.c",
+      "x2realloc",
+      [
+        73,
+        77
+      ]
+    ]
+  ],
+  "Func_00403484": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xmalloc.c",
+      "xzalloc",
+      [
+        83,
+        87
+      ]
+    ]
+  ],
+  "Func_004034b5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xmalloc.c",
+      "xcalloc",
+      [
+        92,
+        104
+      ]
+    ]
+  ],
+  "Func_004034ee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xmalloc.c",
+      "xmemdup",
+      [
+        110,
+        114
+      ]
+    ]
+  ],
+  "Func_00403522": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xmalloc.c",
+      "xstrdup",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_0040354f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/xalloc-die.c",
+      "xalloc_die",
+      [
+        31,
+        41
+      ]
+    ]
+  ],
+  "Func_00403584": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt.c",
+      "exchange",
+      [
+        143,
+        220
+      ]
+    ]
+  ],
+  "Func_00403745": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt.c",
+      "_getopt_initialize",
+      [
+        224,
+        287
+      ]
+    ]
+  ],
+  "Func_00403812": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt.c",
+      "_getopt_internal_r",
+      [
+        345,
+        1125
+      ]
+    ]
+  ],
+  "Func_00404ad8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt.c",
+      "_getopt_internal",
+      [
+        1127,
+        1146
+      ]
+    ]
+  ],
+  "Func_00404b68": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt.c",
+      "getopt",
+      [
+        1156,
+        1163
+      ]
+    ]
+  ],
+  "Func_00404baa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt1.c",
+      "getopt_long",
+      [
+        39,
+        45
+      ]
+    ]
+  ],
+  "Func_00404bf4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt1.c",
+      "_getopt_long_r",
+      [
+        47,
+        54
+      ]
+    ]
+  ],
+  "Func_00404c41": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt1.c",
+      "getopt_long_only",
+      [
+        61,
+        68
+      ]
+    ]
+  ],
+  "Func_00404c8b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/getopt1.c",
+      "_getopt_long_only_r",
+      [
+        70,
+        77
+      ]
+    ]
+  ],
+  "Func_00404cd8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/mbrtowc.c",
+      "rpl_mbrtowc",
+      [
+        328,
+        405
+      ]
+    ]
+  ],
+  "Func_00404d39": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-strcasecmp.c",
+      "c_strcasecmp",
+      [
+        26,
+        56
+      ]
+    ]
+  ],
+  "Func_00404db1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/close-stream.c",
+      "close_stream",
+      [
+        55,
+        78
+      ]
+    ]
+  ],
+  "Func_00404e3c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/localcharset.c",
+      "get_charset_aliases",
+      [
+        123,
+        351
+      ]
+    ]
+  ],
+  "Func_004051e5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/localcharset.c",
+      "locale_charset",
+      [
+        362,
+        579
+      ]
+    ]
+  ],
+  "Func_004052b3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isascii",
+      [
+        26,
+        30
+      ]
+    ]
+  ],
+  "Func_004052d7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isalnum",
+      [
+        32,
+        65
+      ]
+    ]
+  ],
+  "Func_00405311": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isalpha",
+      [
+        67,
+        94
+      ]
+    ]
+  ],
+  "Func_0040533f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isblank",
+      [
+        96,
+        100
+      ]
+    ]
+  ],
+  "Func_00405363": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_iscntrl",
+      [
+        102,
+        134
+      ]
+    ]
+  ],
+  "Func_0040538b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isdigit",
+      [
+        136,
+        151
+      ]
+    ]
+  ],
+  "Func_004053af": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_islower",
+      [
+        153,
+        171
+      ]
+    ]
+  ],
+  "Func_004053d3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isgraph",
+      [
+        173,
+        205
+      ]
+    ]
+  ],
+  "Func_004053f7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isprint",
+      [
+        207,
+        239
+      ]
+    ]
+  ],
+  "Func_0040541b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_ispunct",
+      [
+        241,
+        263
+      ]
+    ]
+  ],
+  "Func_00405461": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isspace",
+      [
+        265,
+        270
+      ]
+    ]
+  ],
+  "Func_0040549d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isupper",
+      [
+        272,
+        290
+      ]
+    ]
+  ],
+  "Func_004054c1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_isxdigit",
+      [
+        292,
+        317
+      ]
+    ]
+  ],
+  "Func_004054fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_tolower",
+      [
+        319,
+        356
+      ]
+    ]
+  ],
+  "Func_0040551b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/hello/hello-2.10/lib/c-ctype.c",
+      "c_toupper",
+      [
+        358,
+        395
+      ]
+    ]
+  ],
+  "Func_00405540": [],
+  "Func_004055a0": [],
+  "Func_004055b0": [],
+  "Func_004055c8": []
+}

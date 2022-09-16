@@ -1,0 +1,2844 @@
+{
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\html.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt1.c": [
+    {
+      "getopt_long": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "40",
+        "total_line": "7",
+        "end_line": "47",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "_getopt_internal",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 43,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "_getopt_long_r": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "48",
+        "total_line": "8",
+        "end_line": "56",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "_getopt_internal_r",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 52,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "getopt_long_only": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "62",
+        "total_line": "8",
+        "end_line": "70",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "_getopt_internal",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 66,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "_getopt_long_only_r": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "71",
+        "total_line": "8",
+        "end_line": "79",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "_getopt_internal_r",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 75,
+            "column": 9
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt_int.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\event.c": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\event.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\html.c": [
+    {
+      "html_find": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "330",
+        "total_line": "122",
+        "end_line": "452",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\sgml.c",
+            "entity": "get_character",
+            "type": "unsigned char",
+            "kind": "C Function",
+            "line_number": 376,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_next",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 376,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_first",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 376,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 376,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\sgml.c",
+            "entity": "get_tag",
+            "type": "enum tag",
+            "kind": "C Function",
+            "line_number": 382,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_next",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 382,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 382,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_first",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 382,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_first",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 401,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_next",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 410,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_next",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 425,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 436,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "html_forward": {
+        "kind": "C Function",
+        "type": "unsigned char *",
+        "begin_line": "467",
+        "total_line": "98",
+        "end_line": "565",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\sgml.c",
+            "entity": "get_character",
+            "type": "unsigned char",
+            "kind": "C Function",
+            "line_number": 511,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 511,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\sgml.c",
+            "entity": "get_tag",
+            "type": "enum tag",
+            "kind": "C Function",
+            "line_number": 517,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 517,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 553,
+            "column": 10
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\options.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\sgml.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c": [
+    {
+      "ck_atoi": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "129",
+        "total_line": "12",
+        "end_line": "141",
+        "call": [
+          {
+            "file": null,
+            "entity": "atoi",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 137,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "init": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "142",
+        "total_line": "21",
+        "end_line": "163",
+        "call": [
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 144,
+            "column": 11
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_fatal",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 146,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "context_init",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 148,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_fatal",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 151,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "get_extension": {
+        "kind": "C Function Static",
+        "type": "enum extension",
+        "begin_line": "164",
+        "total_line": "39",
+        "end_line": "203",
+        "call": [
+          {
+            "file": null,
+            "entity": "tolower",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 194,
+            "column": 17
+          }
+        ]
+      }
+    },
+    {
+      "file_read": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "204",
+        "total_line": "62",
+        "end_line": "266",
+        "call": [
+          {
+            "file": null,
+            "entity": "read",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 218,
+            "column": 26
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "context_find",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 227,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "realloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 237,
+            "column": 19
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_fatal",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 239,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "bcopy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 246,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "bcopy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 247,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_message",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 252,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "context_find",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 260,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "context_print",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 263,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "file_open": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "267",
+        "total_line": "39",
+        "end_line": "306",
+        "call": [
+          {
+            "file": null,
+            "entity": "open",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 280,
+            "column": 21
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_message",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 285,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "get_extension",
+            "type": "enum extension",
+            "kind": "C Function Static",
+            "line_number": 289,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "context_prep",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 293,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "file_read",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 294,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 296,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_message",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 299,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "usage": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "307",
+        "total_line": "42",
+        "end_line": "349",
+        "call": [
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 310,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 315,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 346,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "main": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "350",
+        "total_line": "122",
+        "end_line": "472",
+        "call": [
+          {
+            "file": null,
+            "entity": "setlocale",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 361,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt1.c",
+            "entity": "getopt_long",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 363,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "ck_atoi",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 373,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_fatal",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 374,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "ck_atoi",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 384,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_fatal",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 385,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "ck_atoi",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 414,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_fatal",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 415,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 431,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 432,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "usage",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 437,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "usage",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 442,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "usage",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 445,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "init",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 447,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "file_open",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 458,
+            "column": 19
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 458,
+            "column": 30
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\bool.c",
+            "entity": "file_open",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 465,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "context_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 467,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 468,
+            "column": 2
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\sys_types.in.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c": [
+    {
+      "exchange": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "144",
+        "total_line": "78",
+        "end_line": "222",
+        "call": []
+      }
+    },
+    {
+      "_getopt_initialize": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "225",
+        "total_line": "64",
+        "end_line": "289",
+        "call": [
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 237,
+            "column": 46
+          }
+        ]
+      }
+    },
+    {
+      "_getopt_internal_r": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "346",
+        "total_line": "781",
+        "end_line": "1127",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "_getopt_initialize",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 361,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "exchange",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 400,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 417,
+            "column": 32
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "exchange",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 423,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "strchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 479,
+            "column": 32
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 501,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 503,
+            "column": 42
+          },
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 523,
+            "column": 43
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 575,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 580,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "fputc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 585,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 588,
+            "column": 27
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 597,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 628,
+            "column": 26
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 642,
+            "column": 26
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 668,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 703,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 708,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 713,
+            "column": 27
+          },
+          {
+            "file": null,
+            "entity": "strchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 729,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 745,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 756,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "strchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 789,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 808,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 877,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 904,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 906,
+            "column": 62
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 950,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 954,
+            "column": 29
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 992,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 998,
+            "column": 37
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1031,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1036,
+            "column": 37
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1042,
+            "column": 29
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 1105,
+            "column": 20
+          }
+        ]
+      }
+    },
+    {
+      "_getopt_internal": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1128",
+        "total_line": "20",
+        "end_line": "1148",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "_getopt_internal_r",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 1137,
+            "column": 11
+          }
+        ]
+      }
+    },
+    {
+      "getopt": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "1157",
+        "total_line": "8",
+        "end_line": "1165",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.c",
+            "entity": "_getopt_internal",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 1159,
+            "column": 9
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\gettext.h": [
+    {
+      "pgettext_aux": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "148",
+        "total_line": "11",
+        "end_line": "159",
+        "call": []
+      }
+    },
+    {
+      "npgettext_aux": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "167",
+        "total_line": "13",
+        "end_line": "180",
+        "call": []
+      }
+    },
+    {
+      "dcpgettext_expr": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "210",
+        "total_line": "32",
+        "end_line": "242",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 214,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 215,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 224,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 228,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 230,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 234,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "dcnpgettext_expr": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "255",
+        "total_line": "33",
+        "end_line": "288",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 260,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 261,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 270,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 274,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 276,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 280,
+            "column": 8
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\build-aux\\snippet\\arg-nonnull.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c": [
+    {
+      "context_init": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "111",
+        "total_line": "34",
+        "end_line": "145",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_init",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 113,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 114,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_init",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 115,
+            "column": 21
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 119,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 127,
+            "column": 23
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 133,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 135,
+            "column": 22
+          }
+        ]
+      }
+    },
+    {
+      "context_prep": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "146",
+        "total_line": "34",
+        "end_line": "180",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_prep",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 177,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "line_merge": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "181",
+        "total_line": "77",
+        "end_line": "258",
+        "call": [
+          {
+            "file": null,
+            "entity": "memmove",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 195,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 198,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 203,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 209,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "memmove",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 220,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 229,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 236,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 246,
+            "column": 18
+          }
+        ]
+      }
+    },
+    {
+      "line_copy": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "259",
+        "total_line": "12",
+        "end_line": "271",
+        "call": [
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 264,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "memcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 265,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "line_print": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "272",
+        "total_line": "16",
+        "end_line": "288",
+        "call": [
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 275,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_print",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 278,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 279,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 282,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 284,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 285,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "line_get": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "289",
+        "total_line": "76",
+        "end_line": "365",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_count",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 300,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_next",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 308,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_near",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 312,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_count",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 313,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\text.c",
+            "entity": "text_backward",
+            "type": "unsigned char *",
+            "kind": "C Function",
+            "line_number": 326,
+            "column": 20
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "line_merge",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 348,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "line_copy",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 350,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "line_print",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 356,
+            "column": 12
+          }
+        ]
+      }
+    },
+    {
+      "context_find": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "366",
+        "total_line": "40",
+        "end_line": "406",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "line_get",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 373,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\text.c",
+            "entity": "text_backward",
+            "type": "unsigned char *",
+            "kind": "C Function",
+            "line_number": 387,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "line_get",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 393,
+            "column": 16
+          }
+        ]
+      }
+    },
+    {
+      "context_print": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "407",
+        "total_line": "40",
+        "end_line": "447",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_eval",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 412,
+            "column": 7
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 415,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 425,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_print",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 428,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 429,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 431,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_count",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 431,
+            "column": 28
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 434,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "expr_count",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 439,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\context.c",
+            "entity": "line_print",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 441,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "context_free": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "448",
+        "total_line": "5",
+        "end_line": "453",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_free",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 450,
+            "column": 2
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\text.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\build-aux\\snippet\\warn-on-use.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c": [
+    {
+      "err_message": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "42",
+        "total_line": "11",
+        "end_line": "53",
+        "call": [
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 48,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 50,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "err_fatal": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "54",
+        "total_line": "6",
+        "end_line": "60",
+        "call": [
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 56,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 57,
+            "column": 2
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\build-aux\\snippet\\c++defs.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\getopt.in.h": [
+    {
+      "PRAGMA_COLUMNS": {
+        "kind": "C Function",
+        "type": null,
+        "begin_line": "24",
+        "total_line": "225",
+        "end_line": "249",
+        "call": []
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\unistd.in.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c": [
+    {
+      "mem_init": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "71",
+        "total_line": "18",
+        "end_line": "89",
+        "call": [
+          {
+            "file": null,
+            "entity": "getpagesize",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 76,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 77,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_fatal",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 79,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "mem_alloc": {
+        "kind": "C Function",
+        "type": "void *",
+        "begin_line": "90",
+        "total_line": "27",
+        "end_line": "117",
+        "call": [
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 103,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\err.c",
+            "entity": "err_fatal",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 105,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "mem_free": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "118",
+        "total_line": "14",
+        "end_line": "132",
+        "call": [
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 126,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 129,
+            "column": 2
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c": [
+    {
+      "match_init": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "121",
+        "total_line": "22",
+        "end_line": "143",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 123,
+            "column": 7
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 124,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "tolower",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 137,
+            "column": 19
+          }
+        ]
+      }
+    },
+    {
+      "get_label": {
+        "kind": "C Function Static",
+        "type": "unsigned char",
+        "begin_line": "144",
+        "total_line": "13",
+        "end_line": "157",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\sgml.c",
+            "entity": "get_character",
+            "type": "unsigned char",
+            "kind": "C Function",
+            "line_number": 152,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "match_incr": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "158",
+        "total_line": "131",
+        "end_line": "289",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "get_label",
+            "type": "unsigned char",
+            "kind": "C Function Static",
+            "line_number": 168,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "toupper",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 171,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 194,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 200,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 243,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 264,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 268,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "get_label",
+            "type": "unsigned char",
+            "kind": "C Function Static",
+            "line_number": 278,
+            "column": 14
+          }
+        ]
+      }
+    },
+    {
+      "enqueue": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "290",
+        "total_line": "9",
+        "end_line": "299",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "enqueue",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 294,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "enqueue",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 295,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "tree_fails": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "300",
+        "total_line": "30",
+        "end_line": "330",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "tree_fails",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 308,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "tree_fails",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 309,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "match_prep": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "331",
+        "total_line": "12",
+        "end_line": "343",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "enqueue",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 338,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "tree_fails",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 339,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "match_first": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "356",
+        "total_line": "10",
+        "end_line": "366",
+        "call": []
+      }
+    },
+    {
+      "match_next": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "367",
+        "total_line": "20",
+        "end_line": "387",
+        "call": []
+      }
+    },
+    {
+      "match_maybe": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "388",
+        "total_line": "11",
+        "end_line": "399",
+        "call": []
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\stddef.in.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\sgml.c": [
+    {
+      "get_entity": {
+        "kind": "C Function Static",
+        "type": "unsigned char",
+        "begin_line": "55",
+        "total_line": "135",
+        "end_line": "190",
+        "call": []
+      }
+    },
+    {
+      "get_character": {
+        "kind": "C Function",
+        "type": "unsigned char",
+        "begin_line": "191",
+        "total_line": "36",
+        "end_line": "227",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\sgml.c",
+            "entity": "get_entity",
+            "type": "unsigned char",
+            "kind": "C Function Static",
+            "line_number": 198,
+            "column": 11
+          }
+        ]
+      }
+    },
+    {
+      "get_tag": {
+        "kind": "C Function",
+        "type": "enum tag",
+        "begin_line": "229",
+        "total_line": "336",
+        "end_line": "565",
+        "call": []
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\text.c": [
+    {
+      "text_find": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "114",
+        "total_line": "109",
+        "end_line": "223",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_first",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 176,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_next",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 184,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_next",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 189,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_next",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 194,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_maybe",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 199,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 208,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "text_forward": {
+        "kind": "C Function",
+        "type": "unsigned char *",
+        "begin_line": "224",
+        "total_line": "68",
+        "end_line": "292",
+        "call": [
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 280,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "text_backward": {
+        "kind": "C Function",
+        "type": "unsigned char *",
+        "begin_line": "293",
+        "total_line": "61",
+        "end_line": "354",
+        "call": [
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 345,
+            "column": 10
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\lib\\unistd.c": [],
+  "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c": [
+    {
+      "get_token": {
+        "kind": "C Function Static",
+        "type": "struct tree *",
+        "begin_line": "140",
+        "total_line": "56",
+        "end_line": "196",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_incr",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 183,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 188,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "lookahead": {
+        "kind": "C Function Static",
+        "type": "enum token",
+        "begin_line": "197",
+        "total_line": "62",
+        "end_line": "259",
+        "call": []
+      }
+    },
+    {
+      "tree_dup": {
+        "kind": "C Function Static",
+        "type": "struct tree *",
+        "begin_line": "260",
+        "total_line": "17",
+        "end_line": "277",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 266,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_dup",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 267,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_dup",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 268,
+            "column": 17
+          }
+        ]
+      }
+    },
+    {
+      "tree_norm": {
+        "kind": "C Function Static",
+        "type": "struct tree *",
+        "begin_line": "278",
+        "total_line": "34",
+        "end_line": "312",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_dup",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 285,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_norm",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 286,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_norm",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 287,
+            "column": 17
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_norm",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 295,
+            "column": 19
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_norm",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 296,
+            "column": 20
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 303,
+            "column": 13
+          }
+        ]
+      }
+    },
+    {
+      "term": {
+        "kind": "C Function Static",
+        "type": "struct tree *",
+        "begin_line": "313",
+        "total_line": "19",
+        "end_line": "332",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "parse",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 319,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "get_token",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 324,
+            "column": 11
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "lookahead",
+            "type": "enum token",
+            "kind": "C Function Static",
+            "line_number": 328,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "parse": {
+        "kind": "C Function Static",
+        "type": "struct tree *",
+        "begin_line": "333",
+        "total_line": "48",
+        "end_line": "381",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "lookahead",
+            "type": "enum token",
+            "kind": "C Function Static",
+            "line_number": 337,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "term",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 338,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 348,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "lookahead",
+            "type": "enum token",
+            "kind": "C Function Static",
+            "line_number": 350,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "term",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 353,
+            "column": 22
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "lookahead",
+            "type": "enum token",
+            "kind": "C Function Static",
+            "line_number": 360,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "term",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 361,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_norm",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 365,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 375,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "list_kw": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "382",
+        "total_line": "20",
+        "end_line": "402",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "list_kw",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 386,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "list_kw",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 387,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 396,
+            "column": 17
+          }
+        ]
+      }
+    },
+    {
+      "list_pat": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "403",
+        "total_line": "26",
+        "end_line": "429",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "list_pat",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 407,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "list_pat",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 408,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "list_kw",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 414,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 418,
+            "column": 22
+          }
+        ]
+      }
+    },
+    {
+      "expr_init": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "430",
+        "total_line": "41",
+        "end_line": "471",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 435,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_init",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 436,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 440,
+            "column": 19
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 443,
+            "column": 32
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_incr",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 445,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "parse",
+            "type": "struct tree *",
+            "kind": "C Function Static",
+            "line_number": 452,
+            "column": 19
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 458,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\mem.c",
+            "entity": "mem_alloc",
+            "type": "void *",
+            "kind": "C Function",
+            "line_number": 459,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "list_pat",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 465,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\match.c",
+            "entity": "match_prep",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 466,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "expr_prep": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "472",
+        "total_line": "11",
+        "end_line": "483",
+        "call": []
+      }
+    },
+    {
+      "tree_eval": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "484",
+        "total_line": "17",
+        "end_line": "501",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_eval",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 489,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_eval",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 489,
+            "column": 39
+          },
+          {
+            "file": null,
+            "entity": "abort",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 491,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_eval",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 493,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_eval",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 493,
+            "column": 40
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_eval",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 495,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_eval",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 495,
+            "column": 39
+          }
+        ]
+      }
+    },
+    {
+      "expr_eval": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "502",
+        "total_line": "5",
+        "end_line": "507",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_eval",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 504,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "tree_print": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "508",
+        "total_line": "15",
+        "end_line": "523",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_print",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 512,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_print",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 513,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 518,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 519,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "expr_print": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "524",
+        "total_line": "8",
+        "end_line": "532",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_print",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 529,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "expr_count": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "533",
+        "total_line": "5",
+        "end_line": "538",
+        "call": []
+      }
+    },
+    {
+      "tree_distance": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "539",
+        "total_line": "17",
+        "end_line": "556",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_distance",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 545,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_distance",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 546,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "expr_near": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "557",
+        "total_line": "23",
+        "end_line": "580",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\bool\\bool-0.2.2\\src\\expr.c",
+            "entity": "tree_distance",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 567,
+            "column": 13
+          }
+        ]
+      }
+    },
+    {
+      "expr_next": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "581",
+        "total_line": "23",
+        "end_line": "604",
+        "call": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,4169 @@
+{
+  "Func_004034c0": [],
+  "Func_00402bd0": [],
+  "Func_00422240": [],
+  "Func_0040359d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "warn_junk_bytes",
+      [
+        42,
+        48
+      ]
+    ]
+  ],
+  "Func_004035e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "query_rename",
+      [
+        51,
+        102
+      ]
+    ]
+  ],
+  "Func_00403753": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "tape_skip_padding",
+      [
+        110,
+        126
+      ]
+    ]
+  ],
+  "Func_00403877": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "get_link_name",
+      [
+        128,
+        147
+      ]
+    ]
+  ],
+  "Func_0040393e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "list_file",
+      [
+        149,
+        200
+      ]
+    ]
+  ],
+  "Func_00403ad0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "try_existing_file",
+      [
+        202,
+        241
+      ]
+    ]
+  ],
+  "Func_00403cc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "defer_copyin",
+      [
+        257,
+        265
+      ]
+    ]
+  ],
+  "Func_00403cf8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "create_defered_links",
+      [
+        271,
+        311
+      ]
+    ]
+  ],
+  "Func_00403e53": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "create_defered_links_to_skipped",
+      [
+        318,
+        360
+      ]
+    ]
+  ],
+  "Func_00403f86": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "create_final_defers",
+      [
+        368,
+        411
+      ]
+    ]
+  ],
+  "Func_004040a7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "copyin_regular_file",
+      [
+        413,
+        572
+      ]
+    ]
+  ],
+  "Func_004045cb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "copyin_device",
+      [
+        574,
+        645
+      ]
+    ]
+  ],
+  "Func_00404896": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "copyin_link",
+      [
+        647,
+        696
+      ]
+    ]
+  ],
+  "Func_00404aa2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "copyin_file",
+      [
+        698,
+        740
+      ]
+    ]
+  ],
+  "Func_00404bcd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "long_format",
+      [
+        751,
+        798
+      ]
+    ]
+  ],
+  "Func_00404db8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "print_name_with_quoting",
+      [
+        800,
+        848
+      ]
+    ]
+  ],
+  "Func_00404eec": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "read_pattern_file",
+      [
+        854,
+        894
+      ]
+    ]
+  ],
+  "Func_00405077": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "from_ascii",
+      [
+        897,
+        941
+      ]
+    ]
+  ],
+  "Func_0040523a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "read_in_header",
+      [
+        951,
+        1065
+      ]
+    ]
+  ],
+  "Func_00405694": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "read_in_old_ascii",
+      [
+        1071,
+        1130
+      ]
+    ]
+  ],
+  "Func_00405971": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "read_in_new_ascii",
+      [
+        1136,
+        1168
+      ]
+    ]
+  ],
+  "Func_00405bea": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "read_in_binary",
+      [
+        1174,
+        1255
+      ]
+    ]
+  ],
+  "Func_00405eca": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "swab_array",
+      [
+        1260,
+        1273
+      ]
+    ]
+  ],
+  "Func_00405f13": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyin.c",
+      "process_copy_in",
+      [
+        1278,
+        1512
+      ]
+    ]
+  ],
+  "Func_004065ca": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "read_for_checksum",
+      [
+        36,
+        63
+      ]
+    ]
+  ],
+  "Func_00406702": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "tape_clear_rest_of_block",
+      [
+        68,
+        73
+      ]
+    ]
+  ],
+  "Func_0040673b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "tape_pad_output",
+      [
+        78,
+        94
+      ]
+    ]
+  ],
+  "Func_00406845": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "count_defered_links_to_dev_ino",
+      [
+        109,
+        126
+      ]
+    ]
+  ],
+  "Func_004068cd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "last_link",
+      [
+        131,
+        135
+      ]
+    ]
+  ],
+  "Func_00406902": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "add_link_defer",
+      [
+        140,
+        147
+      ]
+    ]
+  ],
+  "Func_0040693a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "writeout_other_defers",
+      [
+        155,
+        191
+      ]
+    ]
+  ],
+  "Func_00406a41": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "writeout_defered_file",
+      [
+        197,
+        236
+      ]
+    ]
+  ],
+  "Func_00406c33": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "writeout_final_defers",
+      [
+        244,
+        266
+      ]
+    ]
+  ],
+  "Func_00406d4f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "to_ascii",
+      [
+        271,
+        285
+      ]
+    ]
+  ],
+  "Func_00406db6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "field_width_error",
+      [
+        287,
+        292
+      ]
+    ]
+  ],
+  "Func_00406dfb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "field_width_warning",
+      [
+        294,
+        299
+      ]
+    ]
+  ],
+  "Func_00406e4d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "to_ascii_or_warn",
+      [
+        301,
+        308
+      ]
+    ]
+  ],
+  "Func_00406e9d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "to_ascii_or_error",
+      [
+        310,
+        321
+      ]
+    ]
+  ],
+  "Func_00406ef8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "write_out_new_ascii_header",
+      [
+        324,
+        382
+      ]
+    ]
+  ],
+  "Func_00407354": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "write_out_old_ascii_header",
+      [
+        384,
+        426
+      ]
+    ]
+  ],
+  "Func_00407656": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "hp_compute_dev",
+      [
+        428,
+        454
+      ]
+    ]
+  ],
+  "Func_00407738": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "write_out_binary_header",
+      [
+        456,
+        517
+      ]
+    ]
+  ],
+  "Func_00407a23": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "write_out_header",
+      [
+        523,
+        571
+      ]
+    ]
+  ],
+  "Func_00407bd4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "assign_string",
+      [
+        573,
+        579
+      ]
+    ]
+  ],
+  "Func_00407c2b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copyout.c",
+      "process_copy_out",
+      [
+        585,
+        888
+      ]
+    ]
+  ],
+  "Func_00408640": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copypass.c",
+      "set_copypass_perms",
+      [
+        38,
+        45
+      ]
+    ]
+  ],
+  "Func_00408697": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copypass.c",
+      "process_copy_pass",
+      [
+        50,
+        347
+      ]
+    ]
+  ],
+  "Func_004090d4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copypass.c",
+      "link_to_maj_min_ino",
+      [
+        357,
+        375
+      ]
+    ]
+  ],
+  "Func_00409150": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/copypass.c",
+      "link_to_name",
+      [
+        385,
+        406
+      ]
+    ]
+  ],
+  "Func_00409237": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/defer.c",
+      "create_deferment",
+      [
+        28,
+        37
+      ]
+    ]
+  ],
+  "Func_0040931e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/defer.c",
+      "free_deferment",
+      [
+        39,
+        44
+      ]
+    ]
+  ],
+  "Func_00409349": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/dstring.c",
+      "ds_init",
+      [
+        37,
+        42
+      ]
+    ]
+  ],
+  "Func_00409379": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/dstring.c",
+      "ds_resize",
+      [
+        46,
+        54
+      ]
+    ]
+  ],
+  "Func_004093bf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/dstring.c",
+      "ds_fgetstr",
+      [
+        63,
+        92
+      ]
+    ]
+  ],
+  "Func_0040948f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/dstring.c",
+      "ds_fgets",
+      [
+        94,
+        98
+      ]
+    ]
+  ],
+  "Func_004094b9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/dstring.c",
+      "ds_fgetname",
+      [
+        100,
+        104
+      ]
+    ]
+  ],
+  "Func_004094e3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/fatal.c",
+      "fatal_exit",
+      [
+        23,
+        27
+      ]
+    ]
+  ],
+  "Func_004094f1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/main.c",
+      "warn_control",
+      [
+        258,
+        294
+      ]
+    ]
+  ],
+  "Func_004095e4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/main.c",
+      "parse_opt",
+      [
+        296,
+        558
+      ]
+    ]
+  ],
+  "Func_00409e12": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/main.c",
+      "usage",
+      [
+        570,
+        576
+      ]
+    ]
+  ],
+  "Func_00409e4f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/main.c",
+      "process_args",
+      [
+        581,
+        728
+      ]
+    ]
+  ],
+  "Func_0040af6a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/main.c",
+      "initialize_buffers",
+      [
+        734,
+        773
+      ]
+    ]
+  ],
+  "Func_0040b059": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/main.c",
+      "main",
+      [
+        775,
+        794
+      ]
+    ]
+  ],
+  "Func_0040b148": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "stash_tar_linkname",
+      [
+        34,
+        42
+      ]
+    ]
+  ],
+  "Func_0040b178": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "split_long_name",
+      [
+        47,
+        58
+      ]
+    ]
+  ],
+  "Func_0040b1cb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "stash_tar_filename",
+      [
+        62,
+        80
+      ]
+    ]
+  ],
+  "Func_0040b27b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "to_oct",
+      [
+        94,
+        110
+      ]
+    ]
+  ],
+  "Func_0040b2bd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "tar_checksum",
+      [
+        117,
+        135
+      ]
+    ]
+  ],
+  "Func_0040b351": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "write_out_tar_header",
+      [
+        140,
+        237
+      ]
+    ]
+  ],
+  "Func_0040b774": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "null_block",
+      [
+        243,
+        253
+      ]
+    ]
+  ],
+  "Func_0040b7bf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "read_in_tar_header",
+      [
+        258,
+        411
+      ]
+    ]
+  ],
+  "Func_0040bd7d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "is_tar_header",
+      [
+        419,
+        436
+      ]
+    ]
+  ],
+  "Func_0040bdfa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/tar.c",
+      "is_tar_filename_too_long",
+      [
+        452,
+        480
+      ]
+    ]
+  ],
+  "Func_0040be7b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "tape_empty_output_buffer",
+      [
+        54,
+        101
+      ]
+    ]
+  ],
+  "Func_0040c03b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "disk_empty_output_buffer",
+      [
+        115,
+        153
+      ]
+    ]
+  ],
+  "Func_0040c1b6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "swahw_array",
+      [
+        159,
+        175
+      ]
+    ]
+  ],
+  "Func_0040c226": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "tape_fill_input_buffer",
+      [
+        186,
+        214
+      ]
+    ]
+  ],
+  "Func_0040c391": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "disk_fill_input_buffer",
+      [
+        221,
+        236
+      ]
+    ]
+  ],
+  "Func_0040c437": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "tape_buffered_write",
+      [
+        241,
+        263
+      ]
+    ]
+  ],
+  "Func_0040c4fa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "disk_buffered_write",
+      [
+        268,
+        290
+      ]
+    ]
+  ],
+  "Func_0040c5be": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "tape_buffered_read",
+      [
+        296,
+        316
+      ]
+    ]
+  ],
+  "Func_0040c688": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "tape_buffered_peek",
+      [
+        326,
+        386
+      ]
+    ]
+  ],
+  "Func_0040c8a2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "tape_toss_input",
+      [
+        390,
+        416
+      ]
+    ]
+  ],
+  "Func_0040c996": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "write_nuls_to_file",
+      [
+        418,
+        433
+      ]
+    ]
+  ],
+  "Func_0040ca0e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "copy_files_tape_to_disk",
+      [
+        443,
+        464
+      ]
+    ]
+  ],
+  "Func_0040cafc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "copy_files_disk_to_tape",
+      [
+        473,
+        517
+      ]
+    ]
+  ],
+  "Func_0040ccc3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "copy_files_disk_to_disk",
+      [
+        526,
+        567
+      ]
+    ]
+  ],
+  "Func_0040ce79": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "warn_if_file_changed",
+      [
+        571,
+        593
+      ]
+    ]
+  ],
+  "Func_0040cf74": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "create_all_directories",
+      [
+        598,
+        633
+      ]
+    ]
+  ],
+  "Func_0040d02a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "prepare_append",
+      [
+        649,
+        681
+      ]
+    ]
+  ],
+  "Func_0040d162": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "inode_val_hasher",
+      [
+        699,
+        704
+      ]
+    ]
+  ],
+  "Func_0040d18b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "inode_val_compare",
+      [
+        706,
+        714
+      ]
+    ]
+  ],
+  "Func_0040d1f5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "find_inode_val",
+      [
+        716,
+        730
+      ]
+    ]
+  ],
+  "Func_0040d24c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "find_inode_file",
+      [
+        732,
+        738
+      ]
+    ]
+  ],
+  "Func_0040d293": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "add_inode",
+      [
+        744,
+        769
+      ]
+    ]
+  ],
+  "Func_0040d3a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "get_inode_and_dev",
+      [
+        771,
+        801
+      ]
+    ]
+  ],
+  "Func_0040d4f6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "open_archive",
+      [
+        808,
+        828
+      ]
+    ]
+  ],
+  "Func_0040d721": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "tape_offline",
+      [
+        833,
+        843
+      ]
+    ]
+  ],
+  "Func_0040d77b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "get_next_reel",
+      [
+        854,
+        944
+      ]
+    ]
+  ],
+  "Func_0040da54": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "set_new_media_message",
+      [
+        952,
+        982
+      ]
+    ]
+  ],
+  "Func_0040db64": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "buf_all_zeros",
+      [
+        1149,
+        1159
+      ]
+    ]
+  ],
+  "Func_0040dba5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "sparse_write",
+      [
+        1171,
+        1250
+      ]
+    ]
+  ],
+  "Func_0040de42": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "stat_to_cpio",
+      [
+        1255,
+        1302
+      ]
+    ]
+  ],
+  "Func_0040e057": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "cpio_to_stat",
+      [
+        1304,
+        1345
+      ]
+    ]
+  ],
+  "Func_0040e242": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "fchown_or_chown",
+      [
+        1354,
+        1361
+      ]
+    ]
+  ],
+  "Func_0040e287": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "fchmod_or_chmod",
+      [
+        1363,
+        1370
+      ]
+    ]
+  ],
+  "Func_0040e2c3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "set_perms",
+      [
+        1372,
+        1394
+      ]
+    ]
+  ],
+  "Func_0040e3c2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "set_file_times",
+      [
+        1396,
+        1411
+      ]
+    ]
+  ],
+  "Func_0040e433": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "cpio_safer_name_suffix",
+      [
+        1415,
+        1430
+      ]
+    ]
+  ],
+  "Func_0040e4ea": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "delay_cpio_set_stat",
+      [
+        1454,
+        1467
+      ]
+    ]
+  ],
+  "Func_0040e596": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "delay_set_stat",
+      [
+        1469,
+        1478
+      ]
+    ]
+  ],
+  "Func_0040e5ed": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "repair_inter_delayed_set_stat",
+      [
+        1484,
+        1508
+      ]
+    ]
+  ],
+  "Func_0040e6df": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "repair_delayed_set_stat",
+      [
+        1514,
+        1529
+      ]
+    ]
+  ],
+  "Func_0040e761": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "apply_delayed_set_stat",
+      [
+        1531,
+        1545
+      ]
+    ]
+  ],
+  "Func_0040e7dc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "cpio_mkdir",
+      [
+        1548,
+        1569
+      ]
+    ]
+  ],
+  "Func_0040e86c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "cpio_create_dir",
+      [
+        1571,
+        1653
+      ]
+    ]
+  ],
+  "Func_0040ea4e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "change_dir",
+      [
+        1655,
+        1673
+      ]
+    ]
+  ],
+  "Func_0040eb2a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/util.c",
+      "arf_stores_inode_p",
+      [
+        1676,
+        1689
+      ]
+    ]
+  ],
+  "Func_0040eb4b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/filemode.c",
+      "ftypelet",
+      [
+        105,
+        139
+      ]
+    ]
+  ],
+  "Func_0040ec05": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/filemode.c",
+      "rwx",
+      [
+        144,
+        150
+      ]
+    ]
+  ],
+  "Func_0040ec79": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/filemode.c",
+      "setst",
+      [
+        155,
+        188
+      ]
+    ]
+  ],
+  "Func_0040ed26": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/filemode.c",
+      "mode_string",
+      [
+        193,
+        201
+      ]
+    ]
+  ],
+  "Func_0040edbe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/filemode.c",
+      "filemodestring",
+      [
+        239,
+        243
+      ]
+    ]
+  ],
+  "Func_0040ede9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/idcache.c",
+      "getuser",
+      [
+        57,
+        83
+      ]
+    ]
+  ],
+  "Func_0040ee99": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/idcache.c",
+      "getuidbyname",
+      [
+        90,
+        123
+      ]
+    ]
+  ],
+  "Func_0040ef9d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/idcache.c",
+      "getgroup",
+      [
+        132,
+        158
+      ]
+    ]
+  ],
+  "Func_0040f04d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/idcache.c",
+      "getgidbyname",
+      [
+        165,
+        198
+      ]
+    ]
+  ],
+  "Func_0040f151": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/makepath.c",
+      "make_path",
+      [
+        51,
+        189
+      ]
+    ]
+  ],
+  "Func_0040f566": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/userspec.c",
+      "isnumber_p",
+      [
+        50,
+        57
+      ]
+    ]
+  ],
+  "Func_0040f5ba": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/src/userspec.c",
+      "parse_user_spec",
+      [
+        71,
+        212
+      ]
+    ]
+  ],
+  "Func_0040faa7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/exit.c",
+      "pax_exit",
+      [
+        22,
+        26
+      ]
+    ]
+  ],
+  "Func_0040fab8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "_rmt_shutdown",
+      [
+        105,
+        113
+      ]
+    ]
+  ],
+  "Func_0040fb1c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "do_command",
+      [
+        118,
+        135
+      ]
+    ]
+  ],
+  "Func_0040fba8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "get_status_string",
+      [
+        137,
+        207
+      ]
+    ]
+  ],
+  "Func_0040fd2e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "get_status",
+      [
+        211,
+        224
+      ]
+    ]
+  ],
+  "Func_0040fd86": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "get_status_off",
+      [
+        226,
+        266
+      ]
+    ]
+  ],
+  "Func_0040fed8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "encode_oflag",
+      [
+        318,
+        353
+      ]
+    ]
+  ],
+  "Func_0041024a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "rmt_open__",
+      [
+        360,
+        548
+      ]
+    ]
+  ],
+  "Func_0041078e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "rmt_close__",
+      [
+        552,
+        563
+      ]
+    ]
+  ],
+  "Func_004107db": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "rmt_read__",
+      [
+        567,
+        592
+      ]
+    ]
+  ],
+  "Func_004108bf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "rmt_write__",
+      [
+        596,
+        624
+      ]
+    ]
+  ],
+  "Func_004109a5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "rmt_lseek__",
+      [
+        628,
+        657
+      ]
+    ]
+  ],
+  "Func_00410ad4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/rtapelib.c",
+      "rmt_ioctl__",
+      [
+        661,
+        751
+      ]
+    ]
+  ],
+  "Func_00410d92": [],
+  "Func_00410f5b": [],
+  "Func_00410fda": [],
+  "Func_0041104c": [],
+  "Func_004110c1": [],
+  "Func_00411150": [],
+  "Func_004111dc": [],
+  "Func_004111fc": [],
+  "Func_0041121c": [],
+  "Func_00411239": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "is_open",
+      [
+        127,
+        142
+      ]
+    ]
+  ],
+  "Func_004112c9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "is_open",
+      [
+        127,
+        142
+      ]
+    ]
+  ],
+  "Func_004112e9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "is_open",
+      [
+        127,
+        142
+      ]
+    ]
+  ],
+  "Func_00411309": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "flush_stdout",
+      [
+        145,
+        168
+      ]
+    ]
+  ],
+  "Func_00411329": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "flush_stdout",
+      [
+        145,
+        168
+      ]
+    ]
+  ],
+  "Func_00411349": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "flush_stdout",
+      [
+        145,
+        168
+      ]
+    ]
+  ],
+  "Func_00411366": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "flush_stdout",
+      [
+        145,
+        168
+      ]
+    ]
+  ],
+  "Func_00411386": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "print_errno_message",
+      [
+        170,
+        199
+      ]
+    ]
+  ],
+  "Func_004113a6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "print_errno_message",
+      [
+        170,
+        199
+      ]
+    ]
+  ],
+  "Func_00411452": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "print_errno_message",
+      [
+        170,
+        199
+      ]
+    ]
+  ],
+  "Func_004114f4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_00411511": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_004115ae": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_004115ce": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_004115ee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_0041160e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_0041162e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_0041164e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_0041166e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_00411700": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_00411720": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_004117a8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_tail",
+      [
+        202,
+        284
+      ]
+    ]
+  ],
+  "Func_00411838": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error",
+      [
+        291,
+        328
+      ]
+    ]
+  ],
+  "Func_00411855": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error",
+      [
+        291,
+        328
+      ]
+    ]
+  ],
+  "Func_00411875": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error",
+      [
+        291,
+        328
+      ]
+    ]
+  ],
+  "Func_00411895": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error",
+      [
+        291,
+        328
+      ]
+    ]
+  ],
+  "Func_004118b5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error",
+      [
+        291,
+        328
+      ]
+    ]
+  ],
+  "Func_004118d5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error",
+      [
+        291,
+        328
+      ]
+    ]
+  ],
+  "Func_004118f5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error",
+      [
+        291,
+        328
+      ]
+    ]
+  ],
+  "Func_00411915": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_at_line",
+      [
+        334,
+        398
+      ]
+    ]
+  ],
+  "Func_00411935": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_at_line",
+      [
+        334,
+        398
+      ]
+    ]
+  ],
+  "Func_00411955": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_at_line",
+      [
+        334,
+        398
+      ]
+    ]
+  ],
+  "Func_004119e5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/error.c",
+      "error_at_line",
+      [
+        334,
+        398
+      ]
+    ]
+  ],
+  "Func_00411a02": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/names.c",
+      "hash_string_hasher",
+      [
+        26,
+        30
+      ]
+    ]
+  ],
+  "Func_00411a27": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/names.c",
+      "hash_string_compare",
+      [
+        33,
+        37
+      ]
+    ]
+  ],
+  "Func_00411a51": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/names.c",
+      "hash_string_insert_prefix",
+      [
+        43,
+        77
+      ]
+    ]
+  ],
+  "Func_00411b60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/names.c",
+      "removed_prefixes_p",
+      [
+        86,
+        91
+      ]
+    ]
+  ],
+  "Func_00411bb5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/lib/names.c",
+      "safer_name_suffix",
+      [
+        99,
+        164
+      ]
+    ]
+  ],
+  "Func_00411d85": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "validate_uparams",
+      [
+        134,
+        156
+      ]
+    ]
+  ],
+  "Func_00411e84": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "fill_in_uparams",
+      [
+        159,
+        254
+      ]
+    ]
+  ],
+  "Func_00412309": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "find_char",
+      [
+        340,
+        349
+      ]
+    ]
+  ],
+  "Func_00412345": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "make_hol",
+      [
+        432,
+        500
+      ]
+    ]
+  ],
+  "Func_004125f3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_add_cluster",
+      [
+        505,
+        524
+      ]
+    ]
+  ],
+  "Func_0041269e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_free",
+      [
+        527,
+        546
+      ]
+    ]
+  ],
+  "Func_00412718": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_entry_short_iterate",
+      [
+        548,
+        571
+      ]
+    ]
+  ],
+  "Func_004127e3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "until_short",
+      [
+        600,
+        605
+      ]
+    ]
+  ],
+  "Func_0041281b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_entry_first_short",
+      [
+        608,
+        613
+      ]
+    ]
+  ],
+  "Func_0041284b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_entry_first_long",
+      [
+        616,
+        625
+      ]
+    ]
+  ],
+  "Func_004128a3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_find_entry",
+      [
+        629,
+        650
+      ]
+    ]
+  ],
+  "Func_00412946": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_set_group",
+      [
+        654,
+        660
+      ]
+    ]
+  ],
+  "Func_00412984": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "group_cmp",
+      [
+        664,
+        673
+      ]
+    ]
+  ],
+  "Func_004129c6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_cluster_cmp",
+      [
+        677,
+        695
+      ]
+    ]
+  ],
+  "Func_00412a6e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_cluster_base",
+      [
+        699,
+        705
+      ]
+    ]
+  ],
+  "Func_00412a97": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_cluster_is_child",
+      [
+        708,
+        715
+      ]
+    ]
+  ],
+  "Func_00412ad2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "canon_doc_option",
+      [
+        720,
+        739
+      ]
+    ]
+  ],
+  "Func_00412b96": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_entry_cmp",
+      [
+        745,
+        819
+      ]
+    ]
+  ],
+  "Func_00412e89": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_entry_qcmp",
+      [
+        822,
+        826
+      ]
+    ]
+  ],
+  "Func_00412eae": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_sort",
+      [
+        831,
+        843
+      ]
+    ]
+  ],
+  "Func_00412f1d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_append",
+      [
+        847,
+        937
+      ]
+    ]
+  ],
+  "Func_0041324a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "indent_to",
+      [
+        940,
+        946
+      ]
+    ]
+  ],
+  "Func_00413292": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "space",
+      [
+        950,
+        958
+      ]
+    ]
+  ],
+  "Func_004132ec": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "arg",
+      [
+        963,
+        976
+      ]
+    ]
+  ],
+  "Func_0041338c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "filter_doc",
+      [
+        1012,
+        1025
+      ]
+    ]
+  ],
+  "Func_004133e6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "print_header",
+      [
+        1032,
+        1059
+      ]
+    ]
+  ],
+  "Func_00413530": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "comma",
+      [
+        1065,
+        1096
+      ]
+    ]
+  ],
+  "Func_00413685": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_entry_help",
+      [
+        1099,
+        1232
+      ]
+    ]
+  ],
+  "Func_00413cc3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_help",
+      [
+        1235,
+        1262
+      ]
+    ]
+  ],
+  "Func_00413df8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "add_argless_short_opt",
+      [
+        1268,
+        1278
+      ]
+    ]
+  ],
+  "Func_00413e69": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "usage_argful_short_opt",
+      [
+        1282,
+        1310
+      ]
+    ]
+  ],
+  "Func_00413f5f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "usage_long_opt",
+      [
+        1314,
+        1341
+      ]
+    ]
+  ],
+  "Func_00414063": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "hol_usage",
+      [
+        1344,
+        1380
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "always_inline",
+      [
+        581,
+        597
+      ]
+    ]
+  ],
+  "Func_00414272": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "argp_hol",
+      [
+        1384,
+        1403
+      ]
+    ]
+  ],
+  "Func_0041435f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "argp_args_levels",
+      [
+        1407,
+        1421
+      ]
+    ]
+  ],
+  "Func_004143e1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "argp_args_usage",
+      [
+        1428,
+        1481
+      ]
+    ]
+  ],
+  "Func_004145d9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "argp_doc",
+      [
+        1490,
+        1584
+      ]
+    ]
+  ],
+  "Func_0041491b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "_help",
+      [
+        1590,
+        1729
+      ]
+    ]
+  ],
+  "Func_00414d9f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "__argp_help",
+      [
+        1733,
+        1740
+      ]
+    ]
+  ],
+  "Func_00414df5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "__argp_state_help",
+      [
+        1765,
+        1784
+      ]
+    ]
+  ],
+  "Func_00414ecf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "__argp_error",
+      [
+        1792,
+        1846
+      ]
+    ]
+  ],
+  "Func_00415072": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-help.c",
+      "__argp_failure",
+      [
+        1859,
+        1956
+      ]
+    ]
+  ],
+  "Func_004152f6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "argp_default_parser",
+      [
+        89,
+        134
+      ]
+    ]
+  ],
+  "Func_00415417": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "argp_version_parser",
+      [
+        146,
+        167
+      ]
+    ]
+  ],
+  "Func_004154e4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "find_long_option",
+      [
+        175,
+        188
+      ]
+    ]
+  ],
+  "Func_0041555a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "group_parse",
+      [
+        223,
+        239
+      ]
+    ]
+  ],
+  "Func_004155f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "convert_options",
+      [
+        288,
+        387
+      ]
+    ]
+  ],
+  "Func_00415963": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "parser_convert",
+      [
+        390,
+        414
+      ]
+    ]
+  ],
+  "Func_00415a42": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "calc_sizes",
+      [
+        429,
+        454
+      ]
+    ]
+  ],
+  "Func_00415b3c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "parser_init",
+      [
+        457,
+        566
+      ]
+    ]
+  ],
+  "Func_004160ac": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "parser_finalize",
+      [
+        569,
+        658
+      ]
+    ]
+  ],
+  "Func_00416392": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "parser_parse_arg",
+      [
+        665,
+        712
+      ]
+    ]
+  ],
+  "Func_004164e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "parser_parse_opt",
+      [
+        716,
+        771
+      ]
+    ]
+  ],
+  "Func_00416698": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "parser_parse_next",
+      [
+        777,
+        862
+      ]
+    ]
+  ],
+  "Func_0041693e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "__argp_parse",
+      [
+        869,
+        929
+      ]
+    ]
+  ],
+  "Func_00416b7b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-parse.c",
+      "__argp_input",
+      [
+        936,
+        950
+      ]
+    ]
+  ],
+  "Func_00416bda": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp.h",
+      "__argp_usage",
+      [
+        616,
+        620
+      ]
+    ]
+  ],
+  "Func_00416c04": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp.h",
+      "__NTH",
+      [
+        622,
+        632
+      ]
+    ]
+  ],
+  "Func_00416c6f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp.h",
+      "__NTH",
+      [
+        634,
+        638
+      ]
+    ]
+  ],
+  "Func_00416cb4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-version-etc.c",
+      "version_etc_hook",
+      [
+        25,
+        30
+      ]
+    ]
+  ],
+  "Func_00416cee": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-version-etc.c",
+      "argp_version_setup",
+      [
+        32,
+        38
+      ]
+    ]
+  ],
+  "Func_00416d1e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/closeout.c",
+      "close_stdout_set_file_name",
+      [
+        40,
+        44
+      ]
+    ]
+  ],
+  "Func_00416d34": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/closeout.c",
+      "close_stdout_set_ignore_EPIPE",
+      [
+        77,
+        81
+      ]
+    ]
+  ],
+  "Func_00416d4a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/closeout.c",
+      "close_stdout",
+      [
+        106,
+        124
+      ]
+    ]
+  ],
+  "Func_00416e36": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/dirname.c",
+      "dir_name",
+      [
+        31,
+        38
+      ]
+    ]
+  ],
+  "Func_00416e64": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/dirname-lgpl.c",
+      "dir_len",
+      [
+        31,
+        53
+      ]
+    ]
+  ],
+  "Func_00416ee5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/dirname-lgpl.c",
+      "mdir_name",
+      [
+        70,
+        86
+      ]
+    ]
+  ],
+  "Func_00416f7c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/basename-lgpl.c",
+      "last_component",
+      [
+        29,
+        51
+      ]
+    ]
+  ],
+  "Func_00416fe5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/basename-lgpl.c",
+      "base_len",
+      [
+        57,
+        75
+      ]
+    ]
+  ],
+  "Func_00417033": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stripslash.c",
+      "strip_trailing_slashes",
+      [
+        30,
+        45
+      ]
+    ]
+  ],
+  "Func_00417098": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/full-write.c",
+      "full_rw",
+      [
+        57,
+        79
+      ]
+    ]
+  ],
+  "Func_00417119": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_get_n_buckets",
+      [
+        149,
+        153
+      ]
+    ]
+  ],
+  "Func_0041712b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_get_n_buckets_used",
+      [
+        157,
+        161
+      ]
+    ]
+  ],
+  "Func_0041713d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_get_n_entries",
+      [
+        165,
+        169
+      ]
+    ]
+  ],
+  "Func_0041714f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_get_max_bucket_length",
+      [
+        173,
+        195
+      ]
+    ]
+  ],
+  "Func_004171cd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_table_ok",
+      [
+        200,
+        227
+      ]
+    ]
+  ],
+  "Func_00417267": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_print_statistics",
+      [
+        229,
+        244
+      ]
+    ]
+  ],
+  "Func_00417380": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "safe_hasher",
+      [
+        248,
+        255
+      ]
+    ]
+  ],
+  "Func_004173d7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_lookup",
+      [
+        260,
+        274
+      ]
+    ]
+  ],
+  "Func_0041746a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_get_first",
+      [
+        287,
+        300
+      ]
+    ]
+  ],
+  "Func_004174c6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_get_next",
+      [
+        306,
+        329
+      ]
+    ]
+  ],
+  "Func_00417560": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_get_entries",
+      [
+        335,
+        357
+      ]
+    ]
+  ],
+  "Func_004175fc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_do_for_each",
+      [
+        367,
+        389
+      ]
+    ]
+  ],
+  "Func_00417690": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_string",
+      [
+        427,
+        436
+      ]
+    ]
+  ],
+  "Func_004176e6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "_GL_ATTRIBUTE_CONST",
+      [
+        443,
+        457
+      ]
+    ]
+  ],
+  "Func_00417752": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "_GL_ATTRIBUTE_CONST",
+      [
+        462,
+        476
+      ]
+    ]
+  ],
+  "Func_00417799": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_reset_tuning",
+      [
+        478,
+        482
+      ]
+    ]
+  ],
+  "Func_004177eb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "raw_hasher",
+      [
+        485,
+        495
+      ]
+    ]
+  ],
+  "Func_00417822": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "raw_comparator",
+      [
+        498,
+        502
+      ]
+    ]
+  ],
+  "Func_0041783b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "check_tuning",
+      [
+        511,
+        537
+      ]
+    ]
+  ],
+  "Func_0041793e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "compute_bucket_size",
+      [
+        543,
+        557
+      ]
+    ]
+  ],
+  "Func_00417a28": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_initialize",
+      [
+        593,
+        646
+      ]
+    ]
+  ],
+  "Func_00417b93": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_clear",
+      [
+        652,
+        688
+      ]
+    ]
+  ],
+  "Func_00417c9a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_free",
+      [
+        695,
+        743
+      ]
+    ]
+  ],
+  "Func_00417dc5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "allocate_entry",
+      [
+        750,
+        770
+      ]
+    ]
+  ],
+  "Func_00417e10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "free_entry",
+      [
+        775,
+        781
+      ]
+    ]
+  ],
+  "Func_00417e46": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_find_entry",
+      [
+        789,
+        851
+      ]
+    ]
+  ],
+  "Func_00417fdb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "transfer_entries",
+      [
+        859,
+        932
+      ]
+    ]
+  ],
+  "Func_004181ab": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_rehash",
+      [
+        942,
+        1019
+      ]
+    ]
+  ],
+  "Func_004183af": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_insert_if_absent",
+      [
+        1037,
+        1117
+      ]
+    ]
+  ],
+  "Func_004186c9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_insert",
+      [
+        1125,
+        1133
+      ]
+    ]
+  ],
+  "Func_00418712": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/hash.c",
+      "hash_delete",
+      [
+        1139,
+        1197
+      ]
+    ]
+  ],
+  "Func_004189c1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/anytostr.c",
+      "__attribute_warn_unused_result__",
+      [
+        35,
+        57
+      ]
+    ]
+  ],
+  "Func_00418a46": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/progname.c",
+      "set_program_name",
+      [
+        38,
+        92
+      ]
+    ]
+  ],
+  "Func_00418b28": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "clone_quoting_options",
+      [
+        107,
+        115
+      ]
+    ]
+  ],
+  "Func_00418b74": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "get_quoting_style",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_00418b92": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "set_quoting_style",
+      [
+        126,
+        130
+      ]
+    ]
+  ],
+  "Func_00418bb7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "set_char_quoting",
+      [
+        137,
+        147
+      ]
+    ]
+  ],
+  "Func_00418c3f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "set_quoting_flags",
+      [
+        153,
+        162
+      ]
+    ]
+  ],
+  "Func_00418c72": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "set_custom_quoting",
+      [
+        164,
+        175
+      ]
+    ]
+  ],
+  "Func_00418ccd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quoting_options_from_style",
+      [
+        178,
+        186
+      ]
+    ]
+  ],
+  "Func_00418d66": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "gettext_quote",
+      [
+        192,
+        226
+      ]
+    ]
+  ],
+  "Func_00418e0e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_buffer_restyled",
+      [
+        241,
+        661
+      ]
+    ]
+  ],
+  "Func_00419968": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_buffer",
+      [
+        672,
+        684
+      ]
+    ]
+  ],
+  "Func_00419a0a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_alloc",
+      [
+        687,
+        692
+      ]
+    ]
+  ],
+  "Func_00419a3c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_alloc_mem",
+      [
+        700,
+        720
+      ]
+    ]
+  ],
+  "Func_00419b68": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_free",
+      [
+        736,
+        755
+      ]
+    ]
+  ],
+  "Func_00419c14": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_n_options",
+      [
+        765,
+        823
+      ]
+    ]
+  ],
+  "Func_00419e8b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_n",
+      [
+        825,
+        829
+      ]
+    ]
+  ],
+  "Func_00419eb6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_n_mem",
+      [
+        831,
+        835
+      ]
+    ]
+  ],
+  "Func_00419ee2": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg",
+      [
+        837,
+        841
+      ]
+    ]
+  ],
+  "Func_00419f01": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_mem",
+      [
+        843,
+        847
+      ]
+    ]
+  ],
+  "Func_00419f28": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_n_style",
+      [
+        849,
+        854
+      ]
+    ]
+  ],
+  "Func_00419f69": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_n_style_mem",
+      [
+        856,
+        862
+      ]
+    ]
+  ],
+  "Func_00419fa8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_style",
+      [
+        864,
+        868
+      ]
+    ]
+  ],
+  "Func_00419fcc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_style_mem",
+      [
+        870,
+        874
+      ]
+    ]
+  ],
+  "Func_00419ff8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_char_mem",
+      [
+        876,
+        883
+      ]
+    ]
+  ],
+  "Func_0041a08c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_char",
+      [
+        885,
+        889
+      ]
+    ]
+  ],
+  "Func_0041a0b6": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_colon",
+      [
+        891,
+        895
+      ]
+    ]
+  ],
+  "Func_0041a0d5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_colon_mem",
+      [
+        897,
+        901
+      ]
+    ]
+  ],
+  "Func_0041a0ff": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_n_custom",
+      [
+        903,
+        909
+      ]
+    ]
+  ],
+  "Func_0041a135": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_n_custom_mem",
+      [
+        911,
+        919
+      ]
+    ]
+  ],
+  "Func_0041a1cc": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_custom",
+      [
+        921,
+        926
+      ]
+    ]
+  ],
+  "Func_0041a1fb": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quotearg_custom_mem",
+      [
+        928,
+        934
+      ]
+    ]
+  ],
+  "Func_0041a235": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quote_n_mem",
+      [
+        946,
+        950
+      ]
+    ]
+  ],
+  "Func_0041a261": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quote_mem",
+      [
+        952,
+        956
+      ]
+    ]
+  ],
+  "Func_0041a288": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quote_n",
+      [
+        958,
+        962
+      ]
+    ]
+  ],
+  "Func_0041a2b1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/quotearg.c",
+      "quote",
+      [
+        964,
+        968
+      ]
+    ]
+  ],
+  "Func_0041a2d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/safe-read.c",
+      "safe_rw",
+      [
+        55,
+        77
+      ]
+    ]
+  ],
+  "Func_0041a340": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/safe-read.c",
+      "safe_rw",
+      [
+        55,
+        77
+      ]
+    ]
+  ],
+  "Func_0041a3b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/utimens.c",
+      "validate_timespec",
+      [
+        84,
+        122
+      ]
+    ]
+  ],
+  "Func_0041a516": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/utimens.c",
+      "update_timespec",
+      [
+        130,
+        155
+      ]
+    ]
+  ],
+  "Func_0041a63f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/utimens.c",
+      "fdutimens",
+      [
+        167,
+        412
+      ]
+    ]
+  ],
+  "Func_0041abe5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/utimens.c",
+      "utimens",
+      [
+        416,
+        420
+      ]
+    ]
+  ],
+  "Func_0041ac0c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/utimens.c",
+      "lutimens",
+      [
+        426,
+        542
+      ]
+    ]
+  ],
+  "Func_0041ae72": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/version-etc.c",
+      "version_etc_arn",
+      [
+        61,
+        173
+      ]
+    ]
+  ],
+  "Func_0041b3e1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/version-etc.c",
+      "version_etc_ar",
+      [
+        179,
+        189
+      ]
+    ]
+  ],
+  "Func_0041b450": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/version-etc.c",
+      "version_etc_va",
+      [
+        195,
+        210
+      ]
+    ]
+  ],
+  "Func_0041b523": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/version-etc.c",
+      "version_etc",
+      [
+        226,
+        236
+      ]
+    ]
+  ],
+  "Func_0041b5da": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/version-etc.c",
+      "emit_bug_reporting_address",
+      [
+        238,
+        258
+      ]
+    ]
+  ],
+  "Func_0041b644": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xalloc.h",
+      "xnmalloc",
+      [
+        103,
+        109
+      ]
+    ]
+  ],
+  "Func_0041b688": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xalloc.h",
+      "xnrealloc",
+      [
+        116,
+        122
+      ]
+    ]
+  ],
+  "Func_0041b6da": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xalloc.h",
+      "x2nrealloc",
+      [
+        178,
+        210
+      ]
+    ]
+  ],
+  "Func_0041b789": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xalloc.h",
+      "xcharalloc",
+      [
+        217,
+        221
+      ]
+    ]
+  ],
+  "Func_0041b7a3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xmalloc.c",
+      "xmalloc",
+      [
+        38,
+        45
+      ]
+    ]
+  ],
+  "Func_0041b7d8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xmalloc.c",
+      "xrealloc",
+      [
+        50,
+        65
+      ]
+    ]
+  ],
+  "Func_0041b839": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xmalloc.c",
+      "x2realloc",
+      [
+        73,
+        77
+      ]
+    ]
+  ],
+  "Func_0041b863": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xmalloc.c",
+      "xzalloc",
+      [
+        83,
+        87
+      ]
+    ]
+  ],
+  "Func_0041b894": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xmalloc.c",
+      "xcalloc",
+      [
+        92,
+        104
+      ]
+    ]
+  ],
+  "Func_0041b8cd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xmalloc.c",
+      "xmemdup",
+      [
+        110,
+        114
+      ]
+    ]
+  ],
+  "Func_0041b901": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xmalloc.c",
+      "xstrdup",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_0041b92e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xalloc-die.c",
+      "xalloc_die",
+      [
+        31,
+        41
+      ]
+    ]
+  ],
+  "Func_0041b963": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/xgetcwd.c",
+      "xgetcwd",
+      [
+        34,
+        41
+      ]
+    ]
+  ],
+  "Func_0041b99c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/fnmatch_loop.c",
+      "internal_function",
+      [
+        24,
+        982
+      ]
+    ]
+  ],
+  "Func_0041c591": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/fnmatch_loop.c",
+      "internal_function",
+      [
+        985,
+        1021
+      ]
+    ]
+  ],
+  "Func_0041c6d7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/fnmatch_loop.c",
+      "internal_function",
+      [
+        1024,
+        1204
+      ]
+    ]
+  ],
+  "Func_0041cf1f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/fnmatch.c",
+      "is_char_class",
+      [
+        206,
+        263
+      ]
+    ]
+  ],
+  "Func_0041cfda": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/fnmatch_loop.c",
+      "internal_function",
+      [
+        24,
+        982
+      ]
+    ]
+  ],
+  "Func_0041db65": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/fnmatch_loop.c",
+      "internal_function",
+      [
+        985,
+        1021
+      ]
+    ]
+  ],
+  "Func_0041dca9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/fnmatch_loop.c",
+      "internal_function",
+      [
+        1024,
+        1204
+      ]
+    ]
+  ],
+  "Func_0041e52d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/fnmatch.c",
+      "fnmatch",
+      [
+        270,
+        338
+      ]
+    ]
+  ],
+  "Func_0041e820": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getcwd.c",
+      "__getcwd",
+      [
+        109,
+        442
+      ]
+    ]
+  ],
+  "Func_0041eddd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt1.c",
+      "getopt_long",
+      [
+        39,
+        45
+      ]
+    ]
+  ],
+  "Func_0041ee27": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt1.c",
+      "_getopt_long_r",
+      [
+        47,
+        54
+      ]
+    ]
+  ],
+  "Func_0041ee74": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt1.c",
+      "getopt_long_only",
+      [
+        61,
+        68
+      ]
+    ]
+  ],
+  "Func_0041eebe": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt1.c",
+      "_getopt_long_only_r",
+      [
+        70,
+        77
+      ]
+    ]
+  ],
+  "Func_0041ef0b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/mbrtowc.c",
+      "rpl_mbrtowc",
+      [
+        328,
+        405
+      ]
+    ]
+  ],
+  "Func_0041ef6c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/memchr.c",
+      "__memchr",
+      [
+        58,
+        169
+      ]
+    ]
+  ],
+  "Func_0041f07f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.c",
+      "__argp_make_fmtstream",
+      [
+        57,
+        88
+      ]
+    ]
+  ],
+  "Func_0041f15c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.c",
+      "__argp_fmtstream_free",
+      [
+        97,
+        111
+      ]
+    ]
+  ],
+  "Func_0041f1e3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.c",
+      "__argp_fmtstream_update",
+      [
+        121,
+        346
+      ]
+    ]
+  ],
+  "Func_0041f942": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.c",
+      "__argp_fmtstream_ensure",
+      [
+        350,
+        399
+      ]
+    ]
+  ],
+  "Func_0041fb2e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.c",
+      "__argp_fmtstream_printf",
+      [
+        401,
+        427
+      ]
+    ]
+  ],
+  "Func_0041fc9c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.h",
+      "__argp_fmtstream_write",
+      [
+        264,
+        276
+      ]
+    ]
+  ],
+  "Func_0041fd22": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.h",
+      "__argp_fmtstream_puts",
+      [
+        278,
+        289
+      ]
+    ]
+  ],
+  "Func_0041fd83": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.h",
+      "__argp_fmtstream_putc",
+      [
+        291,
+        298
+      ]
+    ]
+  ],
+  "Func_0041fde4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.h",
+      "__argp_fmtstream_set_lmargin",
+      [
+        301,
+        310
+      ]
+    ]
+  ],
+  "Func_0041fe44": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.h",
+      "__argp_fmtstream_set_rmargin",
+      [
+        313,
+        322
+      ]
+    ]
+  ],
+  "Func_0041fea4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.h",
+      "__argp_fmtstream_set_wmargin",
+      [
+        325,
+        334
+      ]
+    ]
+  ],
+  "Func_0041ff04": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/argp-fmtstream.h",
+      "__argp_fmtstream_point",
+      [
+        337,
+        343
+      ]
+    ]
+  ],
+  "Func_0041ff58": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "uint64_t",
+      [
+        38,
+        42
+      ]
+    ]
+  ],
+  "Func_0041ff74": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "uint64_t",
+      [
+        47,
+        51
+      ]
+    ]
+  ],
+  "Func_0041ff90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "uint32_t",
+      [
+        57,
+        61
+      ]
+    ]
+  ],
+  "Func_0041ffa8": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "uint32_t",
+      [
+        66,
+        70
+      ]
+    ]
+  ],
+  "Func_0041ffc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "rotl_sz",
+      [
+        75,
+        79
+      ]
+    ]
+  ],
+  "Func_0041fff7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "rotr_sz",
+      [
+        84,
+        88
+      ]
+    ]
+  ],
+  "Func_0042002e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "uint16_t",
+      [
+        95,
+        99
+      ]
+    ]
+  ],
+  "Func_00420060": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "uint16_t",
+      [
+        106,
+        110
+      ]
+    ]
+  ],
+  "Func_00420092": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "uint8_t",
+      [
+        117,
+        121
+      ]
+    ]
+  ],
+  "Func_004200c3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/bitrotate.h",
+      "uint8_t",
+      [
+        128,
+        132
+      ]
+    ]
+  ],
+  "Func_004200f4": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-strcasecmp.c",
+      "c_strcasecmp",
+      [
+        26,
+        56
+      ]
+    ]
+  ],
+  "Func_0042016c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/close-stream.c",
+      "close_stream",
+      [
+        55,
+        78
+      ]
+    ]
+  ],
+  "Func_004201f7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/gettime.c",
+      "gettime",
+      [
+        28,
+        48
+      ]
+    ]
+  ],
+  "Func_0042024c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/localcharset.c",
+      "get_charset_aliases",
+      [
+        123,
+        381
+      ]
+    ]
+  ],
+  "Func_004205f5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/localcharset.c",
+      "locale_charset",
+      [
+        392,
+        613
+      ]
+    ]
+  ],
+  "Func_004206c3": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stat-time.h",
+      "get_stat_atime_ns",
+      [
+        57,
+        67
+      ]
+    ]
+  ],
+  "Func_004206d5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stat-time.h",
+      "get_stat_ctime_ns",
+      [
+        70,
+        80
+      ]
+    ]
+  ],
+  "Func_004206e7": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stat-time.h",
+      "get_stat_mtime_ns",
+      [
+        83,
+        93
+      ]
+    ]
+  ],
+  "Func_004206f9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stat-time.h",
+      "get_stat_birthtime_ns",
+      [
+        96,
+        108
+      ]
+    ]
+  ],
+  "Func_00420708": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stat-time.h",
+      "get_stat_atime",
+      [
+        111,
+        122
+      ]
+    ]
+  ],
+  "Func_0042071e": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stat-time.h",
+      "get_stat_ctime",
+      [
+        125,
+        136
+      ]
+    ]
+  ],
+  "Func_00420734": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stat-time.h",
+      "get_stat_mtime",
+      [
+        139,
+        150
+      ]
+    ]
+  ],
+  "Func_0042074a": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/stat-time.h",
+      "get_stat_birthtime",
+      [
+        154,
+        195
+      ]
+    ]
+  ],
+  "Func_0042076c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt.c",
+      "exchange",
+      [
+        143,
+        220
+      ]
+    ]
+  ],
+  "Func_0042092d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt.c",
+      "_getopt_initialize",
+      [
+        224,
+        287
+      ]
+    ]
+  ],
+  "Func_004209fa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt.c",
+      "_getopt_internal_r",
+      [
+        345,
+        1155
+      ]
+    ]
+  ],
+  "Func_00421ddf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt.c",
+      "_getopt_internal",
+      [
+        1157,
+        1176
+      ]
+    ]
+  ],
+  "Func_00421e6f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/getopt.c",
+      "getopt",
+      [
+        1186,
+        1193
+      ]
+    ]
+  ],
+  "Func_00421eb1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isascii",
+      [
+        26,
+        30
+      ]
+    ]
+  ],
+  "Func_00421ed5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isalnum",
+      [
+        32,
+        65
+      ]
+    ]
+  ],
+  "Func_00421f0f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isalpha",
+      [
+        67,
+        94
+      ]
+    ]
+  ],
+  "Func_00421f3d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isblank",
+      [
+        96,
+        100
+      ]
+    ]
+  ],
+  "Func_00421f61": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_iscntrl",
+      [
+        102,
+        134
+      ]
+    ]
+  ],
+  "Func_00421f89": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isdigit",
+      [
+        136,
+        151
+      ]
+    ]
+  ],
+  "Func_00421fad": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_islower",
+      [
+        153,
+        171
+      ]
+    ]
+  ],
+  "Func_00421fd1": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isgraph",
+      [
+        173,
+        205
+      ]
+    ]
+  ],
+  "Func_00421ff5": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isprint",
+      [
+        207,
+        239
+      ]
+    ]
+  ],
+  "Func_00422019": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_ispunct",
+      [
+        241,
+        263
+      ]
+    ]
+  ],
+  "Func_0042205f": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isspace",
+      [
+        265,
+        270
+      ]
+    ]
+  ],
+  "Func_0042209b": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isupper",
+      [
+        272,
+        290
+      ]
+    ]
+  ],
+  "Func_004220bf": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_isxdigit",
+      [
+        292,
+        317
+      ]
+    ]
+  ],
+  "Func_004220f9": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_tolower",
+      [
+        319,
+        356
+      ]
+    ]
+  ],
+  "Func_00422119": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/cpio/cpio-2.12/gnu/c-ctype.c",
+      "c_toupper",
+      [
+        358,
+        395
+      ]
+    ]
+  ],
+  "Func_00422140": [],
+  "Func_004221a0": [],
+  "Func_004221b0": [],
+  "Func_004221c0": [],
+  "Func_004221d0": [],
+  "Func_004221e0": [],
+  "Func_00422200": []
+}

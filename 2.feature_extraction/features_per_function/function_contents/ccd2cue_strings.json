@@ -1,0 +1,495 @@
+{
+  "ccd2cue/ccd2cue-0.5/src/array.c": {
+    "concat": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": [
+        "\"cannot concatenate strings\""
+      ]
+    },
+    "xstrdup": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "strings": [
+        "\"%s: error copying string\""
+      ]
+    },
+    "array_remove_trailing_whitespace": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/array.h": {},
+  "ccd2cue/ccd2cue-0.5/src/ccd.c": {
+    "stream2ccd": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        434,
+        1
+      ],
+      "strings": [
+        "\"cannot parse CCD sheet stream\"",
+        "\" Version = %d \"",
+        "\" DataTracksScrambled = %d \"",
+        "\" CDTextLength = %d \"",
+        "\" CATALOG = %13[a-zA-Z0-9] \"",
+        "\" Sessions = %d \"",
+        "\" [ Session %d ] \"",
+        "\" PreGapMode = %d \"",
+        "\" PreGapSubC = %d \"",
+        "\" TocEntries = %d \"",
+        "\" [ Entry %d ] \"",
+        "\" Session = %d \"",
+        "\" Point = %x \"",
+        "\" ADR = %x \"",
+        "\" Control = %x \"",
+        "\" TrackNo = %d \"",
+        "\" AMin = %d \"",
+        "\" ASec = %d \"",
+        "\" AFrame = %d \"",
+        "\" ALBA = %d \"",
+        "\" Zero = %d \"",
+        "\" PMin = %d \"",
+        "\" PSec = %d \"",
+        "\" PFrame = %d \"",
+        "\" PLBA = %d \"",
+        "\" Entries = %d \"",
+        "\" Entry %d = \"",
+        "\" Entry %*d = %hhx %hhx %hhx %hhx %hhx %hhx %hhx \\\n%hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx \"",
+        "\" [ TRACK %d ] \"",
+        "\" MODE = %d \"",
+        "\" FLAGS = %a[a-zA-Z0-9 ] \"",
+        "\" ISRC = %12[a-zA-Z0-9] \"",
+        "\" INDEX %d = \"",
+        "\" INDEX %*d = %d \"",
+        "\" INDEX %*d = %d \""
+      ]
+    },
+    "ccd_init": {
+      "start_point": [
+        436,
+        0
+      ],
+      "end_point": [
+        461,
+        1
+      ],
+      "strings": []
+    },
+    "ccd_TRACK_init": {
+      "start_point": [
+        463,
+        0
+      ],
+      "end_point": [
+        478,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/ccd.h": {},
+  "ccd2cue/ccd2cue-0.5/src/ccd2cue.c": {
+    "main": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        269,
+        1
+      ],
+      "strings": [
+        "\"CCD sheet to CUE sheet converter\"",
+        "\"\"",
+        "\"cannot parse CCD sheet stream from '%s'\"",
+        "\"cannot convert '%s' to '%s'\"",
+        "\"w\"",
+        "\"cannot close '%s'\"",
+        "\"cannot convert '%s' to '%s'\"",
+        "\"cannot close '%s'\"",
+        "\"cannot close '%s'\""
+      ]
+    },
+    "parse_opt": {
+      "start_point": [
+        381,
+        0
+      ],
+      "end_point": [
+        538,
+        1
+      ],
+      "strings": [
+        "\"more than one disc image file name provided ('--image'): '%s' and '%s'\"",
+        "\"more than one CD-Text file name provided ('--cd-text'): '%s' and '%s'\"",
+        "\"more than one output CUE sheet provided ('--output'): '%s' and '%s'\"",
+        "\"%s: more than one input CCD sheet provided: '%s' and '%s'\"",
+        "\"-\"",
+        "\"-\"",
+        "\"%s: no image name provided ('--image')\"",
+        "\"cannot process command line arguments\"",
+        "\".img\"",
+        "\"cannot deduce image file name\"",
+        "\".cdt\"",
+        "\"cannot deduce CD-Text file name\"",
+        "\"-\"",
+        "\"stdin\"",
+        "\"r\"",
+        "\"cannot open CCD sheet '%s'\"",
+        "\"-\"",
+        "\"stdout\"",
+        "\"w\"",
+        "\"cannot open CUE sheet '%s'\""
+      ]
+    },
+    "print_version": {
+      "start_point": [
+        562,
+        0
+      ],
+      "end_point": [
+        584,
+        1
+      ],
+      "strings": [
+        "\"%s (%s) %s\\n\\n\"",
+        "\"Copyright (C) %s \"",
+        "\" <%s>\\n\\n\"",
+        "\"%s\\n\\n\"",
+        "\"%s\\n\"",
+        "\"2010, 2013, 2014, 2015\"",
+        "\"oitofelix@gnu.org\"",
+        "\"\\\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\\n\\\nThis is free software: you are free to change and redistribute it.\\n\\\nThere is NO WARRANTY, to the extent permitted by law.\"",
+        "\"Written by Bruno Fe'lix Rezende Ribeiro.\""
+      ]
+    },
+    "help_filter": {
+      "start_point": [
+        606,
+        0
+      ],
+      "end_point": [
+        673,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\\n%s\\n\\n%s\"",
+        "\"Convert CCD sheet to CUE sheet.\"",
+        "\"\\\nThe input file, referred as 'ccd-file', must exist.  If 'ccd-file' is \\\n'-', or omitted, standard input is used.  It is necessary to supply at \\\nleast one file name, in an option or non-option argument, in order to \\\ndeduce the remaining file names needed, and only one file name of each \\\ntype can be supplied.\"",
+        "\"Options:\"",
+        "\"%s\\n\\n\"",
+        "\"%s\\n\\n\"",
+        "\"  %s\\n\\n\"",
+        "\"%s\\n\\n\"",
+        "\"%s\\n\\n\"",
+        "\"  %s\\n\\n\"",
+        "\"%s\\n\\n\"",
+        "\"%s <%s>\\n\"",
+        "\"%s <%s>\\n\"",
+        "\"Examples:\"",
+        "\"\\\nThe most ordinary use case is when you have a CCD set of files and \\\njust want to generate a CUE sheet file in order to burn or otherwise \\\naccess the data inside the image file.  Supposing your CCD sheet file \\\nis called gnu.ccd, you are done with the command:\"",
+        "\"ccd2cue -o gnu.cue gnu.ccd\"",
+        "\"\\\nIf you have burned a CD from a CUE sheet produced by this program and \\\nall audio tracks became only senseless static noise, you may need to \\\ntell your burning software to swap the byte order of all samples sent \\\nto the CD-recorder.  This can be accomplished with (for example) the \\\n'--swap' option when using the 'cdrdao' program.  Experience has shown \\\nthat at least for mixed-mode discs it is necessary to use that option \\\nwhen burning, otherwise you will almost certainly waste a CD.\"",
+        "\"\\\nSupposing you want to burn a CD using the 'cdrdao' program and a CUE \\\nsheet file named 'gnu.cue', and wisely want to ensure the correct \\\nbehavior of your burnt disc, use the command:\"",
+        "\"cdrdao write --swap --speed 1 --eject gnu.cue\"",
+        "\"\\\nThat way 'cdrdao' will swap the byte order of audio samples, cautiously \\\nburning in the smallest possible speed and will eject your CD when it \\\nis done.\"",
+        "\"Report bugs to:\"",
+        "\"Report translation bugs to:\"",
+        "\"%s: error allocating memory\""
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/cdt.c": {
+    "cdt2stream": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/cdt.h": {},
+  "ccd2cue/ccd2cue-0.5/src/convert.c": {
+    "frames2msf": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "ccd2cue": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        183,
+        1
+      ],
+      "strings": [
+        "\"unknown track data type %d; please report a bug\""
+      ]
+    },
+    "ccd2cdt": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        216,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/convert.h": {},
+  "ccd2cue/ccd2cue-0.5/src/crc.c": {
+    "crc16": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/crc.h": {},
+  "ccd2cue/ccd2cue-0.5/src/cue.c": {
+    "cue_init": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": []
+    },
+    "cue_FILE_init": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "cue_TRACK_init": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        150,
+        1
+      ],
+      "strings": []
+    },
+    "cue2stream": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        254,
+        1
+      ],
+      "strings": [
+        "\"CATALOG %.13s\\n\"",
+        "\"CDTEXTFILE \\\"%s\\\"\\n\"",
+        "\"PERFORMER \\\"%.80s\\\"\\n\"",
+        "\"SONGWRITER \\\"%.80s\\\"\\n\"",
+        "\"TITLE \\\"%.80s\\\"\\n\"",
+        "\"FILE \\\"%s\\\" %s\\n\"",
+        "\"  TRACK %i %s\\n\"",
+        "\"    FLAGS %s\\n\"",
+        "\"    ISRC %s\\n\"",
+        "\"    PERFORMER \\\"%.80s\\\"\\n\"",
+        "\"    SONGWRITER \\\"%.80s\\\"\\n\"",
+        "\"    TITLE \\\"%.80s\\\"\\n\"",
+        "\"    PREGAP %02u:%02u:%02u\\n\"",
+        "\"    INDEX %02u %02u:%02u:%02u\\n\"",
+        "\"    POSTGAP %02u:%02u:%02u\\n\""
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/cue.h": {},
+  "ccd2cue/ccd2cue-0.5/src/errors.c": {
+    "error_push_f": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": [
+        "\"%s: cannot push error into stack\"",
+        "\"%s: %s\"",
+        "\"%s: cannot push error into stack\""
+      ]
+    },
+    "error_pop_f": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/errors.h": {},
+  "ccd2cue/ccd2cue-0.5/src/file.c": {
+    "make_reference_name": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/file.h": {},
+  "ccd2cue/ccd2cue-0.5/src/i18n.h": {},
+  "ccd2cue/ccd2cue-0.5/src/io.c": {
+    "io_optimize_stream_buffer": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "xfwrite": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": [
+        "\"%s: error writing to stream\""
+      ]
+    },
+    "xputc": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": [
+        "\"%s: error writing to stream\""
+      ]
+    },
+    "xfprintf": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": [
+        "\"%s: error writing to stream\""
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/io.h": {},
+  "ccd2cue/ccd2cue-0.5/src/memory.c": {
+    "xmalloc": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": [
+        "\"%s: error allocating memory\""
+      ]
+    },
+    "xrealloc": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": [
+        "\"%s: error reallocating memory\""
+      ]
+    },
+    "memory_obstack_alloc_failed": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": [
+        "\"%s: error allocating chunk for obstack\""
+      ]
+    }
+  },
+  "ccd2cue/ccd2cue-0.5/src/memory.h": {}
+}

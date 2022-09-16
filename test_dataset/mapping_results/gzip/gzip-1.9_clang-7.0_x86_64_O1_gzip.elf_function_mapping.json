@@ -1,0 +1,997 @@
+{
+  "Func_00401ba0": [],
+  "Func_00401bd0": [],
+  "Func_00401c90": [],
+  "Func_00401cc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/bits.c",
+      "bi_windup",
+      [
+        172,
+        184
+      ]
+    ]
+  ],
+  "Func_00401d60": [],
+  "Func_00401e90": [],
+  "Func_00401fe0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/deflate.c",
+      "fill_window",
+      [
+        545,
+        597
+      ]
+    ]
+  ],
+  "Func_00402130": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/deflate.c",
+      "deflate",
+      [
+        735,
+        852
+      ]
+    ]
+  ],
+  "Func_004025c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/deflate.c",
+      "deflate_fast",
+      [
+        647,
+        728
+      ]
+    ]
+  ],
+  "Func_004028b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/deflate.c",
+      "longest_match",
+      [
+        386,
+        509
+      ]
+    ]
+  ],
+  "Func_00402aa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/deflate.c",
+      "rsync_roll",
+      [
+        601,
+        625
+      ]
+    ]
+  ],
+  "Func_00402b50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "main",
+      [
+        427,
+        696
+      ]
+    ]
+  ],
+  "Func_004031b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "try_help",
+      [
+        339,
+        345
+      ]
+    ]
+  ],
+  "Func_004031e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "help",
+      [
+        348,
+        398
+      ]
+    ]
+  ],
+  "Func_00403230": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "finish_out",
+      [
+        2112,
+        2118
+      ]
+    ]
+  ],
+  "Func_00403250": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "license",
+      [
+        401,
+        407
+      ]
+    ]
+  ],
+  "Func_004032a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "version",
+      [
+        410,
+        415
+      ]
+    ]
+  ],
+  "Func_004032d0": [],
+  "Func_00403310": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "install_signal_handlers",
+      [
+        2047,
+        2085
+      ]
+    ]
+  ],
+  "Func_00403440": [],
+  "Func_00403b80": [],
+  "Func_00403e00": [],
+  "Func_00404200": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "abort_gzip",
+      [
+        2143,
+        2148
+      ]
+    ]
+  ],
+  "Func_00404210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "remove_output_file",
+      [
+        2123,
+        2138
+      ]
+    ]
+  ],
+  "Func_00404270": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "progerror",
+      [
+        417,
+        424
+      ]
+    ]
+  ],
+  "Func_004042c0": [],
+  "Func_00404c80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "input_eof",
+      [
+        699,
+        715
+      ]
+    ]
+  ],
+  "Func_00404ce0": [],
+  "Func_00404d70": [],
+  "Func_00404f20": [],
+  "Func_004050c0": [],
+  "Func_00405290": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "create_outfile",
+      [
+        1085,
+        1149
+      ]
+    ]
+  ],
+  "Func_00405410": [],
+  "Func_00405600": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "atdir_eq",
+      [
+        826,
+        832
+      ]
+    ]
+  ],
+  "Func_00405640": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "open_and_stat",
+      [
+        1220,
+        1266
+      ]
+    ]
+  ],
+  "Func_004056f0": [],
+  "Func_00405880": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "atdir_set",
+      [
+        838,
+        861
+      ]
+    ]
+  ],
+  "Func_00405900": [],
+  "Func_00405a70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "check_ofname",
+      [
+        1889,
+        1911
+      ]
+    ]
+  ],
+  "Func_00405b50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/gzip.c",
+      "do_chown",
+      [
+        1917,
+        1927
+      ]
+    ]
+  ],
+  "Func_00405b60": [],
+  "Func_00405b90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/inflate.c",
+      "inflate",
+      [
+        938,
+        978
+      ]
+    ]
+  ],
+  "Func_00405c20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/inflate.c",
+      "inflate_block",
+      [
+        892,
+        934
+      ]
+    ]
+  ],
+  "Func_00405d50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/inflate.c",
+      "inflate_dynamic",
+      [
+        721,
+        873
+      ]
+    ]
+  ],
+  "Func_00406430": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/inflate.c",
+      "inflate_stored",
+      [
+        615,
+        664
+      ]
+    ]
+  ],
+  "Func_00406620": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/inflate.c",
+      "inflate_fixed",
+      [
+        671,
+        716
+      ]
+    ]
+  ],
+  "Func_00406790": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/inflate.c",
+      "huft_build",
+      [
+        272,
+        479
+      ]
+    ]
+  ],
+  "Func_00406d60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/inflate.c",
+      "huft_free",
+      [
+        486,
+        501
+      ]
+    ]
+  ],
+  "Func_00406d90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/inflate.c",
+      "inflate_codes",
+      [
+        508,
+        610
+      ]
+    ]
+  ],
+  "Func_004072c0": [],
+  "Func_00407310": [],
+  "Func_004075b0": [],
+  "Func_00407640": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/trees.c",
+      "init_block",
+      [
+        416,
+        429
+      ]
+    ]
+  ],
+  "Func_004076f0": [],
+  "Func_004078c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/trees.c",
+      "set_file_type",
+      [
+        1073,
+        1085
+      ]
+    ]
+  ],
+  "Func_00407940": [],
+  "Func_00407b60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/trees.c",
+      "build_bl_tree",
+      [
+        799,
+        825
+      ]
+    ]
+  ],
+  "Func_00407bd0": [],
+  "Func_00407d30": [],
+  "Func_00407dd0": [],
+  "Func_00407f40": [],
+  "Func_00408020": [],
+  "Func_00408220": [],
+  "Func_00408340": [],
+  "Func_004084c0": [],
+  "Func_00408520": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unlzh.c",
+      "decode_start",
+      [
+        327,
+        332
+      ]
+    ]
+  ],
+  "Func_00408540": [],
+  "Func_00408670": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unlzh.c",
+      "huf_decode_start",
+      [
+        315,
+        318
+      ]
+    ]
+  ],
+  "Func_00408690": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unlzh.c",
+      "init_getbits",
+      [
+        124,
+        128
+      ]
+    ]
+  ],
+  "Func_004086c0": [],
+  "Func_00408770": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unlzh.c",
+      "decode_c",
+      [
+        270,
+        295
+      ]
+    ]
+  ],
+  "Func_00408840": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unlzh.c",
+      "decode_p",
+      [
+        297,
+        313
+      ]
+    ]
+  ],
+  "Func_004088d0": [],
+  "Func_004088f0": [],
+  "Func_00408ab0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unlzh.c",
+      "read_c_len",
+      [
+        235,
+        268
+      ]
+    ]
+  ],
+  "Func_00408c50": [],
+  "Func_00408ea0": [],
+  "Func_00409650": [],
+  "Func_00409830": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unpack.c",
+      "read_tree",
+      [
+        113,
+        165
+      ]
+    ]
+  ],
+  "Func_004099b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unpack.c",
+      "build_tree",
+      [
+        170,
+        203
+      ]
+    ]
+  ],
+  "Func_00409aa0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/unpack.c",
+      "read_byte",
+      [
+        80,
+        87
+      ]
+    ]
+  ],
+  "Func_00409ae0": [],
+  "Func_00409c20": [],
+  "Func_0040a0f0": [],
+  "Func_0040a190": [],
+  "Func_0040a1e0": [],
+  "Func_0040a280": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "read_error",
+      [
+        434,
+        445
+      ]
+    ]
+  ],
+  "Func_0040a2f0": [],
+  "Func_0040a340": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "clear_bufs",
+      [
+        151,
+        156
+      ]
+    ]
+  ],
+  "Func_0040a380": [],
+  "Func_0040a410": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "flush_window",
+      [
+        250,
+        260
+      ]
+    ]
+  ],
+  "Func_0040a460": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "flush_outbuf",
+      [
+        237,
+        244
+      ]
+    ]
+  ],
+  "Func_0040a4a0": [],
+  "Func_0040a4c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "write_error",
+      [
+        447,
+        454
+      ]
+    ]
+  ],
+  "Func_0040a500": [],
+  "Func_0040a560": [],
+  "Func_0040a570": [],
+  "Func_0040a580": [],
+  "Func_0040a5c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "add_envopt",
+      [
+        363,
+        410
+      ]
+    ]
+  ],
+  "Func_0040a6f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "gzip_error",
+      [
+        415,
+        420
+      ]
+    ]
+  ],
+  "Func_0040a720": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "xalloc_die",
+      [
+        422,
+        427
+      ]
+    ]
+  ],
+  "Func_0040a750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/util.c",
+      "warning",
+      [
+        429,
+        432
+      ]
+    ]
+  ],
+  "Func_0040a7b0": [],
+  "Func_0040a7f0": [],
+  "Func_0040a8f0": [],
+  "Func_0040ad40": [],
+  "Func_0040ad90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/basename-lgpl.c",
+      "last_component",
+      [
+        29,
+        51
+      ]
+    ]
+  ],
+  "Func_0040adf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/basename-lgpl.c",
+      "base_len",
+      [
+        57,
+        75
+      ]
+    ]
+  ],
+  "Func_0040ae20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/open-safer.c",
+      "open_safer",
+      [
+        28,
+        46
+      ]
+    ]
+  ],
+  "Func_0040aef0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/gettime.c",
+      "gettime",
+      [
+        28,
+        48
+      ]
+    ]
+  ],
+  "Func_0040af30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/openat-safer.c",
+      "openat_safer",
+      [
+        28,
+        46
+      ]
+    ]
+  ],
+  "Func_0040aff0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/savedir.c",
+      "streamsavedir",
+      [
+        90,
+        181
+      ]
+    ]
+  ],
+  "Func_0040b2d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/savedir.c",
+      "savedir",
+      [
+        188,
+        206
+      ]
+    ]
+  ],
+  "Func_0040b320": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/savedir.c",
+      "direntry_cmp_name",
+      [
+        50,
+        57
+      ]
+    ]
+  ],
+  "Func_0040b330": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "get_stat_atime_ns",
+      [
+        65,
+        75
+      ]
+    ]
+  ],
+  "Func_0040b340": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "get_stat_ctime_ns",
+      [
+        78,
+        88
+      ]
+    ]
+  ],
+  "Func_0040b350": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "get_stat_mtime_ns",
+      [
+        91,
+        101
+      ]
+    ]
+  ],
+  "Func_0040b360": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "get_stat_birthtime_ns",
+      [
+        104,
+        114
+      ]
+    ]
+  ],
+  "Func_0040b370": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "get_stat_atime",
+      [
+        117,
+        128
+      ]
+    ]
+  ],
+  "Func_0040b380": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "get_stat_ctime",
+      [
+        131,
+        142
+      ]
+    ]
+  ],
+  "Func_0040b390": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "get_stat_mtime",
+      [
+        145,
+        156
+      ]
+    ]
+  ],
+  "Func_0040b3a0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "get_stat_birthtime",
+      [
+        160,
+        203
+      ]
+    ]
+  ],
+  "Func_0040b3b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/stat-time.h",
+      "stat_time_normalize",
+      [
+        210,
+        244
+      ]
+    ]
+  ],
+  "Func_0040b3c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/fd-safer.c",
+      "fd_safer",
+      [
+        36,
+        49
+      ]
+    ]
+  ],
+  "Func_0040b400": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/utimens.c",
+      "fdutimens",
+      [
+        170,
+        501
+      ]
+    ]
+  ],
+  "Func_0040b790": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/utimens.c",
+      "validate_timespec",
+      [
+        87,
+        125
+      ]
+    ]
+  ],
+  "Func_0040b840": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/utimens.c",
+      "update_timespec",
+      [
+        133,
+        158
+      ]
+    ]
+  ],
+  "Func_0040b8e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/utimens.c",
+      "utimens",
+      [
+        505,
+        509
+      ]
+    ]
+  ],
+  "Func_0040b900": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/utimens.c",
+      "lutimens",
+      [
+        515,
+        631
+      ]
+    ]
+  ],
+  "Func_0040bac0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xalloc.h",
+      "xnmalloc",
+      [
+        104,
+        110
+      ]
+    ]
+  ],
+  "Func_0040baf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xmalloc.c",
+      "xmalloc",
+      [
+        38,
+        45
+      ]
+    ]
+  ],
+  "Func_0040bb10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xalloc.h",
+      "xnrealloc",
+      [
+        117,
+        123
+      ]
+    ]
+  ],
+  "Func_0040bb40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xmalloc.c",
+      "xrealloc",
+      [
+        50,
+        65
+      ]
+    ]
+  ],
+  "Func_0040bb70": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xalloc.h",
+      "x2nrealloc",
+      [
+        179,
+        214
+      ]
+    ]
+  ],
+  "Func_0040bbf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xalloc.h",
+      "xcharalloc",
+      [
+        221,
+        225
+      ]
+    ]
+  ],
+  "Func_0040bc00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xmalloc.c",
+      "x2realloc",
+      [
+        73,
+        77
+      ]
+    ]
+  ],
+  "Func_0040bc10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xmalloc.c",
+      "xzalloc",
+      [
+        83,
+        87
+      ]
+    ]
+  ],
+  "Func_0040bc30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xmalloc.c",
+      "xcalloc",
+      [
+        92,
+        104
+      ]
+    ]
+  ],
+  "Func_0040bc60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xmalloc.c",
+      "xmemdup",
+      [
+        110,
+        114
+      ]
+    ]
+  ],
+  "Func_0040bc90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/xmalloc.c",
+      "xstrdup",
+      [
+        118,
+        122
+      ]
+    ]
+  ],
+  "Func_0040bcb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/yesno.c",
+      "yesno",
+      [
+        31,
+        63
+      ]
+    ]
+  ],
+  "Func_0040bcf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/calloc.c",
+      "rpl_calloc",
+      [
+        41,
+        73
+      ]
+    ]
+  ],
+  "Func_0040bd40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/fclose.c",
+      "rpl_fclose",
+      [
+        57,
+        112
+      ]
+    ]
+  ],
+  "Func_0040bdc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/fcntl.c",
+      "rpl_fcntl",
+      [
+        275,
+        418
+      ]
+    ]
+  ],
+  "Func_0040bf90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/fflush.c",
+      "rpl_fflush",
+      [
+        126,
+        229
+      ]
+    ]
+  ],
+  "Func_0040bfc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/fflush.c",
+      "clear_ungetc_buffer_preserving_position",
+      [
+        39,
+        45
+      ]
+    ]
+  ],
+  "Func_0040bfe0": [],
+  "Func_0040c050": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/opendir-safer.c",
+      "opendir_safer",
+      [
+        30,
+        76
+      ]
+    ]
+  ],
+  "Func_0040c0e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gzip/gzip-1.9/lib/dup-safer.c",
+      "dup_safer",
+      [
+        30,
+        34
+      ]
+    ]
+  ]
+}

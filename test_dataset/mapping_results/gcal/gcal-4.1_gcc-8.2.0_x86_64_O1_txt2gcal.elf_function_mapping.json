@@ -1,0 +1,63 @@
+{
+  "Func_00401040": [],
+  "Func_00400dd0": [],
+  "Func_00402884": [],
+  "Func_0040111d": [],
+  "Func_0040126c": [],
+  "Func_004012fa": [],
+  "Func_0040134c": [],
+  "Func_004013ac": [],
+  "Func_00401430": [],
+  "Func_00401832": [],
+  "Func_0040257c": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gcal/gcal-4.1/lib/fclose.c",
+      "rpl_fclose",
+      [
+        55,
+        110
+      ]
+    ]
+  ],
+  "Func_004025fd": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gcal/gcal-4.1/lib/fflush.c",
+      "rpl_fflush",
+      [
+        126,
+        229
+      ]
+    ],
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gcal/gcal-4.1/lib/fflush.c",
+      "clear_ungetc_buffer_preserving_position",
+      [
+        39,
+        45
+      ]
+    ]
+  ],
+  "Func_0040263f": [],
+  "Func_004026aa": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gcal/gcal-4.1/lib/perror.c",
+      "perror",
+      [
+        32,
+        49
+      ]
+    ]
+  ],
+  "Func_0040271d": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/gcal/gcal-4.1/lib/strerror_r.c",
+      "safe_copy",
+      [
+        125,
+        145
+      ]
+    ]
+  ],
+  "Func_00402800": [],
+  "Func_00402860": []
+}

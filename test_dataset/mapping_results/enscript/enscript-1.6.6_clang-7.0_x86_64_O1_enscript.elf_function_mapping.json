@@ -1,0 +1,874 @@
+{
+  "Func_00401cb0": [],
+  "Func_00404010": [],
+  "Func_00404400": [],
+  "Func_004050e0": [],
+  "Func_004052a0": [],
+  "Func_00405370": [],
+  "Func_00405390": [],
+  "Func_004054d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "dump_ps_header",
+      [
+        278,
+        502
+      ]
+    ]
+  ],
+  "Func_00406ef0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "dump_ps_trailer",
+      [
+        505,
+        549
+      ]
+    ]
+  ],
+  "Func_00407210": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "process_file",
+      [
+        552,
+        1130
+      ]
+    ]
+  ],
+  "Func_004084f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "do_pass_through",
+      [
+        2630,
+        2719
+      ]
+    ]
+  ],
+  "Func_00408750": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "get_next_token",
+      [
+        1600,
+        2016
+      ]
+    ]
+  ],
+  "Func_004091e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "dump_ps_page_header",
+      [
+        2019,
+        2328
+      ]
+    ]
+  ],
+  "Func_0040a330": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "print_line_number",
+      [
+        2722,
+        2777
+      ]
+    ]
+  ],
+  "Func_0040a570": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "paste_epsf",
+      [
+        2516,
+        2558
+      ]
+    ]
+  ],
+  "Func_0040a930": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "read_special_escape",
+      [
+        1202,
+        1596
+      ]
+    ]
+  ],
+  "Func_0040b3c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "read_float",
+      [
+        2561,
+        2610
+      ]
+    ]
+  ],
+  "Func_0040b4d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "recognize_eps_file",
+      [
+        2374,
+        2513
+      ]
+    ]
+  ],
+  "Func_0040b940": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "handle_two_side_options",
+      [
+        2856,
+        2867
+      ]
+    ]
+  ],
+  "Func_0040ba00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "dump_ps_page_trailer",
+      [
+        2331,
+        2346
+      ]
+    ]
+  ],
+  "Func_0040bb00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "dump_empty_page",
+      [
+        2349,
+        2371
+      ]
+    ]
+  ],
+  "Func_0040bc50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "divert",
+      [
+        2786,
+        2799
+      ]
+    ]
+  ],
+  "Func_0040bd20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/psgen.c",
+      "undivert",
+      [
+        2802,
+        2853
+      ]
+    ]
+  ],
+  "Func_0040bf60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "read_config",
+      [
+        95,
+        445
+      ]
+    ]
+  ],
+  "Func_0040ce80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_init",
+      [
+        2039,
+        2046
+      ]
+    ]
+  ],
+  "Func_0040ceb0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_append",
+      [
+        2075,
+        2079
+      ]
+    ]
+  ],
+  "Func_0040cee0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_ptr",
+      [
+        2117,
+        2121
+      ]
+    ]
+  ],
+  "Func_0040cef0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_uninit",
+      [
+        2049,
+        2053
+      ]
+    ]
+  ],
+  "Func_0040cf00": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "add_media",
+      [
+        448,
+        471
+      ]
+    ]
+  ],
+  "Func_0040cfe0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "parse_key_value_pair",
+      [
+        1655,
+        1679
+      ]
+    ]
+  ],
+  "Func_0040d0b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "parse_font_spec",
+      [
+        715,
+        851
+      ]
+    ]
+  ],
+  "Func_0040d470": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "do_list_missing_characters",
+      [
+        474,
+        491
+      ]
+    ]
+  ],
+  "Func_0040d540": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "file_existsp",
+      [
+        494,
+        509
+      ]
+    ]
+  ],
+  "Func_0040d590": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "pathwalk",
+      [
+        1697,
+        1725
+      ]
+    ]
+  ],
+  "Func_0040d650": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "file_lookup",
+      [
+        1728,
+        1754
+      ]
+    ]
+  ],
+  "Func_0040d770": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_free",
+      [
+        2067,
+        2072
+      ]
+    ]
+  ],
+  "Func_0040d790": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "paste_file",
+      [
+        512,
+        712
+      ]
+    ]
+  ],
+  "Func_0040df20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "read_font_info",
+      [
+        854,
+        1051
+      ]
+    ]
+  ],
+  "Func_0040e470": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "download_font",
+      [
+        1054,
+        1219
+      ]
+    ]
+  ],
+  "Func_0040e970": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_clear",
+      [
+        2109,
+        2114
+      ]
+    ]
+  ],
+  "Func_0040e980": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "escape_string",
+      [
+        1222,
+        1263
+      ]
+    ]
+  ],
+  "Func_0040ea40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "format_user_string",
+      [
+        1315,
+        1652
+      ]
+    ]
+  ],
+  "Func_00410cf0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_append_len",
+      [
+        2082,
+        2095
+      ]
+    ]
+  ],
+  "Func_00410d60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "count_key_value_set",
+      [
+        1682,
+        1694
+      ]
+    ]
+  ],
+  "Func_00410dd0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "tilde_subst",
+      [
+        1757,
+        1812
+      ]
+    ]
+  ],
+  "Func_00410f10": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_copy",
+      [
+        2098,
+        2106
+      ]
+    ]
+  ],
+  "Func_00410f40": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "parse_float",
+      [
+        1815,
+        1863
+      ]
+    ]
+  ],
+  "Func_00411060": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "is_open",
+      [
+        1870,
+        1971
+      ]
+    ]
+  ],
+  "Func_00411310": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "shell_escape",
+      [
+        2135,
+        2161
+      ]
+    ]
+  ],
+  "Func_00411390": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "is_close",
+      [
+        1974,
+        1984
+      ]
+    ]
+  ],
+  "Func_004113c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "is_getc",
+      [
+        1987,
+        2017
+      ]
+    ]
+  ],
+  "Func_00411470": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "is_ungetc",
+      [
+        2020,
+        2032
+      ]
+    ]
+  ],
+  "Func_004114d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_alloc",
+      [
+        2056,
+        2064
+      ]
+    ]
+  ],
+  "Func_004114f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/util.c",
+      "buffer_len",
+      [
+        2124,
+        2128
+      ]
+    ]
+  ],
+  "Func_00411500": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/prt_lpr.c",
+      "printer_open",
+      [
+        31,
+        61
+      ]
+    ]
+  ],
+  "Func_004115c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/src/prt_lpr.c",
+      "printer_close",
+      [
+        64,
+        70
+      ]
+    ]
+  ],
+  "Func_004115d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_error_to_string",
+      [
+        58,
+        89
+      ]
+    ]
+  ],
+  "Func_00411690": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_create",
+      [
+        92,
+        161
+      ]
+    ]
+  ],
+  "Func_00411810": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_message",
+      [
+        690,
+        697
+      ]
+    ]
+  ],
+  "Func_00411830": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "read_font_map",
+      [
+        711,
+        781
+      ]
+    ]
+  ],
+  "Func_00411ac0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_destroy",
+      [
+        164,
+        182
+      ]
+    ]
+  ],
+  "Func_00411b50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_set_verbose",
+      [
+        185,
+        194
+      ]
+    ]
+  ],
+  "Func_00411b60": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_font_prefix",
+      [
+        197,
+        214
+      ]
+    ]
+  ],
+  "Func_00411bc0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_open_font",
+      [
+        217,
+        236
+      ]
+    ]
+  ],
+  "Func_00411c50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_open_file",
+      [
+        239,
+        300
+      ]
+    ]
+  ],
+  "Func_00411d30": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_close_font",
+      [
+        304,
+        350
+      ]
+    ]
+  ],
+  "Func_00411f20": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_font_dump",
+      [
+        355,
+        458
+      ]
+    ]
+  ],
+  "Func_004124b0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_font_stringwidth",
+      [
+        461,
+        506
+      ]
+    ]
+  ],
+  "Func_00412570": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_font_charwidth",
+      [
+        509,
+        547
+      ]
+    ]
+  ],
+  "Func_00412600": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_font_encode",
+      [
+        550,
+        591
+      ]
+    ]
+  ],
+  "Func_004126e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_font_encoding",
+      [
+        594,
+        682
+      ]
+    ]
+  ],
+  "Func_00412800": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "apply_encoding",
+      [
+        784,
+        824
+      ]
+    ]
+  ],
+  "Func_00412920": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afm.c",
+      "afm_error",
+      [
+        700,
+        704
+      ]
+    ]
+  ],
+  "Func_00412940": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "afm_parse_file",
+      [
+        172,
+        501
+      ]
+    ]
+  ],
+  "Func_00413240": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "parse_error",
+      [
+        508,
+        517
+      ]
+    ]
+  ],
+  "Func_00413260": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "get_key",
+      [
+        619,
+        645
+      ]
+    ]
+  ],
+  "Func_00413300": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "get_type",
+      [
+        649,
+        721
+      ]
+    ]
+  ],
+  "Func_004134f0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "get_line_token",
+      [
+        553,
+        586
+      ]
+    ]
+  ],
+  "Func_004135d0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "read_character_metrics",
+      [
+        724,
+        850
+      ]
+    ]
+  ],
+  "Func_00413950": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "read_kern_pairs",
+      [
+        853,
+        918
+      ]
+    ]
+  ],
+  "Func_00413b50": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "read_track_kerns",
+      [
+        921,
+        959
+      ]
+    ]
+  ],
+  "Func_00413c90": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "read_composites",
+      [
+        962,
+        1017
+      ]
+    ]
+  ],
+  "Func_00413ea0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "get_token",
+      [
+        520,
+        550
+      ]
+    ]
+  ],
+  "Func_00413f80": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/afmparse.c",
+      "match_key",
+      [
+        589,
+        616
+      ]
+    ]
+  ],
+  "Func_00414020": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/strhash.c",
+      "strhash_init",
+      [
+        71,
+        91
+      ]
+    ]
+  ],
+  "Func_00414060": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/strhash.c",
+      "strhash_free",
+      [
+        94,
+        115
+      ]
+    ]
+  ],
+  "Func_004140e0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/strhash.c",
+      "strhash_put",
+      [
+        118,
+        186
+      ]
+    ]
+  ],
+  "Func_00414250": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/strhash.c",
+      "count_hash",
+      [
+        376,
+        386
+      ]
+    ]
+  ],
+  "Func_00414290": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/strhash.c",
+      "strhash_get",
+      [
+        189,
+        218
+      ]
+    ]
+  ],
+  "Func_00414330": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/strhash.c",
+      "strhash_delete",
+      [
+        221,
+        266
+      ]
+    ]
+  ],
+  "Func_00414450": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/strhash.c",
+      "strhash_get_first",
+      [
+        269,
+        288
+      ]
+    ]
+  ],
+  "Func_004144c0": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/strhash.c",
+      "strhash_get_next",
+      [
+        291,
+        314
+      ]
+    ]
+  ],
+  "Func_00414540": [
+    [
+      "/data/home/angjia/binary2source_dataset/normal_source/src/enscript/enscript-1.6.6/afmlib/deffont.c",
+      "afm_open_default_font",
+      [
+        303,
+        379
+      ]
+    ]
+  ],
+  "Func_00414760": [],
+  "Func_004147b0": [],
+  "Func_00414800": [],
+  "Func_00414870": [],
+  "Func_00414880": []
+}

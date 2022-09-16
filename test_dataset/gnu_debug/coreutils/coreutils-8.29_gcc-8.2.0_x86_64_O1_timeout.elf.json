@@ -1,0 +1,982 @@
+{
+  "close_stdout_set_ignore_EPIPE": {
+    "start_address": 4206333, 
+    "end_address": 4206341
+  }, 
+  ".mbrtowc": {
+    "start_address": 4201056, 
+    "end_address": 4201062
+  }, 
+  ".open": {
+    "start_address": 4201600, 
+    "end_address": 4201606
+  }, 
+  ".execvp": {
+    "start_address": 4201664, 
+    "end_address": 4201670
+  }, 
+  "lseek": {
+    "start_address": 6334352, 
+    "end_address": 6334360
+  }, 
+  ".sigprocmask": {
+    "start_address": 4200768, 
+    "end_address": 4200774
+  }, 
+  "quote_n_mem": {
+    "start_address": 4213103, 
+    "end_address": 4213122
+  }, 
+  "fclose": {
+    "start_address": 6334288, 
+    "end_address": 6334296
+  }, 
+  "xnmalloc": {
+    "start_address": 4214747, 
+    "end_address": 4214798
+  }, 
+  "xrealloc": {
+    "start_address": 4214812, 
+    "end_address": 4214863
+  }, 
+  ".sigaddset": {
+    "start_address": 4201840, 
+    "end_address": 4201846
+  }, 
+  ".exit": {
+    "start_address": 4201728, 
+    "end_address": 4201734
+  }, 
+  "kill": {
+    "start_address": 6334488, 
+    "end_address": 6334496
+  }, 
+  "close_stream": {
+    "start_address": 4219511, 
+    "end_address": 4219610
+  }, 
+  "__freading": {
+    "start_address": 6334544, 
+    "end_address": 6334552
+  }, 
+  "__libc_current_sigrtmin": {
+    "start_address": 6334656, 
+    "end_address": 6334664
+  }, 
+  ".term_proc": {
+    "start_address": 4221144, 
+    "end_address": 4221158
+  }, 
+  "fflush": {
+    "start_address": 6334512, 
+    "end_address": 6334520
+  }, 
+  "strtol": {
+    "start_address": 6334464, 
+    "end_address": 6334472
+  }, 
+  "fputc": {
+    "start_address": 6334400, 
+    "end_address": 6334408
+  }, 
+  "xalloc_die": {
+    "start_address": 4215299, 
+    "end_address": 4215357
+  }, 
+  "version_etc_ar": {
+    "start_address": 4214329, 
+    "end_address": 4214374
+  }, 
+  "__fprintf_chk": {
+    "start_address": 6334688, 
+    "end_address": 6334696
+  }, 
+  "fwrite": {
+    "start_address": 6334672, 
+    "end_address": 6334680
+  }, 
+  "quotearg_char": {
+    "start_address": 4212698, 
+    "end_address": 4212723
+  }, 
+  "timer_delete": {
+    "start_address": 6334680, 
+    "end_address": 6334688
+  }, 
+  ".realloc": {
+    "start_address": 4201504, 
+    "end_address": 4201510
+  }, 
+  ".fputs_unlocked": {
+    "start_address": 4201248, 
+    "end_address": 4201254
+  }, 
+  ".__errno_location": {
+    "start_address": 4200864, 
+    "end_address": 4200870
+  }, 
+  "xstrdup": {
+    "start_address": 4215259, 
+    "end_address": 4215299
+  }, 
+  "set_program_name": {
+    "start_address": 4206707, 
+    "end_address": 4206860
+  }, 
+  "usage": {
+    "start_address": 4202930, 
+    "end_address": 4204024
+  }, 
+  ".signal": {
+    "start_address": 4201296, 
+    "end_address": 4201302
+  }, 
+  ".memcpy": {
+    "start_address": 4201344, 
+    "end_address": 4201350
+  }, 
+  "main": {
+    "start_address": 4204246, 
+    "end_address": 4205855
+  }, 
+  "parse_duration": {
+    "start_address": 4204024, 
+    "end_address": 4204246
+  }, 
+  "quotearg_alloc_mem": {
+    "start_address": 4211798, 
+    "end_address": 4212027
+  }, 
+  ".fwrite": {
+    "start_address": 4201744, 
+    "end_address": 4201750
+  }, 
+  "fileno": {
+    "start_address": 6334496, 
+    "end_address": 6334504
+  }, 
+  "_getopt_internal_r": {
+    "start_address": 4217248, 
+    "end_address": 4218613
+  }, 
+  ".sigsuspend": {
+    "start_address": 4201472, 
+    "end_address": 4201478
+  }, 
+  "xmemdup": {
+    "start_address": 4215218, 
+    "end_address": 4215259
+  }, 
+  ".abort": {
+    "start_address": 4200848, 
+    "end_address": 4200854
+  }, 
+  "quotearg_alloc": {
+    "start_address": 4212027, 
+    "end_address": 4212049
+  }, 
+  "operand2sig": {
+    "start_address": 4205855, 
+    "end_address": 4206228
+  }, 
+  "quotearg_n_style_mem": {
+    "start_address": 4212414, 
+    "end_address": 4212543
+  }, 
+  ".fseeko": {
+    "start_address": 4201616, 
+    "end_address": 4201622
+  }, 
+  "strtod_l": {
+    "start_address": 6334280, 
+    "end_address": 6334288
+  }, 
+  "strncmp": {
+    "start_address": 6334232, 
+    "end_address": 6334240
+  }, 
+  "memcpy": {
+    "start_address": 6334472, 
+    "end_address": 6334480
+  }, 
+  ".strtod_l": {
+    "start_address": 4200976, 
+    "end_address": 4200982
+  }, 
+  "send_sig": {
+    "start_address": 4202126, 
+    "end_address": 4202170
+  }, 
+  "get_quoting_style": {
+    "start_address": 4211538, 
+    "end_address": 4211553
+  }, 
+  "quotearg_char_mem": {
+    "start_address": 4212594, 
+    "end_address": 4212698
+  }, 
+  "newlocale": {
+    "start_address": 6334336, 
+    "end_address": 6334344
+  }, 
+  "signal": {
+    "start_address": 6334448, 
+    "end_address": 6334456
+  }, 
+  ".fileno": {
+    "start_address": 4201392, 
+    "end_address": 4201398
+  }, 
+  ".mbsinit": {
+    "start_address": 4201808, 
+    "end_address": 4201814
+  }, 
+  "close_stdout": {
+    "start_address": 4206341, 
+    "end_address": 4206535
+  }, 
+  "fputs_unlocked": {
+    "start_address": 6334424, 
+    "end_address": 6334432
+  }, 
+  "_getopt_long_r": {
+    "start_address": 4218754, 
+    "end_address": 4218778
+  }, 
+  "timer_create": {
+    "start_address": 6334624, 
+    "end_address": 6334632
+  }, 
+  ".fdopen": {
+    "start_address": 4201520, 
+    "end_address": 4201526
+  }, 
+  "strcmp": {
+    "start_address": 6334440, 
+    "end_address": 6334448
+  }, 
+  ".timer_delete": {
+    "start_address": 4201760, 
+    "end_address": 4201766
+  }, 
+  ".strcmp": {
+    "start_address": 4201280, 
+    "end_address": 4201286
+  }, 
+  ".__sprintf_chk": {
+    "start_address": 4201888, 
+    "end_address": 4201894
+  }, 
+  "memset": {
+    "start_address": 6334360, 
+    "end_address": 6334368
+  }, 
+  ".sigemptyset": {
+    "start_address": 4201312, 
+    "end_address": 4201318
+  }, 
+  "atexit": {
+    "start_address": 4221088, 
+    "end_address": 4221112
+  }, 
+  "._exit": {
+    "start_address": 4200896, 
+    "end_address": 4200902
+  }, 
+  "sigemptyset": {
+    "start_address": 6334456, 
+    "end_address": 6334464
+  }, 
+  "quotearg": {
+    "start_address": 4212234, 
+    "end_address": 4212256
+  }, 
+  ".prctl": {
+    "start_address": 4201360, 
+    "end_address": 4201366
+  }, 
+  "quotearg_free": {
+    "start_address": 4212049, 
+    "end_address": 4212189
+  }, 
+  "strchr": {
+    "start_address": 6334328, 
+    "end_address": 6334336
+  }, 
+  "x2realloc": {
+    "start_address": 4215061, 
+    "end_address": 4215139
+  }, 
+  ".memset": {
+    "start_address": 4201136, 
+    "end_address": 4201142
+  }, 
+  "setpgid": {
+    "start_address": 6334648, 
+    "end_address": 6334656
+  }, 
+  "funlockfile": {
+    "start_address": 6334208, 
+    "end_address": 6334216
+  }, 
+  "rpl_fseeko": {
+    "start_address": 4220861, 
+    "end_address": 4220968
+  }, 
+  "exit": {
+    "start_address": 6334664, 
+    "end_address": 6334672
+  }, 
+  "xnrealloc": {
+    "start_address": 4214863, 
+    "end_address": 4214917
+  }, 
+  "sub_401910": {
+    "start_address": 4200720, 
+    "end_address": 4200732
+  }, 
+  "quote_mem": {
+    "start_address": 4213122, 
+    "end_address": 4213147
+  }, 
+  "__ctype_b_loc": {
+    "start_address": 6334736, 
+    "end_address": 6334744
+  }, 
+  ".fflush": {
+    "start_address": 4201424, 
+    "end_address": 4201430
+  }, 
+  "quotearg_buffer_restyled": {
+    "start_address": 4207076, 
+    "end_address": 4211084
+  }, 
+  "__printf_chk": {
+    "start_address": 6334576, 
+    "end_address": 6334584
+  }, 
+  "quotearg_buffer": {
+    "start_address": 4211684, 
+    "end_address": 4211798
+  }, 
+  ".__cxa_atexit": {
+    "start_address": 4201680, 
+    "end_address": 4201686
+  }, 
+  ".waitpid": {
+    "start_address": 4201584, 
+    "end_address": 4201590
+  }, 
+  ".close": {
+    "start_address": 4201184, 
+    "end_address": 4201190
+  }, 
+  "exchange": {
+    "start_address": 4215510, 
+    "end_address": 4215697
+  }, 
+  "locale_charset": {
+    "start_address": 4219697, 
+    "end_address": 4220666
+  }, 
+  "error": {
+    "start_address": 6334584, 
+    "end_address": 6334592
+  }, 
+  ".__fpending": {
+    "start_address": 4200928, 
+    "end_address": 4200934
+  }, 
+  "free": {
+    "start_address": 6334200, 
+    "end_address": 6334208
+  }, 
+  "frame_dummy": {
+    "start_address": 4202120, 
+    "end_address": 4202125
+  }, 
+  "timer_settime": {
+    "start_address": 6334616, 
+    "end_address": 6334624
+  }, 
+  "mbsinit": {
+    "start_address": 6334704, 
+    "end_address": 6334712
+  }, 
+  ".textdomain": {
+    "start_address": 4200960, 
+    "end_address": 4200966
+  }, 
+  "fseeko": {
+    "start_address": 6334608, 
+    "end_address": 6334616
+  }, 
+  ".flockfile": {
+    "start_address": 4201200, 
+    "end_address": 4201206
+  }, 
+  ".__ctype_get_mb_cur_max": {
+    "start_address": 4201040, 
+    "end_address": 4201046
+  }, 
+  ".nl_langinfo": {
+    "start_address": 4201440, 
+    "end_address": 4201446
+  }, 
+  "__uflow": {
+    "start_address": 6334160, 
+    "end_address": 6334168
+  }, 
+  "iswprint": {
+    "start_address": 6334712, 
+    "end_address": 6334720
+  }, 
+  "quotearg_n_options": {
+    "start_address": 4211084, 
+    "end_address": 4211486
+  }, 
+  ".strtol": {
+    "start_address": 4201328, 
+    "end_address": 4201334
+  }, 
+  "__do_global_dtors_aux": {
+    "start_address": 4202033, 
+    "end_address": 4202120
+  }, 
+  "__do_global_ctors_aux": {
+    "start_address": 4221112, 
+    "end_address": 4221144
+  }, 
+  "quotearg_mem": {
+    "start_address": 4212256, 
+    "end_address": 4212281
+  }, 
+  "version_etc_va": {
+    "start_address": 4214374, 
+    "end_address": 4214456
+  }, 
+  ".__uflow": {
+    "start_address": 4200736, 
+    "end_address": 4200742
+  }, 
+  "strcpy": {
+    "start_address": 6334248, 
+    "end_address": 6334256
+  }, 
+  ".getenv": {
+    "start_address": 4200752, 
+    "end_address": 4200758
+  }, 
+  ".timer_create": {
+    "start_address": 4201648, 
+    "end_address": 4201654
+  }, 
+  "sig2str": {
+    "start_address": 4219286, 
+    "end_address": 4219511
+  }, 
+  "calloc": {
+    "start_address": 6334432, 
+    "end_address": 6334440
+  }, 
+  "_exit": {
+    "start_address": 6334240, 
+    "end_address": 6334248
+  }, 
+  ".fclose": {
+    "start_address": 4200992, 
+    "end_address": 4200998
+  }, 
+  "quotearg_custom": {
+    "start_address": 4213044, 
+    "end_address": 4213072
+  }, 
+  ".funlockfile": {
+    "start_address": 4200832, 
+    "end_address": 4200838
+  }, 
+  "set_custom_quoting": {
+    "start_address": 4211638, 
+    "end_address": 4211684
+  }, 
+  "rpl_fclose": {
+    "start_address": 4220666, 
+    "end_address": 4220795
+  }, 
+  "register_tm_clones": {
+    "start_address": 4201978, 
+    "end_address": 4202033
+  }, 
+  "str2sig": {
+    "start_address": 4218945, 
+    "end_address": 4219286
+  }, 
+  "setlocale": {
+    "start_address": 6334568, 
+    "end_address": 6334576
+  }, 
+  ".fputc": {
+    "start_address": 4201216, 
+    "end_address": 4201222
+  }, 
+  "realloc": {
+    "start_address": 6334552, 
+    "end_address": 6334560
+  }, 
+  ".raise": {
+    "start_address": 4200800, 
+    "end_address": 4200806
+  }, 
+  ".__printf_chk": {
+    "start_address": 4201552, 
+    "end_address": 4201558
+  }, 
+  "__libc_start_main": {
+    "start_address": 6334408, 
+    "end_address": 6334416
+  }, 
+  ".malloc": {
+    "start_address": 4201408, 
+    "end_address": 4201414
+  }, 
+  "quote_n": {
+    "start_address": 4213147, 
+    "end_address": 4213168
+  }, 
+  ".timer_settime": {
+    "start_address": 4201632, 
+    "end_address": 4201638
+  }, 
+  "_start": {
+    "start_address": 4201904, 
+    "end_address": 4201947
+  }, 
+  "open": {
+    "start_address": 6334600, 
+    "end_address": 6334608
+  }, 
+  "dcgettext": {
+    "start_address": 6334304, 
+    "end_address": 6334312
+  }, 
+  "version_etc_arn": {
+    "start_address": 4213190, 
+    "end_address": 4214329
+  }, 
+  ".strncmp": {
+    "start_address": 4200880, 
+    "end_address": 4200886
+  }, 
+  ".__libc_current_sigrtmax": {
+    "start_address": 4201792, 
+    "end_address": 4201798
+  }, 
+  "raise": {
+    "start_address": 6334192, 
+    "end_address": 6334200
+  }, 
+  "sigprocmask": {
+    "start_address": 6334176, 
+    "end_address": 6334184
+  }, 
+  "fdopen": {
+    "start_address": 6334560, 
+    "end_address": 6334568
+  }, 
+  "chld": {
+    "start_address": 4202125, 
+    "end_address": 4202126
+  }, 
+  ".setlocale": {
+    "start_address": 4201536, 
+    "end_address": 4201542
+  }, 
+  "x2nrealloc": {
+    "start_address": 4214917, 
+    "end_address": 4215061
+  }, 
+  ".fork": {
+    "start_address": 4201856, 
+    "end_address": 4201862
+  }, 
+  ".init_proc": {
+    "start_address": 4200672, 
+    "end_address": 4200705
+  }, 
+  ".kill": {
+    "start_address": 4201376, 
+    "end_address": 4201382
+  }, 
+  "quotearg_n_custom_mem": {
+    "start_address": 4212924, 
+    "end_address": 4213023
+  }, 
+  "quotearg_style_mem": {
+    "start_address": 4212567, 
+    "end_address": 4212594
+  }, 
+  "emit_bug_reporting_address": {
+    "start_address": 4214589, 
+    "end_address": 4214721
+  }, 
+  "xcalloc": {
+    "start_address": 4215166, 
+    "end_address": 4215218
+  }, 
+  "__libc_current_sigrtmax": {
+    "start_address": 6334696, 
+    "end_address": 6334704
+  }, 
+  "set_char_quoting": {
+    "start_address": 4211568, 
+    "end_address": 4211619
+  }, 
+  "rpl_getopt_long_only": {
+    "start_address": 4218778, 
+    "end_address": 4218800
+  }, 
+  "sigaddset": {
+    "start_address": 6334720, 
+    "end_address": 6334728
+  }, 
+  "getenv": {
+    "start_address": 6334168, 
+    "end_address": 6334176
+  }, 
+  ".newlocale": {
+    "start_address": 4201088, 
+    "end_address": 4201094
+  }, 
+  "set_quoting_style": {
+    "start_address": 4211553, 
+    "end_address": 4211568
+  }, 
+  "quotearg_style": {
+    "start_address": 4212543, 
+    "end_address": 4212567
+  }, 
+  "dtotimespec": {
+    "start_address": 4206535, 
+    "end_address": 4206707
+  }, 
+  "rpl_getopt_long": {
+    "start_address": 4218732, 
+    "end_address": 4218754
+  }, 
+  "__gmon_start__": {
+    "start_address": 6334752, 
+    "end_address": 6334760
+  }, 
+  ".__libc_current_sigrtmin": {
+    "start_address": 4201712, 
+    "end_address": 4201718
+  }, 
+  "clone_quoting_options": {
+    "start_address": 4211486, 
+    "end_address": 4211538
+  }, 
+  "quotearg_n_style_colon": {
+    "start_address": 4212761, 
+    "end_address": 4212924
+  }, 
+  ".dcgettext": {
+    "start_address": 4201024, 
+    "end_address": 4201030
+  }, 
+  "quotearg_n_mem": {
+    "start_address": 4212215, 
+    "end_address": 4212234
+  }, 
+  "set_quoting_flags": {
+    "start_address": 4211619, 
+    "end_address": 4211638
+  }, 
+  "fscanf": {
+    "start_address": 6334368, 
+    "end_address": 6334376
+  }, 
+  "__errno_location": {
+    "start_address": 6334224, 
+    "end_address": 6334232
+  }, 
+  "rpl_mbrtowc": {
+    "start_address": 4218824, 
+    "end_address": 4218945
+  }, 
+  ".sigaction": {
+    "start_address": 4200944, 
+    "end_address": 4200950
+  }, 
+  "strrchr": {
+    "start_address": 6334344, 
+    "end_address": 6334352
+  }, 
+  "__fpending": {
+    "start_address": 6334256, 
+    "end_address": 6334264
+  }, 
+  ".calloc": {
+    "start_address": 4201264, 
+    "end_address": 4201270
+  }, 
+  "version_etc": {
+    "start_address": 4214456, 
+    "end_address": 4214589
+  }, 
+  ".__freading": {
+    "start_address": 4201488, 
+    "end_address": 4201494
+  }, 
+  ".ungetc": {
+    "start_address": 4201456, 
+    "end_address": 4201462
+  }, 
+  "fork": {
+    "start_address": 6334728, 
+    "end_address": 6334736
+  }, 
+  "malloc": {
+    "start_address": 6334504, 
+    "end_address": 6334512
+  }, 
+  "process_long_option": {
+    "start_address": 4215697, 
+    "end_address": 4217248
+  }, 
+  "mbrtowc": {
+    "start_address": 6334320, 
+    "end_address": 6334328
+  }, 
+  "quotearg_n_style": {
+    "start_address": 4212281, 
+    "end_address": 4212414
+  }, 
+  "__cxa_atexit": {
+    "start_address": 6334640, 
+    "end_address": 6334648
+  }, 
+  ".strcpy": {
+    "start_address": 4200912, 
+    "end_address": 4200918
+  }, 
+  "__ctype_get_mb_cur_max": {
+    "start_address": 6334312, 
+    "end_address": 6334320
+  }, 
+  "abort": {
+    "start_address": 6334216, 
+    "end_address": 6334224
+  }, 
+  ".__fprintf_chk": {
+    "start_address": 4201776, 
+    "end_address": 4201782
+  }, 
+  "close": {
+    "start_address": 6334384, 
+    "end_address": 6334392
+  }, 
+  "prctl": {
+    "start_address": 6334480, 
+    "end_address": 6334488
+  }, 
+  "xzalloc": {
+    "start_address": 4215139, 
+    "end_address": 4215166
+  }, 
+  "sigaction_0": {
+    "start_address": 6334264, 
+    "end_address": 6334272
+  }, 
+  "bindtextdomain": {
+    "start_address": 6334296, 
+    "end_address": 6334304
+  }, 
+  "__libc_csu_init": {
+    "start_address": 4220976, 
+    "end_address": 4221069
+  }, 
+  "hard_locale": {
+    "start_address": 4219610, 
+    "end_address": 4219697
+  }, 
+  "gettext_quote": {
+    "start_address": 4206860, 
+    "end_address": 4207076
+  }, 
+  "xstrtod": {
+    "start_address": 4215357, 
+    "end_address": 4215510
+  }, 
+  ".lseek": {
+    "start_address": 4201120, 
+    "end_address": 4201126
+  }, 
+  ".alarm": {
+    "start_address": 4201168, 
+    "end_address": 4201174
+  }, 
+  ".__ctype_b_loc": {
+    "start_address": 4201872, 
+    "end_address": 4201878
+  }, 
+  ".error": {
+    "start_address": 4201568, 
+    "end_address": 4201574
+  }, 
+  "cleanup": {
+    "start_address": 4202454, 
+    "end_address": 4202827
+  }, 
+  ".iswprint": {
+    "start_address": 4201824, 
+    "end_address": 4201830
+  }, 
+  "xcharalloc": {
+    "start_address": 4214798, 
+    "end_address": 4214812
+  }, 
+  "quotearg_colon_mem": {
+    "start_address": 4212742, 
+    "end_address": 4212761
+  }, 
+  "waitpid": {
+    "start_address": 6334592, 
+    "end_address": 6334600
+  }, 
+  "_getopt_long_only_r": {
+    "start_address": 4218800, 
+    "end_address": 4218824
+  }, 
+  ".bindtextdomain": {
+    "start_address": 4201008, 
+    "end_address": 4201014
+  }, 
+  "flockfile": {
+    "start_address": 6334392, 
+    "end_address": 6334400
+  }, 
+  "execvp": {
+    "start_address": 6334632, 
+    "end_address": 6334640
+  }, 
+  ".fscanf": {
+    "start_address": 4201152, 
+    "end_address": 4201158
+  }, 
+  "__snprintf_chk": {
+    "start_address": 6334184, 
+    "end_address": 6334192
+  }, 
+  "quote": {
+    "start_address": 4213168, 
+    "end_address": 4213190
+  }, 
+  ".setpgid": {
+    "start_address": 4201696, 
+    "end_address": 4201702
+  }, 
+  "sigsuspend": {
+    "start_address": 6334536, 
+    "end_address": 6334544
+  }, 
+  "__libc_csu_fini": {
+    "start_address": 4221072, 
+    "end_address": 4221073
+  }, 
+  "rpl_getopt_internal": {
+    "start_address": 4218613, 
+    "end_address": 4218699
+  }, 
+  "ungetc": {
+    "start_address": 6334528, 
+    "end_address": 6334536
+  }, 
+  "quotearg_colon": {
+    "start_address": 4212723, 
+    "end_address": 4212742
+  }, 
+  ".strchr": {
+    "start_address": 4201072, 
+    "end_address": 4201078
+  }, 
+  "deregister_tm_clones": {
+    "start_address": 4201947, 
+    "end_address": 4201978
+  }, 
+  "rpl_getopt": {
+    "start_address": 4218699, 
+    "end_address": 4218732
+  }, 
+  "unblock_signal": {
+    "start_address": 4202827, 
+    "end_address": 4202930
+  }, 
+  "nl_langinfo": {
+    "start_address": 6334520, 
+    "end_address": 6334528
+  }, 
+  ".__snprintf_chk": {
+    "start_address": 4200784, 
+    "end_address": 4200790
+  }, 
+  "xmalloc": {
+    "start_address": 4214721, 
+    "end_address": 4214747
+  }, 
+  ".memcmp": {
+    "start_address": 4201232, 
+    "end_address": 4201238
+  }, 
+  "memcmp": {
+    "start_address": 6334416, 
+    "end_address": 6334424
+  }, 
+  "c_strtod": {
+    "start_address": 4206228, 
+    "end_address": 4206325
+  }, 
+  "quotearg_n": {
+    "start_address": 4212189, 
+    "end_address": 4212215
+  }, 
+  "alarm": {
+    "start_address": 6334376, 
+    "end_address": 6334384
+  }, 
+  "quotearg_custom_mem": {
+    "start_address": 4213072, 
+    "end_address": 4213103
+  }, 
+  ".strrchr": {
+    "start_address": 4201104, 
+    "end_address": 4201110
+  }, 
+  "quotearg_n_custom": {
+    "start_address": 4213023, 
+    "end_address": 4213044
+  }, 
+  "__sprintf_chk": {
+    "start_address": 6334744, 
+    "end_address": 6334752
+  }, 
+  "close_stdout_set_file_name": {
+    "start_address": 4206325, 
+    "end_address": 4206333
+  }, 
+  "rpl_fflush": {
+    "start_address": 4220795, 
+    "end_address": 4220861
+  }, 
+  "textdomain": {
+    "start_address": 6334272, 
+    "end_address": 6334280
+  }, 
+  ".free": {
+    "start_address": 4200816, 
+    "end_address": 4200822
+  }, 
+  "settimeout": {
+    "start_address": 4202170, 
+    "end_address": 4202454
+  }
+}

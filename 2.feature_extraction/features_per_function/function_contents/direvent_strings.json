@@ -1,0 +1,10550 @@
+{
+  "direvent/direvent-5.1/grecs/gitid.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs.h": {},
+  "direvent/direvent-5.1/grecs/include/wordsplit.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/doc.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/error.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/format.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/json.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/lex.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/list.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/locus.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/mem.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/node.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/opt.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/parser.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/preproc.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/sockaddr.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/symtab.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/table.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/tree.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/txtacc.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/types.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/util.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/value.h": {},
+  "direvent/direvent-5.1/grecs/include/grecs/version.h": {},
+  "direvent/direvent-5.1/grecs/src/asprintf.c": {
+    "grecs_vasprintf": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        77,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_asprintf": {
+      "start_point": [
+        79,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/bind-gram.c": {
+    "grecs_bind_tnamerr": {
+      "start_point": [
+        961,
+        0
+      ],
+      "end_point": [
+        998,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_syntax_error": {
+      "start_point": [
+        1009,
+        0
+      ],
+      "end_point": [
+        1135,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "grecs_bind_error": {
+      "start_point": [
+        1967,
+        0
+      ],
+      "end_point": [
+        1972,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "grecs_bind_parser": {
+      "start_point": [
+        1974,
+        0
+      ],
+      "end_point": [
+        1995,
+        1
+      ],
+      "strings": []
+    },
+    "node_to_value": {
+      "start_point": [
+        1997,
+        0
+      ],
+      "end_point": [
+        2030,
+        1
+      ],
+      "strings": []
+    },
+    "stmtlist_to_value": {
+      "start_point": [
+        2032,
+        0
+      ],
+      "end_point": [
+        2045,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/bind-gram.y": {
+    "BIND_CONTROLS": {
+      "start_point": [
+        50,
+        28
+      ],
+      "end_point": [
+        65,
+        4
+      ],
+      "strings": []
+    },
+    "stmt": {
+      "start_point": [
+        83,
+        10
+      ],
+      "end_point": [
+        92,
+        4
+      ],
+      "strings": []
+    },
+    "value": [
+      {
+        "start_point": [
+          200,
+          10
+        ],
+        "end_point": [
+          203,
+          4
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          231,
+          10
+        ],
+        "end_point": [
+          234,
+          4
+        ],
+        "strings": []
+      }
+    ],
+    "yyerror": {
+      "start_point": [
+        244,
+        0
+      ],
+      "end_point": [
+        249,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "grecs_bind_parser": {
+      "start_point": [
+        251,
+        0
+      ],
+      "end_point": [
+        272,
+        1
+      ],
+      "strings": []
+    },
+    "node_to_value": {
+      "start_point": [
+        274,
+        0
+      ],
+      "end_point": [
+        307,
+        1
+      ],
+      "strings": []
+    },
+    "stmtlist_to_value": {
+      "start_point": [
+        309,
+        0
+      ],
+      "end_point": [
+        322,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/bind-lex.c": {
+    "grecs_bind__get_next_buffer": {
+      "start_point": [
+        1384,
+        0
+      ],
+      "end_point": [
+        1517,
+        1
+      ],
+      "strings": [
+        "\"fatal flex scanner internal error--end of buffer missed\"",
+        "\"fatal error - scanner input buffer overflow\"",
+        "\"out of dynamic memory in grecs_bind__get_next_buffer()\""
+      ]
+    },
+    "grecs_bind__get_previous_state": {
+      "start_point": [
+        1524,
+        4
+      ],
+      "end_point": [
+        1555,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__try_NUL_trans": {
+      "start_point": [
+        1563,
+        4
+      ],
+      "end_point": [
+        1588,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_restart": {
+      "start_point": [
+        1683,
+        4
+      ],
+      "end_point": [
+        1697,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__switch_to_buffer": {
+      "start_point": [
+        1704,
+        4
+      ],
+      "end_point": [
+        1736,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__load_buffer_state": {
+      "start_point": [
+        1739,
+        0
+      ],
+      "end_point": [
+        1748,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__create_buffer": {
+      "start_point": [
+        1757,
+        4
+      ],
+      "end_point": [
+        1782,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_bind__create_buffer()\"",
+        "\"out of dynamic memory in grecs_bind__create_buffer()\""
+      ]
+    },
+    "grecs_bind__delete_buffer": {
+      "start_point": [
+        1789,
+        4
+      ],
+      "end_point": [
+        1805,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__init_buffer": {
+      "start_point": [
+        1823,
+        4
+      ],
+      "end_point": [
+        1853,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__flush_buffer": {
+      "start_point": [
+        1860,
+        4
+      ],
+      "end_point": [
+        1884,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_push_buffer_state": {
+      "start_point": [
+        1894,
+        0
+      ],
+      "end_point": [
+        1921,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_pop_buffer_state": {
+      "start_point": [
+        1930,
+        0
+      ],
+      "end_point": [
+        1947,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_ensure_buffer_stack": {
+      "start_point": [
+        1955,
+        0
+      ],
+      "end_point": [
+        1999,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_bind_ensure_buffer_stack()\"",
+        "\"out of dynamic memory in grecs_bind_ensure_buffer_stack()\""
+      ]
+    },
+    "grecs_bind__scan_buffer": {
+      "start_point": [
+        2009,
+        0
+      ],
+      "end_point": [
+        2036,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_bind__scan_buffer()\""
+      ]
+    },
+    "grecs_bind__scan_string": {
+      "start_point": [
+        2048,
+        0
+      ],
+      "end_point": [
+        2052,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__scan_bytes": {
+      "start_point": [
+        2063,
+        0
+      ],
+      "end_point": [
+        2091,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_bind__scan_bytes()\"",
+        "\"bad buffer in grecs_bind__scan_bytes()\""
+      ]
+    },
+    "grecs_bind__fatal_error": {
+      "start_point": [
+        2099,
+        0
+      ],
+      "end_point": [
+        2103,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "grecs_bind_get_lineno": {
+      "start_point": [
+        2134,
+        0
+      ],
+      "end_point": [
+        2138,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_get_in": {
+      "start_point": [
+        2143,
+        0
+      ],
+      "end_point": [
+        2146,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_get_out": {
+      "start_point": [
+        2151,
+        0
+      ],
+      "end_point": [
+        2154,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_get_leng": {
+      "start_point": [
+        2159,
+        0
+      ],
+      "end_point": [
+        2162,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_get_text": {
+      "start_point": [
+        2168,
+        0
+      ],
+      "end_point": [
+        2171,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_set_lineno": {
+      "start_point": [
+        2180,
+        0
+      ],
+      "end_point": [
+        2184,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_set_in": {
+      "start_point": [
+        2192,
+        0
+      ],
+      "end_point": [
+        2195,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_set_out": {
+      "start_point": [
+        2197,
+        0
+      ],
+      "end_point": [
+        2200,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_get_debug": {
+      "start_point": [
+        2202,
+        0
+      ],
+      "end_point": [
+        2205,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_set_debug": {
+      "start_point": [
+        2207,
+        0
+      ],
+      "end_point": [
+        2210,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__init_globals": {
+      "start_point": [
+        2220,
+        0
+      ],
+      "end_point": [
+        2246,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_lex_destroy": {
+      "start_point": [
+        2251,
+        0
+      ],
+      "end_point": [
+        2272,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__flex_strncpy": {
+      "start_point": [
+        2280,
+        0
+      ],
+      "end_point": [
+        2285,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind__flex_strlen": {
+      "start_point": [
+        2289,
+        0
+      ],
+      "end_point": [
+        2296,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_alloc": {
+      "start_point": [
+        2299,
+        0
+      ],
+      "end_point": [
+        2302,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_realloc": {
+      "start_point": [
+        2304,
+        0
+      ],
+      "end_point": [
+        2314,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_free": {
+      "start_point": [
+        2316,
+        0
+      ],
+      "end_point": [
+        2319,
+        1
+      ],
+      "strings": []
+    },
+    "free_context": {
+      "start_point": [
+        2345,
+        0
+      ],
+      "end_point": [
+        2349,
+        1
+      ],
+      "strings": []
+    },
+    "cmp_context": {
+      "start_point": [
+        2351,
+        0
+      ],
+      "end_point": [
+        2358,
+        1
+      ],
+      "strings": []
+    },
+    "_push_context": {
+      "start_point": [
+        2360,
+        0
+      ],
+      "end_point": [
+        2394,
+        1
+      ],
+      "strings": [
+        "\"%s has already been included\"",
+        "\"this is where the previous inclusion occurred\""
+      ]
+    },
+    "_pop_context": {
+      "start_point": [
+        2396,
+        0
+      ],
+      "end_point": [
+        2420,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_wrap": {
+      "start_point": [
+        2422,
+        0
+      ],
+      "end_point": [
+        2426,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_new_source": {
+      "start_point": [
+        2428,
+        0
+      ],
+      "end_point": [
+        2484,
+        1
+      ],
+      "strings": [
+        "\"cannot open `%s'\"",
+        "\"r\"",
+        "\"cannot open `%s'\"",
+        "\"can't state %s\"",
+        "\"%s \\\"%s\\\"\"",
+        "\"r\"",
+        "\"cannot open `%s'\""
+      ]
+    },
+    "grecs_bind_close_sources": {
+      "start_point": [
+        2486,
+        0
+      ],
+      "end_point": [
+        2493,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/bind-lex.l": {
+    "noinput": {
+      "start_point": [
+        1,
+        1
+      ],
+      "end_point": [
+        7,
+        1
+      ],
+      "strings": []
+    },
+    "free_context": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        139,
+        1
+      ],
+      "strings": []
+    },
+    "cmp_context": {
+      "start_point": [
+        141,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    },
+    "_push_context": {
+      "start_point": [
+        150,
+        0
+      ],
+      "end_point": [
+        184,
+        1
+      ],
+      "strings": [
+        "\"%s has already been included\"",
+        "\"this is where the previous inclusion occurred\""
+      ]
+    },
+    "_pop_context": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": []
+    },
+    "yywrap": {
+      "start_point": [
+        212,
+        0
+      ],
+      "end_point": [
+        216,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_bind_new_source": {
+      "start_point": [
+        218,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "strings": [
+        "\"cannot open `%s'\"",
+        "\"r\"",
+        "\"cannot open `%s'\"",
+        "\"can't state %s\"",
+        "\"%s \\\"%s\\\"\"",
+        "\"r\"",
+        "\"cannot open `%s'\""
+      ]
+    },
+    "grecs_bind_close_sources": {
+      "start_point": [
+        276,
+        0
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/cidr.c": {
+    "uint32_to_bytes": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_inaddr_to_bytes": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_sockaddr_to_bytes": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_sockaddr_to_cidr": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "strings": []
+    },
+    "masklen_to_netmask": {
+      "start_point": [
+        90,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_str_to_cidr": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        193,
+        1
+      ],
+      "strings": [
+        "\"invalid network mask: %s\"",
+        "\"unrecognized address family: %s\"",
+        "\"unrecognized address family: %s\"",
+        "\"invalid network address: %s\"",
+        "\"unrecognized address family: %s\"",
+        "\"invalid network mask: %s\"",
+        "\"invalid network mask: %s\""
+      ]
+    },
+    "grecs_cidr_match": {
+      "start_point": [
+        195,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_sockadd_cidr_match": {
+      "start_point": [
+        209,
+        0
+      ],
+      "end_point": [
+        216,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/dhcpd-gram.c": {
+    "make_string_value": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdtnamerr": {
+      "start_point": [
+        997,
+        0
+      ],
+      "end_point": [
+        1034,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdsyntax_error": {
+      "start_point": [
+        1045,
+        0
+      ],
+      "end_point": [
+        1171,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "grecs_dhcpderror": {
+      "start_point": [
+        2120,
+        0
+      ],
+      "end_point": [
+        2125,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "grecs_dhcpd_parser": {
+      "start_point": [
+        2127,
+        0
+      ],
+      "end_point": [
+        2148,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/dhcpd-gram.y": {
+    "make_string_value": {
+      "start_point": [
+        39,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    },
+    "DHCPD_EXPR": {
+      "start_point": [
+        63,
+        25
+      ],
+      "end_point": [
+        81,
+        4
+      ],
+      "strings": []
+    },
+    "stmt": {
+      "start_point": [
+        99,
+        10
+      ],
+      "end_point": [
+        108,
+        4
+      ],
+      "strings": []
+    },
+    "value": {
+      "start_point": [
+        198,
+        10
+      ],
+      "end_point": [
+        201,
+        4
+      ],
+      "strings": []
+    },
+    "opt_elsecond": {
+      "start_point": [
+        249,
+        47
+      ],
+      "end_point": [
+        267,
+        4
+      ],
+      "strings": [
+        "\"if\""
+      ]
+    },
+    "elsifcond": {
+      "start_point": [
+        293,
+        10
+      ],
+      "end_point": [
+        302,
+        4
+      ],
+      "strings": []
+    },
+    "yyerror": {
+      "start_point": [
+        344,
+        0
+      ],
+      "end_point": [
+        349,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "grecs_dhcpd_parser": {
+      "start_point": [
+        351,
+        0
+      ],
+      "end_point": [
+        372,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/dhcpd-lex.c": {
+    "grecs_dhcpd_get_next_buffer": {
+      "start_point": [
+        1447,
+        0
+      ],
+      "end_point": [
+        1580,
+        1
+      ],
+      "strings": [
+        "\"fatal flex scanner internal error--end of buffer missed\"",
+        "\"fatal error - scanner input buffer overflow\"",
+        "\"out of dynamic memory in grecs_dhcpd_get_next_buffer()\""
+      ]
+    },
+    "grecs_dhcpd_get_previous_state": {
+      "start_point": [
+        1587,
+        4
+      ],
+      "end_point": [
+        1618,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_try_NUL_trans": {
+      "start_point": [
+        1626,
+        4
+      ],
+      "end_point": [
+        1651,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdunput": {
+      "start_point": [
+        1655,
+        4
+      ],
+      "end_point": [
+        1695,
+        1
+      ],
+      "strings": [
+        "\"flex scanner push-back overflow\""
+      ]
+    },
+    "grecs_dhcpdrestart": {
+      "start_point": [
+        1789,
+        4
+      ],
+      "end_point": [
+        1803,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_switch_to_buffer": {
+      "start_point": [
+        1810,
+        4
+      ],
+      "end_point": [
+        1842,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_load_buffer_state": {
+      "start_point": [
+        1845,
+        0
+      ],
+      "end_point": [
+        1854,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_create_buffer": {
+      "start_point": [
+        1863,
+        4
+      ],
+      "end_point": [
+        1888,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_dhcpd_create_buffer()\"",
+        "\"out of dynamic memory in grecs_dhcpd_create_buffer()\""
+      ]
+    },
+    "grecs_dhcpd_delete_buffer": {
+      "start_point": [
+        1895,
+        4
+      ],
+      "end_point": [
+        1911,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_init_buffer": {
+      "start_point": [
+        1929,
+        4
+      ],
+      "end_point": [
+        1959,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_flush_buffer": {
+      "start_point": [
+        1966,
+        4
+      ],
+      "end_point": [
+        1990,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdpush_buffer_state": {
+      "start_point": [
+        2000,
+        0
+      ],
+      "end_point": [
+        2027,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdpop_buffer_state": {
+      "start_point": [
+        2036,
+        0
+      ],
+      "end_point": [
+        2053,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdensure_buffer_stack": {
+      "start_point": [
+        2061,
+        0
+      ],
+      "end_point": [
+        2105,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_dhcpdensure_buffer_stack()\"",
+        "\"out of dynamic memory in grecs_dhcpdensure_buffer_stack()\""
+      ]
+    },
+    "grecs_dhcpd_scan_buffer": {
+      "start_point": [
+        2115,
+        0
+      ],
+      "end_point": [
+        2142,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_dhcpd_scan_buffer()\""
+      ]
+    },
+    "grecs_dhcpd_scan_string": {
+      "start_point": [
+        2154,
+        0
+      ],
+      "end_point": [
+        2158,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_scan_bytes": {
+      "start_point": [
+        2169,
+        0
+      ],
+      "end_point": [
+        2197,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_dhcpd_scan_bytes()\"",
+        "\"bad buffer in grecs_dhcpd_scan_bytes()\""
+      ]
+    },
+    "grecs_dhcpd_fatal_error": {
+      "start_point": [
+        2205,
+        0
+      ],
+      "end_point": [
+        2209,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "grecs_dhcpdget_lineno": {
+      "start_point": [
+        2240,
+        0
+      ],
+      "end_point": [
+        2244,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdget_in": {
+      "start_point": [
+        2249,
+        0
+      ],
+      "end_point": [
+        2252,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdget_out": {
+      "start_point": [
+        2257,
+        0
+      ],
+      "end_point": [
+        2260,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdget_leng": {
+      "start_point": [
+        2265,
+        0
+      ],
+      "end_point": [
+        2268,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdget_text": {
+      "start_point": [
+        2274,
+        0
+      ],
+      "end_point": [
+        2277,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdset_lineno": {
+      "start_point": [
+        2286,
+        0
+      ],
+      "end_point": [
+        2290,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdset_in": {
+      "start_point": [
+        2298,
+        0
+      ],
+      "end_point": [
+        2301,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdset_out": {
+      "start_point": [
+        2303,
+        0
+      ],
+      "end_point": [
+        2306,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdget_debug": {
+      "start_point": [
+        2308,
+        0
+      ],
+      "end_point": [
+        2311,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdset_debug": {
+      "start_point": [
+        2313,
+        0
+      ],
+      "end_point": [
+        2316,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_init_globals": {
+      "start_point": [
+        2326,
+        0
+      ],
+      "end_point": [
+        2352,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdlex_destroy": {
+      "start_point": [
+        2357,
+        0
+      ],
+      "end_point": [
+        2378,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_flex_strncpy": {
+      "start_point": [
+        2386,
+        0
+      ],
+      "end_point": [
+        2391,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_flex_strlen": {
+      "start_point": [
+        2395,
+        0
+      ],
+      "end_point": [
+        2402,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdalloc": {
+      "start_point": [
+        2405,
+        0
+      ],
+      "end_point": [
+        2408,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdrealloc": {
+      "start_point": [
+        2410,
+        0
+      ],
+      "end_point": [
+        2420,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdfree": {
+      "start_point": [
+        2422,
+        0
+      ],
+      "end_point": [
+        2425,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_begin_bool": {
+      "start_point": [
+        2438,
+        0
+      ],
+      "end_point": [
+        2442,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_begin_expr": {
+      "start_point": [
+        2444,
+        0
+      ],
+      "end_point": [
+        2448,
+        1
+      ],
+      "strings": []
+    },
+    "free_context": {
+      "start_point": [
+        2463,
+        0
+      ],
+      "end_point": [
+        2467,
+        1
+      ],
+      "strings": []
+    },
+    "cmp_context": {
+      "start_point": [
+        2469,
+        0
+      ],
+      "end_point": [
+        2476,
+        1
+      ],
+      "strings": []
+    },
+    "_push_context": {
+      "start_point": [
+        2478,
+        0
+      ],
+      "end_point": [
+        2512,
+        1
+      ],
+      "strings": [
+        "\"%s has already been included\"",
+        "\"this is where the previous inclusion occurred\""
+      ]
+    },
+    "_pop_context": {
+      "start_point": [
+        2514,
+        0
+      ],
+      "end_point": [
+        2538,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpdwrap": {
+      "start_point": [
+        2540,
+        0
+      ],
+      "end_point": [
+        2544,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_new_source": {
+      "start_point": [
+        2546,
+        0
+      ],
+      "end_point": [
+        2602,
+        1
+      ],
+      "strings": [
+        "\"cannot open `%s'\"",
+        "\"r\"",
+        "\"cannot open `%s'\"",
+        "\"can't state %s\"",
+        "\"%s \\\"%s\\\"\"",
+        "\"r\"",
+        "\"cannot open `%s'\""
+      ]
+    },
+    "grecs_dhcpd_close_sources": {
+      "start_point": [
+        2604,
+        0
+      ],
+      "end_point": [
+        2611,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/dhcpd-lex.l": {
+    "noinput": {
+      "start_point": [
+        1,
+        1
+      ],
+      "end_point": [
+        6,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_begin_bool": {
+      "start_point": [
+        172,
+        0
+      ],
+      "end_point": [
+        176,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_begin_expr": {
+      "start_point": [
+        178,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "strings": []
+    },
+    "free_context": {
+      "start_point": [
+        197,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": []
+    },
+    "cmp_context": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "strings": []
+    },
+    "_push_context": {
+      "start_point": [
+        212,
+        0
+      ],
+      "end_point": [
+        246,
+        1
+      ],
+      "strings": [
+        "\"%s has already been included\"",
+        "\"this is where the previous inclusion occurred\""
+      ]
+    },
+    "_pop_context": {
+      "start_point": [
+        248,
+        0
+      ],
+      "end_point": [
+        272,
+        1
+      ],
+      "strings": []
+    },
+    "yywrap": {
+      "start_point": [
+        274,
+        0
+      ],
+      "end_point": [
+        278,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_dhcpd_new_source": {
+      "start_point": [
+        280,
+        0
+      ],
+      "end_point": [
+        336,
+        1
+      ],
+      "strings": [
+        "\"cannot open `%s'\"",
+        "\"r\"",
+        "\"cannot open `%s'\"",
+        "\"can't state %s\"",
+        "\"%s \\\"%s\\\"\"",
+        "\"r\"",
+        "\"cannot open `%s'\""
+      ]
+    },
+    "grecs_dhcpd_close_sources": {
+      "start_point": [
+        338,
+        0
+      ],
+      "end_point": [
+        345,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/diag.c": {
+    "default_print_diag": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": [
+        "\"warning: \"",
+        "\"%s\"",
+        "\": %s\""
+      ]
+    },
+    "grecs_warning": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_error": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_asprint_locus": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "strings": [
+        "\"%s:%u\"",
+        "\"%s:%u.%u-%s:%u.%u\"",
+        "\"%s:%u.%u-%u.%u\"",
+        "\"%s:%u.%u-%u\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/format.c": {
+    "grecs_data_type_string": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": [
+        "\"void\"",
+        "\"string\"",
+        "\"number\"",
+        "\"time\"",
+        "\"boolean\"",
+        "\"IPv4\"",
+        "\"CIDR\"",
+        "\"hostname\"",
+        "\"sockaddr\"",
+        "\"section\"",
+        "\"null\"",
+        "\"UNKNOWN?\""
+      ]
+    },
+    "format_level": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": [
+        "\"  \""
+      ]
+    },
+    "grecs_print_docstring": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": [
+        "\"# \""
+      ]
+    },
+    "grecs_print_simple_statement": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "strings": [
+        "\"Disabled;\"",
+        "\"arg\"",
+        "\"<[\"",
+        "\"%s %s;\\n\"",
+        "\"%s %s;\\n\"",
+        "\"%s <%s>;\\n\"",
+        "\"%s <%s: \"",
+        "\"list of %s\"",
+        "\"%s\"",
+        "\">;\\n\""
+      ]
+    },
+    "grecs_print_block_statement": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\" %s\"",
+        "\" <%s>\"",
+        "\" {\\n\"",
+        "\"}\\n\""
+      ]
+    },
+    "grecs_print_statement_array": {
+      "start_point": [
+        180,
+        0
+      ],
+      "end_point": [
+        199,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_format_locus": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        238,
+        1
+      ],
+      "strings": [
+        "\"%s:%u\"",
+        "\"%s:%u.%u-%s:%u.%u\"",
+        "\"%s:%u.%u-%u.%u\"",
+        "\"%s:%u.%u-%u\"",
+        "\"%s:%u.%u\""
+      ]
+    },
+    "grecs_format_node_path": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        265,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"NULL\"",
+        "\"=\""
+      ]
+    },
+    "grecs_format_value": {
+      "start_point": [
+        267,
+        0
+      ],
+      "end_point": [
+        317,
+        1
+      ],
+      "strings": [
+        "\"\\\"\"",
+        "\"\\\"\"",
+        "\"(\"",
+        "\", \"",
+        "\")\"",
+        "\" \""
+      ]
+    },
+    "grecs_format_node": {
+      "start_point": [
+        319,
+        0
+      ],
+      "end_point": [
+        376,
+        1
+      ],
+      "strings": [
+        "\"NULL\"",
+        "\"\\n\"",
+        "\": \"",
+        "\": \""
+      ]
+    },
+    "txtacc_fmt": {
+      "start_point": [
+        379,
+        0
+      ],
+      "end_point": [
+        385,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_format_value": {
+      "start_point": [
+        387,
+        0
+      ],
+      "end_point": [
+        393,
+        1
+      ],
+      "strings": []
+    },
+    "file_fmt": {
+      "start_point": [
+        396,
+        0
+      ],
+      "end_point": [
+        401,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_print_locus": {
+      "start_point": [
+        403,
+        0
+      ],
+      "end_point": [
+        408,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_print_node_path": {
+      "start_point": [
+        410,
+        0
+      ],
+      "end_point": [
+        415,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_print_value": {
+      "start_point": [
+        417,
+        0
+      ],
+      "end_point": [
+        422,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_print_node": {
+      "start_point": [
+        424,
+        0
+      ],
+      "end_point": [
+        429,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/git-parser.c": {
+    "rawinput": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "strings": []
+    },
+    "input": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "unput": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "error_recovery": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    },
+    "collect_unquoted": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        106,
+        1
+      ],
+      "strings": []
+    },
+    "collect_subsection_name": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    },
+    "collect_substring": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": [
+        "\"unexpected EOF in string\""
+      ]
+    },
+    "gettoken": {
+      "start_point": [
+        154,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": [
+        "\"unexpected EOF in section header\"",
+        "\"unexpect newline in in section header\"",
+        "\"unexpected character in section header\"",
+        "\"empty section header\""
+      ]
+    },
+    "collect_value": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        297,
+        1
+      ],
+      "strings": []
+    },
+    "getvalue": {
+      "start_point": [
+        299,
+        0
+      ],
+      "end_point": [
+        325,
+        1
+      ],
+      "strings": []
+    },
+    "read_statement": {
+      "start_point": [
+        327,
+        0
+      ],
+      "end_point": [
+        364,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"unexpected EOF\"",
+        "\"expected `=', but found `%s'\""
+      ]
+    },
+    "read_statement_list": {
+      "start_point": [
+        366,
+        0
+      ],
+      "end_point": [
+        371,
+        1
+      ],
+      "strings": []
+    },
+    "create_subsection_node": {
+      "start_point": [
+        373,
+        0
+      ],
+      "end_point": [
+        390,
+        1
+      ],
+      "strings": []
+    },
+    "read_section": {
+      "start_point": [
+        392,
+        0
+      ],
+      "end_point": [
+        408,
+        1
+      ],
+      "strings": [
+        "\"syntax error\""
+      ]
+    },
+    "grecs_git_parser": {
+      "start_point": [
+        411,
+        0
+      ],
+      "end_point": [
+        440,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"cannot open `%s'\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/grecs-gram.c": {
+    "grecs_grecs_tnamerr": {
+      "start_point": [
+        964,
+        0
+      ],
+      "end_point": [
+        1001,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_syntax_error": {
+      "start_point": [
+        1012,
+        0
+      ],
+      "end_point": [
+        1138,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "grecs_grecs_error": {
+      "start_point": [
+        1996,
+        0
+      ],
+      "end_point": [
+        2001,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "grecs_grecs_parser": {
+      "start_point": [
+        2003,
+        0
+      ],
+      "end_point": [
+        2020,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/grecs-gram.h": {},
+  "direvent/direvent-5.1/grecs/src/grecs-gram.y": {
+    "MSTRING": [
+      {
+        "start_point": [
+          50,
+          20
+        ],
+        "end_point": [
+          61,
+          4
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          79,
+          10
+        ],
+        "end_point": [
+          82,
+          4
+        ],
+        "strings": []
+      },
+      {
+        "start_point": [
+          153,
+          10
+        ],
+        "end_point": [
+          156,
+          4
+        ],
+        "strings": []
+      }
+    ],
+    "yyerror": {
+      "start_point": [
+        243,
+        0
+      ],
+      "end_point": [
+        248,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "grecs_grecs_parser": {
+      "start_point": [
+        250,
+        0
+      ],
+      "end_point": [
+        267,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/grecs-lex.c": {
+    "grecs_grecs__get_next_buffer": {
+      "start_point": [
+        1531,
+        0
+      ],
+      "end_point": [
+        1664,
+        1
+      ],
+      "strings": [
+        "\"fatal flex scanner internal error--end of buffer missed\"",
+        "\"fatal error - scanner input buffer overflow\"",
+        "\"out of dynamic memory in grecs_grecs__get_next_buffer()\""
+      ]
+    },
+    "grecs_grecs__get_previous_state": {
+      "start_point": [
+        1671,
+        4
+      ],
+      "end_point": [
+        1702,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__try_NUL_trans": {
+      "start_point": [
+        1710,
+        4
+      ],
+      "end_point": [
+        1735,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_restart": {
+      "start_point": [
+        1830,
+        4
+      ],
+      "end_point": [
+        1844,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__switch_to_buffer": {
+      "start_point": [
+        1851,
+        4
+      ],
+      "end_point": [
+        1883,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__load_buffer_state": {
+      "start_point": [
+        1886,
+        0
+      ],
+      "end_point": [
+        1895,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__create_buffer": {
+      "start_point": [
+        1904,
+        4
+      ],
+      "end_point": [
+        1929,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_grecs__create_buffer()\"",
+        "\"out of dynamic memory in grecs_grecs__create_buffer()\""
+      ]
+    },
+    "grecs_grecs__delete_buffer": {
+      "start_point": [
+        1936,
+        4
+      ],
+      "end_point": [
+        1952,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__init_buffer": {
+      "start_point": [
+        1970,
+        4
+      ],
+      "end_point": [
+        2000,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__flush_buffer": {
+      "start_point": [
+        2007,
+        4
+      ],
+      "end_point": [
+        2031,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_push_buffer_state": {
+      "start_point": [
+        2041,
+        0
+      ],
+      "end_point": [
+        2068,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_pop_buffer_state": {
+      "start_point": [
+        2077,
+        0
+      ],
+      "end_point": [
+        2094,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_ensure_buffer_stack": {
+      "start_point": [
+        2102,
+        0
+      ],
+      "end_point": [
+        2146,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_grecs_ensure_buffer_stack()\"",
+        "\"out of dynamic memory in grecs_grecs_ensure_buffer_stack()\""
+      ]
+    },
+    "grecs_grecs__scan_buffer": {
+      "start_point": [
+        2156,
+        0
+      ],
+      "end_point": [
+        2183,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_grecs__scan_buffer()\""
+      ]
+    },
+    "grecs_grecs__scan_string": {
+      "start_point": [
+        2195,
+        0
+      ],
+      "end_point": [
+        2199,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__scan_bytes": {
+      "start_point": [
+        2210,
+        0
+      ],
+      "end_point": [
+        2238,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_grecs__scan_bytes()\"",
+        "\"bad buffer in grecs_grecs__scan_bytes()\""
+      ]
+    },
+    "grecs_grecs__fatal_error": {
+      "start_point": [
+        2246,
+        0
+      ],
+      "end_point": [
+        2250,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "grecs_grecs_get_lineno": {
+      "start_point": [
+        2281,
+        0
+      ],
+      "end_point": [
+        2285,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_get_in": {
+      "start_point": [
+        2290,
+        0
+      ],
+      "end_point": [
+        2293,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_get_out": {
+      "start_point": [
+        2298,
+        0
+      ],
+      "end_point": [
+        2301,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_get_leng": {
+      "start_point": [
+        2306,
+        0
+      ],
+      "end_point": [
+        2309,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_get_text": {
+      "start_point": [
+        2315,
+        0
+      ],
+      "end_point": [
+        2318,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_set_lineno": {
+      "start_point": [
+        2327,
+        0
+      ],
+      "end_point": [
+        2331,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_set_in": {
+      "start_point": [
+        2339,
+        0
+      ],
+      "end_point": [
+        2342,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_set_out": {
+      "start_point": [
+        2344,
+        0
+      ],
+      "end_point": [
+        2347,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_get_debug": {
+      "start_point": [
+        2349,
+        0
+      ],
+      "end_point": [
+        2352,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_set_debug": {
+      "start_point": [
+        2354,
+        0
+      ],
+      "end_point": [
+        2357,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__init_globals": {
+      "start_point": [
+        2367,
+        0
+      ],
+      "end_point": [
+        2393,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_lex_destroy": {
+      "start_point": [
+        2398,
+        0
+      ],
+      "end_point": [
+        2419,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__flex_strncpy": {
+      "start_point": [
+        2427,
+        0
+      ],
+      "end_point": [
+        2432,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs__flex_strlen": {
+      "start_point": [
+        2436,
+        0
+      ],
+      "end_point": [
+        2443,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_alloc": {
+      "start_point": [
+        2446,
+        0
+      ],
+      "end_point": [
+        2449,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_realloc": {
+      "start_point": [
+        2451,
+        0
+      ],
+      "end_point": [
+        2461,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_free": {
+      "start_point": [
+        2463,
+        0
+      ],
+      "end_point": [
+        2466,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_grecs_wrap": {
+      "start_point": [
+        2481,
+        0
+      ],
+      "end_point": [
+        2491,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_lex_begin": {
+      "start_point": [
+        2493,
+        0
+      ],
+      "end_point": [
+        2521,
+        1
+      ],
+      "strings": [
+        "\"Cannot open `%s'\"",
+        "\"Unable to start external preprocessor `%s'\""
+      ]
+    },
+    "grecs_lex_end": {
+      "start_point": [
+        2523,
+        0
+      ],
+      "end_point": [
+        2527,
+        1
+      ],
+      "strings": []
+    },
+    "isemptystr": {
+      "start_point": [
+        2529,
+        0
+      ],
+      "end_point": [
+        2543,
+        1
+      ],
+      "strings": []
+    },
+    "multiline_strip_tabs": {
+      "start_point": [
+        2545,
+        0
+      ],
+      "end_point": [
+        2552,
+        1
+      ],
+      "strings": []
+    },
+    "multiline_add": {
+      "start_point": [
+        2554,
+        0
+      ],
+      "end_point": [
+        2567,
+        1
+      ],
+      "strings": []
+    },
+    "is_tab": {
+      "start_point": [
+        2569,
+        0
+      ],
+      "end_point": [
+        2573,
+        1
+      ],
+      "strings": []
+    },
+    "is_ws": {
+      "start_point": [
+        2575,
+        0
+      ],
+      "end_point": [
+        2579,
+        1
+      ],
+      "strings": []
+    },
+    "multiline_begin": {
+      "start_point": [
+        2581,
+        0
+      ],
+      "end_point": [
+        2619,
+        1
+      ],
+      "strings": [
+        "\" \\t\"",
+        "\" \\t\""
+      ]
+    },
+    "ident": {
+      "start_point": [
+        2621,
+        0
+      ],
+      "end_point": [
+        2636,
+        1
+      ],
+      "strings": []
+    },
+    "qstring_locus_fixup": {
+      "start_point": [
+        2638,
+        0
+      ],
+      "end_point": [
+        2645,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_value_ptr_from_static": {
+      "start_point": [
+        2647,
+        0
+      ],
+      "end_point": [
+        2653,
+        1
+      ],
+      "strings": []
+    },
+    "assign_locus": {
+      "start_point": [
+        2656,
+        0
+      ],
+      "end_point": [
+        2670,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_parse_line_directive": {
+      "start_point": [
+        2672,
+        0
+      ],
+      "end_point": [
+        2707,
+        1
+      ],
+      "strings": [
+        "\"cannot parse #line line: %s\"",
+        "\"invalid #line statement\"",
+        "\"malformed #line statement\""
+      ]
+    },
+    "grecs_parse_line_directive_cpp": {
+      "start_point": [
+        2709,
+        0
+      ],
+      "end_point": [
+        2728,
+        1
+      ],
+      "strings": [
+        "\"cannot parse #line line: %s\"",
+        "\"invalid #line statement\"",
+        "\"malformed #line statement\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/grecs-lex.l": {
+    "nounput": {
+      "start_point": [
+        1,
+        1
+      ],
+      "end_point": [
+        7,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/ipstr.c": {
+    "grecs_str_is_ipv4": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_str_is_ipv6": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_str_is_num": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_str_is_ipaddr": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/join.c": {
+    "reset_point": {
+      "start_point": [
+        23,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "reset_locus": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_tree_join": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/json-gram.c": {
+    "pairfree": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        108,
+        1
+      ],
+      "strings": []
+    },
+    "objfree": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        115,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_tnamerr": {
+      "start_point": [
+        962,
+        0
+      ],
+      "end_point": [
+        999,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_syntax_error": {
+      "start_point": [
+        1010,
+        0
+      ],
+      "end_point": [
+        1136,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "grecs_json_error": {
+      "start_point": [
+        1897,
+        0
+      ],
+      "end_point": [
+        1902,
+        1
+      ],
+      "strings": []
+    },
+    "json_value_create": {
+      "start_point": [
+        1904,
+        0
+      ],
+      "end_point": [
+        1910,
+        1
+      ],
+      "strings": []
+    },
+    "json_value_free": {
+      "start_point": [
+        1912,
+        0
+      ],
+      "end_point": [
+        1942,
+        1
+      ],
+      "strings": []
+    },
+    "json_st_hash": {
+      "start_point": [
+        1944,
+        0
+      ],
+      "end_point": [
+        1949,
+        1
+      ],
+      "strings": []
+    },
+    "json_st_cmp": {
+      "start_point": [
+        1951,
+        0
+      ],
+      "end_point": [
+        1957,
+        1
+      ],
+      "strings": []
+    },
+    "json_st_copy": {
+      "start_point": [
+        1959,
+        0
+      ],
+      "end_point": [
+        1966,
+        1
+      ],
+      "strings": []
+    },
+    "json_st_free": {
+      "start_point": [
+        1968,
+        0
+      ],
+      "end_point": [
+        1975,
+        1
+      ],
+      "strings": []
+    },
+    "json_assoc_create": {
+      "start_point": [
+        1977,
+        0
+      ],
+      "end_point": [
+        1986,
+        1
+      ],
+      "strings": []
+    },
+    "json_parse_string": {
+      "start_point": [
+        1988,
+        0
+      ],
+      "end_point": [
+        1997,
+        1
+      ],
+      "strings": []
+    },
+    "json_value_lookup": {
+      "start_point": [
+        1999,
+        0
+      ],
+      "end_point": [
+        2059,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_string": {
+      "start_point": [
+        2061,
+        0
+      ],
+      "end_point": [
+        2067,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_number": {
+      "start_point": [
+        2069,
+        0
+      ],
+      "end_point": [
+        2075,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_bool": {
+      "start_point": [
+        2077,
+        0
+      ],
+      "end_point": [
+        2083,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_null": {
+      "start_point": [
+        2085,
+        0
+      ],
+      "end_point": [
+        2089,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_object": {
+      "start_point": [
+        2091,
+        0
+      ],
+      "end_point": [
+        2097,
+        1
+      ],
+      "strings": []
+    },
+    "json_object_set": {
+      "start_point": [
+        2099,
+        0
+      ],
+      "end_point": [
+        2116,
+        1
+      ],
+      "strings": []
+    },
+    "json_object_get": {
+      "start_point": [
+        2118,
+        0
+      ],
+      "end_point": [
+        2135,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_array": {
+      "start_point": [
+        2137,
+        0
+      ],
+      "end_point": [
+        2146,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_size": {
+      "start_point": [
+        2148,
+        0
+      ],
+      "end_point": [
+        2156,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_flatten": {
+      "start_point": [
+        2158,
+        0
+      ],
+      "end_point": [
+        2176,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_insert": {
+      "start_point": [
+        2178,
+        0
+      ],
+      "end_point": [
+        2197,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_append": {
+      "start_point": [
+        2199,
+        0
+      ],
+      "end_point": [
+        2211,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_set": {
+      "start_point": [
+        2213,
+        0
+      ],
+      "end_point": [
+        2227,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_get": {
+      "start_point": [
+        2229,
+        0
+      ],
+      "end_point": [
+        2244,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/json-gram.y": {
+    "pairfree": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        39,
+        1
+      ],
+      "strings": []
+    },
+    "objfree": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": []
+    },
+    "input": {
+      "start_point": [
+        63,
+        1
+      ],
+      "end_point": [
+        77,
+        4
+      ],
+      "strings": []
+    },
+    "yyerror": {
+      "start_point": [
+        183,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": []
+    },
+    "json_value_create": {
+      "start_point": [
+        190,
+        0
+      ],
+      "end_point": [
+        196,
+        1
+      ],
+      "strings": []
+    },
+    "json_value_free": {
+      "start_point": [
+        198,
+        0
+      ],
+      "end_point": [
+        228,
+        1
+      ],
+      "strings": []
+    },
+    "json_st_hash": {
+      "start_point": [
+        230,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "json_st_cmp": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        243,
+        1
+      ],
+      "strings": []
+    },
+    "json_st_copy": {
+      "start_point": [
+        245,
+        0
+      ],
+      "end_point": [
+        252,
+        1
+      ],
+      "strings": []
+    },
+    "json_st_free": {
+      "start_point": [
+        254,
+        0
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "strings": []
+    },
+    "json_assoc_create": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        272,
+        1
+      ],
+      "strings": []
+    },
+    "json_parse_string": {
+      "start_point": [
+        274,
+        0
+      ],
+      "end_point": [
+        283,
+        1
+      ],
+      "strings": []
+    },
+    "json_value_lookup": {
+      "start_point": [
+        285,
+        0
+      ],
+      "end_point": [
+        345,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_string": {
+      "start_point": [
+        347,
+        0
+      ],
+      "end_point": [
+        353,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_number": {
+      "start_point": [
+        355,
+        0
+      ],
+      "end_point": [
+        361,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_bool": {
+      "start_point": [
+        363,
+        0
+      ],
+      "end_point": [
+        369,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_null": {
+      "start_point": [
+        371,
+        0
+      ],
+      "end_point": [
+        375,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_object": {
+      "start_point": [
+        377,
+        0
+      ],
+      "end_point": [
+        383,
+        1
+      ],
+      "strings": []
+    },
+    "json_object_set": {
+      "start_point": [
+        385,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "strings": []
+    },
+    "json_object_get": {
+      "start_point": [
+        404,
+        0
+      ],
+      "end_point": [
+        421,
+        1
+      ],
+      "strings": []
+    },
+    "json_new_array": {
+      "start_point": [
+        423,
+        0
+      ],
+      "end_point": [
+        432,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_size": {
+      "start_point": [
+        434,
+        0
+      ],
+      "end_point": [
+        442,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_flatten": {
+      "start_point": [
+        444,
+        0
+      ],
+      "end_point": [
+        462,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_insert": {
+      "start_point": [
+        464,
+        0
+      ],
+      "end_point": [
+        483,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_append": {
+      "start_point": [
+        485,
+        0
+      ],
+      "end_point": [
+        497,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_set": {
+      "start_point": [
+        499,
+        0
+      ],
+      "end_point": [
+        513,
+        1
+      ],
+      "strings": []
+    },
+    "json_array_get": {
+      "start_point": [
+        515,
+        0
+      ],
+      "end_point": [
+        530,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/json-lex.c": {
+    "jsonlex_setup": {
+      "start_point": [
+        645,
+        0
+      ],
+      "end_point": [
+        655,
+        1
+      ],
+      "strings": []
+    },
+    "jsonlex_diag": {
+      "start_point": [
+        657,
+        0
+      ],
+      "end_point": [
+        664,
+        1
+      ],
+      "strings": []
+    },
+    "utf8_wctomb": {
+      "start_point": [
+        666,
+        0
+      ],
+      "end_point": [
+        715,
+        1
+      ],
+      "strings": []
+    },
+    "json_unescape": {
+      "start_point": [
+        717,
+        0
+      ],
+      "end_point": [
+        730,
+        1
+      ],
+      "strings": [
+        "\"\\\\\\\\\\\"\\\"b\\bf\\fn\\nr\\rt\\t\""
+      ]
+    },
+    "grecs_json_wrap": {
+      "start_point": [
+        733,
+        0
+      ],
+      "end_point": [
+        737,
+        1
+      ],
+      "strings": []
+    },
+    "json_line_begin": {
+      "start_point": [
+        741,
+        0
+      ],
+      "end_point": [
+        746,
+        1
+      ],
+      "strings": []
+    },
+    "json_line_finish": {
+      "start_point": [
+        748,
+        0
+      ],
+      "end_point": [
+        757,
+        1
+      ],
+      "strings": []
+    },
+    "json_line_grow": {
+      "start_point": [
+        759,
+        0
+      ],
+      "end_point": [
+        763,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__get_next_buffer": {
+      "start_point": [
+        1389,
+        0
+      ],
+      "end_point": [
+        1522,
+        1
+      ],
+      "strings": [
+        "\"fatal flex scanner internal error--end of buffer missed\"",
+        "\"fatal error - scanner input buffer overflow\"",
+        "\"out of dynamic memory in grecs_json__get_next_buffer()\""
+      ]
+    },
+    "grecs_json__get_previous_state": {
+      "start_point": [
+        1529,
+        4
+      ],
+      "end_point": [
+        1559,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__try_NUL_trans": {
+      "start_point": [
+        1567,
+        4
+      ],
+      "end_point": [
+        1592,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_restart": {
+      "start_point": [
+        1686,
+        4
+      ],
+      "end_point": [
+        1700,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__switch_to_buffer": {
+      "start_point": [
+        1707,
+        4
+      ],
+      "end_point": [
+        1739,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__load_buffer_state": {
+      "start_point": [
+        1742,
+        0
+      ],
+      "end_point": [
+        1751,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__create_buffer": {
+      "start_point": [
+        1760,
+        4
+      ],
+      "end_point": [
+        1785,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_json__create_buffer()\"",
+        "\"out of dynamic memory in grecs_json__create_buffer()\""
+      ]
+    },
+    "grecs_json__delete_buffer": {
+      "start_point": [
+        1792,
+        4
+      ],
+      "end_point": [
+        1808,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__init_buffer": {
+      "start_point": [
+        1826,
+        4
+      ],
+      "end_point": [
+        1856,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__flush_buffer": {
+      "start_point": [
+        1863,
+        4
+      ],
+      "end_point": [
+        1887,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_push_buffer_state": {
+      "start_point": [
+        1897,
+        0
+      ],
+      "end_point": [
+        1924,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_pop_buffer_state": {
+      "start_point": [
+        1933,
+        0
+      ],
+      "end_point": [
+        1950,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_ensure_buffer_stack": {
+      "start_point": [
+        1958,
+        0
+      ],
+      "end_point": [
+        2002,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_json_ensure_buffer_stack()\"",
+        "\"out of dynamic memory in grecs_json_ensure_buffer_stack()\""
+      ]
+    },
+    "grecs_json__scan_buffer": {
+      "start_point": [
+        2012,
+        0
+      ],
+      "end_point": [
+        2039,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_json__scan_buffer()\""
+      ]
+    },
+    "grecs_json__scan_string": {
+      "start_point": [
+        2051,
+        0
+      ],
+      "end_point": [
+        2055,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__scan_bytes": {
+      "start_point": [
+        2066,
+        0
+      ],
+      "end_point": [
+        2094,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_json__scan_bytes()\"",
+        "\"bad buffer in grecs_json__scan_bytes()\""
+      ]
+    },
+    "grecs_json__fatal_error": {
+      "start_point": [
+        2102,
+        0
+      ],
+      "end_point": [
+        2106,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "grecs_json_get_lineno": {
+      "start_point": [
+        2137,
+        0
+      ],
+      "end_point": [
+        2141,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_get_in": {
+      "start_point": [
+        2146,
+        0
+      ],
+      "end_point": [
+        2149,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_get_out": {
+      "start_point": [
+        2154,
+        0
+      ],
+      "end_point": [
+        2157,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_get_leng": {
+      "start_point": [
+        2162,
+        0
+      ],
+      "end_point": [
+        2165,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_get_text": {
+      "start_point": [
+        2171,
+        0
+      ],
+      "end_point": [
+        2174,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_set_lineno": {
+      "start_point": [
+        2183,
+        0
+      ],
+      "end_point": [
+        2187,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_set_in": {
+      "start_point": [
+        2195,
+        0
+      ],
+      "end_point": [
+        2198,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_set_out": {
+      "start_point": [
+        2200,
+        0
+      ],
+      "end_point": [
+        2203,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_get_debug": {
+      "start_point": [
+        2205,
+        0
+      ],
+      "end_point": [
+        2208,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_set_debug": {
+      "start_point": [
+        2210,
+        0
+      ],
+      "end_point": [
+        2213,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__init_globals": {
+      "start_point": [
+        2223,
+        0
+      ],
+      "end_point": [
+        2249,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_lex_destroy": {
+      "start_point": [
+        2254,
+        0
+      ],
+      "end_point": [
+        2275,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__flex_strncpy": {
+      "start_point": [
+        2283,
+        0
+      ],
+      "end_point": [
+        2288,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json__flex_strlen": {
+      "start_point": [
+        2292,
+        0
+      ],
+      "end_point": [
+        2299,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_alloc": {
+      "start_point": [
+        2302,
+        0
+      ],
+      "end_point": [
+        2305,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_realloc": {
+      "start_point": [
+        2307,
+        0
+      ],
+      "end_point": [
+        2317,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_json_free": {
+      "start_point": [
+        2319,
+        0
+      ],
+      "end_point": [
+        2322,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/json-lex.l": {
+    "noinput": {
+      "start_point": [
+        0,
+        1
+      ],
+      "end_point": [
+        6,
+        1
+      ],
+      "strings": []
+    },
+    "jsonlex_setup": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "jsonlex_diag": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "utf8_wctomb": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "json_unescape": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "strings": [
+        "\"\\\\\\\\\\\"\\\"b\\bf\\fn\\nr\\rt\\t\""
+      ]
+    },
+    "yywrap": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "strings": []
+    },
+    "json_line_begin": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "strings": []
+    },
+    "json_line_finish": {
+      "start_point": [
+        159,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    },
+    "json_line_grow": {
+      "start_point": [
+        170,
+        0
+      ],
+      "end_point": [
+        174,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/jsonfmt.c": {
+    "json_writez": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": []
+    },
+    "json_writec": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    },
+    "json_indent": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        43,
+        1
+      ],
+      "strings": []
+    },
+    "json_format_delim": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": []
+    },
+    "escape": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "strings": [
+        "\"\\\\\\\\\\\"\\\"b\\bf\\fn\\nr\\rt\\t\""
+      ]
+    },
+    "json_format_string": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "json_format_number": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": [
+        "\"%e\"",
+        "\"%.*f\""
+      ]
+    },
+    "collect_keypairs": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": []
+    },
+    "keypair_cmp_name": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": []
+    },
+    "json_format_obj": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": []
+    },
+    "json_format_array": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        175,
+        1
+      ],
+      "strings": []
+    },
+    "json_formatter": {
+      "start_point": [
+        177,
+        0
+      ],
+      "end_point": [
+        211,
+        1
+      ],
+      "strings": [
+        "\"null\"",
+        "\"null\"",
+        "\"true\"",
+        "\"false\""
+      ]
+    },
+    "json_format_value": {
+      "start_point": [
+        213,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/lineacc.c": {
+    "grecs_line_acc_create": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        28,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_line_acc_free": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        35,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_line_acc_grow_char": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_line_acc_grow_char_unescape": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_line_acc_grow": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_line_acc_grow_unescape_last": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": [
+        "\"unknown escape sequence: '\\\\%c'\""
+      ]
+    },
+    "grecs_line_begin": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_line_finish": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/list.c": {
+    "grecs_list_create": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        30,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_size": {
+      "start_point": [
+        32,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_insert_entry": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_remove_entry": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_append": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        94,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_add": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_push": {
+      "start_point": [
+        113,
+        0
+      ],
+      "end_point": [
+        119,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_pop": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_remove_tail": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_clear": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        162,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_free": {
+      "start_point": [
+        164,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": []
+    },
+    "_ptrcmp": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_locate": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        190,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_index": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        200,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_list_compare": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        225,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/lookup.c": {
+    "_grecs_list_eq": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    },
+    "_grecs_array_eq": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_value_eq": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    },
+    "_grecs_list_match": {
+      "start_point": [
+        84,
+        0
+      ],
+      "end_point": [
+        102,
+        1
+      ],
+      "strings": []
+    },
+    "_grecs_array_match": {
+      "start_point": [
+        104,
+        0
+      ],
+      "end_point": [
+        116,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_value_match": {
+      "start_point": [
+        118,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_buf_create": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_buf_get_args": {
+      "start_point": [
+        199,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_buf_get_node": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        211,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_buf_get_root": {
+      "start_point": [
+        213,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_buf_set_root": {
+      "start_point": [
+        219,
+        0
+      ],
+      "end_point": [
+        223,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_buf_free_contents": {
+      "start_point": [
+        225,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_buf_free": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        244,
+        1
+      ],
+      "strings": []
+    },
+    "parse_label": {
+      "start_point": [
+        247,
+        0
+      ],
+      "end_point": [
+        298,
+        1
+      ],
+      "strings": [
+        "\",\""
+      ]
+    },
+    "split_cfg_path": {
+      "start_point": [
+        300,
+        0
+      ],
+      "end_point": [
+        359,
+        1
+      ],
+      "strings": [
+        "\".\"",
+        "\"./:;,^~\""
+      ]
+    },
+    "grecs_node_exact_match": {
+      "start_point": [
+        362,
+        0
+      ],
+      "end_point": [
+        399,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_find_node": {
+      "start_point": [
+        401,
+        0
+      ],
+      "end_point": [
+        417,
+        1
+      ],
+      "strings": [
+        "\".\""
+      ]
+    },
+    "fixup_loci": {
+      "start_point": [
+        420,
+        0
+      ],
+      "end_point": [
+        434,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_node_from_path_locus": {
+      "start_point": [
+        436,
+        0
+      ],
+      "end_point": [
+        494,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_node_from_path": {
+      "start_point": [
+        496,
+        0
+      ],
+      "end_point": [
+        500,
+        1
+      ],
+      "strings": []
+    },
+    "is_root": {
+      "start_point": [
+        503,
+        0
+      ],
+      "end_point": [
+        507,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match": {
+      "start_point": [
+        509,
+        0
+      ],
+      "end_point": [
+        544,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_next": {
+      "start_point": [
+        546,
+        0
+      ],
+      "end_point": [
+        555,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_buf_first": {
+      "start_point": [
+        557,
+        0
+      ],
+      "end_point": [
+        572,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_match_first": {
+      "start_point": [
+        574,
+        0
+      ],
+      "end_point": [
+        599,
+        1
+      ],
+      "strings": [
+        "\".\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/mem.c": {
+    "def_malloc_fun": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        28,
+        1
+      ],
+      "strings": []
+    },
+    "def_realloc_fun": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        34,
+        1
+      ],
+      "strings": []
+    },
+    "def_free_fun": {
+      "start_point": [
+        36,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_free": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_malloc": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_zalloc": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_calloc": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_realloc": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_strdup": {
+      "start_point": [
+        85,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_alloc_die": {
+      "start_point": [
+        92,
+        0
+      ],
+      "end_point": [
+        99,
+        1
+      ],
+      "strings": [
+        "\"fatal error\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/meta1-gram.c": {
+    "grecs_meta1_tnamerr": {
+      "start_point": [
+        947,
+        0
+      ],
+      "end_point": [
+        984,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_syntax_error": {
+      "start_point": [
+        995,
+        0
+      ],
+      "end_point": [
+        1121,
+        1
+      ],
+      "strings": [
+        "\"syntax error\"",
+        "\"syntax error, unexpected %s\"",
+        "\"syntax error, unexpected %s, expecting %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s\"",
+        "\"syntax error, unexpected %s, expecting %s or %s or %s or %s\""
+      ]
+    },
+    "grecs_meta1_error": {
+      "start_point": [
+        1913,
+        0
+      ],
+      "end_point": [
+        1918,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "grecs_meta1_parser": {
+      "start_point": [
+        1920,
+        0
+      ],
+      "end_point": [
+        1946,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"Cannot open `%s'\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/meta1-gram.y": {
+    "block": {
+      "start_point": [
+        75,
+        10
+      ],
+      "end_point": [
+        78,
+        4
+      ],
+      "strings": []
+    },
+    "yyerror": {
+      "start_point": [
+        191,
+        0
+      ],
+      "end_point": [
+        196,
+        1
+      ],
+      "strings": [
+        "\"%s\""
+      ]
+    },
+    "grecs_meta1_parser": {
+      "start_point": [
+        198,
+        0
+      ],
+      "end_point": [
+        224,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"Cannot open `%s'\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/meta1-lex.c": {
+    "grecs_meta1__get_next_buffer": {
+      "start_point": [
+        1290,
+        0
+      ],
+      "end_point": [
+        1423,
+        1
+      ],
+      "strings": [
+        "\"fatal flex scanner internal error--end of buffer missed\"",
+        "\"fatal error - scanner input buffer overflow\"",
+        "\"out of dynamic memory in grecs_meta1__get_next_buffer()\""
+      ]
+    },
+    "grecs_meta1__get_previous_state": {
+      "start_point": [
+        1430,
+        4
+      ],
+      "end_point": [
+        1460,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__try_NUL_trans": {
+      "start_point": [
+        1468,
+        4
+      ],
+      "end_point": [
+        1493,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_restart": {
+      "start_point": [
+        1587,
+        4
+      ],
+      "end_point": [
+        1601,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__switch_to_buffer": {
+      "start_point": [
+        1608,
+        4
+      ],
+      "end_point": [
+        1640,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__load_buffer_state": {
+      "start_point": [
+        1643,
+        0
+      ],
+      "end_point": [
+        1652,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__create_buffer": {
+      "start_point": [
+        1661,
+        4
+      ],
+      "end_point": [
+        1686,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_meta1__create_buffer()\"",
+        "\"out of dynamic memory in grecs_meta1__create_buffer()\""
+      ]
+    },
+    "grecs_meta1__delete_buffer": {
+      "start_point": [
+        1693,
+        4
+      ],
+      "end_point": [
+        1709,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__init_buffer": {
+      "start_point": [
+        1727,
+        4
+      ],
+      "end_point": [
+        1757,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__flush_buffer": {
+      "start_point": [
+        1764,
+        4
+      ],
+      "end_point": [
+        1788,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_push_buffer_state": {
+      "start_point": [
+        1798,
+        0
+      ],
+      "end_point": [
+        1825,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_pop_buffer_state": {
+      "start_point": [
+        1834,
+        0
+      ],
+      "end_point": [
+        1851,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_ensure_buffer_stack": {
+      "start_point": [
+        1859,
+        0
+      ],
+      "end_point": [
+        1903,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_meta1_ensure_buffer_stack()\"",
+        "\"out of dynamic memory in grecs_meta1_ensure_buffer_stack()\""
+      ]
+    },
+    "grecs_meta1__scan_buffer": {
+      "start_point": [
+        1913,
+        0
+      ],
+      "end_point": [
+        1940,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_meta1__scan_buffer()\""
+      ]
+    },
+    "grecs_meta1__scan_string": {
+      "start_point": [
+        1952,
+        0
+      ],
+      "end_point": [
+        1956,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__scan_bytes": {
+      "start_point": [
+        1967,
+        0
+      ],
+      "end_point": [
+        1995,
+        1
+      ],
+      "strings": [
+        "\"out of dynamic memory in grecs_meta1__scan_bytes()\"",
+        "\"bad buffer in grecs_meta1__scan_bytes()\""
+      ]
+    },
+    "grecs_meta1__fatal_error": {
+      "start_point": [
+        2003,
+        0
+      ],
+      "end_point": [
+        2007,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "grecs_meta1_get_lineno": {
+      "start_point": [
+        2038,
+        0
+      ],
+      "end_point": [
+        2042,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_get_in": {
+      "start_point": [
+        2047,
+        0
+      ],
+      "end_point": [
+        2050,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_get_out": {
+      "start_point": [
+        2055,
+        0
+      ],
+      "end_point": [
+        2058,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_get_leng": {
+      "start_point": [
+        2063,
+        0
+      ],
+      "end_point": [
+        2066,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_get_text": {
+      "start_point": [
+        2072,
+        0
+      ],
+      "end_point": [
+        2075,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_set_lineno": {
+      "start_point": [
+        2084,
+        0
+      ],
+      "end_point": [
+        2088,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_set_in": {
+      "start_point": [
+        2096,
+        0
+      ],
+      "end_point": [
+        2099,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_set_out": {
+      "start_point": [
+        2101,
+        0
+      ],
+      "end_point": [
+        2104,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_get_debug": {
+      "start_point": [
+        2106,
+        0
+      ],
+      "end_point": [
+        2109,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_set_debug": {
+      "start_point": [
+        2111,
+        0
+      ],
+      "end_point": [
+        2114,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__init_globals": {
+      "start_point": [
+        2124,
+        0
+      ],
+      "end_point": [
+        2150,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_lex_destroy": {
+      "start_point": [
+        2155,
+        0
+      ],
+      "end_point": [
+        2176,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__flex_strncpy": {
+      "start_point": [
+        2184,
+        0
+      ],
+      "end_point": [
+        2189,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1__flex_strlen": {
+      "start_point": [
+        2193,
+        0
+      ],
+      "end_point": [
+        2200,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_alloc": {
+      "start_point": [
+        2203,
+        0
+      ],
+      "end_point": [
+        2206,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_realloc": {
+      "start_point": [
+        2208,
+        0
+      ],
+      "end_point": [
+        2218,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_free": {
+      "start_point": [
+        2220,
+        0
+      ],
+      "end_point": [
+        2223,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_meta1_wrap": {
+      "start_point": [
+        2236,
+        0
+      ],
+      "end_point": [
+        2240,
+        1
+      ],
+      "strings": []
+    },
+    "meta1_line_add_unescape_hex": {
+      "start_point": [
+        2242,
+        0
+      ],
+      "end_point": [
+        2249,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/meta1-lex.l": {
+    "noinput": {
+      "start_point": [
+        1,
+        1
+      ],
+      "end_point": [
+        29,
+        1
+      ],
+      "strings": [
+        "\"grecs.h\"",
+        "\"meta1-gram.h\""
+      ]
+    },
+    "yywrap": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": []
+    },
+    "meta1_line_add_unescape_hex": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/opthelp.c": {
+    "indent": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": []
+    },
+    "print_option_descr": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": [
+        "\"%*.*s\\n\""
+      ]
+    },
+    "optcmp": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": [
+        "\",\"",
+        "\",\""
+      ]
+    },
+    "sort_options": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    },
+    "sort_group": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    },
+    "sort_opthelp": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_print_help": {
+      "start_point": [
+        113,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": [
+        "\"%s %s \"",
+        "\"Usage:\"",
+        "\"%s \"",
+        "\"[%s]... %s\\n\"",
+        "\"OPTION\"",
+        "\"\"",
+        "\"%s: \"",
+        "\"Aliases\"",
+        "\"Alias\"",
+        "\"%s%c\"",
+        "\"  %s\"",
+        "\"[\"",
+        "\"]\"",
+        "\"\"",
+        "\"%s%s%s\"",
+        "\"Mandatory or optional arguments to \"",
+        "\"long options are also mandatory or \"",
+        "\"optional for any corresponding short \"",
+        "\"options.\"",
+        "\"Report bugs to %s.\\n\"",
+        "\"%s home page: <%s>\\n\"",
+        "\"%s\""
+      ]
+    },
+    "cmpidx_short": {
+      "start_point": [
+        209,
+        0
+      ],
+      "end_point": [
+        216,
+        1
+      ],
+      "strings": []
+    },
+    "cmpidx_long": {
+      "start_point": [
+        219,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "strings": [
+        "\",\"",
+        "\",\""
+      ]
+    },
+    "grecs_print_usage": {
+      "start_point": [
+        242,
+        0
+      ],
+      "end_point": [
+        435,
+        1
+      ],
+      "strings": [
+        "\"%s %s \"",
+        "\"Usage:\"",
+        "\"%s \"",
+        "\"%s: %s\"",
+        "\"Aliases\"",
+        "\"Alias\"",
+        "\" %s\""
+      ]
+    },
+    "grecs_print_version_only": {
+      "start_point": [
+        443,
+        0
+      ],
+      "end_point": [
+        462,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\" (%s)\"",
+        "\" %s\"",
+        "\"(C)\"",
+        "\"2012\"",
+        "\"Free Software Foundation, inc.\""
+      ]
+    },
+    "grecs_print_version": {
+      "start_point": [
+        470,
+        0
+      ],
+      "end_point": [
+        523,
+        1
+      ],
+      "strings": [
+        "\"Written by \"",
+        "\", \"",
+        "\" and \""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/parser.c": {
+    "grecs_gram_trace": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_lex_trace": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_parse": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": [
+        "\"GRECS_DEBUG\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/parsertab.c": {
+    "grecs_enumerate_parsers": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_get_parser_by_type": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/path-parser.c": {
+    "next_char": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_path_parser": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"cannot open `%s'\"",
+        "\"unexpected end of file\"",
+        "\"unexpected end of file\"",
+        "\"parse error\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/preproc.c": {
+    "grecs_getline": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": []
+    },
+    "putback": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "pp_line_stmt": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": [
+        "\"#line %lu \\\"%s\\\" %lu\\n\""
+      ]
+    },
+    "next_line": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_preproc_fill_buffer": {
+      "start_point": [
+        175,
+        0
+      ],
+      "end_point": [
+        222,
+        1
+      ],
+      "strings": [
+        "\"include_once\"",
+        "\"/*include_once*/\\n\"",
+        "\"include\"",
+        "\"/*include*/\\n\"",
+        "\"line\""
+      ]
+    },
+    "ctx_lookup": {
+      "start_point": [
+        227,
+        0
+      ],
+      "end_point": [
+        239,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_include_path_count": {
+      "start_point": [
+        245,
+        0
+      ],
+      "end_point": [
+        254,
+        1
+      ],
+      "strings": []
+    },
+    "foreach_dir": {
+      "start_point": [
+        256,
+        0
+      ],
+      "end_point": [
+        266,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_foreach_include_dir": {
+      "start_point": [
+        268,
+        0
+      ],
+      "end_point": [
+        279,
+        1
+      ],
+      "strings": []
+    },
+    "pp_list_find": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        310,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    },
+    "incl_free": {
+      "start_point": [
+        312,
+        0
+      ],
+      "end_point": [
+        316,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_include_path_clear": {
+      "start_point": [
+        318,
+        0
+      ],
+      "end_point": [
+        325,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_include_path_setup_v": {
+      "start_point": [
+        327,
+        0
+      ],
+      "end_point": [
+        343,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_include_path_setup": {
+      "start_point": [
+        345,
+        0
+      ],
+      "end_point": [
+        372,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_preproc_add_include_dir": {
+      "start_point": [
+        374,
+        0
+      ],
+      "end_point": [
+        382,
+        1
+      ],
+      "strings": []
+    },
+    "incl_hasher": {
+      "start_point": [
+        387,
+        0
+      ],
+      "end_point": [
+        392,
+        1
+      ],
+      "strings": []
+    },
+    "incl_compare": {
+      "start_point": [
+        395,
+        0
+      ],
+      "end_point": [
+        401,
+        1
+      ],
+      "strings": []
+    },
+    "incl_copy": {
+      "start_point": [
+        403,
+        0
+      ],
+      "end_point": [
+        408,
+        1
+      ],
+      "strings": []
+    },
+    "source_lookup": {
+      "start_point": [
+        410,
+        0
+      ],
+      "end_point": [
+        433,
+        1
+      ],
+      "strings": []
+    },
+    "push_source": {
+      "start_point": [
+        436,
+        0
+      ],
+      "end_point": [
+        504,
+        1
+      ],
+      "strings": [
+        "\"Cannot stat `%s'\"",
+        "\"Recursive inclusion\"",
+        "\"Recursive inclusion\"",
+        "\"`%s' already included here\"",
+        "\"`%s' already included at top level\"",
+        "\"Cannot stat `%s'\"",
+        "\"r\"",
+        "\"Cannot open `%s'\"",
+        "\"Processing file `%s'\\n\""
+      ]
+    },
+    "pop_source": {
+      "start_point": [
+        506,
+        0
+      ],
+      "end_point": [
+        544,
+        1
+      ],
+      "strings": [
+        "\"End of input\\n\"",
+        "\"Resuming file `%s' at line %lu\\n\""
+      ]
+    },
+    "grecs_find_include_file": {
+      "start_point": [
+        546,
+        0
+      ],
+      "end_point": [
+        573,
+        1
+      ],
+      "strings": [
+        "\".\""
+      ]
+    },
+    "isglob": {
+      "start_point": [
+        575,
+        0
+      ],
+      "end_point": [
+        583,
+        1
+      ],
+      "strings": [
+        "\"*?[\""
+      ]
+    },
+    "parse_include": {
+      "start_point": [
+        585,
+        0
+      ],
+      "end_point": [
+        644,
+        1
+      ],
+      "strings": [
+        "\"Cannot parse include line\"",
+        "\"invalid include statement\"",
+        "\"read error\"",
+        "\"%s: No such file or directory\""
+      ]
+    },
+    "grecs_preproc_init": {
+      "start_point": [
+        646,
+        0
+      ],
+      "end_point": [
+        650,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_preproc_done": {
+      "start_point": [
+        652,
+        0
+      ],
+      "end_point": [
+        669,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_preproc_run": {
+      "start_point": [
+        671,
+        0
+      ],
+      "end_point": [
+        713,
+        1
+      ],
+      "strings": [
+        "\"pp-setup\"",
+        "\"%s %s -\"",
+        "\"w\"",
+        "\"Unable to start external preprocessor `%s'\""
+      ]
+    },
+    "grecs_preproc_extrn_start": {
+      "start_point": [
+        715,
+        0
+      ],
+      "end_point": [
+        803,
+        1
+      ],
+      "strings": [
+        "\"pipe\"",
+        "\"dup2\"",
+        "\"pipe\"",
+        "\"dup2\"",
+        "\"Cannot run `%s'\"",
+        "\"r\"",
+        "\"%s\"",
+        "\"Cannot run `%s'\"",
+        "\"r\""
+      ]
+    },
+    "grecs_preproc_extrn_shutdown": {
+      "start_point": [
+        805,
+        0
+      ],
+      "end_point": [
+        810,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/sockaddr.c": {
+    "grecs_sockaddr_new": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_sockaddr_free": {
+      "start_point": [
+        43,
+        0
+      ],
+      "end_point": [
+        52,
+        1
+      ],
+      "strings": []
+    },
+    "parse_unix": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": [
+        "\"socket path name too long: %s\""
+      ]
+    },
+    "parse_inet": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": [
+        "\"%s: garbage near %s\"",
+        "\"%hu\"",
+        "\"service not specified: %s\"",
+        "\"%s: cannot parse address: %s\"",
+        "\"%s:%d: internal error converting %s\"",
+        "\"%s: %s\""
+      ]
+    },
+    "parse_inet4": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        212,
+        1
+      ],
+      "strings": []
+    },
+    "parse_inet6": {
+      "start_point": [
+        214,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_str_to_sockaddr": {
+      "start_point": [
+        238,
+        0
+      ],
+      "end_point": [
+        280,
+        1
+      ],
+      "strings": [
+        "\"unknown or unsupported scheme: %s\"",
+        "\"unix:\"",
+        "\"%s: UNIX socket must be an absolute file name\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/sort.c": {
+    "node_list_init": {
+      "start_point": [
+        26,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": []
+    },
+    "node_list_add": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "node_list_join": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": []
+    },
+    "_qsort_nodelist": {
+      "start_point": [
+        63,
+        0
+      ],
+      "end_point": [
+        109,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_nodelist_sort": {
+      "start_point": [
+        111,
+        0
+      ],
+      "end_point": [
+        120,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_tree_sort": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/symtab.c": {
+    "syment_free": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": []
+    },
+    "syment_alloc": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_hash_string": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_hash_string_ci": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "def_hash": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": []
+    },
+    "def_cmp": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        114,
+        1
+      ],
+      "strings": []
+    },
+    "def_copy": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    },
+    "def_free_fun": {
+      "start_point": [
+        126,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    },
+    "symtab_insert_pos": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        150,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_replace": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        169,
+        1
+      ],
+      "strings": []
+    },
+    "symtab_rehash": {
+      "start_point": [
+        171,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_strerror": {
+      "start_point": [
+        200,
+        0
+      ],
+      "end_point": [
+        212,
+        1
+      ],
+      "strings": [
+        "\"element not found in table\"",
+        "\"symbol table is full\""
+      ]
+    },
+    "grecs_symtab_remove": {
+      "start_point": [
+        214,
+        0
+      ],
+      "end_point": [
+        251,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_get_index": {
+      "start_point": [
+        253,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_lookup_or_install": {
+      "start_point": [
+        301,
+        0
+      ],
+      "end_point": [
+        321,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_clear": {
+      "start_point": [
+        323,
+        0
+      ],
+      "end_point": [
+        339,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_create": {
+      "start_point": [
+        341,
+        0
+      ],
+      "end_point": [
+        369,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_create_default": {
+      "start_point": [
+        371,
+        0
+      ],
+      "end_point": [
+        376,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_free": {
+      "start_point": [
+        378,
+        0
+      ],
+      "end_point": [
+        386,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_count_entries": {
+      "start_point": [
+        388,
+        0
+      ],
+      "end_point": [
+        398,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_symtab_enumerate": {
+      "start_point": [
+        400,
+        0
+      ],
+      "end_point": [
+        417,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/text.c": {
+    "grecs_install_text": {
+      "start_point": [
+        25,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_destroy_text": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_text_table": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/tree.c": {
+    "grecs_value_free_content": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        55,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_value_free": {
+      "start_point": [
+        57,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_node_create": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        72,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_node_create_points": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_node_bind": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        117,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_node_unlink": {
+      "start_point": [
+        119,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": []
+    },
+    "listel_dispose": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        138,
+        1
+      ],
+      "strings": []
+    },
+    "_grecs_simple_list_create": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "_tree_recurse": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        192,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_tree_recurse": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        206,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_node_free": {
+      "start_point": [
+        208,
+        0
+      ],
+      "end_point": [
+        222,
+        1
+      ],
+      "strings": []
+    },
+    "freeproc": {
+      "start_point": [
+        224,
+        0
+      ],
+      "end_point": [
+        238,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_tree_free": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        251,
+        1
+      ],
+      "strings": []
+    },
+    "find_keyword": {
+      "start_point": [
+        287,
+        0
+      ],
+      "end_point": [
+        300,
+        1
+      ],
+      "strings": []
+    },
+    "target_ptr": {
+      "start_point": [
+        302,
+        0
+      ],
+      "end_point": [
+        311,
+        1
+      ],
+      "strings": []
+    },
+    "string_to_bool": {
+      "start_point": [
+        313,
+        0
+      ],
+      "end_point": [
+        333,
+        1
+      ],
+      "strings": [
+        "\"yes\"",
+        "\"true\"",
+        "\"t\"",
+        "\"1\"",
+        "\"no\"",
+        "\"false\"",
+        "\"nil\"",
+        "\"0\"",
+        "\"%s: not a valid boolean value\""
+      ]
+    },
+    "string_to_host": {
+      "start_point": [
+        335,
+        0
+      ],
+      "end_point": [
+        348,
+        1
+      ],
+      "strings": []
+    },
+    "string_to_sockaddr": {
+      "start_point": [
+        351,
+        0
+      ],
+      "end_point": [
+        428,
+        1
+      ],
+      "strings": [
+        "\"%s: UNIX socket name too long\"",
+        "\"%s: not a valid IP address or hostname\"",
+        "\"tcp\"",
+        "\"%s: not a valid port number\"",
+        "\"missing port number\""
+      ]
+    },
+    "grecs_string_convert": {
+      "start_point": [
+        546,
+        0
+      ],
+      "end_point": [
+        637,
+        1
+      ],
+      "strings": [
+        "\"%s: not a valid IP address\"",
+        "\"%s: not a valid IP address or hostname\"",
+        "\"invalid use of block statement\""
+      ]
+    },
+    "string_cmp": {
+      "start_point": [
+        645,
+        0
+      ],
+      "end_point": [
+        649,
+        1
+      ],
+      "strings": []
+    },
+    "cidr_cmp": {
+      "start_point": [
+        670,
+        0
+      ],
+      "end_point": [
+        678,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_process_ident": {
+      "start_point": [
+        707,
+        0
+      ],
+      "end_point": [
+        835,
+        1
+      ],
+      "strings": [
+        "\"%s has no value\"",
+        "\"too many arguments to `%s'; missing semicolon?\"",
+        "\"INTERNAL ERROR at %s:%d: \"",
+        "\"unhandled data type %d\"",
+        "\"%s: incompatible data type in list item #%d\"",
+        "\"incompatible data type for `%s'\"",
+        "\"INTERNAL ERROR at %s:%d: unhandled data type %d\""
+      ]
+    },
+    "stmt_begin": {
+      "start_point": [
+        846,
+        0
+      ],
+      "end_point": [
+        875,
+        1
+      ],
+      "strings": []
+    },
+    "stmt_end": {
+      "start_point": [
+        877,
+        0
+      ],
+      "end_point": [
+        907,
+        1
+      ],
+      "strings": []
+    },
+    "nodeproc": {
+      "start_point": [
+        909,
+        0
+      ],
+      "end_point": [
+        940,
+        1
+      ],
+      "strings": [
+        "\"Unknown keyword\"",
+        "\"Unknown keyword\""
+      ]
+    },
+    "grecs_tree_process": {
+      "start_point": [
+        942,
+        0
+      ],
+      "end_point": [
+        958,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_node_eq": {
+      "start_point": [
+        961,
+        0
+      ],
+      "end_point": [
+        974,
+        1
+      ],
+      "strings": []
+    },
+    "free_value_entry": {
+      "start_point": [
+        976,
+        0
+      ],
+      "end_point": [
+        981,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_value_list_create": {
+      "start_point": [
+        983,
+        0
+      ],
+      "end_point": [
+        989,
+        1
+      ],
+      "strings": []
+    },
+    "value_to_list": {
+      "start_point": [
+        991,
+        0
+      ],
+      "end_point": [
+        1011,
+        1
+      ],
+      "strings": []
+    },
+    "value_to_array": {
+      "start_point": [
+        1013,
+        0
+      ],
+      "end_point": [
+        1026,
+        1
+      ],
+      "strings": []
+    },
+    "array_add": {
+      "start_point": [
+        1028,
+        0
+      ],
+      "end_point": [
+        1041,
+        1
+      ],
+      "strings": []
+    },
+    "node_aggregate_stmt": {
+      "start_point": [
+        1043,
+        0
+      ],
+      "end_point": [
+        1062,
+        1
+      ],
+      "strings": []
+    },
+    "node_merge_stmt": {
+      "start_point": [
+        1064,
+        0
+      ],
+      "end_point": [
+        1077,
+        1
+      ],
+      "strings": []
+    },
+    "node_merge_block": {
+      "start_point": [
+        1079,
+        0
+      ],
+      "end_point": [
+        1095,
+        1
+      ],
+      "strings": []
+    },
+    "node_reduce": {
+      "start_point": [
+        1097,
+        0
+      ],
+      "end_point": [
+        1121,
+        1
+      ],
+      "strings": []
+    },
+    "reduceproc": {
+      "start_point": [
+        1123,
+        0
+      ],
+      "end_point": [
+        1155,
+        1
+      ],
+      "strings": [
+        "\"%s: unknown keyword\""
+      ]
+    },
+    "grecs_tree_reduce": {
+      "start_point": [
+        1157,
+        0
+      ],
+      "end_point": [
+        1178,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_tree_first_node": {
+      "start_point": [
+        1181,
+        0
+      ],
+      "end_point": [
+        1187,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_next_node": {
+      "start_point": [
+        1189,
+        0
+      ],
+      "end_point": [
+        1202,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/txtacc.c": {
+    "grecs_txtacc_alloc_entry": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_cur_entry": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_entry_append": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        70,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_entry_tailor": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        82,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_entry_free": {
+      "start_point": [
+        84,
+        0
+      ],
+      "end_point": [
+        92,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_create": {
+      "start_point": [
+        94,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_free": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_grow": {
+      "start_point": [
+        115,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_grow_string": {
+      "start_point": [
+        129,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_grow_string_escape": {
+      "start_point": [
+        135,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "strings": [
+        "\" \\t\\n\\\"\\'\\\\\""
+      ]
+    },
+    "grecs_txtacc_finish": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_free_string": {
+      "start_point": [
+        187,
+        0
+      ],
+      "end_point": [
+        199,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_txtacc_clear": {
+      "start_point": [
+        201,
+        0
+      ],
+      "end_point": [
+        205,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/version.c": {
+    "grecs_version_split": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": [
+        "\" \\t\""
+      ]
+    },
+    "grecs_version_info_free": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        76,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_version": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        120,
+        1
+      ],
+      "strings": [
+        "\"%d.%d.%d%s\"",
+        "\"%d.%d.%d\"",
+        "\"%d.%d%s\"",
+        "\"%d.%d\""
+      ]
+    },
+    "grecs_version_info_cmp": {
+      "start_point": [
+        122,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_version_cmp": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": []
+    },
+    "grecs_version_ok": {
+      "start_point": [
+        170,
+        0
+      ],
+      "end_point": [
+        188,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/src/wordsplit.c": {
+    "_wsplt_alloc_die": {
+      "start_point": [
+        58,
+        0
+      ],
+      "end_point": [
+        63,
+        1
+      ],
+      "strings": [
+        "\"memory exhausted\""
+      ]
+    },
+    "_wsplt_error": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "_wsplt_seterr": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    },
+    "_wsplt_nomem": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": []
+    },
+    "_wsplt_subsplit": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        142,
+        1
+      ],
+      "strings": []
+    },
+    "_wsplt_seterr_sub": {
+      "start_point": [
+        144,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_init0": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        176,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_init": {
+      "start_point": [
+        180,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": [
+        "\" \\t\\n\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\\\\\\\\\\\"\\\"\""
+      ]
+    },
+    "alloc_space": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        299,
+        1
+      ],
+      "strings": []
+    },
+    "the": {
+      "start_point": [
+        313,
+        7
+      ],
+      "end_point": [
+        329,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_flagstr": {
+      "start_point": [
+        331,
+        0
+      ],
+      "end_point": [
+        365,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_ptr": {
+      "start_point": [
+        367,
+        0
+      ],
+      "end_point": [
+        376,
+        1
+      ],
+      "strings": [
+        "\"\""
+      ]
+    },
+    "wsnode_len": {
+      "start_point": [
+        378,
+        0
+      ],
+      "end_point": [
+        387,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_new": {
+      "start_point": [
+        389,
+        0
+      ],
+      "end_point": [
+        397,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_free": {
+      "start_point": [
+        399,
+        0
+      ],
+      "end_point": [
+        405,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_append": {
+      "start_point": [
+        407,
+        0
+      ],
+      "end_point": [
+        417,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_remove": {
+      "start_point": [
+        419,
+        0
+      ],
+      "end_point": [
+        441,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_insert": {
+      "start_point": [
+        443,
+        0
+      ],
+      "end_point": [
+        477,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_add_segm": {
+      "start_point": [
+        479,
+        0
+      ],
+      "end_point": [
+        495,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_free_nodes": {
+      "start_point": [
+        497,
+        0
+      ],
+      "end_point": [
+        509,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_dump_nodes": {
+      "start_point": [
+        511,
+        0
+      ],
+      "end_point": [
+        530,
+        1
+      ],
+      "strings": [
+        "\"(%02d) %4d: %p: %#04x (%s):%s;\"",
+        "\"(%02d) %4d: %p: %#04x (%s):%.*s;\""
+      ]
+    },
+    "coalesce_segment": {
+      "start_point": [
+        532,
+        0
+      ],
+      "end_point": [
+        582,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_quoteremoval": {
+      "start_point": [
+        588,
+        0
+      ],
+      "end_point": [
+        624,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_coalesce": {
+      "start_point": [
+        626,
+        0
+      ],
+      "end_point": [
+        638,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_finish": {
+      "start_point": [
+        640,
+        0
+      ],
+      "end_point": [
+        674,
+        1
+      ],
+      "strings": []
+    },
+    "node_split_prefix": {
+      "start_point": [
+        678,
+        0
+      ],
+      "end_point": [
+        710,
+        1
+      ],
+      "strings": []
+    },
+    "find_closing_paren": {
+      "start_point": [
+        712,
+        0
+      ],
+      "end_point": [
+        767,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_find_env": {
+      "start_point": [
+        769,
+        0
+      ],
+      "end_point": [
+        814,
+        1
+      ],
+      "strings": []
+    },
+    "wsplt_assign_var": {
+      "start_point": [
+        816,
+        0
+      ],
+      "end_point": [
+        918,
+        1
+      ],
+      "strings": []
+    },
+    "expvar": {
+      "start_point": [
+        920,
+        0
+      ],
+      "end_point": [
+        1203,
+        1
+      ],
+      "strings": [
+        "\"{}\"",
+        "\"-+?=\"",
+        "\"{}\"",
+        "\"-+?=\"",
+        "\"%.*s: variable null or not set\"",
+        "\"%.*s: %s\"",
+        "\"%.*s: %.*s\"",
+        "\"warning: undefined variable `%.*s'\"",
+        "\"\""
+      ]
+    },
+    "begin_var_p": {
+      "start_point": [
+        1205,
+        0
+      ],
+      "end_point": [
+        1209,
+        1
+      ],
+      "strings": []
+    },
+    "node_expand": {
+      "start_point": [
+        1211,
+        0
+      ],
+      "end_point": [
+        1264,
+        1
+      ],
+      "strings": []
+    },
+    "wsnode_nullelim": {
+      "start_point": [
+        1267,
+        0
+      ],
+      "end_point": [
+        1284,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_varexp": {
+      "start_point": [
+        1286,
+        0
+      ],
+      "end_point": [
+        1302,
+        1
+      ],
+      "strings": []
+    },
+    "begin_cmd_p": {
+      "start_point": [
+        1304,
+        0
+      ],
+      "end_point": [
+        1308,
+        1
+      ],
+      "strings": []
+    },
+    "expcmd": {
+      "start_point": [
+        1310,
+        0
+      ],
+      "end_point": [
+        1423,
+        1
+      ],
+      "strings": [
+        "\"()\""
+      ]
+    },
+    "wordsplit_cmdexp": {
+      "start_point": [
+        1425,
+        0
+      ],
+      "end_point": [
+        1441,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_trimws": {
+      "start_point": [
+        1446,
+        0
+      ],
+      "end_point": [
+        1480,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_tildexpand": {
+      "start_point": [
+        1482,
+        0
+      ],
+      "end_point": [
+        1553,
+        1
+      ],
+      "strings": []
+    },
+    "isglob": {
+      "start_point": [
+        1555,
+        0
+      ],
+      "end_point": [
+        1564,
+        1
+      ],
+      "strings": [
+        "\"*?[\""
+      ]
+    },
+    "wordsplit_pathexpand": {
+      "start_point": [
+        1566,
+        0
+      ],
+      "end_point": [
+        1669,
+        1
+      ],
+      "strings": [
+        "\"no files match pattern %s\""
+      ]
+    },
+    "skip_sed_expr": {
+      "start_point": [
+        1671,
+        0
+      ],
+      "end_point": [
+        1702,
+        1
+      ],
+      "strings": []
+    },
+    "skip_delim": {
+      "start_point": [
+        1704,
+        0
+      ],
+      "end_point": [
+        1731,
+        1
+      ],
+      "strings": []
+    },
+    "scan_qstring": {
+      "start_point": [
+        1737,
+        0
+      ],
+      "end_point": [
+        1764,
+        1
+      ],
+      "strings": []
+    },
+    "scan_word": {
+      "start_point": [
+        1766,
+        0
+      ],
+      "end_point": [
+        1864,
+        1
+      ],
+      "strings": [
+        "\"{}\"",
+        "\"()\""
+      ]
+    },
+    "xtonum": {
+      "start_point": [
+        1869,
+        0
+      ],
+      "end_point": [
+        1883,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_c_quoted_length": {
+      "start_point": [
+        1885,
+        0
+      ],
+      "end_point": [
+        1913,
+        1
+      ],
+      "strings": [
+        "\" \\\"\""
+      ]
+    },
+    "wsplt_unquote_char": {
+      "start_point": [
+        1915,
+        0
+      ],
+      "end_point": [
+        1925,
+        1
+      ],
+      "strings": []
+    },
+    "wsplt_quote_char": {
+      "start_point": [
+        1927,
+        0
+      ],
+      "end_point": [
+        1936,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_c_unquote_char": {
+      "start_point": [
+        1938,
+        0
+      ],
+      "end_point": [
+        1942,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_c_quote_char": {
+      "start_point": [
+        1944,
+        0
+      ],
+      "end_point": [
+        1948,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_string_unquote_copy": {
+      "start_point": [
+        1950,
+        0
+      ],
+      "end_point": [
+        2026,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_c_quote_copy": {
+      "start_point": [
+        2028,
+        0
+      ],
+      "end_point": [
+        2065,
+        1
+      ],
+      "strings": [
+        "\"%%%02X\"",
+        "\"%03o\""
+      ]
+    },
+    "wordsplit_process_list": {
+      "start_point": [
+        2093,
+        0
+      ],
+      "end_point": [
+        2152,
+        1
+      ],
+      "strings": [
+        "\"(%02d) %s\"",
+        "\"Initial list:\"",
+        "\"(%02d) %s\"",
+        "\"Coalesced list:\"",
+        "\"(%02d) %s\""
+      ]
+    },
+    "wordsplit_run": {
+      "start_point": [
+        2154,
+        0
+      ],
+      "end_point": [
+        2217,
+        1
+      ],
+      "strings": [
+        "\"(%02d) Input:%.*s;\"",
+        "\"(%02d) Restart:%.*s;\""
+      ]
+    },
+    "wordsplit_len": {
+      "start_point": [
+        2219,
+        0
+      ],
+      "end_point": [
+        2224,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit": {
+      "start_point": [
+        2226,
+        0
+      ],
+      "end_point": [
+        2230,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_free_words": {
+      "start_point": [
+        2232,
+        0
+      ],
+      "end_point": [
+        2247,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_free_envbuf": {
+      "start_point": [
+        2249,
+        0
+      ],
+      "end_point": [
+        2264,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_clearerr": {
+      "start_point": [
+        2266,
+        0
+      ],
+      "end_point": [
+        2273,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_free": {
+      "start_point": [
+        2275,
+        0
+      ],
+      "end_point": [
+        2282,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_getwords": {
+      "start_point": [
+        2284,
+        0
+      ],
+      "end_point": [
+        2294,
+        1
+      ],
+      "strings": []
+    },
+    "wordsplit_strerror": {
+      "start_point": [
+        2310,
+        0
+      ],
+      "end_point": [
+        2318,
+        1
+      ],
+      "strings": [
+        "\"unknown error\""
+      ]
+    },
+    "wordsplit_perror": {
+      "start_point": [
+        2320,
+        0
+      ],
+      "end_point": [
+        2334,
+        1
+      ],
+      "strings": [
+        "\"missing closing %c (start near #%lu)\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/tests/distck.c": {
+    "main": {
+      "start_point": [
+        3,
+        0
+      ],
+      "end_point": [
+        17,
+        1
+      ],
+      "strings": [
+        "\"grecs.h does not match package number\\n\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/tests/gcfenum.c": {
+    "usage": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": [
+        "\"usage: %s [-h] [-locus] [-delim=char] [-reduce] file\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": [
+        "\"-locus\"",
+        "\"-delim=\"",
+        "\"-reduce\"",
+        "\"-h\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/tests/gcffmt.c": {
+    "list_parser_types": {
+      "start_point": [
+        29,
+        0
+      ],
+      "end_point": [
+        36,
+        1
+      ],
+      "strings": [
+        "\"%c%s\""
+      ]
+    },
+    "usage": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": [
+        "\"usage: %s [-h] [-list[=type]] [-locus] [-delim=char] [-reduce] [-sort]\\n\"",
+        "\"    [-nopath] [-novalue] [-type\"",
+        "\"] [-Idir] [-include=dir] file [file...]\\n\""
+      ]
+    },
+    "node_ident_cmp": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    },
+    "list_parser": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "find_parser": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "set_parser": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        87,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": [
+        "\"-locus\"",
+        "\"-nopath\"",
+        "\"-novalue\"",
+        "\"-delim=\"",
+        "\"-reduce\"",
+        "\"-sort\"",
+        "\"-h\"",
+        "\"-list\"",
+        "\"-list=\"",
+        "\"-type=\"",
+        "\"-I\"",
+        "\"-include=\"",
+        "\"-x\"",
+        "\"-X\"",
+        "\"%s: requested type not supported\"",
+        "\"join failed\\n\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/tests/gcfpeek.c": {
+    "usage": {
+      "start_point": [
+        24,
+        0
+      ],
+      "end_point": [
+        31,
+        1
+      ],
+      "strings": [
+        "\"usage: %s [-h] [-locus] [-delim=char] [-nodesc] [-nopath] [-reduce] [-match] [-root=path] file path\\n\""
+      ]
+    },
+    "set_parser": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        42,
+        1
+      ],
+      "strings": []
+    },
+    "main": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "strings": [
+        "\"-locus\"",
+        "\"-delim=\"",
+        "\"-reduce\"",
+        "\"-match\"",
+        "\"-nodesc\"",
+        "\"-nopath\"",
+        "\"-type=\"",
+        "\"-root=\"",
+        "\"-h\"",
+        "\"%s: node %s not found\\n\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/tests/gcfset.c": {
+    "cb_logging_facility": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": [
+        "\"Unexpected block statement\"",
+        "\"expected string argument\""
+      ]
+    },
+    "cb_program": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": [
+        "\"tag must be a string\"",
+        "\"invalid use of block statement\""
+      ]
+    },
+    "print_logging_setup": {
+      "start_point": [
+        172,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": [
+        "\"logging: %d/%s/%s/%d\\n\""
+      ]
+    },
+    "print_program": {
+      "start_point": [
+        179,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "strings": [
+        "\"Program %s:\\n\"",
+        "\"scalar = %s\\n\""
+      ]
+    },
+    "node_ident_cmp": {
+      "start_point": [
+        187,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "strings": []
+    },
+    "usage": {
+      "start_point": [
+        193,
+        0
+      ],
+      "end_point": [
+        198,
+        1
+      ],
+      "strings": [
+        "\"usage: %s [-h] [-cfhelp] [-reduce] [-sort] [-print] [-locus] [-noset] file\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        200,
+        0
+      ],
+      "end_point": [
+        289,
+        1
+      ],
+      "strings": [
+        "\"-cfhelp\"",
+        "\"-h\"",
+        "\"-reduce\"",
+        "\"-print\"",
+        "\"-locus\"",
+        "\"-delim=\"",
+        "\"-sort\"",
+        "\"-noset\"",
+        "\"Sample configuration file structure.\\n\"",
+        "\"Global settings:\\n\"",
+        "\"scalar = %s\\n\"",
+        "\"listvar =\"",
+        "\" \\\"%s\\\"\"",
+        "\"Programs configured: %lu\\n\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/tests/gcfver.c": {
+    "main": {
+      "start_point": [
+        22,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": [
+        "\"usage: %s [version [version]]\\n\"",
+        "\"package: %s\\n\"",
+        "\"version: %s\\n\"",
+        "\"major: %d\\n\"",
+        "\"minor: %d\\n\"",
+        "\"patch: %d\\n\"",
+        "\"suffix:\"",
+        "\" %s\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/tests/json.c": {
+    "printer": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        33,
+        1
+      ],
+      "strings": []
+    },
+    "usage": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "strings": [
+        "\"usage: %s [-file=FILE][-indent=N][-precision=N] [expr]\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        130,
+        1
+      ],
+      "strings": [
+        "\"-file=\"",
+        "\"-indent=\"",
+        "\"-search=\"",
+        "\"-precision=\"",
+        "\"fstat\"",
+        "\"read\"",
+        "\"%s: short read from %s\\n\"",
+        "\"input\"",
+        "\"%s\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/grecs/tests/wsp.c": {
+    "kwxlat": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": []
+    },
+    "help": {
+      "start_point": [
+        88,
+        0
+      ],
+      "end_point": [
+        119,
+        1
+      ],
+      "strings": [
+        "\"usage: %s [options] [VAR=VALUE...]\\n\"",
+        "\"options are:\\n\"",
+        "\" [-]trimnl\\n\"",
+        "\" [-]plaintext\\n\"",
+        "\" -env\\n\"",
+        "\" env sys|none|null\\n\"",
+        "\" [-]%s\\n\"",
+        "\" -%s\\n\"",
+        "\" %s ARG\\n\"",
+        "\" escape-word ARG\\n\"",
+        "\" escape-quote ARG\\n\"",
+        "\" [-]%s\\n\"",
+        "\" -dooffs\\n\"",
+        "\" dooffs COUNT ARGS...\\n\""
+      ]
+    },
+    "print_qword": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        150,
+        1
+      ],
+      "strings": [
+        "\"%s\"",
+        "\"\\\"%s\\\"\"",
+        "\"%s\""
+      ]
+    },
+    "make_env_kv": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "strings": [
+        "\"=\""
+      ]
+    },
+    "wsp_getvar": {
+      "start_point": [
+        183,
+        0
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "strings": [
+        "\"=\""
+      ]
+    },
+    "wsp_runcmd": {
+      "start_point": [
+        204,
+        0
+      ],
+      "end_point": [
+        269,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"can't run %s: %s\""
+      ]
+    },
+    "set_escape_string": {
+      "start_point": [
+        285,
+        0
+      ],
+      "end_point": [
+        318,
+        1
+      ],
+      "strings": [
+        "\"%s: invalid escape flag near %s\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        320,
+        0
+      ],
+      "end_point": [
+        625,
+        1
+      ],
+      "strings": [
+        "\"h\"",
+        "\"help\"",
+        "\"-help\"",
+        "\"trimnl\"",
+        "\"plaintext\"",
+        "\"env\"",
+        "\"%s: missing argument for env\\n\"",
+        "\"%s: invalid argument for env\\n\"",
+        "\"%s: missing argument for %s\\n\"",
+        "\"escape-word\"",
+        "\"escape-quote\"",
+        "\"%s: missing argument for %s\\n\"",
+        "\"dooffs\"",
+        "\"%s: missing arguments for %s\\n\"",
+        "\"%s: invalid number: %s\\n\"",
+        "\"%s: not enough arguments for %s\\n\"",
+        "\"%s: unrecognized argument: %s\\n\"",
+        "\"NF: %lu\"",
+        "\" (%lu)\"",
+        "\"(%lu): \"",
+        "\"%lu: \""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/cmdline.h": {
+    "print_dir": {
+      "start_point": [
+        378,
+        0
+      ],
+      "end_point": [
+        384,
+        1
+      ],
+      "strings": [
+        "\"%s\\n\""
+      ]
+    },
+    "help_hook": {
+      "start_point": [
+        386,
+        0
+      ],
+      "end_point": [
+        402,
+        1
+      ],
+      "strings": [
+        "\"The optional CONFIG argument supplies the name of the \"",
+        "\"configuration file\\n\"",
+        "\"to use instead of %s.\\n\\n\"",
+        "\"This direvent uses %s interface.\\n\\n\"",
+        "\"Include search path:\\n\"",
+        "\"No include search path.\\n\"",
+        "\"\\n\""
+      ]
+    },
+    "parse_options": {
+      "start_point": [
+        404,
+        0
+      ],
+      "end_point": [
+        641,
+        1
+      ],
+      "strings": [
+        "\"dl:F:fI:T:P:tu:HhV\"",
+        "\"dl:F:fI:T:P:tu:HhV\"",
+        "\"none\"",
+        "\"no such user: %s\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/config.c": {
+    "get_facility": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": [
+        "\"unknown syslog facility: %s\""
+      ]
+    },
+    "get_priority": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        83,
+        1
+      ],
+      "strings": [
+        "\"unknown syslog priority: %s\""
+      ]
+    },
+    "assert_grecs_value_type": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": [
+        "\"expected %s\"",
+        "\"expected %s, but found %s\""
+      ]
+    },
+    "cb_syslog_facility": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": [
+        "\"unknown syslog facility `%s'\""
+      ]
+    },
+    "envfree": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "strings": []
+    },
+    "eventconf_init": {
+      "start_point": [
+        175,
+        0
+      ],
+      "end_point": [
+        180,
+        1
+      ],
+      "strings": []
+    },
+    "eventconf_free": {
+      "start_point": [
+        182,
+        0
+      ],
+      "end_point": [
+        190,
+        1
+      ],
+      "strings": []
+    },
+    "eventconf_flush": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        232,
+        1
+      ],
+      "strings": [
+        "\"%s: recursion depth does not match previous definition\""
+      ]
+    },
+    "cb_watcher": {
+      "start_point": [
+        234,
+        0
+      ],
+      "end_point": [
+        266,
+        1
+      ],
+      "strings": [
+        "\"no paths configured\"",
+        "\"no command configured\"",
+        "\"invalid use of block statement\""
+      ]
+    },
+    "pathent_alloc": {
+      "start_point": [
+        268,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": []
+    },
+    "cb_path": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        341,
+        1
+      ],
+      "strings": [
+        "\"recursive\"",
+        "\"expected \\\"recursive\\\" or end of statement\"",
+        "\"surplus argument\"",
+        "\"unexpected list\""
+      ]
+    },
+    "cb_eventlist": {
+      "start_point": [
+        343,
+        0
+      ],
+      "end_point": [
+        399,
+        1
+      ],
+      "strings": [
+        "\"unrecognized event code\"",
+        "\"unrecognized event code\"",
+        "\"unrecognized event code\""
+      ]
+    },
+    "membergid": {
+      "start_point": [
+        401,
+        0
+      ],
+      "end_point": [
+        409,
+        1
+      ],
+      "strings": []
+    },
+    "get_user_groups": {
+      "start_point": [
+        411,
+        0
+      ],
+      "end_point": [
+        440,
+        1
+      ],
+      "strings": []
+    },
+    "cb_user": {
+      "start_point": [
+        442,
+        0
+      ],
+      "end_point": [
+        504,
+        1
+      ],
+      "strings": [
+        "\"surplus arguments\"",
+        "\"unexpected list\"",
+        "\"no such user\"",
+        "\"no such group\""
+      ]
+    },
+    "cb_option": {
+      "start_point": [
+        506,
+        0
+      ],
+      "end_point": [
+        537,
+        1
+      ],
+      "strings": [
+        "\"nowait\"",
+        "\"wait\"",
+        "\"stdout\"",
+        "\"stderr\"",
+        "\"shell\"",
+        "\"unrecognized option\""
+      ]
+    },
+    "cb_environ": {
+      "start_point": [
+        539,
+        0
+      ],
+      "end_point": [
+        585,
+        1
+      ],
+      "strings": []
+    },
+    "file_name_pattern": {
+      "start_point": [
+        587,
+        0
+      ],
+      "end_point": [
+        651,
+        1
+      ],
+      "strings": [
+        "\"unterminated regexp\"",
+        "\"unrecognized flag: %c\"",
+        "\"%s\""
+      ]
+    },
+    "cb_file_pattern": {
+      "start_point": [
+        653,
+        0
+      ],
+      "end_point": [
+        691,
+        1
+      ],
+      "strings": []
+    },
+    "config_help": {
+      "start_point": [
+        738,
+        0
+      ],
+      "end_point": [
+        746,
+        1
+      ],
+      "strings": [
+        "\"Configuration file structure for direvent.\\n\"",
+        "\"For more information, use `info direvent configuration'.\""
+      ]
+    },
+    "config_init": {
+      "start_point": [
+        748,
+        0
+      ],
+      "end_point": [
+        752,
+        1
+      ],
+      "strings": []
+    },
+    "config_parse": {
+      "start_point": [
+        754,
+        0
+      ],
+      "end_point": [
+        765,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/src/detach-bsd.c": {
+    "detach": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        87,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/detach-darwin.c": {
+    "catch_signal": {
+      "start_point": [
+        46,
+        0
+      ],
+      "end_point": [
+        50,
+        1
+      ],
+      "strings": []
+    },
+    "waitchild": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": [
+        "\"failed to install watchers\""
+      ]
+    },
+    "detach": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        112,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/detach-std.c": {
+    "detach": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "strings": [
+        "\"/\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/direvent.c": {
+    "severity": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": [
+        "\"EMERG\"",
+        "\"ALERT\"",
+        "\"CRIT\"",
+        "\"ERROR\"",
+        "\"WARNING\"",
+        "\"NOTICE\"",
+        "\"INFO\"",
+        "\"DEBUG\""
+      ]
+    },
+    "vdiag": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        113,
+        1
+      ],
+      "strings": [
+        "\"%s: \"",
+        "\"[%s] \""
+      ]
+    },
+    "diag": {
+      "start_point": [
+        115,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    },
+    "debugprt": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        133,
+        1
+      ],
+      "strings": []
+    },
+    "emalloc": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": [
+        "\"not enough memory\""
+      ]
+    },
+    "ecalloc": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        156,
+        1
+      ],
+      "strings": [
+        "\"not enough memory\""
+      ]
+    },
+    "erealloc": {
+      "start_point": [
+        158,
+        0
+      ],
+      "end_point": [
+        167,
+        1
+      ],
+      "strings": [
+        "\"not enough memory\""
+      ]
+    },
+    "estrdup": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        177,
+        1
+      ],
+      "strings": []
+    },
+    "mkfilename": {
+      "start_point": [
+        180,
+        0
+      ],
+      "end_point": [
+        201,
+        1
+      ],
+      "strings": []
+    },
+    "trans_strtotok": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        212,
+        1
+      ],
+      "strings": []
+    },
+    "trans_toktostr": {
+      "start_point": [
+        214,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "strings": []
+    },
+    "trans_toknext": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        235,
+        1
+      ],
+      "strings": []
+    },
+    "trans_tokfirst": {
+      "start_point": [
+        237,
+        0
+      ],
+      "end_point": [
+        242,
+        1
+      ],
+      "strings": []
+    },
+    "set_program_name": {
+      "start_point": [
+        247,
+        0
+      ],
+      "end_point": [
+        255,
+        1
+      ],
+      "strings": []
+    },
+    "signal_setup": {
+      "start_point": [
+        258,
+        0
+      ],
+      "end_point": [
+        264,
+        1
+      ],
+      "strings": []
+    },
+    "storepid": {
+      "start_point": [
+        266,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": [
+        "\"w\"",
+        "\"cannot open pidfile %s for writing: %s\"",
+        "\"%lu\\n\""
+      ]
+    },
+    "membergid": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        287,
+        1
+      ],
+      "strings": []
+    },
+    "get_user_groups": {
+      "start_point": [
+        289,
+        0
+      ],
+      "end_point": [
+        327,
+        1
+      ],
+      "strings": [
+        "\"no user with UID %lu\""
+      ]
+    },
+    "setuser": {
+      "start_point": [
+        329,
+        0
+      ],
+      "end_point": [
+        361,
+        1
+      ],
+      "strings": [
+        "\"getpwnam(%s): %s\"",
+        "\"setgroups: %s\"",
+        "\"setgid(%lu): %s\"",
+        "\"setuid(%lu): %s\""
+      ]
+    },
+    "ev_log": {
+      "start_point": [
+        363,
+        0
+      ],
+      "end_point": [
+        374,
+        1
+      ],
+      "strings": [
+        "\"%s: %s\""
+      ]
+    },
+    "genev_init": {
+      "start_point": [
+        378,
+        0
+      ],
+      "end_point": [
+        386,
+        1
+      ],
+      "strings": []
+    },
+    "sigmain": {
+      "start_point": [
+        395,
+        0
+      ],
+      "end_point": [
+        406,
+        1
+      ],
+      "strings": []
+    },
+    "self_test": {
+      "start_point": [
+        408,
+        0
+      ],
+      "end_point": [
+        435,
+        1
+      ],
+      "strings": [
+        "\"cannot run `%s': fork failed: %s\"",
+        "\"/bin/sh\"",
+        "\"-c\"",
+        "\"execv: %s: %s\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        453,
+        0
+      ],
+      "end_point": [
+        546,
+        1
+      ],
+      "strings": [
+        "\"\"",
+        "\"too many arguments\"",
+        "\"daemon: %s\"",
+        "\"%s %s started\"",
+        "\"%s %s stopped\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/direvent.h": {},
+  "direvent/direvent-5.1/src/environ.c": {
+    "find_env": {
+      "start_point": [
+        31,
+        0
+      ],
+      "end_point": [
+        46,
+        1
+      ],
+      "strings": [
+        "\"+=\"",
+        "\"=\""
+      ]
+    },
+    "locate_unset": {
+      "start_point": [
+        48,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": [
+        "\"=\"",
+        "\"=\""
+      ]
+    },
+    "env_concat": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "strings": []
+    },
+    "environ_setup": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        219,
+        1
+      ],
+      "strings": [
+        "\"-\"",
+        "\"--\"",
+        "\"wordsplit: %s\"",
+        "\"wordsplit: %s\"",
+        "\"DIREVENT_SELF_TEST_PID=%lu\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/event.c": {
+    "hash_string": {
+      "start_point": [
+        28,
+        0
+      ],
+      "end_point": [
+        38,
+        1
+      ],
+      "strings": []
+    },
+    "symevt_hash": {
+      "start_point": [
+        40,
+        0
+      ],
+      "end_point": [
+        45,
+        1
+      ],
+      "strings": []
+    },
+    "symevt_cmp": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        54,
+        1
+      ],
+      "strings": []
+    },
+    "symevt_copy": {
+      "start_point": [
+        56,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "symevt_free": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": []
+    },
+    "defevt": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        100,
+        1
+      ],
+      "strings": [
+        "\"not enough memory\""
+      ]
+    },
+    "getevt": {
+      "start_point": [
+        102,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": []
+    },
+    "evtnullp": {
+      "start_point": [
+        120,
+        0
+      ],
+      "end_point": [
+        124,
+        1
+      ],
+      "strings": []
+    },
+    "event_mask_init": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        147,
+        1
+      ],
+      "strings": []
+    },
+    "evtsetall": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/src/ev_inotify.c": {
+    "sysev_filemask": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "sysev_init": {
+      "start_point": [
+        53,
+        0
+      ],
+      "end_point": [
+        61,
+        1
+      ],
+      "strings": [
+        "\"inotify_init: %s\""
+      ]
+    },
+    "sysev_add_watch": {
+      "start_point": [
+        63,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "sysev_rm_watch": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": []
+    },
+    "remove_watcher": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": [
+        "\"not enough memory: \"",
+        "\"cannot look up a watcher to delete\""
+      ]
+    },
+    "process_event": {
+      "start_point": [
+        92,
+        0
+      ],
+      "end_point": [
+        149,
+        1
+      ],
+      "strings": [
+        "\"event queue overflow\"",
+        "\"unrecognized event %x\"",
+        "\"for %s\"",
+        "\"unrecognized event %x\"",
+        "\"%s/%s created\"",
+        "\"%s/%s deleted\""
+      ]
+    },
+    "sysev_select": {
+      "start_point": [
+        151,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "strings": [
+        "\"got signal %d\"",
+        "\"read failed: %s\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/ev_kqueue.c": {
+    "sysev_init": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": [
+        "\"kqueue: %s\""
+      ]
+    },
+    "sysev_filemask": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": []
+    },
+    "sysev_add_watch": {
+      "start_point": [
+        73,
+        0
+      ],
+      "end_point": [
+        96,
+        1
+      ],
+      "strings": []
+    },
+    "sysev_rm_watch": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": []
+    },
+    "chclosed_elim": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": []
+    },
+    "check_created": {
+      "start_point": [
+        128,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "strings": [
+        "\"cannot open directory %s: %s\"",
+        "\"cannot stat %s/%s: not enough memory\"",
+        "\"cannot stat %s: %s\""
+      ]
+    },
+    "process_event": {
+      "start_point": [
+        180,
+        0
+      ],
+      "end_point": [
+        217,
+        1
+      ],
+      "strings": [
+        "\"unrecognized event %x\"",
+        "\"%s deleted\""
+      ]
+    },
+    "sysev_select": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "strings": [
+        "\"got signal %d\"",
+        "\"kevent: %s\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/fnpat.c": {
+    "filename_pattern_free": {
+      "start_point": [
+        20,
+        0
+      ],
+      "end_point": [
+        32,
+        1
+      ],
+      "strings": []
+    },
+    "filename_pattern_match": {
+      "start_point": [
+        34,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/src/gettext.h": {
+    "pgettext_aux": {
+      "start_point": [
+        141,
+        0
+      ],
+      "end_point": [
+        151,
+        1
+      ],
+      "strings": []
+    },
+    "npgettext_aux": {
+      "start_point": [
+        160,
+        0
+      ],
+      "end_point": [
+        172,
+        1
+      ],
+      "strings": []
+    },
+    "dcpgettext_expr": {
+      "start_point": [
+        200,
+        0
+      ],
+      "end_point": [
+        231,
+        1
+      ],
+      "strings": []
+    },
+    "dcnpgettext_expr": {
+      "start_point": [
+        245,
+        0
+      ],
+      "end_point": [
+        277,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/src/hashtab.c": {
+    "hashent_free": {
+      "start_point": [
+        41,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "hashent_alloc": {
+      "start_point": [
+        50,
+        0
+      ],
+      "end_point": [
+        67,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_insert_pos": {
+      "start_point": [
+        70,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_replace": {
+      "start_point": [
+        86,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_rehash": {
+      "start_point": [
+        105,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_strerror": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        146,
+        1
+      ],
+      "strings": [
+        "\"element not found in table\"",
+        "\"symbol table is full\"",
+        "\"out of memory\""
+      ]
+    },
+    "hashtab_remove": {
+      "start_point": [
+        148,
+        0
+      ],
+      "end_point": [
+        182,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_get_index": {
+      "start_point": [
+        184,
+        0
+      ],
+      "end_point": [
+        229,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_lookup_or_install": {
+      "start_point": [
+        231,
+        0
+      ],
+      "end_point": [
+        250,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_clear": {
+      "start_point": [
+        252,
+        0
+      ],
+      "end_point": [
+        268,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_create": {
+      "start_point": [
+        270,
+        0
+      ],
+      "end_point": [
+        293,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_free": {
+      "start_point": [
+        295,
+        0
+      ],
+      "end_point": [
+        303,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_count_entries": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        315,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_foreach": {
+      "start_point": [
+        317,
+        0
+      ],
+      "end_point": [
+        333,
+        1
+      ],
+      "strings": []
+    },
+    "hashtab_count": {
+      "start_point": [
+        335,
+        0
+      ],
+      "end_point": [
+        348,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/src/progman.c": {
+    "proc_unlink": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "proc_pop": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        74,
+        1
+      ],
+      "strings": []
+    },
+    "proc_push": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        84,
+        1
+      ],
+      "strings": []
+    },
+    "register_process": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": []
+    },
+    "deregister_process": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        123,
+        1
+      ],
+      "strings": []
+    },
+    "process_lookup": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        134,
+        1
+      ],
+      "strings": []
+    },
+    "print_status": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        168,
+        1
+      ],
+      "strings": [
+        "\"process %lu exited successfully\"",
+        "\"process %lu failed with status %d\"",
+        "\"process %lu terminated on signal %d\"",
+        "\"process %lu stopped on signal %d\"",
+        "\"process %lu dumped core\"",
+        "\"process %lu terminated with unrecognized status\""
+      ]
+    },
+    "process_cleanup": {
+      "start_point": [
+        170,
+        0
+      ],
+      "end_point": [
+        218,
+        1
+      ],
+      "strings": []
+    },
+    "process_timeouts": {
+      "start_point": [
+        220,
+        0
+      ],
+      "end_point": [
+        245,
+        1
+      ],
+      "strings": [
+        "\"begin scanning process list\"",
+        "\"process %lu timed out\"",
+        "\"scheduling alarm in %lu seconds\"",
+        "\"end scanning process list\""
+      ]
+    },
+    "switchpriv": {
+      "start_point": [
+        247,
+        0
+      ],
+      "end_point": [
+        273,
+        1
+      ],
+      "strings": [
+        "\"setgroups: %s\"",
+        "\"setregid(%lu,%lu): %s\"",
+        "\"setreuid(%lu,%lu): %s\""
+      ]
+    },
+    "close_fds": {
+      "start_point": [
+        290,
+        0
+      ],
+      "end_point": [
+        300,
+        1
+      ],
+      "strings": []
+    },
+    "redir_exit": {
+      "start_point": [
+        304,
+        0
+      ],
+      "end_point": [
+        308,
+        1
+      ],
+      "strings": []
+    },
+    "open_redirector": {
+      "start_point": [
+        310,
+        0
+      ],
+      "end_point": [
+        365,
+        1
+      ],
+      "strings": [
+        "\"cannot start redirector for %s, pipe failed: %s\"",
+        "\"r\"",
+        "\"%s\"",
+        "\"cannot run redirector `%s': fork failed: %s\"",
+        "\"redirector for %s started, pid=%lu\""
+      ]
+    },
+    "runcmd": {
+      "start_point": [
+        367,
+        0
+      ],
+      "end_point": [
+        439,
+        1
+      ],
+      "strings": [
+        "\"file\"",
+        "\"%d\"",
+        "\"sysev_code\"",
+        "\"%lu\"",
+        "\"self_test_pid\"",
+        "\"sysev_name\"",
+        "\"%d\"",
+        "\"genev_code\"",
+        "\"genev_name\"",
+        "\"wordsplit: %s\"",
+        "\"/bin/sh\"",
+        "\"-c\"",
+        "\"execve: %s \\\"%s\\\": %s\""
+      ]
+    },
+    "run_handler": {
+      "start_point": [
+        441,
+        0
+      ],
+      "end_point": [
+        540,
+        1
+      ],
+      "strings": [
+        "\"starting %s, dir=%s, file=%s\"",
+        "\"fork: %s\"",
+        "\"cannot change to %s: %s\"",
+        "\"dup2: %s\"",
+        "\"dup2: %s\"",
+        "\"%s running; dir=%s, file=%s, pid=%lu\"",
+        "\"waiting for %s (%lu) to terminate\""
+      ]
+    }
+  },
+  "direvent/direvent-5.1/src/sigv.c": {
+    "sigv_set_action": {
+      "start_point": [
+        18,
+        0
+      ],
+      "end_point": [
+        28,
+        1
+      ],
+      "strings": []
+    },
+    "sigv_restore_tab": {
+      "start_point": [
+        30,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "sigv_set_all": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "sigv_set_tab": {
+      "start_point": [
+        67,
+        0
+      ],
+      "end_point": [
+        90,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/src/watcher.c": {
+    "dirwatcher_unref": {
+      "start_point": [
+        20,
+        0
+      ],
+      "end_point": [
+        27,
+        1
+      ],
+      "strings": []
+    },
+    "dwname_hash": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        40,
+        1
+      ],
+      "strings": []
+    },
+    "dwname_cmp": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        49,
+        1
+      ],
+      "strings": []
+    },
+    "dwname_copy": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        60,
+        1
+      ],
+      "strings": []
+    },
+    "dwref_free": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        68,
+        1
+      ],
+      "strings": []
+    },
+    "dirwatcher_install": {
+      "start_point": [
+        72,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": [
+        "\"not enough memory\""
+      ]
+    },
+    "dirwatcher_lookup": {
+      "start_point": [
+        107,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "dirwatcher_remove": {
+      "start_point": [
+        123,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "strings": []
+    },
+    "dw_hash": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": []
+    },
+    "dw_cmp": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        153,
+        1
+      ],
+      "strings": []
+    },
+    "dw_copy": {
+      "start_point": [
+        155,
+        0
+      ],
+      "end_point": [
+        165,
+        1
+      ],
+      "strings": []
+    },
+    "dirwatcher_register": {
+      "start_point": [
+        169,
+        0
+      ],
+      "end_point": [
+        193,
+        1
+      ],
+      "strings": [
+        "\"not enough memory\"",
+        "\"not enough memory\""
+      ]
+    },
+    "dirwatcher_lookup_wd": {
+      "start_point": [
+        195,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "strings": []
+    },
+    "dirwatcher_remove_wd": {
+      "start_point": [
+        209,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "strings": []
+    },
+    "dirwatcher_init": {
+      "start_point": [
+        223,
+        0
+      ],
+      "end_point": [
+        248,
+        1
+      ],
+      "strings": [
+        "\"creating watcher %s\"",
+        "\"cannot set watcher on %s: %s\""
+      ]
+    },
+    "subwatcher_create": {
+      "start_point": [
+        252,
+        0
+      ],
+      "end_point": [
+        279,
+        1
+      ],
+      "strings": []
+    },
+    "deliver_ev_create": {
+      "start_point": [
+        282,
+        0
+      ],
+      "end_point": [
+        292,
+        1
+      ],
+      "strings": []
+    },
+    "check_new_watcher": {
+      "start_point": [
+        303,
+        0
+      ],
+      "end_point": [
+        335,
+        1
+      ],
+      "strings": [
+        "\"cannot create watcher %s/%s: not enough memory\"",
+        "\"cannot create watcher %s/%s, stat failed: %s\""
+      ]
+    },
+    "watch_subdirs": {
+      "start_point": [
+        339,
+        0
+      ],
+      "end_point": [
+        392,
+        1
+      ],
+      "strings": [
+        "\"cannot open directory %s: %s\"",
+        "\"cannot stat %s/%s: not enough memory\"",
+        "\"cannot stat %s: %s\""
+      ]
+    },
+    "setwatcher": {
+      "start_point": [
+        395,
+        0
+      ],
+      "end_point": [
+        404,
+        1
+      ],
+      "strings": []
+    },
+    "setup_watchers": {
+      "start_point": [
+        406,
+        0
+      ],
+      "end_point": [
+        419,
+        1
+      ],
+      "strings": [
+        "\"no event handlers configured\"",
+        "\"no event handlers installed\""
+      ]
+    },
+    "dirwatcher_destroy": {
+      "start_point": [
+        421,
+        0
+      ],
+      "end_point": [
+        429,
+        1
+      ],
+      "strings": [
+        "\"removing watcher %s\""
+      ]
+    },
+    "split_pathname": {
+      "start_point": [
+        431,
+        0
+      ],
+      "end_point": [
+        444,
+        1
+      ],
+      "strings": [
+        "\".\""
+      ]
+    },
+    "unsplit_pathname": {
+      "start_point": [
+        446,
+        0
+      ],
+      "end_point": [
+        453,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "direvent/direvent-5.1/tests/envdump.c": {
+    "agetcwd": {
+      "start_point": [
+        27,
+        0
+      ],
+      "end_point": [
+        53,
+        1
+      ],
+      "strings": [
+        "\"%s: not enough memory\\n\"",
+        "\"%s: \"",
+        "\"getcwd\""
+      ]
+    },
+    "compvar": {
+      "start_point": [
+        55,
+        0
+      ],
+      "end_point": [
+        73,
+        1
+      ],
+      "strings": []
+    },
+    "compenv": {
+      "start_point": [
+        75,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "locate": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "strings": []
+    },
+    "strtosig": {
+      "start_point": [
+        112,
+        0
+      ],
+      "end_point": [
+        132,
+        1
+      ],
+      "strings": [
+        "\"SIG\"",
+        "\"%s: bad signal number (near %s)\\n\""
+      ]
+    },
+    "read_pid_and_sig": {
+      "start_point": [
+        134,
+        0
+      ],
+      "end_point": [
+        171,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"%s: cannot open \"",
+        "\"%lu\"",
+        "\"%s: no PID found in %s\\n\"",
+        "\"%s: bad PID (near %s)\\n\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        173,
+        0
+      ],
+      "end_point": [
+        270,
+        1
+      ],
+      "strings": [
+        "\"w\"",
+        "\"af:hi:k:s\"",
+        "\"a\"",
+        "\"usage: %s [-ahsx] [-f FILE] [-i INCLUDELIST] [-k [@]PID[:SIG]] [ARGS...]\\n\"",
+        "\"%s: \"",
+        "\"# Dump of execution environment\\n\"",
+        "\"cwd is %s\\n\"",
+        "\"# Arguments\\n\"",
+        "\"argv[%d]=%s\\n\"",
+        "\"# Environment\\n\"",
+        "\"%s\\n\"",
+        "\"# End\\n\""
+      ]
+    }
+  }
+}

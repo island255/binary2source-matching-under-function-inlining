@@ -1,0 +1,2766 @@
+{
+  "libtool/libtool-2.4.6/libltdl/ltdl.c": {
+    "lt__alloc_die_callback": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        170,
+        1
+      ],
+      "content": "void\nlt__alloc_die_callback (void)\n{\n  LT__SETERROR (NO_MEMORY);\n}",
+      "lines": 5,
+      "depth": 6,
+      "decorators": [
+        "void"
+      ]
+    },
+    "loader_init_callback": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "content": "static int\nloader_init_callback (lt_dlhandle handle)\n{\n  lt_get_vtable *vtable_func = (lt_get_vtable *) lt_dlsym (handle, \"get_vtable\");\n  return loader_init (vtable_func, 0);\n}",
+      "lines": 6,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "loader_init": {
+      "start_point": [
+        184,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "content": "static int\nloader_init (lt_get_vtable *vtable_func, lt_user_data data)\n{\n  const lt_dlvtable *vtable = 0;\n  int errors = 0;\n\n  if (vtable_func)\n    {\n      vtable = (*vtable_func) (data);\n    }\n\n  /* lt_dlloader_add will LT__SETERROR if it fails.  */\n  errors += lt_dlloader_add (vtable);\n\n  assert (errors || vtable);\n\n  if ((!errors) && vtable->dlloader_init)\n    {\n      if ((*vtable->dlloader_init) (vtable->dlloader_data))\n\t{\n\t  LT__SETERROR (INIT_LOADER);\n\t  ++errors;\n\t}\n    }\n\n  return errors;\n}",
+      "lines": 27,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "lt_dlinit": {
+      "start_point": [
+        224,
+        0
+      ],
+      "end_point": [
+        261,
+        1
+      ],
+      "content": "int\nlt_dlinit (void)\n{\n  int\terrors\t= 0;\n\n  /* Initialize only at first call. */\n  if (++initialized == 1)\n    {\n      lt__alloc_die\t= lt__alloc_die_callback;\n      handles\t\t= 0;\n      user_search_path\t= 0; /* empty search path */\n\n      /* First set up the statically loaded preload module loader, so\n\t we can use it to preopen the other loaders we linked in at\n\t compile time.  */\n      errors += loader_init (get_vtable, 0);\n\n      /* Now open all the preloaded module loaders, so the application\n\t can use _them_ to lt_dlopen its own modules.  */\n#ifdef HAVE_LIBDLLOADER\n      if (!errors)\n\t{\n\t  errors += lt_dlpreload (preloaded_symbols);\n\t}\n\n      if (!errors)\n\t{\n\t  errors += lt_dlpreload_open (LT_STR(LTDLOPEN), loader_init_callback);\n\t}\n#endif /* HAVE_LIBDLLOADER */\n    }\n\n#ifdef LT_DEBUG_LOADERS\n  lt_dlloader_dump();\n#endif\n\n  return errors;\n}",
+      "lines": 38,
+      "depth": 14,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlexit": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        360,
+        1
+      ],
+      "content": "int\nlt_dlexit (void)\n{\n  /* shut down libltdl */\n  lt_dlloader *loader   = 0;\n  lt_dlhandle  handle   = handles;\n  int\t       errors   = 0;\n\n  if (!initialized)\n    {\n      LT__SETERROR (SHUTDOWN);\n      ++errors;\n      goto done;\n    }\n\n  /* shut down only at last call. */\n  if (--initialized == 0)\n    {\n      int\tlevel;\n\n      while (handles && LT_DLIS_RESIDENT (handles))\n\t{\n\t  handles = handles->next;\n\t}\n\n      /* close all modules */\n      for (level = 1; handle; ++level)\n\t{\n\t  lt_dlhandle cur = handles;\n\t  int saw_nonresident = 0;\n\n\t  while (cur)\n\t    {\n\t      lt_dlhandle tmp = cur;\n\t      cur = cur->next;\n\t      if (!LT_DLIS_RESIDENT (tmp))\n\t\t{\n\t\t  saw_nonresident = 1;\n\t\t  if (tmp->info.ref_count <= level)\n\t\t    {\n\t\t      if (lt_dlclose (tmp))\n\t\t\t{\n\t\t\t  ++errors;\n\t\t\t}\n\t\t      /* Make sure that the handle pointed to by 'cur' still exists.\n\t\t\t lt_dlclose recursively closes dependent libraries, which removes\n\t\t\t them from the linked list.  One of these might be the one\n\t\t\t pointed to by 'cur'.  */\n\t\t      if (cur)\n\t\t\t{\n\t\t\t  for (tmp = handles; tmp; tmp = tmp->next)\n\t\t\t    if (tmp == cur)\n\t\t\t      break;\n\t\t\t  if (! tmp)\n\t\t\t    cur = handles;\n\t\t\t}\n\t\t    }\n\t\t}\n\t    }\n\t  /* done if only resident modules are left */\n\t  if (!saw_nonresident)\n\t    break;\n\t}\n\n      /* When removing loaders, we can only find out failure by testing\n\t the error string, so avoid a spurious one from an earlier\n\t failed command. */\n      if (!errors)\n\tLT__SETERRORSTR (0);\n\n      /* close all loaders */\n      for (loader = (lt_dlloader *) lt_dlloader_next (NULL); loader;)\n\t{\n\t  lt_dlloader *next   = (lt_dlloader *) lt_dlloader_next (loader);\n\t  lt_dlvtable *vtable = (lt_dlvtable *) lt_dlloader_get (loader);\n\n\t  if ((vtable = lt_dlloader_remove ((char *) vtable->name)))\n\t    {\n\t      FREE (vtable);\n\t    }\n\t  else\n\t    {\n\t      /* ignore errors due to resident modules */\n\t      const char *err;\n\t      LT__GETERROR (err);\n\t      if (err)\n\t\t++errors;\n\t    }\n\n\t  loader = next;\n\t}\n\n      FREE(user_search_path);\n    }\n\n done:\n  return errors;\n}",
+      "lines": 98,
+      "depth": 19,
+      "decorators": [
+        "int"
+      ]
+    },
+    "tryall_dlopen": {
+      "start_point": [
+        366,
+        0
+      ],
+      "end_point": [
+        488,
+        1
+      ],
+      "content": "static int\ntryall_dlopen (lt_dlhandle *phandle, const char *filename,\n\t       lt_dladvise advise, const lt_dlvtable *vtable)\n{\n  lt_dlhandle\thandle\t\t= handles;\n  const char *\tsaved_error\t= 0;\n  int\t\terrors\t\t= 0;\n\n#ifdef LT_DEBUG_LOADERS\n  fprintf (stderr, \"tryall_dlopen (%s, %s)\\n\",\n\t   filename ? filename : \"(null)\",\n\t   vtable ? vtable->name : \"(ALL)\");\n#endif\n\n  LT__GETERROR (saved_error);\n\n  /* check whether the module was already opened */\n  for (;handle; handle = handle->next)\n    {\n      if ((handle->info.filename == filename) /* dlopen self: 0 == 0 */\n\t  || (handle->info.filename && filename\n\t      && STREQ (handle->info.filename, filename)))\n\t{\n\t  break;\n\t}\n    }\n\n  if (handle)\n    {\n      ++handle->info.ref_count;\n      *phandle = handle;\n      goto done;\n    }\n\n  handle = *phandle;\n  if (filename)\n    {\n      /* Comment out the check of file permissions using access.\n\t This call seems to always return -1 with error EACCES.\n      */\n      /* We need to catch missing file errors early so that\n\t file_not_found() can detect what happened.\n      if (access (filename, R_OK) != 0)\n\t{\n\t  LT__SETERROR (FILE_NOT_FOUND);\n\t  ++errors;\n\t  goto done;\n\t} */\n\n      handle->info.filename = lt__strdup (filename);\n      if (!handle->info.filename)\n\t{\n\t  ++errors;\n\t  goto done;\n\t}\n    }\n  else\n    {\n      handle->info.filename = 0;\n    }\n\n  {\n    lt_dlloader loader = lt_dlloader_next (0);\n    const lt_dlvtable *loader_vtable;\n\n    do\n      {\n\tif (vtable)\n\t  loader_vtable = vtable;\n\telse\n\t  loader_vtable = lt_dlloader_get (loader);\n\n#ifdef LT_DEBUG_LOADERS\n\tfprintf (stderr, \"Calling %s->module_open (%s)\\n\",\n\t\t (loader_vtable && loader_vtable->name) ? loader_vtable->name : \"(null)\",\n\t\t filename ? filename : \"(null)\");\n#endif\n\thandle->module = (*loader_vtable->module_open) (loader_vtable->dlloader_data,\n\t\t\t\t\t\t\tfilename, advise);\n#ifdef LT_DEBUG_LOADERS\n\tif (!handle->module) {\n\t\tchar *error;\n\t\tLT__GETERROR(error);\n\t\tfprintf (stderr, \"  Result: Failed\\n\"\n\t\t\t\t\"  Error message << %s >>\\n\",\n\t\t\t\terror ? error : \"(null)\");\n\t} else {\n\t\tfprintf (stderr, \"  Result: Success\\n\");\n\t}\n#endif\n\n\tif (handle->module != 0)\n\t  {\n\t    if (advise)\n\t      {\n\t\thandle->info.is_resident  = advise->is_resident;\n\t\thandle->info.is_symglobal = advise->is_symglobal;\n\t\thandle->info.is_symlocal  = advise->is_symlocal;\n\t      }\n\t    break;\n\t  }\n      }\n    while (!vtable && (loader = lt_dlloader_next (loader)));\n\n    /* If VTABLE was given but couldn't open the module, or VTABLE wasn't\n       given but we exhausted all loaders without opening the module, bail\n       out!  */\n    if ((vtable && !handle->module)\n\t|| (!vtable && !loader))\n      {\n\tFREE (handle->info.filename);\n\t++errors;\n\tgoto done;\n      }\n\n    handle->vtable = loader_vtable;\n  }\n\n  LT__SETERRORSTR (saved_error);\n\n done:\n  return errors;\n}",
+      "lines": 123,
+      "depth": 14,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "tryall_dlopen_module": {
+      "start_point": [
+        491,
+        0
+      ],
+      "end_point": [
+        538,
+        1
+      ],
+      "content": "static int\ntryall_dlopen_module (lt_dlhandle *handle, const char *prefix,\n\t\t      const char *dirname, const char *dlname,\n\t\t      lt_dladvise advise)\n{\n  int      error\t= 0;\n  char     *filename\t= 0;\n  size_t   filename_len\t= 0;\n  size_t   dirname_len\t= LT_STRLEN (dirname);\n\n  assert (handle);\n  assert (dirname);\n  assert (dlname);\n#if defined LT_DIRSEP_CHAR\n  /* Only canonicalized names (i.e. with DIRSEP chars already converted)\n     should make it into this function:  */\n  assert (strchr (dirname, LT_DIRSEP_CHAR) == 0);\n#endif\n\n  if (dirname_len > 0)\n    if (dirname[dirname_len -1] == '/')\n      --dirname_len;\n  filename_len = dirname_len + 1 + LT_STRLEN (dlname);\n\n  /* Allocate memory, and combine DIRNAME and MODULENAME into it.\n     The PREFIX (if any) is handled below.  */\n  filename  = MALLOC (char, filename_len + 1);\n  if (!filename)\n    return 1;\n\n  sprintf (filename, \"%.*s/%s\", (int) dirname_len, dirname, dlname);\n\n  /* Now that we have combined DIRNAME and MODULENAME, if there is\n     also a PREFIX to contend with, simply recurse with the arguments\n     shuffled.  Otherwise, attempt to open FILENAME as a module.  */\n  if (prefix)\n    {\n      error += tryall_dlopen_module (handle, (const char *) 0,\n\t\t\t\t     prefix, filename, advise);\n    }\n  else if (tryall_dlopen (handle, filename, advise, 0) != 0)\n    {\n      ++error;\n    }\n\n  FREE (filename);\n  return error;\n}",
+      "lines": 48,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "find_module": {
+      "start_point": [
+        540,
+        0
+      ],
+      "end_point": [
+        582,
+        1
+      ],
+      "content": "static int\nfind_module (lt_dlhandle *handle, const char *dir, const char *libdir,\n\t     const char *dlname,  const char *old_name, int installed,\n\t     lt_dladvise advise)\n{\n  /* Try to open the old library first; if it was dlpreopened,\n     we want the preopened version of it, even if a dlopenable\n     module is available.  */\n  if (old_name && tryall_dlopen (handle, old_name,\n\t\t\t  advise, lt_dlloader_find (\"lt_preopen\") ) == 0)\n    {\n      return 0;\n    }\n\n  /* Try to open the dynamic library.  */\n  if (dlname)\n    {\n      /* try to open the installed module */\n      if (installed && libdir)\n\t{\n\t  if (tryall_dlopen_module (handle, (const char *) 0,\n\t\t\t\t    libdir, dlname, advise) == 0)\n\t    return 0;\n\t}\n\n      /* try to open the not-installed module */\n      if (!installed)\n\t{\n\t  if (tryall_dlopen_module (handle, dir, objdir,\n\t\t\t\t    dlname, advise) == 0)\n\t    return 0;\n\t}\n\n      /* maybe it was moved to another directory */\n      {\n\t  if (dir && (tryall_dlopen_module (handle, (const char *) 0,\n\t\t\t\t\t    dir, dlname, advise) == 0))\n\t    return 0;\n      }\n    }\n\n  return 1;\n}",
+      "lines": 43,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "argzize_path": {
+      "start_point": [
+        646,
+        0
+      ],
+      "end_point": [
+        671,
+        1
+      ],
+      "content": "static int\nargzize_path (const char *path, char **pargz, size_t *pargz_len)\n{\n  error_t error;\n\n  assert (path);\n  assert (pargz);\n  assert (pargz_len);\n\n  if ((error = argz_create_sep (path, LT_PATHSEP_CHAR, pargz, pargz_len)))\n    {\n      switch (error)\n\t{\n\tcase ENOMEM:\n\t  LT__SETERROR (NO_MEMORY);\n\t  break;\n\tdefault:\n\t  LT__SETERROR (UNKNOWN);\n\t  break;\n\t}\n\n      return 1;\n    }\n\n  return 0;\n}",
+      "lines": 26,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "foreach_dirinpath": {
+      "start_point": [
+        677,
+        0
+      ],
+      "end_point": [
+        739,
+        1
+      ],
+      "content": "static int\nforeach_dirinpath (const char *search_path, const char *base_name,\n\t\t   foreach_callback_func *func, void *data1, void *data2)\n{\n  int\t result\t\t= 0;\n  size_t filenamesize\t= 0;\n  size_t lenbase\t= LT_STRLEN (base_name);\n  size_t argz_len\t= 0;\n  char *argz\t\t= 0;\n  char *filename\t= 0;\n  char *canonical\t= 0;\n\n  if (!search_path || !*search_path)\n    {\n      LT__SETERROR (FILE_NOT_FOUND);\n      goto cleanup;\n    }\n\n  if (canonicalize_path (search_path, &canonical) != 0)\n    goto cleanup;\n\n  if (argzize_path (canonical, &argz, &argz_len) != 0)\n    goto cleanup;\n\n  {\n    char *dir_name = 0;\n    while ((dir_name = argz_next (argz, argz_len, dir_name)))\n      {\n\tsize_t lendir = LT_STRLEN (dir_name);\n\n\tif (1+ lendir + lenbase >= filenamesize)\n\t{\n\t  FREE (filename);\n\t  filenamesize\t= 1+ lendir + 1+ lenbase; /* \"/d\" + '/' + \"f\" + '\\0' */\n\t  filename\t= MALLOC (char, filenamesize);\n\t  if (!filename)\n\t    goto cleanup;\n\t}\n\n\tassert (filenamesize > lendir);\n\tstrcpy (filename, dir_name);\n\n\tif (base_name && *base_name)\n\t  {\n\t    if (filename[lendir -1] != '/')\n\t      filename[lendir++] = '/';\n\t    strcpy (filename +lendir, base_name);\n\t  }\n\n\tif ((result = (*func) (filename, data1, data2)))\n\t  {\n\t    break;\n\t  }\n      }\n  }\n\n cleanup:\n  FREE (argz);\n  FREE (canonical);\n  FREE (filename);\n\n  return result;\n}",
+      "lines": 63,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "find_file_callback": {
+      "start_point": [
+        744,
+        0
+      ],
+      "end_point": [
+        768,
+        1
+      ],
+      "content": "static int\nfind_file_callback (char *filename, void *data1, void *data2)\n{\n  char\t     **pdir\t= (char **) data1;\n  FILE\t     **pfile\t= (FILE **) data2;\n  int\t     is_done\t= 0;\n\n  assert (filename && *filename);\n  assert (pdir);\n  assert (pfile);\n\n  if ((*pfile = fopen (filename, LT_READTEXT_MODE)))\n    {\n      char *dirend = strrchr (filename, '/');\n\n      if (dirend > filename)\n\t*dirend   = LT_EOS_CHAR;\n\n      FREE (*pdir);\n      *pdir   = lt__strdup (filename);\n      is_done = (*pdir == 0) ? -1 : 1;\n    }\n\n  return is_done;\n}",
+      "lines": 25,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "find_file": {
+      "start_point": [
+        770,
+        0
+      ],
+      "end_point": [
+        778,
+        1
+      ],
+      "content": "static FILE *\nfind_file (const char *search_path, const char *base_name, char **pdir)\n{\n  FILE *file = 0;\n\n  foreach_dirinpath (search_path, base_name, find_file_callback, pdir, &file);\n\n  return file;\n}",
+      "lines": 9,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "FILE",
+        "*\nfind_file (const char *search_path, const char *base_name, char **pdir)",
+        "*"
+      ]
+    },
+    "find_handle_callback": {
+      "start_point": [
+        780,
+        0
+      ],
+      "end_point": [
+        797,
+        1
+      ],
+      "content": "static int\nfind_handle_callback (char *filename, void *data, void *data2)\n{\n  lt_dlhandle  *phandle\t\t= (lt_dlhandle *) data;\n  int\t\tnotfound\t= access (filename, R_OK);\n  lt_dladvise   advise\t\t= (lt_dladvise) data2;\n\n  /* Bail out if file cannot be read...  */\n  if (notfound)\n    return 0;\n\n  /* Try to dlopen the file, but do not continue searching in any\n     case.  */\n  if (tryall_dlopen (phandle, filename, advise, 0) != 0)\n    *phandle = 0;\n\n  return 1;\n}",
+      "lines": 18,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "find_handle": {
+      "start_point": [
+        801,
+        0
+      ],
+      "end_point": [
+        813,
+        1
+      ],
+      "content": "static lt_dlhandle *\nfind_handle (const char *search_path, const char *base_name,\n\t     lt_dlhandle *phandle, lt_dladvise advise)\n{\n  if (!search_path)\n    return 0;\n\n  if (!foreach_dirinpath (search_path, base_name, find_handle_callback,\n\t\t\t  phandle, advise))\n    return 0;\n\n  return phandle;\n}",
+      "lines": 13,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "lt_dlhandle",
+        "*\nfind_handle (const char *search_path, const char *base_name,\n\t     lt_dlhandle *phandle, lt_dladvise advise)",
+        "*"
+      ]
+    },
+    "load_deplibs": [
+      {
+        "start_point": [
+          816,
+          0
+        ],
+        "end_point": [
+          821,
+          1
+        ],
+        "content": "static int\nload_deplibs (lt_dlhandle handle, char * deplibs LT__UNUSED)\n{\n  handle->depcount = 0;\n  return 0;\n}",
+        "lines": 6,
+        "depth": 7,
+        "decorators": [
+          "static",
+          "static",
+          "int"
+        ]
+      },
+      {
+        "start_point": [
+          824,
+          0
+        ],
+        "end_point": [
+          977,
+          1
+        ],
+        "content": "static int\nload_deplibs (lt_dlhandle handle, char *deplibs)\n{\n  char\t*p, *save_search_path = 0;\n  int   depcount = 0;\n  int\ti;\n  char\t**names = 0;\n  int\terrors = 0;\n\n  handle->depcount = 0;\n\n  if (!deplibs)\n    {\n      return errors;\n    }\n  ++errors;\n\n  if (user_search_path)\n    {\n      save_search_path = lt__strdup (user_search_path);\n      if (!save_search_path)\n\tgoto cleanup;\n    }\n\n  /* extract search paths and count deplibs */\n  p = deplibs;\n  while (*p)\n    {\n      if (!isspace ((unsigned char) *p))\n\t{\n\t  char *end = p+1;\n\t  while (*end && !isspace((unsigned char) *end))\n\t    {\n\t      ++end;\n\t    }\n\n\t  if (strncmp(p, \"-L\", 2) == 0 || strncmp(p, \"-R\", 2) == 0)\n\t    {\n\t      char save = *end;\n\t      *end = 0; /* set a temporary string terminator */\n\t      if (lt_dladdsearchdir(p+2))\n\t\t{\n\t\t  goto cleanup;\n\t\t}\n\t      *end = save;\n\t    }\n\t  else\n\t    {\n\t      ++depcount;\n\t    }\n\n\t  p = end;\n\t}\n      else\n\t{\n\t  ++p;\n\t}\n    }\n\n\n  if (!depcount)\n    {\n      errors = 0;\n      goto cleanup;\n    }\n\n  names = MALLOC (char *, depcount);\n  if (!names)\n    goto cleanup;\n\n  /* now only extract the actual deplibs */\n  depcount = 0;\n  p = deplibs;\n  while (*p)\n    {\n      if (isspace ((unsigned char) *p))\n\t{\n\t  ++p;\n\t}\n      else\n\t{\n\t  char *end = p+1;\n\t  while (*end && !isspace ((unsigned char) *end))\n\t    {\n\t      ++end;\n\t    }\n\n\t  if (strncmp(p, \"-L\", 2) != 0 && strncmp(p, \"-R\", 2) != 0)\n\t    {\n\t      char *name;\n\t      char save = *end;\n\t      *end = 0; /* set a temporary string terminator */\n\t      if (strncmp(p, \"-l\", 2) == 0)\n\t\t{\n\t\t  size_t name_len = 3+ /* \"lib\" */ LT_STRLEN (p + 2);\n\t\t  name = MALLOC (char, 1+ name_len);\n\t\t  if (name)\n\t\t    sprintf (name, \"lib%s\", p+2);\n\t\t}\n\t      else\n\t\tname = lt__strdup(p);\n\n\t      if (!name)\n\t\tgoto cleanup_names;\n\n\t      names[depcount++] = name;\n\t      *end = save;\n\t    }\n\t  p = end;\n\t}\n    }\n\n  /* load the deplibs (in reverse order)\n     At this stage, don't worry if the deplibs do not load correctly,\n     they may already be statically linked into the loading application\n     for instance.  There will be a more enlightening error message\n     later on if the loaded module cannot resolve all of its symbols.  */\n  if (depcount)\n    {\n      lt_dlhandle cur = handle;\n      int\tj = 0;\n\n      cur->deplibs = MALLOC (lt_dlhandle, depcount);\n      if (!cur->deplibs)\n\tgoto cleanup_names;\n\n      for (i = 0; i < depcount; ++i)\n\t{\n\t  cur->deplibs[j] = lt_dlopenext(names[depcount-1-i]);\n\t  if (cur->deplibs[j])\n\t    {\n\t      ++j;\n\t    }\n\t}\n\n      cur->depcount\t= j;\t/* Number of successfully loaded deplibs */\n      errors\t\t= 0;\n    }\n\n cleanup_names:\n  for (i = 0; i < depcount; ++i)\n    {\n      FREE (names[i]);\n    }\n\n cleanup:\n  FREE (names);\n  /* restore the old search path */\n  if (save_search_path) {\n    MEMREASSIGN (user_search_path, save_search_path);\n  }\n\n  return errors;\n}",
+        "lines": 154,
+        "depth": 17,
+        "decorators": [
+          "static",
+          "static",
+          "int"
+        ]
+      }
+    ],
+    "unload_deplibs": {
+      "start_point": [
+        980,
+        0
+      ],
+      "end_point": [
+        1000,
+        1
+      ],
+      "content": "static int\nunload_deplibs (lt_dlhandle handle)\n{\n  int i;\n  int errors = 0;\n  lt_dlhandle cur = handle;\n\n  if (cur->depcount)\n    {\n      for (i = 0; i < cur->depcount; ++i)\n\t{\n\t  if (!LT_DLIS_RESIDENT (cur->deplibs[i]))\n\t    {\n\t      errors += lt_dlclose (cur->deplibs[i]);\n\t    }\n\t}\n      FREE (cur->deplibs);\n    }\n\n  return errors;\n}",
+      "lines": 21,
+      "depth": 15,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "trim": {
+      "start_point": [
+        1002,
+        0
+      ],
+      "end_point": [
+        1032,
+        1
+      ],
+      "content": "static int\ntrim (char **dest, const char *str)\n{\n  /* remove the leading and trailing \"'\" from str\n     and store the result in dest */\n  const char *end   = strrchr (str, '\\'');\n  size_t len\t    = LT_STRLEN (str);\n  char *tmp;\n\n  FREE (*dest);\n\n  if (!end || end == str)\n    return 1;\n\n  if (len > 3 && str[0] == '\\'')\n    {\n      tmp = MALLOC (char, end - str);\n      if (!tmp)\n\treturn 1;\n\n      memcpy(tmp, &str[1], (end - str) - 1);\n      tmp[(end - str) - 1] = LT_EOS_CHAR;\n      *dest = tmp;\n    }\n  else\n    {\n      *dest = 0;\n    }\n\n  return 0;\n}",
+      "lines": 31,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "parse_dotla_file": {
+      "start_point": [
+        1035,
+        0
+      ],
+      "end_point": [
+        1153,
+        1
+      ],
+      "content": "static int\nparse_dotla_file(FILE *file, char **dlname, char **libdir, char **deplibs,\n    char **old_name, int *installed)\n{\n  int\t\terrors = 0;\n  size_t\tline_len = LT_FILENAME_MAX;\n  char *\tline = MALLOC (char, line_len);\n\n  if (!line)\n    {\n      LT__SETERROR (FILE_NOT_FOUND);\n      return 1;\n    }\n\n  while (!feof (file))\n    {\n      line[line_len-2] = '\\0';\n      if (!fgets (line, (int) line_len, file))\n\t{\n\t  break;\n\t}\n\n      /* Handle the case where we occasionally need to read a line\n\t that is longer than the initial buffer size.\n\t Behave even if the file contains NUL bytes due to corruption. */\n      while (line[line_len-2] != '\\0' && line[line_len-2] != '\\n' && !feof (file))\n\t{\n\t  line = REALLOC (char, line, line_len *2);\n\t  if (!line)\n\t    {\n\t      ++errors;\n\t      goto cleanup;\n\t    }\n\t  line[line_len * 2 - 2] = '\\0';\n\t  if (!fgets (&line[line_len -1], (int) line_len +1, file))\n\t    {\n\t      break;\n\t    }\n\t  line_len *= 2;\n\t}\n\n      if (line[0] == '\\n' || line[0] == '#')\n\t{\n\t  continue;\n\t}\n\n#undef  STR_DLNAME\n#define STR_DLNAME\t\"dlname=\"\n      if (strncmp (line, STR_DLNAME, sizeof (STR_DLNAME) - 1) == 0)\n\t{\n\t  errors += trim (dlname, &line[sizeof (STR_DLNAME) - 1]);\n\t}\n\n#undef  STR_OLD_LIBRARY\n#define STR_OLD_LIBRARY\t\"old_library=\"\n      else if (strncmp (line, STR_OLD_LIBRARY,\n\t    sizeof (STR_OLD_LIBRARY) - 1) == 0)\n\t{\n\t  errors += trim (old_name, &line[sizeof (STR_OLD_LIBRARY) - 1]);\n\t}\n\n      /* Windows native tools do not understand the POSIX paths we store\n\t in libdir. */\n#undef  STR_LIBDIR\n#define STR_LIBDIR\t\"libdir=\"\n      else if (strncmp (line, STR_LIBDIR, sizeof (STR_LIBDIR) - 1) == 0)\n\t{\n\t  errors += trim (libdir, &line[sizeof(STR_LIBDIR) - 1]);\n#ifdef __WINDOWS__\n\t  /* Disallow following unix-style paths on MinGW.  */\n\t  if (*libdir && (**libdir == '/' || **libdir == '\\\\'))\n\t    **libdir = '\\0';\n#endif\n\t}\n\n#undef  STR_DL_DEPLIBS\n#define STR_DL_DEPLIBS\t\"dependency_libs=\"\n      else if (strncmp (line, STR_DL_DEPLIBS,\n\t    sizeof (STR_DL_DEPLIBS) - 1) == 0)\n\t{\n\t  errors += trim (deplibs, &line[sizeof (STR_DL_DEPLIBS) - 1]);\n\t}\n      else if (STREQ (line, \"installed=yes\\n\"))\n\t{\n\t  *installed = 1;\n\t}\n      else if (STREQ (line, \"installed=no\\n\"))\n\t{\n\t  *installed = 0;\n\t}\n\n#undef  STR_LIBRARY_NAMES\n#define STR_LIBRARY_NAMES \"library_names=\"\n      else if (!*dlname && strncmp (line, STR_LIBRARY_NAMES,\n\t    sizeof (STR_LIBRARY_NAMES) - 1) == 0)\n\t{\n\t  char *last_libname;\n\t  errors += trim (dlname, &line[sizeof (STR_LIBRARY_NAMES) - 1]);\n\t  if (!errors\n\t      && *dlname\n\t      && (last_libname = strrchr (*dlname, ' ')) != 0)\n\t    {\n\t      last_libname = lt__strdup (last_libname + 1);\n\t      if (!last_libname)\n\t\t{\n\t\t  ++errors;\n\t\t  goto cleanup;\n\t\t}\n\t      MEMREASSIGN (*dlname, last_libname);\n\t    }\n\t}\n\n      if (errors)\n\tbreak;\n    }\ncleanup:\n  FREE (line);\n  return errors;\n}",
+      "lines": 119,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "try_dlopen": {
+      "start_point": [
+        1157,
+        0
+      ],
+      "end_point": [
+        1518,
+        1
+      ],
+      "content": "static int\ntry_dlopen (lt_dlhandle *phandle, const char *filename, const char *ext,\n\t    lt_dladvise advise)\n{\n  const char *\tsaved_error\t= 0;\n  char *\tarchive_name\t= 0;\n  char *\tcanonical\t= 0;\n  char *\tbase_name\t= 0;\n  char *\tdir\t\t= 0;\n  char *\tname\t\t= 0;\n  char *        attempt\t\t= 0;\n  int\t\terrors\t\t= 0;\n  lt_dlhandle\tnewhandle;\n\n  assert (phandle);\n  assert (*phandle == 0);\n\n#ifdef LT_DEBUG_LOADERS\n  fprintf (stderr, \"try_dlopen (%s, %s)\\n\",\n\t   filename ? filename : \"(null)\",\n\t   ext ? ext : \"(null)\");\n#endif\n\n  LT__GETERROR (saved_error);\n\n  /* dlopen self? */\n  if (!filename)\n    {\n      *phandle = (lt_dlhandle) lt__zalloc (sizeof (struct lt__handle));\n      if (*phandle == 0)\n\treturn 1;\n\n      newhandle\t= *phandle;\n\n      /* lt_dlclose()ing yourself is very bad!  Disallow it.  */\n      newhandle->info.is_resident = 1;\n\n      if (tryall_dlopen (&newhandle, 0, advise, 0) != 0)\n\t{\n\t  FREE (*phandle);\n\t  return 1;\n\t}\n\n      goto register_handle;\n    }\n\n  assert (filename && *filename);\n\n  if (ext)\n    {\n      attempt = MALLOC (char, LT_STRLEN (filename) + LT_STRLEN (ext) + 1);\n      if (!attempt)\n\treturn 1;\n\n      sprintf(attempt, \"%s%s\", filename, ext);\n    }\n  else\n    {\n      attempt = lt__strdup (filename);\n      if (!attempt)\n\treturn 1;\n    }\n\n  /* Doing this immediately allows internal functions to safely\n     assume only canonicalized paths are passed.  */\n  if (canonicalize_path (attempt, &canonical) != 0)\n    {\n      ++errors;\n      goto cleanup;\n    }\n\n  /* If the canonical module name is a path (relative or absolute)\n     then split it into a directory part and a name part.  */\n  base_name = strrchr (canonical, '/');\n  if (base_name)\n    {\n      size_t dirlen = (1+ base_name) - canonical;\n\n      dir = MALLOC (char, 1+ dirlen);\n      if (!dir)\n\t{\n\t  ++errors;\n\t  goto cleanup;\n\t}\n\n      strlcpy (dir, canonical, dirlen);\n      dir[dirlen] = LT_EOS_CHAR;\n\n      ++base_name;\n    }\n  else\n    MEMREASSIGN (base_name, canonical);\n\n  assert (base_name && *base_name);\n\n  ext = strrchr (base_name, '.');\n  if (!ext)\n    {\n      ext = base_name + LT_STRLEN (base_name);\n    }\n\n  /* extract the module name from the file name */\n  name = MALLOC (char, ext - base_name + 1);\n  if (!name)\n    {\n      ++errors;\n      goto cleanup;\n    }\n\n  /* canonicalize the module name */\n  {\n    int i;\n    for (i = 0; i < ext - base_name; ++i)\n      {\n\tif (isalnum ((unsigned char)(base_name[i])))\n\t  {\n\t    name[i] = base_name[i];\n\t  }\n\telse\n\t  {\n\t    name[i] = '_';\n\t  }\n      }\n    name[ext - base_name] = LT_EOS_CHAR;\n  }\n\n  /* Before trawling through the file system in search of a module,\n     check whether we are opening a preloaded module.  */\n  if (!dir)\n    {\n      const lt_dlvtable *vtable\t= lt_dlloader_find (\"lt_preopen\");\n\n      if (vtable)\n\t{\n\t  /* libprefix + name + \".\" + libext + NULL */\n\t  archive_name = MALLOC (char, strlen (libprefix) + LT_STRLEN (name) + strlen (libext) + 2);\n\t  *phandle = (lt_dlhandle) lt__zalloc (sizeof (struct lt__handle));\n\n\t  if ((*phandle == NULL) || (archive_name == NULL))\n\t    {\n\t      ++errors;\n\t      goto cleanup;\n\t    }\n\t  newhandle = *phandle;\n\n\t  /* Preloaded modules are always named according to their old\n\t     archive name.  */\n\t  if (strncmp(name, \"lib\", 3) == 0)\n\t    {\n\t      sprintf (archive_name, \"%s%s.%s\", libprefix, name + 3, libext);\n\t    }\n\t  else\n\t    {\n\t      sprintf (archive_name, \"%s.%s\", name, libext);\n\t    }\n\n\t  if (tryall_dlopen (&newhandle, archive_name, advise, vtable) == 0)\n\t    {\n\t      goto register_handle;\n\t    }\n\n\t  /* If we're still here, there was no matching preloaded module,\n\t     so put things back as we found them, and continue searching.  */\n\t  FREE (*phandle);\n\t  newhandle = NULL;\n\t}\n    }\n\n  /* If we are allowing only preloaded modules, and we didn't find\n     anything yet, give up on the search here.  */\n  if (advise && advise->try_preload_only)\n    {\n      goto cleanup;\n    }\n\n  /* Check whether we are opening a libtool module (.la extension).  */\n  if (ext && STREQ (ext, archive_ext))\n    {\n      /* this seems to be a libtool module */\n      FILE *\tfile\t = 0;\n      char *\tdlname\t = 0;\n      char *\told_name = 0;\n      char *\tlibdir\t = 0;\n      char *\tdeplibs\t = 0;\n\n      /* if we can't find the installed flag, it is probably an\n\t installed libtool archive, produced with an old version\n\t of libtool */\n      int\tinstalled = 1;\n\n      /* Now try to open the .la file.  If there is no directory name\n\t component, try to find it first in user_search_path and then other\n\t prescribed paths.  Otherwise (or in any case if the module was not\n\t yet found) try opening just the module name as passed.  */\n      if (!dir)\n\t{\n\t  const char *search_path = user_search_path;\n\n\t  if (search_path)\n\t    file = find_file (user_search_path, base_name, &dir);\n\n\t  if (!file)\n\t    {\n\t      search_path = getenv (LTDL_SEARCHPATH_VAR);\n\t      if (search_path)\n\t\tfile = find_file (search_path, base_name, &dir);\n\t    }\n\n#if defined LT_MODULE_PATH_VAR\n\t  if (!file)\n\t    {\n\t      search_path = getenv (LT_MODULE_PATH_VAR);\n\t      if (search_path)\n\t\tfile = find_file (search_path, base_name, &dir);\n\t    }\n#endif\n#if defined LT_DLSEARCH_PATH\n\t  if (!file && *sys_dlsearch_path)\n\t    {\n\t      file = find_file (sys_dlsearch_path, base_name, &dir);\n\t    }\n#endif\n\t}\n      else\n\t{\n\t  file = fopen (attempt, LT_READTEXT_MODE);\n\t}\n\n      /* If we didn't find the file by now, it really isn't there.  Set\n\t the status flag, and bail out.  */\n      if (!file)\n\t{\n\t  LT__SETERROR (FILE_NOT_FOUND);\n\t  ++errors;\n\t  goto cleanup;\n\t}\n\n      /* read the .la file */\n      if (parse_dotla_file(file, &dlname, &libdir, &deplibs,\n\t    &old_name, &installed) != 0)\n\t++errors;\n\n      fclose (file);\n\n      /* allocate the handle */\n      *phandle = (lt_dlhandle) lt__zalloc (sizeof (struct lt__handle));\n      if (*phandle == 0)\n\t++errors;\n\n      if (errors)\n\t{\n\t  FREE (dlname);\n\t  FREE (old_name);\n\t  FREE (libdir);\n\t  FREE (deplibs);\n\t  FREE (*phandle);\n\t  goto cleanup;\n\t}\n\n      assert (*phandle);\n\n      if (load_deplibs (*phandle, deplibs) == 0)\n\t{\n\t  newhandle = *phandle;\n\t  /* find_module may replace newhandle */\n\t  if (find_module (&newhandle, dir, libdir, dlname, old_name,\n\t\t\t   installed, advise))\n\t    {\n\t      unload_deplibs (*phandle);\n\t      ++errors;\n\t    }\n\t}\n      else\n\t{\n\t  ++errors;\n\t}\n\n      FREE (dlname);\n      FREE (old_name);\n      FREE (libdir);\n      FREE (deplibs);\n\n      if (errors)\n\t{\n\t  FREE (*phandle);\n\t  goto cleanup;\n\t}\n\n      if (*phandle != newhandle)\n\t{\n\t  unload_deplibs (*phandle);\n\t}\n    }\n  else\n    {\n      /* not a libtool module */\n      *phandle = (lt_dlhandle) lt__zalloc (sizeof (struct lt__handle));\n      if (*phandle == 0)\n\t{\n\t  ++errors;\n\t  goto cleanup;\n\t}\n\n      newhandle = *phandle;\n\n      /* If the module has no directory name component, try to find it\n\t first in user_search_path and then other prescribed paths.\n\t Otherwise (or in any case if the module was not yet found) try\n\t opening just the module name as passed.  */\n      if ((dir || (!find_handle (user_search_path, base_name,\n\t\t\t\t &newhandle, advise)\n\t\t   && !find_handle (getenv (LTDL_SEARCHPATH_VAR), base_name,\n\t\t\t\t    &newhandle, advise)\n#if defined LT_MODULE_PATH_VAR\n\t\t   && !find_handle (getenv (LT_MODULE_PATH_VAR), base_name,\n\t\t\t\t    &newhandle, advise)\n#endif\n#if defined LT_DLSEARCH_PATH\n\t\t   && !find_handle (sys_dlsearch_path, base_name,\n\t\t\t\t    &newhandle, advise)\n#endif\n\t\t   )))\n\t{\n\t  if (tryall_dlopen (&newhandle, attempt, advise, 0) != 0)\n\t    {\n\t      newhandle = NULL;\n\t    }\n\t}\n\n      if (!newhandle)\n\t{\n\t  FREE (*phandle);\n\t  ++errors;\n\t  goto cleanup;\n\t}\n    }\n\n register_handle:\n  MEMREASSIGN (*phandle, newhandle);\n\n  if ((*phandle)->info.ref_count == 0)\n    {\n      (*phandle)->info.ref_count\t= 1;\n      MEMREASSIGN ((*phandle)->info.name, name);\n\n      (*phandle)->next\t= handles;\n      handles\t\t= *phandle;\n    }\n\n  LT__SETERRORSTR (saved_error);\n\n cleanup:\n  FREE (dir);\n  FREE (attempt);\n  FREE (name);\n  if (!canonical)\t\t/* was MEMREASSIGNed */\n    FREE (base_name);\n  FREE (canonical);\n  FREE (archive_name);\n\n  return errors;\n}",
+      "lines": 362,
+      "depth": 18,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "file_not_found": {
+      "start_point": [
+        1523,
+        0
+      ],
+      "end_point": [
+        1533,
+        1
+      ],
+      "content": "static int\nfile_not_found (void)\n{\n  const char *error = 0;\n\n  LT__GETERROR (error);\n  if (error == LT__STRERROR (FILE_NOT_FOUND))\n    return 1;\n\n  return 0;\n}",
+      "lines": 11,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "has_library_ext": {
+      "start_point": [
+        1538,
+        0
+      ],
+      "end_point": [
+        1560,
+        1
+      ],
+      "content": "static int\nhas_library_ext (const char *filename)\n{\n  const char *\text     = 0;\n\n  assert (filename);\n\n  ext = strrchr (filename, '.');\n\n  if (ext && ((STREQ (ext, archive_ext))\n#if defined LT_MODULE_EXT\n\t     || (STREQ (ext, shlib_ext))\n#endif\n#if defined LT_SHARED_EXT\n\t     || (STREQ (ext, shared_ext))\n#endif\n    ))\n    {\n      return 1;\n    }\n\n  return 0;\n}",
+      "lines": 23,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "lt_dladvise_init": {
+      "start_point": [
+        1565,
+        0
+      ],
+      "end_point": [
+        1571,
+        1
+      ],
+      "content": "int\nlt_dladvise_init (lt_dladvise *padvise)\n{\n  lt_dladvise advise = (lt_dladvise) lt__zalloc (sizeof (struct lt__advise));\n  *padvise = advise;\n  return (advise ? 0 : 1);\n}",
+      "lines": 7,
+      "depth": 11,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dladvise_destroy": {
+      "start_point": [
+        1573,
+        0
+      ],
+      "end_point": [
+        1579,
+        1
+      ],
+      "content": "int\nlt_dladvise_destroy (lt_dladvise *padvise)\n{\n  if (padvise)\n    FREE(*padvise);\n  return 0;\n}",
+      "lines": 7,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dladvise_ext": {
+      "start_point": [
+        1581,
+        0
+      ],
+      "end_point": [
+        1587,
+        1
+      ],
+      "content": "int\nlt_dladvise_ext (lt_dladvise *padvise)\n{\n  assert (padvise && *padvise);\n  (*padvise)->try_ext = 1;\n  return 0;\n}",
+      "lines": 7,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dladvise_resident": {
+      "start_point": [
+        1589,
+        0
+      ],
+      "end_point": [
+        1595,
+        1
+      ],
+      "content": "int\nlt_dladvise_resident (lt_dladvise *padvise)\n{\n  assert (padvise && *padvise);\n  (*padvise)->is_resident = 1;\n  return 0;\n}",
+      "lines": 7,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dladvise_local": {
+      "start_point": [
+        1597,
+        0
+      ],
+      "end_point": [
+        1603,
+        1
+      ],
+      "content": "int\nlt_dladvise_local (lt_dladvise *padvise)\n{\n  assert (padvise && *padvise);\n  (*padvise)->is_symlocal = 1;\n  return 0;\n}",
+      "lines": 7,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dladvise_global": {
+      "start_point": [
+        1605,
+        0
+      ],
+      "end_point": [
+        1611,
+        1
+      ],
+      "content": "int\nlt_dladvise_global (lt_dladvise *padvise)\n{\n  assert (padvise && *padvise);\n  (*padvise)->is_symglobal = 1;\n  return 0;\n}",
+      "lines": 7,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dladvise_preload": {
+      "start_point": [
+        1613,
+        0
+      ],
+      "end_point": [
+        1619,
+        1
+      ],
+      "content": "int\nlt_dladvise_preload (lt_dladvise *padvise)\n{\n  assert (padvise && *padvise);\n  (*padvise)->try_preload_only = 1;\n  return 0;\n}",
+      "lines": 7,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlopen": {
+      "start_point": [
+        1622,
+        0
+      ],
+      "end_point": [
+        1626,
+        1
+      ],
+      "content": "lt_dlhandle\nlt_dlopen (const char *filename)\n{\n  return lt_dlopenadvise (filename, NULL);\n}",
+      "lines": 5,
+      "depth": 6,
+      "decorators": [
+        "lt_dlhandle"
+      ]
+    },
+    "lt_dlopenext": {
+      "start_point": [
+        1633,
+        0
+      ],
+      "end_point": [
+        1644,
+        1
+      ],
+      "content": "lt_dlhandle\nlt_dlopenext (const char *filename)\n{\n  lt_dlhandle\thandle\t= 0;\n  lt_dladvise\tadvise;\n\n  if (!lt_dladvise_init (&advise) && !lt_dladvise_ext (&advise))\n    handle = lt_dlopenadvise (filename, advise);\n\n  lt_dladvise_destroy (&advise);\n  return handle;\n}",
+      "lines": 12,
+      "depth": 10,
+      "decorators": [
+        "lt_dlhandle"
+      ]
+    },
+    "lt_dlopenadvise": {
+      "start_point": [
+        1647,
+        0
+      ],
+      "end_point": [
+        1716,
+        1
+      ],
+      "content": "lt_dlhandle\nlt_dlopenadvise (const char *filename, lt_dladvise advise)\n{\n  lt_dlhandle\thandle\t= 0;\n  int\t\terrors\t= 0;\n  const char *\tsaved_error\t= 0;\n\n  LT__GETERROR (saved_error);\n\n  /* Can't have symbols hidden and visible at the same time!  */\n  if (advise && advise->is_symlocal && advise->is_symglobal)\n    {\n      LT__SETERROR (CONFLICTING_FLAGS);\n      return 0;\n    }\n\n  if (!filename\n      || !advise\n      || !advise->try_ext\n      || has_library_ext (filename))\n    {\n      /* Just incase we missed a code path in try_dlopen() that reports\n\t an error, but forgot to reset handle... */\n      if (try_dlopen (&handle, filename, NULL, advise) != 0)\n\treturn 0;\n\n      return handle;\n    }\n  else if (filename && *filename)\n    {\n\n      /* First try appending ARCHIVE_EXT.  */\n      errors += try_dlopen (&handle, filename, archive_ext, advise);\n\n      /* If we found FILENAME, stop searching -- whether we were able to\n\t load the file as a module or not.  If the file exists but loading\n\t failed, it is better to return an error message here than to\n\t report FILE_NOT_FOUND when the alternatives (foo.so etc) are not\n\t in the module search path.  */\n      if (handle || ((errors > 0) && !file_not_found ()))\n\treturn handle;\n\n#if defined LT_MODULE_EXT\n      /* Try appending SHLIB_EXT.   */\n      LT__SETERRORSTR (saved_error);\n      errors = try_dlopen (&handle, filename, shlib_ext, advise);\n\n      /* As before, if the file was found but loading failed, return now\n\t with the current error message.  */\n      if (handle || ((errors > 0) && !file_not_found ()))\n\treturn handle;\n#endif\n\n#if defined LT_SHARED_EXT\n      /* Try appending SHARED_EXT.   */\n      LT__SETERRORSTR (saved_error);\n      errors = try_dlopen (&handle, filename, shared_ext, advise);\n\n      /* As before, if the file was found but loading failed, return now\n\t with the current error message.  */\n      if (handle || ((errors > 0) && !file_not_found ()))\n\treturn handle;\n#endif\n    }\n\n  /* Still here?  Then we really did fail to locate any of the file\n     names we tried.  */\n  LT__SETERROR (FILE_NOT_FOUND);\n  return 0;\n}",
+      "lines": 70,
+      "depth": 15,
+      "decorators": [
+        "lt_dlhandle"
+      ]
+    },
+    "lt_argz_insert": {
+      "start_point": [
+        1719,
+        0
+      ],
+      "end_point": [
+        1747,
+        1
+      ],
+      "content": "static int\nlt_argz_insert (char **pargz, size_t *pargz_len, char *before,\n\t\tconst char *entry)\n{\n  error_t error;\n\n  /* Prior to Sep 8, 2005, newlib had a bug where argz_insert(pargz,\n     pargz_len, NULL, entry) failed with EINVAL.  */\n  if (before)\n    error = argz_insert (pargz, pargz_len, before, entry);\n  else\n    error = argz_append (pargz, pargz_len, entry, 1 + strlen (entry));\n\n  if (error)\n    {\n      switch (error)\n\t{\n\tcase ENOMEM:\n\t  LT__SETERROR (NO_MEMORY);\n\t  break;\n\tdefault:\n\t  LT__SETERROR (UNKNOWN);\n\t  break;\n\t}\n      return 1;\n    }\n\n  return 0;\n}",
+      "lines": 29,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "lt_argz_insertinorder": {
+      "start_point": [
+        1749,
+        0
+      ],
+      "end_point": [
+        1768,
+        1
+      ],
+      "content": "static int\nlt_argz_insertinorder (char **pargz, size_t *pargz_len, const char *entry)\n{\n  char *before = 0;\n\n  assert (pargz);\n  assert (pargz_len);\n  assert (entry && *entry);\n\n  if (*pargz)\n    while ((before = argz_next (*pargz, *pargz_len, before)))\n      {\n\tint cmp = strcmp (entry, before);\n\n\tif (cmp < 0)  break;\n\tif (cmp == 0) return 0;\t/* No duplicates! */\n      }\n\n  return lt_argz_insert (pargz, pargz_len, before, entry);\n}",
+      "lines": 20,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "lt_argz_insertdir": {
+      "start_point": [
+        1770,
+        0
+      ],
+      "end_point": [
+        1831,
+        1
+      ],
+      "content": "static int\nlt_argz_insertdir (char **pargz, size_t *pargz_len, const char *dirnam,\n\t\t   struct dirent *dp)\n{\n  char   *buf\t    = 0;\n  size_t buf_len    = 0;\n  char   *end\t    = 0;\n  size_t end_offset = 0;\n  size_t dir_len    = 0;\n  int    errors\t    = 0;\n\n  assert (pargz);\n  assert (pargz_len);\n  assert (dp);\n\n  dir_len = LT_STRLEN (dirnam);\n  end     = dp->d_name + D_NAMLEN(dp);\n\n  /* Ignore version numbers.  */\n  {\n    char *p;\n    for (p = end; p -1 > dp->d_name; --p)\n      if (strchr (\".0123456789\", p[-1]) == 0)\n\tbreak;\n\n    if (*p == '.')\n      end = p;\n  }\n\n  /* Ignore filename extension.  */\n  {\n    char *p;\n    for (p = end -1; p > dp->d_name; --p)\n      if (*p == '.')\n\t{\n\t  end = p;\n\t  break;\n\t}\n  }\n\n  /* Prepend the directory name.  */\n  end_offset\t= end - dp->d_name;\n  buf_len\t= dir_len + 1+ end_offset;\n  buf\t\t= MALLOC (char, 1+ buf_len);\n  if (!buf)\n    return ++errors;\n\n  assert (buf);\n\n  strcpy  (buf, dirnam);\n  strcat  (buf, \"/\");\n  strncat (buf, dp->d_name, end_offset);\n  buf[buf_len] = LT_EOS_CHAR;\n\n  /* Try to insert (in order) into ARGZ/ARGZ_LEN.  */\n  if (lt_argz_insertinorder (pargz, pargz_len, buf) != 0)\n    ++errors;\n\n  FREE (buf);\n\n  return errors;\n}",
+      "lines": 62,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "list_files_by_dir": {
+      "start_point": [
+        1833,
+        0
+      ],
+      "end_point": [
+        1863,
+        1
+      ],
+      "content": "static int\nlist_files_by_dir (const char *dirnam, char **pargz, size_t *pargz_len)\n{\n  DIR\t*dirp\t  = 0;\n  int    errors\t  = 0;\n\n  assert (dirnam && *dirnam);\n  assert (pargz);\n  assert (pargz_len);\n  assert (dirnam[LT_STRLEN(dirnam) -1] != '/');\n\n  dirp = opendir (dirnam);\n  if (dirp)\n    {\n      struct dirent *dp\t= 0;\n\n      while ((dp = readdir (dirp)))\n\tif (dp->d_name[0] != '.')\n\t  if (lt_argz_insertdir (pargz, pargz_len, dirnam, dp))\n\t    {\n\t      ++errors;\n\t      break;\n\t    }\n\n      closedir (dirp);\n    }\n  else\n    ++errors;\n\n  return errors;\n}",
+      "lines": 31,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "foreachfile_callback": {
+      "start_point": [
+        1868,
+        0
+      ],
+      "end_point": [
+        1893,
+        1
+      ],
+      "content": "static int\nforeachfile_callback (char *dirname, void *data1, void *data2)\n{\n  file_worker_func *func = *(file_worker_func **) data1;\n\n  int\t  is_done  = 0;\n  char   *argz     = 0;\n  size_t  argz_len = 0;\n\n  if (list_files_by_dir (dirname, &argz, &argz_len) != 0)\n    goto cleanup;\n  if (!argz)\n    goto cleanup;\n\n  {\n    char *filename = 0;\n    while ((filename = argz_next (argz, argz_len, filename)))\n      if ((is_done = (*func) (filename, data2)))\n\tbreak;\n  }\n\n cleanup:\n  FREE (argz);\n\n  return is_done;\n}",
+      "lines": 26,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "lt_dlforeachfile": {
+      "start_point": [
+        1902,
+        0
+      ],
+      "end_point": [
+        1945,
+        1
+      ],
+      "content": "int\nlt_dlforeachfile (const char *search_path,\n\t\t  int (*func) (const char *filename, void *data),\n\t\t  void *data)\n{\n  int is_done = 0;\n  file_worker_func **fpptr = &func;\n\n  if (search_path)\n    {\n      /* If a specific path was passed, search only the directories\n\t listed in it.  */\n      is_done = foreach_dirinpath (search_path, 0,\n\t\t\t\t   foreachfile_callback, fpptr, data);\n    }\n  else\n    {\n      /* Otherwise search the default paths.  */\n      is_done = foreach_dirinpath (user_search_path, 0,\n\t\t\t\t   foreachfile_callback, fpptr, data);\n      if (!is_done)\n\t{\n\t  is_done = foreach_dirinpath (getenv(LTDL_SEARCHPATH_VAR), 0,\n\t\t\t\t       foreachfile_callback, fpptr, data);\n\t}\n\n#if defined LT_MODULE_PATH_VAR\n      if (!is_done)\n\t{\n\t  is_done = foreach_dirinpath (getenv(LT_MODULE_PATH_VAR), 0,\n\t\t\t\t       foreachfile_callback, fpptr, data);\n\t}\n#endif\n#if defined LT_DLSEARCH_PATH\n      if (!is_done && *sys_dlsearch_path)\n\t{\n\t  is_done = foreach_dirinpath (sys_dlsearch_path, 0,\n\t\t\t\t       foreachfile_callback, fpptr, data);\n\t}\n#endif\n    }\n\n  return is_done;\n}",
+      "lines": 44,
+      "depth": 14,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlclose": {
+      "start_point": [
+        1947,
+        0
+      ],
+      "end_point": [
+        2009,
+        1
+      ],
+      "content": "int\nlt_dlclose (lt_dlhandle handle)\n{\n  lt_dlhandle cur, last;\n  int errors = 0;\n\n  /* check whether the handle is valid */\n  last = cur = handles;\n  while (cur && handle != cur)\n    {\n      last = cur;\n      cur = cur->next;\n    }\n\n  if (!cur)\n    {\n      LT__SETERROR (INVALID_HANDLE);\n      ++errors;\n      goto done;\n    }\n\n  cur = handle;\n  cur->info.ref_count--;\n\n  /* Note that even with resident modules, we must track the ref_count\n     correctly incase the user decides to reset the residency flag\n     later (even though the API makes no provision for that at the\n     moment).  */\n  if (cur->info.ref_count <= 0 && !LT_DLIS_RESIDENT (cur))\n    {\n      lt_user_data data = cur->vtable->dlloader_data;\n\n      if (cur != handles)\n\t{\n\t  last->next = cur->next;\n\t}\n      else\n\t{\n\t  handles = cur->next;\n\t}\n\n      errors += cur->vtable->module_close (data, cur->module);\n      errors += unload_deplibs (handle);\n\n      /* It is up to the callers to free the data itself.  */\n      FREE (cur->interface_data);\n\n      FREE (cur->info.filename);\n      FREE (cur->info.name);\n      FREE (cur);\n\n      goto done;\n    }\n\n  if (LT_DLIS_RESIDENT (handle))\n    {\n      LT__SETERROR (CLOSE_RESIDENT_MODULE);\n      ++errors;\n    }\n\n done:\n  return errors;\n}",
+      "lines": 63,
+      "depth": 10,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlsym": {
+      "start_point": [
+        2011,
+        0
+      ],
+      "end_point": [
+        2104,
+        1
+      ],
+      "content": "void *\nlt_dlsym (lt_dlhandle place, const char *symbol)\n{\n  size_t lensym;\n  char\tlsym[LT_SYMBOL_LENGTH];\n  char\t*sym;\n  void *address;\n  lt_user_data data;\n  lt_dlhandle handle;\n\n  if (!place)\n    {\n      LT__SETERROR (INVALID_HANDLE);\n      return 0;\n    }\n\n  handle = place;\n\n  if (!symbol)\n    {\n      LT__SETERROR (SYMBOL_NOT_FOUND);\n      return 0;\n    }\n\n  lensym = LT_STRLEN (symbol) + LT_STRLEN (handle->vtable->sym_prefix)\n\t\t\t\t\t+ LT_STRLEN (handle->info.name);\n\n  if (lensym + LT_SYMBOL_OVERHEAD < LT_SYMBOL_LENGTH)\n    {\n      sym = lsym;\n    }\n  else\n    {\n      sym = MALLOC (char, lensym + LT_SYMBOL_OVERHEAD + 1);\n      if (!sym)\n\t{\n\t  LT__SETERROR (BUFFER_OVERFLOW);\n\t  return 0;\n\t}\n    }\n\n  data = handle->vtable->dlloader_data;\n  if (handle->info.name)\n    {\n      const char *saved_error;\n\n      LT__GETERROR (saved_error);\n\n      /* this is a libtool module */\n      if (handle->vtable->sym_prefix)\n\t{\n\t  strcpy(sym, handle->vtable->sym_prefix);\n\t  strcat(sym, handle->info.name);\n\t}\n      else\n\t{\n\t  strcpy(sym, handle->info.name);\n\t}\n\n      strcat(sym, \"_LTX_\");\n      strcat(sym, symbol);\n\n      /* try \"modulename_LTX_symbol\" */\n      address = handle->vtable->find_sym (data, handle->module, sym);\n      if (address)\n\t{\n\t  if (sym != lsym)\n\t    {\n\t      FREE (sym);\n\t    }\n\t  return address;\n\t}\n      LT__SETERRORSTR (saved_error);\n    }\n\n  /* otherwise try \"symbol\" */\n  if (handle->vtable->sym_prefix)\n    {\n      strcpy(sym, handle->vtable->sym_prefix);\n      strcat(sym, symbol);\n    }\n  else\n    {\n      strcpy(sym, symbol);\n    }\n\n  address = handle->vtable->find_sym (data, handle->module, sym);\n  if (sym != lsym)\n    {\n      FREE (sym);\n    }\n\n  return address;\n}",
+      "lines": 94,
+      "depth": 12,
+      "decorators": [
+        "void",
+        "*\nlt_dlsym (lt_dlhandle place, const char *symbol)",
+        "*"
+      ]
+    },
+    "lt_dlerror": {
+      "start_point": [
+        2106,
+        0
+      ],
+      "end_point": [
+        2115,
+        1
+      ],
+      "content": "const char *\nlt_dlerror (void)\n{\n  const char *error;\n\n  LT__GETERROR (error);\n  LT__SETERRORSTR (0);\n\n  return error;\n}",
+      "lines": 10,
+      "depth": 6,
+      "decorators": [
+        "const",
+        "const",
+        "char",
+        "*\nlt_dlerror (void)",
+        "*"
+      ]
+    },
+    "lt_dlpath_insertdir": {
+      "start_point": [
+        2117,
+        0
+      ],
+      "end_point": [
+        2184,
+        1
+      ],
+      "content": "static int\nlt_dlpath_insertdir (char **ppath, char *before, const char *dir)\n{\n  int    errors\t\t= 0;\n  char  *canonical\t= 0;\n  char  *argz\t\t= 0;\n  size_t argz_len\t= 0;\n\n  assert (ppath);\n  assert (dir && *dir);\n\n  if (canonicalize_path (dir, &canonical) != 0)\n    {\n      ++errors;\n      goto cleanup;\n    }\n\n  assert (canonical && *canonical);\n\n  /* If *PPATH is empty, set it to DIR.  */\n  if (*ppath == 0)\n    {\n      assert (!before);\t\t/* BEFORE cannot be set without PPATH.  */\n      assert (dir);\t\t/* Without DIR, don't call this function!  */\n\n      *ppath = lt__strdup (dir);\n      if (*ppath == 0)\n\t++errors;\n\n      goto cleanup;\n    }\n\n  assert (ppath && *ppath);\n\n  if (argzize_path (*ppath, &argz, &argz_len) != 0)\n    {\n      ++errors;\n      goto cleanup;\n    }\n\n  /* Convert BEFORE into an equivalent offset into ARGZ.  This only works\n     if *PPATH is already canonicalized, and hence does not change length\n     with respect to ARGZ.  We canonicalize each entry as it is added to\n     the search path, and don't call this function with (uncanonicalized)\n     user paths, so this is a fair assumption.  */\n  if (before)\n    {\n      assert (*ppath <= before);\n      assert ((int) (before - *ppath) <= (int) strlen (*ppath));\n\n      before = before - *ppath + argz;\n    }\n\n  if (lt_argz_insert (&argz, &argz_len, before, dir) != 0)\n    {\n      ++errors;\n      goto cleanup;\n    }\n\n  argz_stringify (argz, argz_len, LT_PATHSEP_CHAR);\n  MEMREASSIGN(*ppath, argz);\n\n cleanup:\n  FREE (argz);\n  FREE (canonical);\n\n  return errors;\n}",
+      "lines": 68,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "lt_dladdsearchdir": {
+      "start_point": [
+        2186,
+        0
+      ],
+      "end_point": [
+        2198,
+        1
+      ],
+      "content": "int\nlt_dladdsearchdir (const char *search_dir)\n{\n  int errors = 0;\n\n  if (search_dir && *search_dir)\n    {\n      if (lt_dlpath_insertdir (&user_search_path, 0, search_dir) != 0)\n\t++errors;\n    }\n\n  return errors;\n}",
+      "lines": 13,
+      "depth": 11,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlinsertsearchdir": {
+      "start_point": [
+        2200,
+        0
+      ],
+      "end_point": [
+        2225,
+        1
+      ],
+      "content": "int\nlt_dlinsertsearchdir (const char *before, const char *search_dir)\n{\n  int errors = 0;\n\n  if (before)\n    {\n      if ((before < user_search_path)\n\t  || (before >= user_search_path + LT_STRLEN (user_search_path)))\n\t{\n\t  LT__SETERROR (INVALID_POSITION);\n\t  return 1;\n\t}\n    }\n\n  if (search_dir && *search_dir)\n    {\n      if (lt_dlpath_insertdir (&user_search_path,\n\t\t\t       (char *) before, search_dir) != 0)\n\t{\n\t  ++errors;\n\t}\n    }\n\n  return errors;\n}",
+      "lines": 26,
+      "depth": 13,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlsetsearchpath": {
+      "start_point": [
+        2227,
+        0
+      ],
+      "end_point": [
+        2243,
+        1
+      ],
+      "content": "int\nlt_dlsetsearchpath (const char *search_path)\n{\n  int   errors\t    = 0;\n\n  FREE (user_search_path);\n\n  if (!search_path || !LT_STRLEN (search_path))\n    {\n      return errors;\n    }\n\n  if (canonicalize_path (search_path, &user_search_path) != 0)\n    ++errors;\n\n  return errors;\n}",
+      "lines": 17,
+      "depth": 9,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlgetsearchpath": {
+      "start_point": [
+        2245,
+        0
+      ],
+      "end_point": [
+        2253,
+        1
+      ],
+      "content": "const char *\nlt_dlgetsearchpath (void)\n{\n  const char *saved_path;\n\n  saved_path = user_search_path;\n\n  return saved_path;\n}",
+      "lines": 9,
+      "depth": 6,
+      "decorators": [
+        "const",
+        "const",
+        "char",
+        "*\nlt_dlgetsearchpath (void)",
+        "*"
+      ]
+    },
+    "lt_dlmakeresident": {
+      "start_point": [
+        2255,
+        0
+      ],
+      "end_point": [
+        2271,
+        1
+      ],
+      "content": "int\nlt_dlmakeresident (lt_dlhandle handle)\n{\n  int errors = 0;\n\n  if (!handle)\n    {\n      LT__SETERROR (INVALID_HANDLE);\n      ++errors;\n    }\n  else\n    {\n      handle->info.is_resident = 1;\n    }\n\n  return errors;\n}",
+      "lines": 17,
+      "depth": 9,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlisresident": {
+      "start_point": [
+        2273,
+        0
+      ],
+      "end_point": [
+        2283,
+        1
+      ],
+      "content": "int\nlt_dlisresident\t(lt_dlhandle handle)\n{\n  if (!handle)\n    {\n      LT__SETERROR (INVALID_HANDLE);\n      return -1;\n    }\n\n  return LT_DLIS_RESIDENT (handle);\n}",
+      "lines": 11,
+      "depth": 8,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlinterface_register": {
+      "start_point": [
+        2294,
+        0
+      ],
+      "end_point": [
+        2311,
+        1
+      ],
+      "content": "lt_dlinterface_id\nlt_dlinterface_register (const char *id_string, lt_dlhandle_interface *iface)\n{\n  lt__interface_id *interface_id = (lt__interface_id *) lt__malloc (sizeof *interface_id);\n\n  /* If lt__malloc fails, it will LT__SETERROR (NO_MEMORY), which\n     can then be detected with lt_dlerror() if we return 0.  */\n  if (interface_id)\n    {\n      interface_id->id_string = lt__strdup (id_string);\n      if (!interface_id->id_string)\n\tFREE (interface_id);\n      else\n\tinterface_id->iface = iface;\n    }\n\n  return (lt_dlinterface_id) interface_id;\n}",
+      "lines": 18,
+      "depth": 10,
+      "decorators": [
+        "lt_dlinterface_id"
+      ]
+    },
+    "lt_dlinterface_free": {
+      "start_point": [
+        2313,
+        0
+      ],
+      "end_point": [
+        2318,
+        1
+      ],
+      "content": "void lt_dlinterface_free (lt_dlinterface_id key)\n{\n  lt__interface_id *interface_id = (lt__interface_id *)key;\n  FREE (interface_id->id_string);\n  FREE (interface_id);\n}",
+      "lines": 6,
+      "depth": 8,
+      "decorators": [
+        "void"
+      ]
+    },
+    "lt_dlcaller_set_data": {
+      "start_point": [
+        2320,
+        0
+      ],
+      "end_point": [
+        2365,
+        1
+      ],
+      "content": "void *\nlt_dlcaller_set_data (lt_dlinterface_id key, lt_dlhandle handle, void *data)\n{\n  int n_elements = 0;\n  void *stale = (void *) 0;\n  lt_dlhandle cur = handle;\n  int i;\n\n  if (cur->interface_data)\n    while (cur->interface_data[n_elements].key)\n      ++n_elements;\n\n  for (i = 0; i < n_elements; ++i)\n    {\n      if (cur->interface_data[i].key == key)\n\t{\n\t  stale = cur->interface_data[i].data;\n\t  break;\n\t}\n    }\n\n  /* Ensure that there is enough room in this handle's interface_data\n     array to accept a new element (and an empty end marker).  */\n  if (i == n_elements)\n    {\n      lt_interface_data *temp\n\t= REALLOC (lt_interface_data, cur->interface_data, 2+ n_elements);\n\n      if (!temp)\n\t{\n\t  stale = 0;\n\t  goto done;\n\t}\n\n      cur->interface_data = temp;\n\n      /* We only need this if we needed to allocate a new interface_data.  */\n      cur->interface_data[i].key\t= key;\n      cur->interface_data[1+ i].key\t= 0;\n    }\n\n  cur->interface_data[i].data = data;\n\n done:\n  return stale;\n}",
+      "lines": 46,
+      "depth": 12,
+      "decorators": [
+        "void",
+        "*\nlt_dlcaller_set_data (lt_dlinterface_id key, lt_dlhandle handle, void *data)",
+        "*"
+      ]
+    },
+    "lt_dlcaller_get_data": {
+      "start_point": [
+        2367,
+        0
+      ],
+      "end_point": [
+        2388,
+        1
+      ],
+      "content": "void *\nlt_dlcaller_get_data (lt_dlinterface_id key, lt_dlhandle handle)\n{\n  void *result = (void *) 0;\n  lt_dlhandle cur = handle;\n\n  /* Locate the index of the element with a matching KEY.  */\n  if (cur->interface_data)\n    {\n      int i;\n      for (i = 0; cur->interface_data[i].key; ++i)\n\t{\n\t  if (cur->interface_data[i].key == key)\n\t    {\n\t      result = cur->interface_data[i].data;\n\t      break;\n\t    }\n\t}\n    }\n\n  return result;\n}",
+      "lines": 22,
+      "depth": 14,
+      "decorators": [
+        "void",
+        "*\nlt_dlcaller_get_data (lt_dlinterface_id key, lt_dlhandle handle)",
+        "*"
+      ]
+    },
+    "lt_dlgetinfo": {
+      "start_point": [
+        2390,
+        0
+      ],
+      "end_point": [
+        2400,
+        1
+      ],
+      "content": "const lt_dlinfo *\nlt_dlgetinfo (lt_dlhandle handle)\n{\n  if (!handle)\n    {\n      LT__SETERROR (INVALID_HANDLE);\n      return 0;\n    }\n\n  return &(handle->info);\n}",
+      "lines": 11,
+      "depth": 8,
+      "decorators": [
+        "const",
+        "const",
+        "lt_dlinfo",
+        "*\nlt_dlgetinfo (lt_dlhandle handle)",
+        "*"
+      ]
+    },
+    "lt_dlhandle_iterate": {
+      "start_point": [
+        2403,
+        0
+      ],
+      "end_point": [
+        2424,
+        1
+      ],
+      "content": "lt_dlhandle\nlt_dlhandle_iterate (lt_dlinterface_id iface, lt_dlhandle place)\n{\n  lt_dlhandle handle = place;\n  lt__interface_id *iterator = (lt__interface_id *) iface;\n\n  assert (iface); /* iface is a required argument */\n\n  if (!handle)\n    handle = handles;\n  else\n    handle = handle->next;\n\n  /* advance while the interface check fails */\n  while (handle && iterator->iface\n\t && ((*iterator->iface) (handle, iterator->id_string) != 0))\n    {\n      handle = handle->next;\n    }\n\n  return handle;\n}",
+      "lines": 22,
+      "depth": 12,
+      "decorators": [
+        "lt_dlhandle"
+      ]
+    },
+    "lt_dlhandle_fetch": {
+      "start_point": [
+        2427,
+        0
+      ],
+      "end_point": [
+        2442,
+        1
+      ],
+      "content": "lt_dlhandle\nlt_dlhandle_fetch (lt_dlinterface_id iface, const char *module_name)\n{\n  lt_dlhandle handle = 0;\n\n  assert (iface); /* iface is a required argument */\n\n  while ((handle = lt_dlhandle_iterate (iface, handle)))\n    {\n      lt_dlhandle cur = handle;\n      if (cur && cur->info.name && STREQ (cur->info.name, module_name))\n\tbreak;\n    }\n\n  return handle;\n}",
+      "lines": 16,
+      "depth": 12,
+      "decorators": [
+        "lt_dlhandle"
+      ]
+    },
+    "lt_dlhandle_map": {
+      "start_point": [
+        2445,
+        0
+      ],
+      "end_point": [
+        2470,
+        1
+      ],
+      "content": "int\nlt_dlhandle_map (lt_dlinterface_id iface,\n\t\t int (*func) (lt_dlhandle handle, void *data), void *data)\n{\n  lt__interface_id *iterator = (lt__interface_id *) iface;\n  lt_dlhandle cur = handles;\n\n  assert (iface); /* iface is a required argument */\n\n  while (cur)\n    {\n      int errorcode = 0;\n\n      /* advance while the interface check fails */\n      while (cur && iterator->iface\n\t     && ((*iterator->iface) (cur, iterator->id_string) != 0))\n\t{\n\t  cur = cur->next;\n\t}\n\n      if ((errorcode = (*func) (cur, data)) != 0)\n\treturn errorcode;\n    }\n\n  return 0;\n}",
+      "lines": 26,
+      "depth": 14,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/ltdl.h": {},
+  "libtool/libtool-2.4.6/libltdl/lt_dlloader.c": {
+    "loader_callback": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        56,
+        1
+      ],
+      "content": "static void *\nloader_callback (SList *item, void *userdata)\n{\n  const lt_dlvtable *vtable = (const lt_dlvtable *) item->userdata;\n  const char *\t    name    = (const char *) userdata;\n\n  assert (vtable);\n\n  return STREQ (vtable->name, name) ? (void *) item : NULL;\n}",
+      "lines": 10,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nloader_callback (SList *item, void *userdata)",
+        "*"
+      ]
+    },
+    "lt_dlloader_add": {
+      "start_point": [
+        61,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "content": "int\nlt_dlloader_add (const lt_dlvtable *vtable)\n{\n  SList *item;\n\n  if ((vtable == 0)\t/* diagnose invalid vtable fields */\n      || (vtable->module_open == 0)\n      || (vtable->module_close == 0)\n      || (vtable->find_sym == 0)\n      || ((vtable->priority != LT_DLLOADER_PREPEND) &&\n\t  (vtable->priority != LT_DLLOADER_APPEND)))\n    {\n      LT__SETERROR (INVALID_LOADER);\n      return RETURN_FAILURE;\n    }\n\n  item = slist_box (vtable);\n  if (!item)\n    {\n      (*lt__alloc_die) ();\n\n      /* Let the caller know something went wrong if lt__alloc_die\n\t doesn't abort.  */\n      return RETURN_FAILURE;\n    }\n\n  if (vtable->priority == LT_DLLOADER_PREPEND)\n    {\n      loaders = slist_cons (item, loaders);\n    }\n  else\n    {\n      assert (vtable->priority == LT_DLLOADER_APPEND);\n      loaders = slist_concat (loaders, item);\n    }\n\n  return RETURN_SUCCESS;\n}",
+      "lines": 38,
+      "depth": 12,
+      "decorators": [
+        "int"
+      ]
+    },
+    "loader_dump_callback": {
+      "start_point": [
+        101,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "content": "static void *\nloader_dump_callback (SList *item, void *userdata)\n{\n  const lt_dlvtable *vtable = (const lt_dlvtable *) item->userdata;\n  fprintf (stderr, \", %s\", (vtable && vtable->name) ? vtable->name : \"(null)\");\n  return 0;\n}",
+      "lines": 7,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nloader_dump_callback (SList *item, void *userdata)",
+        "*"
+      ]
+    },
+    "lt_dlloader_dump": {
+      "start_point": [
+        109,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "content": "void\nlt_dlloader_dump (void)\n{\n  fprintf (stderr, \"loaders: \");\n  if (!loaders)\n    {\n      fprintf (stderr, \"(empty)\");\n    }\n  else\n    {\n      const lt_dlvtable *head = (const lt_dlvtable *) loaders->userdata;\n      fprintf (stderr, \"%s\", (head && head->name) ? head->name : \"(null)\");\n      if (slist_tail (loaders))\n\tslist_foreach (slist_tail (loaders), loader_dump_callback, NULL);\n    }\n  fprintf (stderr, \"\\n\");\n}",
+      "lines": 17,
+      "depth": 12,
+      "decorators": [
+        "void"
+      ]
+    },
+    "lt_dlloader_next": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        135,
+        1
+      ],
+      "content": "lt_dlloader\nlt_dlloader_next (lt_dlloader loader)\n{\n  SList *item = (SList *) loader;\n  return (lt_dlloader) (item ? item->next : loaders);\n}",
+      "lines": 6,
+      "depth": 8,
+      "decorators": [
+        "lt_dlloader"
+      ]
+    },
+    "lt_dlloader_get": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        143,
+        1
+      ],
+      "content": "const lt_dlvtable *\nlt_dlloader_get\t(lt_dlloader loader)\n{\n  return (const lt_dlvtable *) (loader ? ((SList *) loader)->userdata : NULL);\n}",
+      "lines": 5,
+      "depth": 12,
+      "decorators": [
+        "const",
+        "const",
+        "lt_dlvtable",
+        "*\nlt_dlloader_get\t(lt_dlloader loader)",
+        "*"
+      ]
+    },
+    "lt_dlloader_remove": {
+      "start_point": [
+        152,
+        0
+      ],
+      "end_point": [
+        203,
+        1
+      ],
+      "content": "lt_dlvtable *\nlt_dlloader_remove (const char *name)\n{\n  const lt_dlvtable *\tvtable\t= lt_dlloader_find (name);\n  static const char\tid_string[] = \"lt_dlloader_remove\";\n  lt_dlinterface_id\tiface;\n  lt_dlhandle\t\thandle = 0;\n  int\t\t\tin_use = 0;\n  int\t\t\tin_use_by_resident = 0;\n\n  if (!vtable)\n    {\n      LT__SETERROR (INVALID_LOADER);\n      return 0;\n    }\n\n  /* Fail if there are any open modules that use this loader.  */\n  iface = lt_dlinterface_register (id_string, NULL);\n  while ((handle = lt_dlhandle_iterate (iface, handle)))\n    {\n      lt_dlhandle cur = handle;\n      if (cur->vtable == vtable)\n\t{\n\t  in_use = 1;\n\t  if (lt_dlisresident (handle))\n\t    in_use_by_resident = 1;\n\t}\n    }\n  lt_dlinterface_free (iface);\n  if (in_use)\n    {\n      if (!in_use_by_resident)\n\tLT__SETERROR (REMOVE_LOADER);\n      return 0;\n    }\n\n  /* Call the loader finalisation function.  */\n  if (vtable && vtable->dlloader_exit)\n    {\n      if ((*vtable->dlloader_exit) (vtable->dlloader_data) != 0)\n\t{\n\t  /* If there is an exit function, and it returns non-zero\n\t     then it must set an error, and we will not remove it\n\t     from the list.  */\n\t  return 0;\n\t}\n    }\n\n  /* If we got this far, remove the loader from our global list.  */\n  return (lt_dlvtable *)\n      slist_unbox ((SList *) slist_remove (&loaders, loader_callback, (void *) name));\n}",
+      "lines": 52,
+      "depth": 13,
+      "decorators": [
+        "lt_dlvtable",
+        "*\nlt_dlloader_remove (const char *name)",
+        "*"
+      ]
+    },
+    "lt_dlloader_find": {
+      "start_point": [
+        206,
+        0
+      ],
+      "end_point": [
+        210,
+        1
+      ],
+      "content": "const lt_dlvtable *\nlt_dlloader_find (const char *name)\n{\n  return lt_dlloader_get (slist_find (loaders, loader_callback, (void *) name));\n}",
+      "lines": 5,
+      "depth": 11,
+      "decorators": [
+        "const",
+        "const",
+        "lt_dlvtable",
+        "*\nlt_dlloader_find (const char *name)",
+        "*"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt_error.c": {
+    "lt_dladderror": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        64,
+        1
+      ],
+      "content": "int\nlt_dladderror (const char *diagnostic)\n{\n  int\t\terrindex = 0;\n  int\t\tresult\t = -1;\n  const char  **temp     = (const char **) 0;\n\n  assert (diagnostic);\n\n  errindex = errorcount - LT_ERROR_MAX;\n  temp = REALLOC (const char *, user_error_strings, 1 + errindex);\n  if (temp)\n    {\n      user_error_strings\t\t= temp;\n      user_error_strings[errindex]\t= diagnostic;\n      result\t\t\t\t= errorcount++;\n    }\n\n  return result;\n}",
+      "lines": 20,
+      "depth": 9,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlseterror": {
+      "start_point": [
+        66,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "content": "int\nlt_dlseterror (int errindex)\n{\n  int\t\terrors\t = 0;\n\n  if (errindex >= errorcount || errindex < 0)\n    {\n      /* Ack!  Error setting the error message! */\n      LT__SETERROR (INVALID_ERRORCODE);\n      ++errors;\n    }\n  else if (errindex < LT_ERROR_MAX)\n    {\n      /* No error setting the error message! */\n      LT__SETERRORSTR (error_strings[errindex]);\n    }\n  else\n    {\n      /* No error setting the error message! */\n      LT__SETERRORSTR (user_error_strings[errindex - LT_ERROR_MAX]);\n    }\n\n  return errors;\n}",
+      "lines": 24,
+      "depth": 11,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt__error_string": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        98,
+        1
+      ],
+      "content": "const char *\nlt__error_string (int errorcode)\n{\n  assert (errorcode >= 0);\n  assert (errorcode < LT_ERROR_MAX);\n\n  return error_strings[errorcode];\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "const",
+        "const",
+        "char",
+        "*\nlt__error_string (int errorcode)",
+        "*"
+      ]
+    },
+    "lt__get_last_error": {
+      "start_point": [
+        100,
+        0
+      ],
+      "end_point": [
+        104,
+        1
+      ],
+      "content": "const char *\nlt__get_last_error (void)\n{\n  return last_error;\n}",
+      "lines": 5,
+      "depth": 6,
+      "decorators": [
+        "const",
+        "const",
+        "char",
+        "*\nlt__get_last_error (void)",
+        "*"
+      ]
+    },
+    "lt__set_last_error": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        110,
+        1
+      ],
+      "content": "const char *\nlt__set_last_error (const char *errormsg)\n{\n  return last_error = errormsg;\n}",
+      "lines": 5,
+      "depth": 7,
+      "decorators": [
+        "const",
+        "const",
+        "char",
+        "*\nlt__set_last_error (const char *errormsg)",
+        "*"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt__alloc.c": {
+    "alloc_die_default": {
+      "start_point": [
+        42,
+        0
+      ],
+      "end_point": [
+        47,
+        1
+      ],
+      "content": "static void\nalloc_die_default (void)\n{\n  fprintf (stderr, \"Out of memory.\\n\");\n  exit (EXIT_FAILURE);\n}",
+      "lines": 6,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "void"
+      ]
+    },
+    "lt__malloc": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        58,
+        1
+      ],
+      "content": "void *\nlt__malloc (size_t n)\n{\n  void *mem;\n\n  if (! (mem = malloc (n)))\n    (*lt__alloc_die) ();\n\n  return mem;\n}",
+      "lines": 10,
+      "depth": 10,
+      "decorators": [
+        "void",
+        "*\nlt__malloc (size_t n)",
+        "*"
+      ]
+    },
+    "lt__zalloc": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        69,
+        1
+      ],
+      "content": "void *\nlt__zalloc (size_t n)\n{\n  void *mem;\n\n  if ((mem = lt__malloc (n)))\n    memset (mem, 0, n);\n\n  return mem;\n}",
+      "lines": 10,
+      "depth": 9,
+      "decorators": [
+        "void",
+        "*\nlt__zalloc (size_t n)",
+        "*"
+      ]
+    },
+    "lt__realloc": {
+      "start_point": [
+        71,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "content": "void *\nlt__realloc (void *mem, size_t n)\n{\n  if (! (mem = realloc (mem, n)))\n    (*lt__alloc_die) ();\n\n  return mem;\n}",
+      "lines": 8,
+      "depth": 10,
+      "decorators": [
+        "void",
+        "*\nlt__realloc (void *mem, size_t n)",
+        "*"
+      ]
+    },
+    "lt__memdup": {
+      "start_point": [
+        80,
+        0
+      ],
+      "end_point": [
+        89,
+        1
+      ],
+      "content": "void *\nlt__memdup (void const *mem, size_t n)\n{\n  void *newmem;\n\n  if ((newmem = lt__malloc (n)))\n    return memcpy (newmem, mem, n);\n\n  return 0;\n}",
+      "lines": 10,
+      "depth": 9,
+      "decorators": [
+        "void",
+        "*\nlt__memdup (void const *mem, size_t n)",
+        "*"
+      ]
+    },
+    "lt__strdup": {
+      "start_point": [
+        91,
+        0
+      ],
+      "end_point": [
+        95,
+        1
+      ],
+      "content": "char *\nlt__strdup (const char *string)\n{\n  return (char *) lt__memdup (string, strlen (string) +1);\n}",
+      "lines": 5,
+      "depth": 10,
+      "decorators": [
+        "char",
+        "*\nlt__strdup (const char *string)",
+        "*"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt__argz.c": {
+    "argz_append": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "content": "error_t\nargz_append (char **pargz, size_t *pargz_len, const char *buf, size_t buf_len)\n{\n  size_t argz_len;\n  char  *argz;\n\n  assert (pargz);\n  assert (pargz_len);\n  assert ((*pargz && *pargz_len) || (!*pargz && !*pargz_len));\n\n  /* If nothing needs to be appended, no more work is required.  */\n  if (buf_len == 0)\n    return 0;\n\n  /* Ensure there is enough room to append BUF_LEN.  */\n  argz_len = *pargz_len + buf_len;\n  argz = (char *) realloc (*pargz, argz_len);\n  if (!argz)\n    return ENOMEM;\n\n  /* Copy characters from BUF after terminating '\\0' in ARGZ.  */\n  memcpy (argz + *pargz_len, buf, buf_len);\n\n  /* Assign new values.  */\n  *pargz = argz;\n  *pargz_len = argz_len;\n\n  return 0;\n}",
+      "lines": 29,
+      "depth": 11,
+      "decorators": [
+        "error_t"
+      ]
+    },
+    "argz_create_sep": {
+      "start_point": [
+        78,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "content": "error_t\nargz_create_sep (const char *str, int delim, char **pargz, size_t *pargz_len)\n{\n  size_t argz_len;\n  char *argz = 0;\n\n  assert (str);\n  assert (pargz);\n  assert (pargz_len);\n\n  /* Make a copy of STR, but replacing each occurrence of\n     DELIM with '\\0'.  */\n  argz_len = 1+ strlen (str);\n  if (argz_len)\n    {\n      const char *p;\n      char *q;\n\n      argz = (char *) malloc (argz_len);\n      if (!argz)\n\treturn ENOMEM;\n\n      for (p = str, q = argz; *p != EOS_CHAR; ++p)\n\t{\n\t  if (*p == delim)\n\t    {\n\t      /* Ignore leading delimiters, and fold consecutive\n\t\t delimiters in STR into a single '\\0' in ARGZ.  */\n\t      if ((q > argz) && (q[-1] != EOS_CHAR))\n\t\t*q++ = EOS_CHAR;\n\t      else\n\t\t--argz_len;\n\t    }\n\t  else\n\t    *q++ = *p;\n\t}\n      /* Copy terminating EOS_CHAR.  */\n      *q = *p;\n    }\n\n  /* If ARGZ_LEN has shrunk to nothing, release ARGZ's memory.  */\n  if (!argz_len)\n    argz = (free (argz), (char *) 0);\n\n  /* Assign new values.  */\n  *pargz = argz;\n  *pargz_len = argz_len;\n\n  return 0;\n}",
+      "lines": 50,
+      "depth": 15,
+      "decorators": [
+        "error_t"
+      ]
+    },
+    "argz_insert": {
+      "start_point": [
+        130,
+        0
+      ],
+      "end_point": [
+        173,
+        1
+      ],
+      "content": "error_t\nargz_insert (char **pargz, size_t *pargz_len, char *before, const char *entry)\n{\n  assert (pargz);\n  assert (pargz_len);\n  assert (entry && *entry);\n\n  /* No BEFORE address indicates ENTRY should be inserted after the\n     current last element.  */\n  if (!before)\n    return argz_append (pargz, pargz_len, entry, 1+ strlen (entry));\n\n  /* This probably indicates a programmer error, but to preserve\n     semantics, scan back to the start of an entry if BEFORE points\n     into the middle of it.  */\n  while ((before > *pargz) && (before[-1] != EOS_CHAR))\n    --before;\n\n  {\n    size_t entry_len\t= 1+ strlen (entry);\n    size_t argz_len\t= *pargz_len + entry_len;\n    size_t offset\t= before - *pargz;\n    char   *argz\t= (char *) realloc (*pargz, argz_len);\n\n    if (!argz)\n      return ENOMEM;\n\n    /* Make BEFORE point to the equivalent offset in ARGZ that it\n       used to have in *PARGZ incase realloc() moved the block.  */\n    before = argz + offset;\n\n    /* Move the ARGZ entries starting at BEFORE up into the new\n       space at the end -- making room to copy ENTRY into the\n       resulting gap.  */\n    memmove (before + entry_len, before, *pargz_len - offset);\n    memcpy  (before, entry, entry_len);\n\n    /* Assign new values.  */\n    *pargz = argz;\n    *pargz_len = argz_len;\n  }\n\n  return 0;\n}",
+      "lines": 44,
+      "depth": 10,
+      "decorators": [
+        "error_t"
+      ]
+    },
+    "argz_next": {
+      "start_point": [
+        176,
+        0
+      ],
+      "end_point": [
+        207,
+        1
+      ],
+      "content": "char *\nargz_next (char *argz, size_t argz_len, const char *entry)\n{\n  assert ((argz && argz_len) || (!argz && !argz_len));\n\n  if (entry)\n    {\n      /* Either ARGZ/ARGZ_LEN is empty, or ENTRY points into an address\n\t within the ARGZ vector.  */\n      assert ((!argz && !argz_len)\n\t      || ((argz <= entry) && (entry < (argz + argz_len))));\n\n      /* Move to the char immediately after the terminating\n\t '\\0' of ENTRY.  */\n      entry = 1+ strchr (entry, EOS_CHAR);\n\n      /* Return either the new ENTRY, or else NULL if ARGZ is\n\t exhausted.  */\n      return (entry >= argz + argz_len) ? 0 : (char *) entry;\n    }\n  else\n    {\n      /* This should probably be flagged as a programmer error,\n\t since starting an argz_next loop with the iterator set\n\t to ARGZ is safer.  To preserve semantics, handle the NULL\n\t case by returning the start of ARGZ (if any).  */\n      if (argz_len > 0)\n\treturn argz;\n      else\n\treturn 0;\n    }\n}",
+      "lines": 32,
+      "depth": 15,
+      "decorators": [
+        "char",
+        "*\nargz_next (char *argz, size_t argz_len, const char *entry)",
+        "*"
+      ]
+    },
+    "argz_stringify": {
+      "start_point": [
+        210,
+        0
+      ],
+      "end_point": [
+        224,
+        1
+      ],
+      "content": "void\nargz_stringify (char *argz, size_t argz_len, int sep)\n{\n  assert ((argz && argz_len) || (!argz && !argz_len));\n\n  if (sep)\n    {\n      --argz_len;\t\t/* don't stringify the terminating EOS */\n      while (--argz_len > 0)\n\t{\n\t  if (argz[argz_len] == EOS_CHAR)\n\t    argz[argz_len] = sep;\n\t}\n    }\n}",
+      "lines": 15,
+      "depth": 11,
+      "decorators": [
+        "void"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt__dirent.c": {
+    "closedir": {
+      "start_point": [
+        38,
+        0
+      ],
+      "end_point": [
+        44,
+        1
+      ],
+      "content": "void\nclosedir (DIR *entry)\n{\n  assert (entry != (DIR *) NULL);\n  FindClose (entry->hSearch);\n  free (entry);\n}",
+      "lines": 7,
+      "depth": 10,
+      "decorators": [
+        "void"
+      ]
+    },
+    "opendir": {
+      "start_point": [
+        47,
+        0
+      ],
+      "end_point": [
+        78,
+        1
+      ],
+      "content": "DIR *\nopendir (const char *path)\n{\n  char file_spec[LT_FILENAME_MAX];\n  DIR *entry;\n\n  assert (path != (char *) 0);\n  if (lt_strlcpy (file_spec, path, sizeof file_spec) >= sizeof file_spec\n      || lt_strlcat (file_spec, \"\\\\\", sizeof file_spec) >= sizeof file_spec)\n    return (DIR *) 0;\n  entry = (DIR *) malloc (sizeof(DIR));\n  if (entry != (DIR *) 0)\n    {\n      entry->firsttime = TRUE;\n      entry->hSearch = FindFirstFile (file_spec, &entry->Win32FindData);\n\n      if (entry->hSearch == INVALID_HANDLE_VALUE)\n\t{\n\t  if (lt_strlcat (file_spec, \"\\\\*.*\", sizeof file_spec) < sizeof file_spec)\n\t    {\n\t      entry->hSearch = FindFirstFile (file_spec, &entry->Win32FindData);\n\t    }\n\n\t  if (entry->hSearch == INVALID_HANDLE_VALUE)\n\t    {\n\t      entry = (free (entry), (DIR *) 0);\n\t    }\n\t}\n    }\n\n  return entry;\n}",
+      "lines": 32,
+      "depth": 16,
+      "decorators": [
+        "DIR",
+        "*\nopendir (const char *path)",
+        "*"
+      ]
+    },
+    "readdir": {
+      "start_point": [
+        81,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "content": "struct dirent *\nreaddir (DIR *entry)\n{\n  int status;\n\n  if (entry == (DIR *) 0)\n    return (struct dirent *) 0;\n\n  if (!entry->firsttime)\n    {\n      status = FindNextFile (entry->hSearch, &entry->Win32FindData);\n      if (status == 0)\n        return (struct dirent *) 0;\n    }\n\n  entry->firsttime = FALSE;\n  if (lt_strlcpy (entry->file_info.d_name, entry->Win32FindData.cFileName,\n\tsizeof entry->file_info.d_name) >= sizeof entry->file_info.d_name)\n    return (struct dirent *) 0;\n  entry->file_info.d_namlen = strlen (entry->file_info.d_name);\n\n  return &entry->file_info;\n}",
+      "lines": 23,
+      "depth": 11,
+      "decorators": [
+        "struct dirent",
+        "struct",
+        "dirent",
+        "*\nreaddir (DIR *entry)",
+        "*"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/lt__strl.c": {
+    "lt_strlcat": {
+      "start_point": [
+        49,
+        0
+      ],
+      "end_point": [
+        80,
+        1
+      ],
+      "content": "size_t\nlt_strlcat(char *dst, const char *src, const size_t dstsize)\n{\n  size_t length;\n  char *p;\n  const char *q;\n\n  assert(dst != NULL);\n  assert(src != (const char *) NULL);\n  assert(dstsize >= 1);\n\n  length=strlen(dst);\n\n  /*\n    Copy remaining characters from src while constraining length to\n    size - 1.\n  */\n  for ( p = dst + length, q = src;\n        (*q != 0) && (length < dstsize - 1);\n        length++, p++, q++ )\n    *p = *q;\n\n  dst[length]='\\0';\n\n  /*\n    Add remaining length of src to length.\n  */\n  while (*q++)\n    length++;\n\n  return length;\n}",
+      "lines": 32,
+      "depth": 10,
+      "decorators": [
+        "size_t"
+      ]
+    },
+    "lt_strlcpy": {
+      "start_point": [
+        97,
+        0
+      ],
+      "end_point": [
+        125,
+        1
+      ],
+      "content": "size_t\nlt_strlcpy(char *dst, const char *src, const size_t dstsize)\n{\n  size_t length=0;\n  char *p;\n  const char *q;\n\n  assert(dst != NULL);\n  assert(src != (const char *) NULL);\n  assert(dstsize >= 1);\n\n  /*\n    Copy src to dst within bounds of size-1.\n  */\n  for ( p=dst, q=src, length=0;\n        (*q != 0) && (length < dstsize-1);\n        length++, p++, q++ )\n    *p = *q;\n\n  dst[length]='\\0';\n\n  /*\n    Add remaining length of src to length.\n  */\n  while (*q++)\n    length++;\n\n  return length;\n}",
+      "lines": 29,
+      "depth": 10,
+      "decorators": [
+        "size_t"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/slist.c": {
+    "slist_delete": {
+      "start_point": [
+        52,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "content": "SList *\nslist_delete (SList *head, void (*delete_fct) (void *item))\n{\n  assert (delete_fct);\n\n  while (head)\n    {\n      SList *next = head->next;\n      (*delete_fct) (head);\n      head = next;\n    }\n\n  return 0;\n}",
+      "lines": 14,
+      "depth": 10,
+      "decorators": [
+        "SList",
+        "*\nslist_delete (SList *head, void (*delete_fct) (void *item))",
+        "*"
+      ]
+    },
+    "slist_remove": {
+      "start_point": [
+        76,
+        0
+      ],
+      "end_point": [
+        111,
+        1
+      ],
+      "content": "SList *\nslist_remove (SList **phead, SListCallback *find, void *matchdata)\n{\n  SList *stale = 0;\n  void *result = 0;\n\n  assert (find);\n\n  if (!phead || !*phead)\n    return 0;\n\n  /* Does the head of the passed list match? */\n  result = (*find) (*phead, matchdata);\n  if (result)\n    {\n      stale = *phead;\n      *phead = stale->next;\n    }\n  /* what about the rest of the elements? */\n  else\n    {\n      SList *head;\n      for (head = *phead; head->next; head = head->next)\n\t{\n\t  result = (*find) (head->next, matchdata);\n\t  if (result)\n\t    {\n\t      stale\t\t= head->next;\n\t      head->next\t= stale->next;\n\t      break;\n\t    }\n\t}\n    }\n\n  return (SList *) result;\n}",
+      "lines": 36,
+      "depth": 12,
+      "decorators": [
+        "SList",
+        "*\nslist_remove (SList **phead, SListCallback *find, void *matchdata)",
+        "*"
+      ]
+    },
+    "slist_find": {
+      "start_point": [
+        116,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "content": "void *\nslist_find (SList *slist, SListCallback *find, void *matchdata)\n{\n  void *result = 0;\n\n  assert (find);\n\n  for (; slist; slist = slist->next)\n    {\n      result = (*find) (slist, matchdata);\n      if (result)\n\tbreak;\n    }\n\n  return result;\n}",
+      "lines": 16,
+      "depth": 10,
+      "decorators": [
+        "void",
+        "*\nslist_find (SList *slist, SListCallback *find, void *matchdata)",
+        "*"
+      ]
+    },
+    "slist_concat": {
+      "start_point": [
+        140,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "content": "SList *\nslist_concat (SList *head, SList *tail)\n{\n  SList *last;\n\n  if (!head)\n    {\n      return tail;\n    }\n\n  last = head;\n  while (last->next)\n    last = last->next;\n\n  last->next = tail;\n\n  return head;\n}",
+      "lines": 18,
+      "depth": 7,
+      "decorators": [
+        "SList",
+        "*\nslist_concat (SList *head, SList *tail)",
+        "*"
+      ]
+    },
+    "slist_cons": {
+      "start_point": [
+        166,
+        0
+      ],
+      "end_point": [
+        178,
+        1
+      ],
+      "content": "SList *\nslist_cons (SList *item, SList *slist)\n{\n  if (!item)\n    {\n      return slist;\n    }\n\n  assert (!item->next);\n\n  item->next = slist;\n  return item;\n}",
+      "lines": 13,
+      "depth": 8,
+      "decorators": [
+        "SList",
+        "*\nslist_cons (SList *item, SList *slist)",
+        "*"
+      ]
+    },
+    "slist_tail": {
+      "start_point": [
+        181,
+        0
+      ],
+      "end_point": [
+        185,
+        1
+      ],
+      "content": "SList *\nslist_tail (SList *slist)\n{\n  return slist ? slist->next : NULL;\n}",
+      "lines": 5,
+      "depth": 7,
+      "decorators": [
+        "SList",
+        "*\nslist_tail (SList *slist)",
+        "*"
+      ]
+    },
+    "slist_nth": {
+      "start_point": [
+        192,
+        0
+      ],
+      "end_point": [
+        199,
+        1
+      ],
+      "content": "SList *\nslist_nth (SList *slist, size_t n)\n{\n  for (;n > 1 && slist; n--)\n    slist = slist->next;\n\n  return slist;\n}",
+      "lines": 8,
+      "depth": 7,
+      "decorators": [
+        "SList",
+        "*\nslist_nth (SList *slist, size_t n)",
+        "*"
+      ]
+    },
+    "slist_length": {
+      "start_point": [
+        203,
+        0
+      ],
+      "end_point": [
+        212,
+        1
+      ],
+      "content": "size_t\nslist_length (SList *slist)\n{\n  size_t n;\n\n  for (n = 0; slist; ++n)\n    slist = slist->next;\n\n  return n;\n}",
+      "lines": 10,
+      "depth": 7,
+      "decorators": [
+        "size_t"
+      ]
+    },
+    "slist_reverse": {
+      "start_point": [
+        221,
+        0
+      ],
+      "end_point": [
+        236,
+        1
+      ],
+      "content": "SList *\nslist_reverse (SList *slist)\n{\n  SList *result = 0;\n  SList *next;\n\n  while (slist)\n    {\n      next\t\t= slist->next;\n      slist->next\t= result;\n      result\t\t= slist;\n      slist\t\t= next;\n    }\n\n  return result;\n}",
+      "lines": 16,
+      "depth": 8,
+      "decorators": [
+        "SList",
+        "*\nslist_reverse (SList *slist)",
+        "*"
+      ]
+    },
+    "slist_foreach": {
+      "start_point": [
+        240,
+        0
+      ],
+      "end_point": [
+        259,
+        1
+      ],
+      "content": "void *\nslist_foreach (SList *slist, SListCallback *foreach, void *userdata)\n{\n  void *result = 0;\n\n  assert (foreach);\n\n  while (slist)\n    {\n      SList *next = slist->next;\n      result = (*foreach) (slist, userdata);\n\n      if (result)\n\tbreak;\n\n      slist = next;\n    }\n\n  return result;\n}",
+      "lines": 20,
+      "depth": 10,
+      "decorators": [
+        "void",
+        "*\nslist_foreach (SList *slist, SListCallback *foreach, void *userdata)",
+        "*"
+      ]
+    },
+    "slist_sort_merge": {
+      "start_point": [
+        271,
+        0
+      ],
+      "end_point": [
+        296,
+        1
+      ],
+      "content": "static SList *\nslist_sort_merge (SList *left, SList *right, SListCompare *compare,\n\t\t  void *userdata)\n{\n  SList merged, *insert;\n\n  insert = &merged;\n\n  while (left && right)\n    {\n      if ((*compare) (left, right, userdata) <= 0)\n\t{\n\t  insert = insert->next = left;\n\t  left = left->next;\n\t}\n      else\n\t{\n\t  insert = insert->next = right;\n\t  right = right->next;\n\t}\n    }\n\n  insert->next = left ? left : right;\n\n  return merged.next;\n}",
+      "lines": 26,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "SList",
+        "*\nslist_sort_merge (SList *left, SList *right, SListCompare *compare,\n\t\t  void *userdata)",
+        "*"
+      ]
+    },
+    "slist_sort": {
+      "start_point": [
+        305,
+        0
+      ],
+      "end_point": [
+        335,
+        1
+      ],
+      "content": "SList *\nslist_sort (SList *slist, SListCompare *compare, void *userdata)\n{\n  SList *left, *right;\n\n  if (!slist)\n    return slist;\n\n  /* Be sure that LEFT and RIGHT never contain the same item.  */\n  left = slist;\n  right = slist->next;\n\n  if (!right)\n    return left;\n\n  /* Skip two items with RIGHT and one with SLIST, until RIGHT falls off\n     the end.  SLIST must be about half way along.  */\n  while (right && (right = right->next))\n    {\n      if (!right || !(right = right->next))\n\tbreak;\n      slist = slist->next;\n    }\n  right = slist->next;\n  slist->next = 0;\n\n  /* Sort LEFT and RIGHT, then merge the two.  */\n  return slist_sort_merge (slist_sort (left, compare, userdata),\n\t\t\t   slist_sort (right, compare, userdata),\n\t\t\t   compare, userdata);\n}",
+      "lines": 31,
+      "depth": 12,
+      "decorators": [
+        "SList",
+        "*\nslist_sort (SList *slist, SListCompare *compare, void *userdata)",
+        "*"
+      ]
+    },
+    "slist_box": {
+      "start_point": [
+        349,
+        0
+      ],
+      "end_point": [
+        361,
+        1
+      ],
+      "content": "SList *\nslist_box (const void *userdata)\n{\n  SList *item = (SList *) malloc (sizeof *item);\n\n  if (item)\n    {\n      item->next     = 0;\n      item->userdata = userdata;\n    }\n\n  return item;\n}",
+      "lines": 13,
+      "depth": 10,
+      "decorators": [
+        "SList",
+        "*\nslist_box (const void *userdata)",
+        "*"
+      ]
+    },
+    "slist_unbox": {
+      "start_point": [
+        364,
+        0
+      ],
+      "end_point": [
+        378,
+        1
+      ],
+      "content": "void *\nslist_unbox (SList *item)\n{\n  void *userdata = 0;\n\n  if (item)\n    {\n      /* Strip the const, because responsibility for this memory\n\t passes to the caller on return.  */\n      userdata = (void *) item->userdata;\n      free (item);\n    }\n\n  return userdata;\n}",
+      "lines": 15,
+      "depth": 10,
+      "decorators": [
+        "void",
+        "*\nslist_unbox (SList *item)",
+        "*"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt_dlloader.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt_error.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt_system.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__alloc.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__argz_.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__dirent.h": {
+    "struct": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "content": "LT_BEGIN_C_DECLS\n\nstruct dirent\n{\n  char d_name[LT_FILENAME_MAX];\n  int  d_namlen;\n}",
+      "lines": 7,
+      "depth": 5,
+      "decorators": null
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__glibc.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__private.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/lt__strl.h": {},
+  "libtool/libtool-2.4.6/libltdl/libltdl/slist.h": {},
+  "libtool/libtool-2.4.6/libltdl/loaders/dld_link.c": {
+    "get_vtable": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "content": "lt_dlvtable *\nget_vtable (lt_user_data loader_data)\n{\n  if (!vtable)\n    {\n      vtable = lt__zalloc (sizeof *vtable);\n    }\n\n  if (vtable && !vtable->name)\n    {\n      vtable->name\t\t= \"lt_dld_link\";\n      vtable->module_open\t= vm_open;\n      vtable->module_close\t= vm_close;\n      vtable->find_sym\t\t= vm_sym;\n      vtable->dlloader_exit\t= vl_exit;\n      vtable->dlloader_data\t= loader_data;\n      vtable->priority\t\t= LT_DLLOADER_APPEND;\n    }\n\n  if (vtable && (vtable->dlloader_data != loader_data))\n    {\n      LT__SETERROR (INIT_LOADER);\n      return 0;\n    }\n\n  return vtable;\n}",
+      "lines": 27,
+      "depth": 11,
+      "decorators": [
+        "lt_dlvtable",
+        "*\nget_vtable (lt_user_data loader_data)",
+        "*"
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        98,
+        0
+      ],
+      "end_point": [
+        103,
+        1
+      ],
+      "content": "static int\nvl_exit (lt_user_data loader_data LT__UNUSED)\n{\n  vtable = NULL;\n  return 0;\n}",
+      "lines": 6,
+      "depth": 5,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_open": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "content": "static lt_module\nvm_open (lt_user_data loader_data LT__UNUSED, const char *filename,\n         lt_dladvise advise LT__UNUSED)\n{\n  lt_module module = lt__strdup (filename);\n\n  if (dld_link (filename) != 0)\n    {\n      LT__SETERROR (CANNOT_OPEN);\n      FREE (module);\n    }\n\n  return module;\n}",
+      "lines": 14,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "lt_module"
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        125,
+        0
+      ],
+      "end_point": [
+        141,
+        1
+      ],
+      "content": "static int\nvm_close (lt_user_data loader_data LT__UNUSED, lt_module module)\n{\n  int errors = 0;\n\n  if (dld_unlink_by_file ((char*)(module), 1) != 0)\n    {\n      LT__SETERROR (CANNOT_CLOSE);\n      ++errors;\n    }\n  else\n    {\n      FREE (module);\n    }\n\n  return errors;\n}",
+      "lines": 17,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_sym": {
+      "start_point": [
+        145,
+        0
+      ],
+      "end_point": [
+        157,
+        1
+      ],
+      "content": "static void *\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module LT__UNUSED,\n\tconst char *name)\n{\n  void *address = dld_get_func (name);\n\n  if (!address)\n    {\n      LT__SETERROR (SYMBOL_NOT_FOUND);\n    }\n\n  return address;\n}",
+      "lines": 13,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module LT__UNUSED,\n\tconst char *name)",
+        "*"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/dlopen.c": {
+    "get_vtable": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "content": "lt_dlvtable *\nget_vtable (lt_user_data loader_data)\n{\n  if (!vtable)\n    {\n      vtable = (lt_dlvtable *) lt__zalloc (sizeof *vtable);\n    }\n\n  if (vtable && !vtable->name)\n    {\n      vtable->name\t\t= \"lt_dlopen\";\n#if defined DLSYM_USCORE\n      vtable->sym_prefix\t= \"_\";\n#endif\n      vtable->module_open\t= vm_open;\n      vtable->module_close\t= vm_close;\n      vtable->find_sym\t\t= vm_sym;\n      vtable->dlloader_exit\t= vl_exit;\n      vtable->dlloader_data\t= loader_data;\n      vtable->priority\t\t= LT_DLLOADER_PREPEND;\n    }\n\n  if (vtable && (vtable->dlloader_data != loader_data))\n    {\n      LT__SETERROR (INIT_LOADER);\n      return 0;\n    }\n\n  return vtable;\n}",
+      "lines": 30,
+      "depth": 12,
+      "decorators": [
+        "lt_dlvtable",
+        "*\nget_vtable (lt_user_data loader_data)",
+        "*"
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        158,
+        1
+      ],
+      "content": "static int\nvl_exit (lt_user_data loader_data LT__UNUSED)\n{\n  vtable = NULL;\n  return 0;\n}",
+      "lines": 6,
+      "depth": 5,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_open": {
+      "start_point": [
+        164,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "content": "static lt_module\nvm_open (lt_user_data loader_data LT__UNUSED, const char *filename,\n         lt_dladvise advise)\n{\n  int\t\tmodule_flags = LT_LAZY_OR_NOW;\n  lt_module\tmodule;\n#ifdef RTLD_MEMBER\n  int\t\tlen = LT_STRLEN (filename);\n#endif\n\n  if (advise)\n    {\n#ifdef RTLD_GLOBAL\n      /* If there is some means of asking for global symbol resolution,\n         do so.  */\n      if (advise->is_symglobal)\n        module_flags |= RTLD_GLOBAL;\n#else\n      /* Otherwise, reset that bit so the caller can tell it wasn't\n         acted on.  */\n      advise->is_symglobal = 0;\n#endif\n\n/* And similarly for local only symbol resolution.  */\n#ifdef RTLD_LOCAL\n      if (advise->is_symlocal)\n        module_flags |= RTLD_LOCAL;\n#else\n      advise->is_symlocal = 0;\n#endif\n    }\n\n#ifdef RTLD_MEMBER /* AIX */\n  if (len >= 4) /* at least \"l(m)\" */\n    {\n      /* Advise loading an archive member only if the filename really\n\t contains both the opening and closing parent, and a member. */\n      if (filename[len-1] == ')')\n\t{\n\t  const char *opening = strrchr(filename, '(');\n\t  if (opening && opening < (filename+len-2) && strchr(opening+1, '/') == NULL)\n\t    module_flags |= RTLD_MEMBER;\n\t}\n    }\n#endif\n\n  module = dlopen (filename, module_flags);\n\n#if defined RTLD_MEMBER && defined LT_SHARED_LIB_MEMBER\n  if (!module && len && !(module_flags & RTLD_MEMBER) && errno == ENOEXEC)\n    {\n      /* Loading without a member specified failed with \"Exec format error\".\n\t So the file is there, but either has wrong bitwidth, or is an\n\t archive eventually containing the default shared archive member.\n\t Retry with default member, getting same error in worst case. */\n      const char *member = LT_SHARED_LIB_MEMBER;\n\n      char *attempt = MALLOC (char, len + strlen (member) + 1);\n      if (!attempt)\n\t{\n\t  LT__SETERROR (NO_MEMORY);\n\t  return module;\n\t}\n\n      sprintf (attempt, \"%s%s\", filename, member);\n      module = vm_open (loader_data, attempt, advise);\n      FREE (attempt);\n      return module;\n    }\n#endif\n\n  if (!module)\n    {\n      DL__SETERROR (CANNOT_OPEN);\n    }\n\n  return module;\n}",
+      "lines": 78,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "lt_module"
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        246,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "content": "static int\nvm_close (lt_user_data loader_data LT__UNUSED, lt_module module)\n{\n  int errors = 0;\n\n  if (dlclose (module) != 0)\n    {\n      DL__SETERROR (CANNOT_CLOSE);\n      ++errors;\n    }\n\n  return errors;\n}",
+      "lines": 13,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_sym": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "content": "static void *\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)\n{\n  void *address = dlsym (module, name);\n\n  if (!address)\n    {\n      DL__SETERROR (SYMBOL_NOT_FOUND);\n    }\n\n  return address;\n}",
+      "lines": 12,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)",
+        "*"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/dyld.c": {
+    "get_vtable": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "content": "lt_dlvtable *\nget_vtable (lt_user_data loader_data)\n{\n  if (!vtable)\n    {\n      vtable = lt__zalloc (sizeof *vtable);\n    }\n\n  if (vtable && !vtable->name)\n    {\n      vtable->name\t\t= \"lt_dyld\";\n      vtable->sym_prefix\t= \"_\";\n      vtable->dlloader_init\t= vl_init;\n      vtable->module_open\t= vm_open;\n      vtable->module_close\t= vm_close;\n      vtable->find_sym\t\t= vm_sym;\n      vtable->dlloader_exit\t= vl_exit;\n      vtable->dlloader_data\t= loader_data;\n      vtable->priority\t\t= LT_DLLOADER_APPEND;\n    }\n\n  if (vtable && (vtable->dlloader_data != loader_data))\n    {\n      LT__SETERROR (INIT_LOADER);\n      return 0;\n    }\n\n  return vtable;\n}",
+      "lines": 29,
+      "depth": 11,
+      "decorators": [
+        "lt_dlvtable",
+        "*\nget_vtable (lt_user_data loader_data)",
+        "*"
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        186,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "content": "static int\nvl_exit (lt_user_data loader_data LT__UNUSED)\n{\n  vtable = NULL;\n  return 0;\n}",
+      "lines": 6,
+      "depth": 5,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vl_init": {
+      "start_point": [
+        194,
+        0
+      ],
+      "end_point": [
+        220,
+        1
+      ],
+      "content": "static int\nvl_init (lt_user_data loader_data)\n{\n  int errors = 0;\n\n  if (! dyld_cannot_close)\n    {\n      if (!_dyld_present ())\n\t{\n\t  ++errors;\n\t}\n      else\n\t{\n\t  (void) _dyld_func_lookup (\"__dyld_NSAddImage\",\n\t\t\t\t    (unsigned long*) &lt__addimage);\n\t  (void) _dyld_func_lookup (\"__dyld_NSLookupSymbolInImage\",\n\t\t\t\t    (unsigned long*)&lt__image_symbol);\n\t  (void) _dyld_func_lookup (\"__dyld_NSIsSymbolNameDefinedInImage\",\n\t\t\t\t    (unsigned long*) &lt__image_symbol_p);\n\t  (void) _dyld_func_lookup (\"__dyld_NSMakePrivateModulePublic\",\n\t\t\t\t    (unsigned long*) &lt__module_export);\n\t  dyld_cannot_close = lt_dladderror (\"can't close a dylib\");\n\t}\n    }\n\n  return errors;\n}",
+      "lines": 27,
+      "depth": 14,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_open": {
+      "start_point": [
+        226,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "content": "static lt_module\nvm_open (lt_user_data loader_data, const char *filename,\n         lt_dladvise advise LT__UNUSED)\n{\n  lt_module module = 0;\n  NSObjectFileImage ofi = 0;\n\n  if (!filename)\n    {\n      return (lt_module) -1;\n    }\n\n  switch (NSCreateObjectFileImageFromFile (filename, &ofi))\n    {\n    case NSObjectFileImageSuccess:\n      module = NSLinkModule (ofi, filename, NSLINKMODULE_OPTION_RETURN_ON_ERROR\n\t\t\t\t\t    | NSLINKMODULE_OPTION_PRIVATE\n\t\t\t\t\t    | NSLINKMODULE_OPTION_BINDNOW);\n      NSDestroyObjectFileImage (ofi);\n\n      if (module)\n\t{\n\t  lt__module_export (module);\n\t}\n      break;\n\n    case NSObjectFileImageInappropriateFile:\n      if (lt__image_symbol_p && lt__image_symbol)\n\t{\n\t  module = (lt_module) lt__addimage(filename,\n\t\t\t\t\t    NSADDIMAGE_OPTION_RETURN_ON_ERROR);\n\t}\n      break;\n\n    case NSObjectFileImageFailure:\n    case NSObjectFileImageArch:\n    case NSObjectFileImageFormat:\n    case NSObjectFileImageAccess:\n      /*NOWORK*/\n      break;\n    }\n\n  if (!module)\n    {\n      DYLD__SETERROR (CANNOT_OPEN);\n    }\n\n  return module;\n}",
+      "lines": 49,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "lt_module"
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        279,
+        0
+      ],
+      "end_point": [
+        316,
+        1
+      ],
+      "content": "static int\nvm_close (lt_user_data loader_data, lt_module module)\n{\n  int errors = 0;\n\n  if (module != (lt_module) -1)\n    {\n      const mach_header *mh = (const mach_header *) module;\n      int flags = 0;\n      if (mh->magic == LT__MAGIC)\n\t{\n\t  lt_dlseterror (dyld_cannot_close);\n\t  ++errors;\n\t}\n      else\n\t{\n\t  /* Currently, if a module contains c++ static destructors and it\n\t     is unloaded, we get a segfault in atexit(), due to compiler and\n\t     dynamic loader differences of opinion, this works around that.  */\n\t  if ((const struct section *) NULL !=\n\t      getsectbynamefromheader (lt__nsmodule_get_header (module),\n\t\t\t\t       \"__DATA\", \"__mod_term_func\"))\n\t    {\n\t      flags |= NSUNLINKMODULE_OPTION_KEEP_MEMORY_MAPPED;\n\t    }\n#if defined __ppc__\n\t  flags |= NSUNLINKMODULE_OPTION_RESET_LAZY_REFERENCES;\n#endif\n\t  if (!NSUnLinkModule (module, flags))\n\t    {\n\t      DYLD__SETERROR (CANNOT_CLOSE);\n\t      ++errors;\n\t    }\n\t}\n    }\n\n  return errors;\n}",
+      "lines": 38,
+      "depth": 14,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_sym": {
+      "start_point": [
+        320,
+        0
+      ],
+      "end_point": [
+        367,
+        1
+      ],
+      "content": "static void *\nvm_sym (lt_user_data loader_data, lt_module module, const char *name)\n{\n  NSSymbol *nssym = 0;\n  const mach_header *mh = (const mach_header *) module;\n  char saveError[256] = \"Symbol not found\";\n\n  if (module == (lt_module) -1)\n    {\n      void *address, *unused;\n      _dyld_lookup_and_bind (name, (unsigned long*) &address, &unused);\n      return address;\n    }\n\n  if (mh->magic == LT__MAGIC)\n    {\n      if (lt__image_symbol_p && lt__image_symbol)\n\t{\n\t  if (lt__image_symbol_p (mh, name))\n\t    {\n\t      nssym = lt__image_symbol (mh, name, LT__SYMLOOKUP_OPTS);\n\t    }\n\t}\n\n    }\n  else\n    {\n      nssym = NSLookupSymbolInModule (module, name);\n    }\n\n  if (!nssym)\n    {\n      strlcpy (saveError, dylderror (LT__STRERROR (SYMBOL_NOT_FOUND)), 255);\n      saveError[255] = 0;\n      if (!mh)\n\t{\n\t  mh = (mach_header *)lt__nsmodule_get_header (module);\n\t}\n      nssym = lt__linkedlib_symbol (name, mh);\n    }\n\n  if (!nssym)\n    {\n      LT__SETERRORSTR (saveError);\n    }\n\n  return nssym ? NSAddressOfSymbol (nssym) : 0;\n}",
+      "lines": 48,
+      "depth": 13,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nvm_sym (lt_user_data loader_data, lt_module module, const char *name)",
+        "*"
+      ]
+    },
+    "dylderror": {
+      "start_point": [
+        376,
+        0
+      ],
+      "end_point": [
+        392,
+        1
+      ],
+      "content": "static const char *\ndylderror (const char *errmsg)\n{\n  NSLinkEditErrors ler;\n  int lerno;\n  const char *file;\n  const char *errstr;\n\n  NSLinkEditError (&ler, &lerno, &file, &errstr);\n\n  if (! (errstr && *errstr))\n    {\n      errstr = errmsg;\n    }\n\n  return errstr;\n}",
+      "lines": 17,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\ndylderror (const char *errmsg)",
+        "*"
+      ]
+    },
+    "lt__nsmodule_get_header": {
+      "start_point": [
+        395,
+        0
+      ],
+      "end_point": [
+        416,
+        1
+      ],
+      "content": "static const mach_header *\nlt__nsmodule_get_header (NSModule module)\n{\n  int i = _dyld_image_count();\n  const char *modname = NSNameOfModule (module);\n  const mach_header *mh = 0;\n\n  if (!modname)\n    return NULL;\n\n  while (i > 0)\n    {\n      --i;\n      if (strneq (_dyld_get_image_name (i), modname))\n\t{\n\t  mh = _dyld_get_image_header (i);\n\t  break;\n\t}\n    }\n\n  return mh;\n}",
+      "lines": 22,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "mach_header",
+        "*\nlt__nsmodule_get_header (NSModule module)",
+        "*"
+      ]
+    },
+    "lt__header_get_instnam": {
+      "start_point": [
+        422,
+        0
+      ],
+      "end_point": [
+        443,
+        1
+      ],
+      "content": "static const char *\nlt__header_get_instnam (const mach_header *mh)\n{\n  unsigned long offset = sizeof(mach_header);\n  const char* result   = 0;\n  int j;\n\n  for (j = 0; j < mh->ncmds; j++)\n    {\n      struct load_command *lc;\n\n      lc = (struct load_command*) (((unsigned long) mh) + offset);\n      if (LC_ID_DYLIB == lc->cmd)\n\t{\n\t  result=(char*)(((dylib_command*) lc)->dylib.name.offset +\n\t\t\t (unsigned long) lc);\n\t}\n      offset += lc->cmdsize;\n    }\n\n  return result;\n}",
+      "lines": 22,
+      "depth": 19,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\nlt__header_get_instnam (const mach_header *mh)",
+        "*"
+      ]
+    },
+    "lt__match_loadedlib": {
+      "start_point": [
+        445,
+        0
+      ],
+      "end_point": [
+        465,
+        1
+      ],
+      "content": "static const mach_header *\nlt__match_loadedlib (const char *name)\n{\n  const mach_header *mh\t= 0;\n  int i = _dyld_image_count();\n\n  while (i > 0)\n    {\n      const char *id;\n\n      --i;\n      id = lt__header_get_instnam (_dyld_get_image_header (i));\n      if (id && strneq (id, name))\n\t{\n\t  mh = _dyld_get_image_header (i);\n\t  break;\n\t}\n    }\n\n  return mh;\n}",
+      "lines": 21,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "mach_header",
+        "*\nlt__match_loadedlib (const char *name)",
+        "*"
+      ]
+    },
+    "lt__linkedlib_symbol": {
+      "start_point": [
+        468,
+        0
+      ],
+      "end_point": [
+        510,
+        1
+      ],
+      "content": "static NSSymbol\nlt__linkedlib_symbol (const char *symname, const mach_header *mh)\n{\n  NSSymbol symbol = 0;\n\n  if (lt__image_symbol && NSIsSymbolNameDefined (symname))\n    {\n      unsigned long offset = sizeof(mach_header);\n      struct load_command *lc;\n      int j;\n\n      for (j = 0; j < mh->ncmds; j++)\n\t{\n\t  lc = (struct load_command*) (((unsigned long) mh) + offset);\n\t  if ((LC_LOAD_DYLIB == lc->cmd) || (LC_LOAD_WEAK_DYLIB == lc->cmd))\n\t    {\n\t      unsigned long base = ((dylib_command *) lc)->dylib.name.offset;\n\t      char *name = (char *) (base + (unsigned long) lc);\n\t      const mach_header *mh1 = lt__match_loadedlib (name);\n\n\t      if (!mh1)\n\t\t{\n\t\t  /* Maybe NSAddImage can find it */\n\t\t  mh1 = lt__addimage (name,\n\t\t\t\t      NSADDIMAGE_OPTION_RETURN_ONLY_IF_LOADED\n\t\t\t\t      | NSADDIMAGE_OPTION_WITH_SEARCHING\n\t\t\t\t      | NSADDIMAGE_OPTION_RETURN_ON_ERROR);\n\t\t}\n\n\t      if (mh1)\n\t\t{\n\t\t  symbol = lt__image_symbol (mh1, symname, LT__SYMLOOKUP_OPTS);\n\t\t  if (symbol)\n\t\t    break;\n\t\t}\n\t    }\n\n\t  offset += lc->cmdsize;\n\t}\n    }\n\n  return symbol;\n}",
+      "lines": 43,
+      "depth": 18,
+      "decorators": [
+        "static",
+        "static",
+        "NSSymbol"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/loadlibrary.c": {
+    "get_vtable": {
+      "start_point": [
+        64,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "content": "lt_dlvtable *\nget_vtable (lt_user_data loader_data)\n{\n  if (!vtable)\n    {\n      vtable = (lt_dlvtable *) lt__zalloc (sizeof *vtable);\n      iface_id = lt_dlinterface_register (\"ltdl loadlibrary\", NULL);\n    }\n\n  if (vtable && !vtable->name)\n    {\n      vtable->name\t\t= \"lt_loadlibrary\";\n      vtable->module_open\t= vm_open;\n      vtable->module_close\t= vm_close;\n      vtable->find_sym\t\t= vm_sym;\n      vtable->dlloader_exit\t= vl_exit;\n      vtable->dlloader_data\t= loader_data;\n      vtable->priority\t\t= LT_DLLOADER_APPEND;\n    }\n\n  if (vtable && (vtable->dlloader_data != loader_data))\n    {\n      LT__SETERROR (INIT_LOADER);\n      return 0;\n    }\n\n  return vtable;\n}",
+      "lines": 28,
+      "depth": 12,
+      "decorators": [
+        "lt_dlvtable",
+        "*\nget_vtable (lt_user_data loader_data)",
+        "*"
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        127,
+        1
+      ],
+      "content": "static int\nvl_exit (lt_user_data loader_data LT__UNUSED)\n{\n  vtable = NULL;\n  LOCALFREE (error_message);\n  return 0;\n}",
+      "lines": 7,
+      "depth": 6,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_open": {
+      "start_point": [
+        132,
+        0
+      ],
+      "end_point": [
+        241,
+        1
+      ],
+      "content": "static lt_module\nvm_open (lt_user_data loader_data LT__UNUSED, const char *filename,\n         lt_dladvise advise LT__UNUSED)\n{\n  lt_module\tmodule\t   = 0;\n  char\t\t*ext;\n  char\t\twpath[MAX_PATH];\n  size_t\tlen;\n\n  if (!filename)\n    {\n      /* Get the name of main module */\n      *wpath = 0;\n      GetModuleFileName (NULL, wpath, sizeof (wpath));\n      filename = wpath;\n    }\n  else\n    {\n      len = LT_STRLEN (filename);\n\n      if (len >= MAX_PATH)\n        {\n\t  LT__SETERROR (CANNOT_OPEN);\n\t  return 0;\n\t}\n\n#if HAVE_DECL_CYGWIN_CONV_PATH\n      if (cygwin_conv_path (CCP_POSIX_TO_WIN_A, filename, wpath, MAX_PATH))\n\t{\n\t  LT__SETERROR (CANNOT_OPEN);\n\t  return 0;\n\t}\n      len = 0;\n#elif defined __CYGWIN__\n      cygwin_conv_to_full_win32_path (filename, wpath);\n      len = 0;\n#else\n      strcpy(wpath, filename);\n#endif\n\n      ext = strrchr (wpath, '.');\n      if (!ext)\n\t{\n\t  /* Append a '.' to stop Windows from adding an\n\t     implicit '.dll' extension. */\n\t  if (!len)\n\t    len = strlen (wpath);\n\n\t  if (len + 1 >= MAX_PATH)\n\t    {\n\t      LT__SETERROR (CANNOT_OPEN);\n\t      return 0;\n\t    }\n\n\t  wpath[len] = '.';\n\t  wpath[len+1] = '\\0';\n\t}\n    }\n\n  {\n    /* Silence dialog from LoadLibrary on some failures. */\n    DWORD errormode = getthreaderrormode ();\n    DWORD last_error;\n\n    setthreaderrormode (errormode | SEM_FAILCRITICALERRORS, NULL);\n\n    module = LoadLibrary (wpath);\n\n    /* Restore the error mode. */\n    last_error = GetLastError ();\n    setthreaderrormode (errormode, NULL);\n    SetLastError (last_error);\n  }\n\n  /* libltdl expects this function to fail if it is unable\n     to physically load the library.  Sadly, LoadLibrary\n     will search the loaded libraries for a match and return\n     one of them if the path search load fails.\n\n     We check whether LoadLibrary is returning a handle to\n     an already loaded module, and simulate failure if we\n     find one. */\n  {\n    lt_dlhandle cur = 0;\n\n    while ((cur = lt_dlhandle_iterate (iface_id, cur)))\n      {\n        if (!cur->module)\n          {\n            cur = 0;\n            break;\n          }\n\n        if (cur->module == module)\n          {\n            break;\n          }\n      }\n\n    if (!module)\n      LOADLIB_SETERROR (CANNOT_OPEN);\n    else if (cur)\n      {\n        LT__SETERROR (CANNOT_OPEN);\n        module = 0;\n      }\n  }\n\n  return module;\n}",
+      "lines": 110,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "lt_module"
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        246,
+        0
+      ],
+      "end_point": [
+        258,
+        1
+      ],
+      "content": "static int\nvm_close (lt_user_data loader_data LT__UNUSED, lt_module module)\n{\n  int errors = 0;\n\n  if (FreeLibrary ((HMODULE) module) == 0)\n    {\n      LOADLIB_SETERROR (CANNOT_CLOSE);\n      ++errors;\n    }\n\n  return errors;\n}",
+      "lines": 13,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_sym": {
+      "start_point": [
+        263,
+        0
+      ],
+      "end_point": [
+        274,
+        1
+      ],
+      "content": "static void *\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)\n{\n  void *address = (void *) GetProcAddress ((HMODULE) module, name);\n\n  if (!address)\n    {\n      LOADLIB_SETERROR (SYMBOL_NOT_FOUND);\n    }\n\n  return address;\n}",
+      "lines": 12,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)",
+        "*"
+      ]
+    },
+    "loadlibraryerror": {
+      "start_point": [
+        283,
+        0
+      ],
+      "end_point": [
+        306,
+        1
+      ],
+      "content": "static const char *\nloadlibraryerror (const char *default_errmsg)\n{\n  size_t len;\n  LOCALFREE (error_message);\n\n  FormatMessageA (FORMAT_MESSAGE_ALLOCATE_BUFFER |\n                  FORMAT_MESSAGE_FROM_SYSTEM |\n                  FORMAT_MESSAGE_IGNORE_INSERTS,\n                  NULL,\n                  GetLastError (),\n                  0,\n                  (char *) &error_message,\n                  0, NULL);\n\n  /* Remove trailing CRNL */\n  len = LT_STRLEN (error_message);\n  if (len && error_message[len - 1] == '\\n')\n    error_message[--len] = LT_EOS_CHAR;\n  if (len && error_message[len - 1] == '\\r')\n    error_message[--len] = LT_EOS_CHAR;\n\n  return len ? error_message : default_errmsg;\n}",
+      "lines": 24,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "const",
+        "const",
+        "char",
+        "*\nloadlibraryerror (const char *default_errmsg)",
+        "*"
+      ]
+    },
+    "wrap_getthreaderrormode": {
+      "start_point": [
+        312,
+        0
+      ],
+      "end_point": [
+        326,
+        1
+      ],
+      "content": "static DWORD WINAPI\nwrap_getthreaderrormode (void)\n{\n  HMODULE kernel32 = GetModuleHandleA (\"kernel32.dll\");\n  getthreaderrormode\n    = (getthreaderrormode_type *) GetProcAddress (kernel32,\n\t\t\t\t\t\t  \"GetThreadErrorMode\");\n  if (!getthreaderrormode)\n    getthreaderrormode\n      = (getthreaderrormode_type *) GetProcAddress (kernel32,\n\t\t\t\t\t\t    \"GetErrorMode\");\n  if (!getthreaderrormode)\n    getthreaderrormode = fallback_getthreaderrormode;\n  return getthreaderrormode ();\n}",
+      "lines": 15,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "DWORD",
+        "WINAPI",
+        "WINAPI"
+      ]
+    },
+    "fallback_getthreaderrormode": {
+      "start_point": [
+        330,
+        0
+      ],
+      "end_point": [
+        339,
+        1
+      ],
+      "content": "static DWORD WINAPI\nfallback_getthreaderrormode (void)\n{\n  /* Prior to Windows Vista, the only way to get the current error\n     mode was to set a new one. In our case, we are setting a new\n     error mode right after \"getting\" it while ignoring the error\n     mode in effect when setting the new error mode, so that's\n     fairly ok. */\n  return (DWORD) SetErrorMode (SEM_FAILCRITICALERRORS);\n}",
+      "lines": 10,
+      "depth": 7,
+      "decorators": [
+        "static",
+        "static",
+        "DWORD",
+        "WINAPI",
+        "WINAPI"
+      ]
+    },
+    "wrap_setthreaderrormode": {
+      "start_point": [
+        345,
+        0
+      ],
+      "end_point": [
+        355,
+        1
+      ],
+      "content": "static BOOL WINAPI\nwrap_setthreaderrormode (DWORD mode, DWORD *oldmode)\n{\n  HMODULE kernel32 = GetModuleHandleA (\"kernel32.dll\");\n  setthreaderrormode\n    = (setthreaderrormode_type *) GetProcAddress (kernel32,\n\t\t\t\t\t\t  \"SetThreadErrorMode\");\n  if (!setthreaderrormode)\n    setthreaderrormode = fallback_setthreaderrormode;\n  return setthreaderrormode (mode, oldmode);\n}",
+      "lines": 11,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "BOOL",
+        "WINAPI",
+        "WINAPI"
+      ]
+    },
+    "fallback_setthreaderrormode": {
+      "start_point": [
+        359,
+        0
+      ],
+      "end_point": [
+        368,
+        1
+      ],
+      "content": "static BOOL WINAPI\nfallback_setthreaderrormode (DWORD mode, DWORD *oldmode)\n{\n  /* Prior to Windows 7, there was no way to set the thread local error\n     mode, so set the process global error mode instead. */\n  DWORD old = (DWORD) SetErrorMode (mode);\n  if (oldmode)\n    *oldmode = old;\n  return TRUE;\n}",
+      "lines": 10,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "BOOL",
+        "WINAPI",
+        "WINAPI"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/load_add_on.c": {
+    "get_vtable": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "content": "lt_dlvtable *\nget_vtable (lt_user_data loader_data)\n{\n  if (!vtable)\n    {\n      vtable = lt__zalloc (sizeof *vtable);\n    }\n\n  if (vtable && !vtable->name)\n    {\n      vtable->name\t\t= \"lt_load_add_on\";\n      vtable->module_open\t= vm_open;\n      vtable->module_close\t= vm_close;\n      vtable->find_sym\t\t= vm_sym;\n      vtable->dlloader_exit\t= vl_exit;\n      vtable->dlloader_data\t= loader_data;\n      vtable->priority\t\t= LT_DLLOADER_APPEND;\n    }\n\n  if (vtable && (vtable->dlloader_data != loader_data))\n    {\n      LT__SETERROR (INIT_LOADER);\n      return 0;\n    }\n\n  return vtable;\n}",
+      "lines": 27,
+      "depth": 11,
+      "decorators": [
+        "lt_dlvtable",
+        "*\nget_vtable (lt_user_data loader_data)",
+        "*"
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        96,
+        0
+      ],
+      "end_point": [
+        101,
+        1
+      ],
+      "content": "static int\nvl_exit (lt_user_data loader_data LT__UNUSED)\n{\n  vtable = NULL;\n  return 0;\n}",
+      "lines": 6,
+      "depth": 5,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_open": {
+      "start_point": [
+        106,
+        0
+      ],
+      "end_point": [
+        131,
+        1
+      ],
+      "content": "static lt_module\nvm_open (lt_user_data loader_data LT__UNUSED, const char *filename,\n         lt_dladvise advise LT__UNUSED)\n{\n  image_id image = 0;\n\n  if (filename)\n    {\n      image = load_add_on (filename);\n    }\n  else\n    {\n      image_info info;\n      int32 cookie = 0;\n      if (get_next_image_info (0, &cookie, &info) == B_OK)\n\timage = load_add_on (info.name);\n    }\n\n  if (image <= 0)\n    {\n      LT__SETERROR (CANNOT_OPEN);\n      image = 0;\n    }\n\n  return (lt_module) image;\n}",
+      "lines": 26,
+      "depth": 11,
+      "decorators": [
+        "static",
+        "static",
+        "lt_module"
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        136,
+        0
+      ],
+      "end_point": [
+        148,
+        1
+      ],
+      "content": "static int\nvm_close (lt_user_data loader_data LT__UNUSED, lt_module module)\n{\n  int errors = 0;\n\n  if (unload_add_on ((image_id) module) != B_OK)\n    {\n      LT__SETERROR (CANNOT_CLOSE);\n      ++errors;\n    }\n\n  return errors;\n}",
+      "lines": 13,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_sym": {
+      "start_point": [
+        153,
+        0
+      ],
+      "end_point": [
+        166,
+        1
+      ],
+      "content": "static void *\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)\n{\n  void *address = 0;\n  image_id image = (image_id) module;\n\n  if (get_image_symbol (image, name, B_SYMBOL_TYPE_ANY, address) != B_OK)\n    {\n      LT__SETERROR (SYMBOL_NOT_FOUND);\n      address = 0;\n    }\n\n  return address;\n}",
+      "lines": 14,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)",
+        "*"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/preopen.c": {
+    "get_vtable": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        88,
+        1
+      ],
+      "content": "lt_dlvtable *\nget_vtable (lt_user_data loader_data)\n{\n  if (!vtable)\n    {\n      vtable = (lt_dlvtable *) lt__zalloc (sizeof *vtable);\n    }\n\n  if (vtable && !vtable->name)\n    {\n      vtable->name\t\t= \"lt_preopen\";\n      vtable->sym_prefix\t= 0;\n      vtable->module_open\t= vm_open;\n      vtable->module_close\t= vm_close;\n      vtable->find_sym\t\t= vm_sym;\n      vtable->dlloader_init\t= vl_init;\n      vtable->dlloader_exit\t= vl_exit;\n      vtable->dlloader_data\t= loader_data;\n      vtable->priority\t\t= LT_DLLOADER_PREPEND;\n    }\n\n  if (vtable && (vtable->dlloader_data != loader_data))\n    {\n      LT__SETERROR (INIT_LOADER);\n      return 0;\n    }\n\n  return vtable;\n}",
+      "lines": 29,
+      "depth": 12,
+      "decorators": [
+        "lt_dlvtable",
+        "*\nget_vtable (lt_user_data loader_data)",
+        "*"
+      ]
+    },
+    "vl_init": {
+      "start_point": [
+        114,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "content": "static int\nvl_init (lt_user_data loader_data LT__UNUSED)\n{\n  int errors = 0;\n\n  preloaded_symlists = 0;\n  if (default_preloaded_symbols)\n    {\n      errors = lt_dlpreload (default_preloaded_symbols);\n    }\n\n  return errors;\n}",
+      "lines": 13,
+      "depth": 9,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        131,
+        0
+      ],
+      "end_point": [
+        137,
+        1
+      ],
+      "content": "static int\nvl_exit (lt_user_data loader_data LT__UNUSED)\n{\n  vtable = NULL;\n  free_symlists ();\n  return 0;\n}",
+      "lines": 7,
+      "depth": 6,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_open": {
+      "start_point": [
+        143,
+        0
+      ],
+      "end_point": [
+        191,
+        1
+      ],
+      "content": "static lt_module\nvm_open (lt_user_data loader_data LT__UNUSED, const char *filename,\n         lt_dladvise advise LT__UNUSED)\n{\n  symlist_chain *lists;\n  lt_module\t module = 0;\n\n  if (!preloaded_symlists)\n    {\n      LT__SETERROR (NO_SYMBOLS);\n      goto done;\n    }\n\n  /* Can't use NULL as the reflective symbol header, as NULL is\n     used to mark the end of the entire symbol list.  Self-dlpreopened\n     symbols follow this magic number, chosen to be an unlikely\n     clash with a real module name.  */\n  if (!filename)\n    {\n      filename = \"@PROGRAM@\";\n    }\n\n  for (lists = preloaded_symlists; lists; lists = lists->next)\n    {\n      const lt_dlsymlist *symbol;\n      for (symbol= lists->symlist; symbol->name; ++symbol)\n\t{\n\t  if (!symbol->address && STREQ (symbol->name, filename))\n\t    {\n\t      /* If the next symbol's name and address is 0, it means\n\t\t the module just contains the originator and no symbols.\n\t\t In this case we pretend that we never saw the module and\n\t         hope that some other loader will be able to load the module\n\t         and have access to its symbols */\n\t      const lt_dlsymlist *next_symbol = symbol +1;\n\t      if (next_symbol->address && next_symbol->name)\n\t\t{\n\t          module = (lt_module) lists->symlist;\n\t          goto done;\n\t\t}\n\t    }\n\t}\n    }\n\n  LT__SETERROR (FILE_NOT_FOUND);\n\n done:\n  return module;\n}",
+      "lines": 49,
+      "depth": 15,
+      "decorators": [
+        "static",
+        "static",
+        "lt_module"
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        196,
+        0
+      ],
+      "end_point": [
+        202,
+        1
+      ],
+      "content": "static int\nvm_close (lt_user_data loader_data LT__UNUSED, lt_module module LT__UNUSED)\n{\n  /* Just to silence gcc -Wall */\n  module = 0;\n  return 0;\n}",
+      "lines": 7,
+      "depth": 6,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_sym": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        232,
+        1
+      ],
+      "content": "static void *\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)\n{\n  lt_dlsymlist\t       *symbol = (lt_dlsymlist*) module;\n\n  if (symbol[1].name && STREQ (symbol[1].name, \"@INIT@\"))\n    {\n      symbol++;\t\t\t/* Skip optional init entry. */\n    }\n\n  symbol +=2;\t\t\t/* Skip header (originator then libname). */\n\n  while (symbol->name)\n    {\n      if (STREQ (symbol->name, name))\n\t{\n\t  return symbol->address;\n\t}\n\n    ++symbol;\n  }\n\n  LT__SETERROR (SYMBOL_NOT_FOUND);\n\n  return 0;\n}",
+      "lines": 26,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)",
+        "*"
+      ]
+    },
+    "free_symlists": {
+      "start_point": [
+        241,
+        0
+      ],
+      "end_point": [
+        256,
+        1
+      ],
+      "content": "static int\nfree_symlists (void)\n{\n  symlist_chain *lists;\n\n  lists = preloaded_symlists;\n  while (lists)\n    {\n      symlist_chain *next = lists->next;\n      FREE (lists);\n      lists = next;\n    }\n  preloaded_symlists = 0;\n\n  return 0;\n}",
+      "lines": 16,
+      "depth": 8,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "add_symlist": {
+      "start_point": [
+        259,
+        0
+      ],
+      "end_point": [
+        295,
+        1
+      ],
+      "content": "static int\nadd_symlist (const lt_dlsymlist *symlist)\n{\n  symlist_chain *lists;\n  int\t\t errors   = 0;\n\n  /* Search for duplicate entries:  */\n  for (lists = preloaded_symlists;\n       lists && lists->symlist != symlist; lists = lists->next)\n    /*NOWORK*/;\n\n  /* Don't add the same list twice:  */\n  if (!lists)\n    {\n      symlist_chain *tmp = (symlist_chain *) lt__zalloc (sizeof *tmp);\n\n      if (tmp)\n\t{\n\t  tmp->symlist = symlist;\n\t  tmp->next = preloaded_symlists;\n\t  preloaded_symlists = tmp;\n\n\t  if (symlist[1].name && STREQ (symlist[1].name, \"@INIT@\"))\n\t    {\n\t      void (*init_symlist)(void);\n\t      *(void **)(&init_symlist) = symlist[1].address;\n\t      (*init_symlist)();\n\t    }\n\t}\n      else\n\t{\n\t  ++errors;\n\t}\n    }\n\n  return errors;\n}",
+      "lines": 37,
+      "depth": 16,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "lt_dlpreload_default": {
+      "start_point": [
+        303,
+        0
+      ],
+      "end_point": [
+        308,
+        1
+      ],
+      "content": "int\nlt_dlpreload_default (const lt_dlsymlist *preloaded)\n{\n  default_preloaded_symbols = preloaded;\n  return 0;\n}",
+      "lines": 6,
+      "depth": 6,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlpreload": {
+      "start_point": [
+        313,
+        0
+      ],
+      "end_point": [
+        333,
+        1
+      ],
+      "content": "int\nlt_dlpreload (const lt_dlsymlist *preloaded)\n{\n  int errors = 0;\n\n  if (preloaded)\n    {\n      errors = add_symlist (preloaded);\n    }\n  else\n    {\n      free_symlists();\n\n      if (default_preloaded_symbols)\n\t{\n\t  errors = lt_dlpreload (default_preloaded_symbols);\n\t}\n    }\n\n  return errors;\n}",
+      "lines": 21,
+      "depth": 11,
+      "decorators": [
+        "int"
+      ]
+    },
+    "lt_dlpreload_open": {
+      "start_point": [
+        339,
+        0
+      ],
+      "end_point": [
+        386,
+        1
+      ],
+      "content": "int\nlt_dlpreload_open (const char *originator, lt_dlpreload_callback_func *func)\n{\n  symlist_chain *list;\n  int\t\t errors = 0;\n  int\t\t found  = 0;\n\n  /* For each symlist in the chain...  */\n  for (list = preloaded_symlists; list; list = list->next)\n    {\n      /* ...that was preloaded by the requesting ORIGINATOR... */\n      if ((originator && STREQ (list->symlist->name, originator))\n          || (!originator && STREQ (list->symlist->name, \"@PROGRAM@\")))\n\t{\n\t  const lt_dlsymlist *symbol;\n\t  unsigned int idx = 0;\n\n\t  ++found;\n\n\t  /* ...load the symbols per source compilation unit:\n\t     (we preincrement the index to skip over the originator entry)  */\n\t  while ((symbol = &list->symlist[++idx])->name != 0)\n\t    {\n\t      if ((symbol->address == 0)\n\t\t  && (STRNEQ (symbol->name, \"@PROGRAM@\")))\n\t\t{\n\t\t  lt_dlhandle handle = lt_dlopen (symbol->name);\n\t\t  if (handle == 0)\n\t\t    {\n\t\t      ++errors;\n\t\t    }\n\t\t  else\n\t\t    {\n\t\t      errors += (*func) (handle);\n\t\t    }\n\t\t}\n\t    }\n\t}\n    }\n\n  if (!found)\n    {\n      LT__SETERROR(CANNOT_OPEN);\n      ++errors;\n    }\n\n  return errors;\n}",
+      "lines": 48,
+      "depth": 18,
+      "decorators": [
+        "int"
+      ]
+    }
+  },
+  "libtool/libtool-2.4.6/libltdl/loaders/shl_load.c": {
+    "get_vtable": {
+      "start_point": [
+        59,
+        0
+      ],
+      "end_point": [
+        85,
+        1
+      ],
+      "content": "lt_dlvtable *\nget_vtable (lt_user_data loader_data)\n{\n  if (!vtable)\n    {\n      vtable = lt__zalloc (sizeof *vtable);\n    }\n\n  if (vtable && !vtable->name)\n    {\n      vtable->name\t\t= \"lt_shl_load\";\n      vtable->module_open\t= vm_open;\n      vtable->module_close\t= vm_close;\n      vtable->find_sym\t\t= vm_sym;\n      vtable->dlloader_exit\t= vl_exit;\n      vtable->dlloader_data\t= loader_data;\n      vtable->priority\t\t= LT_DLLOADER_APPEND;\n    }\n\n  if (vtable && (vtable->dlloader_data != loader_data))\n    {\n      LT__SETERROR (INIT_LOADER);\n      return 0;\n    }\n\n  return vtable;\n}",
+      "lines": 27,
+      "depth": 11,
+      "decorators": [
+        "lt_dlvtable",
+        "*\nget_vtable (lt_user_data loader_data)",
+        "*"
+      ]
+    },
+    "vl_exit": {
+      "start_point": [
+        139,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "content": "static int\nvl_exit (lt_user_data loader_data LT__UNUSED)\n{\n  vtable = NULL;\n  return 0;\n}",
+      "lines": 6,
+      "depth": 5,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_open": {
+      "start_point": [
+        149,
+        0
+      ],
+      "end_point": [
+        181,
+        1
+      ],
+      "content": "static lt_module\nvm_open (lt_user_data loader_data LT__UNUSED, const char *filename,\n         lt_dladvise advise LT__UNUSED)\n{\n  static shl_t self = (shl_t) 0;\n  lt_module module = shl_load (filename, LT_BIND_FLAGS, 0L);\n\n  /* Since searching for a symbol against a NULL module handle will also\n     look in everything else that was already loaded and exported with\n     the -E compiler flag, we always cache a handle saved before any\n     modules are loaded.  */\n  if (!self)\n    {\n      void *address;\n      shl_findsym (&self, \"main\", TYPE_UNDEFINED, &address);\n    }\n\n  if (!filename)\n    {\n      module = self;\n    }\n  else\n    {\n      module = shl_load (filename, LT_BIND_FLAGS, 0L);\n\n      if (!module)\n\t{\n\t  LT__SETERROR (CANNOT_OPEN);\n\t}\n    }\n\n  return module;\n}",
+      "lines": 33,
+      "depth": 10,
+      "decorators": [
+        "static",
+        "static",
+        "lt_module"
+      ]
+    },
+    "vm_close": {
+      "start_point": [
+        185,
+        0
+      ],
+      "end_point": [
+        197,
+        1
+      ],
+      "content": "static int\nvm_close (lt_user_data loader_data LT__UNUSED, lt_module module)\n{\n  int errors = 0;\n\n  if (module && (shl_unload ((shl_t) (module)) != 0))\n    {\n      LT__SETERROR (CANNOT_CLOSE);\n      ++errors;\n    }\n\n  return errors;\n}",
+      "lines": 13,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "int"
+      ]
+    },
+    "vm_sym": {
+      "start_point": [
+        202,
+        0
+      ],
+      "end_point": [
+        221,
+        1
+      ],
+      "content": "static void *\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)\n{\n  void *address = 0;\n\n  /* sys_shl_open should never return a NULL module handle */\n  if (module == (lt_module) 0)\n  {\n    LT__SETERROR (INVALID_HANDLE);\n  }\n  else if (!shl_findsym((shl_t*) &module, name, TYPE_UNDEFINED, &address))\n    {\n      if (!address)\n\t{\n\t  LT__SETERROR (SYMBOL_NOT_FOUND);\n\t}\n    }\n\n  return address;\n}",
+      "lines": 20,
+      "depth": 12,
+      "decorators": [
+        "static",
+        "static",
+        "void",
+        "*\nvm_sym (lt_user_data loader_data LT__UNUSED, lt_module module, const char *name)",
+        "*"
+      ]
+    }
+  }
+}

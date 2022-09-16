@@ -1,0 +1,410 @@
+{
+  "macchanger/macchanger-1.6.0/src/mac.c": {
+    "mc_mac_dup": {
+      "start_point": [
+        33,
+        0
+      ],
+      "end_point": [
+        41,
+        1
+      ],
+      "strings": []
+    },
+    "mc_mac_free": {
+      "start_point": [
+        44,
+        0
+      ],
+      "end_point": [
+        48,
+        1
+      ],
+      "strings": []
+    },
+    "mc_mac_into_string": {
+      "start_point": [
+        51,
+        0
+      ],
+      "end_point": [
+        59,
+        1
+      ],
+      "strings": [
+        "\"%02x%s\"",
+        "\":\"",
+        "\"\""
+      ]
+    },
+    "mc_mac_random": {
+      "start_point": [
+        62,
+        0
+      ],
+      "end_point": [
+        91,
+        1
+      ],
+      "strings": []
+    },
+    "mc_mac_equal": {
+      "start_point": [
+        94,
+        0
+      ],
+      "end_point": [
+        105,
+        1
+      ],
+      "strings": []
+    },
+    "mc_mac_next": {
+      "start_point": [
+        108,
+        0
+      ],
+      "end_point": [
+        118,
+        1
+      ],
+      "strings": []
+    },
+    "mc_mac_read_string": {
+      "start_point": [
+        121,
+        0
+      ],
+      "end_point": [
+        145,
+        1
+      ],
+      "strings": [
+        "\"[ERROR] Incorrect format: MAC length should be 17. %s(%lu)\\n\"",
+        "\"[ERROR] Incorrect format: %s\\n\""
+      ]
+    }
+  },
+  "macchanger/macchanger-1.6.0/src/mac.h": {},
+  "macchanger/macchanger-1.6.0/src/maclist.c": {
+    "mc_maclist_get_cardname_from_list": {
+      "start_point": [
+        35,
+        0
+      ],
+      "end_point": [
+        51,
+        1
+      ],
+      "strings": []
+    },
+    "mc_maclist_get_cardname": {
+      "start_point": [
+        54,
+        0
+      ],
+      "end_point": [
+        66,
+        1
+      ],
+      "strings": []
+    },
+    "mc_maclist_get_cardname_with_default": {
+      "start_point": [
+        69,
+        0
+      ],
+      "end_point": [
+        75,
+        1
+      ],
+      "strings": []
+    },
+    "mc_maclist_set_random_vendor_from_list": {
+      "start_point": [
+        77,
+        0
+      ],
+      "end_point": [
+        92,
+        1
+      ],
+      "strings": []
+    },
+    "mc_maclist_set_random_vendor": {
+      "start_point": [
+        95,
+        0
+      ],
+      "end_point": [
+        121,
+        1
+      ],
+      "strings": []
+    },
+    "mc_maclist_is_wireless": {
+      "start_point": [
+        124,
+        0
+      ],
+      "end_point": [
+        128,
+        1
+      ],
+      "strings": []
+    },
+    "mc_maclist_print_from_list": {
+      "start_point": [
+        131,
+        0
+      ],
+      "end_point": [
+        144,
+        1
+      ],
+      "strings": [
+        "\"%04i - %02x:%02x:%02x - %s\\n\""
+      ]
+    },
+    "mc_maclist_print": {
+      "start_point": [
+        147,
+        0
+      ],
+      "end_point": [
+        160,
+        1
+      ],
+      "strings": [
+        "\"Misc MACs:\\n\"",
+        "\"Num    MAC        Vendor\\n\"",
+        "\"---    ---        ------\\n\"",
+        "\"\\n\"",
+        "\"Wireless MACs:\\n\"",
+        "\"Num    MAC        Vendor\\n\"",
+        "\"---    ---        ------\\n\""
+      ]
+    },
+    "mc_maclist_read_from_file": {
+      "start_point": [
+        163,
+        0
+      ],
+      "end_point": [
+        204,
+        1
+      ],
+      "strings": [
+        "\"r\"",
+        "\"[ERROR] Could not read data file: %s\\n\""
+      ]
+    },
+    "mc_maclist_init": {
+      "start_point": [
+        207,
+        0
+      ],
+      "end_point": [
+        214,
+        1
+      ],
+      "strings": [
+        "\"/OUI.list\"",
+        "\"/wireless.list\""
+      ]
+    },
+    "free_list": {
+      "start_point": [
+        217,
+        0
+      ],
+      "end_point": [
+        226,
+        1
+      ],
+      "strings": []
+    },
+    "mc_maclist_free": {
+      "start_point": [
+        229,
+        0
+      ],
+      "end_point": [
+        234,
+        1
+      ],
+      "strings": []
+    }
+  },
+  "macchanger/macchanger-1.6.0/src/maclist.h": {},
+  "macchanger/macchanger-1.6.0/src/main.c": {
+    "print_help": {
+      "start_point": [
+        45,
+        0
+      ],
+      "end_point": [
+        62,
+        1
+      ],
+      "strings": [
+        "\"GNU MAC Changer\\n\"",
+        "\"Usage: macchanger [options] device\\n\\n\"",
+        "\"  -h,  --help                   Print this help\\n\"",
+        "\"  -V,  --version                Print version and exit\\n\"",
+        "\"  -s,  --show                   Print the MAC address and exit\\n\"",
+        "\"  -e,  --endding                Don't change the vendor bytes\\n\"",
+        "\"  -a,  --another                Set random vendor MAC of the same kind\\n\"",
+        "\"  -A                            Set random vendor MAC of any kind\\n\"",
+        "\"  -p,  --permanent              Reset to original, permanent hardware MAC\\n\"",
+        "\"  -r,  --random                 Set fully random MAC\\n\"",
+        "\"  -l,  --list[=keyword]         Print known vendors\\n\"",
+        "\"  -b,  --bia                    Pretend to be a burned-in-address\\n\"",
+        "\"  -m,  --mac=XX:XX:XX:XX:XX:XX  Set the MAC XX:XX:XX:XX:XX:XX\\n\\n\"",
+        "\"Report bugs to https://github.com/alobbs/macchanger/issues\\n\""
+      ]
+    },
+    "print_usage": {
+      "start_point": [
+        65,
+        0
+      ],
+      "end_point": [
+        71,
+        1
+      ],
+      "strings": [
+        "\"GNU MAC Changer\\n\"",
+        "\"Usage: macchanger [options] device\\n\\n\"",
+        "\"Try `macchanger --help' for more options.\\n\""
+      ]
+    },
+    "print_mac": {
+      "start_point": [
+        74,
+        0
+      ],
+      "end_point": [
+        86,
+        1
+      ],
+      "strings": [
+        "\"%s%s%s (%s)\\n\"",
+        "\" [wireless]\"",
+        "\"\""
+      ]
+    },
+    "random_seed": {
+      "start_point": [
+        89,
+        0
+      ],
+      "end_point": [
+        107,
+        1
+      ],
+      "strings": [
+        "\"/dev/urandom\"",
+        "\"/dev/random\""
+      ]
+    },
+    "main": {
+      "start_point": [
+        110,
+        0
+      ],
+      "end_point": [
+        279,
+        1
+      ],
+      "strings": [
+        "\"help\"",
+        "\"version\"",
+        "\"random\"",
+        "\"endding\"",
+        "\"another\"",
+        "\"permanent\"",
+        "\"show\"",
+        "\"another_any\"",
+        "\"bia\"",
+        "\"list\"",
+        "\"mac\"",
+        "\"VasAbrephlm:\"",
+        "\"GNU MAC changer %s\\n\"",
+        "\"Written by Alvaro Lopez Ortega <alvaro@gnu.org>\\n\\n\"",
+        "\"Copyright (C) 2003,2013 Alvaro Lopez Ortega <alvaro@gnu.org>.\\n\"",
+        "\"This is free software; see the source for copying conditions.  There is NO\\n\"",
+        "\"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\\n\"",
+        "\"Current MAC:   \"",
+        "\"Permanent MAC: \"",
+        "\"New MAC:       \"",
+        "\"It's the same MAC!!\\n\""
+      ]
+    }
+  },
+  "macchanger/macchanger-1.6.0/src/netinfo.c": {
+    "mc_net_info_new": {
+      "start_point": [
+        37,
+        0
+      ],
+      "end_point": [
+        57,
+        1
+      ],
+      "strings": [
+        "\"[ERROR] Socket\"",
+        "\"[ERROR] Set device name\""
+      ]
+    },
+    "mc_net_info_free": {
+      "start_point": [
+        60,
+        0
+      ],
+      "end_point": [
+        65,
+        1
+      ],
+      "strings": []
+    },
+    "mc_net_info_get_mac": {
+      "start_point": [
+        68,
+        0
+      ],
+      "end_point": [
+        79,
+        1
+      ],
+      "strings": []
+    },
+    "mc_net_info_set_mac": {
+      "start_point": [
+        82,
+        0
+      ],
+      "end_point": [
+        97,
+        1
+      ],
+      "strings": [
+        "\"[ERROR] Could not change MAC: interface up or insufficient permissions\""
+      ]
+    },
+    "mc_net_info_get_permanent_mac": {
+      "start_point": [
+        99,
+        0
+      ],
+      "end_point": [
+        126,
+        1
+      ],
+      "strings": [
+        "\"[ERROR] Could not read permanent MAC\""
+      ]
+    }
+  },
+  "macchanger/macchanger-1.6.0/src/netinfo.h": {}
+}

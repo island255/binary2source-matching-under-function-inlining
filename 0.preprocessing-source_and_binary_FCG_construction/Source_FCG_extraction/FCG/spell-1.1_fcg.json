@@ -1,0 +1,1237 @@
+{
+  "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c": [
+    {
+      "main": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "156",
+        "total_line": "125",
+        "end_line": "281",
+        "call": [
+          {
+            "file": null,
+            "entity": "getopt_long",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 170,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "xstrdup",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 189,
+            "column": 25
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 191,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "xstrdup",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 198,
+            "column": 26
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 200,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 225,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 226,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "puts",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 231,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 237,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 242,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "puts",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 243,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 261,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "new_pipe",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 267,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fork",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 269,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 272,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "parent",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 274,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "run_ispell_in_child",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 276,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 278,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "read_file": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "288",
+        "total_line": "64",
+        "end_line": "352",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Function Static",
+            "line_number": 291,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "getline",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 298,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "feof",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 301,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 302,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 305,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "xrealloc",
+            "type": "void *",
+            "kind": "C Function Static",
+            "line_number": 311,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 320,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "write",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 328,
+            "column": 11
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 330,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "write",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 334,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 336,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "fsync",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 340,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "read_ispell_errors",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 342,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "read_ispell",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 343,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "read_ispell_errors",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 344,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "fclose",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 347,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 348,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 349,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "read_ispell": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "361",
+        "total_line": "58",
+        "end_line": "419",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Function Static",
+            "line_number": 364,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "getline",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 370,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "feof",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 372,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 373,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 375,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 381,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 397,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "putchar",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 399,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 402,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "putchar",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 405,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "putchar",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 406,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 414,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 416,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "read_ispell_errors": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "427",
+        "total_line": "39",
+        "end_line": "466",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Function Static",
+            "line_number": 431,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "select",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 436,
+            "column": 9
+          },
+          {
+            "file": null,
+            "entity": "getline",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 439,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "feof",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 441,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 443,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 445,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "memcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 457,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 457,
+            "column": 40
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 458,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 459,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 461,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 463,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "new_pipe": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "470",
+        "total_line": "36",
+        "end_line": "506",
+        "call": [
+          {
+            "file": null,
+            "entity": "signal",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 476,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 477,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "signal",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 478,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 479,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "pipe",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 481,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 482,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "fdopen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 485,
+            "column": 19
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 487,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "pipe",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 489,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 490,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "pipe",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 494,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 495,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "fdopen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 498,
+            "column": 20
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 500,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "FD_ZERO",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 502,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "FD_SET",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 503,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "sig_pipe": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "509",
+        "total_line": "5",
+        "end_line": "514",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 511,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "sig_chld": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "517",
+        "total_line": "5",
+        "end_line": "522",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 519,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "parent": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "529",
+        "total_line": "93",
+        "end_line": "622",
+        "call": [
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 538,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 539,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 540,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "read_ispell_errors",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 542,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Function Static",
+            "line_number": 550,
+            "column": 17
+          },
+          {
+            "file": null,
+            "entity": "getline",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 556,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "feof",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 558,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 559,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 561,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "isdigit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 565,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "printf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 570,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 571,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "free",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 573,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "read_file",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 577,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "stat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 594,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 596,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "S_ISDIR",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 600,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 602,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "fopen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 607,
+            "column": 19
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 610,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "read_file",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 616,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "run_ispell_in_child": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "627",
+        "total_line": "37",
+        "end_line": "664",
+        "call": [
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 630,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 631,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "close",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 632,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "dup2",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 635,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 636,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "dup2",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 639,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 640,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "dup2",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 643,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 644,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "execlp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 647,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "execlp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 649,
+            "column": 11
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 650,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "execlp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 653,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "execlp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 655,
+            "column": 11
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 656,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "execlp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 658,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "execlp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 660,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 661,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "strerror": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "669",
+        "total_line": "10",
+        "end_line": "679",
+        "call": []
+      }
+    },
+    {
+      "error": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "687",
+        "total_line": "19",
+        "end_line": "706",
+        "call": [
+          {
+            "file": null,
+            "entity": "fflush",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 691,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 692,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "va_start",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 694,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "vfprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 695,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "va_end",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 696,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 699,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "strerror",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 699,
+            "column": 29
+          },
+          {
+            "file": null,
+            "entity": "putc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 700,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fflush",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 701,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "exit",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 703,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "xmalloc": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "710",
+        "total_line": "9",
+        "end_line": "719",
+        "call": [
+          {
+            "file": null,
+            "entity": "malloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 712,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 715,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "xrealloc": {
+        "kind": "C Function Static",
+        "type": "void *",
+        "begin_line": "724",
+        "total_line": "10",
+        "end_line": "734",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Function Static",
+            "line_number": 727,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "realloc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 728,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 730,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "xstrdup": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "735",
+        "total_line": "8",
+        "end_line": "743",
+        "call": [
+          {
+            "file": null,
+            "entity": "strdup",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 737,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\spell\\spell-1.1\\spell.c",
+            "entity": "error",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 739,
+            "column": 4
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2556 @@
+{
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\shell.c": [
+    {
+      "get_env_value": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "53",
+        "total_line": "6",
+        "end_line": "59",
+        "call": [
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 56,
+            "column": 18
+          }
+        ]
+      }
+    },
+    {
+      "get_home_dir": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "60",
+        "total_line": "12",
+        "end_line": "72",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\shell.c",
+            "entity": "getpwuid",
+            "type": "struct passwd *",
+            "kind": "C Unresolved Function",
+            "line_number": 66,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "getuid",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 66,
+            "column": 20
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt1.c": [
+    {
+      "getopt_long": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "68",
+        "total_line": "10",
+        "end_line": "78",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "_getopt_internal",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 75,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "getopt_long_only": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "84",
+        "total_line": "10",
+        "end_line": "94",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "_getopt_internal",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 91,
+            "column": 9
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c": [
+    {
+      "my_index": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "215",
+        "total_line": "13",
+        "end_line": "228",
+        "call": []
+      }
+    },
+    {
+      "exchange": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "309",
+        "total_line": "79",
+        "end_line": "388",
+        "call": []
+      }
+    },
+    {
+      "_getopt_initialize": {
+        "kind": "C Function Static",
+        "type": "const char *",
+        "begin_line": "394",
+        "total_line": "68",
+        "end_line": "462",
+        "call": [
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 407,
+            "column": 20
+          }
+        ]
+      }
+    },
+    {
+      "_getopt_internal": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "519",
+        "total_line": "453",
+        "end_line": "972",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "_getopt_initialize",
+            "type": "const char *",
+            "kind": "C Function Static",
+            "line_number": 533,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "exchange",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 566,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 583,
+            "column": 29
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "exchange",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 588,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "my_index",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 643,
+            "column": 48
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 659,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 662,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 684,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 686,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 707,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 712,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 716,
+            "column": 30
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 729,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 732,
+            "column": 30
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 737,
+            "column": 22
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "my_index",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 753,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 759,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 763,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "my_index",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 777,
+            "column": 17
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 789,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 792,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 822,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 846,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 848,
+            "column": 57
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 869,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 871,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 887,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 891,
+            "column": 32
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 902,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 905,
+            "column": 32
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 909,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 951,
+            "column": 20
+          }
+        ]
+      }
+    },
+    {
+      "getopt": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "973",
+        "total_line": "11",
+        "end_line": "984",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt.c",
+            "entity": "_getopt_internal",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 978,
+            "column": 9
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c": [
+    {
+      "print_usage": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "28",
+        "total_line": "24",
+        "end_line": "52",
+        "call": [
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 30,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 31,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 32,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 33,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 34,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 35,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 36,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 37,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 38,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 39,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 40,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 41,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 42,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 43,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 44,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 45,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 46,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 47,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 48,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 49,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 50,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "print_version": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "53",
+        "total_line": "7",
+        "end_line": "60",
+        "call": [
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 55,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 56,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 57,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 58,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "print_fail": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "61",
+        "total_line": "4",
+        "end_line": "65",
+        "call": [
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 63,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "find_command_in_path": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "77",
+        "total_line": "87",
+        "end_line": "164",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 82,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "absolute_program",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 84,
+            "column": 7
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 92,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 96,
+            "column": 25
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 97,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 98,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 102,
+            "column": 25
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 103,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "rindex",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 107,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 118,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 118,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 118,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 119,
+            "column": 20
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "get_next_path_element",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 122,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c",
+            "entity": "tilde_expand",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 129,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 130,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 135,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 142,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "make_full_pathname",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 148,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 149,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "file_status",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 151,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 159,
+            "column": 4
+          }
+        ]
+      }
+    },
+    {
+      "get_current_working_directory": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "168",
+        "total_line": "26",
+        "end_line": "194",
+        "call": [
+          {
+            "file": null,
+            "entity": "getcwd",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 173,
+            "column": 7
+          },
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 175,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 176,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 177,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 182,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "exit",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 183,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 186,
+            "column": 11
+          }
+        ]
+      }
+    },
+    {
+      "path_clean_up": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "195",
+        "total_line": "51",
+        "end_line": "246",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "get_current_working_directory",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 206,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 207,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 229,
+            "column": 10
+          }
+        ]
+      }
+    },
+    {
+      "func_search": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "262",
+        "total_line": "25",
+        "end_line": "287",
+        "call": [
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 267,
+            "column": 9
+          },
+          {
+            "file": null,
+            "entity": "fputc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 271,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 273,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 275,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "fputc",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 279,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "fputs",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 280,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "path_search": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "288",
+        "total_line": "50",
+        "end_line": "338",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "find_command_in_path",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 300,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "path_clean_up",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 303,
+            "column": 32
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 304,
+            "column": 53
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 306,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 307,
+            "column": 83
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 310,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 317,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 323,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 326,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 327,
+            "column": 8
+          }
+        ]
+      }
+    },
+    {
+      "process_alias": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "339",
+        "total_line": "69",
+        "end_line": "408",
+        "call": [
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 346,
+            "column": 7
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 358,
+            "column": 25
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 358,
+            "column": 42
+          },
+          {
+            "file": null,
+            "entity": "fputs",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 361,
+            "column": 4
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 385,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "strncpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 386,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 388,
+            "column": 20
+          },
+          {
+            "file": null,
+            "entity": "index",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 390,
+            "column": 29
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "func_search",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 391,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "path_search",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 393,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 394,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "main": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "429",
+        "total_line": "247",
+        "end_line": "676",
+        "call": [
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 431,
+            "column": 26
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\getopt1.c",
+            "entity": "getopt_long",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 451,
+            "column": 25
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "print_usage",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 459,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "print_version",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 462,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "geteuid",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 477,
+            "column": 39
+          },
+          {
+            "file": null,
+            "entity": "isatty",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 480,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "print_version",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 498,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "uidget",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 503,
+            "column": 2
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "get_current_working_directory",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 506,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 512,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "sh_get_home_dir",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 513,
+            "column": 10
+          },
+          {
+            "file": null,
+            "entity": "strncpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 515,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 517,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "strcat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 520,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "print_usage",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 536,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "isatty",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 546,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "fprintf",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 548,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "fgets",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 552,
+            "column": 11
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 569,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "isspace",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 570,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 575,
+            "column": 40
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 593,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xrealloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 598,
+            "column": 29
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 600,
+            "column": 33
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 600,
+            "column": 48
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 600,
+            "column": 56
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xrealloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 625,
+            "column": 44
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 628,
+            "column": 33
+          },
+          {
+            "file": null,
+            "entity": "strncpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 629,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 633,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "fgets",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 635,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 637,
+            "column": 24
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 638,
+            "column": 52
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 638,
+            "column": 67
+          },
+          {
+            "file": null,
+            "entity": "strcmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 639,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xrealloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 644,
+            "column": 39
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "process_alias",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 653,
+            "column": 8
+          },
+          {
+            "file": null,
+            "entity": "index",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 664,
+            "column": 27
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "func_search",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 665,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "path_search",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 667,
+            "column": 43
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\which.c",
+            "entity": "print_fail",
+            "type": "void",
+            "kind": "C Function Static",
+            "line_number": 669,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "rindex",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 669,
+            "column": 39
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\sys.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\posixstat.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c": [
+    {
+      "tilde_find_prefix": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "128",
+        "total_line": "32",
+        "end_line": "160",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 137,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 149,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 149,
+            "column": 52
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 151,
+            "column": 25
+          }
+        ]
+      }
+    },
+    {
+      "tilde_find_suffix": {
+        "kind": "C Function Static",
+        "type": "int",
+        "begin_line": "163",
+        "total_line": "27",
+        "end_line": "190",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 170,
+            "column": 15
+          },
+          {
+            "file": null,
+            "entity": "strncmp",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 183,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 183,
+            "column": 48
+          }
+        ]
+      }
+    },
+    {
+      "tilde_expand": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "192",
+        "total_line": "70",
+        "end_line": "262",
+        "call": [
+          {
+            "file": null,
+            "entity": "strchr",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 199,
+            "column": 15
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 200,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 200,
+            "column": 45
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 202,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 202,
+            "column": 45
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c",
+            "entity": "tilde_find_prefix",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 212,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xrealloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 216,
+            "column": 25
+          },
+          {
+            "file": null,
+            "entity": "strncpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 218,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c",
+            "entity": "tilde_find_suffix",
+            "type": "int",
+            "kind": "C Function Static",
+            "line_number": 226,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 233,
+            "column": 27
+          },
+          {
+            "file": null,
+            "entity": "strncpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 234,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c",
+            "entity": "tilde_expand_word",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 238,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 239,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 241,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xrealloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 249,
+            "column": 29
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 251,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 254,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "isolate_tilde_prefix": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "266",
+        "total_line": "20",
+        "end_line": "286",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 273,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 273,
+            "column": 25
+          }
+        ]
+      }
+    },
+    {
+      "glue_prefix_and_suffix": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "322",
+        "total_line": "17",
+        "end_line": "339",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 330,
+            "column": 31
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 331,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 332,
+            "column": 16
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 334,
+            "column": 4
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 335,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "tilde_expand_word": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "343",
+        "total_line": "81",
+        "end_line": "424",
+        "call": [
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 354,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 354,
+            "column": 12
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 354,
+            "column": 12
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "sh_get_env_value",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 362,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "sh_get_home_dir",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 367,
+            "column": 20
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c",
+            "entity": "glue_prefix_and_suffix",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 369,
+            "column": 14
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c",
+            "entity": "isolate_tilde_prefix",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 372,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c",
+            "entity": "glue_prefix_and_suffix",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 379,
+            "column": 20
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 380,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 381,
+            "column": 10
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\tilde.c",
+            "entity": "glue_prefix_and_suffix",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 403,
+            "column": 24
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 404,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 410,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 410,
+            "column": 18
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 410,
+            "column": 18
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 417,
+            "column": 2
+          }
+        ]
+      }
+    }
+  ],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\bashansi.h": [],
+  "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c": [
+    {
+      "uidget": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "82",
+        "total_line": "22",
+        "end_line": "104",
+        "call": [
+          {
+            "file": null,
+            "entity": "getuid",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 86,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 89,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 90,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 91,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "getgid",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 95,
+            "column": 21
+          },
+          {
+            "file": null,
+            "entity": "geteuid",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 96,
+            "column": 22
+          },
+          {
+            "file": null,
+            "entity": "getegid",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 97,
+            "column": 22
+          }
+        ]
+      }
+    },
+    {
+      "getmaxgroups": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "121",
+        "total_line": "27",
+        "end_line": "148",
+        "call": []
+      }
+    },
+    {
+      "initialize_group_array": {
+        "kind": "C Function Static",
+        "type": "void",
+        "begin_line": "150",
+        "total_line": "51",
+        "end_line": "201",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "getmaxgroups",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 155,
+            "column": 16
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xrealloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 158,
+            "column": 31
+          }
+        ]
+      }
+    },
+    {
+      "group_member": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "205",
+        "total_line": "32",
+        "end_line": "237",
+        "call": []
+      }
+    },
+    {
+      "file_status": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "242",
+        "total_line": "84",
+        "end_line": "326",
+        "call": [
+          {
+            "file": null,
+            "entity": "stat",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 248,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "S_ISDIR",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 253,
+            "column": 6
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "group_member",
+            "type": "int",
+            "kind": "C Function",
+            "line_number": 305,
+            "column": 11
+          }
+        ]
+      }
+    },
+    {
+      "absolute_program": {
+        "kind": "C Function",
+        "type": "int",
+        "begin_line": "331",
+        "total_line": "5",
+        "end_line": "336",
+        "call": [
+          {
+            "file": null,
+            "entity": "index",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 333,
+            "column": 18
+          }
+        ]
+      }
+    },
+    {
+      "substring": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "340",
+        "total_line": "12",
+        "end_line": "352",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 346,
+            "column": 19
+          },
+          {
+            "file": null,
+            "entity": "bcopy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 347,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "extract_colon_unit": {
+        "kind": "C Function Static",
+        "type": "char *",
+        "begin_line": "357",
+        "total_line": "41",
+        "end_line": "398",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 365,
+            "column": 8
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 389,
+            "column": 22
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "substring",
+            "type": "char *",
+            "kind": "C Function",
+            "line_number": 393,
+            "column": 12
+          }
+        ]
+      }
+    },
+    {
+      "get_next_path_element": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "404",
+        "total_line": "18",
+        "end_line": "422",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "extract_colon_unit",
+            "type": "char *",
+            "kind": "C Function Static",
+            "line_number": 408,
+            "column": 9
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\ansi_stdlib.h",
+            "entity": "free",
+            "type": "void",
+            "kind": "C Unresolved Function",
+            "line_number": 415,
+            "column": 6
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 416,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 416,
+            "column": 13
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 416,
+            "column": 13
+          }
+        ]
+      }
+    },
+    {
+      "make_full_pathname": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "426",
+        "total_line": "13",
+        "end_line": "439",
+        "call": [
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 431,
+            "column": 13
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 432,
+            "column": 23
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 433,
+            "column": 2
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 435,
+            "column": 2
+          }
+        ]
+      }
+    },
+    {
+      "get_current_user_info": {
+        "kind": "C Function",
+        "type": "void",
+        "begin_line": "441",
+        "total_line": "31",
+        "end_line": "472",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\shell.c",
+            "entity": "getpwuid",
+            "type": "struct passwd *",
+            "kind": "C Unresolved Function",
+            "line_number": 451,
+            "column": 14
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 455,
+            "column": 35
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 455,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 455,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 457,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 457,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 457,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 458,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 458,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 458,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 459,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 459,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 459,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 464,
+            "column": 35
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 464,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 464,
+            "column": 35
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 465,
+            "column": 31
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 465,
+            "column": 31
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 465,
+            "column": 31
+          },
+          {
+            "file": null,
+            "entity": "strcpy",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 466,
+            "column": 34
+          },
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\tilde\\xmalloc.h",
+            "entity": "xmalloc",
+            "type": "void *",
+            "kind": "C Unresolved Function",
+            "line_number": 466,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "strlen",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 466,
+            "column": 34
+          },
+          {
+            "file": null,
+            "entity": "endpwent",
+            "type": null,
+            "kind": "C Unknown Function",
+            "line_number": 468,
+            "column": 6
+          }
+        ]
+      }
+    },
+    {
+      "sh_get_env_value": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "473",
+        "total_line": "4",
+        "end_line": "477",
+        "call": [
+          {
+            "file": null,
+            "entity": "getenv",
+            "type": "char *",
+            "kind": "C Unresolved Function",
+            "line_number": 475,
+            "column": 9
+          }
+        ]
+      }
+    },
+    {
+      "sh_get_home_dir": {
+        "kind": "C Function",
+        "type": "char *",
+        "begin_line": "478",
+        "total_line": "6",
+        "end_line": "484",
+        "call": [
+          {
+            "file": "D:\\tencent_works\\dataset_I\\src\\which\\which-2.21\\bash.c",
+            "entity": "get_current_user_info",
+            "type": "void",
+            "kind": "C Function",
+            "line_number": 481,
+            "column": 4
+          }
+        ]
+      }
+    }
+  ]
+}
