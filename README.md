@@ -21,3 +21,5 @@ This is the architecture of this repository.
 | environment.yaml | | pacakges needed to be installed in Windows|
 
 When running the code in this repository, path must be setted to their real paths.
+
+Folder test_dataset only presents part of the dataset. The full dataset can be downloaded at https://zenodo.org/record/6675280
