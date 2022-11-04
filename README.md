@@ -1,6 +1,6 @@
 # TOSEM-binary2source-matching-under-function-inlining
 
-This is the repository illustrate how we label the inlined call sites, train the classifier for ICS prediction and generate SFSs for binary2source matching.
+This is the repository illustrating how we label the inlined call sites, train the classifier for ICS prediction and generate SFSs for binary2source matching.
 
 This repository presents the code and dataset for our cross-project evaluation.
 
