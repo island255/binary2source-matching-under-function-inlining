@@ -10,7 +10,7 @@ This is the architecture of this repository.
 | :----  | :--- | :------- |
 | 0.preprocessing-source_and_binary_FCG_construction  |  Binary_FCG_extraction | scripts to extract binary FCGs|
 | | Source_FCG_extraction | scripts to extract source FCGs|
-| 1.inlining_ground_truth_labeling  |  inlining_ground_truth_labelining_per_call_site | labeling call sites with inline or normal labels |
+| 1.inlining_ground_truth_labeling  |  inlining_ground_truth_ labelining_per_call_site | labeling call sites with inline or normal labels |
 | 2.feature_extraction | features_per_function | extracted function contents using tree-sitter |
 | | function_feature_extraction | scripts to extract function contents |
 | | fuzzy_call_site_feature_extraction | scripts to extract call site feature |
