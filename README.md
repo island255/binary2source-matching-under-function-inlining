@@ -17,7 +17,7 @@ This is the architecture of this repository.
 | 3.classifier | | multi-label classifiers for ICS prediction |
 | 4.apply_classifier_to_test_projects | | using multi-label classifiers to generate SFSs | 
 | test_dataset | gnu_debug | the generated binaries | 
-| | mapping_results | function-level mapping results obtained using https://github.com/island255/TOSEM2022 |
+| | mapping_results | function-level mapping results obtained using function inlining identification tool in paper "1-to-1 or 1-to-n? Investigating the Effect of Function Inlining on Binary Similarity Analysis" |
 | environment.yaml | | packages needed to be installed in Windows|
 
 When running the code in this repository, paths must be set to their real paths.
