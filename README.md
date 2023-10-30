@@ -1,8 +1,10 @@
-# binary2source-matching-under-function-inlining
+ # binary2source-matching-under-function-inlining
 
 This is the repository illustrating how we label the inlined call sites, train the classifier for ICS prediction, and generate SFSs for binary2source matching.
 
 This repository presents the code and dataset for our cross-project evaluation.
+
+## Architecture
 
 This is the architecture of this repository.
 
@@ -23,6 +25,8 @@ This is the architecture of this repository.
 When running the code in this repository, paths must be set to their real paths.
 
 Folder test_dataset only presents part of the dataset. The full dataset can be downloaded at https://zenodo.org/record/6675280
+
+## Instructions
 
 If you want to replicate the work, please run the following instructions:
 
