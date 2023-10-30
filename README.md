@@ -8,7 +8,7 @@ This is the architecture of this repository.
 
 | dir | folder | function |
 | :----  | :--- | :------- |
-| 0.preprocessing-source_and_binary_FCG_construction  |  Binary_FCG_extraction | scripts to extract binary FCGs|
+| 0.preprocessing  |  Binary_FCG_extraction | scripts to extract binary FCGs|
 | | Source_FCG_extraction | scripts to extract source FCGs|
 | 1.inlining_ground_truth_labeling  |  inlining_ground_truth_ labeling_per_call_site | labeling call sites with inline or normal labels |
 | 2.feature_extraction | features_per_function | extracted function contents using tree-sitter |
@@ -28,9 +28,9 @@ If you want to replicate the work, please run the following instructions:
 
 ### Processing and Labeling
 
-1. run 0.preprocessing-source_and_binary_FCG_construction/Binary_FCG_extraction/IDA_fcg_extractor/run_IDA_on_all_binaries.py or 0.preprocessing-source_and_binary_FCG_construction/Binary_FCG_extraction/use_ghidra_extract_fcg/run_ghidra_on_all_binaries.py to extract FCG for binaries. Some paths in the above files should be changed to your destination. An example of extracted binary FCG can refer to test_dataset/gnu_debug/a2ps/a2ps-4.14_clang-7.0_x86_64_O0_a2ps.elf.fcg. It is stored in pickle format.
+1. run 0.preprocessing/Binary_FCG_extraction/IDA_fcg_extractor/run_IDA_on_all_binaries.py or 0.preprocessing/Binary_FCG_extraction/use_ghidra_extract_fcg/run_ghidra_on_all_binaries.py to extract FCG for binaries. Some paths in the above files should be changed to your destination. An example of extracted binary FCG can refer to test_dataset/gnu_debug/a2ps/a2ps-4.14_clang-7.0_x86_64_O0_a2ps.elf.fcg. It is stored in pickle format.
 
-2. run 0.preprocessing-source_and_binary_FCG_construction/Source_FCG_extraction/run_understand_to_extract_fcgs.py to extract FCG for source projects. Paths of Understand and source projects should also be changed. An example of source FCG can refer to 0.preprocessing-source_and_binary_FCG_construction/Source_FCG_extraction/FCG/a2ps-4.14_fcg.json.
+2. run 0.preprocessing/Source_FCG_extraction/run_understand_to_extract_fcgs.py to extract FCG for source projects. Paths of Understand and source projects should also be changed. An example of source FCG can refer to 0.preprocessing/Source_FCG_extraction/FCG/a2ps-4.14_fcg.json.
 
 3. run 1.inlining_ground_truth_labelining/inlining_ground_truth_labeling_per_call_site/call_sites_labeling/summarize_binary2source_function_mappings.py to summary the binary2source function-level mapping of the dataset. Before, running this script, please refer to https://github.com/island255/TOSEM2022 to construct the binary2source function-level mapping of the dataset.
 
