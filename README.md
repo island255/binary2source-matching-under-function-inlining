@@ -32,7 +32,7 @@ If you want to replicate the work, please run the following instructions:
 
 2. run 0.preprocessing/Source_FCG_extraction/run_understand_to_extract_fcgs.py to extract FCG for source projects. Paths of Understand and source projects should also be changed. An example of source FCG can refer to 0.preprocessing/Source_FCG_extraction/FCG/a2ps-4.14_fcg.json.
 
-3. run 1.inlining_ground_truth_labelining/inlining_ground_truth_labeling_per_call_site/call_sites_labeling/summarize_binary2source_function_mappings.py to summary the binary2source function-level mapping of the dataset. Before, running this script, please refer to https://github.com/island255/TOSEM2022 to construct the binary2source function-level mapping of the dataset.
+3. run 1.inlining_ground_truth_labelining/inlining_ground_truth_labeling_per_call_site/call_sites_labeling/summarize_binary2source_function_mappings.py to summary the binary2source function-level mapping of the dataset. Before running this script, please refer to https://github.com/island255/TOSEM2022 to construct the binary2source function-level mapping of the dataset.
 
 4. run 1.inlining_ground_truth_labelining/inlining_ground_truth_labeling_per_call_site/call_sites_labeling/extract_mapped_call_site.py to identify the inlined call sites and the normal call sites.
 
