@@ -9,7 +9,7 @@ def read_binary_list(projectdir):
     binary_paths = []
     for root, dirs, files in os.walk(projectdir):
         for file_name in files:
-            if file_name.endswith(".elf") and ("gcc-8.2.0_x86_64" in file_name or "clang-7.0_x86_64" in file_name):
+            if file_name.endswith(".elf"):
                 file_path = os.path.join(root, file_name)
                 result_file_path = file_path + ".fcg"
                 # if os.path.exists(result_file_path):

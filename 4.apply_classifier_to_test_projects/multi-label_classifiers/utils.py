@@ -401,33 +401,6 @@ def get_tree_sitter_parser(tree_sitter_lib_path):
     return parser
 
 
-def select_call_sites_by_its_label(call_sites_labels):
-    call_sites_labels_per_project = {}
-    compiler_list = ["gcc-8.2.0", "clang-7.0"]
-    opt_list = ["O0", "O1", "O2", "O3"]
-    record_not_complete_num = 0
-    for call_site_key in call_sites_labels:
-        project_name = call_site_key.split("/")[0]
-        compilers = list(call_sites_labels[call_site_key].keys())
-        call_site_compiler_opts = 0
-        for compiler in compilers:
-            record_opts = list(call_sites_labels[call_site_key][compiler].keys())
-            call_site_compiler_opts += len(list(call_sites_labels[call_site_key][compiler].keys()))
-        if call_site_compiler_opts != 8:
-            record_not_complete_num += 1
-            continue
-        if project_name not in call_sites_labels_per_project:
-            call_sites_labels_per_project[project_name] = {}
-        label_list = []
-        for compiler_key in compiler_list:
-            for opt_key in opt_list:
-                if call_sites_labels[call_site_key][compiler_key][opt_key] == "normal_call_sites":
-                    label_list.append(0)
-                else:
-                    label_list.append(1)
-        call_sites_labels_per_project[project_name][call_site_key] = label_list
-    print("{} call sites do not have all compilation labels".format(record_not_complete_num))
-    return call_sites_labels_per_project
 
 
 def convert_function_features_to_list(call_site_features_per_function, caller_callee_features_list, call_site_csv_list):
@@ -469,57 +442,6 @@ def add_call_site_features_to_list(call_site_csv_list, only_call_site_features, 
 
             call_site_csv_list.append(only_call_site_features[call_site_feature_key])
     return call_site_csv_list
-
-
-def convert_features_to_csv(call_sites_labels_per_project, call_site_to_features):
-    call_site_feature_and_labels = []
-    caller_callee_features_list = ["all_statement", "while", "switch", "switch_cases", "if", "for", "return", "declare",
-                                   "expression", "call_expression", "total_node", "total_edge", "function_in_degree",
-                                   "function_out_degree", "keywords_inline", "keywords_inline_macro", "keywords_static",
-                                   "keyword_macro"]
-    function_features_keys = ["caller", "callee"]
-    call_site_features_list = ["call_site_path_length", "in_for", "in_while", "in_switch", "in_if",
-                               "call_site_arguments", "call_site_constant_arguments"]
-    compiler_list = ["gcc-8.2.0", "clang-7.0"]
-    opt_list = ["O0", "O1", "O2", "O3"]
-    title = ["project_name"]
-    for call_item in function_features_keys:
-        for item in caller_callee_features_list:
-            title.append(call_item + "_" + item)
-    title += call_site_features_list
-    for compiler in compiler_list:
-        for opt in opt_list:
-            title.append(compiler + "-" + opt)
-    # title.append("label")
-    call_site_feature_and_labels.append(title)
-    call_site_without_features_num = 0
-    for project in call_sites_labels_per_project:
-        for call_site_key in call_sites_labels_per_project[project]:
-            if call_site_key in call_site_to_features[project]:
-                call_site_csv_list = []
-                call_site_csv_list.append(project)
-                call_site_features = call_site_to_features[project][call_site_key]
-                call_site_label = call_sites_labels_per_project[project][call_site_key]
-                for function_key in function_features_keys:
-                    call_site_features_per_function = call_site_features[function_key]
-                    call_site_csv_list = convert_function_features_to_list(call_site_features_per_function,
-                                                                           caller_callee_features_list,
-                                                                           call_site_csv_list)
-                only_call_site_features = call_site_features["call_site"]
-                call_site_csv_list = add_call_site_features_to_list(call_site_csv_list, only_call_site_features,
-                                                                    call_site_features_list)
-                # if call_site_label[-1] == 1:
-                #     call_site_csv_list.append("inline")
-                # else:
-                #     call_site_csv_list.append("normal")
-                # call_site_csv_list += [call_site_label[-1]]
-                call_site_csv_list += call_site_label
-                call_site_feature_and_labels.append(call_site_csv_list)
-            else:
-                call_site_without_features_num += 1
-                # print("call site {} do not have features".format(call_site_key))\
-    print("{} call sites do not have features".format(call_site_without_features_num))
-    return call_site_feature_and_labels
 
 
 def write_csv(call_site_csv_file, call_site_feature_and_labels):

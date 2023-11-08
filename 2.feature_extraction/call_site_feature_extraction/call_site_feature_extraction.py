@@ -360,25 +360,41 @@ def get_tree_sitter_parser(tree_sitter_lib_path):
 
 def select_call_sites_by_its_label(call_sites_labels):
     call_sites_labels_per_project = {}
-    compiler_list = ["gcc-8.2.0", "clang-7.0"]
-    opt_list = ["O0", "O1", "O2", "O3"]
     record_not_complete_num = 0
     for call_site_key in call_sites_labels:
         project_name = call_site_key.split("/")[0]
-        compilers = list(call_sites_labels[call_site_key].keys())
-        call_site_compiler_opts = 0
-        for compiler in compilers:
-            record_opts = list(call_sites_labels[call_site_key][compiler].keys())
-            call_site_compiler_opts += len(list(call_sites_labels[call_site_key][compiler].keys()))
-        if call_site_compiler_opts != 8:
+
+        clang_labels = {}
+        call_site_clang_opt_num = 0
+        for clang_compiler in ["clang-7.0"]:
+            if clang_compiler not in call_sites_labels[call_site_key]:
+                continue
+            call_site_clang_opt_num = len(list(call_sites_labels[call_site_key][clang_compiler].keys()))
+            if call_site_clang_opt_num == 4:
+                clang_labels = call_sites_labels[call_site_key][clang_compiler]
+                break
+
+        call_site_gcc_opt_num = 0
+        gcc_labels = {}
+        for gcc_compiler in ["gcc-7.3.0"]:
+            if gcc_compiler not in call_sites_labels[call_site_key]:
+                continue
+            call_site_gcc_opt_num = len(list(call_sites_labels[call_site_key][gcc_compiler].keys()))
+            if call_site_gcc_opt_num == 4:
+                gcc_labels = call_sites_labels[call_site_key][gcc_compiler]
+                break
+
+        if call_site_clang_opt_num != 4 or call_site_gcc_opt_num != 4:
             record_not_complete_num += 1
             continue
+
         if project_name not in call_sites_labels_per_project:
             call_sites_labels_per_project[project_name] = {}
+
         label_list = []
-        for compiler_key in compiler_list:
+        for compiler_dict in [gcc_labels, clang_labels]:
             for opt_key in opt_list:
-                if call_sites_labels[call_site_key][compiler_key][opt_key] == "normal_call_sites":
+                if compiler_dict[opt_key] == "normal_call_sites":
                     label_list.append(0)
                 else:
                     label_list.append(1)
@@ -437,14 +453,12 @@ def convert_features_to_csv(call_sites_labels_per_project, call_site_to_features
     function_features_keys = ["caller", "callee"]
     call_site_features_list = ["call_site_path_length", "in_for", "in_while", "in_switch", "in_if",
                                "call_site_arguments", "call_site_constant_arguments"]
-    compiler_list = ["gcc-8.2.0", "clang-7.0"]
-    opt_list = ["O0", "O1", "O2", "O3"]
     title = ["project_name"]
     for call_item in function_features_keys:
         for item in caller_callee_features_list:
             title.append(call_item + "_" + item)
     title += call_site_features_list
-    for compiler in compiler_list:
+    for compiler in ["gcc", "clang"]:
         for opt in opt_list:
             title.append(compiler + "-" + opt)
     # title.append("label")
@@ -503,13 +517,9 @@ def split_dataset_by_projects(call_site_feature_and_labels, train_percent = 0.9)
 
 
 def main():
-    call_site_file_path = "D:\\tencent_works\\function_inlining_prediction\\designing_classifier_for_inlining\\" \
-                          "1.inlining_ground_truth_labeling\\inlining_ground_truth_labeling_per_call_site\\" \
-                          "call_sites_identification_through_inference\\normal_and_inlined_call_sites_by_infer.json"
-    source_fcgs_file = "D:\\tencent_works\\function_inlining_prediction\\designing_classifier_for_inlining\\" \
-                       "0.preprocessing-source_and_binary_FCG_construction\\Source_FCG_extraction\\source_fcgs.pkl"
-    function_contents_folder = "D:\\tencent_works\\function_inlining_prediction\\designing_classifier_for_inlining\\" \
-                               "2.feature_extraction\\features_per_function\\function_contents"
+    call_site_file_path = r"1.inlining_ground_truth_labelining\normal_and_inlined_call_sites_by_infer.json"
+    source_fcgs_file = r"0.preprocessing\Source_FCG_extraction\source_fcgs.pkl"
+    function_contents_folder = r"2.feature_extraction\features_per_function\function_contents"
 
     call_sites_info = read_json(call_site_file_path)
     source_fcgs = read_pickle(source_fcgs_file)
@@ -548,4 +558,8 @@ def main():
 
 
 if __name__ == '__main__':
+    clang_compiler_list = ["clang-4.0", "clang-5.0", "clang-6.0", "clang-7.0"]
+    gcc_compiler_list = ["gcc-4.9.4", "gcc-5.5.0", "gcc-6.4.0", "gcc-7.3.0"]
+    compiler_list = gcc_compiler_list + clang_compiler_list
+    opt_list = ["O0", "O1", "O2", "O3"]
     main()
