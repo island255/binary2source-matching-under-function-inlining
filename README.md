@@ -2,7 +2,9 @@
 
 This is the repository illustrating how we label the inlined call sites, train the classifier for ICS prediction, and generate SFSs for binary2source matching.
 
-The dataset can be downloaded at https://drive.google.com/drive/folders/17stdOVFJvlowaIKgKsUfQbUoog_tJHIW?usp=sharing
+## Dataset
+
+The dataset can download from https://drive.google.com/file/d/1K9ef-OoRBr0X5u8g2mlnYqh9o1i6zFij/view and https://drive.google.com/file/d/1wt7GY-DDp8J_2zeBBVUrcfWIyerg_xLO/view. It is constructed using Binkit (https://github.com/SoftSec-KAIST/BinKit).
 
 ## Instructions
 
@@ -14,7 +16,7 @@ If you want to replicate the work, please run the following instructions:
 
 2. run 0.preprocessing/Source_FCG_extraction/run_understand_to_extract_fcgs.py to extract FCG for source projects. Paths of Understand and source projects should also be changed. An example of source FCG can refer to 0.preprocessing/Source_FCG_extraction/FCG/a2ps-4.14_fcg.json.
 
-3. run 1.inlining_ground_truth_labelining/summarize_binary2source_function_mappings.py to summary the binary2source function-level mapping of the dataset. Before running this script, please refer to https://github.com/island255/TOSEM2022 to construct the binary2source function-level mapping of the dataset.
+3. run 1.inlining_ground_truth_labelining/summarize_binary2source_function_mappings.py to summarize the binary2source function-level mapping of the dataset. Before running this script, please refer to https://github.com/island255/TOSEM2022 to construct the binary2source function-level mapping of the dataset.
 
 4. run 1.inlining_ground_truth_labelining/extract_mapped_call_site.py to identify the inlined call sites and the normal call sites.
 
